@@ -1,1 +1,1 @@
-disable world stripper when you play the game
+disable world stripper mod when you play the game
