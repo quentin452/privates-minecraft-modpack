@@ -1,1 +1,1 @@
-ATTENTION : this is a private modpack
+ATTENTION : this is privates modpacks
