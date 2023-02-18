@@ -8,8 +8,8 @@ assignees: quentin452
 ---
 
 **Where can i reproduce the bug**
-seed :
-location :
+* seed :
+* location :
 
 **Describe the bug**
 A clear and concise description of what the bug is.
