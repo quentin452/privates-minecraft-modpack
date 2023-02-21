@@ -7,10 +7,10 @@ assignees: quentin452
 
 ---
 
-**GAME VERSION**
-
-* mod loader :
-* minecraft version : 
+**What version**
+* Forge :
+* Minecraft :
+* Modpack : 
 
 **Where can i reproduce the bug**
 * seed :
