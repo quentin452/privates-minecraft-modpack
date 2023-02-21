@@ -7,6 +7,11 @@ assignees: quentin452
 
 ---
 
+**GAME VERSION**
+
+* mod loader :
+* minecraft version : 
+
 **Where can i reproduce the bug**
 * seed :
 * location :
