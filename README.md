@@ -1,1 +1,3 @@
-ATTENTION : this is privates modpacks
+## ATTENTION : Ceci est un modpack privé.
+
+## ATTENTION : This is a private modpack.
