@@ -1,4 +1,4 @@
-**Here you can download my modpacks : **
+**Here you can download my modpacks :**
 
 | Name | Mods | Versions | Ram |
 | ---- | ------------- | ---------- | ---------- |
