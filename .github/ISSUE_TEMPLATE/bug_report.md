@@ -26,8 +26,8 @@ Steps to reproduce the behavior:
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Logs**
+Give the fml-client-latest.log or fml-server-latest.log or both
 
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
