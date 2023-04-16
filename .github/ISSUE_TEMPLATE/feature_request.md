@@ -1,4 +1,4 @@
-name: Crash
+name: Suggestion
 description: Feature requests for my modpacks
 title: "["TYPE WHAT MC VERSION" and remove the ""]: "
 labels: ["enhancement"]
