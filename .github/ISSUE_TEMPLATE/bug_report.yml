@@ -1,6 +1,6 @@
 name: Crash
 description: Report an issue with my modpacks
-title: "["TYPE WHAT MC VERSION" and remove the ""]: "
+title: "[TYPE THE MC VERSION]: "
 labels: ["bug"]
 assignees:
   - quentin452
