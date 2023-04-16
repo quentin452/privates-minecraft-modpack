@@ -1,6 +1,6 @@
 name: Crash
-description: Report an issue with my 1.7.10 modpacks
-title: "[1.7.10]: "
+description: Report an issue with my modpacks
+title: "["TYPE WHAT MC VERSION" and remove the ""]: "
 labels: ["bug"]
 assignees:
   - quentin452
