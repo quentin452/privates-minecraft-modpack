@@ -1,6 +1,6 @@
 name: Crash
-description: Feature requests for my 1.7.10 modpacks
-title: "[1.7.10]: "
+description: Feature requests for my modpacks
+title: "["TYPE WHAT MC VERSION" and remove the ""]: "
 labels: ["enhancement"]
 assignees:
   - quentin452
