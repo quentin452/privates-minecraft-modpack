@@ -1,6 +1,6 @@
 name: Crash
 description: Report an issue with my modpacks
-title: "[TYPE THE MC VERSION]: "
+title: "[TYPE THE MC VERSION]: " 
 labels: ["bug"]
 assignees:
   - quentin452

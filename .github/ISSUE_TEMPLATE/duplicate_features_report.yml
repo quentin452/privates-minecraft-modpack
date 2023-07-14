@@ -1,7 +1,7 @@
 name: Suggestion
 description: Duplicate features report for my modpacks
 title: "[TYPE THE MC VERSION]: "
-labels: ["duplicated features"]
+labels: ["duplicatedfeatures"]
 assignees:
   - quentin452
 body:
