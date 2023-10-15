@@ -1,7 +1,7 @@
-name: Bug Report
+name: Tps/Fps lags Report
 description: Report an issue with my modpacks
 title: "[TYPE THE MC VERSION]: " 
-labels: ["bug"]
+labels: ["performances_issues"]
 assignees:
   - quentin452
 body:
@@ -15,10 +15,10 @@ body:
       required: true
 # Essential
   - type: textarea
-    id: logs
+    id: sparkreport
     attributes:
-      label: Game log
-      description: Attach the fml-client-latest.log or fml-server-latest.log or both file here.
+      label: Spark Report
+      description: Make a profiler with spark with one of these commands /spark profiler or /sparkc profiler for your tps or fps issue, you can see more information into the wiki of spark.
     validations:
       required: true
 # Essential
@@ -26,6 +26,6 @@ body:
     id: description
     attributes:
       label: Description
-      description: Describe how and when you experience this bug.
+      description: Describe what tps or fps issue is happenning.
     validations:
       required: true
