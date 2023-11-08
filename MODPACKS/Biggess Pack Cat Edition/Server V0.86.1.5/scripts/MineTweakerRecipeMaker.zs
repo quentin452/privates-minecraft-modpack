@@ -36,12 +36,14 @@ recipes.remove(<minecraft:chainmail_leggings>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
+recipes.removeShapeless(<minecraft:stone>, [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
 recipes.removeShaped(<AgriCraft:cropsItem>, [[<ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>]]);
 recipes.removeShaped(<chisel:diamondChisel>, [[null, <ore:gemDiamond>, null], [<minecraft:stick>, null, <minecraft:stick>]]);
 recipes.removeShaped(<RitualEnchanting:RitualEnchantmentTable>, [[null, <minecraft:book>, null], [<ore:gemDiamond>, <ore:obsidian>, <ore:gemDiamond>], [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
+recipes.removeShaped(<minecraft:stone>, [[<minecraft:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>]]);
 
 // ================================================================================
 //#MARKER ADD
