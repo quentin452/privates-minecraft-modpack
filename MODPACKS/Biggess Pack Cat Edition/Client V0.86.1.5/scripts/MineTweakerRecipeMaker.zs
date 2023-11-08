@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<AgriCraft:cropsItem>);
 recipes.remove(<castleblocks:trowel>);
 recipes.remove(<chisel:diamondChisel>);
 recipes.remove(<ChickenChunks:chickenChunkLoader:1>);
@@ -38,10 +39,9 @@ recipes.removeShaped(<RitualEnchanting:RitualEnchantmentTable>, [[null, <minecra
 // ================================================================================
 //#MARKER ADD SHAPELESS
 
-recipes.addShapeless(<AgriCraft:cropsItem> * 4, [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>, <ore:stickWood>]);
-
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<AgriCraft:cropsItem>, [[null, <ore:stickWood>, null], [<ore:stickWood>, null, <ore:stickWood>], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<castleblocks:trowel>, [[null, <ore:ingotIron>, <ore:ingotIron>], [<ore:stickWood>, null, null]]);
 recipes.addShaped(<chisel:diamondChisel>, [[null, <ore:gemDiamond>, null], [<ore:stickWood>, null, <ore:stickWood>]]);
 recipes.addShaped(<ironchestminecarts:minecart_chest_dirtchest9000>, [[<minecraft:iron_ingot>, <IronChest:BlockIronChest:7>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
