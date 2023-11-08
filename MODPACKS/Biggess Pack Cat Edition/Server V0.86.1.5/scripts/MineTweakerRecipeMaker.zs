@@ -12,6 +12,13 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<steamcraft2:ItemIronNugget> * 9);
+recipes.remove(<gemsnjewels:Silver Alloy Boots>);
+recipes.remove(<gemsnjewels:Silver Alloy Leggings>);
+recipes.remove(<gemsnjewels:Silver Alloy Chestplate>);
+recipes.remove(<gemsnjewels:Silver Alloy Helmet>);
+recipes.remove(<tc:overheadWireDouble>);
+recipes.remove(<minecraft:fire>);
 recipes.remove(<AgriCraft:cropsItem>);
 recipes.remove(<castleblocks:trowel>);
 recipes.remove(<chisel:diamondChisel>);
@@ -38,9 +45,15 @@ recipes.removeShaped(<RitualEnchanting:RitualEnchantmentTable>, [[null, <minecra
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<steamcraft2:ItemIronNugget> * 9, [<ore:ingotIron>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<gemsnjewels:Silver Alloy Boots>, [[<ore:ingotSilver>, <ore:ingotSilver>], [<ore:ingotSilver>, <ore:ingotSilver>]]);
+recipes.addShaped(<gemsnjewels:Silver Alloy Leggings>, [[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], [<ore:ingotSilver>, null, <ore:ingotSilver>], [<ore:ingotSilver>, null, <ore:ingotSilver>]]);
+recipes.addShaped(<gemsnjewels:Silver Alloy Chestplate>, [[<ore:ingotSilver>, null, <ore:ingotSilver>], [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]]);
+recipes.addShaped(<gemsnjewels:Silver Alloy Helmet>, [[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], [<ore:ingotSilver>, null, <ore:ingotSilver>]]);
+recipes.addShaped(<tc:overheadWireDouble>, [[<minecraft:iron_ingot>, <ore:ingotCopper>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <ore:ingotCopper>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]]);
 recipes.addShaped(<AgriCraft:cropsItem>, [[null, <ore:stickWood>, null], [<ore:stickWood>, null, <ore:stickWood>], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<castleblocks:trowel>, [[null, <ore:ingotIron>, <ore:ingotIron>], [<ore:stickWood>, null, null]]);
 recipes.addShaped(<chisel:diamondChisel>, [[null, <ore:gemDiamond>, null], [<ore:stickWood>, null, <ore:stickWood>]]);
