@@ -35,8 +35,10 @@ recipes.remove(<minecraft:chainmail_boots>);
 recipes.remove(<minecraft:chainmail_helmet>);
 recipes.remove(<minecraft:chainmail_leggings>);
 
+
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
+recipes.removeShapeless(<minecraft:dye:4>, [<ore:blockWoolBlue>]);
 recipes.removeShapeless(<minecraft:stone>, [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]);
 
 // ================================================================================
