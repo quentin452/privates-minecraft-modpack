@@ -1,0 +1,11 @@
+{
+  "_name": "zeldaswordskills.arrow_silver",
+  "ramp_up_distance": "10.0~10.0",
+  "speed_multiplier": "1.0~1.0",
+  "variance": "0.0~0.0",
+  "head_damage": "0.0~0.0",
+  "body_damage": "0.0~0.0",
+  "head_multiplier": "1.0~1.0",
+  "body_multiplier": "1.0~1.0",
+  "nbt": []
+}

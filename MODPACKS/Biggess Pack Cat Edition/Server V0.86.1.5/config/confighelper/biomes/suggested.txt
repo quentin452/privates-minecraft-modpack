@@ -1,0 +1,66 @@
+Advent of Ascension
+id:(40 - 85)
+
+Applied Energistics 2
+id:(86)
+
+Arcana RPG
+id:(87 - 91)
+
+Aroma1997's Dimensional World
+id:(92)
+
+Atum
+id:(93)
+
+BuildCraft
+id:(94 - 95)
+
+Dark World
+id:(96 - 102)
+
+EndlessIDs
+id:(103 - 128)
+id:(135 - 139)
+id:(141 - 148)
+id:(150)
+id:(152 - 154)
+id:(159)
+id:(168 - 531)
+
+Growthcraft
+id:(532)
+
+Highlands
+id:(533 - 571)
+
+LightningCraft
+id:(572 - 573)
+
+Maze Mod
+id:(574 - 594)
+
+Minecraft
+id:(595 - 596)
+
+Realistic World Gen Alpha
+id:(597 - 621)
+
+Runic Dungeons
+id:(622)
+
+Steamcraft 2
+id:(623 - 632)
+
+The Aether
+id:(633)
+
+The Twilight Forest
+id:(634 - 652)
+
+§5Enderlicious
+id:(653 - 656)
+
+§6Netherlicious
+id:(657 - 664)
+

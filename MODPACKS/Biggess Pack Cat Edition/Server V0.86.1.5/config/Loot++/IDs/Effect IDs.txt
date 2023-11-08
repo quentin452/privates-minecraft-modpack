@@ -1,0 +1,621 @@
+## Effect IDs                                                        ##
+#######################################################################
+## In the form:                                                      ##
+## <effect id>                                                       ##
+##    - Name: <effect name>                                          ##
+##    - Color: <effect color>                                        ##
+##    - Is Instant? <true if an instant effect (like health)>        ##
+##    - Is Bad? <true if considered a 'bad' effect (only on client)> ##
+#######################################################################
+0
+	- Name: Confusion
+	- Color: 5787222
+	- Is Instant? false
+
+
+1
+	- Name: potion.moveSpeed
+	- Color: 8171462
+	- Is Instant? false
+
+
+2
+	- Name: potion.moveSlowdown
+	- Color: 5926017
+	- Is Instant? false
+
+
+3
+	- Name: potion.digSpeed
+	- Color: 14270531
+	- Is Instant? false
+
+
+4
+	- Name: potion.digSlowDown
+	- Color: 4866583
+	- Is Instant? false
+
+
+5
+	- Name: potion.damageBoost
+	- Color: 9643043
+	- Is Instant? false
+
+
+6
+	- Name: potion.heal
+	- Color: 16262179
+	- Is Instant? true
+
+
+7
+	- Name: potion.harm
+	- Color: 4393481
+	- Is Instant? true
+
+
+8
+	- Name: potion.jump
+	- Color: 7889559
+	- Is Instant? false
+
+
+9
+	- Name: potion.confusion
+	- Color: 5578058
+	- Is Instant? false
+
+
+10
+	- Name: potion.regeneration
+	- Color: 13458603
+	- Is Instant? false
+
+
+11
+	- Name: potion.resistance
+	- Color: 10044730
+	- Is Instant? false
+
+
+12
+	- Name: potion.fireResistance
+	- Color: 14981690
+	- Is Instant? false
+
+
+13
+	- Name: potion.waterBreathing
+	- Color: 3035801
+	- Is Instant? false
+
+
+14
+	- Name: potion.invisibility
+	- Color: 8356754
+	- Is Instant? false
+
+
+15
+	- Name: potion.blindness
+	- Color: 2039587
+	- Is Instant? false
+
+
+16
+	- Name: potion.nightVision
+	- Color: 2039713
+	- Is Instant? false
+
+
+17
+	- Name: potion.hunger
+	- Color: 5797459
+	- Is Instant? false
+
+
+18
+	- Name: potion.weakness
+	- Color: 4738376
+	- Is Instant? false
+
+
+19
+	- Name: potion.poison
+	- Color: 5149489
+	- Is Instant? false
+
+
+20
+	- Name: potion.wither
+	- Color: 3484199
+	- Is Instant? false
+
+
+21
+	- Name: potion.healthBoost
+	- Color: 16284963
+	- Is Instant? false
+
+
+22
+	- Name: potion.absorption
+	- Color: 2445989
+	- Is Instant? false
+
+
+23
+	- Name: potion.saturation
+	- Color: 16262179
+	- Is Instant? true
+
+
+24
+	- Name: potion.trailmix
+	- Color: 7471104
+	- Is Instant? false
+
+
+49
+	- Name: potion.wither
+	- Color: 3484199
+	- Is Instant? false
+
+
+50
+	- Name: potion.shock
+	- Color: 3484199
+	- Is Instant? false
+
+
+51
+	- Name: potion.magicBoost
+	- Color: 3484199
+	- Is Instant? false
+
+
+52
+	- Name: potion.growth
+	- Color: 3484199
+	- Is Instant? false
+
+
+53
+	- Name: potion.inflame
+	- Color: 3484199
+	- Is Instant? false
+
+
+54
+	- Name: potion.storm
+	- Color: 3484199
+	- Is Instant? false
+
+
+55
+	- Name: potion.antigravity
+	- Color: 3484199
+	- Is Instant? false
+
+
+56
+	- Name: potion.shadowAura
+	- Color: 3484199
+	- Is Instant? false
+
+
+57
+	- Name: potion.crystalliumBlessing
+	- Color: 3484199
+	- Is Instant? false
+
+
+58
+	- Name: potion.imbalance
+	- Color: 3484199
+	- Is Instant? false
+
+
+59
+	- Name: potion.sunspot
+	- Color: 3484199
+	- Is Instant? false
+
+
+76
+	- Name: Horse
+	- Color: 6376455
+	- Is Instant? false
+
+
+77
+	- Name: Bat
+	- Color: 15921904
+	- Is Instant? false
+
+
+78
+	- Name: Spider
+	- Color: 5391188
+	- Is Instant? false
+
+
+89
+	- Name: Dwarven Proc
+	- Color: 16711680
+	- Is Instant? false
+
+
+91
+	- Name: botania.potion.soulCross
+	- Color: 4670781
+	- Is Instant? false
+
+
+92
+	- Name: botania.potion.featherFeet
+	- Color: 2534911
+	- Is Instant? false
+
+
+93
+	- Name: botania.potion.emptiness
+	- Color: 16437247
+	- Is Instant? false
+
+
+94
+	- Name: botania.potion.bloodthirst
+	- Color: 12779520
+	- Is Instant? false
+
+
+95
+	- Name: botania.potion.allure
+	- Color: 13540
+	- Is Instant? false
+
+
+96
+	- Name: botania.potion.clear
+	- Color: 16777215
+	- Is Instant? true
+
+
+100
+	- Name: Drowning
+	- Color: 0
+	- Is Instant? false
+
+
+101
+	- Name: Boost
+	- Color: 0
+	- Is Instant? false
+
+
+102
+	- Name: Whirlwind
+	- Color: 0
+	- Is Instant? false
+
+
+103
+	- Name: Inhibit
+	- Color: 0
+	- Is Instant? false
+
+
+104
+	- Name: Flight
+	- Color: 0
+	- Is Instant? false
+
+
+105
+	- Name: Reciprocation
+	- Color: 16777215
+	- Is Instant? false
+
+
+106
+	- Name: Flame Cloak
+	- Color: 0
+	- Is Instant? false
+
+
+107
+	- Name: Ice Cloak
+	- Color: 0
+	- Is Instant? false
+
+
+108
+	- Name: Heavy Heart
+	- Color: 0
+	- Is Instant? false
+
+
+109
+	- Name: Fire Fuse
+	- Color: 0
+	- Is Instant? false
+
+
+110
+	- Name: Planar Binding
+	- Color: 0
+	- Is Instant? false
+
+
+111
+	- Name: Soul Fray
+	- Color: 0
+	- Is Instant? false
+
+
+112
+	- Name: Soul Harden
+	- Color: 0
+	- Is Instant? false
+
+
+113
+	- Name: Deafness
+	- Color: 0
+	- Is Instant? false
+
+
+114
+	- Name: Feather Fall
+	- Color: 0
+	- Is Instant? false
+
+
+115
+	- Name: Demon Cloaking
+	- Color: 0
+	- Is Instant? false
+
+
+116
+	- Name: Amphibian
+	- Color: 0
+	- Is Instant? false
+
+
+117
+	- Name: redcow:wings
+	- Color: 16777215
+	- Is Instant? false
+
+
+133
+	- Name: potion.fireskin
+	- Color: 16723714
+	- Is Instant? false
+
+
+150
+	- Name: potion.demonFriend
+	- Color: 12632064
+	- Is Instant? false
+
+
+155
+	- Name: imbue.poison
+	- Color: 0
+	- Is Instant? false
+
+
+156
+	- Name: imbue.experience
+	- Color: 0
+	- Is Instant? false
+
+
+157
+	- Name: imbue.fire
+	- Color: 0
+	- Is Instant? false
+
+
+158
+	- Name: imbue.wither
+	- Color: 0
+	- Is Instant? false
+
+
+159
+	- Name: imbue.weakness
+	- Color: 0
+	- Is Instant? false
+
+
+160
+	- Name: imbue.spectre
+	- Color: 0
+	- Is Instant? false
+
+
+168
+	- Name: potion.mind_control
+	- Color: 3279684
+	- Is Instant? false
+
+
+169
+	- Name: potion.font_of_mana
+	- Color: 16770491
+	- Is Instant? false
+
+
+185
+	- Name: potion.transience
+	- Color: 16771227
+	- Is Instant? false
+
+
+260
+	- Name: potion.ice_shroud
+	- Color: 5435903
+	- Is Instant? false
+
+
+261
+	- Name: potion.decay
+	- Color: 3932268
+	- Is Instant? false
+
+
+262
+	- Name: potion.sixth_sense
+	- Color: 13041409
+	- Is Instant? false
+
+
+263
+	- Name: potion.arcane_jammer
+	- Color: 13585058
+	- Is Instant? false
+
+
+264
+	- Name: potion.mind_trick
+	- Color: 6297219
+	- Is Instant? false
+
+
+300
+	- Name: ic2.potion.radiation
+	- Color: 5149489
+	- Is Instant? false
+
+
+301
+	- Name: potion.brewcraft.flight
+	- Color: 16777215
+	- Is Instant? false
+
+
+302
+	- Name: potion.brewcraft.frozen
+	- Color: 13434879
+	- Is Instant? false
+
+
+303
+	- Name: potion.brewcraft.creeper
+	- Color: 52224
+	- Is Instant? false
+
+
+304
+	- Name: potion.brewcraft.fireproof
+	- Color: 13369344
+	- Is Instant? false
+
+
+310
+	- Name: potion.brewcraft.angel
+	- Color: 16777011
+	- Is Instant? false
+
+
+311
+	- Name: potion.regeneration
+	- Color: 13458603
+	- Is Instant? false
+
+
+312
+	- Name: potion.brewcraft.immunity
+	- Color: 10040268
+	- Is Instant? false
+
+
+313
+	- Name: potion.brewcraft.flame
+	- Color: 16750899
+	- Is Instant? false
+
+
+314
+	- Name: potion.brewcraft.fireEater
+	- Color: 6684672
+	- Is Instant? false
+
+
+315
+	- Name: potion.poison
+	- Color: 5149489
+	- Is Instant? false
+
+
+350
+	- Name: potion.frost
+	- Color: 3726828
+	- Is Instant? false
+
+
+381
+	- Name: potion.fear
+	- Color: 12386560
+	- Is Instant? false
+
+
+630
+	- Name: potion.wildmobs.aqua_healing
+	- Color: 564902
+	- Is Instant? false
+
+
+1177
+	- Name: potion.static_aura
+	- Color: 28927
+	- Is Instant? false
+
+
+3109
+	- Name: effect.aether.inebriation
+	- Color: 5319035
+	- Is Instant? false
+
+
+3752
+	- Name: potion.antiWither
+	- Color: 1310740
+	- Is Instant? false
+
+
+5000
+	- Name: Vampiric Aura
+	- Color: 0
+	- Is Instant? false
+
+
+5085
+	- Name: grc.potion.tipsy
+	- Color: 0
+	- Is Instant? false
+
+
+5100
+	- Name: Bleeding
+	- Color: 0
+	- Is Instant? false
+
+
+5200
+	- Name: Swimming
+	- Color: 0
+	- Is Instant? false
+
+
+5300
+	- Name: Soul Burn
+	- Color: 0
+	- Is Instant? false
+
+

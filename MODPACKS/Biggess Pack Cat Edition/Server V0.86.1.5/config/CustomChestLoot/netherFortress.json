@@ -1,0 +1,84 @@
+{
+  "_name": "netherFortress",
+  "min": 2,
+  "max": 5,
+  "loot": [
+    {
+      "weight": 5,
+      "id": "minecraft:diamond",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 5,
+      "id": "minecraft:iron_ingot",
+      "damage": 0,
+      "min": 1,
+      "max": 5
+    },
+    {
+      "weight": 15,
+      "id": "minecraft:gold_ingot",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 5,
+      "id": "minecraft:golden_sword",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 5,
+      "id": "minecraft:golden_chestplate",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 5,
+      "id": "minecraft:flint_and_steel",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 5,
+      "id": "minecraft:nether_wart",
+      "damage": 0,
+      "min": 3,
+      "max": 7
+    },
+    {
+      "weight": 10,
+      "id": "minecraft:saddle",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 8,
+      "id": "minecraft:golden_horse_armor",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 5,
+      "id": "minecraft:iron_horse_armor",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 3,
+      "id": "minecraft:diamond_horse_armor",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    }
+  ]
+}

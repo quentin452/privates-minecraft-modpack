@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<worldGeneration version="2"
+				 xmlns="http://warpdrive.lemadec.org"
+				 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				 xsi:schemaLocation="http://warpdrive.lemadec.org WarpDrive.xsd">
+	
+	<!--
+	  A lootSet is a list of possible loots.
+	  loot.item is the registry name of the item. It's mandatory.
+	  loot.damage is the damage level, also known as metadata. It defaults to 0.
+	  loot.nbt is the NBT data in JSON format converted to XML. Here's a site to do the XML conversion part: http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=utf_8
+	  loot.minQuantity is self explanatory. It defaults to 1.
+	  loot.maxQuantity needs to be higher than loot.minQuantity to have any effect. It defaults to 1.
+	  
+	  Here after is an example with NBT data.
+	<loot item="WarpDrive:itemShipToken" damage="5" nbt="{shipName:&quot;MySchematicName&quot;}" />
+	  
+	  When used on machines, we'll give a few trials to find a valid slot for each loot, eventually try another loot, eventually skipping it altogether.
+	  -->
+	<lootSet group="ship" name="legacy" weight="1">
+		<loot item="IC2:blockNuke"                     minQuantity="1" maxQuantity="3"  weight="7"  /><!-- Nuke -->
+		<loot item="IC2:blockReactorChamber"           minQuantity="1" maxQuantity="1"  weight="5"  /><!-- Reactor chamber -->
+		<loot item="IC2:blockMachine2"     damage="3"  minQuantity="1" maxQuantity="1"  weight="10" /><!-- Thermal centrifuge -->
+		<loot item="IC2:blockMachine2"     damage="4"  minQuantity="1" maxQuantity="1"  weight="10" /><!-- Metal former -->
+		<loot item="IC2:blockMachine2"     damage="5"  minQuantity="1" maxQuantity="1"  weight="10" /><!-- Ore washing -->
+		<loot item="IC2:blockAlloy"                    minQuantity="7" maxQuantity="20" weight="10" /><!-- Reinforced stone -->
+		<loot item="IC2:blockAlloyGlass"               minQuantity="5" maxQuantity="12" weight="10" /><!-- Reinforced glass -->
+		<loot item="IC2:blockIronScaffold"             minQuantity="8" maxQuantity="35" weight="10" /><!-- Iron scaffolding -->
+		<loot item="IC2:blockGenerator"    damage="0"  minQuantity="1" maxQuantity="3"  weight="10" /><!-- Generator -->
+		<loot item="IC2:blockGenerator"    damage="2"  minQuantity="1" maxQuantity="3"  weight="10" /><!-- Water mill -->
+		<loot item="IC2:blockGenerator"    damage="3"  minQuantity="1" maxQuantity="2"  weight="10" /><!-- Solar generator -->
+		<loot item="IC2:blockChargePad"    damage="0"  minQuantity="1" maxQuantity="2"  weight="10" /><!-- ChargePad (BatBox) -->
+		<loot item="IC2:blockChargePad"    damage="1"  minQuantity="1" maxQuantity="2"  weight="10" /><!-- ChargePad (CESU) -->
+		<loot item="IC2:blockChargePad"    damage="2"  minQuantity="1" maxQuantity="1"  weight="5"  /><!-- ChargePad (MFE) -->
+		<loot item="IC2:blockChargePad"    damage="3"  minQuantity="1" maxQuantity="1"  weight="1"  /><!-- ChargePad (MFSU) -->
+		<loot item="IC2:blockMachine"      damage="0"  minQuantity="1" maxQuantity="8"  weight="15" /><!-- Machine casing -->
+		<loot item="IC2:blockMachine"      damage="5"  minQuantity="1" maxQuantity="2"  weight="15" /><!-- Compressor -->
+		<loot item="IC2:blockMachine"      damage="14" minQuantity="1" maxQuantity="1"  weight="10" /><!-- Mass fabricator -->
+		<loot item="IC2:itemArmorRubBoots" damage="20" minQuantity="1" maxQuantity="1"  weight="5"  /><!-- Damaged rubber boots -->
+		<loot item="IC2:itemArmorRubBoots" damage="0"  minQuantity="1" maxQuantity="1"  weight="5"  /><!-- Rubber boots -->
+		<loot item="IC2:itemFuelRod"       damage="0"  minQuantity="1" maxQuantity="4"  weight="10" /><!-- Fuel rod -->
+		<loot item="IC2:itemRubber"                    minQuantity="5" maxQuantity="24" weight="15" /><!-- Rubber -->
+		<loot item="IC2:itemPartCircuit"               minQuantity="1" maxQuantity="5"  weight="10" /><!-- Basic circuit -->
+		<loot item="IC2:itemBatCrystal"                minQuantity="1" maxQuantity="1"  weight="12" /><!-- Energy crytal -->
+		<loot item="IC2:itemCellEmpty"     damage="0"  minQuantity="4" maxQuantity="35" weight="15" /><!-- Empty cell -->
+		<loot item="IC2:itemCellEmpty"     damage="3"  minQuantity="2" maxQuantity="16" weight="12" /><!-- UU matter cell -->
+		<loot item="IC2:itemCellEmpty"     damage="5"  minQuantity="1" maxQuantity="18" weight="12" /><!-- Compressed air -->
+		<loot item="IC2:itemCable"         damage="0"  minQuantity="1" maxQuantity="18" weight="15" /><!-- Insulated copper cable -->
+		<loot item="IC2:itemCable"         damage="1"  minQuantity="1" maxQuantity="18" weight="12" /><!-- Copper cable -->
+		<loot item="IC2:itemCable"         damage="2"  minQuantity="1" maxQuantity="18" weight="12" /><!-- Gold cable -->
+		<loot item="IC2:itemCable"         damage="3"  minQuantity="1" maxQuantity="18" weight="13" /><!-- Insulated gold cable -->
+		<loot item="IC2:itemCable"         damage="5"  minQuantity="1" maxQuantity="18" weight="8"  /><!-- HV cable -->
+		<loot item="IC2:itemCable"         damage="6"  minQuantity="1" maxQuantity="18" weight="10" /><!-- Insulated HV cable -->
+		<loot item="IC2:itemCable"         damage="9"  minQuantity="1" maxQuantity="18" weight="8"  /><!-- Glass fiber cable -->
+		<loot item="IC2:itemCable"         damage="10" minQuantity="1" maxQuantity="18" weight="15" /><!-- Tin cable -->
+		<loot item="IC2:itemCable"         damage="13" minQuantity="1" maxQuantity="18" weight="15" /><!-- Insulated tin cable -->
+		<loot item="minecraft:stick"                   minQuantity="1" maxQuantity="18" weight="1"  />
+		
+		<!-- nano armor? -->
+		<!-- ICBM rocket launcher platform minQuantity="1" maxQuantity="2" -->
+		<!-- ICBM missile damage=0 to 9 minQuantity="2" maxQuantity="3" -->
+		<!-- Advanced solar panel -->
+	</lootSet>
+</worldGeneration>

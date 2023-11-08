@@ -1,0 +1,29 @@
+#Place the full canonical class name of an Entity to whitelist it for bottling.#Version: 0.0.2
+
+#Vanilla Entities.
+net.minecraft.entity.passive.EntityPig
+net.minecraft.entity.passive.EntityCow
+net.minecraft.entity.passive.EntityChicken
+net.minecraft.entity.passive.EntityHorse
+net.minecraft.entity.passive.EntitySheep
+net.minecraft.entity.passive.EntityWolf
+net.minecraft.entity.passive.EntityBat
+net.minecraft.entity.passive.EntitySquid
+net.minecraft.entity.passive.EntityMooshroom
+net.minecraft.entity.passive.EntityOcelot
+net.minecraft.entity.passive.EntityVillager
+net.minecraft.entity.monster.EntityCreeper
+net.minecraft.entity.monster.EntityZombie
+net.minecraft.entity.monster.EntityPigZombie
+net.minecraft.entity.monster.EntityGhast
+net.minecraft.entity.monster.EntitySpider
+net.minecraft.entity.monster.EntityEnderman
+net.minecraft.entity.monster.EntitySlime
+net.minecraft.entity.monster.EntityMagmaCube
+net.minecraft.entity.monster.EntityWitch
+net.minecraft.entity.monster.EntitySkeleton
+net.minecraft.entity.monster.EntityCaveSpider
+net.minecraft.entity.monster.EntitySilverfish
+net.minecraft.entity.monster.EntityBlaze
+net.minecraft.entity.monster.EntitySnowman
+net.minecraft.entity.monster.EntityGolem

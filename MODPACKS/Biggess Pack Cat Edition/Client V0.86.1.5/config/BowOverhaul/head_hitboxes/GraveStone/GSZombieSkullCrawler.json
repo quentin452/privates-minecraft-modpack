@@ -1,0 +1,19 @@
+{
+  "_name": "GraveStone.GSZombieSkullCrawler",
+  "scale": 1.0,
+  "child_scale": 1.0,
+  "size": [
+    "NaN",
+    0.2,
+    "NaN"
+  ],
+  "offset": [
+    0.0,
+    -0.1,
+    0.0
+  ],
+  "head_damage": 1.0,
+  "body_damage": 0.0,
+  "head_multiplier": 2.0,
+  "body_multiplier": 1.0
+}

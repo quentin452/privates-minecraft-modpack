@@ -1,0 +1,61 @@
+{
+	"itemName": "book_demo",
+	"bookName": "Achievement Book Demo",
+	"color": "red",
+	"craftingMaterial": "minecraft:cobblestone",
+	"pages": [
+		[
+			{
+				"id": 1,
+				"header": "Welcome to the Achievement Book Demo",
+				"description": "This book is only here to show you the capabilities of this mod\n"
+			},
+			{
+				"id": 2,
+				"description": "You can define texts, headers and achievements in the config/achievementbooks folder"
+			}
+		],
+		[
+			{
+				"id": 3,
+				"header": "Getting to know the config"
+			},
+			{
+				"id": 4,
+				"achievement": "Check out the demo config file for the Achievement Books Mod",
+				"mod": "Achievement Books"
+			},
+			{
+				"id": 5,
+				"achievement": "Craft the Achievement Book Demo book",
+				"mod": "vanilla"
+			},
+			{
+				"id": 6,
+				"achievement": "Add a new achievement to the Achievement Book Demo",
+				"mod": "Achievement Books"
+			}
+		],
+		[
+			{
+				"id": 7,
+				"header": "Advanced Topics"
+			},
+			{
+				"id": 8,
+				"achievement": "Create another achievement book next to the Achievement Book Demo",
+				"mod": "Achievement Books"
+			},
+			{
+				"id": 9,
+				"achievement": "Change the wording of achievement id 4 in the Achievement Book Demo",
+				"mod": "Achievement Books"
+			},
+			{
+				"id": 10,
+				"achievement": "Reorder the achievements on page 2 of the Achievement Book Demo",
+				"mod": "Achievement Books"
+			}
+		]
+	]
+}

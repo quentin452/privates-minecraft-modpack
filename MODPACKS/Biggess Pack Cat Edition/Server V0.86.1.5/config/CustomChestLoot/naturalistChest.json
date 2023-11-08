@@ -1,0 +1,3909 @@
+{
+  "_name": "naturalistChest",
+  "min": 0,
+  "max": 0,
+  "loot": [
+    {
+      "weight": 12,
+      "id": "Forestry:candle",
+      "damage": 0,
+      "min": 7,
+      "max": 12,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "colour",
+              "function": "int",
+              "value": "16777215~16777215"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 8,
+      "id": "Forestry:scoop",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 6,
+      "id": "Forestry:propolis",
+      "damage": 0,
+      "min": 2,
+      "max": 4
+    },
+    {
+      "weight": 7,
+      "id": "Forestry:beeCombs",
+      "damage": 0,
+      "min": 4,
+      "max": 12
+    },
+    {
+      "weight": 7,
+      "id": "Forestry:beeCombs",
+      "damage": 4,
+      "min": 2,
+      "max": 10
+    },
+    {
+      "weight": 7,
+      "id": "Forestry:beeCombs",
+      "damage": 6,
+      "min": 1,
+      "max": 6
+    },
+    {
+      "weight": 5,
+      "id": "Forestry:beePrincessGE",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "MaxH",
+              "function": "int",
+              "value": "20~20"
+            },
+            {
+              "name": "Health",
+              "function": "int",
+              "value": "20~20"
+            },
+            {
+              "name": "IsAnalyzed",
+              "function": "byte",
+              "value": "0~0"
+            },
+            {
+              "name": "Genome",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Chromosomes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.speciesForest"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.speciesForest"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "0~0"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.speedSlowest"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.speedSlowest"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "1~1"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.lifespanShorter"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.lifespanShorter"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "2~2"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fertilityHigh"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fertilityHigh"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "3~3"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.toleranceNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.toleranceNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "4~4"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.boolFalse"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.boolFalse"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "5~5"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.toleranceNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.toleranceNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "7~7"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.boolTrue"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.boolTrue"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "8~8"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.boolFalse"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.boolFalse"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "9~9"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.flowersVanilla"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.flowersVanilla"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "10~10"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.floweringSlower"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.floweringSlower"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "11~11"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "12~12"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.effectNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.effectNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "13~13"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 8,
+      "id": "Forestry:beeDroneGE",
+      "damage": 0,
+      "min": 1,
+      "max": 2,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "MaxH",
+              "function": "int",
+              "value": "20~20"
+            },
+            {
+              "name": "Health",
+              "function": "int",
+              "value": "20~20"
+            },
+            {
+              "name": "IsAnalyzed",
+              "function": "byte",
+              "value": "0~0"
+            },
+            {
+              "name": "Genome",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Chromosomes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.speciesCommon"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.speciesCommon"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "0~0"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.speedSlower"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.speedSlower"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "1~1"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.lifespanShorter"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.lifespanShorter"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "2~2"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fertilityNormal"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fertilityNormal"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "3~3"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.toleranceNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.toleranceNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "4~4"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.boolFalse"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.boolFalse"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "5~5"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.toleranceNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.toleranceNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "7~7"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.boolFalse"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.boolFalse"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "8~8"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.boolFalse"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.boolFalse"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "9~9"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.flowersVanilla"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.flowersVanilla"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "10~10"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.floweringSlowest"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.floweringSlowest"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "11~11"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "12~12"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.effectNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.effectNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "13~13"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 5,
+      "id": "Forestry:beePrincessGE",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "MaxH",
+              "function": "int",
+              "value": "20~20"
+            },
+            {
+              "name": "Health",
+              "function": "int",
+              "value": "20~20"
+            },
+            {
+              "name": "IsAnalyzed",
+              "function": "byte",
+              "value": "0~0"
+            },
+            {
+              "name": "Genome",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Chromosomes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.speciesMeadows"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.speciesMeadows"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "0~0"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.speedSlowest"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.speedSlowest"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "1~1"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.lifespanShorter"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.lifespanShorter"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "2~2"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fertilityNormal"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fertilityNormal"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "3~3"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.toleranceNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.toleranceNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "4~4"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.boolFalse"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.boolFalse"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "5~5"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.toleranceNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.toleranceNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "7~7"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.boolFalse"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.boolFalse"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "8~8"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.boolFalse"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.boolFalse"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "9~9"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.flowersVanilla"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.flowersVanilla"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "10~10"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.floweringSlower"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.floweringSlower"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "11~11"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "12~12"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.effectNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.effectNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "13~13"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 8,
+      "id": "Forestry:grafter",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 6,
+      "id": "Forestry:sapling",
+      "damage": 0,
+      "min": 2,
+      "max": 3,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "IsAnalyzed",
+              "function": "byte",
+              "value": "0~0"
+            },
+            {
+              "name": "Genome",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Chromosomes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.treeOak"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.treeOak"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "0~0"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "1~1"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.heightSmall"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.heightSmall"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "2~2"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.saplingsAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.saplingsAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "3~3"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fruitApple"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fruitApple"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "4~4"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.yieldLowest"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.yieldLowest"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "5~5"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "6~6"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.sappinessLowest"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.sappinessLowest"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "7~7"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "8~8"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "9~9"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.maturationFaster"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.maturationFaster"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "10~10"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "11~11"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "12~12"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 6,
+      "id": "Forestry:sapling",
+      "damage": 0,
+      "min": 2,
+      "max": 3,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "IsAnalyzed",
+              "function": "byte",
+              "value": "0~0"
+            },
+            {
+              "name": "Genome",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Chromosomes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.treeSpruce"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.treeSpruce"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "0~0"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "1~1"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.heightAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.heightAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "2~2"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.saplingsAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.saplingsAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "3~3"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fruitNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fruitNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "4~4"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.yieldLowest"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.yieldLowest"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "5~5"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "6~6"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.sappinessLowest"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.sappinessLowest"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "7~7"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "8~8"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "9~9"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.maturationFaster"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.maturationFaster"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "10~10"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "11~11"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "12~12"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 6,
+      "id": "Forestry:sapling",
+      "damage": 0,
+      "min": 2,
+      "max": 3,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "IsAnalyzed",
+              "function": "byte",
+              "value": "0~0"
+            },
+            {
+              "name": "Genome",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Chromosomes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.treeBirch"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.treeBirch"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "0~0"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "1~1"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.heightSmall"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.heightSmall"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "2~2"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.saplingsAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.saplingsAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "3~3"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fruitNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fruitNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "4~4"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.yieldLowest"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.yieldLowest"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "5~5"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "6~6"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.sappinessLowest"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.sappinessLowest"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "7~7"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "8~8"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "9~9"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.maturationFaster"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.maturationFaster"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "10~10"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "11~11"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "12~12"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 4,
+      "id": "Forestry:sapling",
+      "damage": 0,
+      "min": 1,
+      "max": 2,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "IsAnalyzed",
+              "function": "byte",
+              "value": "0~0"
+            },
+            {
+              "name": "Genome",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Chromosomes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.treeLarch"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.treeLarch"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "0~0"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "1~1"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.heightAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.heightAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "2~2"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.saplingsLow"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.saplingsLow"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "3~3"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fruitNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fruitNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "4~4"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.yieldLowest"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.yieldLowest"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "5~5"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "6~6"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.sappinessLower"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.sappinessLower"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "7~7"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "8~8"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "9~9"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.maturationAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.maturationAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "10~10"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "11~11"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "12~12"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 4,
+      "id": "Forestry:sapling",
+      "damage": 0,
+      "min": 1,
+      "max": 2,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "IsAnalyzed",
+              "function": "byte",
+              "value": "0~0"
+            },
+            {
+              "name": "Genome",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Chromosomes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.treeLime"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.treeLime"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "0~0"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "1~1"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.heightSmall"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.heightSmall"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "2~2"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.saplingsLow"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.saplingsLow"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "3~3"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fruitNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fruitNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "4~4"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.yieldLower"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.yieldLower"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "5~5"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "6~6"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.sappinessLower"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.sappinessLower"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "7~7"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "8~8"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "9~9"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.maturationAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.maturationAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "10~10"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "11~11"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "12~12"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 4,
+      "id": "Forestry:pollenFertile",
+      "damage": 0,
+      "min": 2,
+      "max": 3,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "IsAnalyzed",
+              "function": "byte",
+              "value": "0~0"
+            },
+            {
+              "name": "Genome",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Chromosomes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.treeOak"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.treeOak"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "0~0"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "1~1"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.heightSmall"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.heightSmall"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "2~2"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.saplingsAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.saplingsAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "3~3"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fruitApple"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fruitApple"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "4~4"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.yieldLowest"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.yieldLowest"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "5~5"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "6~6"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.sappinessLowest"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.sappinessLowest"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "7~7"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "8~8"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "9~9"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.maturationFaster"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.maturationFaster"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "10~10"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "11~11"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "12~12"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 4,
+      "id": "Forestry:pollenFertile",
+      "damage": 0,
+      "min": 2,
+      "max": 3,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "IsAnalyzed",
+              "function": "byte",
+              "value": "0~0"
+            },
+            {
+              "name": "Genome",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Chromosomes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.treeSpruce"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.treeSpruce"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "0~0"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "1~1"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.heightAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.heightAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "2~2"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.saplingsAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.saplingsAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "3~3"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fruitNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fruitNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "4~4"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.yieldLowest"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.yieldLowest"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "5~5"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "6~6"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.sappinessLowest"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.sappinessLowest"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "7~7"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "8~8"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "9~9"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.maturationFaster"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.maturationFaster"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "10~10"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "11~11"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "12~12"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 4,
+      "id": "Forestry:pollenFertile",
+      "damage": 0,
+      "min": 2,
+      "max": 3,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "IsAnalyzed",
+              "function": "byte",
+              "value": "0~0"
+            },
+            {
+              "name": "Genome",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Chromosomes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.treeBirch"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.treeBirch"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "0~0"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "1~1"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.heightSmall"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.heightSmall"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "2~2"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.saplingsAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.saplingsAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "3~3"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fruitNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fruitNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "4~4"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.yieldLowest"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.yieldLowest"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "5~5"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "6~6"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.sappinessLowest"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.sappinessLowest"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "7~7"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "8~8"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "9~9"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.maturationFaster"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.maturationFaster"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "10~10"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "11~11"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "12~12"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 3,
+      "id": "Forestry:pollenFertile",
+      "damage": 0,
+      "min": 1,
+      "max": 2,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "IsAnalyzed",
+              "function": "byte",
+              "value": "0~0"
+            },
+            {
+              "name": "Genome",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Chromosomes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.treeLarch"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.treeLarch"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "0~0"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "1~1"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.heightAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.heightAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "2~2"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.saplingsLow"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.saplingsLow"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "3~3"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fruitNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fruitNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "4~4"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.yieldLowest"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.yieldLowest"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "5~5"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "6~6"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.sappinessLower"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.sappinessLower"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "7~7"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "8~8"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "9~9"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.maturationAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.maturationAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "10~10"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "11~11"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "12~12"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 3,
+      "id": "Forestry:pollenFertile",
+      "damage": 0,
+      "min": 1,
+      "max": 2,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "IsAnalyzed",
+              "function": "byte",
+              "value": "0~0"
+            },
+            {
+              "name": "Genome",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Chromosomes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.treeLime"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.treeLime"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "0~0"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.growthLightlevel"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "1~1"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.heightSmall"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.heightSmall"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "2~2"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.saplingsLow"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.saplingsLow"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "3~3"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fruitNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fruitNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "4~4"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.yieldLower"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.yieldLower"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "5~5"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.plantTypeNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "6~6"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.sappinessLower"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.sappinessLower"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "7~7"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.territoryAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "8~8"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.leavesNone"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "9~9"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.maturationAverage"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.maturationAverage"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "10~10"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.i1d"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "11~11"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "UID1",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "UID0",
+                          "function": "string",
+                          "value": "forestry.fireproofFalse"
+                        },
+                        {
+                          "name": "Slot",
+                          "function": "byte",
+                          "value": "12~12"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

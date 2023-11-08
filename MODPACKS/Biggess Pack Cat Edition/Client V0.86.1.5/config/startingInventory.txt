@@ -1,0 +1,7 @@
+OpenBlocks:infoBook,1,0
+OpenComputers:item,1,98
+TConstruct:manualBook,1,0
+eureka:engineeringDiary,1,0
+zeldaswordskills:zss.links_house,1,0
+doggytalents:doggy_charm,1,0
+doggytalents:command_emblem,1,0

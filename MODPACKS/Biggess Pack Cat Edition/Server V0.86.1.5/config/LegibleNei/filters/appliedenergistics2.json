@@ -1,0 +1,12 @@
+{
+appliedenergistics2:[
+	{keep-one:[[item.ItemCrystalSeed],[0,600,1200]]};
+	{keep:[item.,[ToolEntropyManipulator,ToolWirelessTerminal,
+		ToolChargedStaff,ToolMassCannon,ToolPortableCell,ToolColorApplicator],[0],['{}','']]};
+	{keep-one:[[item.ItemFacade],[]]};
+	{keep:[item.,[ItemPaintBall],[0]]};
+	{_hide:[tile.Block,[MatrixFrame,CableBus,Paint],[]]};
+	{_hide:[[item.ItemEncodedPattern],[]]};
+	{hide:[[item.ItemMultiPart],[0-15,20-35,40-55,60-75]]};
+	]
+}

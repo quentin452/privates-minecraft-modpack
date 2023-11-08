@@ -1,0 +1,376 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="true">
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductrod;2;7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAluminum</oreDict>
+		</input>
+		<output>
+			<itemStack>moreplates:aluminum_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotLead</oreDict>
+		</input>
+		<output>
+			<itemStack>moreplates:lead_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:toolRod;2;13</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:toolRod;2;14</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:toolRod;2;16</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>moreplates:silver_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTin</oreDict>
+		</input>
+		<output>
+			<itemStack>moreplates:tin_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNickel</oreDict>
+		</input>
+		<output>
+			<itemStack>moreplates:nickel_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductrod;2;7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAluminum</oreDict>
+		</input>
+		<output>
+			<itemStack>moreplates:aluminum_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotVanadium</oreDict>
+		</input>
+		<output>
+			<itemStack>WaterPower:cptItemMeterial;2;607</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotLumium</oreDict>
+		</input>
+		<output>
+			<itemStack>moreplates:lumium_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCobalt</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:toolRod;2;10</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSignalum</oreDict>
+		</input>
+		<output>
+			<itemStack>moreplates:signalum_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotManyullyn</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:toolRod;2;12</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:toolRod;2;13</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotEnderium</oreDict>
+		</input>
+		<output>
+			<itemStack>moreplates:enderium_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:toolRod;2;14</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotGold</oreDict>
+		</input>
+		<output>
+			<itemStack>moreplates:gold_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotObsidian</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:toolRod;2;6</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>moreplates:silver_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotManganeseSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>WaterPower:cptItemMeterial;2;907</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductrod;2;10</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNeodymium</oreDict>
+		</input>
+		<output>
+			<itemStack>WaterPower:cptItemMeterial;2;207</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIron</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:toolRod;2;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNeodymiumMagnet</oreDict>
+		</input>
+		<output>
+			<itemStack>WaterPower:cptItemMeterial;2;307</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMagnetite</oreDict>
+		</input>
+		<output>
+			<itemStack>WaterPower:cptItemMeterial;2;507</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPlatinum</oreDict>
+		</input>
+		<output>
+			<itemStack>moreplates:platinum_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIndustrialSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>WaterPower:cptItemMeterial;2;407</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotLead</oreDict>
+		</input>
+		<output>
+			<itemStack>moreplates:lead_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitaniumAluminide</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:advancedRocketryproductrod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMithril</oreDict>
+		</input>
+		<output>
+			<itemStack>moreplates:mana_infused_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotArdite</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:toolRod;2;11</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotZincAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>WaterPower:cptItemMeterial;2;107</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:toolRod;2;16</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotZinc</oreDict>
+		</input>
+		<output>
+			<itemStack>WaterPower:cptItemMeterial;2;7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAlumite</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:toolRod;2;15</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotVanadiumSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>WaterPower:cptItemMeterial;2;707</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTin</oreDict>
+		</input>
+		<output>
+			<itemStack>moreplates:tin_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNickel</oreDict>
+		</input>
+		<output>
+			<itemStack>moreplates:nickel_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotInvar</oreDict>
+		</input>
+		<output>
+			<itemStack>moreplates:invar_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitaniumIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:advancedRocketryproductrod;2;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotManganese</oreDict>
+		</input>
+		<output>
+			<itemStack>WaterPower:cptItemMeterial;2;807</itemStack>
+		</output>
+	</Recipe>
+</Recipes>

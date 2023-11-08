@@ -1,0 +1,10 @@
+#Version: 0.0.1
+
+#Place items you want to put elements on in here.
+#The syntax is really specific, so be careful.
+#Obviously, # will comment out a line.
+
+#EX:
+#minecraft:apple;0|Carbon:1.0;Oxygen:0.5;
+#Where 'Minecraft' is the modID, 'apple' is the name of the item, 0 is the meta of the item, 'Carbon' and 'Oxygen' are names of valid elements, and '1.0' or '0.5' is a valid floating-point number.
+#These settings will overwrite most pre-defined elements.#If you need help getting the item name, try the /give command in game and it will tell you what it is.

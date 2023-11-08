@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ModConfig>
+    <!--Last written by LanteaCraft build 23-->
+    <!--Last written by LanteaCraft build 23-->
+    <Component enabled="true" name="CLIENT">
+        <!--The texture quality-->
+        <Render TextureQuality="32" name="Quality"/>
+    </Component>
+    <Component enabled="true" name="DECOR"/>
+    <Component enabled="true" name="CORE"/>
+    <Component enabled="true" name="STARGATE"/>
+    <Component enabled="true" name="MACHINE"/>
+</ModConfig>

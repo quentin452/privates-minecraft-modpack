@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+	<Toggles>
+		<Toggle Name="Aesthetics Toggles">
+			<EnableUpdateChecker>true</EnableUpdateChecker>				<!--Enables the update checker for Aesthetics. Default Value: true-->
+		</Toggle>
+		<Toggle Name="Content Toggles">
+			<EnableSimpleOres>true</EnableSimpleOres>					<!--Enables SimpleOres-based content. Default Value: true-->
+			<EnableFusion>true</EnableFusion>							<!--Enables Fusion-base content. Default Value: true-->
+			<EnableNetherrocks>true</EnableNetherrocks>					<!--Enables Netherrocks-based content. Default Value: true-->
+			<EnableVanillaBricks>true</EnableVanillaBricks>				<!--Enables Bricks made from vanilla Minecraft materials. Default Value: true-->
+			<EnableVanillaBrickStairs>true</EnableVanillaBrickStairs>	<!--Enables Brick Stairs made from vanilla Minecraft materials. Default Value: true-->
+		</Toggle>
+		<Toggle Name="SimpleOres Content Toggles">
+			<EnableBricks>true</EnableBricks>							<!--Enables Bricks made from SimpleOres materials. Default Value: true-->
+			<EnableBrickStairs>true</EnableBrickStairs>					<!--Enables Brick Stairs made from SimpleOres materials. Default Value: true-->
+			<EnableDoors>true</EnableDoors>								<!--Enables Doors made from SimpleOres materials. Default Value: true-->
+			<EnableBars>true</EnableBars>								<!--Enables Doors made from SimpleOres materials. Default Value: true-->
+		</Toggle>
+		<Toggle Name="Fusion Content Toggles">
+			<EnableBricks>true</EnableBricks>							<!--Enables Bricks made from Fusion materials. Default Value: true-->
+			<EnableBrickStairs>true</EnableBrickStairs>					<!--Enables Brick Stairs made from Fusion materials. Default Value: true-->
+			<EnableDoors>true</EnableDoors>								<!--Enables Doors made from Fusion materials. Default Value: true-->
+			<EnableBars>true</EnableBars>								<!--Enables Doors made from Fusion materials. Default Value: true-->
+		</Toggle>
+		<Toggle Name="Netherrocks Content Toggles">
+			<EnableBricks>true</EnableBricks>							<!--Enables Bricks made from Netherrocks materials. Default Value: true-->
+			<EnableBrickStairs>true</EnableBrickStairs>					<!--Enables Brick Stairs made from Netherrocks materials. Default Value: true-->
+			<EnableDoors>true</EnableDoors>								<!--Enables Doors made from Netherrocks materials. Default Value: true-->
+			<EnableBars>true</EnableBars>								<!--Enables Doors made from Netherrocks materials. Default Value: true-->
+		</Toggle>
+	</Toggles>
+	<Bricks>
+		<Brick Name="Iron Bricks">
+			<Hardness>15.0</Hardness>					<!--The hardness of the block. Default Value: 15.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>20.0</Resistance>				<!--The blast resistance of the block. Default Value: 20.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Brick>
+		<Brick Name="Gold Bricks">
+			<Hardness>15.0</Hardness>					<!--The hardness of the block. Default Value: 15.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>20.0</Resistance>				<!--The blast resistance of the block. Default Value: 20.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Brick>
+		<Brick Name="Diamond Bricks">
+			<Hardness>15.0</Hardness>					<!--The hardness of the block. Default Value: 15.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>20.0</Resistance>				<!--The blast resistance of the block. Default Value: 20.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Brick>
+	</Bricks>
+	<SimpleOresBlocks>
+		<SimpleOresBlock Name="Copper Bricks">
+			<Hardness>15.0</Hardness>					<!--The hardness of the block. Default Value: 15.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>20.0</Resistance>				<!--The blast resistance of the block. Default Value: 20.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</SimpleOresBlock>
+		<SimpleOresBlock Name="Tin Bricks">
+			<Hardness>15.0</Hardness>					<!--The hardness of the block. Default Value: 15.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>20.0</Resistance>				<!--The blast resistance of the block. Default Value: 20.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</SimpleOresBlock>
+		<SimpleOresBlock Name="Mythril Bricks">
+			<Hardness>15.0</Hardness>					<!--The hardness of the block. Default Value: 15.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>20.0</Resistance>				<!--The blast resistance of the block. Default Value: 20.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</SimpleOresBlock>
+		<SimpleOresBlock Name="Adamantium Bricks">
+			<Hardness>15.0</Hardness>					<!--The hardness of the block. Default Value: 15.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>20.0</Resistance>				<!--The blast resistance of the block. Default Value: 20.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</SimpleOresBlock>
+		<SimpleOresBlock Name="Onyx Bricks">
+			<Hardness>15.0</Hardness>					<!--The hardness of the block. Default Value: 15.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>20.0</Resistance>				<!--The blast resistance of the block. Default Value: 20.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</SimpleOresBlock>
+		<SimpleOresBlock Name="Mythril Door">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</SimpleOresBlock>
+		<SimpleOresBlock Name="Adamantium Door">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</SimpleOresBlock>
+		<SimpleOresBlock Name="Onyx Door">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</SimpleOresBlock>
+		<SimpleOresBlock Name="Copper Bars">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</SimpleOresBlock>
+		<SimpleOresBlock Name="Tin Bars">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</SimpleOresBlock>
+		<SimpleOresBlock Name="Mythril Bars">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</SimpleOresBlock>
+		<SimpleOresBlock Name="Adamantium Bars">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</SimpleOresBlock>
+		<SimpleOresBlock Name="Onyx Bars">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</SimpleOresBlock>
+	</SimpleOresBlocks>
+	<FusionBlocks>
+		<FusionBlock Name="Steel Bricks">
+			<Hardness>15.0</Hardness>					<!--The hardness of the block. Default Value: 15.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>20.0</Resistance>				<!--The blast resistance of the block. Default Value: 20.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</FusionBlock>
+		<FusionBlock Name="Bronze Bricks">
+			<Hardness>15.0</Hardness>					<!--The hardness of the block. Default Value: 15.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>20.0</Resistance>				<!--The blast resistance of the block. Default Value: 20.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</FusionBlock>
+		<FusionBlock Name="Thyrium Bricks">
+			<Hardness>15.0</Hardness>					<!--The hardness of the block. Default Value: 15.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>20.0</Resistance>				<!--The blast resistance of the block. Default Value: 20.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</FusionBlock>
+		<FusionBlock Name="Sinisite Bricks">
+			<Hardness>15.0</Hardness>					<!--The hardness of the block. Default Value: 15.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>20.0</Resistance>				<!--The blast resistance of the block. Default Value: 20.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</FusionBlock>
+		<FusionBlock Name="Bronze Door">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</FusionBlock>
+		<FusionBlock Name="Steel Bars">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</FusionBlock>
+		<FusionBlock Name="Bronze Bars">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</FusionBlock>
+		<FusionBlock Name="Thyrium Bars">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</FusionBlock>
+		<FusionBlock Name="Sinisite Bars">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</FusionBlock>
+	</FusionBlocks>
+	<NetherrocksBlocks>
+		<NetherrocksBlock Name="Fyrite Bricks">
+			<Hardness>15.0</Hardness>					<!--The hardness of the block. Default Value: 15.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>20.0</Resistance>				<!--The blast resistance of the block. Default Value: 20.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</NetherrocksBlock>
+		<NetherrocksBlock Name="Malachite Bricks">
+			<Hardness>15.0</Hardness>					<!--The hardness of the block. Default Value: 15.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>20.0</Resistance>				<!--The blast resistance of the block. Default Value: 20.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</NetherrocksBlock>
+		<NetherrocksBlock Name="Ashstone Bricks">
+			<Hardness>15.0</Hardness>					<!--The hardness of the block. Default Value: 15.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>20.0</Resistance>				<!--The blast resistance of the block. Default Value: 20.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</NetherrocksBlock>
+		<NetherrocksBlock Name="Illumenite Bricks">
+			<Hardness>15.0</Hardness>					<!--The hardness of the block. Default Value: 15.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>20.0</Resistance>				<!--The blast resistance of the block. Default Value: 20.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>1.0</LightValue>				<!--The light output value of the block. Default Value: 1.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</NetherrocksBlock>
+		<NetherrocksBlock Name="Dragonstone Bricks">
+			<Hardness>15.0</Hardness>					<!--The hardness of the block. Default Value: 15.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>20.0</Resistance>				<!--The blast resistance of the block. Default Value: 20.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</NetherrocksBlock>
+		<NetherrocksBlock Name="Argonite Bricks">
+			<Hardness>15.0</Hardness>					<!--The hardness of the block. Default Value: 15.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>20.0</Resistance>				<!--The blast resistance of the block. Default Value: 20.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</NetherrocksBlock>
+		<NetherrocksBlock Name="Dragonstone Door">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</NetherrocksBlock>
+		<NetherrocksBlock Name="Fyrite Bars">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</NetherrocksBlock>
+		<NetherrocksBlock Name="Malachite Bars">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</NetherrocksBlock>
+		<NetherrocksBlock Name="Ashstone Bars">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</NetherrocksBlock>
+		<NetherrocksBlock Name="Illumenite Bars">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>1.0</LightValue>				<!--The light output value of the block. Default Value: 1.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</NetherrocksBlock>
+		<NetherrocksBlock Name="Dragonstone Bars">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</NetherrocksBlock>
+		<NetherrocksBlock Name="Argonite Bars">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</NetherrocksBlock>
+	</NetherrocksBlocks>
+</Settings>

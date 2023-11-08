@@ -1,0 +1,33 @@
+#Place the full canonical class name of a Plugin class here to have Project_Alchemy load it.
+#Puttng a # before a line will prevent it from loading, effectively disabling the plugin.
+#Version: 0.0.8
+
+#Immutable plugins that must be enabled or the mod will crash.
+pa.main.plugin.PluginAtelier
+pa.main.plugin.PluginNEI
+
+#Handles Alchemical Flasks and bottling of entities.
+pa.main.plugin.PluginBottles
+
+#Handles shearing of cows, chickens and pigs.
+pa.main.plugin.PluginShearing
+
+#Handles vellum crafting recipes.
+pa.main.plugin.PluginVellum
+pa.main.plugin.PluginMagnet
+pa.main.plugin.PluginWrench
+pa.main.plugin.PluginFreezing
+pa.main.plugin.PluginGrinding
+pa.main.plugin.PluginBombs
+pa.main.plugin.PluginWatch
+pa.main.plugin.PluginSaber
+pa.main.plugin.PluginSponge
+
+
+
+#Mod integration section.
+pa.main.integration.IC2Integration
+pa.main.integration.ForestryIntegration
+pa.main.integration.BuildCraftIntegration
+pa.main.integration.RailCraftIntegration
+pa.main.integration.ThermalIntegration

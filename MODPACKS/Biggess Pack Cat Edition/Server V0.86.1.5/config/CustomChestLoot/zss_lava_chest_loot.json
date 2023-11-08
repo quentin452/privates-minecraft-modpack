@@ -1,0 +1,63 @@
+{
+  "_name": "zss.lava_chest_loot",
+  "min": 1,
+  "max": 2,
+  "loot": [
+    {
+      "weight": 1,
+      "id": "minecraft:nether_wart",
+      "damage": 0,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 2,
+      "id": "minecraft:potion",
+      "damage": 8195,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 3,
+      "id": "minecraft:fire_charge",
+      "damage": 0,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 3,
+      "id": "zeldaswordskills:zss.arrow_bomb_fire",
+      "damage": 0,
+      "min": 2,
+      "max": 5
+    },
+    {
+      "weight": 10,
+      "id": "zeldaswordskills:zss.bomb",
+      "damage": 2,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 1,
+      "id": "zeldaswordskills:zss.goron_tunic_helm",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "zeldaswordskills:zss.goron_tunic_chest",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "zeldaswordskills:zss.goron_tunic_legs",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    }
+  ]
+}

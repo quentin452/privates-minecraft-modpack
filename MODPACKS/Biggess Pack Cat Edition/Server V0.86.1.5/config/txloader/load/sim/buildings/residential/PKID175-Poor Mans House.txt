@@ -1,0 +1,5 @@
+3x2x3
+A=0:0;C=3:0;AU=FarkDerpMan;
+$ACC!C
+CACCAC
+ACAACA

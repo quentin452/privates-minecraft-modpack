@@ -1,0 +1,40 @@
+[
+  {
+    "skills": [
+      {
+        "skill": "Attack",
+        "level": 9
+      },
+      {
+        "skill": "Strength",
+        "level": 13
+      },
+      {
+        "skill": "Defence",
+        "level": 8
+      },
+      {
+        "skill": "Magic",
+        "level": 1
+      },
+      {
+        "skill": "Ranged",
+        "level": 1
+      },
+      {
+        "skill": "Prayer",
+        "level": 1
+      },
+      {
+        "skill": "Constitution",
+        "level": 42
+      },
+      {
+        "skill": "Summoning",
+        "level": 1
+      }
+    ],
+    "entityID": "Zombie",
+    "weight": 1.0
+  }
+]

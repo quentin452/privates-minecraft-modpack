@@ -1,0 +1,162 @@
+[
+  {
+    "inputItem": "cobblestone:1",
+    "outputItem": "minecraft:gravel:0:1",
+    "experience": 0.1
+  },
+  {
+    "inputItem": "minecraft:gravel:0:1",
+    "outputItem": "minecraft:sand:0:1",
+    "experience": 0.1
+  },
+  {
+    "inputItem": "stone:1",
+    "outputItem": "cobblestone:1",
+    "experience": 0.1
+  },
+  {
+    "inputItem": "minecraft:stonebrick:-1:1",
+    "outputItem": "cobblestone:1",
+    "experience": 0.1
+  },
+  {
+    "inputItem": "oreQuartz:1",
+    "outputItem": "gemQuartz:3",
+    "experience": 0.3
+  },
+  {
+    "inputItem": "denseoreQuartz:1",
+    "outputItem": "gemQuartz:9",
+    "experience": 0.9
+  },
+  {
+    "inputItem": "oreCoal:1",
+    "outputItem": "minecraft:coal:0:3",
+    "experience": 0.3
+  },
+  {
+    "inputItem": "oreNetherCoal:1",
+    "outputItem": "minecraft:coal:0:6",
+    "experience": 0.6
+  },
+  {
+    "inputItem": "denseoreCoal:1",
+    "outputItem": "minecraft:coal:0:9",
+    "experience": 0.9
+  },
+  {
+    "inputItem": "oreLapis:1",
+    "outputItem": "gemLapis:8",
+    "experience": 0.3
+  },
+  {
+    "inputItem": "oreNetherLapis:1",
+    "outputItem": "gemLapis:16",
+    "experience": 0.6
+  },
+  {
+    "inputItem": "denseoreLapis:1",
+    "outputItem": "gemLapis:24",
+    "experience": 0.9
+  },
+  {
+    "inputItem": "denseoreDiamond:1",
+    "outputItem": "gemDiamond:6",
+    "experience": 3.0
+  },
+  {
+    "inputItem": "oreRedstone:1",
+    "outputItem": "dustRedstone:8",
+    "experience": 0.3
+  },
+  {
+    "inputItem": "oreNetherRedstone:1",
+    "outputItem": "dustRedstone:16",
+    "experience": 0.6
+  },
+  {
+    "inputItem": "denseoreRedstone:1",
+    "outputItem": "dustRedstone:24",
+    "experience": 0.9
+  },
+  {
+    "inputItem": "denseoreEmerald:1",
+    "outputItem": "gemEmerald:6",
+    "experience": 3.0
+  },
+  {
+    "inputItem": "minecraft:quartz_block:-1:1",
+    "outputItem": "gemQuartz:4",
+    "experience": 0.3
+  },
+  {
+    "inputItem": "glowstone:1",
+    "outputItem": "dustGlowstone:4",
+    "experience": 0.3
+  },
+  {
+    "inputItem": "minecraft:blaze_rod:0:1",
+    "outputItem": "minecraft:blaze_powder:0:4",
+    "experience": 0.4
+  },
+  {
+    "inputItem": "minecraft:bone:0:1",
+    "outputItem": "minecraft:dye:15:6",
+    "experience": 0.1
+  },
+  {
+    "inputItem": "minecraft:wool:-1:1",
+    "outputItem": "minecraft:string:0:4",
+    "experience": 0.1
+  },
+  {
+    "inputItem": "minecraft:red_flower:0:1",
+    "outputItem": "minecraft:dye:1:3",
+    "experience": 0.1
+  },
+  {
+    "inputItem": "minecraft:red_flower:4:1",
+    "outputItem": "minecraft:dye:1:3",
+    "experience": 0.1
+  },
+  {
+    "inputItem": "minecraft:red_flower:3:1",
+    "outputItem": "minecraft:dye:7:3",
+    "experience": 0.1
+  },
+  {
+    "inputItem": "minecraft:red_flower:6:1",
+    "outputItem": "minecraft:dye:7:3",
+    "experience": 0.1
+  },
+  {
+    "inputItem": "minecraft:red_flower:8:1",
+    "outputItem": "minecraft:dye:7:3",
+    "experience": 0.1
+  },
+  {
+    "inputItem": "minecraft:red_flower:7:1",
+    "outputItem": "minecraft:dye:9:3",
+    "experience": 0.1
+  },
+  {
+    "inputItem": "minecraft:yellow_flower:0:1",
+    "outputItem": "minecraft:dye:11:3",
+    "experience": 0.1
+  },
+  {
+    "inputItem": "minecraft:red_flower:1:1",
+    "outputItem": "minecraft:dye:12:3",
+    "experience": 0.1
+  },
+  {
+    "inputItem": "minecraft:red_flower:2:1",
+    "outputItem": "minecraft:dye:13:3",
+    "experience": 0.1
+  },
+  {
+    "inputItem": "minecraft:red_flower:5:1",
+    "outputItem": "minecraft:dye:14:3",
+    "experience": 0.1
+  }
+]

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+	<Toggles>
+		<Toggle Name="Fusion Toggles">
+			<EnableCustomRecipes>false</EnableCustomRecipes>		<!--(NYI) Allows custom Fusion Furnace recipes Default Value: false-->
+			<EnableExtraChunkRecipes>false</EnableExtraChunkRecipes><!--Enables extra chunk-combining recipes. Default Value: false-->
+			<EnableUpdateChecker>true</EnableUpdateChecker>			<!--Enables the update checker for Fusion. Default Value: true-->
+		</Toggle>
+		<Toggle Name="Content Toggles">
+			<EnableSimpleOres>true</EnableSimpleOres>				<!--Enables SimpleOres-based content. Default Value: true-->
+			<EnableNetherrocks>true</EnableNetherrocks>				<!--Enables Netherrocks-based content. Default Value: true-->
+		</Toggle>
+	</Toggles>
+	<Blocks>
+		<Block Name="Steel Block">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Block>
+		<Block Name="Bronze Block">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Block>
+		<Block Name="Thyrium Block">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Block>
+		<Block Name="Sinisite Block">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Block>
+		<Block Name="Fusion Furnace">
+			<Hardness>3.5</Hardness>					<!--The hardness of the block. Default Value: 3.5, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>10.0</Resistance>				<!--The blast resistance of the block. Default Value: 10.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>1.0</LightValue>				<!--The light output value of the block. Default Value: 1.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Block>
+	</Blocks>
+	<Tools>
+		<Tool Name="Steel Tools">
+			<Uses>700</Uses>							<!--The number of uses the tool has. Default Value: 700, Minimum Value: 0, Maximum Value: 32000-->
+			<MiningLevel>2</MiningLevel>				<!--The mining level (pickaxe level) of the tool. Default Value: 2, Minimum Value: 0, Maximum Value: 255-->
+			<MiningSpeed>7.5</MiningSpeed>				<!--The speed at which the tools breaks the appropriate blocks. Default Value: 7.5, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<DamageVsEntity>3.0</DamageVsEntity>		<!--The damage the tool inflicts on entities. Default Value: 3.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Enchantability>24</Enchantability>			<!--The enchantability of the tool. Default Value: 24, Minimum Value: 0, Maximum Value: 255-->
+		</Tool>
+		<Tool Name="Bronze Tools">
+			<Uses>800</Uses>							<!--The number of uses the tool has. Default Value: 800, Minimum Value: 0, Maximum Value: 32000-->
+			<MiningLevel>2</MiningLevel>				<!--The mining level (pickaxe level) of the tool. Default Value: 2, Minimum Value: 0, Maximum Value: 255-->
+			<MiningSpeed>9.0</MiningSpeed>				<!--The speed at which the tools breaks the appropriate blocks. Default Value: 9.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<DamageVsEntity>2.0</DamageVsEntity>		<!--The damage the tool inflicts on entities. Default Value: 2.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Enchantability>7</Enchantability>			<!--The enchantability of the tool. Default Value: 7, Minimum Value: 0, Maximum Value: 255-->
+		</Tool>
+		<Tool Name="Thyrium Tools">
+			<Uses>2000</Uses>							<!--The number of uses the tool has. Default Value: 2000, Minimum Value: 0, Maximum Value: 32000-->
+			<MiningLevel>3</MiningLevel>				<!--The mining level (pickaxe level) of the tool. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<MiningSpeed>22.0</MiningSpeed>				<!--The speed at which the tools breaks the appropriate blocks. Default Value: 22.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<DamageVsEntity>6.0</DamageVsEntity>		<!--The damage the tool inflicts on entities. Default Value: 6.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Enchantability>28</Enchantability>			<!--The enchantability of the tool. Default Value: 28, Minimum Value: 0, Maximum Value: 255-->
+		</Tool>
+		<Tool Name="Sinisite Tools">
+			<Uses>4100</Uses>							<!--The number of uses the tool has. Default Value: 4100, Minimum Value: 0, Maximum Value: 32000-->
+			<MiningLevel>5</MiningLevel>				<!--The mining level (pickaxe level) of the tool. Default Value: 5, Minimum Value: 0, Maximum Value: 255-->
+			<MiningSpeed>18.0</MiningSpeed>				<!--The speed at which the tools breaks the appropriate blocks. Default Value: 18.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<DamageVsEntity>8.0</DamageVsEntity>		<!--The damage the tool inflicts on entities. Default Value: 8.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Enchantability>11</Enchantability>			<!--The enchantability of the tool. Default Value: 11, Minimum Value: 0, Maximum Value: 255-->
+		</Tool>
+		<Tool Name="Thyrium Bow">
+			<DamageModifier>5.0</DamageModifier>		<!--The damage multiplier of the Thyrium Bow (versus vanilla bow). Default Value: 5.0, Minimum Value: 0.0, Maximum Value: 32000-->
+			<ZoomAmount>0.35</ZoomAmount>				<!--The zoom amount of the Thyrium Bow. Default Value: 0.35, Minimum Value: 0.0, Maximum Value: 32000-->
+		</Tool>
+		<Tool Name="Sinisite Bow">
+			<DamageModifier>6.0</DamageModifier>		<!--The damage multiplier of the Sinisite Bow (versus vanilla bow). Default Value: 6.0, Minimum Value: 0.0, Maximum Value: 32000-->
+			<KnockbackAmount>2</KnockbackAmount>		<!--The knockback level of the Sinisite Bow. Default Value: 2, Minimum Value: 0, Maximum Value: 255-->
+		</Tool>
+	</Tools>
+	<Armor>
+		<Armor Name="Steel Armor">
+			<Durability>20</Durability>					<!--How much damage the armor pieces can sustain before breaking. Default Value: 20, Minimum Value: 0, Maximum Value: 32000-->
+			<HelmetReduction>3</HelmetReduction>		<!--How much the helmet will reduce incoming damage by. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<ChestplateReduction>6</ChestplateReduction><!--How much the chestplate will reduce incoming damage by. Default Value: 6, Minimum Value: 0, Maximum Value: 255-->
+			<LeggingsReduction>5</LeggingsReduction>	<!--How much the leggings will reduce incoming damage by. Default Value: 5, Minimum Value: 0, Maximum Value: 255-->
+			<BootsReduction>3</BootsReduction>			<!--How much the boots will reduce incoming damage by. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<Enchantability>14</Enchantability>			<!--The enchantability of the armor. Default Value: 14, Minimum Value: 0, Maximum Value: 32000-->
+		</Armor>
+		<Armor Name="Bronze Armor">
+			<Durability>16</Durability>					<!--How much damage the armor pieces can sustain before breaking. Default Value: 16, Minimum Value: 0, Maximum Value: 32000-->
+			<HelmetReduction>3</HelmetReduction>		<!--How much the helmet will reduce incoming damage by. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<ChestplateReduction>5</ChestplateReduction><!--How much the chestplate will reduce incoming damage by. Default Value: 5, Minimum Value: 0, Maximum Value: 255-->
+			<LeggingsReduction>3</LeggingsReduction>	<!--How much the leggings will reduce incoming damage by. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<BootsReduction>1</BootsReduction>			<!--How much the boots will reduce incoming damage by. Default Value: 1, Minimum Value: 0, Maximum Value: 255-->
+			<Enchantability>7</Enchantability>			<!--The enchantability of the armor. Default Value: 7, Minimum Value: 0, Maximum Value: 32000-->
+		</Armor>
+		<Armor Name="Thyrium Armor">
+			<Durability>39</Durability>					<!--How much damage the armor pieces can sustain before breaking. Default Value: 39, Minimum Value: 0, Maximum Value: 32000-->
+			<HelmetReduction>4</HelmetReduction>		<!--How much the helmet will reduce incoming damage by. Default Value: 4, Minimum Value: 0, Maximum Value: 255-->
+			<ChestplateReduction>7</ChestplateReduction><!--How much the chestplate will reduce incoming damage by. Default Value: 7, Minimum Value: 0, Maximum Value: 255-->
+			<LeggingsReduction>6</LeggingsReduction>	<!--How much the leggings will reduce incoming damage by. Default Value: 6, Minimum Value: 0, Maximum Value: 255-->
+			<BootsReduction>3</BootsReduction>			<!--How much the boots will reduce incoming damage by. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<Enchantability>28</Enchantability>			<!--The enchantability of the armor. Default Value: 28, Minimum Value: 0, Maximum Value: 32000-->
+		</Armor>
+		<Armor Name="Sinisite Armor">
+			<Durability>56</Durability>					<!--How much damage the armor pieces can sustain before breaking. Default Value: 56, Minimum Value: 0, Maximum Value: 32000-->
+			<HelmetReduction>5</HelmetReduction>		<!--How much the helmet will reduce incoming damage by. Default Value: 5, Minimum Value: 0, Maximum Value: 255-->
+			<ChestplateReduction>8</ChestplateReduction><!--How much the chestplate will reduce incoming damage by. Default Value: 8, Minimum Value: 0, Maximum Value: 255-->
+			<LeggingsReduction>6</LeggingsReduction>	<!--How much the leggings will reduce incoming damage by. Default Value: 6, Minimum Value: 0, Maximum Value: 255-->
+			<BootsReduction>5</BootsReduction>			<!--How much the boots will reduce incoming damage by. Default Value: 5, Minimum Value: 0, Maximum Value: 255-->
+			<Enchantability>11</Enchantability>			<!--The enchantability of the armor. Default Value: 11, Minimum Value: 0, Maximum Value: 32000-->
+		</Armor>
+	</Armor>
+</Settings>

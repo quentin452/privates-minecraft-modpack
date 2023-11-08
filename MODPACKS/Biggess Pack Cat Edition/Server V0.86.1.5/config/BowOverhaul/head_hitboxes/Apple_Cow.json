@@ -1,0 +1,19 @@
+{
+  "_name": "Apple Cow",
+  "scale": 1.0,
+  "child_scale": 1.0,
+  "size": [
+    0.5,
+    0.3,
+    0.4
+  ],
+  "offset": [
+    0.0,
+    -0.1,
+    1.0
+  ],
+  "head_damage": 1.0,
+  "body_damage": 0.0,
+  "head_multiplier": 2.0,
+  "body_multiplier": 1.0
+}

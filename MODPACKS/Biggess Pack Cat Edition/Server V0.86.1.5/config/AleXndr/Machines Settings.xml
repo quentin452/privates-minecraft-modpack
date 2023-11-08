@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+	<ModSettings>
+		<ModSetting Name="Machines Toggles">
+			<EnableUpdateChecker>true</EnableUpdateChecker>			<!--Enables the update checker for Machines. Default Value: true-->
+			<EnableColoredGUIs>true</EnableColoredGUIs>				<!--Enables colored GUIs for Machines. Default Value: true-->
+		</ModSetting>
+		<ModSetting Name="Content Toggles">
+			<EnableMythrilFurnace>true</EnableMythrilFurnace>		<!--Enables the Mythril Furnace. Default Value: true-->
+			<EnableOnyxFurnace>true</EnableOnyxFurnace>				<!--Enables the Onyx Furnace. Default Value: true-->
+		</ModSetting>
+	</ModSettings>
+	<Blocks>
+		<Block Name="Mythril Furnace">
+			<Hardness>3.5</Hardness>					<!--The hardness of the block. Default Value: 3.5, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>10.0</Resistance>				<!--The blast resistance of the block. Default Value: 10.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>1.0</LightValue>				<!--The light output value of the block. Default Value: 1.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+			<FuelMultiplier>2</FuelMultiplier>			<!--Fuel length multiplier for the Mythril Furnace. Default Value: 2, Maximum Value: 255-->
+		</Block>
+		<Block Name="Onyx Furnace">
+			<Hardness>3.5</Hardness>					<!--The hardness of the block. Default Value: 3.5, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>10.0</Resistance>				<!--The blast resistance of the block. Default Value: 10.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>1.0</LightValue>				<!--The light output value of the block. Default Value: 1.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+			<YieldChance>33</YieldChance>				<!--Chance for the Onyx Furnace to yield an extra result. Default Value: 33, Minimum Value: 0, Maximum Value: 100-->
+			<YieldAmount>1</YieldAmount>				<!--Number of extra results the Onyx Furnace can yield Default Value: 1, Minimum Value: 0, Maximum Value: 63-->
+		</Block>
+	</Blocks>
+</Settings>

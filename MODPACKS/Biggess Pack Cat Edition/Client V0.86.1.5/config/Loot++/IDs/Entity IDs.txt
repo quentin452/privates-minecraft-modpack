@@ -1,0 +1,2948 @@
+## Entity IDs ##
+3DManeuverGear.dart
+AWWayofTime.AirElemental
+AWWayofTime.BileDemon
+AWWayofTime.BoulderFist
+AWWayofTime.EarthElemental
+AWWayofTime.FallenAngel
+AWWayofTime.FireElemental
+AWWayofTime.HolyElemental
+AWWayofTime.IceDemon
+AWWayofTime.LowerGuardian
+AWWayofTime.MinorDemonGrunt
+AWWayofTime.MinorDemonGruntEarth
+AWWayofTime.MinorDemonGruntFire
+AWWayofTime.MinorDemonGruntGuardian
+AWWayofTime.MinorDemonGruntGuardianEarth
+AWWayofTime.MinorDemonGruntGuardianFire
+AWWayofTime.MinorDemonGruntGuardianIce
+AWWayofTime.MinorDemonGruntGuardianWind
+AWWayofTime.MinorDemonGruntIce
+AWWayofTime.MinorDemonGruntWind
+AWWayofTime.Shade
+AWWayofTime.ShadeElemental
+AWWayofTime.SmallEarthGolem
+AWWayofTime.WaterElemental
+AWWayofTime.WingedFireDemon
+AWWayofTime.bloodLightProjectile
+AWWayofTime.bookEntityItem
+AWWayofTime.catalogueEntityItem
+AWWayofTime.energyBazookaMain
+AWWayofTime.energyBazookaSecondary
+AWWayofTime.energyBlastProjectile
+AWWayofTime.explosionProjectile
+AWWayofTime.fireProjectile
+AWWayofTime.holyProjectile
+AWWayofTime.iceProjectile
+AWWayofTime.lightningBoltProjectile
+AWWayofTime.meteor
+AWWayofTime.mudProjectile
+AWWayofTime.particleBeam
+AWWayofTime.spellProjectile
+AWWayofTime.teleportProjectile
+AWWayofTime.waterProjectile
+AWWayofTime.windGustProjectile
+Acid
+AgriCraft.leash
+AgriCraft.villagerFarmer
+Akazuki.ayesasori
+Akazuki.plevok
+Alien
+Alosaurus
+Ant
+Apple Cow
+ArchimedesShipsPlus.attachment.seat
+ArchimedesShipsPlus.parachute
+ArchimedesShipsPlus.shipmod
+Arrow
+Attack Squid
+Avaritia.EndestPearl
+Avaritia.GapingVoid
+Avaritia.HeavenArrow
+Avaritia.HeavenSubArrow
+Baby Dragon
+Baryonyx
+Basalz
+Basilisk
+Bat
+BatBike
+BattleTowers.Golem Fireball
+Battletower Golem
+Beaver
+Bee
+BerthaHit
+BiblioCraft.SeatEntity
+Bird
+Blaze
+Blitz
+Blizz
+BluePuppy
+Boat
+Bomb-Omb
+Botania.botania:babylonWeapon
+Botania.botania:corporeaSpark
+Botania.botania:doppleganger
+Botania.botania:enderAirBottle
+Botania.botania:fallingStar
+Botania.botania:flameRing
+Botania.botania:magicLandmine
+Botania.botania:magicMissile
+Botania.botania:manaBurst
+Botania.botania:manaStorm
+Botania.botania:pinkWither
+Botania.botania:pixie
+Botania.botania:playerMover
+Botania.botania:poolMinecart
+Botania.botania:signalFlare
+Botania.botania:spark
+Botania.botania:thornChakram
+Botania.botania:thrownItem
+Botania.botania:vineBall
+BowOverhaul.OverhauledArrow
+Boyfriend
+Brutalfly
+BuildCraft|Robotics.bcRobot
+BuildCraft|Silicon.bcPackageThrowable
+BunnyBike
+Butterfly
+CCreeper
+Calculator.BabyGrenade
+Calculator.Grenade
+Calculator.Soil
+Calculator.Stone
+Camarasaurus
+CarpentersBlocks.CarpentersTile
+Cassowary
+CaterKiller
+CaveFisher
+CaveSpider
+Cephadrome
+Chicken
+ChickenBike
+ChineseDragonBike
+Chipmunk
+ChocoboBike
+ChocolateCow
+ChocolateCreeper
+Cliff Racer
+Cloud Shark
+Coin
+Cow
+CowBike
+Crab
+Creeper
+Creeper-Spider
+CreeperBike
+CreeperChicks.CreeperChick
+CreeperChicks.Entity_creep_Egg
+Creeping Horror
+Cricket
+Criminal
+Cryolophosaurus
+Crystal Apple Cow
+Crystal Urchin
+CustomFishHook
+DeadIrukandji
+DefaultMobPack.Familiar Chicken
+DefaultMobPack.Familiar Enderman
+DefaultMobPack.Familiar IronGolem
+DefaultMobPack.Familiar Ocelot
+DefaultMobPack.Familiar Skeleton
+DefaultMobPack.Familiar SnowGolem
+DefaultMobPack.Familiar Spider
+DefaultMobPack.Familiar SpiderJockey
+DefaultMobPack.Familiar Squid
+DinoBike
+DinoBike2
+DinoBike3
+DinoBike4
+DiseaseCraft.rat
+DraconicEvolution.Arrow
+DraconicEvolution.ChaosBolt
+DraconicEvolution.ChaosCrystal
+DraconicEvolution.ChaosGuardian
+DraconicEvolution.CustomArrow
+DraconicEvolution.Dragon Heart Item
+DraconicEvolution.DragonProjectile
+DraconicEvolution.Ender Arrow
+DraconicEvolution.EnderDragon
+DraconicEvolution.EntityChaosEnergyVortex
+DraconicEvolution.Persistent Item
+Dragon
+DragonBike
+Dragonfly
+Dungeon Beast
+DynamicCraft.Aqua Ball
+DynamicCraft.Fire Ball
+Easter Bunny
+EggyGoodness.diamondGoldenEgg
+EggyGoodness.emeraldGoldenEgg
+EggyGoodness.goldenChicken
+EggyGoodness.goldenEgg
+Emperor Scorpion
+Enchanted Golden Apple Cow
+Ender Knight
+Ender Reaper
+EnderCrystal
+EnderDragon
+EnderIO.weather_rocket
+EnderPuppy
+Enderman
+EndermanBike
+Entity Sasori
+Entity Sasori Phase 2
+EntityAmethystMonster
+EntityBandit
+EntityBlackKnight
+EntityCage
+EntityEarthGolem
+EntityGoblin
+EntityHorse
+EntityLavaKnight
+EntityNecro
+EntityNetherSoul
+EntitySapientWarrior
+EntitySkeletonKnight
+EntitySkeletonWarrior
+EntitySpirit
+EntityStoneGolem
+EntityThrownItem
+EntityThrownRock
+EntityTroll
+EntityVampire
+EntityVoidFiend
+ExtendedFamPack.Familiar 1UP
+ExtendedFamPack.Familiar Cube
+ExtendedFamPack.Familiar Fairy
+ExtendedFamPack.Familiar Navi
+ExtendedFamPack.Familiar Rana
+EyeOfEnderSignal
+Fairy
+FakeChairEntity
+FallingSand
+FamiliarsAPI.Projectile
+Fireball
+Firefly
+FireworksRocketEntity
+Flounder
+FlowerBike
+Forestry.butterflyGE
+Forestry.cart.apiary
+Forestry.cart.beehouse
+Frog
+Gazelle
+GekosLasers.projectileLaserBlack
+GekosLasers.projectileLaserBlue
+GekosLasers.projectileLaserBrown
+GekosLasers.projectileLaserCyan
+GekosLasers.projectileLaserGray
+GekosLasers.projectileLaserGreen
+GekosLasers.projectileLaserLightBlue
+GekosLasers.projectileLaserLightGray
+GekosLasers.projectileLaserLime
+GekosLasers.projectileLaserMagenta
+GekosLasers.projectileLaserOrange
+GekosLasers.projectileLaserPink
+GekosLasers.projectileLaserPurple
+GekosLasers.projectileLaserRed
+GekosLasers.projectileLaserWhite
+GekosLasers.projectileLaserYellow
+Ghast
+GhastBike
+Ghost
+Ghost Pumpkin Skelly
+Giant
+Girlfriend
+Gold Fish
+Golden Apple Cow
+GreenPuppy
+GrimoireOfGaia.Anubis
+GrimoireOfGaia.Banshee
+GrimoireOfGaia.Baphomet
+GrimoireOfGaia.Bone Knight
+GrimoireOfGaia.Butler
+GrimoireOfGaia.Centaur
+GrimoireOfGaia.Cobble Golem
+GrimoireOfGaia.Cobblestone Golem
+GrimoireOfGaia.Cockatrice
+GrimoireOfGaia.Creep
+GrimoireOfGaia.Creeper Girl
+GrimoireOfGaia.Cyan Flower
+GrimoireOfGaia.Cyclops
+GrimoireOfGaia.Dhampir
+GrimoireOfGaia.Dryad
+GrimoireOfGaia.Dullahan
+GrimoireOfGaia.Ender Dragon Girl
+GrimoireOfGaia.Ender Eye
+GrimoireOfGaia.Ender Girl
+GrimoireOfGaia.Flesh Lich
+GrimoireOfGaia.FutakuchiOnna
+GrimoireOfGaia.Gryphon
+GrimoireOfGaia.Harpy
+GrimoireOfGaia.Holstaurus
+GrimoireOfGaia.Hunter
+GrimoireOfGaia.Jorogumo
+GrimoireOfGaia.Kobold
+GrimoireOfGaia.Magic
+GrimoireOfGaia.Mandragora
+GrimoireOfGaia.Mermaid
+GrimoireOfGaia.Mimic
+GrimoireOfGaia.Minotaur
+GrimoireOfGaia.Minotaurus
+GrimoireOfGaia.Naga
+GrimoireOfGaia.NineTails
+GrimoireOfGaia.Sahuagin
+GrimoireOfGaia.Satyr
+GrimoireOfGaia.Selkie
+GrimoireOfGaia.Shaman
+GrimoireOfGaia.Sharko
+GrimoireOfGaia.Siren
+GrimoireOfGaia.Slime Girl
+GrimoireOfGaia.Sludge Girl
+GrimoireOfGaia.Small Fireball
+GrimoireOfGaia.Sphinx
+GrimoireOfGaia.Spriggan
+GrimoireOfGaia.Succubus
+GrimoireOfGaia.Swamper
+GrimoireOfGaia.Trader
+GrimoireOfGaia.Valkyrie
+GrimoireOfGaia.Vampire
+GrimoireOfGaia.Werecat
+GrimoireOfGaia.Witch
+GrimoireOfGaia.Wither Cow
+GrimoireOfGaia.Yeti
+GrimoireOfGaia.Yuki-Onna
+Growthcraft|Bamboo.bambooRaft
+Guardian
+Hammerhead
+HardcoreEnderExpansion.AngryEnderman
+HardcoreEnderExpansion.BabyEnderman
+HardcoreEnderExpansion.BlockHomelandCache
+HardcoreEnderExpansion.Dragon
+HardcoreEnderExpansion.EnderDemon
+HardcoreEnderExpansion.EnderEye
+HardcoreEnderExpansion.EnderGuardian
+HardcoreEnderExpansion.Endermage
+HardcoreEnderExpansion.EnhancedTNT
+HardcoreEnderExpansion.FallingDragonEgg
+HardcoreEnderExpansion.FallingObsidian
+HardcoreEnderExpansion.FireFiend
+HardcoreEnderExpansion.FireGolem
+HardcoreEnderExpansion.ForestGhost
+HardcoreEnderExpansion.HauntedMiner
+HardcoreEnderExpansion.HomelandEnderman
+HardcoreEnderExpansion.InfestedBat
+HardcoreEnderExpansion.ItemAltar
+HardcoreEnderExpansion.ItemDragonEgg
+HardcoreEnderExpansion.ItemEndPowder
+HardcoreEnderExpansion.ItemIgneousRock
+HardcoreEnderExpansion.ItemInstabilityOrb
+HardcoreEnderExpansion.LightningBoltDemon
+HardcoreEnderExpansion.LightningBoltSafe
+HardcoreEnderExpansion.Louse
+HardcoreEnderExpansion.ParalyzedEnderman
+HardcoreEnderExpansion.ProjectileCorruptedEnergy
+HardcoreEnderExpansion.ProjectileCurse
+HardcoreEnderExpansion.ProjectileDragonFireball
+HardcoreEnderExpansion.ProjectileEnhancedEnderPearl
+HardcoreEnderExpansion.ProjectileExpBottleConsistent
+HardcoreEnderExpansion.ProjectileFiendFireball
+HardcoreEnderExpansion.ProjectileFlamingBall
+HardcoreEnderExpansion.ProjectileGolemFireball
+HardcoreEnderExpansion.ProjectileMinerShot
+HardcoreEnderExpansion.ProjectilePotionOfInstability
+HardcoreEnderExpansion.ProjectileSacredWand
+HardcoreEnderExpansion.ProjectileSpatialDash
+HardcoreEnderExpansion.ScorchedLens
+HardcoreEnderExpansion.TechnicalBiomeInteraction
+HardcoreEnderExpansion.TechnicalCurseBlock
+HardcoreEnderExpansion.TechnicalCurseEntity
+HardcoreEnderExpansion.TechnicalPuzzleChain
+HardcoreEnderExpansion.TechnicalPuzzleSolved
+HardcoreEnderExpansion.TechnicalVoidChest
+HardcoreEnderExpansion.TempleEgg
+HardcoreEnderExpansion.VampireBat
+HelperToolsID.Bomb
+HelperToolsID.CrossBolt
+HelperToolsID.DirtBomb
+HelperToolsID.DynamiteBolt
+HelperToolsID.GravelBomb
+HelperToolsID.RedTorchBolt
+HelperToolsID.SandBomb
+HelperToolsID.TorchBolt
+Hercules Beetle
+HerobrineFamPack.Familiar Chuck Norris
+HerobrineFamPack.Familiar Herobrine
+HerobrineFamPack.Familiar Notch
+HerobrinePuppy
+Hoverboard
+Hydrolisc
+IC2.BoatCarbon
+IC2.BoatElectric
+IC2.BoatRubber
+IC2.Dynamite
+IC2.Itnt
+IC2.MiningLaser
+IC2.Nuke
+IC2.Particle
+IC2.StickyDynamite
+IceBall
+InkSack
+IronmanBike
+Irukandji
+IrukandjiArrow
+Island
+IslandToo
+Item
+ItemFrame
+Jeffery
+Jumpy Bug
+KingHead
+Kyuubi
+Large Worm
+LaserBall
+LavaSlime
+Leaf Monster
+LeashKnot
+Leonopteryx
+Lizard
+LookingGlass.lookingglass.portal
+Lurking Terror
+Mantis
+Medium Worm
+Mekanism.BabySkeleton
+Mekanism.Balloon
+Mekanism.Flame
+Mekanism.ObsidianTNT
+Mekanism.Robit
+Metallurgy.explosiveEntity
+MineFactoryReloaded.DebugTracker
+MineFactoryReloaded.FishingRod
+MineFactoryReloaded.Item
+MineFactoryReloaded.Needle
+MineFactoryReloaded.Rocket
+MineFactoryReloaded.SafariNet
+MineFactoryReloaded.mfrEntityPinkSlime
+MinecartChest
+MinecartCommandBlock
+MinecartFurnace
+MinecartHopper
+MinecartRideable
+MinecartSpawner
+MinecartTNT
+Mob
+Mobzilla
+MobzillaHead
+Molenoid
+Monster
+Mosquito
+Moth
+Mothra
+MushroomCow
+MutantCreatures.Chemical X
+MutantCreatures.CreeperMinion
+MutantCreatures.CreeperMinionEgg
+MutantCreatures.EnderBlock
+MutantCreatures.EndermanClone
+MutantCreatures.EndersoulFragment
+MutantCreatures.MutantCreeper
+MutantCreatures.MutantEnderman
+MutantCreatures.MutantSkeleton
+MutantCreatures.MutantSnowGolem
+MutantCreatures.MutantZombie
+MutantCreatures.SkeletonPart
+MutantCreatures.SkeletonShot
+MutantCreatures.SkullSpirit
+MutantCreatures.SnowGolemBlock
+MutantCreatures.SpiderPig
+MutantCreatures.ZombieMinion
+Nastysaurus
+Nightmare
+NotchBike
+OcelotBike
+OcelotBikeChild
+OpenBlocks.Cartographer
+OpenBlocks.EntityItemProjectile
+OpenBlocks.GoldenEye
+OpenBlocks.Hang Glider
+OpenBlocks.Luggage
+OpenBlocks.Magnet
+OpenBlocks.MiniMe
+OpenBlocks.MountedBlock
+OpenBlocks.Player-Magnet
+OpenBlocks.XPOrbNoFly
+OpenComputers.Drone
+OpenMods.Block
+Ostrich
+Ozelot
+Painting
+Peacock
+Pig
+PigBike
+PigZombie
+Pistronics2.EntityPetrifyArrow
+PneumaticCraft.Chopper Plant Seeds Entity
+PneumaticCraft.Drone
+PneumaticCraft.Potion Cloud
+PneumaticCraft.Ring
+PneumaticCraft.Vortex
+PneumaticCraft.logisticDrone
+Pointysaurus
+PonyBike
+PonyFlyingBike
+PortalGun.portal_entityapg
+PortalGun.portal_entityball
+PortalGun.portal_entityblock
+PortalGun.portal_entitybullet
+PortalGun.portal_entitycube
+PortalGun.portal_entityhep
+PortalGun.portal_entityradio
+PortalGun.portal_entityturret
+PrimedTnt
+Puppet
+Puppet Kazekage 3
+Puppet2
+PurplePower
+PurplePuppy
+QueenHead
+Rainbow Ant
+RandomThings.HealingOrb
+RandomThings.bloodmoonCircle
+RandomThings.playerSoul
+RandomThings.reviveCircle
+RandomThings.spirit
+Rat
+Red Ant
+RedPuppy
+ReindeerBike
+Robo-Gunner
+Robo-Pounder
+Robo-Sniper
+Robo-Warrior
+Robot Red Ant
+Robot Spider
+Rock
+RopesPlus.ConfusingArrow
+RopesPlus.DirtArrow
+RopesPlus.ExplodingArrow
+RopesPlus.FireArrow
+RopesPlus.FreeFormRope
+RopesPlus.FrostArrow
+RopesPlus.GrapplingHook
+RopesPlus.PenetratingArrow
+RopesPlus.RedstonetorchArrow
+RopesPlus.RopeArrow
+RopesPlus.SeedArrow
+RopesPlus.SlimeArrow
+RopesPlus.TorchArrow
+RopesPlus.WarpArrow
+Rotator
+Rubber Ducky
+Ruby Bird
+SGCraft.Stargate Iris
+SaltMod.entityRainmaker
+SaltMod.entityRainmakerDust
+Scorpion
+Sea Monster
+Sea Viper
+Sheep
+SheepBike
+Shoes
+SilentPets.pet.cat
+SilentPets.pet.chicken
+SilentPets.pet.cow
+SilentPets.pet.dog
+SilentPets.pet.mooshroom
+SilentPets.pet.pig
+SilentPets.pet.sheep
+Silverfish
+SilverfishBike
+SixPuppy
+Skate
+Skeleton
+Slime
+SlimeBike
+SlimeCarnage.BlueSlime
+SlimeCarnage.CactusSlime
+SlimeCarnage.CamoSlime
+SlimeCarnage.CaveSlime
+SlimeCarnage.DocSlime
+SlimeCarnage.DonatelloSlime
+SlimeCarnage.FierySlime
+SlimeCarnage.FootSoldierSlime
+SlimeCarnage.GreenSlime
+SlimeCarnage.IceSlime
+SlimeCarnage.LeonardoSlime
+SlimeCarnage.LuigiSlime
+SlimeCarnage.MarioSlime
+SlimeCarnage.MichelangeloSlime
+SlimeCarnage.MonkeySlime
+SlimeCarnage.MooSlime
+SlimeCarnage.MummySlime
+SlimeCarnage.Ninja Star
+SlimeCarnage.OldManSlime
+SlimeCarnage.OrangeSlime
+SlimeCarnage.RaphaelSlime
+SlimeCarnage.RedSlime
+SlimeCarnage.Slimeopatra
+SlimeCarnage.SnowSlime
+SlimeCarnage.UnderSlime
+SlimeCarnage.VillagerSlime
+SlimeCarnage.YellowSlime
+Small Worm
+SmallFireball
+SnowMan
+Snowball
+SnowmanBike
+SpecialMobs.ArmorCreeper
+SpecialMobs.BabyCaveSpider
+SpecialMobs.BabyGhast
+SpecialMobs.BabySpider
+SpecialMobs.BlackberrySlime
+SpecialMobs.BlindingEnderman
+SpecialMobs.BlindingSilverfish
+SpecialMobs.BlueberrySlime
+SpecialMobs.BrutishPigZombie
+SpecialMobs.BrutishSkeleton
+SpecialMobs.BrutishZombie
+SpecialMobs.CaramelSlime
+SpecialMobs.CinderBlaze
+SpecialMobs.ConflagrationBlaze
+SpecialMobs.CursedEnderman
+SpecialMobs.DarkCreeper
+SpecialMobs.DeathCreeper
+SpecialMobs.DesertSpider
+SpecialMobs.DirtCreeper
+SpecialMobs.DominationWitch
+SpecialMobs.DoomCreeper
+SpecialMobs.DrowningCreeper
+SpecialMobs.EmberBlaze
+SpecialMobs.EnderCreeper
+SpecialMobs.FaintGhast
+SpecialMobs.FighterGhast
+SpecialMobs.FireCreeper
+SpecialMobs.FireSkeleton
+SpecialMobs.FireZombie
+SpecialMobs.FishingPigZombie
+SpecialMobs.FishingSilverfish
+SpecialMobs.FishingZombie
+SpecialMobs.FlyingCaveSpider
+SpecialMobs.FlyingSilverfish
+SpecialMobs.FlyingSpider
+SpecialMobs.GatlingSkeleton
+SpecialMobs.GhostSpider
+SpecialMobs.GiantPigZombie
+SpecialMobs.GiantSkeleton
+SpecialMobs.GiantSpider
+SpecialMobs.GiantZombie
+SpecialMobs.GrapeSlime
+SpecialMobs.GravelCreeper
+SpecialMobs.GravityCreeper
+SpecialMobs.HellfireBlaze
+SpecialMobs.HungryPigZombie
+SpecialMobs.HungrySpider
+SpecialMobs.HungryZombie
+SpecialMobs.IcyEnderman
+SpecialMobs.InfernoBlaze
+SpecialMobs.JoltBlaze
+SpecialMobs.JumpingCreeper
+SpecialMobs.KingGhast
+SpecialMobs.LavaMonster
+SpecialMobs.LemonSlime
+SpecialMobs.LightningCreeper
+SpecialMobs.LightningEnderman
+SpecialMobs.MiniCreeper
+SpecialMobs.MiniEnderman
+SpecialMobs.MiniGhast
+SpecialMobs.MirageEnderman
+SpecialMobs.MotherCaveSpider
+SpecialMobs.MotherSpider
+SpecialMobs.NinjaSkeleton
+SpecialMobs.PaleSpider
+SpecialMobs.PlaguePigZombie
+SpecialMobs.PlagueZombie
+SpecialMobs.PoisonSilverfish
+SpecialMobs.PoisonSkeleton
+SpecialMobs.PoisonSpider
+SpecialMobs.QueenGhast
+SpecialMobs.RageWitch
+SpecialMobs.SMFishHook
+SpecialMobs.SMSpitball
+SpecialMobs.ShadowsWitch
+SpecialMobs.SmallSpider
+SpecialMobs.SmolderBlaze
+SpecialMobs.SniperSkeleton
+SpecialMobs.SpecialBlaze
+SpecialMobs.SpecialCaveSpider
+SpecialMobs.SpecialCreeper
+SpecialMobs.SpecialEnderman
+SpecialMobs.SpecialGhast
+SpecialMobs.SpecialPigZombie
+SpecialMobs.SpecialSilverfish
+SpecialMobs.SpecialSkeleton
+SpecialMobs.SpecialSlime
+SpecialMobs.SpecialSpider
+SpecialMobs.SpecialWitch
+SpecialMobs.SpecialZombie
+SpecialMobs.SpitfireSkeleton
+SpecialMobs.SplittingCreeper
+SpecialMobs.StrawberrySlime
+SpecialMobs.ThiefEnderman
+SpecialMobs.ThiefSkeleton
+SpecialMobs.ToughCaveSpider
+SpecialMobs.ToughSilverfish
+SpecialMobs.ToughSpider
+SpecialMobs.UndeadWitch
+SpecialMobs.UnholyGhast
+SpecialMobs.VampirePigZombie
+SpecialMobs.WatermelonSlime
+SpecialMobs.WebCaveSpider
+SpecialMobs.WebSpider
+SpecialMobs.WildfireBlaze
+SpecialMobs.WildsWitch
+SpecialMobs.WindWitch
+SpecialMobs.WitchCaveSpider
+SpecialMobs.WitchSpider
+Spider
+Spider Driver
+SpiderBike
+Spit Bug
+Squid
+SquidBike
+Steamcraft.CanisterItem
+Steamcraft.FloatingItem
+Steamcraft.MortarItem
+Steamcraft.Rocket
+StevePuppy
+StevesCarts.Cake.Vswe
+StevesCarts.Egg.Vswe
+StevesCarts.Minecart.Vswe.0
+Stink Bug
+Stinky
+SunspotUrchin
+T-Shirt
+T. Rex
+TConstruct.Arrow
+TConstruct.Bolt
+TConstruct.Crystal
+TConstruct.Dagger
+TConstruct.EdibleSlime
+TConstruct.Fancy Item
+TConstruct.Javelin
+TConstruct.KingSlime
+TConstruct.LandmineFirework
+TConstruct.Launched Potion
+TConstruct.Shuriken
+TConstruct.SlimeExplosive
+TConstruct.ThrowingKnife
+TSteelworks.HighGolem
+TSteelworks.LimestoneBrick
+TSteelworks.ScorchedBrick
+TSteelworks.SteelGolem
+Termite
+Terrible Terror
+The King
+The Kraken
+The Prince
+The Princess
+The Queen
+The Young Adult Prince
+The Young Prince
+ThermalDynamics.Transport
+ThermalExpansion.florb
+ThermalFoundation.basalzBolt
+ThermalFoundation.blitzBolt
+ThermalFoundation.blizzBolt
+ThrownEnderpearl
+ThrownExpBottle
+ThrownPotion
+Triffid
+TwilightForest.Adherent
+TwilightForest.Armored Giant
+TwilightForest.Bighorn Sheep
+TwilightForest.Block&Chain Goblin
+TwilightForest.Death Tome
+TwilightForest.Fire Beetle
+TwilightForest.Firefly
+TwilightForest.Forest Bunny
+TwilightForest.Forest Raven
+TwilightForest.Forest Squirrel
+TwilightForest.Giant Miner
+TwilightForest.Glacier Penguin
+TwilightForest.Harbinger Cube
+TwilightForest.Hedge Spider
+TwilightForest.Helmet Crab
+TwilightForest.Hostile Wolf
+TwilightForest.Hydra
+TwilightForest.HydraHead
+TwilightForest.Ice Crystal
+TwilightForest.King Spider
+TwilightForest.Knight Phantom
+TwilightForest.Lich Minion
+TwilightForest.Lower Goblin Knight
+TwilightForest.Loyal Zombie
+TwilightForest.Maze Slime
+TwilightForest.Mini Ghast
+TwilightForest.Minoshroom
+TwilightForest.Minotaur
+TwilightForest.Mist Wolf
+TwilightForest.Mosquito Swarm
+TwilightForest.Naga
+TwilightForest.Pinch Beetle
+TwilightForest.Questing Ram
+TwilightForest.Redcap
+TwilightForest.Redcap Sapper
+TwilightForest.Redscale Broodling
+TwilightForest.RovingCube
+TwilightForest.Skeleton Druid
+TwilightForest.Slime Beetle
+TwilightForest.Snow Queen
+TwilightForest.SnowGuardian
+TwilightForest.Stable Ice Core
+TwilightForest.Swarm Spider
+TwilightForest.Tiny Bird
+TwilightForest.Tower Boss
+TwilightForest.Tower Ghast
+TwilightForest.Tower Golem
+TwilightForest.Tower Termite
+TwilightForest.Troll
+TwilightForest.Twilight Kobold
+TwilightForest.Twilight Lich
+TwilightForest.Twilight Wraith
+TwilightForest.Unstable Ice Core
+TwilightForest.Upper Goblin Knight
+TwilightForest.Wild Boar
+TwilightForest.Wild Deer
+TwilightForest.WinterWolf
+TwilightForest.Yeti
+TwilightForest.Yeti Boss
+TwilightForest.tfSeekerArrow
+TwilightForest.tfchainBlock
+TwilightForest.tfcharmeffect
+TwilightForest.tfcubeannihilation
+TwilightForest.tffallingice
+TwilightForest.tfhydramortar
+TwilightForest.tficesnowball
+TwilightForest.tflichbolt
+TwilightForest.tflichbomb
+TwilightForest.tfmoonwormshot
+TwilightForest.tfnaturebolt
+TwilightForest.tfslideblock
+TwilightForest.tfslimeblob
+TwilightForest.tfthrownaxe
+TwilightForest.tfthrownice
+TwilightForest.tfthrownpick
+TwilightForest.tftomebolt
+TwilightForest.tftwilightwandbolt
+UltimateArrow
+UltimateFishHook
+Unstable Ant
+Velocity Raptor
+Villager
+VillagerGolem
+VillagersNose.NoselessVillager
+Vortex
+WTF?
+Water Dragon
+WaterBall
+Whale
+Witch
+WitherBike
+WitherBoss
+WitherSkull
+Wolf
+WolfBike
+XPOrb
+YellowPuppy
+Zombie
+ZoocraftDiscoveries.ZD_Anteater
+ZoocraftDiscoveries.ZD_Camel
+ZoocraftDiscoveries.ZD_Capybara
+ZoocraftDiscoveries.ZD_Chinchilla
+ZoocraftDiscoveries.ZD_DartFrog
+ZoocraftDiscoveries.ZD_Gecko
+ZoocraftDiscoveries.ZD_Gemsbok
+ZoocraftDiscoveries.ZD_Giraffe
+ZoocraftDiscoveries.ZD_Hedgehog
+ZoocraftDiscoveries.ZD_Porcupine
+ZoocraftDiscoveries.ZD_PsittacoDart
+ZoocraftDiscoveries.ZD_PsittacoSpear
+ZoocraftDiscoveries.ZD_Rhino
+ZoocraftDiscoveries.ZD_Tapir
+ZoocraftDiscoveries.ZD_TranquilizerDart
+ac2.HammerProjectile
+adhooks.HookShot
+adventurebackpack.inflatableBoat
+adventurebackpack.rideableSpider
+aether_legacy.aechor_plant
+aether_legacy.aerbunny
+aether_legacy.aerwhale
+aether_legacy.aether_item
+aether_legacy.cockatrice
+aether_legacy.crystal
+aether_legacy.enchanted_dart
+aether_legacy.fire_minion
+aether_legacy.floating_block
+aether_legacy.flying_cow
+aether_legacy.golden_dart
+aether_legacy.hammer_projectile
+aether_legacy.lightning_knife
+aether_legacy.mimic
+aether_legacy.mini_cloud
+aether_legacy.moa
+aether_legacy.parachute
+aether_legacy.phoenix_arrow
+aether_legacy.phyg
+aether_legacy.poison_dart
+aether_legacy.poison_needle
+aether_legacy.sentry
+aether_legacy.sheepuff
+aether_legacy.slider
+aether_legacy.sun_spirit
+aether_legacy.swet
+aether_legacy.tnt_present
+aether_legacy.valkyrie
+aether_legacy.valkyrie_queen
+aether_legacy.whirlwind
+aether_legacy.zephyr
+aether_legacy.zephyr_snowball
+ani_koto.Acid
+ani_koto.Asanbosam
+ani_koto.Chipmunk
+ani_koto.CyclopsGolem
+ani_koto.DarkMiresi
+ani_koto.Drine
+ani_koto.ElectricBall
+ani_koto.Fire
+ani_koto.Hostem
+ani_koto.Jinn
+ani_koto.JinnM
+ani_koto.Miresi
+ani_koto.Proto
+ani_koto.Scientist
+ani_koto.Shrapnel
+ani_koto.Zombi
+appliedenergistics2.EntityChargedQuartz
+appliedenergistics2.EntityGrowingCrystal
+appliedenergistics2.EntitySingularity
+appliedenergistics2.EntityTinyTNTPrimed
+astikoor.cargocart
+astikoor.plowcart
+atum.ArrowDoubleShot
+atum.ArrowExplosive
+atum.ArrowFire
+atum.ArrowPoison
+atum.ArrowQuickDraw
+atum.ArrowVeloctiy
+atum.EntityAtumFishHook
+atum.EntityNutsCall
+atum.banditArcher
+atum.banditWarlord
+atum.banditWarrior
+atum.barbarian
+atum.desertGhost
+atum.desertWolf
+atum.dustySkeleton
+atum.mummy
+atum.pharaoh
+atum.stoneSoldier
+babymobs.babyBlaze
+babymobs.babyCaveSpider
+babymobs.babyCreeper
+babymobs.babyDragon
+babymobs.babyEnderman
+babymobs.babyGhast
+babymobs.babyIronGolem
+babymobs.babyOcelot
+babymobs.babyPigZombie
+babymobs.babySkeleton
+babymobs.babySnowman
+babymobs.babySpider
+babymobs.babySquid
+babymobs.babyWitch
+babymobs.babyWither
+babymobs.babyWitherSkeleton
+babymobs.babyZombie
+babymobs.blazeFlamethrower
+babymobs.caveSpiderVenom
+babymobs.creeperExplosion
+babymobs.ghastFireball
+babymobs.skeletonArrow
+babymobs.snowmanSnowball
+babymobs.squidInk
+babymobs.witherExplosion
+babymobs.witherSkeletonSmoke
+babymobs.witherWitherSkull
+babymobs.zombieChicken
+babymobs.zombiePig
+balloonBoy
+betterboat.betterBoat
+betterquesting.placeholder
+blackKnight
+blackWidowSpider
+blocklings.shuriken
+bloodTNT
+bonnie
+bouncing_balls.customEntityEgg
+broodSpider
+bttfmod.delorean
+bttfmod.hoverboard
+bttfmod.pitBullHoverboard
+bull
+butterflymania.Butterfly
+butterflymania.EtymologistVillager
+cannibalism.wendigo
+cfm.MountableBlock
+cherrypig.CherryPig
+chica
+chisel.BallOMoss
+chisel.CloudInABottle
+chisel.SmashingRock
+chisel.snowman
+cpc.cpc:stephano
+cpc:cry
+cpc:jack
+cpc:jane
+cpc:jeff
+cpc:moth
+cpc:pewds
+cpc:rake
+cpc:seed
+cpc:smile
+cpc:squidwardward
+cpc:strider
+creativecore.Sit
+creepermite
+cuttingedge.portacart
+dmod.fox
+doggytalents.attackbeam
+doggytalents.dog
+doggytalents.doggytalents:dog
+dragonKnightBoss
+drummer
+dungeonmobs.DMBeholder
+dungeonmobs.DMBladeTrap
+dungeonmobs.DMCaveFisher
+dungeonmobs.DMCockatrice
+dungeonmobs.DMDestrachan
+dungeonmobs.DMEyeRay
+dungeonmobs.DMGhoul
+dungeonmobs.DMHellHound
+dungeonmobs.DMHookHorror
+dungeonmobs.DMIllithid
+dungeonmobs.DMLizalfos
+dungeonmobs.DMMagicMissile
+dungeonmobs.DMManticore
+dungeonmobs.DMPetrified
+dungeonmobs.DMRakshasa
+dungeonmobs.DMRakshasaImage
+dungeonmobs.DMRustMonster
+dungeonmobs.DMShrieker
+dungeonmobs.DMSonicBoom
+dungeonmobs.DMThoqqua
+dungeonmobs.DMTroll
+dungeonmobs.DMUmberHulk
+dungeonmobs.DMVescavor
+elementalcreepers.BigBadCreep
+elementalcreepers.CakeCreeper
+elementalcreepers.CookieCreeper
+elementalcreepers.DarkCreeper
+elementalcreepers.EUCreeper
+elementalcreepers.EarthCreeper
+elementalcreepers.ElectricCreeper
+elementalcreepers.EnderCreeper
+elementalcreepers.FireCreeper
+elementalcreepers.FireworkCreeper
+elementalcreepers.FriendlyCreeper
+elementalcreepers.GhostCreeper
+elementalcreepers.HydrogenCreeper
+elementalcreepers.IceCreeper
+elementalcreepers.IllusionCreeper
+elementalcreepers.LightCreeper
+elementalcreepers.MagmaCreeper
+elementalcreepers.PsychicCreeper
+elementalcreepers.RFCreeper
+elementalcreepers.ReverseCreeper
+elementalcreepers.SolarCreeper
+elementalcreepers.SpiderCreeper
+elementalcreepers.SpringCreeper
+elementalcreepers.StoneCreeper
+elementalcreepers.WaterCreeper
+elementalcreepers.WindCreeper
+elementalcreepers:BigBadCreep
+elementalcreepers:CakeCreeper
+elementalcreepers:CookieCreeper
+elementalcreepers:DarkCreeper
+elementalcreepers:EUCreeper
+elementalcreepers:EarthCreeper
+elementalcreepers:ElectricCreeper
+elementalcreepers:EnderCreeper
+elementalcreepers:FireCreeper
+elementalcreepers:FireworkCreeper
+elementalcreepers:FriendlyCreeper
+elementalcreepers:GhostCreeper
+elementalcreepers:HydrogenCreeper
+elementalcreepers:IceCreeper
+elementalcreepers:IllusionCreeper
+elementalcreepers:LightCreeper
+elementalcreepers:MagmaCreeper
+elementalcreepers:PsychicCreeper
+elementalcreepers:RFCreeper
+elementalcreepers:ReverseCreeper
+elementalcreepers:SolarCreeper
+elementalcreepers:SpiderCreeper
+elementalcreepers:SpringCreeper
+elementalcreepers:StoneCreeper
+elementalcreepers:WaterCreeper
+elementalcreepers:WindCreeper
+emeraldSlime
+enderutilities.enderarrow
+enderutilities.endermanfighter
+enderutilities.enderpearlreusable
+entityDemonCat
+entityEagle
+entityFairyPixie
+entity_blockling
+farlanders.Classic Enderman
+farlanders.Elder Farlander
+farlanders.Ender Golem
+farlanders.Ender Guardian
+farlanders.Enderminion
+farlanders.Fanmade Enderman
+farlanders.Farlander
+farlanders.Looter
+farlanders.Mystic Enderman
+farlanders.Mystic Enderminion
+farlanders.Rebel Farlander
+farlanders.Titan
+farlanders.Wanderer
+femalecreeper
+fireSpawn
+fireWizard
+foundry.gunSkeleton
+foxyThePirateFox
+freddyFazbear
+gibby_dungeons.EntityAmethystMonster
+gibby_dungeons.EntityAmethystPortal
+gibby_dungeons.EntityAnchorTrader
+gibby_dungeons.EntityAntigravity
+gibby_dungeons.EntityBandit
+gibby_dungeons.EntityBanditLeader
+gibby_dungeons.EntityBeholder
+gibby_dungeons.EntityBeholderSpawner
+gibby_dungeons.EntityBigStoneGolem
+gibby_dungeons.EntityBlackEnergy
+gibby_dungeons.EntityBlackKnight
+gibby_dungeons.EntityBlizzard
+gibby_dungeons.EntityBlizzardBall
+gibby_dungeons.EntityBloodBall
+gibby_dungeons.EntityBlueBall
+gibby_dungeons.EntityBlueBeam
+gibby_dungeons.EntityCaveWraith
+gibby_dungeons.EntityChainMummy
+gibby_dungeons.EntityCorruptedArrow
+gibby_dungeons.EntityCrystalBadgerer
+gibby_dungeons.EntityCrystalBeam
+gibby_dungeons.EntityCrystalMeteor
+gibby_dungeons.EntityCrystalToxic
+gibby_dungeons.EntityCrystalTroll
+gibby_dungeons.EntityCrystalliumGolem
+gibby_dungeons.EntityCrystalliumPlainsPortal
+gibby_dungeons.EntityCrystasis
+gibby_dungeons.EntityCrystox
+gibby_dungeons.EntityCursedStone
+gibby_dungeons.EntityCyclops
+gibby_dungeons.EntityDarkExplosion
+gibby_dungeons.EntityDarkKnight
+gibby_dungeons.EntityDarkWave
+gibby_dungeons.EntityDeathBringer
+gibby_dungeons.EntityDesertDragger
+gibby_dungeons.EntityDisinigrationArrow
+gibby_dungeons.EntityDungeonBeast
+gibby_dungeons.EntityEarthGolem
+gibby_dungeons.EntityEarthMage
+gibby_dungeons.EntityEarthRupturer
+gibby_dungeons.EntityEnchantEffect
+gibby_dungeons.EntityEnergy
+gibby_dungeons.EntityExawdus
+gibby_dungeons.EntityExawdusSpawner
+gibby_dungeons.EntityExplosionSnake
+gibby_dungeons.EntityExplosive
+gibby_dungeons.EntityEyeWarrior
+gibby_dungeons.EntityFakeWither
+gibby_dungeons.EntityFireclops
+gibby_dungeons.EntityFirefly
+gibby_dungeons.EntityFireflySpawner
+gibby_dungeons.EntityFriendlyZombie
+gibby_dungeons.EntityFusionBall
+gibby_dungeons.EntityGhostWither
+gibby_dungeons.EntityGoblin
+gibby_dungeons.EntityGreenBall
+gibby_dungeons.EntityGroundShade
+gibby_dungeons.EntityHannibal
+gibby_dungeons.EntityHealEffect
+gibby_dungeons.EntityHermit
+gibby_dungeons.EntityIceMage
+gibby_dungeons.EntityIceShieldBall
+gibby_dungeons.EntityIceShielder
+gibby_dungeons.EntityIceSpiker
+gibby_dungeons.EntityIceSpirit
+gibby_dungeons.EntityIceWanderer
+gibby_dungeons.EntityIcefire
+gibby_dungeons.EntityImp
+gibby_dungeons.EntityIronStar
+gibby_dungeons.EntityLavaKnight
+gibby_dungeons.EntityLavaTroll
+gibby_dungeons.EntityMagirockBall
+gibby_dungeons.EntityMidnightChicken
+gibby_dungeons.EntityMidnightCow
+gibby_dungeons.EntityMidnightMagician
+gibby_dungeons.EntityMidnightMeteor
+gibby_dungeons.EntityMidnightProjectile
+gibby_dungeons.EntityMidnightShade
+gibby_dungeons.EntityMidnightSizzler
+gibby_dungeons.EntityMidnightSplitter
+gibby_dungeons.EntityMidnightTitan
+gibby_dungeons.EntityMidnightTrader
+gibby_dungeons.EntityMinerVillager
+gibby_dungeons.EntityMiniFireBall
+gibby_dungeons.EntityMontanePortal
+gibby_dungeons.EntityMontaneTrader
+gibby_dungeons.EntityMontaneVillager
+gibby_dungeons.EntityMoundTrader
+gibby_dungeons.EntityNecro
+gibby_dungeons.EntityNetherBadgerer
+gibby_dungeons.EntityNetherDrill
+gibby_dungeons.EntityNetherDriller
+gibby_dungeons.EntityNetherGhost
+gibby_dungeons.EntityNetherPigman
+gibby_dungeons.EntityNetherSoul
+gibby_dungeons.EntityNetherWalker
+gibby_dungeons.EntityNightMite
+gibby_dungeons.EntityNothing
+gibby_dungeons.EntityOrc
+gibby_dungeons.EntityOrcDefender
+gibby_dungeons.EntityOrcMage
+gibby_dungeons.EntityOreDealer
+gibby_dungeons.EntityPaladin
+gibby_dungeons.EntityPaladinHeal
+gibby_dungeons.EntityPoundEffect
+gibby_dungeons.EntityPoundEffect2
+gibby_dungeons.EntityPoundEffect3
+gibby_dungeons.EntityPowerupEffect
+gibby_dungeons.EntityProjectileBall
+gibby_dungeons.EntityQuake
+gibby_dungeons.EntityQuarryMaster
+gibby_dungeons.EntityRedBall
+gibby_dungeons.EntityRedBouncer
+gibby_dungeons.EntityRemnant
+gibby_dungeons.EntityRockTroll
+gibby_dungeons.EntityRuneAltar
+gibby_dungeons.EntityRuneExplosion
+gibby_dungeons.EntityRupture
+gibby_dungeons.EntitySandBall
+gibby_dungeons.EntitySandstorm
+gibby_dungeons.EntitySapientDeath
+gibby_dungeons.EntitySapientEliteKnight
+gibby_dungeons.EntitySapientGeneral
+gibby_dungeons.EntitySapientMage
+gibby_dungeons.EntitySapientMiner
+gibby_dungeons.EntitySapientWarrior
+gibby_dungeons.EntityShimmerPearl
+gibby_dungeons.EntityShimmerman
+gibby_dungeons.EntitySkeletalMage
+gibby_dungeons.EntitySkeletonKnight
+gibby_dungeons.EntitySkeletonWarrior
+gibby_dungeons.EntitySnowGiant
+gibby_dungeons.EntitySodbuster
+gibby_dungeons.EntitySpecter
+gibby_dungeons.EntitySpirit
+gibby_dungeons.EntitySpit
+gibby_dungeons.EntityStoneBot
+gibby_dungeons.EntityStoneGolem
+gibby_dungeons.EntitySunProjectile
+gibby_dungeons.EntitySunsetPortal
+gibby_dungeons.EntityTalkingVillager
+gibby_dungeons.EntityTavernClient
+gibby_dungeons.EntityTavernMaster
+gibby_dungeons.EntityThrowback
+gibby_dungeons.EntityTitanSpawner
+gibby_dungeons.EntityTornado
+gibby_dungeons.EntityTornadoBall
+gibby_dungeons.EntityTreeGolem
+gibby_dungeons.EntityTreeVillager
+gibby_dungeons.EntityTroll
+gibby_dungeons.EntityTyphoon
+gibby_dungeons.EntityUndefeatableRegen
+gibby_dungeons.EntityUndefeatableResistance
+gibby_dungeons.EntityUndefeatableStrength
+gibby_dungeons.EntityVampire
+gibby_dungeons.EntityVoidBomb
+gibby_dungeons.EntityVoidDisk
+gibby_dungeons.EntityVoidFiend
+gibby_dungeons.EntityVoidLord
+gibby_dungeons.EntityVoidrim
+gibby_dungeons.EntityVoidrockBall
+gibby_dungeons.EntityWarlock
+gibby_dungeons.EntityWaterBall
+gibby_dungeons.EntityWitherSkeletonMinion
+gibby_dungeons.EntityWitherSpawner
+gibby_dungeons.EntityYeti
+gibby_dungeons.EntityZombieWarlord
+goldenBonnieMOB
+golems.golem_bedrock
+golems.golem_bookshelf
+golems.golem_clay
+golems.golem_coal
+golems.golem_diamond
+golems.golem_emerald
+golems.golem_end_stone
+golems.golem_glass
+golems.golem_glowstone
+golems.golem_gold
+golems.golem_hardened_clay
+golems.golem_ice
+golems.golem_lapis
+golems.golem_leaf
+golems.golem_melon
+golems.golem_nether_brick
+golems.golem_obsidian
+golems.golem_quartz
+golems.golem_redstone
+golems.golem_sandstone
+golems.golem_sponge
+golems.golem_stained_clay
+golems.golem_stained_glass
+golems.golem_straw
+golems.golem_tnt
+golems.golem_wooden
+golems.golem_wool
+golems_addon_futurum.golem_prismarine
+golems_addon_futurum.golem_red_sandstone
+golems_addon_futurum.golem_sea_lantern
+golems_addon_futurum.golem_shroom
+golems_addon_futurum.golem_slime
+golems_addon_metals.golem_aluminum
+golems_addon_metals.golem_bronze
+golems_addon_metals.golem_coil
+golems_addon_metals.golem_const
+golems_addon_metals.golem_copper
+golems_addon_metals.golem_electrum
+golems_addon_metals.golem_enderium
+golems_addon_metals.golem_ferrous
+golems_addon_metals.golem_insulator
+golems_addon_metals.golem_invar
+golems_addon_metals.golem_lead
+golems_addon_metals.golem_lumium
+golems_addon_metals.golem_mithril
+golems_addon_metals.golem_refined
+golems_addon_metals.golem_reinf_glass
+golems_addon_metals.golem_reinf_stone
+golems_addon_metals.golem_shiny
+golems_addon_metals.golem_signalum
+golems_addon_metals.golem_silver
+golems_addon_metals.golem_steel
+golems_addon_metals.golem_tin
+golems_addon_metals.golem_uranium
+golems_addon_tconstruct.golem_alum
+golems_addon_tconstruct.golem_alumbrass
+golems_addon_tconstruct.golem_alumite
+golems_addon_tconstruct.golem_ardite
+golems_addon_tconstruct.golem_bronze
+golems_addon_tconstruct.golem_brownstone
+golems_addon_tconstruct.golem_cobalt
+golems_addon_tconstruct.golem_copper
+golems_addon_tconstruct.golem_ender
+golems_addon_tconstruct.golem_glue
+golems_addon_tconstruct.golem_hambone
+golems_addon_tconstruct.golem_manyullyn
+golems_addon_tconstruct.golem_seared
+golems_addon_tconstruct.golem_slime
+golems_addon_tconstruct.golem_steel
+golems_addon_tconstruct.golem_tin
+golemtweaks.IronGolem
+golemtweaks.SnowGolem
+gondolamob
+grimoireofalice.PotatoArrow
+grimoireofalice.PotatoNeedle
+hardcorewither.BlazeMinion
+hardcorewither.GhastMinion
+hardcorewither.SkeletonMinion
+insane_IlluminatedBows.Illuminated Bow
+ironchestminecarts.minecart_chest_copper
+ironchestminecarts.minecart_chest_crystal
+ironchestminecarts.minecart_chest_diamond
+ironchestminecarts.minecart_chest_dirtchest9000
+ironchestminecarts.minecart_chest_gold
+ironchestminecarts.minecart_chest_iron
+ironchestminecarts.minecart_chest_obsidian
+ironchestminecarts.minecart_chest_silver
+kitsumedievalcraft.cannonBall
+kitsumedievalcraft.itemITSpear
+kitsumedievalcraft.itemIronTippedModelArrow
+kitsumedievalcraft.itemModelArrow
+kitsumedievalcraft.itemShit
+kitsumedievalcraft.itemTester
+lightningcraft.demonSoldier
+lightningcraft.divineCreeper
+lightningcraft.heavenGuard
+lightningcraft.helperZombie
+lightningcraft.lcElectricAttack
+lightningcraft.lcTNTPrimed
+lightningcraft.underworldSilverfish
+lightningcraft.underworldSkeleton
+lightningcraft.underworldSlime
+lootplusplus.Label
+lootplusplus.ThrownItem
+mazemod.MiniEnderDragon
+mazemod.MiniWither
+menagerie.ant
+menagerie.ghost
+menagerie.infestedVillager
+menagerie.lepus
+menagerie.livingarmor
+menagerie.manticore
+menagerie.mummy
+menagerie.oliphant
+menagerie.rat
+menagerie.spine
+moreShearables.ChickenNaked
+moreShearables.CowNaked
+moreShearables.PigNaked
+mummyMob
+netherlicious.Ashling
+netherlicious.BlastproofItemEntity
+netherlicious.BlazeKnight
+netherlicious.CrimsonRay
+netherlicious.Ember
+netherlicious.EmberFoxfire
+netherlicious.EmberShadow
+netherlicious.EmberSoul
+netherlicious.FireproofItemEntity
+netherlicious.FoxfireRay
+netherlicious.Hoglin
+netherlicious.Piglin
+netherlicious.Skull
+netherlicious.SkullWither
+netherlicious.Smolder
+netherlicious.SporeCrimson
+netherlicious.SporeFoxfire
+netherlicious.SporeWarped
+netherlicious.Strider
+netherlicious.WarpedRay
+netherlicious.Zoglin
+netherlicious.ZombiePiglin
+nevermine.Airhead
+nevermine.AirheadShot
+nevermine.Alarmo
+nevermine.Alluricorn
+nevermine.Amphibior
+nevermine.Amphibiyte
+nevermine.AncientDischarger
+nevermine.AncientGolem
+nevermine.Anemia
+nevermine.AnemiaShot
+nevermine.Angelica
+nevermine.Angler
+nevermine.AnimaMaster
+nevermine.Apparition
+nevermine.AquaBall
+nevermine.ArcWizard
+nevermine.Arcbeast
+nevermine.Arcflower
+nevermine.Archvine
+nevermine.Arcworm
+nevermine.Ariel
+nevermine.Arkback
+nevermine.Arkzyne
+nevermine.Arocknid
+nevermine.Assassin
+nevermine.AtomizerBounce
+nevermine.AtomizerShot
+nevermine.AuguryMaster
+nevermine.Automaton
+nevermine.Axiolight
+nevermine.BalloonBomb
+nevermine.BamShot
+nevermine.Bane
+nevermine.BaneBig
+nevermine.BaneClone
+nevermine.Banshee
+nevermine.BaronBomb
+nevermine.Baroness
+nevermine.BaronessShot
+nevermine.Basilisk
+nevermine.Baumba
+nevermine.Beamer
+nevermine.BlastBomb
+nevermine.Blissard
+nevermine.BlissfulBlast
+nevermine.BloodDrainShot
+nevermine.Bloodball
+nevermine.Bloodlust
+nevermine.Bloodmist
+nevermine.Bloodsucker
+nevermine.Bobo
+nevermine.BombCarrier
+nevermine.BoneCreature
+nevermine.BoneCreeper
+nevermine.BonePellet
+nevermine.Boneback
+nevermine.BoomBall
+nevermine.BoomCannonGrenade
+nevermine.Bouncer
+nevermine.BozoBall
+nevermine.Broccohead
+nevermine.Brute
+nevermine.BubbleShot
+nevermine.Bugeye
+nevermine.BushBaby
+nevermine.ButcheryMaster
+nevermine.CandorShot
+nevermine.CandyCorny
+nevermine.CaneBug
+nevermine.CannonBall
+nevermine.CannonShot
+nevermine.CarrotBall
+nevermine.Carrotop
+nevermine.CaseConstruct
+nevermine.CaveCreep
+nevermine.CaveCreepoid
+nevermine.CelestialFall
+nevermine.Centinel
+nevermine.Centurion
+nevermine.Chakram
+nevermine.Charger
+nevermine.CherryBarrager
+nevermine.CherryBlaster
+nevermine.CherryShot
+nevermine.Chimera
+nevermine.Chocko
+nevermine.Chomper
+nevermine.Clown
+nevermine.ClownBall
+nevermine.ClownShot
+nevermine.Clunkhead
+nevermine.ClunkheadShot
+nevermine.ColorShot
+nevermine.Compeer
+nevermine.ConfettiShot
+nevermine.Coniferon
+nevermine.ConstructFlight
+nevermine.ConstructMind
+nevermine.ConstructRange
+nevermine.ConstructResistance
+nevermine.ConstructServility
+nevermine.ConstructShot
+nevermine.ConstructSpeed
+nevermine.ConstructStrength
+nevermine.ConstructTerror
+nevermine.ConstructTerrorShot
+nevermine.Corallus
+nevermine.CorallusShot
+nevermine.Coralon
+nevermine.Coratee
+nevermine.Corby
+nevermine.Corny
+nevermine.CorruptedTraveller
+nevermine.CottonCandor
+nevermine.Craexxeus
+nevermine.Craggy
+nevermine.CreationMaster
+nevermine.Creep
+nevermine.CreepBanker
+nevermine.CreepBomb
+nevermine.CreepCow
+nevermine.CreepTube
+nevermine.CreeperShot
+nevermine.Creeperlock
+nevermine.Creepird
+nevermine.Creepuple
+nevermine.Crusilisk
+nevermine.Cryptid
+nevermine.CrystalTrader
+nevermine.Crystocore
+nevermine.Cyclops
+nevermine.DarkBeast
+nevermine.Dawnlight
+nevermine.Daysee
+nevermine.DeathHunter
+nevermine.DeathRayShot
+nevermine.DemonReaper
+nevermine.DesertCharger
+nevermine.DestroyerShot
+nevermine.DestructionBall
+nevermine.Destructor
+nevermine.DestructorShot
+nevermine.Devourer
+nevermine.Dicer
+nevermine.Diocus
+nevermine.DischargeDamage
+nevermine.DischargeShell
+nevermine.DischargeShot
+nevermine.Distorter
+nevermine.DoomShot
+nevermine.Doubler
+nevermine.Dracyon
+nevermine.Draggy
+nevermine.DungeonKeeper
+nevermine.DustStrider
+nevermine.Dusteiva
+nevermine.Duston
+nevermine.Dweller
+nevermine.DwellerClone
+nevermine.Dyrehorn
+nevermine.Echodar
+nevermine.Eeo
+nevermine.EeoRunning
+nevermine.Eilosapien
+nevermine.ElementalArrow
+nevermine.Elkanyne
+nevermine.Elusive
+nevermine.ElusiveClone
+nevermine.Embrake
+nevermine.EmperorBeast
+nevermine.EnderCarrier
+nevermine.EnergyShot
+nevermine.Enforcer
+nevermine.Ent
+nevermine.EradicatorShot
+nevermine.ErebonShot
+nevermine.ErebonStickler
+nevermine.Everbeast
+nevermine.Exohead
+nevermine.Exoid
+nevermine.ExpeditionMaster
+nevermine.Explodot
+nevermine.ExplosivesExpert
+nevermine.EyeCreature
+nevermine.FacelessFloater
+nevermine.FacelessRunner
+nevermine.Fade
+nevermine.FakePigman
+nevermine.FakeZorp
+nevermine.Fenix
+nevermine.Fiend
+nevermine.FireBall
+nevermine.FireBullet
+nevermine.FireFall
+nevermine.Fischer
+nevermine.FishShot
+nevermine.Fishix
+nevermine.Flamewalker
+nevermine.Flash
+nevermine.FleshEater
+nevermine.FloroPellet
+nevermine.FloroRPG
+nevermine.FlowerBall
+nevermine.FlowerBlue
+nevermine.FlowerFace
+nevermine.FlowerGreen
+nevermine.FlowerOrange
+nevermine.FlowerPurple
+nevermine.FlowerShot
+nevermine.FlowerYellow
+nevermine.Flye
+nevermine.ForagingMaster
+nevermine.FragmentShot
+nevermine.FrostStream
+nevermine.FungalBall
+nevermine.Fungat
+nevermine.Fungback
+nevermine.FungiShot
+nevermine.Fungik
+nevermine.Fungock
+nevermine.Fungung
+nevermine.Furlion
+nevermine.Gadgetoid
+nevermine.Ghastus
+nevermine.Ghost
+nevermine.GhostineAncient
+nevermine.GhostlyBugeye
+nevermine.GhostlyCharger
+nevermine.GhostlyCyclops
+nevermine.GhostlyGoblin
+nevermine.GhostlyNightReaper
+nevermine.GhostlySasquatch
+nevermine.GhoulBall
+nevermine.GiantSlug
+nevermine.Gingerbird
+nevermine.GingerbreadMan
+nevermine.Gnawer
+nevermine.Goalby
+nevermine.Goblin
+nevermine.GoldBringer
+nevermine.GoldenBullet
+nevermine.GoldenCannonball
+nevermine.Goldorth
+nevermine.Goldum
+nevermine.Goldus
+nevermine.GolemGunBullet
+nevermine.GooBall
+nevermine.Goofer
+nevermine.GorbArmsDealer
+nevermine.GorbCitizen
+nevermine.GorbEngineer
+nevermine.Graw
+nevermine.GrawShot
+nevermine.Greatblade
+nevermine.GrenadeShot
+nevermine.Grillface
+nevermine.Grobbler
+nevermine.Grocculate
+nevermine.Grunt
+nevermine.GuardianBlue
+nevermine.GuardianGreen
+nevermine.GuardianProjectileBlue
+nevermine.GuardianProjectileRed
+nevermine.GuardianProjectileYellow
+nevermine.GuardianProjectle
+nevermine.GuardianRed
+nevermine.GuardianYellow
+nevermine.Gyro
+nevermine.GyroShot
+nevermine.Hag
+nevermine.HagShot
+nevermine.Halycon
+nevermine.Harkos
+nevermine.HaulingMaster
+nevermine.HauntersShot
+nevermine.HeadlessDestroyer
+nevermine.HeadlessHunter
+nevermine.HealingGolem
+nevermine.HellBubbleShot
+nevermine.HellFire
+nevermine.HellFireTendril
+nevermine.Hellcat
+nevermine.Hellquin
+nevermine.Hellspot
+nevermine.HermetismMaster
+nevermine.HidingFungi
+nevermine.HillCharger
+nevermine.HiveBall
+nevermine.HiveKing
+nevermine.HiveSoldier
+nevermine.HiveWorker
+nevermine.Holder
+nevermine.Holder2
+nevermine.Holder3
+nevermine.Holder4
+nevermine.Horndron
+nevermine.Horntail
+nevermine.Horon
+nevermine.Host
+nevermine.Hunch
+nevermine.Hunter
+nevermine.HunterMaster
+nevermine.Hydrolisk
+nevermine.HydroliskShielded
+nevermine.Hydrolon
+nevermine.IceBlastShot
+nevermine.IceGiant
+nevermine.IdolAbominator
+nevermine.IdolAncientBow
+nevermine.IdolAquaticStaff
+nevermine.IdolBaronSSR
+nevermine.IdolBaronStaff
+nevermine.IdolBayonetteSR
+nevermine.IdolBloodfury
+nevermine.IdolBoomBoom
+nevermine.IdolCreepoidGreatblade
+nevermine.IdolCrystalMaul
+nevermine.IdolCrystaneer
+nevermine.IdolDaybreaker
+nevermine.IdolExplochronSword
+nevermine.IdolFlamingFury
+nevermine.IdolFlowercorne
+nevermine.IdolFormationStaff
+nevermine.IdolFroster
+nevermine.IdolGigaCannon
+nevermine.IdolGoofyGreatblade
+nevermine.IdolHauntersRifle
+nevermine.IdolLunaBlaster
+nevermine.IdolMechaBlaster
+nevermine.IdolMintMagnum
+nevermine.IdolNoxiousGreatblade
+nevermine.IdolPenguinBlaster
+nevermine.IdolPredatiousBow
+nevermine.IdolPulsator
+nevermine.IdolPurplePunisher
+nevermine.IdolRosidianArchergun
+nevermine.IdolRoyalGreatblade
+nevermine.IdolSkyStaff
+nevermine.IdolSoulBone
+nevermine.IdolSoulfireBow
+nevermine.IdolSoundCannon
+nevermine.IdolSwarmotron
+nevermine.IdolTerminator
+nevermine.IdolTidalGreatblade
+nevermine.IdolViper1
+nevermine.IdolViralArchergun
+nevermine.IdolWartGun
+nevermine.IdolWhimsyWinder
+nevermine.IdolWizardStaff
+nevermine.IllusionShot
+nevermine.Infernal
+nevermine.InfusionMaster
+nevermine.InmateX
+nevermine.InmateY
+nevermine.InnervationMaster
+nevermine.IominatorShot
+nevermine.IonShot
+nevermine.Iosaur
+nevermine.Irkling
+nevermine.IroBall
+nevermine.IroMineShot
+nevermine.Jawe
+nevermine.Jumbo
+nevermine.Kaiyu
+nevermine.Kajaros
+nevermine.Keeler
+nevermine.KingBamBamBam
+nevermine.KingCharger
+nevermine.KingCreeper
+nevermine.KingShroomus
+nevermine.Klobber
+nevermine.Koko
+nevermine.Kranky
+nevermine.Kror
+nevermine.Laser
+nevermine.LeafyGiant
+nevermine.LelyetianBall
+nevermine.LelyetianBanker
+nevermine.LelyetianCaster
+nevermine.LelyetianShot
+nevermine.LelyetianTrader
+nevermine.LelyetianWarrior
+nevermine.LightBlaster
+nevermine.LightSlug
+nevermine.LightSpark
+nevermine.Lightwalker
+nevermine.Linger
+nevermine.LittleBam
+nevermine.LivingFungi
+nevermine.LoggingMaster
+nevermine.Lollypopper
+nevermine.LostSoul
+nevermine.LottoMan
+nevermine.LottomanAbyss
+nevermine.LottomanBarathos
+nevermine.LottomanCandyland
+nevermine.LottomanCeleve
+nevermine.LottomanCreeponia
+nevermine.LottomanCrystevia
+nevermine.LottomanDeeplands
+nevermine.LottomanDustopia
+nevermine.LottomanGardencia
+nevermine.LottomanGreckon
+nevermine.LottomanHaven
+nevermine.LottomanIromine
+nevermine.LottomanLborean
+nevermine.LottomanLelyetia
+nevermine.LottomanLunalus
+nevermine.LottomanMysterium
+nevermine.LottomanNether
+nevermine.LottomanPrecasia
+nevermine.LottomanRunandor
+nevermine.LottomanShyrelands
+nevermine.LottomanVoxPonds
+nevermine.LunaShot
+nevermine.LunarFall
+nevermine.Lunarcher
+nevermine.Lurker
+nevermine.Luxocron
+nevermine.LuxonShot
+nevermine.LuxonStickler
+nevermine.MagicBall
+nevermine.MagicBallSeaTroll
+nevermine.MagicBallWither
+nevermine.MagicalCreeper
+nevermine.Magicke
+nevermine.MagickeShot
+nevermine.MechBot
+nevermine.MechaCyclops
+nevermine.MechaSkellox
+nevermine.Mechachron
+nevermine.Mechamaton
+nevermine.Mechyon
+nevermine.MegaGuardian
+nevermine.Megatherium
+nevermine.Merkyre
+nevermine.Mermage
+nevermine.MetalFung
+nevermine.MetalPellet
+nevermine.MetalPelletFire
+nevermine.MetalSlug
+nevermine.Metalloid
+nevermine.MeteorFall
+nevermine.MindShot
+nevermine.Mirage
+nevermine.Miskel
+nevermine.Modulo
+nevermine.ModuloShot
+nevermine.MoonCannon
+nevermine.MoonDestroyer
+nevermine.MoonFall
+nevermine.MoonMaker
+nevermine.MoonShineShot
+nevermine.MoonlightFall
+nevermine.MotherVoidWalker
+nevermine.Muckopede
+nevermine.Muncher
+nevermine.MushroomSpider
+nevermine.Natura
+nevermine.Naturalist
+nevermine.Neptuno
+nevermine.NethengeicBeast
+nevermine.NethengeicWither
+nevermine.NethengeicWitherShot
+nevermine.NetherSlug
+nevermine.NightReaper
+nevermine.NightWatcher
+nevermine.Nightfly
+nevermine.NightmareFall
+nevermine.NightmareSpider
+nevermine.Nightwing
+nevermine.Nipper
+nevermine.Nospike
+nevermine.Occulent
+nevermine.OdiousBeam
+nevermine.Okazor
+nevermine.Omnilight
+nevermine.Opteryx
+nevermine.Orbiter
+nevermine.Orbling
+nevermine.OrbocronShot
+nevermine.Paladin
+nevermine.Parasect
+nevermine.Paravite
+nevermine.PenetrationBullet
+nevermine.Penguin
+nevermine.Penumbra
+nevermine.PenumbraShot
+nevermine.PeppermintSlug
+nevermine.Phantom
+nevermine.Pigotron
+nevermine.Pincher
+nevermine.PixonAmbient
+nevermine.PixonBlooming
+nevermine.PixonGlaring
+nevermine.PixonGleaming
+nevermine.PixonGlistening
+nevermine.PixonGlowing
+nevermine.PixonRadiant
+nevermine.PixonShining
+nevermine.Plateosaur
+nevermine.PlutonShot
+nevermine.PlutonStickler
+nevermine.PodPlant
+nevermine.PoisonPlungerShot
+nevermine.PolarUrsa
+nevermine.PolymorphShot
+nevermine.Polytom
+nevermine.PolytomShot
+nevermine.PopShot
+nevermine.PopperShot
+nevermine.PortalMaster
+nevermine.Poseido
+nevermine.PowerRayShot
+nevermine.PrecasianSlug
+nevermine.PredatorionShot
+nevermine.PrimordialBanker
+nevermine.PrimordialGuide
+nevermine.PrimordialMerchant
+nevermine.PrimordialShot
+nevermine.PrimordialSpellbinder
+nevermine.PrimordialWizard
+nevermine.Professor
+nevermine.Proshield
+nevermine.Proton
+nevermine.Quickpocket
+nevermine.RPGShot
+nevermine.Rainicorn
+nevermine.Rammerhead
+nevermine.Rammerhorn
+nevermine.Ramradon
+nevermine.Rawbone
+nevermine.Raxxan
+nevermine.RealmShifter
+nevermine.ReaperShot
+nevermine.ReaperTwins
+nevermine.Reaver
+nevermine.ReefShot
+nevermine.Refluct
+nevermine.ReturningGrenade
+nevermine.Revolution
+nevermine.RockBiter
+nevermine.RockCrawler
+nevermine.RockCritter
+nevermine.RockFragment
+nevermine.RockFragmentFungal
+nevermine.RockRider
+nevermine.Roloscope
+nevermine.Rosid
+nevermine.RosidianShot
+nevermine.RunationMaster
+nevermine.RuneTemplarBlue
+nevermine.RuneTemplarBlueDisabled
+nevermine.RuneTemplarGreen
+nevermine.RuneTemplarGreenDisabled
+nevermine.RuneTemplarRed
+nevermine.RuneTemplarRedDisabled
+nevermine.RuneTemplarYellow
+nevermine.RuneTemplarYellowDisabled
+nevermine.RunicBomb
+nevermine.RunicGolem
+nevermine.RunicGuardian
+nevermine.RunicGuardianShot
+nevermine.RunicLifeformBlue
+nevermine.RunicLifeformGreen
+nevermine.RunicLifeformRed
+nevermine.RunicLifeformYellow
+nevermine.Runicorn
+nevermine.RunicornRider
+nevermine.Sabretooth
+nevermine.SandGiant
+nevermine.SandGolem
+nevermine.Sasquatch
+nevermine.Sceptron
+nevermine.Scrubby
+nevermine.Scythe
+nevermine.SeaCharger
+nevermine.SeaSkeleton
+nevermine.SeaSpider
+nevermine.SeaTroll
+nevermine.SeaViper
+nevermine.Seaocron
+nevermine.SeedDart
+nevermine.Seeker
+nevermine.SelyanShot
+nevermine.SelyanStickler
+nevermine.Shaddy
+nevermine.Shade
+nevermine.Shadow
+nevermine.ShadowBall
+nevermine.ShadowStalker
+nevermine.Shadowlord
+nevermine.ShadowlordShot
+nevermine.Shavo
+nevermine.Shell
+nevermine.Shifter
+nevermine.ShowerShot
+nevermine.ShyreArcher
+nevermine.ShyreBanker
+nevermine.ShyreKnight
+nevermine.ShyreTroll
+nevermine.Silencer
+nevermine.Silverfoot
+nevermine.SkeleElder
+nevermine.SkeleHopper
+nevermine.SkeleHopperElite
+nevermine.SkeleHopperStrong
+nevermine.Skeledon
+nevermine.Skelekyte
+nevermine.Skeleman
+nevermine.SkelemanElite
+nevermine.SkelemanShot
+nevermine.SkelemanStrong
+nevermine.Skelepig
+nevermine.SkelepigElite
+nevermine.SkelepigStrong
+nevermine.SkeletalCowman
+nevermine.SkeletalPellet
+nevermine.Skeletron
+nevermine.Skellox
+nevermine.Skipper
+nevermine.Skolle
+nevermine.SkullCreature
+nevermine.SkulloBlaster
+nevermine.SliceStar
+nevermine.Slimer
+nevermine.Smash
+nevermine.SmileBlaster
+nevermine.Snappy
+nevermine.SnowCharger
+nevermine.SoulAgent
+nevermine.SoulSparkShot
+nevermine.Soulscorne
+nevermine.Soulvyre
+nevermine.SoundCannon1
+nevermine.SoundCannon2
+nevermine.SoundCannon3
+nevermine.SoundCannon4
+nevermine.SoundCannon5
+nevermine.SpearmintSlug
+nevermine.SpecialBullet
+nevermine.SpectralShot
+nevermine.SpectralWizard
+nevermine.Sphinx
+nevermine.Spikeback
+nevermine.SpineShot
+nevermine.Spinoledon
+nevermine.Spinux
+nevermine.SpiritGuardian
+nevermine.SpiritProtector
+nevermine.Spraggy
+nevermine.Squasher
+nevermine.Squiggler
+nevermine.StaffAquatic
+nevermine.StaffBaron
+nevermine.StaffFire
+nevermine.StaffGhoul
+nevermine.StaffMecha
+nevermine.StaffPoison
+nevermine.StaffPower
+nevermine.StaffWater
+nevermine.StaffWind
+nevermine.StaffWither
+nevermine.Stalker
+nevermine.StalkerPrime
+nevermine.Sticky
+nevermine.StickyBomb
+nevermine.Stimulo
+nevermine.Stimulosus
+nevermine.Stinger
+nevermine.Stitches
+nevermine.StoneGiant
+nevermine.StoreKeeper
+nevermine.StreamShot
+nevermine.Sugarface
+nevermine.SunEmitter
+nevermine.SunShot
+nevermine.Sunny
+nevermine.SurgeBlue
+nevermine.SurgeRed
+nevermine.Surveyor
+nevermine.SurveyorShot
+nevermine.SwampCharger
+nevermine.SwarmShot
+nevermine.Sysker
+nevermine.TangleFall
+nevermine.Terradon
+nevermine.Terrestrial
+nevermine.Tharafly
+nevermine.TigerShot
+nevermine.Tipsy
+nevermine.TokenTrader
+nevermine.Torano
+nevermine.Tortione
+nevermine.ToxicBall
+nevermine.ToxicShot
+nevermine.Toxxulous
+nevermine.ToyMerchant
+nevermine.Tracker
+nevermine.Trickster
+nevermine.TricksterClone
+nevermine.Triclops
+nevermine.TrollTrader
+nevermine.Trotter
+nevermine.Tyrosaur
+nevermine.UndeadTroll
+nevermine.UnderworldBarrage
+nevermine.Urioh
+nevermine.Urka
+nevermine.Ursa
+nevermine.Urv
+nevermine.Valkyrie
+nevermine.ValkyrieShot
+nevermine.Vertebron
+nevermine.VineWizard
+nevermine.Vinocorne
+nevermine.Visage
+nevermine.Visualent
+nevermine.Visular
+nevermine.Visulon
+nevermine.VitalityMaster
+nevermine.VoidCharger
+nevermine.VoidWalker
+nevermine.Volar
+nevermine.VolarShot
+nevermine.Voliant
+nevermine.Voltron
+nevermine.Vortex
+nevermine.Voxxulon
+nevermine.VulcanismMaster
+nevermine.Vulkram
+nevermine.Waggy
+nevermine.Walker
+nevermine.Warclops
+nevermine.WartDart
+nevermine.WaterBallonBomb
+nevermine.WebReaper
+nevermine.Wickett
+nevermine.Winder
+nevermine.WingedCreeper
+nevermine.WitherBall
+nevermine.WitherPierce
+nevermine.WitherWizard
+nevermine.WoodGiant
+nevermine.WrathShot
+nevermine.Xxeus
+nevermine.YellowBullet
+nevermine.Yeti
+nevermine.ZalBanker
+nevermine.ZalChild
+nevermine.ZalCitizen
+nevermine.ZalFoodMarket
+nevermine.ZalHerbalist
+nevermine.ZalLunarade
+nevermine.ZalSpellbinder
+nevermine.Zarg
+nevermine.Zhinx
+nevermine.Zorp
+notenoughpets.Mooshroom_NEP
+notenoughpets.Ocelot_NEP
+notenoughpets.Parrot_NEP
+notenoughpets.Wolf_NEP
+ogre
+openmodularturrets.blazingClayProjectile
+openmodularturrets.bulletProjectile
+openmodularturrets.grenadeProjectile
+openmodularturrets.laserProjectile
+openmodularturrets.rocketProjectile
+opensecurity.energybolt
+pandorasbox.pandorasBox
+pixelnauts.Blue Droid
+pixelnauts.Evil Eye
+pixelnauts.Totem Orb
+rangeEntity
+redgear_core.Brewcraft:Potion
+row.Bobber
+row.CartFlatbed
+row.CartFlatbedLong
+row.CartNT
+row.CherTub
+row.Cherepanov
+row.Handcar
+row.Howitzer
+row.III2L12
+row.LocoOv
+row.LocoSSW
+row.LocoYer
+row.Machinegun50cal
+row.NTV
+row.Shot_2
+row.TenderCher
+row.TenderOv
+row.cartRider
+row.tenderFuel
+row.trackPreview
+securitycraft.BBetty
+securitycraft.IMSBomb
+securitycraft.SecurityCamera
+securitycraft.TazerBullet
+securitycraft.bullet
+securitycraft.sentry
+shincolle.BasicEntityItem
+shincolle.EntityAbyssMissile
+shincolle.EntityAirfieldHime
+shincolle.EntityAirplane
+shincolle.EntityAirplaneT
+shincolle.EntityAirplaneTMob
+shincolle.EntityAirplaneTakoyaki
+shincolle.EntityAirplaneZero
+shincolle.EntityAirplaneZeroMob
+shincolle.EntityBattleshipHime
+shincolle.EntityBattleshipNGT
+shincolle.EntityBattleshipNGTBoss
+shincolle.EntityBattleshipRe
+shincolle.EntityBattleshipTa
+shincolle.EntityBattleshipYMT
+shincolle.EntityBattleshipYMTBoss
+shincolle.EntityCarrierAkagi
+shincolle.EntityCarrierAkagiBoss
+shincolle.EntityCarrierHime
+shincolle.EntityCarrierKaga
+shincolle.EntityCarrierKagaBoss
+shincolle.EntityCarrierWD
+shincolle.EntityCarrierWo
+shincolle.EntityDestroyerAkatsuki
+shincolle.EntityDestroyerAkatsukiMob
+shincolle.EntityDestroyerHa
+shincolle.EntityDestroyerHibiki
+shincolle.EntityDestroyerHibikiMob
+shincolle.EntityDestroyerI
+shincolle.EntityDestroyerIkazuchi
+shincolle.EntityDestroyerIkazuchiMob
+shincolle.EntityDestroyerInazuma
+shincolle.EntityDestroyerInazumaMob
+shincolle.EntityDestroyerNi
+shincolle.EntityDestroyerRo
+shincolle.EntityDestroyerShimakaze
+shincolle.EntityDestroyerShimakazeBoss
+shincolle.EntityFloatingFort
+shincolle.EntityHarbourHime
+shincolle.EntityHeavyCruiserNe
+shincolle.EntityHeavyCruiserRi
+shincolle.EntityMountAfH
+shincolle.EntityMountBaH
+shincolle.EntityMountCaH
+shincolle.EntityMountCaWD
+shincolle.EntityMountHbH
+shincolle.EntityMountSeat2
+shincolle.EntityNorthernHime
+shincolle.EntityProjectileBeam
+shincolle.EntityRenderFlare
+shincolle.EntityRenderLargeShipyard
+shincolle.EntityRenderVortex
+shincolle.EntityRensouhou
+shincolle.EntityRensouhouBoss
+shincolle.EntityRensouhouS
+shincolle.EntitySubmKa
+shincolle.EntitySubmRo500
+shincolle.EntitySubmRo500Mob
+shincolle.EntitySubmSo
+shincolle.EntitySubmU511
+shincolle.EntitySubmU511Mob
+shincolle.EntitySubmYo
+shincolle.EntityTransportWa
+shipwrecks.piranha
+skull
+smbgrapplinghook.smbEntityHook
+soundEntity
+stablar
+steamcraft2.AbdandonedGolem
+steamcraft2.Boar
+steamcraft2.Bullet
+steamcraft2.FallingBoulder
+steamcraft2.FleshGolem
+steamcraft2.GhostSpider
+steamcraft2.GiantSpider
+steamcraft2.Grub
+steamcraft2.LostMiner
+steamcraft2.Rocket
+steamcraft2.ShroomSkeleton
+steamcraft2.ShroomZombie
+steamcraft2.SpiderQueen
+steamcraft2.SplashLightningBottle
+steamcraft2.TimeBomb
+steamcraft2.VampireBat
+steamcraft2.Whale
+stefinusguns.Bullet
+stefinusguns.Rocket
+tc.1225 tender
+tc.23 Ton Boxcab
+tc.2TruckClimax
+tc.2TruckVerticalBoilerShay
+tc.3 Truck Shay
+tc.3 Truck Shay Tender
+tc.4000GallonTender
+tc.40highcube
+tc.5201 Cu Foot Hopper
+tc.52footMillGondola
+tc.60 Foot Hi-Cube Boxcar
+tc.60centerbeam
+tc.6260 Cu Foot Jumbo Hopper
+tc.63centerbeam
+tc.66centerbeam
+tc.73centerbeam
+tc.AC&F GN 60 Seat Coach
+tc.AC&F GN Diner-Observation
+tc.AC&F GN RPO (30' mail)
+tc.Alco S2
+tc.Amfleet
+tc.Amfleet2
+tc.B23-7
+tc.BR04
+tc.BR07
+tc.BTRHopper
+tc.BTRLogCar
+tc.BTRSnowplow
+tc.BUnitDash840B
+tc.BUnitE7B
+tc.BUnitE8B
+tc.BUnitF7B
+tc.BUnitFOL-M1B
+tc.BUnitGP7b
+tc.Bamboo Flatcar Engine
+tc.Bamboo Flatcar Freight
+tc.Bamboo Flatcar Passenger
+tc.Beep
+tc.C424
+tc.C425
+tc.CD010 Trailer
+tc.CD014 Trailer
+tc.CD810 Driving Motor
+tc.CD814 Driving Motor
+tc.CD914 Driving Trailer
+tc.CF7angle
+tc.CF7round
+tc.Caboose Black
+tc.Caboose Logging
+tc.Caboose Red
+tc.Class 158 Engine
+tc.Class 158 Passenger Car
+tc.Class 345 Engine
+tc.Class 345 Passenger Car
+tc.Class 44
+tc.DD35 B Unit
+tc.DH643
+tc.DOT11000
+tc.DOT17600
+tc.DOT20600
+tc.DOT29080
+tc.DRGWCaboose
+tc.DRWG Stock Cart
+tc.Dash840B
+tc.Dash840BB
+tc.Dash840BW
+tc.Dash840C
+tc.Dash944CW
+tc.Denver Rio Grande Baggage
+tc.Dm B Unit
+tc.Dm C Unit
+tc.E7A
+tc.E7B
+tc.E8A
+tc.E8B
+tc.EF1
+tc.EF1B
+tc.EMD F3 B Unit
+tc.EMD F7 B Unit
+tc.EP1A
+tc.ES44
+tc.EU07
+tc.Entity Front Bogie
+tc.F01
+tc.F7A
+tc.F7B
+tc.FOL-M1B
+tc.Feve3300Front
+tc.Feve3300Rear
+tc.Flat Cart
+tc.Flat Cart DB
+tc.Flat Cart SU
+tc.Flat Cart US
+tc.Fowler 4F Tender
+tc.Freight 100 Ton Hopper
+tc.Freight ASTF Autorack
+tc.Freight BNSF Gondola
+tc.Freight Box Cart PRR
+tc.Freight Box Cart US
+tc.Freight Bulkhead Flat Cart
+tc.Freight Car L
+tc.Freight Cart Closed RedBrown
+tc.Freight Cart GS4 Baggage
+tc.Freight Cart Red
+tc.Freight Cart Small
+tc.Freight Cart US
+tc.Freight Cart Yellow
+tc.Freight Center Beam Empty
+tc.Freight Center Beam Wood1
+tc.Freight Center Beam Wood2
+tc.Freight Depressed Flatcar
+tc.Freight Flat Cart Log
+tc.Freight Flat Cart Logs DB
+tc.Freight Flat Cart Rails DB
+tc.Freight Flat Cart Wood US
+tc.Freight Flat Logs
+tc.Freight GTNG Ore Wagon
+tc.Freight German Post
+tc.Freight Gondola DB
+tc.Freight Heavyweight Baggage
+tc.Freight Hopper Green
+tc.Freight Hopper US
+tc.Freight Ice Wagon
+tc.Freight K Class Rail Box
+tc.Freight Long Covered Hopper
+tc.Freight Minecart Yellow
+tc.Freight Open RedBrown
+tc.Freight Open Wagon
+tc.Freight PS 73 Baggage
+tc.Freight PS 85 Baggage
+tc.Freight Ribbed Covered Hopper
+tc.Freight Round Covered Hopper
+tc.Freight Short Covered Hopper
+tc.Freight Slate Wagon
+tc.Freight Trailer
+tc.Freight Wagon DB
+tc.Freight Well Car
+tc.Freight Wood Panel Box Car
+tc.Freight Wood Panel Reefer Car
+tc.Freight Wood Panel Stock Car
+tc.GE 44-ton
+tc.GE 44-ton Diesel switcher
+tc.GM6C
+tc.GP13
+tc.GP15
+tc.GP30
+tc.GP38
+tc.GP38dash2
+tc.GP38dash9W
+tc.GP39
+tc.GP40
+tc.GP49
+tc.GP7
+tc.GP7b
+tc.GP7u
+tc.GP9
+tc.GWR Toad Brake Van
+tc.Garratt Front
+tc.Garratt Mid
+tc.Garratt Rear
+tc.H1044
+tc.HH660
+tc.Heavyweight Freight Car
+tc.ICE Restaurant
+tc.JukeBox Cart
+tc.Kof III
+tc.Kof III M
+tc.Krautt
+tc.LightCrane
+tc.Loco 440R Front
+tc.Loco Berkshire 1225
+tc.Loco Berkshire 765
+tc.Loco Diesel CD742
+tc.Loco Diesel CF7
+tc.Loco Diesel ChME3
+tc.Loco Diesel DD35A
+tc.Loco Diesel Deltic
+tc.Loco Diesel DuLok
+tc.Loco Diesel EMD F-3
+tc.Loco Diesel EMD F-7
+tc.Loco Diesel GP15
+tc.Loco Diesel GP7
+tc.Loco Diesel IC4 DSB MG
+tc.Loco Diesel KOF DB
+tc.Loco Diesel MILW H10-44
+tc.Loco Diesel SD40
+tc.Loco Diesel SD70
+tc.Loco Diesel Shunter
+tc.Loco Diesel V60 DB
+tc.Loco Diesel WWCP GP7
+tc.Loco Electric BP4
+tc.Loco Electric BR 185
+tc.Loco Electric BR155
+tc.Loco Electric BR_E69
+tc.Loco Electric CD151
+tc.Loco Electric Class 85
+tc.Loco Electric DB143
+tc.Loco Electric DLok
+tc.Loco Electric DaLok
+tc.Loco Electric DmA
+tc.Loco Electric E10 DB
+tc.Loco Electric E103
+tc.Loco Electric EWS Class 66
+tc.Loco Electric High Speed ZeroED
+tc.Loco Electric ICE 1
+tc.Loco Electric ILMA
+tc.Loco Electric ILMB
+tc.Loco Electric Minetrain
+tc.Loco Electric RcLok
+tc.Loco Electric Renfe 446 Motor
+tc.Loco Electric Renfe 450 Motor
+tc.Loco Electric Shinkansen
+tc.Loco Electric Tram NY
+tc.Loco Electric VL10
+tc.Loco Electric Yellow Wood Tram
+tc.Loco FOL M1
+tc.Loco Fowler
+tc.Loco Hall Class
+tc.Loco King Class
+tc.Loco SM42
+tc.Loco Steam 040VB
+tc.Loco Steam 262T
+tc.Loco Steam 4-4-0
+tc.Loco Steam A4 Mallard
+tc.Loco Steam Adler
+tc.Loco Steam Alco SC4
+tc.Loco Steam Alice
+tc.Loco Steam BR01
+tc.Loco Steam BR80
+tc.Loco Steam BTR 2422
+tc.Loco Steam BTR 3100
+tc.Loco Steam BTR 3200
+tc.Loco Steam C11
+tc.Loco Steam C41
+tc.Loco Steam C41 0-8-0
+tc.Loco Steam C41T
+tc.Loco Steam C62Class
+tc.Loco Steam Cherepanov
+tc.Loco Steam Climax
+tc.Loco Steam Coranation Class
+tc.Loco Steam D51 Long Streamlining
+tc.Loco Steam D51 Short Streamlining
+tc.Loco Steam EBL 242
+tc.Loco Steam ER_USSR
+tc.Loco Steam Forney
+tc.Loco Steam GS4
+tc.Loco Steam Heavy
+tc.Loco Steam Kozma
+tc.Loco Steam LSSP7
+tc.Loco Steam LSSP7 GOLD
+tc.Loco Steam MILW Class A
+tc.Loco Steam Mogul
+tc.Loco Steam NS 3700 Class
+tc.Loco Steam PELoco
+tc.Loco Steam Pannier
+tc.Loco Steam SR Q1
+tc.Loco Steam Shay
+tc.Loco Steam Small
+tc.Loco Steam Snow Plow
+tc.Loco Steam Southern 1102
+tc.Loco Steam Star Class
+tc.Loco Steam USATCUK
+tc.Loco Steam USATCUS
+tc.Loco Steam VB Shay
+tc.Loco Steam glyn
+tc.Loco WLs40
+tc.London D Stock Engine
+tc.London D Stock Passenger Car
+tc.London Underground Engine
+tc.London Underground Passenger Car
+tc.MILW Baggage
+tc.MILW40boxcar
+tc.Mail Wagon DB
+tc.NRE3gs21b
+tc.Onion
+tc.Onion Tender
+tc.Ore Jenny
+tc.PCH-120 Commute
+tc.PCH-120 Commute Car
+tc.PEcoach
+tc.PEobserve
+tc.PRR Caboose Logging
+tc.PS 5-6-5 Sleeper
+tc.PS 5-6-5 Sleeper DRGW Edition
+tc.PS 52 Seat Coach
+tc.PS Center Diner
+tc.PS Center Diner 2
+tc.PS Combine Coach
+tc.PS140
+tc.PS150
+tc.PS160
+tc.Passenger 1Class DB
+tc.Passenger 2Class DB
+tc.Passenger 440R Mid
+tc.Passenger 440R Rear
+tc.Passenger Adler
+tc.Passenger AntiAircraft
+tc.Passenger BL Railway Gun
+tc.Passenger Blue
+tc.Passenger DB oriental
+tc.Passenger Denver Rio Grande
+tc.Passenger Denver Rio Grande Combo
+tc.Passenger GS4
+tc.Passenger GS4 Observatory
+tc.Passenger GS4 Tail
+tc.Passenger Green Long
+tc.Passenger Heavyweight
+tc.Passenger Heavyweight Tail
+tc.Passenger High Speed Zero ED
+tc.Passenger IC4 DSB FG
+tc.Passenger IC4 DSB FH
+tc.Passenger ICE 1st Class
+tc.Passenger ICE 2nd Class
+tc.Passenger MILW
+tc.Passenger MILW Tail
+tc.Passenger PL42
+tc.Passenger Power Shinkansen
+tc.Passenger Renfe 446 Coach
+tc.Passenger Renfe 446 Tail
+tc.Passenger Renfe 450 Coach
+tc.Passenger Renfe 450 Tail
+tc.Passenger Rheingold
+tc.Passenger Shinkansen
+tc.Passenger Short Green
+tc.Passenger Small Black
+tc.Passenger Star Fat
+tc.Passenger Star Not Fat
+tc.Passenger Tram NY
+tc.Propaganda Britain
+tc.Propaganda Japan
+tc.Propaganda USA
+tc.Propaganda USSR
+tc.RSD15
+tc.Reefer64
+tc.Rheingold Dining
+tc.Rheingold Dining Alternate
+tc.Rheingold Panorama
+tc.SD38
+tc.SD39
+tc.SD40
+tc.SD40T-2
+tc.SD45
+tc.SD70Mac
+tc.SD9
+tc.SW1
+tc.SW1000
+tc.SW1200
+tc.SW1500
+tc.SW8
+tc.Skeleton
+tc.Skookum
+tc.Skookum Tender
+tc.Stock Cart
+tc.Tank Lava
+tc.Tank Wagon DB
+tc.Tank Wagon Grey
+tc.Tank Wagon Three Dome
+tc.Tank Wagon US
+tc.Tank Wagon Yellow
+tc.Tender 4-4-0
+tc.Tender A4 Mallard
+tc.Tender Adler
+tc.Tender BR01
+tc.Tender BTR Heavy
+tc.Tender C41
+tc.Tender C62Class
+tc.Tender Coranation Class
+tc.Tender D51
+tc.Tender ER_USSR
+tc.Tender GS4
+tc.Tender Heavy
+tc.Tender Kozma
+tc.Tender MILW
+tc.Tender NS 3700
+tc.Tender PETender
+tc.Tender SR Q1
+tc.Tender Small Black
+tc.Tender Southern1102
+tc.Tender Star Class
+tc.Tracks Builder
+tc.U18B
+tc.U23B
+tc.U36C
+tc.VersaLongi
+tc.VersaTrans
+tc.WCPBaler
+tc.WCPBuckingBull
+tc.WVcaboose
+tc.WWCP 40 Foot Boxcar
+tc.Woodchip Hopper
+tc.Work Caboose
+tc.Work Cart Yellow
+tc.class58
+tc.gp7new
+tc.zeppelin
+tc.zeppelin big
+testdummy.Dummy
+testdummy.FloatingNumber
+testdummy.FloatingNumberDPS
+totemic.buffalo
+tumbleweed.Tumbleweed
+waterSpider
+whiteKnight
+wildmobsmod.Armadillo
+wildmobsmod.Bison
+wildmobsmod.Butterfly
+wildmobsmod.Cheetah
+wildmobsmod.Cougar
+wildmobsmod.Deer
+wildmobsmod.DireWolf
+wildmobsmod.Dragonfly
+wildmobsmod.Dreath
+wildmobsmod.Faded
+wildmobsmod.Fox
+wildmobsmod.Goat
+wildmobsmod.Goose
+wildmobsmod.Hyena
+wildmobsmod.Jellyfish
+wildmobsmod.LavaSpit
+wildmobsmod.MagmaPlant
+wildmobsmod.Mired
+wildmobsmod.MiredSummoner
+wildmobsmod.Mouse
+wildmobsmod.SeaScorpion
+wildmobsmod.SeaScorpionEgg
+wildmobsmod.SkeletonWolf
+wildmobsmod.Tarantula
+wildmobsmod.TarantulaHair
+wildmobsmod.WMWolf
+wildmobsmod.Zomgus
+witherSkeleton
+wizardry.Arc
+wizardry.Arrow Rain
+wizardry.Black Hole
+wizardry.Blaze Minion
+wizardry.Blizzard
+wizardry.Bubble
+wizardry.Darkness Orb
+wizardry.Dart
+wizardry.Decay
+wizardry.Decoy
+wizardry.Earthquake
+wizardry.Evil Wizard
+wizardry.Falling Grass
+wizardry.Fire Sigil
+wizardry.Firebolt
+wizardry.Firebomb
+wizardry.Force Arrow
+wizardry.Force Orb
+wizardry.Forcefield
+wizardry.Frost Sigil
+wizardry.Hailstorm
+wizardry.Healing Aura
+wizardry.Ice Charge
+wizardry.Ice Giant
+wizardry.Ice Lance
+wizardry.Ice Shard
+wizardry.Ice Spike
+wizardry.Ice Wraith
+wizardry.Lightning Arrow
+wizardry.Lightning Disc
+wizardry.Lightning Hammer
+wizardry.Lightning Pulse
+wizardry.Lightning Sigil
+wizardry.Lightning Wraith
+wizardry.Magic Missile
+wizardry.Magic Slime
+wizardry.Meteor
+wizardry.Phoenix
+wizardry.Poison Bomb
+wizardry.Ring of Fire
+wizardry.Shadow Wraith
+wizardry.Shield
+wizardry.Silverfish Minion
+wizardry.Skeleton Minion
+wizardry.Smoke Bomb
+wizardry.Spark
+wizardry.Spark Bomb
+wizardry.Spider Minion
+wizardry.Spirit Horse
+wizardry.Spirit Wolf
+wizardry.Storm Elemental
+wizardry.Thunderbolt
+wizardry.Tornado
+wizardry.Wizard
+wizardry.Zombie Minion
+zeldaswordskills.arrow_bomb
+zeldaswordskills.arrow_bomb_fire
+zeldaswordskills.arrow_bomb_water
+zeldaswordskills.arrow_custom
+zeldaswordskills.arrow_fire
+zeldaswordskills.arrow_ice
+zeldaswordskills.arrow_light
+zeldaswordskills.arrow_silver
+zeldaswordskills.baba_deku
+zeldaswordskills.baba_fire
+zeldaswordskills.baba_withered
+zeldaswordskills.bomb
+zeldaswordskills.bombos_fireball
+zeldaswordskills.boomerang
+zeldaswordskills.chu_blue
+zeldaswordskills.chu_green
+zeldaswordskills.chu_red
+zeldaswordskills.chu_yellow
+zeldaswordskills.cyclone
+zeldaswordskills.darknut
+zeldaswordskills.darknut_boss
+zeldaswordskills.darknut_mighty
+zeldaswordskills.fairy
+zeldaswordskills.fairy.navi
+zeldaswordskills.goron
+zeldaswordskills.hookshot
+zeldaswordskills.jar
+zeldaswordskills.keese
+zeldaswordskills.keese_cursed
+zeldaswordskills.keese_fire
+zeldaswordskills.keese_ice
+zeldaswordskills.keese_thunder
+zeldaswordskills.leapingblow
+zeldaswordskills.magicspell
+zeldaswordskills.npc.barnes
+zeldaswordskills.npc.mask_trader
+zeldaswordskills.npc.orca
+zeldaswordskills.npc.zelda
+zeldaswordskills.octorok_pink
+zeldaswordskills.octorok_purple
+zeldaswordskills.rock
+zeldaswordskills.seedshot
+zeldaswordskills.seedshot_bomb
+zeldaswordskills.seedshot_cocoa
+zeldaswordskills.seedshot_deku
+zeldaswordskills.seedshot_melon
+zeldaswordskills.seedshot_netherwart
+zeldaswordskills.seedshot_pumpkin
+zeldaswordskills.swordbeam
+zeldaswordskills.whip
+zeldaswordskills.wizzrobe_fire
+zeldaswordskills.wizzrobe_gale
+zeldaswordskills.wizzrobe_grand
+zeldaswordskills.wizzrobe_ice
+zeldaswordskills.wizzrobe_thunder
+## Spawn Egg IDs: in the form <number id> - <entity string id (which it spawns)> ##
+0 - entityEagle
+3 - entityDemonCat
+4 - entityFairyPixie
+5 - Entity Sasori
+6 - Entity Sasori Phase 2
+7 - Puppet
+23 - Puppet2
+24 - Puppet Kazekage 3
+25 - dmod.fox
+50 - Creeper
+51 - Skeleton
+52 - Spider
+54 - Zombie
+55 - Slime
+56 - Ghast
+57 - PigZombie
+58 - Enderman
+59 - CaveSpider
+60 - Silverfish
+61 - Blaze
+62 - LavaSlime
+65 - Bat
+66 - Witch
+85 - entity_blockling
+87 - CCreeper
+90 - Pig
+91 - Sheep
+92 - Cow
+93 - Chicken
+94 - Squid
+95 - Wolf
+96 - MushroomCow
+97 - SnowMan
+98 - Ozelot
+99 - VillagerGolem
+100 - EntityHorse
+102 - creepermite
+105 - cpc:pewds
+106 - cpc:cry
+120 - Villager
+125 - fireWizard
+126 - ChocolateCreeper
+127 - ChocolateCow
+128 - fireSpawn
+129 - blackWidowSpider
+130 - bull
+131 - blackKnight
+132 - whiteKnight
+133 - dragonKnightBoss
+134 - waterSpider
+135 - mummyMob
+136 - emeraldSlime
+137 - broodSpider
+138 - femalecreeper
+139 - goldenBonnieMOB
+140 - foxyThePirateFox
+141 - freddyFazbear
+142 - bonnie
+143 - chica
+144 - balloonBoy
+145 - stablar
+146 - gondolamob
+147 - drummer
+148 - ogre
+267 - Rock
+284 - skull
+287 - Battletower Golem
+289 - witherSkeleton
+290 - Creeper-Spider
+291 - Guardian
+293 - Blizz
+294 - Blitz
+295 - Basalz
+301 - ani_koto.Drine
+302 - ani_koto.Chipmunk
+303 - ani_koto.Miresi
+304 - ani_koto.Hostem
+305 - ani_koto.Proto
+306 - ani_koto.Scientist
+307 - ani_koto.Asanbosam
+308 - ani_koto.Jinn
+309 - ani_koto.DarkMiresi
+310 - ani_koto.CyclopsGolem
+501 - DiseaseCraft.rat

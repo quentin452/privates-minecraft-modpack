@@ -1,0 +1,13 @@
+{
+  "_name": "manametalmod:ItemMuskets",
+  "draw_speed": "1.0~1.0",
+  "max_draw": "Infinity",
+  "ramp_up_distance": "0.0~0.0",
+  "speed_multiplier": "1.0~1.0",
+  "variance": "0.0~0.0",
+  "head_damage": "0.0~0.0",
+  "body_damage": "0.0~0.0",
+  "head_multiplier": "1.0~1.0",
+  "body_multiplier": "1.0~1.0",
+  "nbt": []
+}

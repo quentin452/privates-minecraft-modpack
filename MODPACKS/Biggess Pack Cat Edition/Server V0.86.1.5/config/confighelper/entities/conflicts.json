@@ -1,0 +1,28 @@
+{
+  "entities-id:58": [
+    {
+      "name": "Enderman",
+      "mod": "Minecraft",
+      "class": "net.minecraft.entity.monster.EntityEnderman"
+    },
+    {
+      "name": "Enderman",
+      "mod": "Hardcore Ender Expansion",
+      "replaced": true,
+      "class": "chylex.hee.entity.mob.EntityMobEnderman"
+    }
+  ],
+  "entities-id:200": [
+    {
+      "name": "EnderCrystal",
+      "mod": "Minecraft",
+      "class": "net.minecraft.entity.item.EntityEnderCrystal"
+    },
+    {
+      "name": "EnderCrystal",
+      "mod": "Hardcore Ender Expansion",
+      "replaced": true,
+      "class": "chylex.hee.entity.block.EntityBlockEnderCrystal"
+    }
+  ]
+}

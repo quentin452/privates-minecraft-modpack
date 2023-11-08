@@ -1,0 +1,4693 @@
+{
+  "_name": "pyramidJungleDispenser",
+  "min": 2,
+  "max": 2,
+  "loot": [
+    {
+      "weight": 30,
+      "id": "minecraft:arrow",
+      "damage": 0,
+      "min": 2,
+      "max": 7
+    },
+    {
+      "weight": 2,
+      "id": "evilcraft:broom",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 5,
+      "id": "evilcraft:originsOfDarkness",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 10,
+      "id": "evilcraft:condensedBlood",
+      "damage": 0,
+      "min": 5,
+      "max": 32
+    },
+    {
+      "weight": 2,
+      "id": "evilcraft:garmonbozia",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 1,
+      "id": "evilcraft:boxOfEternalClosure",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "playerName",
+              "function": "string",
+              "value": "Forgotten Player"
+            },
+            {
+              "name": "spiritTag",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Attributes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "3.0~3.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.maxHealth"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.0~0.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.knockbackResistance"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.5~0.5"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.movementSpeed"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "10.0~10.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.followRange"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "4.0~4.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.attackDamage"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Invulnerable",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "PortalCooldown",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AbsorptionAmount",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "FallDistance",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "DeathTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "DropChances",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    }
+                  ]
+                },
+                {
+                  "name": "PersistenceRequired",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "isSwarm",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "HealF",
+                  "function": "float",
+                  "value": "3.0~3.0"
+                },
+                {
+                  "name": "id",
+                  "function": "string",
+                  "value": "vengeanceSpirit"
+                },
+                {
+                  "name": "playerId",
+                  "function": "string",
+                  "value": "bbb87dbe-690f-4205-bdc5-72ffb8ebc29d"
+                },
+                {
+                  "name": "Motion",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Leashed",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDLeast",
+                  "function": "long",
+                  "value": "-7105359981827094857"
+                },
+                {
+                  "name": "Health",
+                  "function": "short",
+                  "value": "3~3"
+                },
+                {
+                  "name": "playerName",
+                  "function": "string",
+                  "value": "Forgotten Player"
+                },
+                {
+                  "name": "ALEntity",
+                  "function": "compound",
+                  "tags": [
+                    {
+                      "name": "Saved",
+                      "function": "byte",
+                      "value": "1~1"
+                    },
+                    {
+                      "name": "ForcePushed",
+                      "function": "byte",
+                      "value": "0~0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Air",
+                  "function": "short",
+                  "value": "300~300"
+                },
+                {
+                  "name": "OnGround",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "Dimension",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "swarmTier",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "Rotation",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "5.6230288~5.6230288"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "frozenDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDMost",
+                  "function": "long",
+                  "value": "9097003787860395978"
+                },
+                {
+                  "name": "Equipment",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "CustomName",
+                  "function": "string",
+                  "value": ""
+                },
+                {
+                  "name": "Pos",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Fire",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CanPickUpLoot",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "innerEntity",
+                  "function": "string",
+                  "value": "DragonRealm.entity.EntityDragonAlpha"
+                },
+                {
+                  "name": "remainingLife",
+                  "function": "int",
+                  "value": "291~291"
+                },
+                {
+                  "name": "HurtTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "buildupDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AttackTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CustomNameVisible",
+                  "function": "byte",
+                  "value": "0~0"
+                }
+              ]
+            },
+            {
+              "name": "playerId",
+              "function": "string",
+              "value": "bbb87dbe-690f-4205-bdc5-72ffb8ebc29d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "id": "evilcraft:boxOfEternalClosure",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "playerName",
+              "function": "string",
+              "value": "Forgotten Player"
+            },
+            {
+              "name": "spiritTag",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Attributes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "3.0~3.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.maxHealth"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.0~0.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.knockbackResistance"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.5~0.5"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.movementSpeed"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "10.0~10.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.followRange"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "4.0~4.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.attackDamage"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Invulnerable",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "PortalCooldown",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AbsorptionAmount",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "FallDistance",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "DeathTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "DropChances",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    }
+                  ]
+                },
+                {
+                  "name": "PersistenceRequired",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "isSwarm",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "HealF",
+                  "function": "float",
+                  "value": "3.0~3.0"
+                },
+                {
+                  "name": "id",
+                  "function": "string",
+                  "value": "vengeanceSpirit"
+                },
+                {
+                  "name": "playerId",
+                  "function": "string",
+                  "value": "61699b2e-d327-4a01-9f1e-0ea8c3f06bc6"
+                },
+                {
+                  "name": "Motion",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Leashed",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDLeast",
+                  "function": "long",
+                  "value": "-5199176529132319105"
+                },
+                {
+                  "name": "Health",
+                  "function": "short",
+                  "value": "3~3"
+                },
+                {
+                  "name": "playerName",
+                  "function": "string",
+                  "value": "Forgotten Player"
+                },
+                {
+                  "name": "ALEntity",
+                  "function": "compound",
+                  "tags": [
+                    {
+                      "name": "Saved",
+                      "function": "byte",
+                      "value": "1~1"
+                    },
+                    {
+                      "name": "ForcePushed",
+                      "function": "byte",
+                      "value": "0~0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Air",
+                  "function": "short",
+                  "value": "300~300"
+                },
+                {
+                  "name": "OnGround",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "Dimension",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "swarmTier",
+                  "function": "int",
+                  "value": "4~4"
+                },
+                {
+                  "name": "Rotation",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "5.590854~5.590854"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "frozenDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDMost",
+                  "function": "long",
+                  "value": "-1645105376430044604"
+                },
+                {
+                  "name": "Equipment",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "CustomName",
+                  "function": "string",
+                  "value": ""
+                },
+                {
+                  "name": "Pos",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Fire",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CanPickUpLoot",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "innerEntity",
+                  "function": "string",
+                  "value": "mod.mcreator.mcreator_roseT$EntityroseT"
+                },
+                {
+                  "name": "remainingLife",
+                  "function": "int",
+                  "value": "579~579"
+                },
+                {
+                  "name": "HurtTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "buildupDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AttackTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CustomNameVisible",
+                  "function": "byte",
+                  "value": "0~0"
+                }
+              ]
+            },
+            {
+              "name": "playerId",
+              "function": "string",
+              "value": "61699b2e-d327-4a01-9f1e-0ea8c3f06bc6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "id": "evilcraft:boxOfEternalClosure",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "playerName",
+              "function": "string",
+              "value": "Forgotten Player"
+            },
+            {
+              "name": "spiritTag",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Attributes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "3.0~3.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.maxHealth"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.0~0.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.knockbackResistance"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.5~0.5"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.movementSpeed"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "10.0~10.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.followRange"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "4.0~4.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.attackDamage"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Invulnerable",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "PortalCooldown",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AbsorptionAmount",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "FallDistance",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "DeathTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "DropChances",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    }
+                  ]
+                },
+                {
+                  "name": "PersistenceRequired",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "isSwarm",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "HealF",
+                  "function": "float",
+                  "value": "3.0~3.0"
+                },
+                {
+                  "name": "id",
+                  "function": "string",
+                  "value": "vengeanceSpirit"
+                },
+                {
+                  "name": "playerId",
+                  "function": "string",
+                  "value": "068d4de0-3a75-4c6a-9f01-8c37e16a394c"
+                },
+                {
+                  "name": "Motion",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Leashed",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDLeast",
+                  "function": "long",
+                  "value": "-9114857387462087930"
+                },
+                {
+                  "name": "Health",
+                  "function": "short",
+                  "value": "3~3"
+                },
+                {
+                  "name": "playerName",
+                  "function": "string",
+                  "value": "Forgotten Player"
+                },
+                {
+                  "name": "ALEntity",
+                  "function": "compound",
+                  "tags": [
+                    {
+                      "name": "Saved",
+                      "function": "byte",
+                      "value": "1~1"
+                    },
+                    {
+                      "name": "ForcePushed",
+                      "function": "byte",
+                      "value": "0~0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Air",
+                  "function": "short",
+                  "value": "300~300"
+                },
+                {
+                  "name": "OnGround",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "Dimension",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "swarmTier",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "Rotation",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "5.234636~5.234636"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "frozenDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDMost",
+                  "function": "long",
+                  "value": "-1101534087434908554"
+                },
+                {
+                  "name": "Equipment",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "CustomName",
+                  "function": "string",
+                  "value": ""
+                },
+                {
+                  "name": "Pos",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Fire",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CanPickUpLoot",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "innerEntity",
+                  "function": "string",
+                  "value": "net.minecraft.entity.monster.EntityWitch"
+                },
+                {
+                  "name": "remainingLife",
+                  "function": "int",
+                  "value": "767~767"
+                },
+                {
+                  "name": "HurtTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "buildupDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AttackTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CustomNameVisible",
+                  "function": "byte",
+                  "value": "0~0"
+                }
+              ]
+            },
+            {
+              "name": "playerId",
+              "function": "string",
+              "value": "068d4de0-3a75-4c6a-9f01-8c37e16a394c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "id": "evilcraft:boxOfEternalClosure",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "playerName",
+              "function": "string",
+              "value": "Forgotten Player"
+            },
+            {
+              "name": "spiritTag",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Attributes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "3.0~3.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.maxHealth"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.0~0.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.knockbackResistance"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.5~0.5"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.movementSpeed"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "10.0~10.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.followRange"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "4.0~4.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.attackDamage"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Invulnerable",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "PortalCooldown",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AbsorptionAmount",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "FallDistance",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "DeathTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "DropChances",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    }
+                  ]
+                },
+                {
+                  "name": "PersistenceRequired",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "isSwarm",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "HealF",
+                  "function": "float",
+                  "value": "3.0~3.0"
+                },
+                {
+                  "name": "id",
+                  "function": "string",
+                  "value": "vengeanceSpirit"
+                },
+                {
+                  "name": "playerId",
+                  "function": "string",
+                  "value": "e1dc75c6-dcf9-4e0c-8fbf-9c6e5e44527c"
+                },
+                {
+                  "name": "Motion",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Leashed",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDLeast",
+                  "function": "long",
+                  "value": "-6561662959695876113"
+                },
+                {
+                  "name": "Health",
+                  "function": "short",
+                  "value": "3~3"
+                },
+                {
+                  "name": "playerName",
+                  "function": "string",
+                  "value": "Forgotten Player"
+                },
+                {
+                  "name": "ALEntity",
+                  "function": "compound",
+                  "tags": [
+                    {
+                      "name": "Saved",
+                      "function": "byte",
+                      "value": "1~1"
+                    },
+                    {
+                      "name": "ForcePushed",
+                      "function": "byte",
+                      "value": "0~0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Air",
+                  "function": "short",
+                  "value": "300~300"
+                },
+                {
+                  "name": "OnGround",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "Dimension",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "swarmTier",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "Rotation",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "3.8361945~3.8361945"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "frozenDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDMost",
+                  "function": "long",
+                  "value": "-1968982934023223257"
+                },
+                {
+                  "name": "Equipment",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "CustomName",
+                  "function": "string",
+                  "value": ""
+                },
+                {
+                  "name": "Pos",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Fire",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CanPickUpLoot",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "innerEntity",
+                  "function": "string",
+                  "value": "mod.mcreator.mcreator_karavan$Entitykaravan"
+                },
+                {
+                  "name": "remainingLife",
+                  "function": "int",
+                  "value": "392~392"
+                },
+                {
+                  "name": "HurtTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "buildupDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AttackTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CustomNameVisible",
+                  "function": "byte",
+                  "value": "0~0"
+                }
+              ]
+            },
+            {
+              "name": "playerId",
+              "function": "string",
+              "value": "e1dc75c6-dcf9-4e0c-8fbf-9c6e5e44527c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "id": "evilcraft:boxOfEternalClosure",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "playerName",
+              "function": "string",
+              "value": "Forgotten Player"
+            },
+            {
+              "name": "spiritTag",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Attributes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "3.0~3.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.maxHealth"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.0~0.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.knockbackResistance"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.5~0.5"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.movementSpeed"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "10.0~10.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.followRange"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "4.0~4.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.attackDamage"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Invulnerable",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "PortalCooldown",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AbsorptionAmount",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "FallDistance",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "DeathTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "DropChances",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    }
+                  ]
+                },
+                {
+                  "name": "PersistenceRequired",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "isSwarm",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "HealF",
+                  "function": "float",
+                  "value": "3.0~3.0"
+                },
+                {
+                  "name": "id",
+                  "function": "string",
+                  "value": "vengeanceSpirit"
+                },
+                {
+                  "name": "playerId",
+                  "function": "string",
+                  "value": "853c80ef-3c37-49fd-aa49-938b674adae6"
+                },
+                {
+                  "name": "Motion",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Leashed",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDLeast",
+                  "function": "long",
+                  "value": "-6877924784199485699"
+                },
+                {
+                  "name": "Health",
+                  "function": "short",
+                  "value": "3~3"
+                },
+                {
+                  "name": "playerName",
+                  "function": "string",
+                  "value": "Forgotten Player"
+                },
+                {
+                  "name": "ALEntity",
+                  "function": "compound",
+                  "tags": [
+                    {
+                      "name": "Saved",
+                      "function": "byte",
+                      "value": "1~1"
+                    },
+                    {
+                      "name": "ForcePushed",
+                      "function": "byte",
+                      "value": "0~0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Air",
+                  "function": "short",
+                  "value": "300~300"
+                },
+                {
+                  "name": "OnGround",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "Dimension",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "swarmTier",
+                  "function": "int",
+                  "value": "4~4"
+                },
+                {
+                  "name": "Rotation",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "4.419844~4.419844"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "frozenDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDMost",
+                  "function": "long",
+                  "value": "-1658323762351292081"
+                },
+                {
+                  "name": "Equipment",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "CustomName",
+                  "function": "string",
+                  "value": ""
+                },
+                {
+                  "name": "Pos",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Fire",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CanPickUpLoot",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "innerEntity",
+                  "function": "string",
+                  "value": "com.eagle.adventurersamulets.common.entity.EntityFairyPixie"
+                },
+                {
+                  "name": "remainingLife",
+                  "function": "int",
+                  "value": "443~443"
+                },
+                {
+                  "name": "HurtTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "buildupDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AttackTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CustomNameVisible",
+                  "function": "byte",
+                  "value": "0~0"
+                }
+              ]
+            },
+            {
+              "name": "playerId",
+              "function": "string",
+              "value": "853c80ef-3c37-49fd-aa49-938b674adae6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "id": "evilcraft:boxOfEternalClosure",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "playerName",
+              "function": "string",
+              "value": "Forgotten Player"
+            },
+            {
+              "name": "spiritTag",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Attributes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "3.0~3.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.maxHealth"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.0~0.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.knockbackResistance"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.5~0.5"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.movementSpeed"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "10.0~10.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.followRange"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "4.0~4.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.attackDamage"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Invulnerable",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "PortalCooldown",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AbsorptionAmount",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "FallDistance",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "DeathTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "DropChances",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    }
+                  ]
+                },
+                {
+                  "name": "PersistenceRequired",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "isSwarm",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "HealF",
+                  "function": "float",
+                  "value": "3.0~3.0"
+                },
+                {
+                  "name": "id",
+                  "function": "string",
+                  "value": "vengeanceSpirit"
+                },
+                {
+                  "name": "playerId",
+                  "function": "string",
+                  "value": "3e13f558-fb72-4949-a842-07879924bc49"
+                },
+                {
+                  "name": "Motion",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Leashed",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDLeast",
+                  "function": "long",
+                  "value": "-5249631403163486180"
+                },
+                {
+                  "name": "Health",
+                  "function": "short",
+                  "value": "3~3"
+                },
+                {
+                  "name": "playerName",
+                  "function": "string",
+                  "value": "Forgotten Player"
+                },
+                {
+                  "name": "ALEntity",
+                  "function": "compound",
+                  "tags": [
+                    {
+                      "name": "Saved",
+                      "function": "byte",
+                      "value": "1~1"
+                    },
+                    {
+                      "name": "ForcePushed",
+                      "function": "byte",
+                      "value": "0~0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Air",
+                  "function": "short",
+                  "value": "300~300"
+                },
+                {
+                  "name": "OnGround",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "Dimension",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "swarmTier",
+                  "function": "int",
+                  "value": "2~2"
+                },
+                {
+                  "name": "Rotation",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "2.03644~2.03644"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "frozenDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDMost",
+                  "function": "long",
+                  "value": "788228990680188456"
+                },
+                {
+                  "name": "Equipment",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "CustomName",
+                  "function": "string",
+                  "value": ""
+                },
+                {
+                  "name": "Pos",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Fire",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CanPickUpLoot",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "innerEntity",
+                  "function": "string",
+                  "value": "com.akazuki.entity.Puppet2"
+                },
+                {
+                  "name": "remainingLife",
+                  "function": "int",
+                  "value": "271~271"
+                },
+                {
+                  "name": "HurtTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "buildupDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AttackTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CustomNameVisible",
+                  "function": "byte",
+                  "value": "0~0"
+                }
+              ]
+            },
+            {
+              "name": "playerId",
+              "function": "string",
+              "value": "3e13f558-fb72-4949-a842-07879924bc49"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "id": "evilcraft:boxOfEternalClosure",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "playerName",
+              "function": "string",
+              "value": "Forgotten Player"
+            },
+            {
+              "name": "spiritTag",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Attributes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "3.0~3.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.maxHealth"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.0~0.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.knockbackResistance"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.5~0.5"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.movementSpeed"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "10.0~10.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.followRange"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "4.0~4.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.attackDamage"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Invulnerable",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "PortalCooldown",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AbsorptionAmount",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "FallDistance",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "DeathTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "DropChances",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    }
+                  ]
+                },
+                {
+                  "name": "PersistenceRequired",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "isSwarm",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "HealF",
+                  "function": "float",
+                  "value": "3.0~3.0"
+                },
+                {
+                  "name": "id",
+                  "function": "string",
+                  "value": "vengeanceSpirit"
+                },
+                {
+                  "name": "playerId",
+                  "function": "string",
+                  "value": "b2faeaab-fc87-4f91-98d3-836024f268ae"
+                },
+                {
+                  "name": "Motion",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Leashed",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDLeast",
+                  "function": "long",
+                  "value": "-8775592152710070066"
+                },
+                {
+                  "name": "Health",
+                  "function": "short",
+                  "value": "3~3"
+                },
+                {
+                  "name": "playerName",
+                  "function": "string",
+                  "value": "Forgotten Player"
+                },
+                {
+                  "name": "ALEntity",
+                  "function": "compound",
+                  "tags": [
+                    {
+                      "name": "Saved",
+                      "function": "byte",
+                      "value": "1~1"
+                    },
+                    {
+                      "name": "ForcePushed",
+                      "function": "byte",
+                      "value": "0~0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Air",
+                  "function": "short",
+                  "value": "300~300"
+                },
+                {
+                  "name": "OnGround",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "Dimension",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "swarmTier",
+                  "function": "int",
+                  "value": "2~2"
+                },
+                {
+                  "name": "Rotation",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "5.5982637~5.5982637"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "frozenDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDMost",
+                  "function": "long",
+                  "value": "-8073626567938194008"
+                },
+                {
+                  "name": "Equipment",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "CustomName",
+                  "function": "string",
+                  "value": ""
+                },
+                {
+                  "name": "Pos",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Fire",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CanPickUpLoot",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "innerEntity",
+                  "function": "string",
+                  "value": "net.minecraft.entity.monster.EntityWitch"
+                },
+                {
+                  "name": "remainingLife",
+                  "function": "int",
+                  "value": "972~972"
+                },
+                {
+                  "name": "HurtTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "buildupDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AttackTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CustomNameVisible",
+                  "function": "byte",
+                  "value": "0~0"
+                }
+              ]
+            },
+            {
+              "name": "playerId",
+              "function": "string",
+              "value": "b2faeaab-fc87-4f91-98d3-836024f268ae"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "id": "evilcraft:boxOfEternalClosure",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "playerName",
+              "function": "string",
+              "value": "Forgotten Player"
+            },
+            {
+              "name": "spiritTag",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Attributes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "3.0~3.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.maxHealth"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.0~0.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.knockbackResistance"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.5~0.5"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.movementSpeed"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "10.0~10.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.followRange"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "4.0~4.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.attackDamage"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Invulnerable",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "PortalCooldown",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AbsorptionAmount",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "FallDistance",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "DeathTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "DropChances",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    }
+                  ]
+                },
+                {
+                  "name": "PersistenceRequired",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "isSwarm",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "HealF",
+                  "function": "float",
+                  "value": "3.0~3.0"
+                },
+                {
+                  "name": "id",
+                  "function": "string",
+                  "value": "vengeanceSpirit"
+                },
+                {
+                  "name": "playerId",
+                  "function": "string",
+                  "value": "0b7509f0-2458-4160-9ce1-2772b9a45ac2"
+                },
+                {
+                  "name": "Motion",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Leashed",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDLeast",
+                  "function": "long",
+                  "value": "-8025125466628437728"
+                },
+                {
+                  "name": "Health",
+                  "function": "short",
+                  "value": "3~3"
+                },
+                {
+                  "name": "playerName",
+                  "function": "string",
+                  "value": "Forgotten Player"
+                },
+                {
+                  "name": "ALEntity",
+                  "function": "compound",
+                  "tags": [
+                    {
+                      "name": "Saved",
+                      "function": "byte",
+                      "value": "1~1"
+                    },
+                    {
+                      "name": "ForcePushed",
+                      "function": "byte",
+                      "value": "0~0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Air",
+                  "function": "short",
+                  "value": "300~300"
+                },
+                {
+                  "name": "OnGround",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "Dimension",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "swarmTier",
+                  "function": "int",
+                  "value": "4~4"
+                },
+                {
+                  "name": "Rotation",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "5.367617~5.367617"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "frozenDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDMost",
+                  "function": "long",
+                  "value": "7708226466432372234"
+                },
+                {
+                  "name": "Equipment",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "CustomName",
+                  "function": "string",
+                  "value": ""
+                },
+                {
+                  "name": "Pos",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Fire",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CanPickUpLoot",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "innerEntity",
+                  "function": "string",
+                  "value": "com.eagle.adventurersamulets.common.entity.EntityDemonCat"
+                },
+                {
+                  "name": "remainingLife",
+                  "function": "int",
+                  "value": "572~572"
+                },
+                {
+                  "name": "HurtTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "buildupDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AttackTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CustomNameVisible",
+                  "function": "byte",
+                  "value": "0~0"
+                }
+              ]
+            },
+            {
+              "name": "playerId",
+              "function": "string",
+              "value": "0b7509f0-2458-4160-9ce1-2772b9a45ac2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "id": "evilcraft:boxOfEternalClosure",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "playerName",
+              "function": "string",
+              "value": "Forgotten Player"
+            },
+            {
+              "name": "spiritTag",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Attributes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "3.0~3.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.maxHealth"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.0~0.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.knockbackResistance"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.5~0.5"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.movementSpeed"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "10.0~10.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.followRange"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "4.0~4.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.attackDamage"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Invulnerable",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "PortalCooldown",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AbsorptionAmount",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "FallDistance",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "DeathTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "DropChances",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    }
+                  ]
+                },
+                {
+                  "name": "PersistenceRequired",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "isSwarm",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "HealF",
+                  "function": "float",
+                  "value": "3.0~3.0"
+                },
+                {
+                  "name": "id",
+                  "function": "string",
+                  "value": "vengeanceSpirit"
+                },
+                {
+                  "name": "playerId",
+                  "function": "string",
+                  "value": "b5c31e33-8224-4f96-a4bf-73721be9d2ec"
+                },
+                {
+                  "name": "Motion",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Leashed",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDLeast",
+                  "function": "long",
+                  "value": "-7896108710347953704"
+                },
+                {
+                  "name": "Health",
+                  "function": "short",
+                  "value": "3~3"
+                },
+                {
+                  "name": "playerName",
+                  "function": "string",
+                  "value": "Forgotten Player"
+                },
+                {
+                  "name": "ALEntity",
+                  "function": "compound",
+                  "tags": [
+                    {
+                      "name": "Saved",
+                      "function": "byte",
+                      "value": "1~1"
+                    },
+                    {
+                      "name": "ForcePushed",
+                      "function": "byte",
+                      "value": "0~0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Air",
+                  "function": "short",
+                  "value": "300~300"
+                },
+                {
+                  "name": "OnGround",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "Dimension",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "swarmTier",
+                  "function": "int",
+                  "value": "4~4"
+                },
+                {
+                  "name": "Rotation",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "1.9318392~1.9318392"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "frozenDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDMost",
+                  "function": "long",
+                  "value": "-6365953040644225616"
+                },
+                {
+                  "name": "Equipment",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "CustomName",
+                  "function": "string",
+                  "value": ""
+                },
+                {
+                  "name": "Pos",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Fire",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CanPickUpLoot",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "innerEntity",
+                  "function": "string",
+                  "value": "com.blockrevenge.entity.EntityFakeWorkbench"
+                },
+                {
+                  "name": "remainingLife",
+                  "function": "int",
+                  "value": "916~916"
+                },
+                {
+                  "name": "HurtTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "buildupDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AttackTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CustomNameVisible",
+                  "function": "byte",
+                  "value": "0~0"
+                }
+              ]
+            },
+            {
+              "name": "playerId",
+              "function": "string",
+              "value": "b5c31e33-8224-4f96-a4bf-73721be9d2ec"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "id": "evilcraft:boxOfEternalClosure",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "playerName",
+              "function": "string",
+              "value": "Forgotten Player"
+            },
+            {
+              "name": "spiritTag",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Attributes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "3.0~3.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.maxHealth"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.0~0.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.knockbackResistance"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.5~0.5"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.movementSpeed"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "10.0~10.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.followRange"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "4.0~4.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.attackDamage"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Invulnerable",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "PortalCooldown",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AbsorptionAmount",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "FallDistance",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "DeathTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "DropChances",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    }
+                  ]
+                },
+                {
+                  "name": "PersistenceRequired",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "isSwarm",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "HealF",
+                  "function": "float",
+                  "value": "3.0~3.0"
+                },
+                {
+                  "name": "id",
+                  "function": "string",
+                  "value": "vengeanceSpirit"
+                },
+                {
+                  "name": "playerId",
+                  "function": "string",
+                  "value": "069a79f4-44e9-4726-a5be-fca90e38aaf5"
+                },
+                {
+                  "name": "Motion",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Leashed",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDLeast",
+                  "function": "long",
+                  "value": "-8202284543883159192"
+                },
+                {
+                  "name": "Health",
+                  "function": "short",
+                  "value": "3~3"
+                },
+                {
+                  "name": "playerName",
+                  "function": "string",
+                  "value": "Forgotten Player"
+                },
+                {
+                  "name": "ALEntity",
+                  "function": "compound",
+                  "tags": [
+                    {
+                      "name": "Saved",
+                      "function": "byte",
+                      "value": "1~1"
+                    },
+                    {
+                      "name": "ForcePushed",
+                      "function": "byte",
+                      "value": "0~0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Air",
+                  "function": "short",
+                  "value": "300~300"
+                },
+                {
+                  "name": "OnGround",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "Dimension",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "swarmTier",
+                  "function": "int",
+                  "value": "1~1"
+                },
+                {
+                  "name": "Rotation",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "1.6747292~1.6747292"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "frozenDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDMost",
+                  "function": "long",
+                  "value": "5914130982595871277"
+                },
+                {
+                  "name": "Equipment",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "CustomName",
+                  "function": "string",
+                  "value": ""
+                },
+                {
+                  "name": "Pos",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Fire",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CanPickUpLoot",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "innerEntity",
+                  "function": "string",
+                  "value": "net.minecraft.entity.monster.EntityWitch"
+                },
+                {
+                  "name": "remainingLife",
+                  "function": "int",
+                  "value": "837~837"
+                },
+                {
+                  "name": "HurtTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "buildupDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AttackTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CustomNameVisible",
+                  "function": "byte",
+                  "value": "0~0"
+                }
+              ]
+            },
+            {
+              "name": "playerId",
+              "function": "string",
+              "value": "069a79f4-44e9-4726-a5be-fca90e38aaf5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "id": "evilcraft:boxOfEternalClosure",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "playerName",
+              "function": "string",
+              "value": "Forgotten Player"
+            },
+            {
+              "name": "spiritTag",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Attributes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "3.0~3.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.maxHealth"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.0~0.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.knockbackResistance"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.5~0.5"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.movementSpeed"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "10.0~10.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.followRange"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "4.0~4.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.attackDamage"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Invulnerable",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "PortalCooldown",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AbsorptionAmount",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "FallDistance",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "DeathTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "DropChances",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    }
+                  ]
+                },
+                {
+                  "name": "PersistenceRequired",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "isSwarm",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "HealF",
+                  "function": "float",
+                  "value": "3.0~3.0"
+                },
+                {
+                  "name": "id",
+                  "function": "string",
+                  "value": "vengeanceSpirit"
+                },
+                {
+                  "name": "playerId",
+                  "function": "string",
+                  "value": "777e7aa3-9373-4511-8d75-f99d23ebe252"
+                },
+                {
+                  "name": "Motion",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Leashed",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDLeast",
+                  "function": "long",
+                  "value": "-5757066256718031265"
+                },
+                {
+                  "name": "Health",
+                  "function": "short",
+                  "value": "3~3"
+                },
+                {
+                  "name": "playerName",
+                  "function": "string",
+                  "value": "Forgotten Player"
+                },
+                {
+                  "name": "ALEntity",
+                  "function": "compound",
+                  "tags": [
+                    {
+                      "name": "Saved",
+                      "function": "byte",
+                      "value": "1~1"
+                    },
+                    {
+                      "name": "ForcePushed",
+                      "function": "byte",
+                      "value": "0~0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Air",
+                  "function": "short",
+                  "value": "300~300"
+                },
+                {
+                  "name": "OnGround",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "Dimension",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "swarmTier",
+                  "function": "int",
+                  "value": "4~4"
+                },
+                {
+                  "name": "Rotation",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "4.8325505~4.8325505"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "frozenDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDMost",
+                  "function": "long",
+                  "value": "-6519432558650504014"
+                },
+                {
+                  "name": "Equipment",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "CustomName",
+                  "function": "string",
+                  "value": ""
+                },
+                {
+                  "name": "Pos",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Fire",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CanPickUpLoot",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "innerEntity",
+                  "function": "string",
+                  "value": "Conception.entitys.EntityMossySkeletonWarriorTank"
+                },
+                {
+                  "name": "remainingLife",
+                  "function": "int",
+                  "value": "897~897"
+                },
+                {
+                  "name": "HurtTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "buildupDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AttackTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CustomNameVisible",
+                  "function": "byte",
+                  "value": "0~0"
+                }
+              ]
+            },
+            {
+              "name": "playerId",
+              "function": "string",
+              "value": "777e7aa3-9373-4511-8d75-f99d23ebe252"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 3,
+      "id": "evilcraft:boxOfEternalClosure",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "spiritTag",
+              "function": "compound",
+              "tags": [
+                {
+                  "name": "Attributes",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "3.0~3.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.maxHealth"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.0~0.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.knockbackResistance"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "0.5~0.5"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.movementSpeed"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "10.0~10.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.followRange"
+                        }
+                      ]
+                    },
+                    {
+                      "function": "compound",
+                      "tags": [
+                        {
+                          "name": "Base",
+                          "function": "double",
+                          "value": "4.0~4.0"
+                        },
+                        {
+                          "name": "Name",
+                          "function": "string",
+                          "value": "generic.attackDamage"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Invulnerable",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "PortalCooldown",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AbsorptionAmount",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "FallDistance",
+                  "function": "float",
+                  "value": "0.0~0.0"
+                },
+                {
+                  "name": "DeathTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "DropChances",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.085~0.085"
+                    }
+                  ]
+                },
+                {
+                  "name": "PersistenceRequired",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "isSwarm",
+                  "function": "byte",
+                  "value": "1~1"
+                },
+                {
+                  "name": "HealF",
+                  "function": "float",
+                  "value": "3.0~3.0"
+                },
+                {
+                  "name": "id",
+                  "function": "string",
+                  "value": "vengeanceSpirit"
+                },
+                {
+                  "name": "playerId",
+                  "function": "string",
+                  "value": ""
+                },
+                {
+                  "name": "Motion",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Leashed",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDLeast",
+                  "function": "long",
+                  "value": "-5182349781042002214"
+                },
+                {
+                  "name": "Health",
+                  "function": "short",
+                  "value": "3~3"
+                },
+                {
+                  "name": "playerName",
+                  "function": "string",
+                  "value": ""
+                },
+                {
+                  "name": "ALEntity",
+                  "function": "compound",
+                  "tags": [
+                    {
+                      "name": "Saved",
+                      "function": "byte",
+                      "value": "1~1"
+                    },
+                    {
+                      "name": "ForcePushed",
+                      "function": "byte",
+                      "value": "0~0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Air",
+                  "function": "short",
+                  "value": "300~300"
+                },
+                {
+                  "name": "OnGround",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "Dimension",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "swarmTier",
+                  "function": "int",
+                  "value": "4~4"
+                },
+                {
+                  "name": "Rotation",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "value": "5.058355~5.058355"
+                    },
+                    {
+                      "function": "float",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "frozenDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "UUIDMost",
+                  "function": "long",
+                  "value": "-3233592494818702460"
+                },
+                {
+                  "name": "Equipment",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    },
+                    {
+                      "function": "compound",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "CustomName",
+                  "function": "string",
+                  "value": ""
+                },
+                {
+                  "name": "Pos",
+                  "function": "list",
+                  "tags": [
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    },
+                    {
+                      "function": "double",
+                      "value": "0.0~0.0"
+                    }
+                  ]
+                },
+                {
+                  "name": "Fire",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CanPickUpLoot",
+                  "function": "byte",
+                  "value": "0~0"
+                },
+                {
+                  "name": "remainingLife",
+                  "function": "int",
+                  "value": "472~472"
+                },
+                {
+                  "name": "HurtTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "buildupDuration",
+                  "function": "int",
+                  "value": "0~0"
+                },
+                {
+                  "name": "AttackTime",
+                  "function": "short",
+                  "value": "0~0"
+                },
+                {
+                  "name": "CustomNameVisible",
+                  "function": "byte",
+                  "value": "0~0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 30,
+      "id": "dn:SSBall",
+      "damage": 0,
+      "min": 1,
+      "max": 10
+    },
+    {
+      "weight": 30,
+      "id": "dn:ShadowShard",
+      "damage": 0,
+      "min": 1,
+      "max": 32
+    },
+    {
+      "weight": 5,
+      "id": "nec:batty",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 5,
+      "id": "nec:witch",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 5,
+      "id": "nec:spider",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 5,
+      "id": "nec:enderpop",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 5,
+      "id": "nec:skull",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 5,
+      "id": "nec:corn",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 5,
+      "id": "nec:midnight",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 5,
+      "id": "nec:halloween",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 5,
+      "id": "nec:witchy",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 2,
+      "id": "nec:cookie_graser10",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 2,
+      "id": "nec:cookie_kiera",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 2,
+      "id": "nec:cookie_darkhax",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 2,
+      "id": "nec:cookie_aaron",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 2,
+      "id": "nec:cookie_subaraki",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 2,
+      "id": "nec:cookie_stacyplays",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 2,
+      "id": "nec:cookie_lclc98",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 2,
+      "id": "nec:cookie_stampylonghead",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 25,
+      "id": "MineFactoryReloaded:safarinet.singleuse",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "hide",
+              "function": "byte",
+              "value": "1~1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

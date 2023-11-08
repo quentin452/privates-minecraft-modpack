@@ -1,0 +1,45 @@
+Advent of Ascension
+id:(2 - 24)
+
+Applied Energistics 2
+id:(-2)
+
+Arcana RPG
+id:(-7 - -3)
+
+Aroma1997DimensionFix
+id:(-8)
+
+Atum
+id:(25)
+
+Dark World
+id:(-9)
+
+Extra Utilities
+id:(-11 - -10)
+
+LightningCraft
+id:(-13 - -12)
+
+Maze Mod
+id:(26)
+
+OreSpawn
+id:(27 - 32)
+
+RandomThings
+id:(-14)
+
+Runic Dungeons
+id:(-15)
+
+The Aether
+id:(33)
+
+The Twilight Forest
+id:(-16)
+
+WolfCore
+id:(34 - 35)
+

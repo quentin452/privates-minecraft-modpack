@@ -1,0 +1,314 @@
+key.attack:-100
+key.use:-99
+key.forward:17
+key.left:30
+key.back:31
+key.right:32
+key.jump:57
+key.sneak:42
+key.drop:18
+key.inventory:16
+key.chat:0
+key.playerlist:15
+key.pickItem:0
+key.command:44
+key.screenshot:60
+key.togglePerspective:63
+key.smoothCamera:0
+key.sprint:29
+key.streamStartStop:0
+key.streamPauseUnpause:0
+key.streamCommercial:0
+key.streamToggleMic:0
+key.fullscreen:87
+key.hotbar.1:0
+key.hotbar.2:0
+key.hotbar.3:4
+key.hotbar.4:5
+key.hotbar.5:6
+key.hotbar.6:7
+key.hotbar.7:8
+key.hotbar.8:9
+key.hotbar.9:10
+ALT Key:0
+Boost Key:0
+Mode Switch Key:0
+Side Inventory Key:0
+Hub Expand Key:0
+Change mode key:34
+Fly Key:33
+Change Streak Key:45
+Vertical Key:37
+Save move Key:38
+ae2wct.OpenTerminal:0
+ae2wct.OpenMagnetFilter:0
+ae2wct.SwitchMagnetMode:0
+Plena Recipe Maker:19
+key.zss.activate.desc:45
+key.zss.next.desc:15
+key.zss.attack.desc:200
+key.zss.left.desc:203
+key.zss.right.desc:205
+key.zss.down.desc:208
+key.zss.block.desc:157
+key.zss.bomb.desc:48
+key.zss.toggleat.desc:52
+key.zss.togglebuff.desc:47
+key.zss.skills_gui.desc:25
+key.zss.prev_mode.desc:26
+key.zss.next_mode.desc:27
+key.toggle_focus.desc:0
+key.lightsabers.activateLightsaber:19
+key.lightsabers.activatePower:46
+key.lightsabers.selectPower:33
+key.adventurersamulets.descBelt:34
+key.adventurersamulets.descPendant:35
+keys.alchemagy.charge:46
+keys.alchemagy.release:19
+key.openCompendium:25
+key.archimedes.up:45
+key.archimedes.down:44
+key.archimedes.brake:46
+key.archimedes.align:13
+key.archimedes.decompile:43
+key.archimedes.shipinv:37
+key.personalBackpack:0
+Hide / Unhide Coords:75
+Change Coords Screen Position:79
+Copy Coords to Clipboard:71
+Hide / Unhide Timer:76
+Start / Stop Timer:83
+Reset Timer to Zero:82
+Change Timer Screen Position:80
+Hide / Unhide FPS:77
+Change FPS Screen Position:81
+keys.baubleshud.config:73
+key.betterquesting.quests:41
+key.traincraft.horn:35
+key.traincraft.inventory:19
+key.traincraft.up:21
+key.traincraft.down:45
+key.traincraft.idle:46
+key.traincraft.furnace:33
+key.traincraft.bell:48
+key.traincraft.showMTCScreen:50
+key.traincraft.toggleATO:24
+key.traincraft.mtcOverride:24
+key.traincraft.overspeedOverride:38
+ChatFlow:88
+key.clearChatKey:211
+key.loadFileKey:210
+Pneumatic Helmet Options:33
+Pneumatic Helmet Hack:35
+Pneumatic Helmet Debugging Drone:21
+cos.key.openCosArmorInventory:46
+doggytalents.key.come:200
+doggytalents.key.stay:208
+doggytalents.key.ok:203
+doggytalents.key.heel:205
+MoCreatures Dive:33
+MoCreatures GUI:64
+Change Mode:38
+key.binder:40
+Tool Increase:201
+Tool Decrease:209
+enderutilities.key.togglemode:33
+Conception Stablar down:33
+Conception control Up:34
+Conception control Take and set Block:35
+keys.gekoslasers.laserSize:33
+keys.gekoslasers.laserDepth:47
+key.ding:24
+Lore Journal:38
+MagicYarn Clientkey:0
+MagicYarn Playerkey:37
+key.open_menu:19
+Minions Menu:50
+key.mooz.zoom:46
+openblocks.keybind.vario_switch:0
+openblocks.keybind.vario_vol_up:0
+openblocks.keybind.vario_vol_down:0
+OreSpawn UP/FAST:56
+key.rmh:35
+simplyjetpacks.keybind.toggle.primary:33
+simplyjetpacks.keybind.toggle.secondary:0
+simplyjetpacks.keybind.mode.primary:46
+simplyjetpacks.keybind.mode.secondary:0
+simplyjetpacks.keybind.openPackGUI:22
+Swap Arrows Forward:51
+Swap Arrows Backward:52
+Toggle Ropes+ Arrows:40
+schematica.key.load:181
+schematica.key.save:55
+schematica.key.control:74
+schematica.key.layerInc:0
+schematica.key.layerDec:0
+Key.SlashBlade.PS:-98
+Key.SlashBlade.SA:47
+Key.SlashBlade.LO:42
+Key.SlashBlade.CA:29
+key.sg.buttonreload:19
+keys.Talismans.craft:46
+key.torchkey.place:0
+key.sapmanpack.updateKey:22
+smoothfont.key.guiOpen:199
+Baubles Inventory:0
+3DManeuverGear.Key.RetractLeft:44
+3DManeuverGear.Key.RetractRight:45
+Mekanism Switch Flight Type:50
+Mekanism Armor Mode Switch:33
+key.cameraZoomIn:13
+key.cameraZoomOut:12
+key.cameraEmitRedstone:19
+key.cameraActivateNightVision:49
+keys.adventureBackpack.openInventory:0
+keys.adventureBackpack.toggleActions:0
+key.OpenTerminal:0
+waila.keybind.wailaconfig:82
+waila.keybind.wailadisplay:79
+waila.keybind.liquid:80
+waila.keybind.recipe:81
+waila.keybind.usage:75
+key.aether.accessory_menu:23
+key.next_spell:49
+key.previous_spell:48
+key.astikoor.desc:19
+botaniamisc.toggleLoki:0
+Turn on/off Growth Amulet:34
+Take Screenshot:60
+bbw.key.mode:0
+bbw.key.fluidmode:0
+key.blockbuster.fixtures.idle:0
+key.blockbuster.fixtures.path:0
+key.blockbuster.fixtures.look:0
+key.blockbuster.fixtures.follow:0
+key.blockbuster.fixtures.circular:0
+key.blockbuster.fixtures.edit:0
+key.blockbuster.fixtures.remove:0
+key.blockbuster.path.add:0
+key.blockbuster.path.remove:0
+key.blockbuster.profile.save:0
+key.blockbuster.profile.load:0
+key.blockbuster.profile.goto:34
+key.blockbuster.profile.toggle:25
+key.blockbuster.profile.next:27
+key.blockbuster.profile.prev:26
+key.blockbuster.profile.start:44
+key.blockbuster.profile.stop:45
+key.blockbuster.marker:47
+key.blockbuster.duration.increase:0
+key.blockbuster.duration.reduce:0
+key.blockbuster.roll.add:0
+key.blockbuster.roll.reduce:0
+key.blockbuster.roll.reset:0
+key.blockbuster.fov.add:0
+key.blockbuster.fov.reduce:0
+key.blockbuster.fov.reset:0
+key.tarmor:0
+key.tgoggles:0
+key.tbelt:0
+key.tzoom:0
+key.swapActiveArrow.desc:19
+key.openQuiver.desc:34
+key.materialCosts:0
+key.clipboardPaste:0
+key.toggleCleanView:0
+collectiveframework.keybindings.timeBack:66
+collectiveframework.keybindings.timeForward:67
+Glider Toggle:0
+Sound Locator:0
+Night Vision:0
+Goggles of Revealing:0
+Step Assist:0
+Speed:0
+Jump:0
+Yeta Wrench Mode:0
+Toggle Electromagnet:0
+key.craftingtweaks.rotate:19
+key.craftingtweaks.balance:48
+key.craftingtweaks.clear:46
+key.craftingtweaks.toggleButtons:0
+key.craftingtweaks.compress:37
+key.craftingtweaks.decompress:0
+key.placeItem:47
+key.toolConfig:0
+key.toolProfileChange:0
+key.toggleFlight:0
+key.toggleMagnet:0
+Open Wiki:45
+Wrench:46
+key.swim.desc:33
+Team Gui:34
+Reload Gun:19
+Hold to use other FC keys:46
+Toggle Cull Entities:49
+Toggle Cull Tile Entities:0
+RV/FR Decrease:51
+RV/FR Increase:52
+Toggle Scale RD With Size:184
+FpsReducer.key.guiOpen:207
+key.monocle.desc:44
+Activate Hexxit Gear Armor:45
+invtweaks.key.sort:0
+jecalculation.key.gui_craft:0
+jecalculation.key.gui_math:0
+key.littletiles.rotateup:0
+key.littletiles.rotatedown:0
+key.littletiles.rotateright:0
+key.littletiles.rotateleft:0
+key.littletiles.flip:0
+key.littletiles.mark:0
+key.openParty:0
+key.playInstrument:25
+Quick Commands:83
+key.fart.desc:33
+key.openglasses.interact:46
+key.PickBlockPlus:0
+2.1. Increase the reverse:19
+2.2. Decrease the reverse:33
+2.3. Zero the reverse:47
+3.1. Increase the regulator:21
+3.2. Decrease the regulator:35
+3.3. Zero the regulator:49
+1. Toggle brakes:48
+4.1. Toggle stoker:22
+4.2. Activate sound signal:0
+4.3. Toggle headlights:50
+5.1. Open workbench:26
+5.2. Open furnace:27
+6. Toggle debug options:62
+7. Toggle track boxes rendering:66
+key.dialerModeChange.name:50
+key.secretroomsmod.oneWayface:43
+key.vanity.desc:47
+key.mode:56
+key.hud:35
+TG.keybind.openInv:0
+TG.keybind.activeaAbilities:0
+gui.xaero_switch_waypoint_set:0
+gui.xaero_instant_waypoint:78
+gui.xaero_toggle_slime:0
+gui.xaero_toggle_grid:0
+gui.xaero_toggle_waypoints:0
+gui.xaero_toggle_map_waypoints:0
+gui.xaero_toggle_map:0
+gui.xaero_enlarge_map:44
+gui.xaero_waypoints_key:36
+gui.xaero_zoom_in:0
+gui.xaero_zoom_out:0
+gui.xaero_new_waypoint:48
+gui.xaero_display_all_sets:0
+gui.xaero_toggle_light_overlay:0
+gui.xaero_minimap_settings:21
+gui.xaero_open_map:50
+gui.xaero_open_settings:27
+gui.xaero_map_zoom_in:0
+gui.xaero_map_zoom_out:0
+gui.xaero_quick_confirm:54
+key.cofh.empower:0
+key.cofh.multimode:0
+key.control:0
+enchiridion.key.wiki:35
+key.practicalities.magnet_toggle:50
+BetterFps:88
+key.craftpresence.config_keycode.name:41

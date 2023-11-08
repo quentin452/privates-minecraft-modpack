@@ -1,0 +1,40 @@
+[
+  {
+    "skills": [
+      {
+        "skill": "Attack",
+        "level": 1
+      },
+      {
+        "skill": "Strength",
+        "level": 30
+      },
+      {
+        "skill": "Defence",
+        "level": 33
+      },
+      {
+        "skill": "Magic",
+        "level": 1
+      },
+      {
+        "skill": "Ranged",
+        "level": 33
+      },
+      {
+        "skill": "Prayer",
+        "level": 1
+      },
+      {
+        "skill": "Constitution",
+        "level": 60
+      },
+      {
+        "skill": "Summoning",
+        "level": 1
+      }
+    ],
+    "entityID": "CaveSpider",
+    "weight": 1.0
+  }
+]

@@ -1,0 +1,5 @@
+Total amount of conflicted potion ids: 2
+IDs in conflict:
+
+24 is asked by: potion.Cplague (com.shinoow.abyssalcraft.common.potion.PotionCplague), ic2.potion.radiation (ic2.core.IC2Potion)
+34 is asked by: potion.ice_shroud (electroblob.wizardry.potion.PotionMagicEffect), potion.megopteran1 (com.primeval.Main.PotionParasit)

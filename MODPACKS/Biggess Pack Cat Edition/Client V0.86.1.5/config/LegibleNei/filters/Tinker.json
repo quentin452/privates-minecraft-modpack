@@ -1,0 +1,15 @@
+{TConstruct:[
+	{keep:[[*Plate,*inding,*Head,*Blade,*Part,*Rod,*Guard,crossbar,*head,
+		*Stained*,decoration.*,*Slab*,ToolForgeBlock,GravelOre,MetalBlock,SearedBrick,SpeedBlock],[0]]};
+	{keep-one:[[creativeModifier],[]]};
+    {keep:[[Smeltery],[0-5]]};
+	{keep:[[SmelteryNether],[0-2]]};
+	{keep:[[ToolStationBlock],[0,1,5,10]]};
+	{hide:[fluid.molten.,[lead,signalum],[]]};
+	{hide:[[HeldItemBlock,BattleSignBlock,buckets,woodPattern,Pattern,Boneana],[]]};
+	],
+	ExtraTiC:[
+	{hide:[[moltenVoidmetal,extra.bucket,largeplate,*bind*,*Head,*Blade,*rod,*Guard,crossbar,
+		*head,shuriken,*Limb,*Body,*Sign,Blot],[]]};
+	]
+}

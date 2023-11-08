@@ -1,0 +1,55 @@
+Arcana RPG
+id:(0)
+id:(24 - 32)
+
+Blood Arsenal
+id:(33 - 36)
+
+Blood Magic: Alchemical Wizardry
+id:(37 - 53)
+
+Botania
+id:(54 - 59)
+
+Brewcraft
+id:(60 - 70)
+
+Dungeon Mobs
+id:(71)
+
+Dwarven Proc
+id:(72)
+
+Electroblob's Wizardry
+id:(73 - 84)
+
+Growthcraft
+id:(85)
+
+Hardcore Wither
+id:(86)
+
+IndustrialCraft 2
+id:(87)
+
+LightningCraft
+id:(88)
+
+RandomThings
+id:(89 - 94)
+
+Red Cow
+id:(95)
+
+The Aether
+id:(96)
+
+Totemic
+id:(97 - 99)
+
+TrailMix
+id:(100)
+
+Wild Mobs
+id:(101)
+

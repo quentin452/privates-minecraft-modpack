@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+	<ModSettings>
+		<ModSetting Name="Netherrocks Toggles">
+			<EnableArmorEffects>true</EnableArmorEffects>			<!--Enables special armor effects. Default Value: true-->
+			<EnableToolEffects>true</EnableToolEffects>				<!--Enables special tool effects. Default Value: true-->
+			<EnableColoredGUIs>true</EnableColoredGUIs>				<!--Enables colored furnace gui's. Default Value: true-->
+			<EnableUpdateChecker>true</EnableUpdateChecker>			<!--Enables the update checker for Netherrocks. Default Value: true-->
+		</ModSetting>
+	</ModSettings>
+	<Blocks>
+		<Block Name="Fyrite Ore">
+			<Hardness>3.0</Hardness>					<!--The hardness of the block. Default Value: 3.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>10.0</Resistance>				<!--The blast resistance of the block. Default Value: 10.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestLevel>2</HarvestLevel>				<!--The harvest level (pickaxe level) required to mine the block. Default Value: 2, Minimum Value: 0, Maximum Value: 255-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+			<SpawnRate>10</SpawnRate>					<!--The number of blocks that spawn per chunk. Default Value: 10, Minimum Value: 0, Maximum Value: 5000-->
+			<VeinSize>6</VeinSize>						<!--The number of blocks allowed to spawn in a vein. Default Value: 6, Minimum Value: 0, Maximum Value: 500-->
+			<MinHeight>0</MinHeight>					<!--The minimum height the block can spawn at. Default Value: 0, Minimum Value: 0, Maximum Value: 255-->
+			<MaxHeight>255</MaxHeight>					<!--The maximum height the block can spawn at. Default Value: 255, Minimum Value: 0, Maximum Value: 255-->
+		</Block>
+		<Block Name="Malachite Ore">
+			<Hardness>3.0</Hardness>					<!--The hardness of the block. Default Value: 3.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>10.0</Resistance>				<!--The blast resistance of the block. Default Value: 10.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestLevel>2</HarvestLevel>				<!--The harvest level (pickaxe level) required to mine the block. Default Value: 2, Minimum Value: 0, Maximum Value: 255-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+			<SpawnRate>10</SpawnRate>					<!--The number of blocks that spawn per chunk. Default Value: 10, Minimum Value: 0, Maximum Value: 5000-->
+			<VeinSize>7</VeinSize>						<!--The number of blocks allowed to spawn in a vein. Default Value: 7, Minimum Value: 0, Maximum Value: 500-->
+			<MinHeight>0</MinHeight>					<!--The minimum height the block can spawn at. Default Value: 0, Minimum Value: 0, Maximum Value: 255-->
+			<MaxHeight>255</MaxHeight>					<!--The maximum height the block can spawn at. Default Value: 255, Minimum Value: 0, Maximum Value: 255-->
+		</Block>
+		<Block Name="Ashstone Ore">
+			<Hardness>3.0</Hardness>					<!--The hardness of the block. Default Value: 3.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>10.0</Resistance>				<!--The blast resistance of the block. Default Value: 10.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestLevel>3</HarvestLevel>				<!--The harvest level (pickaxe level) required to mine the block. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+			<SpawnRate>10</SpawnRate>					<!--The number of blocks that spawn per chunk. Default Value: 10, Minimum Value: 0, Maximum Value: 5000-->
+			<VeinSize>5</VeinSize>						<!--The number of blocks allowed to spawn in a vein. Default Value: 5, Minimum Value: 0, Maximum Value: 500-->
+			<MinHeight>0</MinHeight>					<!--The minimum height the block can spawn at. Default Value: 0, Minimum Value: 0, Maximum Value: 255-->
+			<MaxHeight>255</MaxHeight>					<!--The maximum height the block can spawn at. Default Value: 255, Minimum Value: 0, Maximum Value: 255-->
+		</Block>
+		<Block Name="Illumenite Ore">
+			<Hardness>3.0</Hardness>					<!--The hardness of the block. Default Value: 3.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>10.0</Resistance>				<!--The blast resistance of the block. Default Value: 10.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>1.0</LightValue>				<!--The light output value of the block. Default Value: 1.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestLevel>2</HarvestLevel>				<!--The harvest level (pickaxe level) required to mine the block. Default Value: 2, Minimum Value: 0, Maximum Value: 255-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+			<SpawnRate>350</SpawnRate>					<!--The number of blocks that spawn per chunk. Default Value: 350, Minimum Value: 0, Maximum Value: 5000-->
+			<VeinSize>15</VeinSize>						<!--The number of blocks allowed to spawn in a vein. Default Value: 15, Minimum Value: 0, Maximum Value: 500-->
+			<MinHeight>0</MinHeight>					<!--The minimum height the block can spawn at. Default Value: 0, Minimum Value: 0, Maximum Value: 255-->
+			<MaxHeight>255</MaxHeight>					<!--The maximum height the block can spawn at. Default Value: 255, Minimum Value: 0, Maximum Value: 255-->
+		</Block>
+		<Block Name="Dragonstone Ore">
+			<Hardness>3.0</Hardness>					<!--The hardness of the block. Default Value: 3.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>10.0</Resistance>				<!--The blast resistance of the block. Default Value: 10.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestLevel>3</HarvestLevel>				<!--The harvest level (pickaxe level) required to mine the block. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+			<SpawnRate>6</SpawnRate>					<!--The number of blocks that spawn per chunk. Default Value: 6, Minimum Value: 0, Maximum Value: 5000-->
+			<VeinSize>5</VeinSize>						<!--The number of blocks allowed to spawn in a vein. Default Value: 5, Minimum Value: 0, Maximum Value: 500-->
+			<MinHeight>0</MinHeight>					<!--The minimum height the block can spawn at. Default Value: 0, Minimum Value: 0, Maximum Value: 255-->
+			<MaxHeight>255</MaxHeight>					<!--The maximum height the block can spawn at. Default Value: 255, Minimum Value: 0, Maximum Value: 255-->
+		</Block>
+		<Block Name="Argonite Ore">
+			<Hardness>3.0</Hardness>					<!--The hardness of the block. Default Value: 3.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>10.0</Resistance>				<!--The blast resistance of the block. Default Value: 10.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestLevel>3</HarvestLevel>				<!--The harvest level (pickaxe level) required to mine the block. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+			<SpawnRate>10</SpawnRate>					<!--The number of blocks that spawn per chunk. Default Value: 10, Minimum Value: 0, Maximum Value: 5000-->
+			<VeinSize>6</VeinSize>						<!--The number of blocks allowed to spawn in a vein. Default Value: 6, Minimum Value: 0, Maximum Value: 500-->
+			<MinHeight>0</MinHeight>					<!--The minimum height the block can spawn at. Default Value: 0, Minimum Value: 0, Maximum Value: 255-->
+			<MaxHeight>255</MaxHeight>					<!--The maximum height the block can spawn at. Default Value: 255, Minimum Value: 0, Maximum Value: 255-->
+		</Block>
+		<Block Name="Fyrite Block">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Block>
+		<Block Name="Malachite Block">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Block>
+		<Block Name="Ashstone Block">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Block>
+		<Block Name="Illumenite Block">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>1.0</LightValue>				<!--The light output value of the block. Default Value: 1.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Block>
+		<Block Name="Dragonstone Block">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Block>
+		<Block Name="Argonite Block">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Block>
+		<Block Name="Nether Furnace">
+			<Hardness>3.5</Hardness>					<!--The hardness of the block. Default Value: 3.5, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>1.0</LightValue>				<!--The light output value of the block. Default Value: 1.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<SmeltingTime>100</SmeltingTime>			<!--Number of ticks to smelt a single item. Default Value: 100, Minimum Value: 0, Maximum Value: 32000-->
+			<NetherrackBurnTime>200</NetherrackBurnTime><!--Number of ticks Netherrack will burn for. Default Value: 200, Minimum Value: 0, Maximum Value: 32000-->
+			<FyriteBurnTime>8000</FyriteBurnTime>		<!--Number of ticks a Fyrite Ingot will burn for. Default Value: 8000, Minimum Value: 0, Maximum Value: 32000-->
+			<BlazeRodBurnTime>2400</BlazeRodBurnTime>	<!--Number of ticks a Blaze Rod will burn for. Default Value: 2400, Minimum Value: 0, Maximum Value: 32000-->
+		</Block>
+	</Blocks>
+	<Tools>
+		<Tool Name="Fyrite Tools">
+			<Uses>150</Uses>							<!--The number of uses the tool has. Default Value: 150, Minimum Value: 0, Maximum Value: 32000-->
+			<MiningLevel>3</MiningLevel>				<!--The mining level (pickaxe level) of the tool. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<MiningSpeed>8.0</MiningSpeed>				<!--The speed at which the tools breaks the appropriate blocks. Default Value: 8.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<DamageVsEntity>4.0</DamageVsEntity>		<!--The damage the tool inflicts on entities. Default Value: 4.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Enchantability>7</Enchantability>			<!--The enchantability of the tool. Default Value: 7, Minimum Value: 0, Maximum Value: 255-->
+		</Tool>
+		<Tool Name="Malachite Tools">
+			<Uses>700</Uses>							<!--The number of uses the tool has. Default Value: 700, Minimum Value: 0, Maximum Value: 32000-->
+			<MiningLevel>3</MiningLevel>				<!--The mining level (pickaxe level) of the tool. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<MiningSpeed>9.0</MiningSpeed>				<!--The speed at which the tools breaks the appropriate blocks. Default Value: 9.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<DamageVsEntity>3.0</DamageVsEntity>		<!--The damage the tool inflicts on entities. Default Value: 3.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Enchantability>39</Enchantability>			<!--The enchantability of the tool. Default Value: 39, Minimum Value: 0, Maximum Value: 255-->
+		</Tool>
+		<Tool Name="Ashstone Tools">
+			<Uses>900</Uses>							<!--The number of uses the tool has. Default Value: 900, Minimum Value: 0, Maximum Value: 32000-->
+			<MiningLevel>3</MiningLevel>				<!--The mining level (pickaxe level) of the tool. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<MiningSpeed>16.0</MiningSpeed>				<!--The speed at which the tools breaks the appropriate blocks. Default Value: 16.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<DamageVsEntity>2.0</DamageVsEntity>		<!--The damage the tool inflicts on entities. Default Value: 2.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Enchantability>7</Enchantability>			<!--The enchantability of the tool. Default Value: 7, Minimum Value: 0, Maximum Value: 255-->
+		</Tool>
+		<Tool Name="Illumenite Tools">
+			<Uses>700</Uses>							<!--The number of uses the tool has. Default Value: 700, Minimum Value: 0, Maximum Value: 32000-->
+			<MiningLevel>3</MiningLevel>				<!--The mining level (pickaxe level) of the tool. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<MiningSpeed>8.0</MiningSpeed>				<!--The speed at which the tools breaks the appropriate blocks. Default Value: 8.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<DamageVsEntity>4.0</DamageVsEntity>		<!--The damage the tool inflicts on entities. Default Value: 4.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Enchantability>7</Enchantability>			<!--The enchantability of the tool. Default Value: 7, Minimum Value: 0, Maximum Value: 255-->
+			<NightVisionTime>3600</NightVisionTime>		<!--Number of ticks night vision will be granted to attacker for upon hit. Default Value: 3600, Minimum Value: 0, Maximum Value: 32000-->
+			<BlindnessTime>60</BlindnessTime>			<!--Number of ticks the target will be blinded for upon hit. Default Value: 60, Minimum Value: 0, Maximum Value: 32000-->
+			<SlowTime>200</SlowTime>					<!--Number of ticks the target will be slowed for upon hit (mobs only). Default Value: 200, Minimum Value: 0, Maximum Value: 32000-->
+			<SlowLevel>3</SlowLevel>					<!--The level of the slow effect applied to the target upon hit (mobs only). Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+		</Tool>
+		<Tool Name="Dragonstone Tools">
+			<Uses>4000</Uses>							<!--The number of uses the tool has. Default Value: 4000, Minimum Value: 0, Maximum Value: 32000-->
+			<MiningLevel>4</MiningLevel>				<!--The mining level (pickaxe level) of the tool. Default Value: 4, Minimum Value: 0, Maximum Value: 255-->
+			<MiningSpeed>10.0</MiningSpeed>				<!--The speed at which the tools breaks the appropriate blocks. Default Value: 10.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<DamageVsEntity>8.0</DamageVsEntity>		<!--The damage the tool inflicts on entities. Default Value: 8.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Enchantability>27</Enchantability>			<!--The enchantability of the tool. Default Value: 27, Minimum Value: 0, Maximum Value: 255-->
+		</Tool>
+		<Tool Name="Argonite Tools">
+			<Uses>1300</Uses>							<!--The number of uses the tool has. Default Value: 1300, Minimum Value: 0, Maximum Value: 32000-->
+			<MiningLevel>3</MiningLevel>				<!--The mining level (pickaxe level) of the tool. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<MiningSpeed>8.0</MiningSpeed>				<!--The speed at which the tools breaks the appropriate blocks. Default Value: 8.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<DamageVsEntity>3.0</DamageVsEntity>		<!--The damage the tool inflicts on entities. Default Value: 3.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Enchantability>18</Enchantability>			<!--The enchantability of the tool. Default Value: 18, Minimum Value: 0, Maximum Value: 255-->
+		</Tool>
+	</Tools>
+	<Armor>
+		<Armor Name="Fyrite Armor">
+			<Durability>5</Durability>					<!--How much damage the armor pieces can sustain before breaking. Default Value: 5, Minimum Value: 0, Maximum Value: 32000-->
+			<HelmetReduction>3</HelmetReduction>		<!--How much the helmet will reduce incoming damage by. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<ChestplateReduction>5</ChestplateReduction><!--How much the chestplate will reduce incoming damage by. Default Value: 5, Minimum Value: 0, Maximum Value: 255-->
+			<LeggingsReduction>4</LeggingsReduction>	<!--How much the leggings will reduce incoming damage by. Default Value: 4, Minimum Value: 0, Maximum Value: 255-->
+			<BootsReduction>3</BootsReduction>			<!--How much the boots will reduce incoming damage by. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<Enchantability>7</Enchantability>			<!--The enchantability of the armor. Default Value: 7, Minimum Value: 0, Maximum Value: 32000-->
+		</Armor>
+		<Armor Name="Malachite Armor">
+			<Durability>16</Durability>					<!--How much damage the armor pieces can sustain before breaking. Default Value: 16, Minimum Value: 0, Maximum Value: 32000-->
+			<HelmetReduction>2</HelmetReduction>		<!--How much the helmet will reduce incoming damage by. Default Value: 2, Minimum Value: 0, Maximum Value: 255-->
+			<ChestplateReduction>4</ChestplateReduction><!--How much the chestplate will reduce incoming damage by. Default Value: 4, Minimum Value: 0, Maximum Value: 255-->
+			<LeggingsReduction>4</LeggingsReduction>	<!--How much the leggings will reduce incoming damage by. Default Value: 4, Minimum Value: 0, Maximum Value: 255-->
+			<BootsReduction>2</BootsReduction>			<!--How much the boots will reduce incoming damage by. Default Value: 2, Minimum Value: 0, Maximum Value: 255-->
+			<Enchantability>39</Enchantability>			<!--The enchantability of the armor. Default Value: 39, Minimum Value: 0, Maximum Value: 32000-->
+			<JumpBoost>0.15</JumpBoost>					<!--The jump boost amount when wearing a full set of Malachite Armor. Default Value: 0.15, Minimum Value: 0.0, Maximum Value: 32000-->
+			<MinFallHeight>4.0</MinFallHeight>			<!--The number of blocks you can fall from without taking damage while wearing a full set of Malachite Armor. Default Value: 4.0, Minimum Value: 0.0, Maximum Value: 32000-->
+		</Armor>
+		<Armor Name="Illumenite Armor">
+			<Durability>12</Durability>					<!--How much damage the armor pieces can sustain before breaking. Default Value: 12, Minimum Value: 0, Maximum Value: 32000-->
+			<HelmetReduction>4</HelmetReduction>		<!--How much the helmet will reduce incoming damage by. Default Value: 4, Minimum Value: 0, Maximum Value: 255-->
+			<ChestplateReduction>5</ChestplateReduction><!--How much the chestplate will reduce incoming damage by. Default Value: 5, Minimum Value: 0, Maximum Value: 255-->
+			<LeggingsReduction>5</LeggingsReduction>	<!--How much the leggings will reduce incoming damage by. Default Value: 5, Minimum Value: 0, Maximum Value: 255-->
+			<BootsReduction>3</BootsReduction>			<!--How much the boots will reduce incoming damage by. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<Enchantability>15</Enchantability>			<!--The enchantability of the armor. Default Value: 15, Minimum Value: 0, Maximum Value: 32000-->
+		</Armor>
+		<Armor Name="Dragonstone Armor">
+			<Durability>48</Durability>					<!--How much damage the armor pieces can sustain before breaking. Default Value: 48, Minimum Value: 0, Maximum Value: 32000-->
+			<HelmetReduction>3</HelmetReduction>		<!--How much the helmet will reduce incoming damage by. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<ChestplateReduction>9</ChestplateReduction><!--How much the chestplate will reduce incoming damage by. Default Value: 9, Minimum Value: 0, Maximum Value: 255-->
+			<LeggingsReduction>7</LeggingsReduction>	<!--How much the leggings will reduce incoming damage by. Default Value: 7, Minimum Value: 0, Maximum Value: 255-->
+			<BootsReduction>3</BootsReduction>			<!--How much the boots will reduce incoming damage by. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<Enchantability>27</Enchantability>			<!--The enchantability of the armor. Default Value: 27, Minimum Value: 0, Maximum Value: 32000-->
+		</Armor>
+	</Armor>
+</Settings>

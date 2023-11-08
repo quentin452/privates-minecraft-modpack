@@ -1,0 +1,13 @@
+{
+BuildCraft|Core:[
+	{keep-one:[[paintbrush],[]]};
+],
+BuildCraft|Robotics:[
+	{keep-one:[[redstone_board,robot],[]]};
+],
+BuildCraft|Transport:[
+	{keep-one:[[pipeFacade],[],['*hollow:0b*','*hollow:1b*']]};
+	{keep-one:[[pipeGate],[]]};
+	{keep:[[pipeLens],[0]]};
+]
+}

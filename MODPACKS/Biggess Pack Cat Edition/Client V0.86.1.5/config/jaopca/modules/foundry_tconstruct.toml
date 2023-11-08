@@ -1,0 +1,15 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = []
+
+[recipes]
+	#The materials that should not have material casting recipes added.
+	toMaterialMaterialBlacklist = []
+	#The materials that should not have block casting recipes added.
+	toBlockMaterialBlacklist = []
+	#The materials that should not have nugget casting recipes added.
+	toNuggetMaterialBlacklist = []
+	#The materials that should not have gear casting recipes added.
+	toGearMaterialBlacklist = []
+

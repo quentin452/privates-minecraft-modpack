@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Quentin453",
+      "uniqueId": "eea34140-6359-4a70-80fd-6879fea1218c"
+    },
+    "time": 1696286645031,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/x9Li3oFhrz"
+    }
+  }
+]

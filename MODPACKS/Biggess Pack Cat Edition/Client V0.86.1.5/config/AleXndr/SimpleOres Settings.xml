@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+	<ModSettings>
+		<ModSetting Name="SimpleOres Toggles">
+			<EnableTabs>true</EnableTabs>							<!--Enables SimpleOres CreativeTabs. Default Value: true-->
+			<EnableSeparateTabs>true</EnableSeparateTabs>			<!--Enables separate Creative Tabs for SimpleOres content. Default Value: true-->
+			<EnableUpdateChecker>true</EnableUpdateChecker>			<!--Enables the update checker for SimpleOres. Default Value: true-->
+		</ModSetting>
+	</ModSettings>
+	<Blocks>
+		<Block Name="Copper Ore">
+			<Hardness>1.7</Hardness>					<!--The hardness of the block. Default Value: 1.7, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>5.0</Resistance>				<!--The blast resistance of the block. Default Value: 5.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestLevel>1</HarvestLevel>				<!--The harvest level (pickaxe level) required to mine the block. Default Value: 1, Minimum Value: 0, Maximum Value: 255-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+			<SpawnRate>45</SpawnRate>					<!--The number of blocks that spawn per chunk. Default Value: 45, Minimum Value: 0, Maximum Value: 5000-->
+			<VeinSize>5</VeinSize>						<!--The number of blocks allowed to spawn in a vein. Default Value: 5, Minimum Value: 0, Maximum Value: 500-->
+			<MinHeight>0</MinHeight>					<!--The minimum height the block can spawn at. Default Value: 0, Minimum Value: 0, Maximum Value: 255-->
+			<MaxHeight>90</MaxHeight>					<!--The maximum height the block can spawn at. Default Value: 90, Minimum Value: 0, Maximum Value: 255-->
+		</Block>
+		<Block Name="Tin Ore">
+			<Hardness>3.0</Hardness>					<!--The hardness of the block. Default Value: 3.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>5.0</Resistance>				<!--The blast resistance of the block. Default Value: 5.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestLevel>1</HarvestLevel>				<!--The harvest level (pickaxe level) required to mine the block. Default Value: 1, Minimum Value: 0, Maximum Value: 255-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+			<SpawnRate>40</SpawnRate>					<!--The number of blocks that spawn per chunk. Default Value: 40, Minimum Value: 0, Maximum Value: 5000-->
+			<VeinSize>5</VeinSize>						<!--The number of blocks allowed to spawn in a vein. Default Value: 5, Minimum Value: 0, Maximum Value: 500-->
+			<MinHeight>0</MinHeight>					<!--The minimum height the block can spawn at. Default Value: 0, Minimum Value: 0, Maximum Value: 255-->
+			<MaxHeight>90</MaxHeight>					<!--The maximum height the block can spawn at. Default Value: 90, Minimum Value: 0, Maximum Value: 255-->
+		</Block>
+		<Block Name="Mythril Ore">
+			<Hardness>4.0</Hardness>					<!--The hardness of the block. Default Value: 4.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>5.0</Resistance>				<!--The blast resistance of the block. Default Value: 5.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestLevel>2</HarvestLevel>				<!--The harvest level (pickaxe level) required to mine the block. Default Value: 2, Minimum Value: 0, Maximum Value: 255-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+			<SpawnRate>12</SpawnRate>					<!--The number of blocks that spawn per chunk. Default Value: 12, Minimum Value: 0, Maximum Value: 5000-->
+			<VeinSize>4</VeinSize>						<!--The number of blocks allowed to spawn in a vein. Default Value: 4, Minimum Value: 0, Maximum Value: 500-->
+			<MinHeight>0</MinHeight>					<!--The minimum height the block can spawn at. Default Value: 0, Minimum Value: 0, Maximum Value: 255-->
+			<MaxHeight>35</MaxHeight>					<!--The maximum height the block can spawn at. Default Value: 35, Minimum Value: 0, Maximum Value: 255-->
+		</Block>
+		<Block Name="Adamantium Ore">
+			<Hardness>5.0</Hardness>					<!--The hardness of the block. Default Value: 5.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>5.0</Resistance>				<!--The blast resistance of the block. Default Value: 5.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestLevel>2</HarvestLevel>				<!--The harvest level (pickaxe level) required to mine the block. Default Value: 2, Minimum Value: 0, Maximum Value: 255-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+			<SpawnRate>6</SpawnRate>					<!--The number of blocks that spawn per chunk. Default Value: 6, Minimum Value: 0, Maximum Value: 5000-->
+			<VeinSize>4</VeinSize>						<!--The number of blocks allowed to spawn in a vein. Default Value: 4, Minimum Value: 0, Maximum Value: 500-->
+			<MinHeight>0</MinHeight>					<!--The minimum height the block can spawn at. Default Value: 0, Minimum Value: 0, Maximum Value: 255-->
+			<MaxHeight>20</MaxHeight>					<!--The maximum height the block can spawn at. Default Value: 20, Minimum Value: 0, Maximum Value: 255-->
+		</Block>
+		<Block Name="Onyx Ore">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>5.0</Resistance>				<!--The blast resistance of the block. Default Value: 5.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestLevel>3</HarvestLevel>				<!--The harvest level (pickaxe level) required to mine the block. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+			<SpawnRate>5</SpawnRate>					<!--The number of blocks that spawn per chunk. Default Value: 5, Minimum Value: 0, Maximum Value: 5000-->
+			<VeinSize>4</VeinSize>						<!--The number of blocks allowed to spawn in a vein. Default Value: 4, Minimum Value: 0, Maximum Value: 500-->
+			<MinHeight>0</MinHeight>					<!--The minimum height the block can spawn at. Default Value: 0, Minimum Value: 0, Maximum Value: 255-->
+			<MaxHeight>255</MaxHeight>					<!--The maximum height the block can spawn at. Default Value: 255, Minimum Value: 0, Maximum Value: 255-->
+		</Block>
+		<Block Name="Copper Block">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Block>
+		<Block Name="Tin Block">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Block>
+		<Block Name="Mythril Block">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Block>
+		<Block Name="Adamantium Block">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Block>
+		<Block Name="Onyx Block">
+			<Hardness>7.0</Hardness>					<!--The hardness of the block. Default Value: 7.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Resistance>12.0</Resistance>				<!--The blast resistance of the block. Default Value: 12.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<LightValue>0.0</LightValue>				<!--The light output value of the block. Default Value: 0.0, Minimum Value: 0.0, Maximum Value: 1.0-->
+			<HarvestTool>pickaxe</HarvestTool>			<!--The harvest tool (pickaxe, axe, etc) required to mine the block. Default Value: pickaxe-->
+		</Block>
+	</Blocks>
+	<Tools>
+		<Tool Name="Copper Tools">
+			<Uses>185</Uses>							<!--The number of uses the tool has. Default Value: 185, Minimum Value: 0, Maximum Value: 32000-->
+			<MiningLevel>1</MiningLevel>				<!--The mining level (pickaxe level) of the tool. Default Value: 1, Minimum Value: 0, Maximum Value: 255-->
+			<MiningSpeed>4.0</MiningSpeed>				<!--The speed at which the tools breaks the appropriate blocks. Default Value: 4.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<DamageVsEntity>1.0</DamageVsEntity>		<!--The damage the tool inflicts on entities. Default Value: 1.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Enchantability>8</Enchantability>			<!--The enchantability of the tool. Default Value: 8, Minimum Value: 0, Maximum Value: 255-->
+		</Tool>
+		<Tool Name="Tin Tools">
+			<Uses>220</Uses>							<!--The number of uses the tool has. Default Value: 220, Minimum Value: 0, Maximum Value: 32000-->
+			<MiningLevel>1</MiningLevel>				<!--The mining level (pickaxe level) of the tool. Default Value: 1, Minimum Value: 0, Maximum Value: 255-->
+			<MiningSpeed>3.5</MiningSpeed>				<!--The speed at which the tools breaks the appropriate blocks. Default Value: 3.5, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<DamageVsEntity>1.0</DamageVsEntity>		<!--The damage the tool inflicts on entities. Default Value: 1.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Enchantability>8</Enchantability>			<!--The enchantability of the tool. Default Value: 8, Minimum Value: 0, Maximum Value: 255-->
+		</Tool>
+		<Tool Name="Mythril Tools">
+			<Uses>800</Uses>							<!--The number of uses the tool has. Default Value: 800, Minimum Value: 0, Maximum Value: 32000-->
+			<MiningLevel>2</MiningLevel>				<!--The mining level (pickaxe level) of the tool. Default Value: 2, Minimum Value: 0, Maximum Value: 255-->
+			<MiningSpeed>8.0</MiningSpeed>				<!--The speed at which the tools breaks the appropriate blocks. Default Value: 8.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<DamageVsEntity>3.0</DamageVsEntity>		<!--The damage the tool inflicts on entities. Default Value: 3.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Enchantability>12</Enchantability>			<!--The enchantability of the tool. Default Value: 12, Minimum Value: 0, Maximum Value: 255-->
+		</Tool>
+		<Tool Name="Adamantium Tools">
+			<Uses>1150</Uses>							<!--The number of uses the tool has. Default Value: 1150, Minimum Value: 0, Maximum Value: 32000-->
+			<MiningLevel>2</MiningLevel>				<!--The mining level (pickaxe level) of the tool. Default Value: 2, Minimum Value: 0, Maximum Value: 255-->
+			<MiningSpeed>14.0</MiningSpeed>				<!--The speed at which the tools breaks the appropriate blocks. Default Value: 14.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<DamageVsEntity>3.0</DamageVsEntity>		<!--The damage the tool inflicts on entities. Default Value: 3.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Enchantability>3</Enchantability>			<!--The enchantability of the tool. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+		</Tool>
+		<Tool Name="Onyx Tools">
+			<Uses>3280</Uses>							<!--The number of uses the tool has. Default Value: 3280, Minimum Value: 0, Maximum Value: 32000-->
+			<MiningLevel>4</MiningLevel>				<!--The mining level (pickaxe level) of the tool. Default Value: 4, Minimum Value: 0, Maximum Value: 255-->
+			<MiningSpeed>10.0</MiningSpeed>				<!--The speed at which the tools breaks the appropriate blocks. Default Value: 10.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<DamageVsEntity>5.0</DamageVsEntity>		<!--The damage the tool inflicts on entities. Default Value: 5.0, Minimum Value: 0.0, Maximum Value: 32000.0-->
+			<Enchantability>15</Enchantability>			<!--The enchantability of the tool. Default Value: 15, Minimum Value: 0, Maximum Value: 255-->
+		</Tool>
+		<Tool Name="Mythril Bow">
+			<DamageModifier>1.5</DamageModifier>		<!--The damage multiplier of the Mythril Bow (versus vanilla bow) Default Value: 1.5, Minimum Value: 0.0, Maximum Value: 32000-->
+			<EfficiencyChance>50</EfficiencyChance>		<!--The percentage chance that the bow won't consume an arrow. Default Value: 50, Minimum Value: 0, Maximum Value: 100-->
+		</Tool>
+		<Tool Name="Onyx Bow">
+			<DamageModifier>3.0</DamageModifier>		<!--The damage multiplier of the Onyx Bow (versus vanilla bow). Default Value: 3.0, Minimum Value: 0.0, Maximum Value: 32000-->
+		</Tool>
+	</Tools>
+	<Armor>
+		<Armor Name="Copper Armor">
+			<Durability>8</Durability>					<!--How much damage the armor pieces can sustain before breaking. Default Value: 8, Minimum Value: 0, Maximum Value: 32000-->
+			<HelmetReduction>2</HelmetReduction>		<!--How much the helmet will reduce incoming damage by. Default Value: 2, Minimum Value: 0, Maximum Value: 255-->
+			<ChestplateReduction>3</ChestplateReduction><!--How much the chestplate will reduce incoming damage by. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<LeggingsReduction>2</LeggingsReduction>	<!--How much the leggings will reduce incoming damage by. Default Value: 2, Minimum Value: 0, Maximum Value: 255-->
+			<BootsReduction>1</BootsReduction>			<!--How much the boots will reduce incoming damage by. Default Value: 1, Minimum Value: 0, Maximum Value: 255-->
+			<Enchantability>8</Enchantability>			<!--The enchantability of the armor. Default Value: 8, Minimum Value: 0, Maximum Value: 32000-->
+		</Armor>
+		<Armor Name="Tin Armor">
+			<Durability>8</Durability>					<!--How much damage the armor pieces can sustain before breaking. Default Value: 8, Minimum Value: 0, Maximum Value: 32000-->
+			<HelmetReduction>2</HelmetReduction>		<!--How much the helmet will reduce incoming damage by. Default Value: 2, Minimum Value: 0, Maximum Value: 255-->
+			<ChestplateReduction>3</ChestplateReduction><!--How much the chestplate will reduce incoming damage by. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<LeggingsReduction>2</LeggingsReduction>	<!--How much the leggings will reduce incoming damage by. Default Value: 2, Minimum Value: 0, Maximum Value: 255-->
+			<BootsReduction>1</BootsReduction>			<!--How much the boots will reduce incoming damage by. Default Value: 1, Minimum Value: 0, Maximum Value: 255-->
+			<Enchantability>8</Enchantability>			<!--The enchantability of the armor. Default Value: 8, Minimum Value: 0, Maximum Value: 32000-->
+		</Armor>
+		<Armor Name="Mythril Armor">
+			<Durability>22</Durability>					<!--How much damage the armor pieces can sustain before breaking. Default Value: 22, Minimum Value: 0, Maximum Value: 32000-->
+			<HelmetReduction>3</HelmetReduction>		<!--How much the helmet will reduce incoming damage by. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<ChestplateReduction>5</ChestplateReduction><!--How much the chestplate will reduce incoming damage by. Default Value: 5, Minimum Value: 0, Maximum Value: 255-->
+			<LeggingsReduction>4</LeggingsReduction>	<!--How much the leggings will reduce incoming damage by. Default Value: 4, Minimum Value: 0, Maximum Value: 255-->
+			<BootsReduction>3</BootsReduction>			<!--How much the boots will reduce incoming damage by. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<Enchantability>12</Enchantability>			<!--The enchantability of the armor. Default Value: 12, Minimum Value: 0, Maximum Value: 32000-->
+		</Armor>
+		<Armor Name="Adamantium Armor">
+			<Durability>28</Durability>					<!--How much damage the armor pieces can sustain before breaking. Default Value: 28, Minimum Value: 0, Maximum Value: 32000-->
+			<HelmetReduction>3</HelmetReduction>		<!--How much the helmet will reduce incoming damage by. Default Value: 3, Minimum Value: 0, Maximum Value: 255-->
+			<ChestplateReduction>8</ChestplateReduction><!--How much the chestplate will reduce incoming damage by. Default Value: 8, Minimum Value: 0, Maximum Value: 255-->
+			<LeggingsReduction>6</LeggingsReduction>	<!--How much the leggings will reduce incoming damage by. Default Value: 6, Minimum Value: 0, Maximum Value: 255-->
+			<BootsReduction>2</BootsReduction>			<!--How much the boots will reduce incoming damage by. Default Value: 2, Minimum Value: 0, Maximum Value: 255-->
+			<Enchantability>3</Enchantability>			<!--The enchantability of the armor. Default Value: 3, Minimum Value: 0, Maximum Value: 32000-->
+		</Armor>
+		<Armor Name="Onyx Armor">
+			<Durability>45</Durability>					<!--How much damage the armor pieces can sustain before breaking. Default Value: 45, Minimum Value: 0, Maximum Value: 32000-->
+			<HelmetReduction>5</HelmetReduction>		<!--How much the helmet will reduce incoming damage by. Default Value: 5, Minimum Value: 0, Maximum Value: 255-->
+			<ChestplateReduction>8</ChestplateReduction><!--How much the chestplate will reduce incoming damage by. Default Value: 8, Minimum Value: 0, Maximum Value: 255-->
+			<LeggingsReduction>6</LeggingsReduction>	<!--How much the leggings will reduce incoming damage by. Default Value: 6, Minimum Value: 0, Maximum Value: 255-->
+			<BootsReduction>5</BootsReduction>			<!--How much the boots will reduce incoming damage by. Default Value: 5, Minimum Value: 0, Maximum Value: 255-->
+			<Enchantability>15</Enchantability>			<!--The enchantability of the armor. Default Value: 15, Minimum Value: 0, Maximum Value: 32000-->
+		</Armor>
+	</Armor>
+</Settings>

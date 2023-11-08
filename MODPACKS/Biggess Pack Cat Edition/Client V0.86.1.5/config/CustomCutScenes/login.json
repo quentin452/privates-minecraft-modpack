@@ -1,0 +1,51 @@
+{
+  "finalize" : true,
+  "showDebug" : false,
+  "backgroundColor" : [0,0,0],
+  "screenSegments": [
+    {
+		// 1st Segment
+      "actorArray": [
+       {
+		  "type": "image",
+	      "resource": "logo.png",
+		  "alignment" : "CENTER_CENTER",
+		  "imageWidth": "256",
+		  "imageHeight": "45",
+		  "timeStart": [0,1,0],
+		  "timeDuration": [0,9,250],
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,1,0]],
+		  "zLevel" : "5"
+		},
+        {
+		  "type": "sound",
+		  "timeStart": [0,1,0],
+	      "resource": "Dead_Reckoning.ogg",
+		  "volume": ".75"
+		},
+        {
+		  "timeStart": [0,1,0],
+		  "timeDuration": [0,9,250],
+          "displayText": "Cutscene Demo Created by GenDeathrow",
+		  "alignment" : "BOTTOM_CENTER",
+		  "offsetY" : "-20",
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,1,0]],
+		  "zLevel" : "2"
+        },
+		{
+		  "timeStart": [0,1,0],
+		  "timeDuration": [0,9,250],
+          "displayText": "Player Login Demo",
+		  "alignment" : "Top_CENTER",
+		  "offsetY" : "25",
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,1,0]],
+		  "zLevel" : "2"
+        }
+      ]
+    }
+      ]
+ }
+ 

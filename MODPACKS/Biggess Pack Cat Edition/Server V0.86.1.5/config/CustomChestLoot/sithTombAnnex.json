@@ -1,0 +1,119 @@
+{
+  "_name": "sithTombAnnex",
+  "min": 3,
+  "max": 7,
+  "loot": [
+    {
+      "weight": 4,
+      "id": "minecraft:bone",
+      "damage": 0,
+      "min": 4,
+      "max": 6
+    },
+    {
+      "weight": 3,
+      "id": "minecraft:rotten_flesh",
+      "damage": 0,
+      "min": 3,
+      "max": 7
+    },
+    {
+      "weight": 3,
+      "id": "minecraft:iron_ingot",
+      "damage": 0,
+      "min": 2,
+      "max": 7
+    },
+    {
+      "weight": 2,
+      "id": "lightsabers:lightsaber_circuitry",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "lightsabers:lightsaber_blade_emitter",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "lightsabers:lightsaber_blade_emitter",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "lightsabers:lightsaber_blade_emitter",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "lightsabers:lightsaber_crystal",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "ChestGenCategory",
+              "function": "string",
+              "value": "sithTombAnnex"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "id": "lightsabers:lightsaber_crystal",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "ChestGenCategory",
+              "function": "string",
+              "value": "sithTombAnnex"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "id": "lightsabers:lightsaber_crystal",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "ChestGenCategory",
+              "function": "string",
+              "value": "sithTombAnnex"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

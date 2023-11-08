@@ -1,0 +1,40 @@
+[
+  {
+    "skills": [
+      {
+        "skill": "Attack",
+        "level": 1
+      },
+      {
+        "skill": "Strength",
+        "level": 15
+      },
+      {
+        "skill": "Defence",
+        "level": 11
+      },
+      {
+        "skill": "Magic",
+        "level": 1
+      },
+      {
+        "skill": "Ranged",
+        "level": 1
+      },
+      {
+        "skill": "Prayer",
+        "level": 1
+      },
+      {
+        "skill": "Constitution",
+        "level": 55
+      },
+      {
+        "skill": "Summoning",
+        "level": 1
+      }
+    ],
+    "entityID": "EntityHorse",
+    "weight": 1.0
+  }
+]

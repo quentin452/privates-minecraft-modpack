@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "data": {
+    "Chocobo Stable Tile": [
+      "antiqueatlas:textures/gui/tiles/house.png"
+    ],
+    "TEST": [
+      "antiqueatlas:textures/gui/tiles/test.png",
+      "antiqueatlas:textures/gui/tiles/test.png"
+    ],
+    "zss_dungeon0": [
+      "zeldaswordskills:textures/atlas/zss_dungeon0.png"
+    ],
+    "zss_dungeon0_fin": [
+      "zeldaswordskills:textures/atlas/zss_dungeon0_fin.png"
+    ],
+    "zss_dungeon1": [
+      "zeldaswordskills:textures/atlas/zss_dungeon1.png"
+    ],
+    "zss_dungeon1_fin": [
+      "zeldaswordskills:textures/atlas/zss_dungeon1_fin.png"
+    ],
+    "zss_dungeon2": [
+      "zeldaswordskills:textures/atlas/zss_dungeon2.png"
+    ],
+    "zss_dungeon2_fin": [
+      "zeldaswordskills:textures/atlas/zss_dungeon2_fin.png"
+    ],
+    "zss_dungeon3": [
+      "zeldaswordskills:textures/atlas/zss_dungeon3.png"
+    ],
+    "zss_dungeon3_fin": [
+      "zeldaswordskills:textures/atlas/zss_dungeon3_fin.png"
+    ],
+    "zss_dungeon4": [
+      "zeldaswordskills:textures/atlas/zss_dungeon4.png"
+    ],
+    "zss_dungeon4_fin": [
+      "zeldaswordskills:textures/atlas/zss_dungeon4_fin.png"
+    ],
+    "zss_dungeon5": [
+      "zeldaswordskills:textures/atlas/zss_dungeon5.png"
+    ],
+    "zss_dungeon5_fin": [
+      "zeldaswordskills:textures/atlas/zss_dungeon5_fin.png"
+    ],
+    "zss_dungeon6": [
+      "zeldaswordskills:textures/atlas/zss_dungeon6.png"
+    ],
+    "zss_dungeon6_fin": [
+      "zeldaswordskills:textures/atlas/zss_dungeon6_fin.png"
+    ]
+  }
+}

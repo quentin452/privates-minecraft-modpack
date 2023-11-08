@@ -1,0 +1,58 @@
+Advent of Ascension
+id:(8 - 15)
+id:(22 - 23)
+
+Aquaculture
+id:(24 - 30)
+
+Arcana RPG
+id:(31)
+id:(36 - 44)
+
+BiblioCraft
+id:(45 - 46)
+
+CoFH Core
+id:(47)
+id:(52)
+
+Draconic Evolution
+id:(53)
+
+Dungeon Tools
+id:(54)
+
+Electroblob's Wizardry
+id:(55 - 58)
+
+Ender IO
+id:(59)
+
+EnderCore
+id:(60)
+id:(63)
+
+LightningCraft
+id:(64 - 65)
+
+OpenBlocks
+id:(66 - 68)
+
+Runic Dungeons
+id:(69 - 72)
+
+Simply Jetpacks
+id:(73)
+
+Slime Carnage
+id:(74)
+
+Soul Shards: The Old Ways
+id:(75)
+
+Special Mobs
+id:(76 - 81)
+
+UnbreakEn Mod
+id:(82)
+

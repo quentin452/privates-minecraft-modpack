@@ -1,0 +1,13 @@
+{
+Botania:[
+	{keep:[[customBrick],[0,1,2,3,4]]};
+	{keep:[[shinyFlower,biomeStone*,petalBlock,altar,miniIsland,
+		manaBeacon,pavement,unstableBlock,petal,flightTiara,laputaShard,quartz,
+		dye,lens,rune,grassSeeds],[0]]};
+	{keep-one:[[specialFlower,floatingSpecialFlower,twigWand,signalFlare,
+		terraPick],[0]]};
+	{keep:[[incenseStick,bloodPendant],[0],['{}','']]};
+	{hide:[[doubleFlower*,mushroom,buriedPetals,manaFlame,fakeAir,gaiaHeadBlock,quartzType*,
+		*SlabFull,brewFlask,brewVial,craftPattern,ancientWill],[]]};
+	]
+}

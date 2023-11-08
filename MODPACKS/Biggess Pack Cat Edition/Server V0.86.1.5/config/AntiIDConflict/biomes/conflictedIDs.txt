@@ -1,0 +1,12 @@
+Total amount of conflicted biome ids: 9
+IDs in conflict:
+
+74 is asked by: Mining Biome (aroma1997.world.dimension.BiomeGenMining), Abyssal Void (net.nevermine.dimension.abyss.biome.BiomeGenAbyss)
+93 is asked by: Abyss (com.superdextor.dextersnether.world.BiomeGenAbyss), Candyland (net.nevermine.dimension.candyland.biome.BiomeGenCandyland)
+94 is asked by: Nether (com.superdextor.dextersnether.world.BiomeGenNether), Creeponia (net.nevermine.dimension.creeponia.BiomeGenCreeponia)
+101 is asked by: Geonosis Gravel Hills (com.sown.outerrim.dimension.geonosis.BiomeGenGeonosisGravelHills), Abyssal Eyelands (net.nevermine.dimension.abyss.biome.BiomeGenAbyssEye)
+102 is asked by: Geonosis Mesa (com.sown.outerrim.dimension.geonosis.BiomeGenGeonosisMesa), Silvro Hills (net.nevermine.dimension.iromine.biome.BiomeGenIromineSilver)
+103 is asked by: Tatooine Desert 1 (com.sown.outerrim.dimension.tatooine.BiomeGenTatooineDesert1), Iro-Tech Hills (net.nevermine.dimension.iromine.biome.BiomeGenIromineTech)
+104 is asked by: Tatooine Desert 2 (com.sown.outerrim.dimension.tatooine.BiomeGenTatooineDesert2), Deep Fungal Cave (net.nevermine.dimension.deeplands.biome.BiomeGenDeeplandsFungal)
+106 is asked by: Tatooine Desert 4 (com.sown.outerrim.dimension.tatooine.BiomeGenTatooineDesert4), Gardencian Fungi (net.nevermine.dimension.gardencia.biome.BiomeGenGardenciaFungal)
+108 is asked by: Tatooine Wastes (com.sown.outerrim.dimension.tatooine.BiomeGenTatooineWastes), Haunted Forest (net.nevermine.dimension.greckon.biome.BiomeGenGreckonForest)

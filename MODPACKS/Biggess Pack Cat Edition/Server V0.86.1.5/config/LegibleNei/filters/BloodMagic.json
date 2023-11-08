@@ -1,0 +1,9 @@
+{
+AWWayofTime:[
+	{hide:[[bloodLight,spectralContainer,*TelepositionFocus,lifeEssence],[]]};
+	{hide:[block,[Mimic,SchemSaver],[]]};
+	{keep-one:[block,[CrystalBelljar],[]]};
+	{keep:[AlchemicalWizardrytile.block,[Spell*],[0]]};
+	{keep:[bloodMagic,[BaseAlchemyItems,IncenseItem],[0]]};
+]
+}

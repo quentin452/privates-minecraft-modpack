@@ -1,0 +1,6 @@
+{OpenBlocks:[
+	{keep-one:[[imaginary],[0,1]]};
+	{keep:[[elevator,elevator_rotating],[0]]};
+	{keep-one:[[tank,trophy,paintcan,crayonGlasses,paintBrush],[]]};
+	]
+}

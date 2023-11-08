@@ -1,0 +1,55 @@
+{
+	"other": {
+		// Any sounds you want an angel to be able to say.
+		"mob sounds": [
+			"mob.endermen.idle",
+			"mob.silverfish.say",
+			"mob.skeleton.say",
+			"mob.spider.say",
+			"mob.villager.idle",
+			"mob.wither.idle",
+			"mob.zombie.say",
+			"creeper.primed"
+		]
+	},
+	"Statistics": {
+		// The weighted probability that an Angel can spawn. The larger this number is, the more often Angels will spawn. Default 3
+		"Weighted Spawn Probability": 80,
+		// The maximum movement speed of an Angel
+		"Angel Max Speed": 0.4,
+		// The maximum light level for an Angel to spawn
+		"Max Light Level": 8,
+		// The maximum distance that an Angel will teleport a player. Default 200.
+		"Maximum Teleportation Range": 200,
+		// When morphed as a lonely assassin, you will stay angry at anyone who attacks for your this many TICKS
+		"Morphed Angry Length": 1200,
+		// When morphed as a lonely assassin, you will chase a target (after attacking them) for this many TICKS
+		"Morphed Chase Length": 600,
+		// The percentage change that an Angel will teleport a player, if player does not get infected. Default 35% chance of teleportation.
+		"Teleportation Percentage": 35,
+		// When an Angel attacks a player, if the Angel does not infect the player, the Angel has a chance to teleport the player. If this is false, Angels will not be able to teleport players.
+		"Angels can teleport players": true,
+		// The percentage chance that an Angel will start converting a player. Disabled if 'Angels can infect players' is false.
+		"Infection Percentage": 10,
+		// If you die from an Angel's infection, and an Angel is spawned, then it will steal your inventory. You will have to kill that angel to get your inventory back.
+		"Angels steal a player's inventory": false,
+		// If enabled, then Angels will be able to look for light sources and knock them down. WARNING! The more Angels there are in the world, the more lag this will cause. This feature is still UNSTABLE!
+		"Angels can knock down light": false,
+		// The spawn health of an Angel. Also is the maximum health of an angel when a player is infected.
+		"Angel Health": 20,
+		// Angels ignore a player's armor when they hurt a player
+		"Angel ignores armor": false,
+		// Angels can only be damaged with a pickaxe
+		"Angels only hurt with pickaxe": true,
+		// Angels are able to distract you with sounds
+		"Angels throw sounds": true,
+		// When an Angel attacks a player, there is a chance that the Angel with start converting the player into an angel
+		"Angels can infect players": true,
+		// The maximum time in ticks (20 ticks = 1 second) that it takes for an Angel (inside an infected player) to get to full health. Default is 6000 (5 minutes) (20 ticks per second * 60 seconds per minute * 5 minutes)
+		"Maximum Ticks For Infection": 6000,
+		// The minimum distance that an Angel will teleport a player. Default 5.
+		"Minimum Teleportation Range": 5,
+		// If you die from an Angel's infection, and an Angel is spawned, it will have your name.
+		"Angels take a player's name": true
+	}
+}

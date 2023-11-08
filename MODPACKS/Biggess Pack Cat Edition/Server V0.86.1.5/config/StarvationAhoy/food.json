@@ -1,0 +1,14 @@
+{
+  "foods": [
+    {
+      "mod": "minecraft",
+      "foods": [
+        {
+          "name": "apple",
+          "hunger": 1,
+          "saturation": 1.2
+        }
+      ]
+    }
+  ]
+}

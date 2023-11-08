@@ -1,0 +1,40 @@
+[
+  {
+    "skills": [
+      {
+        "skill": "Attack",
+        "level": 1
+      },
+      {
+        "skill": "Strength",
+        "level": 19
+      },
+      {
+        "skill": "Defence",
+        "level": 19
+      },
+      {
+        "skill": "Magic",
+        "level": 1
+      },
+      {
+        "skill": "Ranged",
+        "level": 19
+      },
+      {
+        "skill": "Prayer",
+        "level": 1
+      },
+      {
+        "skill": "Constitution",
+        "level": 50
+      },
+      {
+        "skill": "Summoning",
+        "level": 1
+      }
+    ],
+    "entityID": "Slime",
+    "weight": 1.0
+  }
+]

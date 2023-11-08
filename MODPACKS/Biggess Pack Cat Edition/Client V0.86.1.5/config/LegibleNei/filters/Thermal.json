@@ -1,0 +1,19 @@
+{ThermalExpansion:[
+	{keep:[[Frame],[0,4,11,12]]};
+	{keep:[[Plate],[0,4,5,6]]};
+	{keep:[[Cache,Tank,Strongbox,Workbench,Rockwool,satchel],[1]]};
+	{hide:[[Cell],[0,2]]};
+	{keep-one:[[Cell],[1,3,4]]};
+	{keep:[[capacitor],[1,2]]};
+	{keep-one:[[capacitor],[2]]};
+	{keep-one:[[chiller,igniter,pump],[0]]};
+	{keep-one:[[Light,florb],[]]};
+],
+ThermalFoundation:[
+	{hide:[[Storage],[]]};
+	{hide:[[Fluid*],[]]};
+	{hide:[armor.,[boots*,legs*,plate*,helmet*],[]]};
+	{hide:[tool.,[sickle*,sword*,shovel*,axe*,pickaxe*,bow*,hoe*,shear*,fish*],[]]};
+	{keep:[[tool.*Platinum,armor.*Platinum],[0]]};
+]
+}

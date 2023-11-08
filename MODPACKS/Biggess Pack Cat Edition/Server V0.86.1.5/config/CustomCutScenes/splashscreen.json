@@ -1,0 +1,284 @@
+{
+  "finalize" : true,
+  "showDebug" : false,
+  "backgroundColor" : [0,0,0],
+  "screenSegments": [
+    {
+		// 1st Segment
+      "actorArray": [
+	    { // This image demos using other mods resources.. (Only include mods in your pack or you will cause error)
+		  "type": "image",
+	      "resource": "minecraft:textures\/items\/apple.png",
+		  "alignment" : "CENTER_CENTER",
+		  "offsetY" : "-35",
+		  "timeStart": [0,1,0],
+		  "timeDuration": [0,9,250],
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,1,0]],
+		  "zLevel" : "1"
+		},
+        {
+		  "type": "image",
+	      "resource": "fire.gif",
+		  "aniLoop" : 3,
+		  "alignment" : "Bottom_Left",
+		  "imageWidth": "150",
+		  "imageHeight": "300",
+		  "timeStart": [0,1,0],
+		  "timeDuration": [0,9,250],
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,1,0]],
+		  "zLevel" : "5"
+		},
+		{
+		  "type": "image",
+	      "resource": "fire.gif",
+		  "alignment" : "Bottom_Right",
+		  "imageWidth": "150",
+		  "imageHeight": "300",
+		  "timeStart": [0,1,0],
+		  "timeDuration": [0,9,250],
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,1,0]],
+		  "zLevel" : "5"
+		},
+        {
+		  "type": "image",
+	      "resource": "logo.png",
+		  "alignment" : "CENTER_CENTER",
+		  "imageWidth": "256",
+		  "imageHeight": "45",
+		  "timeStart": [0,1,0],
+		  "timeDuration": [0,9,250],
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,1,0]],
+		  "zLevel" : "5"
+		},
+        { // Demos ho to add sounds
+		  "type": "sound",
+		  "timeStart": [0,1,0],
+	      "resource": "Dead_Reckoning.ogg",
+		  "volume": ".75"
+		},
+        { // Note that we use Language file in display text, you techncally can use Language file from any mod
+		  "timeStart": [0,1,0],
+		  "timeDuration": [0,9,250],
+		  "textRGBColor": [255,0,0],
+          "displayText": "text.cssfiles.splashscreen.gencreate",
+		  "alignment" : "BOTTOM_CENTER",
+		  "offsetY" : "-20",
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,1,0]],
+		  "zLevel" : "2"
+        },
+        {
+		  "timeStart": [0,1,0],
+		  "timeDuration": [0,9,250],
+		  "textRGBColor": [255,255,0],
+          "displayText": "Press Space To Skip, Esc to Close",
+		  "alignment" : "BOTTOM_CENTER",
+		  "offsetY" : "-35",
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,1,0]],
+		  "zLevel" : "2"
+        }		
+      ]
+    },
+	    {
+		// 2nd Segment
+	  "actorArray": [
+        {
+          "duration": "120",
+		  "timeStart": [0,1,0],
+		  "timeDuration": [0,3,0],
+          "displayText": "text.cssfiles.splashscreen.world",
+		  "textRGBColor": [255,255,0],
+		  "alignment" : "Bottom_CENTER",
+		  "offsetY" : "-35",
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,1,0]],
+		  "zLevel" : "20"
+        },
+		{
+		  "type": "image",
+		  "timeStart": [0,1,0],
+		  "timeDuration": [0,3,0],
+		  "duration": "120",
+	      "resource": "world.png",
+		  "alignment" : "CENTER_CENTER",
+		  "imageWidth": "480",
+		  "offsetY" : "-35",
+          "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,1,0]],
+		  "zLevel" : "5"
+		},
+		{
+			"type": "sound",
+			"timeStart": [0,0,500],
+			"resource": "Extinction_Level_Event.ogg",
+			"volume": ".75"
+		},
+		{
+		  "timeStart": [0,4,0],
+		  "timeDuration": [0,3,0],
+          "duration": "180",
+          "displayText": "text.cssfiles.splashscreen.create",
+		  "textRGBColor": [255,255,0],
+		  "alignment" : "bottom_CENTER",
+		  "offsetY" : "-35",
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,1,0]],
+		  "zLevel" : "20"
+        },
+		{
+		  "type": "image",
+		  "timeStart": [0,4,0],
+		  "timeDuration": [0,3,0],
+		  "duration": "180",
+	      "resource": "build.png",
+		  "alignment" : "CENTER_CENTER",
+		  "imageWidth": "480",
+		  "offsetY" : "-35",
+          "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,1,0]],
+		  "zLevel" : "5"
+		},
+		{
+		  "timeStart": [0,7,500],
+		  "timeDuration": [0,3,0],
+          "duration": "180",
+          "displayText": "text.cssfiles.splashscreen.destory",
+		  "textRGBColor": [255,255,0],
+		  "alignment" : "Bottom_CENTER",
+		  "offsetY" : "-35",
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,1,0]],
+		  "zLevel" : "20"
+        },
+		{
+		  "type": "image",
+		  "timeStart": [0,7,500],
+		  "timeDuration": [0,3,0],
+		  "duration": "180",
+	      "resource": "destory.png",
+		  "alignment" : "CENTER_CENTER",
+		  "imageWidth": "480",
+		  "imageHeight": "240",
+		  "offsetY" : "-35",
+          "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,1,0]],
+		  "zLevel" : "5"
+		},
+		{
+		  "timeStart": [0,10,500],
+		  "timeDuration": [0,8,0],
+          "duration": "160",
+          "displayText": "text.cssfiles.splashscreen.story",
+		  "textRGBColor": [255,255,0],
+		  "alignment" : "CENTER_CENTER",
+		  "offsetY" : "+25",
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,1,0]],
+		  "zLevel" : "20"
+        },
+		{
+		  "timeStart": [0,18,0],
+		  "timeDuration": [0,8,0],
+          "duration": "160",
+          "displayText": "text.cssfiles.splashscreen.cut",
+		  "textRGBColor": [255,255,0],
+		  "alignment" : "CENTER_CENTER",
+		  "offsetY" : "+25",
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,1,0]],
+		  "zLevel" : "20"
+        },	
+		{
+		  "timeStart": [0,26,0],
+		  "timeDuration": [0,6,0],
+          "duration": "120",
+          "displayText": "text.cssfiles.splashscreen.couldnt",
+		  "textRGBColor": [255,255,0],
+		  "alignment" : "CENTER_CENTER",
+		  "offsetY" : "+25",
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,1,0]],
+		  "zLevel" : "20"
+        },
+		{
+		  "timeStart": [0,33,0],
+		  "timeDuration": [0,4,0],
+          "duration": "160",
+          "displayText": "text.cssfiles.splashscreen.today",
+		  "textRGBColor": [255,255,0],
+		  "alignment" : "CENTER_CENTER",
+		  "offsetY" : "+25",
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,3,0]],
+		  "zLevel" : "6"
+        },
+		{
+		  "type": "image",
+		  "timeStart": [0,38,0],
+		  "timeDuration": [0,30,0],
+		  "duration": "900",
+	      "resource": "sunset.png",
+		  "alignment" : "CENTER_CENTER",
+		  "imageWidth": "480",
+		  "offsetY" : "-25",
+          "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,10,0]],
+		  "zLevel" : "5"
+		},
+		{
+		  "timeStart": [0,39,500],
+		  "timeDuration": [0,9,0],
+          "duration": "180",
+          "displayText": "text.cssfiles.splashscreen.support",
+		  "textRGBColor": [255,255,0],
+		  "alignment" : "Bottom_CENTER",
+		  "offsetY" : "-35",
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,3,0]],
+		  "zLevel" : "6"
+        },
+		{
+		  "timeStart": [0,49,0],
+		  "timeDuration": [0,9,0],
+          "duration": "220",
+          "displayText": "text.splashscreen.demo",
+		  "textRGBColor": [255,255,0],
+		  "alignment" : "Bottom_CENTER",
+		  "offsetY" : "-35",
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,3,0]],
+		  "zLevel" : "6"
+        },
+		{
+		  "timeStart": [0,57,500],
+		  "timeDuration": [0,11,500],
+          "duration": "290",
+          "displayText": "text.splashscreen.make",
+		  "textRGBColor": [255,255,0],
+		  "alignment" : "Bottom_CENTER",
+		  "offsetY" : "-25",
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,3,0]],
+		  "zLevel" : "6"
+        },
+		{ // This does not use the Lang file
+		  "timeStart": [0,57,500],
+		  "timeDuration": [0,11,500],
+          "duration": "290",
+          "displayText": "This is always English",
+		  "textRGBColor": [255,255,0],
+		  "alignment" : "Bottom_CENTER",
+		  "offsetY" : "-10",
+		  "transitionIn" : ["fade",[0,1,0]],
+		  "transitionOut" : ["fade",[0,3,0]],
+		  "zLevel" : "6"
+        }
+      ]
+    }
+  ]
+}

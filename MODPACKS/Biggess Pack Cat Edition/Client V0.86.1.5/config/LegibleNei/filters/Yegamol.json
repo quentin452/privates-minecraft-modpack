@@ -1,0 +1,7 @@
+{yegamolchattels:[
+	{keep-one:[["entity_vita"],[]]};
+	{keep:[["*plank"],[0]]};
+	{keep:[[banner*,flag*],[15]]};
+	{hide:[[flax_plant,block_fragment],[]]};
+]
+}

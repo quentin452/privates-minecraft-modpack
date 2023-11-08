@@ -1,0 +1,9 @@
+{EnderIO:[
+	{keep-one:[block,[PoweredSpawner,CapBank],[]]};
+	{hide:[block,[Nutrient_distillation,Rocket_fuel,Fire_water,Hootch,ConduitBundle,
+	IngotStorage,Cloud_seed*,*sunshine,LightNode],[]]};
+	{keep:[block,[ElectricLight,FusedQuartz,DarkSteelAnvil],[0]]};
+	{keep:[item,[Magnet,TravelStaff],[16]]};
+	{hide:[item,[BrokenSpawner],[]]};
+]
+}

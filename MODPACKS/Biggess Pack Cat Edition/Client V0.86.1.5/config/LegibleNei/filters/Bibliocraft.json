@@ -1,0 +1,9 @@
+{BiblioCraft:[
+   {keep:[Biblio,[Paneler,Typewriter,Clock,*Painting,SwordPedestal,FancySign,
+		Workbench,theca,PotionShelf,Shelf,Rack,Case,Label,Desk,Table,
+		Lantern,IronLantern,Lamp,IronLamp,MapFrames,Seats],[0]]};
+   {keep:[[item.seat*],[0]]};
+   {hide:[[BiblioClipboard,BookcaseFilled],[]]};
+   {hide:[item.,[RecipeBook,AtlasPlate,EnchantedPlate,DeathCompass,PrintPlate,BiblioCreativeLock],[]]};
+   ]
+}

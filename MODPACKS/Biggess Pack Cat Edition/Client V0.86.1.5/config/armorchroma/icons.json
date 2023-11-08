@@ -1,0 +1,352 @@
+{
+	"groups": [
+		{
+			"_comment": "Vanilla",
+			"modid": "minecraft",
+			"materials": [
+				{"name": "CLOTH", "index": 5},
+				{"name": "CHAIN", "index": 1},
+				{"name": "IRON", "index": 2},
+				{"name": "GOLD", "index": 3},
+				{"name": "DIAMOND", "index": 4}
+			]
+		}, {
+			"modid": "Botania",
+			"materials": [
+				{"name": "MANASTEEL", "index": 28},
+				{"name": "TERRASTEEL", "index": 29},
+				{"name": "B_ELEMENTIUM", "index": 30},
+				{"name": "MANAWEAVE", "index": 31}
+			]
+		}, {
+			"modid": "ThermalFoundation",
+			"materials": [
+				{"name": "TF:COPPER", "index": 56},
+				{"name": "TF:TIN", "index": 57},
+				{"name": "TF:SILVER", "index": 58},
+				{"name": "TF:LEAD", "index": 59},
+				{"name": "TF:NICKEL", "index": 60},
+				{"name": "TF:ELECTRUM", "index": 61},
+				{"name": "TF:INVAR", "index": 62},
+				{"name": "TF:BRONZE", "index": 63},
+				{"name": "TF:PLATINUM", "index": 64}
+			]
+		}, {
+			"_comment": "IndustrialCraft 2",
+			"modid": "IC2",
+			"materials": [
+				{"name": "IC2_BRONZE", "index": 86},
+				{"name": "IC2_ALLOY", "index": 87}
+			],
+			"items": [
+				{"id": "itemArmorHazmatHelmet", "index": 84},
+				{"id": "itemArmorHazmatChestplate", "index": 84},
+				{"id": "itemArmorHazmatLeggings", "index": 84},
+				{"id": "itemArmorRubBoots", "index": 85},
+
+				{"id": "itemArmorNanoHelmet", "index": 88},
+				{"id": "itemArmorNanoChestplate", "index": 88},
+				{"id": "itemArmorNanoLeggings", "index": 88},
+				{"id": "itemArmorNanoLeggings", "index": 88},
+
+				{"id": "itemArmorQuantumHelmet", "index": 89},
+				{"id": "itemArmorQuantumChestplate", "index": 89},
+				{"id": "itemArmorQuantumLeggings", "index": 89},
+				{"id": "itemArmorQuantumLeggings", "index": 89},
+
+				{"id": "itemSolarHelmet", "index": 2},
+				{"id": "itemNightvisionGoggles", "index": 85},
+				{"id": "itemStaticBoots", "index": 85},
+				{"id": "itemArmorJetpack", "index": 2},
+				{"id": "itemArmorJetpackElectric", "index": 2},
+				{"id": "itemArmorCFPack", "index": 2},
+				{"id": "itemArmorEnergypack", "index": 2},
+				{"id": "itemArmorBatpack", "index": 90},
+				{"id": "itemArmorAdvBatpack", "index": 91}
+			]
+		}, {
+			"_comment": "Electro-Magic Tools",
+			"modid": "EMT",
+			"materials": [{"name": "FEATEHRWiNG", "index": 93}],
+			"items": [
+				{"id": "ElectricBootsTraveller", "index": 92},
+				{"id": "ElectricGogglesRevealing", "index": 92},
+				{"id": "NanoBootsTraveller", "index": 88},
+				{"id": "QuantumBootsTraveller", "index": 89},
+				{"id": "NanosuitWing", "index": 88},
+				{"id": "QuantumWing", "index": 89},
+				{"id": "itemArmorQuantumChestplate", "index": 89},
+				{"id": "NanosuitGogglesRevealing", "index": 88},
+				{"id": "QuantumGogglesRevealing", "index": 89},
+				{"id": "SolarHelmetRevealing", "index": 2}
+			]
+		}, {
+			"_comment": "Blood Magic",
+			"modid": "AWWayofTime",
+			"items": [
+				{"id": "boundHelmet", "index": 112},
+				{"id": "boundPlate", "index": 112},
+				{"id": "boundLeggings", "index": 112},
+				{"id": "boundBoots", "index": 112},
+
+				{"id": "boundHelmetFire", "index": 113},
+				{"id": "boundPlateFire", "index": 113},
+				{"id": "boundLeggingsFire", "index": 113},
+				{"id": "boundBootsFire", "index": 113},
+
+				{"id": "boundHelmetWater", "index": 114},
+				{"id": "boundPlateWater", "index": 114},
+				{"id": "boundLeggingsWater", "index": 114},
+				{"id": "boundBootsWater", "index": 114},
+
+				{"id": "boundHelmetWind", "index": 115},
+				{"id": "boundPlateWind", "index": 115},
+				{"id": "boundLeggingsWind", "index": 115},
+				{"id": "boundBootsWind", "index": 115},
+
+				{"id": "boundHelmetEarth", "index": 116},
+				{"id": "boundPlateEarth", "index": 116},
+				{"id": "boundLeggingsEarth", "index": 116},
+				{"id": "boundBootsEarth", "index": 116},
+
+				{"id": "itemBloodPack", "index": 112}
+			]
+		}, {
+			"modid": "BloodArsenal",
+			"materials": [
+				{"name": "ICHOR", "index": 154},
+				{"name": "VampireArmor", "index": 117},
+				{"name": "GlassArmor", "index": 118},
+				{"name": "ImbuedArmor", "index": 119}
+			]
+		}, {
+			"modid": "Thaumcraft",
+			"materials": [
+				{"name": "THAUMIUM", "index": 140},
+				{"name": "VOID", "index": 141},
+				{"name": "SPECIAL", "index": 142},
+				{"name": "FORTRESS", "index": 143}
+			],
+			"items": [
+				{"id": "BootsTraveller", "index": 0},
+				{"id": "HoverHarness", "index": 0},
+				{"id": "ItemHelmetCultistRobe", "index": 144},
+				{"id": "ItemChestplateCultistRobe", "index": 144},
+				{"id": "ItemLeggingsCultistRobe", "index": 144},
+				{"id": "ItemHelmetCultistPlate", "index": 144},
+				{"id": "ItemChestplateCultistPlate", "index": 144},
+				{"id": "ItemLeggingsCultistPlate", "index": 144},
+				{"id": "ItemBootsCultist", "index": 144},
+				{"id": "ItemChestplateCultistLeaderPlate", "index": 144},
+				{"id": "ItemLeggingsCultistLeaderPlate", "index": 144},
+				{"id": "ItemHelmetCultistLeaderPlate", "index": 144}
+			]
+		}, {
+			"modid": "TaintedMagic",
+			"materials": [
+				{"name": "VOIDFORTRESS", "index": 141},
+				{"name": "SHADOW2", "index": 142},
+				{"name": "SanguineArmor", "index": 151}
+			],
+			"items": [
+				{"id": "BootsVoidwalker", "index": 0},
+				{"id": "CrimsonVoidHelm", "index": 144},
+				{"id": "CrimsonVoidChest", "index": 144},
+				{"id": "CrimsonVoidLegs", "index": 144},
+				{"id": "CrimsonVoidBoots", "index": 144},
+				{"id": "CrimsonPlateVoidHelm", "index": 144},
+				{"id": "CrimsonPlateVoidChest", "index": 144},
+				{"id": "CrimsonPlateVoidLegs", "index": 144},
+				{"id": "CrimsonLeaderVoidHelm", "index": 144},
+				{"id": "CrimsonLeaderVoidChest", "index": 144},
+				{"id": "CrimsonLeaderVoidLegs", "index": 144},
+				{"id": "HelmetShadowFortress", "index": 145},
+				{"id": "ChestShadowFortress", "index": 145},
+				{"id": "LegsShadowFortress", "index": 145}
+			]
+		}, {
+			"modid": "WitchingGadgets",
+			"materials": [
+				{"name": "WG:PRIMORDIALARMOR", "index": 146},
+				{"name": "WG:ADVANCEDCLOTH", "index": 150}
+			]
+		}, {
+			"modid": "thaumicadditions",
+			"materials": [
+				{"name": "ADAMINITEARMOR", "index": 147},
+				{"name": "MASCOFCRUELTY", "index": 0}
+			]
+		}, {
+			"modid": "ThaumicBases",
+			"materials": [
+				{"name": "ATHAUMINITE", "index": 148},
+				{"name": "TBBLOODY", "index": 149}
+			]
+		}, {
+			"_comment": "Flaxbeard's Steam Power",
+			"modid": "Steamcraft",
+			"materials": [
+				{"name": "MONACLE", "index": 0},
+				{"name": "exosuit", "index": 198},
+				{"name": "GILDEDGOLD", "index": 3},
+				{"name": "BRASS", "index": 199}
+			]
+		}, {
+			"modid": "TwilightForest",
+			"materials": [
+				{"name": "NAGA_SCALE", "index": 168},
+				{"name": "FIERY", "index": 169},
+				{"name": "IRONWOOD", "index": 170},
+				{"name": "KNIGHTMETAL", "index": 172},
+				{"name": "KNIGHTPHANTOM", "index": 173},
+				{"name": "YETI", "index": 174},
+				{"name": "ARCTIC", "index": 175}
+			],
+			"items": [
+				{"id": "item.steeleafHelm", "index": 171},
+				{"id": "item.steeleafPlate", "index": 171},
+				{"id": "item.steeleafLegs", "index": 171},
+				{"id": "item.steeleafBoots", "index": 171}
+			]
+		}, {
+			"modid": "witchery",
+			"items": [
+				{"id": "vampirehat", "index": 196},
+				{"id": "vampirehelmet", "index": 196},
+				{"id": "vampirecoat", "index": 196},
+				{"id": "vampirecoat_female", "index": 196},
+				{"id": "vampirechaincoat", "index": 196},
+				{"id": "vampirechaincoat_female", "index": 196},
+				{"id": "vampirelegs", "index": 196},
+				{"id": "vampirelegs_kilt", "index": 196},
+				{"id": "vampireboots", "index": 196},
+				{"id": "deathscowl", "index": 197},
+				{"id": "deathsrobe", "index": 197},
+				{"id": "deathsfeet", "index": 197}
+			]
+		}, {
+			"modid": "ThaumicExploration",
+			"items": [
+				{"id": "bootsMeteor", "index": 152},
+				{"id": "bootsComet", "index": 153}
+			]
+		}, {
+			"modid": "RedstoneArsenal",
+			"materials": [{"name": "RA:FLUXELECTRUM", "index": 65}]
+		}, {
+			"modid": "BiomesOPlenty",
+			"materials": [{"name": "MUD", "index": 225}],
+			"items": [
+				{"id": "amethystHelmet", "index": 224},
+				{"id": "amethystChestplate", "index": 224},
+				{"id": "amethystLeggings", "index": 224},
+				{"id": "amethystBoots", "index": 224}
+			]
+		}, {
+			"modid": "aether",
+			"materials": [
+				{"name": "OBSIDIAN", "index": 255},
+				{"name": "Aether_Legendary_armor", "index": 256}
+			],
+			"items": [
+				{"id": "phoenixHelmet", "index": 252},
+				{"id": "phoenixChestplate", "index": 252},
+				{"id": "phoenixLeggings", "index": 252},
+				{"id": "phoenixBoots", "index": 252},
+
+				{"id": "zaniteHelmet", "index": 253},
+				{"id": "zaniteChestplate", "index": 253},
+				{"id": "zaniteLeggings", "index": 253},
+				{"id": "zaniteBoots", "index": 253},
+
+				{"id": "neptuneHelmet", "index": 254},
+				{"id": "neptuneChestplate", "index": 254},
+				{"id": "neptuneLeggings", "index": 254},
+				{"id": "neptuneBoots", "index": 254},
+
+				{"id": "gravititeHelmet", "index": 257},
+				{"id": "gravititeChestplate", "index": 257},
+				{"id": "gravititeLeggings", "index": 257},
+				{"id": "gravititeBoots", "index": 257},
+
+				{"id": "sentryBoots", "index": 258}
+			]
+		}, {
+			"modid": "orespawn",
+			"materials": [
+				{"name": "EMERALD", "index": 280},
+				{"name": "EXPERIENCE", "index": 280},
+				{"name": "PEACOCK", "index": 281},
+				{"name": "PINK", "index": 282},
+				{"name": "MOBZILLA", "index": 283},
+				{"name": "RUBY", "index": 284},
+				{"name": "MOTHSCALE", "index": 285},
+				{"name": "LAVAEEL", "index": 286},
+				{"name": "ROYAL", "index": 287},
+				{"name": "AMETHYST", "index": 288},
+				{"name": "ULTIMATE", "index": 289},
+				{"name": "TIGERSEYE", "index": 290},
+				{"name": "QUEEN", "index": 291},
+				{"name": "LAPIS", "index": 292}
+			]
+		}, {
+			"modid": "DraconicEvolution",
+			"materials": [
+				{"name": "DRACONIUMARMOR_T1", "index": 308},
+				{"name": "DRACONIUMARMOR_T2", "index": 309}
+			]
+		}, {
+			"modid": "RandomThings",
+			"materials": [
+				{"name": "Spectre", "index": 336}
+			]
+		}, {
+			"modid": "magicalcrops",
+			"materials": [
+				{"name": "InfusedIngotArmor", "index": 364},
+				{"name": "InfusedArmorEpic", "index": 365},
+				{"name": "InfusedArmor", "index": 366}
+			],
+			"items": [
+				{"id": "magicalcrops_infusedHelmetEpicFlight", "index": 367},
+				{"id": "magicalcrops_infusedPlatebodyEpicFlight", "index": 367},
+				{"id": "magicalcrops_infusedLeggingsEpicFlight", "index": 367},
+				{"id": "magicalcrops_infusedBootsEpicFlight", "index": 367}
+			]
+		}, {
+			"modid": "MekanismTools",
+			"materials": [
+				{"name": "GLOWSTONE", "index": 392},
+				{"name": "BRONZE", "index": 393},
+				{"name": "OBSIDIAN", "index": 394},
+				{"name": "STEEL", "index": 395},
+				{"name": "OSMIUM", "index": 396},
+				{"name": "LAZULI", "index": 397}
+			]
+		}, {
+			"modid": "Mekanism",
+			"materials": [
+				{"name": "GASMASK", "index": 398},
+				{"name": "SCUBATANK", "index": 398},
+				{"name": "JETPACK", "index": 399},
+				{"name": "FRICTIONBOOTS", "index": 399}
+			]
+		}, {
+			"modid": "ProjectE",
+			"items": [
+				{"id": "item.pe_rm_armor_0", "index": 112},
+				{"id": "item.pe_rm_armor_1", "index": 112},
+				{"id": "item.pe_rm_armor_2", "index": 112},
+				{"id": "item.pe_rm_armor_3", "index": 112},
+				{"id": "item.pe_gem_armor_0", "index": 420},
+				{"id": "item.pe_gem_armor_1", "index": 420},
+				{"id": "item.pe_gem_armor_2", "index": 420},
+				{"id": "item.pe_gem_armor_3", "index": 420},
+				{"id": "item.pe_dm_armor_0", "index": 421},
+				{"id": "item.pe_dm_armor_1", "index": 421},
+				{"id": "item.pe_dm_armor_2", "index": 421},
+				{"id": "item.pe_dm_armor_3", "index": 421}
+			]
+		}
+	]
+}

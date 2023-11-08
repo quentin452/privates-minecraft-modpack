@@ -1,0 +1,5 @@
+3x3x3
+A=0:0;C=3:0;AU=autoridadeF100;
+$ACC!CCCC
+CACCACCCC
+CCCCCCCCC
