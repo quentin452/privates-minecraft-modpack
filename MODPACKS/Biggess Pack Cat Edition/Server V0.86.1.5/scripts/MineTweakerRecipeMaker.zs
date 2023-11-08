@@ -12,6 +12,9 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<tc:WigWag>);
+recipes.remove(<tc:overheadWire>);
+recipes.remove(<tc:stopper>);
 recipes.remove(<steamcraft2:ItemIronNugget> * 9);
 recipes.remove(<gemsnjewels:Silver Alloy Boots>);
 recipes.remove(<gemsnjewels:Silver Alloy Leggings>);
@@ -49,6 +52,10 @@ recipes.addShapeless(<steamcraft2:ItemIronNugget> * 9, [<ore:ingotIron>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<tc:stopper>, [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>], [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <tc:tcRailSmallStraight>, <minecraft:iron_ingot>]]);
+recipes.addShaped(<tc:stopper>, [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>], [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>], [<minecraft:rail>, <minecraft:rail>, <minecraft:rail>]]);
+recipes.addShaped(<tc:WigWag>, [[null, <minecraft:iron_ingot>], [<minecraft:redstone_lamp>, <ore:blockQuartz>], [null, <minecraft:iron_ingot>]]);
+recipes.addShaped(<tc:overheadWire>, [[<minecraft:iron_ingot>, <ore:ingotCopper>], [<minecraft:iron_ingot>, null], [<minecraft:iron_ingot>, null]]);
 recipes.addShaped(<gemsnjewels:Silver Alloy Boots>, [[<ore:ingotSilver>, <ore:ingotSilver>], [<ore:ingotSilver>, <ore:ingotSilver>]]);
 recipes.addShaped(<gemsnjewels:Silver Alloy Leggings>, [[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], [<ore:ingotSilver>, null, <ore:ingotSilver>], [<ore:ingotSilver>, null, <ore:ingotSilver>]]);
 recipes.addShaped(<gemsnjewels:Silver Alloy Chestplate>, [[<ore:ingotSilver>, null, <ore:ingotSilver>], [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]]);
