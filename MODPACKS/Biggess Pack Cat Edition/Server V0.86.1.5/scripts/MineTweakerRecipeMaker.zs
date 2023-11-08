@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<minecraft:spawn_egg:3>);
 recipes.remove(<tc:WigWag>);
 recipes.remove(<tc:overheadWire>);
 recipes.remove(<tc:stopper>);
@@ -51,6 +52,8 @@ recipes.removeShaped(<minecraft:stone>, [[<minecraft:cobblestone>, <ore:cobblest
 // ================================================================================
 //#MARKER ADD SHAPELESS
 recipes.addShapeless(<steamcraft2:ItemIronNugget> * 9, [<ore:ingotIron>]);
+recipes.addShapeless(<AgriCraft:cropsItem> * 4, [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>, <ore:stickWood>]);
+recipes.addShapeless(<lootplusplus:custom_spawn_egg:181>, [<projs:antiqueAridBlizzSpawnEgg>, <ore:listAllwater>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
@@ -63,7 +66,6 @@ recipes.addShaped(<gemsnjewels:Silver Alloy Leggings>, [[<ore:ingotSilver>, <ore
 recipes.addShaped(<gemsnjewels:Silver Alloy Chestplate>, [[<ore:ingotSilver>, null, <ore:ingotSilver>], [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]]);
 recipes.addShaped(<gemsnjewels:Silver Alloy Helmet>, [[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], [<ore:ingotSilver>, null, <ore:ingotSilver>]]);
 recipes.addShaped(<tc:overheadWireDouble>, [[<minecraft:iron_ingot>, <ore:ingotCopper>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <ore:ingotCopper>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]]);
-recipes.addShaped(<AgriCraft:cropsItem>, [[null, <ore:stickWood>, null], [<ore:stickWood>, null, <ore:stickWood>], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<castleblocks:trowel>, [[null, <ore:ingotIron>, <ore:ingotIron>], [<ore:stickWood>, null, null]]);
 recipes.addShaped(<chisel:diamondChisel>, [[null, <ore:gemDiamond>, null], [<ore:stickWood>, null, <ore:stickWood>]]);
 recipes.addShaped(<ironchestminecarts:minecart_chest_dirtchest9000>, [[<minecraft:iron_ingot>, <IronChest:BlockIronChest:7>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
