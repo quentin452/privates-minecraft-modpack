@@ -565,14 +565,6 @@
 			"fileName": "BetterBurning-1.7.10-0.4.2.jar"
 		},
 		{
-			"addonId": 229876,
-			"fileId": 2244002,
-			"fileName": "BetterFps-1.0.1.jar",
-			"metadata": {
-				"side": "CLIENT"
-			}
-		},
-		{
 			"addonId": 324881,
 			"fileId": 2781339,
 			"fileName": "BetterInvalidSession-1.7.10-1.0.3.jar",
