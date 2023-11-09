@@ -1,5 +1,6 @@
 {
-	"curse": [
+	"curse":
+	[
 		{
 			"addonId": 910848,
 			"fileId": 4815791,
@@ -939,6 +940,7 @@
 			"fileId": 2388794,
 			"fileName": "coroutil-1.7.10-1.1.6.jar"
 		},
+
 		{
 			"addonId": 305879,
 			"fileId": 2637156,
@@ -1070,6 +1072,7 @@
 				"side": "CLIENT"
 			}
 		},
+
 		{
 			"addonId": 236953,
 			"fileId": 2262040,
@@ -1591,7 +1594,7 @@
 		},
 		{
 			"addonId": 225548,
-			"fileId": 2258832,
+			"fileId":2258832 ,
 			"fileName": "greenscreen-1.7.10-1.2.jar"
 		},
 		{
@@ -1817,6 +1820,7 @@
 				"side": "CLIENT"
 			}
 		},
+
 		{
 			"addonId": 77021,
 			"fileId": 2219569,
@@ -2201,7 +2205,7 @@
 			"fileId": 2501395,
 			"fileName": "Mob Battle Mod-2.0.0[1.7.10]final.jar"
 		},
-		{
+			{
 			"addonId": 245329,
 			"fileId": 2309545,
 			"fileName": "mobcages-1.7.10-1.2.jar"
@@ -2299,6 +2303,7 @@
 			"fileId": 2966596,
 			"fileName": "MukaStructureMod_1.0.2_mc1.7.10.jar"
 		},
+
 		{
 			"addonId": 59203,
 			"fileId": 2250071,
@@ -2349,7 +2354,7 @@
 			"fileId": 4460610,
 			"fileName": "NotEnoughPets-1.7.10-2.3.6.jar"
 		},
-		{
+			{
 			"addonId": 277740,
 			"fileId": 2478642,
 			"fileName": "obelisk-1.7.10-1.0.0.jar"
@@ -2586,9 +2591,9 @@
 			"fileName": "RecurrentComplex-0.9.7.1.8.jar"
 		},
 		{
-			"addonId": 601575,
-			"fileId": 3737175,
-			"fileName": "RedCoal-1.7.10-1.3.jar"
+			"addonId": 934608,
+			"fileId": 4853906,
+			"fileName": "RedCoal-1.7.10-1.4.jar"
 		},
 		{
 			"addonId": 233525,
@@ -2859,7 +2864,7 @@
 			"fileId": 2353512,
 			"fileName": "SimplyProcessing-V1.0-1.7.10.jar"
 		},
-		{
+			{
 			"addonId": 350280,
 			"fileId": 3246314,
 			"fileName": "skull_mc1.7.10.jar"
@@ -2979,7 +2984,7 @@
 			"fileId": 2230619,
 			"fileName": "Talismans2-1.7.10-1.1.6.jar"
 		},
-		{
+			{
 			"addonId": 237362,
 			"fileId": 2264711,
 			"fileName": "TeaAndBiscuits-1.7.10-1.3.jar"
@@ -3166,7 +3171,7 @@
 		},
 		{
 			"addonId": 245028,
-			"fileId": 2299772,
+			"fileId":2299772,
 			"fileName": "tumbleweed-1.7.10-0.2.jar"
 		},
 		{
@@ -3340,5 +3345,6 @@
 			"fileId": 4850652,
 			"fileName": "NotEnoughItems-2.4.11-GTNH.jar"
 		}
+
 	]
 }
