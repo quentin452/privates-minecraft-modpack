@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<teaandbiscuits:flour>);
 recipes.remove(<minecraft:spawn_egg:3>);
 recipes.remove(<tc:WigWag>);
 recipes.remove(<tc:overheadWire>);
@@ -38,6 +39,7 @@ recipes.remove(<minecraft:chainmail_leggings>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
+recipes.removeShapeless(<minecraft:wheat_seeds>, [<ore:cropWheat>]);
 recipes.removeShapeless(<minecraft:lapis_ore>, [<minecraft:lapis_block>, <minecraft:stone>]);
 recipes.removeShapeless(<minecraft:coal_ore>, [<minecraft:coal>, <minecraft:stone>]);
 recipes.removeShapeless(<minecraft:gold_ore>, [<ore:ingotGold>, <ore:stoneCyan>]);
@@ -63,6 +65,10 @@ recipes.addShapeless(<lootplusplus:custom_spawn_egg:181>, [<projs:antiqueAridBli
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<cp:BlockSoftReinforcedBrick>*4, [[<cp:BlockSoftReinforcedStone>,<cp:BlockSoftReinforcedStone>],[<cp:BlockSoftReinforcedStone>,<cp:BlockSoftReinforcedStone>]]);
+recipes.addShaped(<minecraft:stone>, [[<etfuturum:stone_slab>], [<etfuturum:stone_slab>]]);
+recipes.addShaped(<teaandbiscuits:flour>*3, [[null,<ore:cropWheat>,null],[null,<ore:cropWheat>,null],[null,<ore:cropWheat>,null]]);
+recipes.addShaped(<minecraft:wheat_seeds>, [[<ore:cropWheat>]]);
 recipes.addShaped(<tc:stopper>, [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>], [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <tc:tcRailSmallStraight>, <minecraft:iron_ingot>]]);
 recipes.addShaped(<tc:stopper>, [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>], [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>], [<minecraft:rail>, <minecraft:rail>, <minecraft:rail>]]);
 recipes.addShaped(<tc:WigWag>, [[null, <minecraft:iron_ingot>], [<minecraft:redstone_lamp>, <ore:blockQuartz>], [null, <minecraft:iron_ingot>]]);
