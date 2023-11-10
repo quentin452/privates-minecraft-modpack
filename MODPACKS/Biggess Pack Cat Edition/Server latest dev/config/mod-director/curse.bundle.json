@@ -2,6 +2,24 @@
 	"curse":
 	[
 		{
+			"addonId": 667254,
+			"fileId": 3963264,
+			"fileName": "PreventCrappyLauncher-2.0-retro.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 619344,
+			"fileId": 3907239,
+			"fileName": "kokoalinux-1.7.10-1.3.2.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 270871,
+			"fileId": 2583202,
+			"fileName": "millenaire-6.0.2.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId": 910848,
 			"fileId": 4815791,
 			"fileName": "mineralogy-v1.2.7.jar",
@@ -349,11 +367,6 @@
 			"fileName": "aggressive-chickens-1.7-mc-1.7.jar"
 		},
 		{
-			"addonId": 225635,
-			"fileId": 2284130,
-			"fileName": "AgriCraft-1.7.10-1.5.0.jar"
-		},
-		{
 			"addonId": 262491,
 			"fileId": 2391747,
 			"fileName": "Akatsuki-0.1.1.jar"
@@ -367,11 +380,6 @@
 			"addonId": 304964,
 			"fileId": 3246401,
 			"fileName": "AkutoLib-1.0.5.jar"
-		},
-		{
-			"addonId": 225040,
-			"fileId": 2255891,
-			"fileName": "alchemycraft2 v1.2.0.1.jar"
 		},
 		{
 			"addonId": 533258,
@@ -563,14 +571,6 @@
 			"addonId": 353434,
 			"fileId": 2919011,
 			"fileName": "BetterBurning-1.7.10-0.4.2.jar"
-		},
-		{
-			"addonId": 229876,
-			"fileId": 2244002,
-			"fileName": "BetterFps-1.0.1.jar",
-			"metadata": {
-				"side": "CLIENT"
-			}
 		},
 		{
 			"addonId": 324881,
@@ -1616,11 +1616,6 @@
 			"fileName": "GrimoireOfGaia3-1.7.10-1.2.7.jar"
 		},
 		{
-			"addonId": 238436,
-			"fileId": 2282842,
-			"fileName": "GrowableGoodies-1.7.10 v1.5.7.jar"
-		},
-		{
 			"addonId": 235092,
 			"fileId": 4464624,
 			"fileName": "growthcraft-1.7.10-2.7.3-complete.jar"
@@ -2599,9 +2594,9 @@
 			"fileName": "RecurrentComplex-0.9.7.1.8.jar"
 		},
 		{
-			"addonId": 601575,
-			"fileId": 3737175,
-			"fileName": "RedCoal-1.7.10-1.3.jar"
+			"addonId": 934608,
+			"fileId": 4853906,
+			"fileName": "RedCoal-1.7.10-1.4.jar"
 		},
 		{
 			"addonId": 233525,

@@ -6,6 +6,15 @@
 			"folder": "resourcepacks"
 		},
 		{
+			"url": "https://github.com/GTNewHorizons/HoloInventory/releases/download/2.3.2-GTNH/holoinventory-2.3.2-GTNH.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/AgriCraft-Continuation/releases/download/1.5.1-unofficial/AgriCraft-1.5.1-unofficial.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Alchemy-Craft-fork/releases/download/V1.2.0.2/alchemycraft2.v1.2.0.2.jar"
+		},
+		{
 			"url": "https://github.com/quentin452/Et-Futurum-Requiem/releases/download/v2.6.0fork1/Et_Futurum_Requiem-2.6.0fork1.jar"
 		},
 		{
@@ -15,10 +24,7 @@
 			"url": "https://github.com/quentin452/RFTools-Continuation/releases/download/V4.2.4/rftools-4.24.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/LogisticsPipes/releases/download/1.0.8-GTNH/logisticspipes-1.0.8-GTNH.jar"
-		},
-		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.3.6/optimizationsandtweaks-V1.3.6.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.3.8/optimizationsandtweaks-V1.3.8.jar"
 		},
 		{
 			"url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/catwalks-1.7.10-2.1.4-GTNH.jar"
@@ -84,7 +90,7 @@
 			"url": "https://github.com/GTNewHorizons/TiC-Tooltips/releases/download/1.3.0/TiCTooltips-1.3.0.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.15.0/Railcraft-9.15.0.jar"
+			"url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.15.1/Railcraft-9.15.1.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/TinkersMechworks/releases/download/0.3.0/TMechworks-0.3.0.jar"
