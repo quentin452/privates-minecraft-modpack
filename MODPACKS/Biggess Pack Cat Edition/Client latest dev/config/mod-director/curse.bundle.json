@@ -2,6 +2,12 @@
 	"curse":
 	[
 		{
+			"addonId": 229876,
+			"fileId": 2244002,
+			"fileName": "BetterFps-1.0.1",
+			"folder": "mods"
+		},
+		{
 			"addonId": 243298,
 			"fileId": 2319767,
 			"fileName": "llibrary-1.5.1-1.7.10.jar",
