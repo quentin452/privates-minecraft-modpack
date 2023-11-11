@@ -2,9 +2,15 @@
 	"curse":
 	[
 		{
+			"addonId": 289242,
+			"fileId": 2536009,
+			"fileName": "sampler-1.60.1.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId": 229876,
 			"fileId": 2244002,
-			"fileName": "BetterFps-1.0.1",
+			"fileName": "BetterFps-1.0.1.jar",
 			"folder": "mods"
 		},
 		{
