@@ -2,6 +2,12 @@
 	"curse":
 	[
 		{
+			"addonId": 684750,
+			"fileId": 4017621,
+			"fileName": "Quit-Forge-1.7.10-1.0.1-mixinless.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId": 667254,
 			"fileId": 3963264,
 			"fileName": "PreventCrappyLauncher-2.0-retro.jar",
