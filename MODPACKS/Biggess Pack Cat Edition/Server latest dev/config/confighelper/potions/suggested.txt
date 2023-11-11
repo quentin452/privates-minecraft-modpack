@@ -23,33 +23,54 @@ id:(72)
 Electroblob's Wizardry
 id:(73 - 84)
 
-Growthcraft
+Forbidden Magic
 id:(85)
 
+Gadomancy
+id:(86 - 90)
+
+Growthcraft
+id:(91)
+
 Hardcore Wither
-id:(86)
+id:(92)
 
 IndustrialCraft 2
-id:(87)
+id:(93)
 
 LightningCraft
-id:(88)
+id:(94)
 
 RandomThings
-id:(89 - 94)
+id:(95 - 100)
 
 Red Cow
-id:(95)
+id:(101)
+
+Thaumcraft
+id:(102 - 109)
+
+Thaumic Tinkerer
+id:(110 - 113)
+
+ThaumicHorizons
+id:(114 - 118)
 
 The Aether
-id:(96)
+id:(119)
 
 Totemic
-id:(97 - 99)
+id:(120 - 122)
 
 TrailMix
-id:(100)
+id:(123)
 
 Wild Mobs
-id:(101)
+id:(124)
+
+Witchery
+id:(125 - 168)
+
+§5§oEt Futurum Requiem
+id:(169)
 

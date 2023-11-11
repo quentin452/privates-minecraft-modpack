@@ -10,57 +10,63 @@ id:(87 - 91)
 Aroma1997's Dimensional World
 id:(92)
 
-Atum
-id:(93)
-
 BuildCraft
-id:(94 - 95)
+id:(93 - 94)
 
 Dark World
-id:(96 - 102)
+id:(95 - 101)
 
 EndlessIDs
-id:(103 - 128)
+id:(102 - 128)
 id:(135 - 139)
 id:(141 - 148)
 id:(150)
 id:(152 - 154)
 id:(159)
-id:(168 - 531)
+id:(168 - 560)
+
+Eternal Frost
+id:(561 - 567)
 
 Growthcraft
-id:(532)
+id:(568)
 
 Highlands
-id:(533 - 571)
+id:(569 - 607)
 
 LightningCraft
-id:(572 - 573)
+id:(608 - 609)
 
 Maze Mod
-id:(574 - 594)
+id:(610 - 629)
 
 Minecraft
-id:(595 - 596)
+id:(630 - 631)
 
 Realistic World Gen Alpha
-id:(597 - 621)
+id:(632 - 656)
 
 Runic Dungeons
-id:(622)
+id:(657)
 
 Steamcraft 2
-id:(623 - 632)
+id:(658 - 667)
+
+Thaumcraft
+id:(668 - 671)
 
 The Aether
-id:(633)
+id:(672)
 
 The Twilight Forest
-id:(634 - 652)
+id:(673 - 691)
 
 §5Enderlicious
-id:(653 - 656)
+id:(692 - 695)
+
+§5§oEt Futurum Requiem
+id:(696 - 699)
 
 §6Netherlicious
-id:(657 - 664)
+id:(700 - 707)
 

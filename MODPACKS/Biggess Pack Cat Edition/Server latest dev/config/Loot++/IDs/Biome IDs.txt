@@ -165,32 +165,36 @@
 	- Name: Mesa Plateau
 	- Forge Biome Types: MESA SANDY 
 
-71
-	- Name: Desert Maze
-	- Forge Biome Types: PLAINS 
+47
+	- Name: Freezer
+	- Forge Biome Types: COLD PLAINS 
 
-72
-	- Name: Firey Maze
-	- Forge Biome Types: PLAINS 
+48
+	- Name: Freezer Jungle
+	- Forge Biome Types: COLD PLAINS 
 
-73
-	- Name: Forest Maze
-	- Forge Biome Types: PLAINS 
+49
+	- Name: Eternal Mountain
+	- Forge Biome Types: COLD HILLS 
 
-74
-	- Name: Abyssal Void
+50
+	- Name: Frozen Plain
+	- Forge Biome Types: COLD PLAINS 
+
+51
+	- Name: Eternal Desert
+	- Forge Biome Types: HOT DRY SAVANNA PLAINS 
+
+52
+	- Name: Tundra
 	- Forge Biome Types: COLD WET HILLS 
 
-75
-	- Name: Swampy Maze
-	- Forge Biome Types: PLAINS 
+53
+	- Name: Glacier
+	- Forge Biome Types: COLD WET MOUNTAIN 
 
 76
 	- Name: Cake Maze
-	- Forge Biome Types: PLAINS 
-
-77
-	- Name: Village Maze
 	- Forge Biome Types: PLAINS 
 
 78
@@ -237,29 +241,9 @@
 	- Name: Candyland
 	- Forge Biome Types: WET PLAINS 
 
-94
-	- Name: Creeponia
-	- Forge Biome Types: WET PLAINS 
-
 95
 	- Name: Immortallis
 	- Forge Biome Types: COLD DRY PLAINS 
-
-100
-	- Name: Abyssal Shadow Forest
-	- Forge Biome Types: COLD WET HILLS 
-
-101
-	- Name: Abyssal Eyelands
-	- Forge Biome Types: COLD WET HILLS 
-
-102
-	- Name: Silvro Hills
-	- Forge Biome Types: WET HILLS 
-
-103
-	- Name: Iro-Tech Hills
-	- Forge Biome Types: WET HILLS 
 
 129
 	- Name: Sunflower Plains
@@ -345,17 +329,37 @@
 	- Name: Mesa Plateau M
 	- Forge Biome Types: HOT DRY PLAINS SANDY 
 
-170
-	- Name: BambooForest
-	- Forge Biome Types: DENSE LUSH FOREST 
+192
+	- Name: Tainted Land
+	- Forge Biome Types: MAGICAL WASTELAND 
 
-232
-	- Name: Twilight Clearing
-	- Forge Biome Types: SPARSE PLAINS 
+193
+	- Name: Magical Forest
+	- Forge Biome Types: MAGICAL FOREST 
 
-233
-	- Name: Dark Forest
-	- Forge Biome Types: DENSE SPOOKY FOREST 
+194
+	- Name: Eerie
+	- Forge Biome Types: SPOOKY MAGICAL 
+
+195
+	- Name: Eldritch
+	- Forge Biome Types: SPOOKY END MAGICAL 
+
+200
+	- Name: Crimson Forest
+	- Forge Biome Types: NETHER 
+
+201
+	- Name: Warped Forest
+	- Forge Biome Types: NETHER 
+
+202
+	- Name: Soul Sand Valley
+	- Forge Biome Types: NETHER 
+
+203
+	- Name: Basalt Deltas
+	- Forge Biome Types: NETHER 
 
 234
 	- Name: Dark Forest Center
@@ -441,9 +445,25 @@
 	- Name: Midight
 	- Forge Biome Types: DRY HILLS 
 
+740
+	- Name: Abyssal Void
+	- Forge Biome Types: COLD WET HILLS 
+
 787
 	- Name: Quartz Maze
 	- Forge Biome Types: PLAINS 
+
+1004
+	- Name: Abyssal Shadow Forest
+	- Forge Biome Types: COLD WET HILLS 
+
+1014
+	- Name: Abyssal Eyelands
+	- Forge Biome Types: COLD WET HILLS 
+
+1037
+	- Name: Iro-Tech Hills
+	- Forge Biome Types: WET HILLS 
 
 1044
 	- Name: Deep Fungal Cave
@@ -456,26 +476,6 @@
 1066
 	- Name: Gardencian Fungi
 	- Forge Biome Types: WET PLAINS 
-
-1072
-	- Name: EndlessIDs ID conflict avoidance placeholder for ID 1200 [danger.orespawn.BiomeGenUtopianPlains]
-	- Forge Biome Types: PLAINS 
-
-1073
-	- Name: EndlessIDs ID conflict avoidance placeholder for ID 1201 [danger.orespawn.BiomeGenUtopianPlains]
-	- Forge Biome Types: PLAINS 
-
-1074
-	- Name: EndlessIDs ID conflict avoidance placeholder for ID 1202 [danger.orespawn.BiomeGenUtopianPlains]
-	- Forge Biome Types: PLAINS 
-
-1075
-	- Name: EndlessIDs ID conflict avoidance placeholder for ID 1203 [danger.orespawn.BiomeGenUtopianPlains]
-	- Forge Biome Types: PLAINS 
-
-1076
-	- Name: EndlessIDs ID conflict avoidance placeholder for ID 1204 [danger.orespawn.BiomeGenUtopianPlains]
-	- Forge Biome Types: PLAINS 
 
 1077
 	- Name: Gardencian Marsh
@@ -557,26 +557,6 @@
 	- Name: Rock Candy Hills
 	- Forge Biome Types: WET PLAINS 
 
-1200
-	- Name: Utopia
-	- Forge Biome Types: PLAINS 
-
-1201
-	- Name: Islands
-	- Forge Biome Types: PLAINS 
-
-1202
-	- Name: Crystal
-	- Forge Biome Types: PLAINS 
-
-1203
-	- Name: Villages
-	- Forge Biome Types: PLAINS 
-
-1204
-	- Name: Chaos
-	- Forge Biome Types: PLAINS 
-
 1207
 	- Name: Shyrelands
 	- Forge Biome Types: HOT WET PLAINS 
@@ -584,26 +564,6 @@
 1264
 	- Name: Ocean Oil Field
 	- Forge Biome Types: OCEAN RIVER 
-
-1328
-	- Name: EndlessIDs ID conflict avoidance placeholder for ID 1200 [danger.orespawn.BiomeGenUtopianPlains]
-	- Forge Biome Types: PLAINS 
-
-1329
-	- Name: EndlessIDs ID conflict avoidance placeholder for ID 1201 [danger.orespawn.BiomeGenUtopianPlains]
-	- Forge Biome Types: PLAINS 
-
-1330
-	- Name: EndlessIDs ID conflict avoidance placeholder for ID 1202 [danger.orespawn.BiomeGenUtopianPlains]
-	- Forge Biome Types: PLAINS 
-
-1331
-	- Name: EndlessIDs ID conflict avoidance placeholder for ID 1203 [danger.orespawn.BiomeGenUtopianPlains]
-	- Forge Biome Types: PLAINS 
-
-1332
-	- Name: EndlessIDs ID conflict avoidance placeholder for ID 1204 [danger.orespawn.BiomeGenUtopianPlains]
-	- Forge Biome Types: PLAINS 
 
 1404
 	- Name: Bedrock Maze
@@ -613,21 +573,9 @@
 	- Name: Aether
 	- Forge Biome Types: PLAINS 
 
-1751
-	- Name: EndlessIDs ID conflict avoidance placeholder for ID 1879 [com.supercat765.MazeMod.Biomes.BiomeGenMaze]
-	- Forge Biome Types: PLAINS 
-
-1879
-	- Name: OreSpawn Cave Maze
-	- Forge Biome Types: PLAINS 
-
 2000
 	- Name: rwg_riverIce
 	- Forge Biome Types: COLD RIVER SNOWY 
-
-2007
-	- Name: EndlessIDs ID conflict avoidance placeholder for ID 1879 [com.supercat765.MazeMod.Biomes.BiomeGenMaze]
-	- Forge Biome Types: PLAINS 
 
 2010
 	- Name: rwg_riverCold
@@ -733,6 +681,14 @@
 	- Name: rwg_temperateForest
 	- Forge Biome Types: PLAINS 
 
+2320
+	- Name: Twilight Clearing
+	- Forge Biome Types: SPARSE PLAINS 
+
+2330
+	- Name: Dark Forest
+	- Forge Biome Types: DENSE SPOOKY FOREST 
+
 2400
 	- Name: Dungeon Maze
 	- Forge Biome Types: PLAINS 
@@ -780,10 +736,6 @@
 2540
 	- Name: Towering Forest
 	- Forge Biome Types: DENSE JUNGLE LUSH FOREST HILLS 
-
-2785
-	- Name: Atum's Desert
-	- Forge Biome Types: HOT SPARSE DRY SAVANNA PLAINS 
 
 3175
 	- Name: Basalt Deltas
@@ -840,6 +792,10 @@
 4144
 	- Name: Desert Oil Field
 	- Forge Biome Types: SANDY 
+
+7184
+	- Name: Desert Maze
+	- Forge Biome Types: PLAINS 
 
 7200
 	- Name: Alps
@@ -1013,6 +969,14 @@
 	- Name: Shrubland
 	- Forge Biome Types: SPARSE PLAINS HILLS 
 
+7245
+	- Name: Firey Maze
+	- Forge Biome Types: PLAINS 
+
+7386
+	- Name: Forest Maze
+	- Forge Biome Types: PLAINS 
+
 7400
 	- Name: Mining Biome
 	- Forge Biome Types: MOUNTAIN 
@@ -1021,9 +985,17 @@
 	- Name: Precasian Forest
 	- Forge Biome Types: HOT WET HILLS 
 
+7577
+	- Name: Swampy Maze
+	- Forge Biome Types: PLAINS 
+
 7644
 	- Name: Haven
 	- Forge Biome Types: FOREST 
+
+7741
+	- Name: Village Maze
+	- Forge Biome Types: PLAINS 
 
 7742
 	- Name: Mysterium
@@ -1053,6 +1025,10 @@
 	- Name: Lelyetia
 	- Forge Biome Types: HOT WET PLAINS 
 
+9441
+	- Name: Creeponia
+	- Forge Biome Types: WET PLAINS 
+
 9641
 	- Name: Precasian Desert
 	- Forge Biome Types: HOT WET HILLS 
@@ -1065,6 +1041,10 @@
 	- Name: Tall Precasian Forest
 	- Forge Biome Types: HOT WET HILLS 
 
+10285
+	- Name: Silvro Hills
+	- Forge Biome Types: WET HILLS 
+
 15816
 	- Name: EndlessIDs ID conflict avoidance placeholder for ID 15944 [com.supercat765.MazeMod.Biomes.BiomeGenMaze]
 	- Forge Biome Types: PLAINS 
@@ -1076,6 +1056,10 @@
 16072
 	- Name: EndlessIDs ID conflict avoidance placeholder for ID 15944 [com.supercat765.MazeMod.Biomes.BiomeGenMaze]
 	- Forge Biome Types: PLAINS 
+
+17041
+	- Name: BambooForest
+	- Forge Biome Types: DENSE LUSH FOREST 
 
 24500
 	- Name: Inner Earth

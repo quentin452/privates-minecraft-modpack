@@ -1,0 +1,8 @@
+# If you want to disable some hooks, just remove the comment mark (#) from its line.
+# Required Minecraft restart.
+# Game changes that are dependent on disabled hooks will be disabled.
+#
+# hooks_block_breaking_creative
+# hooks_fishing_event
+# hooks_fishing_cache
+# hooks_fishing_null_fix
