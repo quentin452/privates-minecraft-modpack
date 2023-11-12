@@ -2,6 +2,30 @@
 	"curse":
 	[
 		{
+			"addonId": 229876,
+			"fileId": 2244002,
+			"fileName": "BetterFps-1.0.1.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 243298,
+			"fileId": 2319767,
+			"fileName": "llibrary-1.5.1-1.7.10.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 402981,
+			"fileId": 3035672,
+			"fileName": "hamsterrific-0.2.2.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 684750,
+			"fileId": 4017621,
+			"fileName": "Quit-Forge-1.7.10-1.0.1-mixinless.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId": 667254,
 			"fileId": 3963264,
 			"fileName": "PreventCrappyLauncher-2.0-retro.jar",
@@ -89,12 +113,6 @@
 			"addonId": 289181,
 			"fileId": 2535617,
 			"fileName": "ThaumPatch-1.7.10-1.0.2.9-universal.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId": 232564,
-			"fileId": 2417787,
-			"fileName": "[1.7.10] Thaumic Additions - 0.41.jar",
 			"folder": "mods"
 		},
 		{
@@ -3345,8 +3363,8 @@
 		},
 		{
 			"addonId": 358228,
-			"fileId": 4850652,
-			"fileName": "NotEnoughItems-2.4.11-GTNH.jar"
+			"fileId": 4856799,
+			"fileName": "NotEnoughItems-2.4.12-GTNH.jar"
 		}
 
 	]

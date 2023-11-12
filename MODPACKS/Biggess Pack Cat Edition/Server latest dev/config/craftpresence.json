@@ -1,7 +1,7 @@
 {
   "_README": "https://gitlab.com/CDAGaming/CraftPresence/-/wikis/home",
   "_SOURCE": "https://gitlab.com/CDAGaming/CraftPresence",
-  "_schemaVersion": 5,
+  "_schemaVersion": 6,
   "_lastMCVersionId": 5,
   "generalSettings": {
     "detectATLauncherInstance": true,
@@ -9,6 +9,7 @@
     "detectMultiMCManifest": true,
     "detectMCUpdaterInstance": true,
     "detectTechnicPack": true,
+    "detectModrinthPack": true,
     "detectBiomeData": false,
     "detectDimensionData": true,
     "detectWorldData": true,
@@ -190,13 +191,10 @@
     "enablePerGui": false,
     "enablePerItem": false,
     "enablePerEntity": false,
-    "renderTooltips": true,
     "formatWords": true,
     "debugMode": false,
     "verboseMode": false,
     "refreshRate": 2,
-    "roundSize": 3,
-    "includeExtraGuiClasses": false,
     "allowPlaceholderPreviews": false,
     "guiSettings": {
       "fallbackGuiIcon": "unknown",
@@ -278,7 +276,9 @@
     },
     "allowEndpointIcons": true,
     "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
-    "playerSkinEndpoint": "https://crafatar.com/avatars/%1$s"
+    "playerSkinEndpoint": "https://crafatar.com/avatars/%1$s",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10
   },
   "accessibilitySettings": {
     "tooltipBackground": {
@@ -326,19 +326,10 @@
         "alpha": 208
       }
     },
-    "buttonBackground": {
-      "start": {
-        "red": 255,
-        "green": 255,
-        "blue": 255,
-        "alpha": 255
-      },
-      "texLocation": "minecraft:textures/gui/widgets.png"
-    },
     "languageId": "en_US",
     "stripTranslationColors": false,
-    "showLoggingInChat": false,
     "stripExtraGuiElements": false,
+    "renderTooltips": true,
     "configKeyCode": 41
   },
   "displaySettings": {
@@ -363,7 +354,8 @@
     "dynamicIcons": {
       "default": "https://via.placeholder.com/256.png",
       "Quentin453": "https://crafatar.com/avatars/eea3414063594a7080fd6879fea1218c",
-      "localhost": "https://api.mcsrvstat.us/icon/localhost"
+      "localhost": "https://api.mcsrvstat.us/icon/localhost",
+      "51.255.6.146": "https://api.mcsrvstat.us/icon/51.255.6.146"
     },
     "dynamicVariables": {
       "default": "Example Text",

@@ -64,6 +64,13 @@
 
 
 8
+	- Name: gadomancy.enchantment.revealer
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 1
+
+
+9
 	- Name: enchantment.enderio.soulBound
 	- Weight: 1
 	- Min Level: 1
@@ -224,8 +231,36 @@
 	- Max Level: 1
 
 
+66
+	- Name: enchantment.cluster
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 4
+
+
+67
+	- Name: enchantment.wrath
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 5
+
+
+68
+	- Name: enchantment.greedy
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 1
+
+
+69
+	- Name: enchantment.consuming
+	- Weight: 5
+	- Min Level: 1
+	- Max Level: 1
+
+
 70
-	- Name: enchantment.protect.magic
+	- Name: enchantment.educational
 	- Weight: 5
 	- Min Level: 1
 	- Max Level: 5
@@ -434,6 +469,20 @@
 	- Max Level: 5
 
 
+150
+	- Name: enchantment.haste
+	- Weight: 3
+	- Min Level: 1
+	- Max Level: 3
+
+
+151
+	- Name: enchantment.repair
+	- Weight: 2
+	- Min Level: 1
+	- Max Level: 2
+
+
 160
 	- Name: Soulbound
 	- Weight: 1
@@ -476,11 +525,88 @@
 	- Max Level: 1
 
 
+166
+	- Name: enchantment.ttinkerer:dispersedStrike
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 5
+
+
+167
+	- Name: enchantment.ttinkerer:shatter
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 5
+
+
+168
+	- Name: enchantment.ttinkerer:finalStrike
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 5
+
+
+169
+	- Name: enchantment.ttinkerer:focusedStrike
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 5
+
+
+170
+	- Name: enchantment.ttinkerer:pounce
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 5
+
+
+171
+	- Name: enchantment.ttinkerer:shockwave
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 5
+
+
+172
+	- Name: enchantment.ttinkerer:tunnel
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 5
+
+
+173
+	- Name: enchantment.ttinkerer:valiance
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 5
+
+
 180
 	- Name: enchantment.draconicevolution.reaperEnchant
 	- Weight: 2
 	- Min Level: 1
 	- Max Level: 5
+
+
+190
+	- Name: enchantment.railcraft.crowbar.wrecking
+	- Weight: 2
+	- Min Level: 1
+	- Max Level: 5
+
+
+191
+	- Name: enchantment.railcraft.crowbar.implosion
+	- Weight: 2
+	- Min Level: 1
+	- Max Level: 5
+
+
+192
+	- Name: enchantment.railcraft.crowbar.destruction
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 3
 
 
 196
@@ -495,6 +621,27 @@
 	- Weight: 1
 	- Min Level: 1
 	- Max Level: 1
+
+
+200
+	- Name: enchantment.frost_walker
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 2
+
+
+201
+	- Name: enchantment.mending
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 1
+
+
+202
+	- Name: enchantment.swift_sneak
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 3
 
 
 210
@@ -546,6 +693,48 @@
 	- Max Level: 3
 
 
+220
+	- Name: enchantment.ttinkerer:ascentBoost
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 4
+
+
+221
+	- Name: enchantment.ttinkerer:slowFall
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 3
+
+
+222
+	- Name: enchantment.ttinkerer:autoSmelt
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 1
+
+
+223
+	- Name: enchantment.ttinkerer:desintegrate
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 1
+
+
+224
+	- Name: enchantment.ttinkerer:quickDraw
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 2
+
+
+225
+	- Name: enchantment.ttinkerer:vampirism
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 2
+
+
 246
 	- Name: enchantment.magic_bow
 	- Weight: 0
@@ -574,6 +763,27 @@
 	- Max Level: 4
 
 
+710
+	- Name: enchantment.corrupting
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 1
+
+
+720
+	- Name: enchantment.voidtouched
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 1
+
+
+730
+	- Name: enchantment.impact
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 1
+
+
 2090
 	- Name: enchantment.elecAura
 	- Weight: 20
@@ -586,5 +796,12 @@
 	- Weight: 20
 	- Min Level: 1
 	- Max Level: 3
+
+
+7041
+	- Name: enchantment.protect.magic
+	- Weight: 5
+	- Min Level: 1
+	- Max Level: 5
 
 

@@ -10,36 +10,48 @@ id:(-7 - -3)
 Aroma1997DimensionFix
 id:(-8)
 
-Atum
-id:(25)
-
 Dark World
 id:(-9)
+
+Eternal Frost
+id:(25)
 
 Extra Utilities
 id:(-11 - -10)
 
+Gadomancy
+id:(-12)
+
 LightningCraft
-id:(-13 - -12)
+id:(-14 - -13)
 
 Maze Mod
 id:(26)
 
-OreSpawn
-id:(27 - 32)
-
 RandomThings
-id:(-14)
-
-Runic Dungeons
 id:(-15)
 
-The Aether
-id:(33)
-
-The Twilight Forest
+Runic Dungeons
 id:(-16)
 
+Thaumcraft
+id:(-17)
+
+Thaumic Tinkerer
+id:(-18)
+
+ThaumicHorizons
+id:(27)
+
+The Aether
+id:(28)
+
+The Twilight Forest
+id:(-19)
+
+Witchery
+id:(-22 - -20)
+
 WolfCore
-id:(34 - 35)
+id:(29 - 30)
 

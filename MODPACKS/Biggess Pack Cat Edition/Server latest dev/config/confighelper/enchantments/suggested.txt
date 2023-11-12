@@ -32,27 +32,45 @@ EnderCore
 id:(60)
 id:(63)
 
+Forbidden Magic
+id:(64 - 71)
+
+Gadomancy
+id:(72)
+
 LightningCraft
-id:(64 - 65)
+id:(73 - 74)
 
 OpenBlocks
-id:(66 - 68)
+id:(75 - 77)
+
+Railcraft
+id:(78 - 80)
 
 Runic Dungeons
-id:(69 - 72)
+id:(81 - 84)
 
 Simply Jetpacks
-id:(73)
+id:(85)
 
 Slime Carnage
-id:(74)
+id:(86)
 
 Soul Shards: The Old Ways
-id:(75)
+id:(87)
 
 Special Mobs
-id:(76 - 81)
+id:(88 - 93)
+
+Thaumcraft
+id:(94 - 95)
+
+Thaumic Tinkerer
+id:(96 - 109)
 
 UnbreakEn Mod
-id:(82)
+id:(110)
+
+§5§oEt Futurum Requiem
+id:(111 - 113)
 

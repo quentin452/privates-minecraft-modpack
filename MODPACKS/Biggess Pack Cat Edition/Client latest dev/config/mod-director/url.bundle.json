@@ -6,10 +6,23 @@
 			"folder": "resourcepacks"
 		},
 		{
+			"url": "http://188.166.70.62/teamdna/advgen/files/advancedgenetics%2D1%2E7%2E2%2D1%2E5%2Ejar",
+			"fileName": "advancedgenetics-1.7.2-1.5.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/tropicraft-REUP/releases/download/v6.0.5/tropicraft-6.0.5.jar"
+		},
+		{
+			"url": "https://cdn.modrinth.com/data/IJY7IqPP/versions/xrKK0Ej7/fossilsarcheology-7.3.2.jar"
+		},
+		{
+			"url": "https://github.com/makamys/DTools/releases/download/0.3.3/DTools-1.7.10-0.3.3.jar"
+		},
+		{
 			"url": "https://github.com/GTNewHorizons/HoloInventory/releases/download/2.3.2-GTNH/holoinventory-2.3.2-GTNH.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/AgriCraft-Continuation/releases/download/1.5.1-unofficial/AgriCraft-1.5.1-unofficial.jar"
+			"url": "https://github.com/quentin452/AgriCraft-Continuation/releases/download/V1.5.2/AgriCraft-1.5.2-unofficial.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/Alchemy-Craft-fork/releases/download/V1.2.0.2/alchemycraft2.v1.2.0.2.jar"
@@ -24,7 +37,7 @@
 			"url": "https://github.com/quentin452/RFTools-Continuation/releases/download/V4.2.4/rftools-4.24.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.3.8/optimizationsandtweaks-V1.3.8.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.3.9/optimizationsandtweaks-V1.3.9.jar"
 		},
 		{
 			"url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/catwalks-1.7.10-2.1.4-GTNH.jar"
@@ -117,9 +130,6 @@
 			"url": "https://github.com/GTNewHorizons/AdventureBackpack2/releases/download/1.0.16-GTNH/adventurebackpack-1.0.16-GTNH.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.1.63-gtnh/ae2fc-1.1.63-gtnh.jar"
-		},
-		{
 			"url": "https://github.com/GTNewHorizons/ae2stuff/releases/download/0.6.0-GTNH/ae2stuff-0.6.0-GTNH.jar"
 		},
 		{
@@ -129,7 +139,7 @@
 			"url": "https://github.com/GTNewHorizons/AFSU/releases/download/1.2.6-GTNH/AFSU-1.7.10-1.2.6-GTNH.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-279-GTNH/appliedenergistics2-rv3-beta-279-GTNH.jar"
+			"url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-281-GTNH/appliedenergistics2-rv3-beta-281-GTNH.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/ArchaicFix/releases/download/V0.6.2fork2/archaicfix-0.6.2fork2.jar"
@@ -205,7 +215,7 @@
 			"url": "https://github.com/GTNewHorizons/BuildCraftOilTweak/releases/download/1.0.4/BuildCraftOilTweak-1.7.10-1.0.4.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/CarpentersBlocks/releases/download/3.3.8.2-GTNH/CarpentersBlocks-1.7.10-3.3.8.2-GTNH.jar"
+			"url": "https://github.com/GTNewHorizons/CarpentersBlocks/releases/download/3.4.1-GTNH/CarpentersBlocks-3.4.1-GTNH.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.11.4-GTNH/chisel-2.11.4-GTNH.jar"
@@ -214,7 +224,7 @@
 			"url": "https://github.com/quentin452/confighelper2/releases/download/1.2.5.2/confighelper-1.7.10-1.2.5.2.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/CoreTweaks/releases/download/october-13-2023/CoreTweaks-1.7.10-October-13-2023.jar"
+			"url": "https://github.com/makamys/CoreTweaks/releases/download/0.3.2/CoreTweaks-1.7.10-0.3.2+nomixin.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/CraftTweaker/releases/download/3.2.13/CraftTweaker-3.2.13.jar"
@@ -226,7 +236,7 @@
 			"url": "https://github.com/GTNewHorizons/CTMLib/releases/download/1.4.4/CTMLib-1.7.10-1.4.4.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.2.0-GTNH/Draconic-Evolution-1.2.0-GTNH.jar"
+			"url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.2.1-GTNH/Draconic-Evolution-1.2.1-GTNH.jar"
 		},
 		{
 			"url": "https://cdn.modrinth.com/data/cW8M4ADI/versions/xAJKpyqb/elytra_mining-1.7.10-1.2.0.jar"
@@ -235,7 +245,7 @@
 			"url": "https://github.com/GTNewHorizons/EnderCore/releases/download/0.2.18/endercore-0.2.18.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.5.2/EnderIO-2.5.2.jar"
+			"url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.5.4/EnderIO-2.5.4.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/EnderStorage/releases/download/1.4.12/EnderStorage-1.7.10-1.4.12.jar"

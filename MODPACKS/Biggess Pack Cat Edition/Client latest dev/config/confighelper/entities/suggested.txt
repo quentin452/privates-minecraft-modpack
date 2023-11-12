@@ -51,22 +51,28 @@ id:(140 - 141)
 Ender IO
 id:(142 - 144)
 
+Eternal Frost
+id:(145 - 167)
+
+Gadomancy
+id:(168 - 171)
+
+Hamsterrific
+id:(172)
+
 Magical Instrument
-id:(145 - 146)
+id:(173 - 174)
 
-OreSpawn
-id:(147 - 199)
-id:(201 - 281)
-
-PTRModelLib
-id:(282)
+MillÃ©naire
+id:(175 - 181)
 
 Runic Dungeons
-id:(283)
+id:(182)
 
 Thermal Foundation
-id:(284 - 286)
+id:(183 - 185)
 
 WolfCore
-id:(287 - 306)
+id:(186 - 199)
+id:(201 - 205)
 

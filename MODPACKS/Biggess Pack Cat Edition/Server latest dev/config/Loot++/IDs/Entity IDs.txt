@@ -42,43 +42,29 @@ AWWayofTime.spellProjectile
 AWWayofTime.teleportProjectile
 AWWayofTime.waterProjectile
 AWWayofTime.windGustProjectile
-Acid
 AgriCraft.leash
 AgriCraft.villagerFarmer
 Akazuki.ayesasori
 Akazuki.plevok
-Alien
-Alosaurus
-Ant
-Apple Cow
 ArchimedesShipsPlus.attachment.seat
 ArchimedesShipsPlus.parachute
 ArchimedesShipsPlus.shipmod
 Arrow
-Attack Squid
 Avaritia.EndestPearl
 Avaritia.GapingVoid
 Avaritia.HeavenArrow
 Avaritia.HeavenSubArrow
-Baby Dragon
-Baryonyx
 Basalz
-Basilisk
 Bat
 BatBike
 BattleTowers.Golem Fireball
 Battletower Golem
-Beaver
-Bee
-BerthaHit
 BiblioCraft.SeatEntity
-Bird
 Blaze
 Blitz
 Blizz
 BluePuppy
 Boat
-Bomb-Omb
 Botania.botania:babylonWeapon
 Botania.botania:corporeaSpark
 Botania.botania:doppleganger
@@ -99,50 +85,35 @@ Botania.botania:thornChakram
 Botania.botania:thrownItem
 Botania.botania:vineBall
 BowOverhaul.OverhauledArrow
-Boyfriend
-Brutalfly
 BuildCraft|Robotics.bcRobot
 BuildCraft|Silicon.bcPackageThrowable
 BunnyBike
-Butterfly
 CCreeper
 Calculator.BabyGrenade
 Calculator.Grenade
 Calculator.Soil
 Calculator.Stone
-Camarasaurus
 CarpentersBlocks.CarpentersTile
-Cassowary
-CaterKiller
-CaveFisher
 CaveSpider
-Cephadrome
 Chicken
 ChickenBike
 ChineseDragonBike
-Chipmunk
 ChocoboBike
 ChocolateCow
 ChocolateCreeper
-Cliff Racer
-Cloud Shark
-Coin
+ColdCreeper
+ColdKnight
+ColdKnightMinion
+ColdTNT
 Cow
 CowBike
-Crab
 Creeper
 Creeper-Spider
 CreeperBike
 CreeperChicks.CreeperChick
 CreeperChicks.Entity_creep_Egg
-Creeping Horror
-Cricket
-Criminal
-Cryolophosaurus
-Crystal Apple Cow
-Crystal Urchin
+CrystalArrow
 CustomFishHook
-DeadIrukandji
 DefaultMobPack.Familiar Chicken
 DefaultMobPack.Familiar Enderman
 DefaultMobPack.Familiar IronGolem
@@ -168,21 +139,16 @@ DraconicEvolution.Ender Arrow
 DraconicEvolution.EnderDragon
 DraconicEvolution.EntityChaosEnergyVortex
 DraconicEvolution.Persistent Item
-Dragon
 DragonBike
-Dragonfly
-Dungeon Beast
 DynamicCraft.Aqua Ball
 DynamicCraft.Fire Ball
-Easter Bunny
+EFQueenSpider
+EFVillager
+EFYeti
 EggyGoodness.diamondGoldenEgg
 EggyGoodness.emeraldGoldenEgg
 EggyGoodness.goldenChicken
 EggyGoodness.goldenEgg
-Emperor Scorpion
-Enchanted Golden Apple Cow
-Ender Knight
-Ender Reaper
 EnderCrystal
 EnderDragon
 EnderIO.weather_rocket
@@ -192,22 +158,24 @@ EndermanBike
 Entity Sasori
 Entity Sasori Phase 2
 EntityAmethystMonster
+EntityAuraCore
 EntityBandit
 EntityBlackKnight
-EntityCage
 EntityEarthGolem
 EntityGoblin
+EntityHamster
 EntityHorse
+EntityItemElement
 EntityLavaKnight
 EntityNecro
 EntityNetherSoul
+EntityPermItem
 EntitySapientWarrior
 EntitySkeletonKnight
 EntitySkeletonWarrior
 EntitySpirit
 EntityStoneGolem
 EntityThrownItem
-EntityThrownRock
 EntityTroll
 EntityVampire
 EntityVoidFiend
@@ -217,20 +185,18 @@ ExtendedFamPack.Familiar Fairy
 ExtendedFamPack.Familiar Navi
 ExtendedFamPack.Familiar Rana
 EyeOfEnderSignal
-Fairy
-FakeChairEntity
+FakePlayerEntity
 FallingSand
 FamiliarsAPI.Projectile
 Fireball
-Firefly
 FireworksRocketEntity
-Flounder
 FlowerBike
 Forestry.butterflyGE
 Forestry.cart.apiary
 Forestry.cart.beehouse
-Frog
-Gazelle
+FrostbiteSpider
+FrozenSand
+FuryBoar
 GekosLasers.projectileLaserBlack
 GekosLasers.projectileLaserBlue
 GekosLasers.projectileLaserBrown
@@ -249,12 +215,9 @@ GekosLasers.projectileLaserWhite
 GekosLasers.projectileLaserYellow
 Ghast
 GhastBike
-Ghost
-Ghost Pumpkin Skelly
 Giant
-Girlfriend
-Gold Fish
-Golden Apple Cow
+Glace
+Goat
 GreenPuppy
 GrimoireOfGaia.Anubis
 GrimoireOfGaia.Banshee
@@ -314,7 +277,6 @@ GrimoireOfGaia.Yeti
 GrimoireOfGaia.Yuki-Onna
 Growthcraft|Bamboo.bambooRaft
 Guardian
-Hammerhead
 HardcoreEnderExpansion.AngryEnderman
 HardcoreEnderExpansion.BabyEnderman
 HardcoreEnderExpansion.BlockHomelandCache
@@ -370,13 +332,11 @@ HelperToolsID.GravelBomb
 HelperToolsID.RedTorchBolt
 HelperToolsID.SandBomb
 HelperToolsID.TorchBolt
-Hercules Beetle
 HerobrineFamPack.Familiar Chuck Norris
 HerobrineFamPack.Familiar Herobrine
 HerobrineFamPack.Familiar Notch
 HerobrinePuppy
-Hoverboard
-Hydrolisc
+HornedGoat
 IC2.BoatCarbon
 IC2.BoatElectric
 IC2.BoatRubber
@@ -386,36 +346,24 @@ IC2.MiningLaser
 IC2.Nuke
 IC2.Particle
 IC2.StickyDynamite
-IceBall
-InkSack
+IceCube
+IcePigZombie
 IronmanBike
-Irukandji
-IrukandjiArrow
-Island
-IslandToo
 Item
 ItemFrame
-Jeffery
-Jumpy Bug
-KingHead
-Kyuubi
-Large Worm
-LaserBall
+JammyFurniture.JammyFurniture:EntityMountableBlock
 LavaSlime
-Leaf Monster
 LeashKnot
-Leonopteryx
-Lizard
 LookingGlass.lookingglass.portal
-Lurking Terror
-Mantis
-Medium Worm
 Mekanism.BabySkeleton
 Mekanism.Balloon
 Mekanism.Flame
 Mekanism.ObsidianTNT
 Mekanism.Robit
 Metallurgy.explosiveEntity
+MillBlaze
+MillGhast
+MillWitherSkeleton
 MineFactoryReloaded.DebugTracker
 MineFactoryReloaded.FishingRod
 MineFactoryReloaded.Item
@@ -431,13 +379,7 @@ MinecartRideable
 MinecartSpawner
 MinecartTNT
 Mob
-Mobzilla
-MobzillaHead
-Molenoid
 Monster
-Mosquito
-Moth
-Mothra
 MushroomCow
 MutantCreatures.Chemical X
 MutantCreatures.CreeperMinion
@@ -456,8 +398,6 @@ MutantCreatures.SkullSpirit
 MutantCreatures.SnowGolemBlock
 MutantCreatures.SpiderPig
 MutantCreatures.ZombieMinion
-Nastysaurus
-Nightmare
 NotchBike
 OcelotBike
 OcelotBikeChild
@@ -473,10 +413,8 @@ OpenBlocks.Player-Magnet
 OpenBlocks.XPOrbNoFly
 OpenComputers.Drone
 OpenMods.Block
-Ostrich
 Ozelot
 Painting
-Peacock
 Pig
 PigBike
 PigZombie
@@ -487,7 +425,6 @@ PneumaticCraft.Potion Cloud
 PneumaticCraft.Ring
 PneumaticCraft.Vortex
 PneumaticCraft.logisticDrone
-Pointysaurus
 PonyBike
 PonyFlyingBike
 PortalGun.portal_entityapg
@@ -502,26 +439,70 @@ PrimedTnt
 Puppet
 Puppet Kazekage 3
 Puppet2
-PurplePower
 PurplePuppy
-QueenHead
-Rainbow Ant
+Railcraft.ItemFireproof
+Railcraft.ItemFirestone
+Railcraft.cart.anchor
+Railcraft.cart.anchor.admin
+Railcraft.cart.anchor.personal
+Railcraft.cart.basic
+Railcraft.cart.bore
+Railcraft.cart.cargo
+Railcraft.cart.chest
+Railcraft.cart.command.block
+Railcraft.cart.energy.batbox
+Railcraft.cart.energy.cesu
+Railcraft.cart.energy.mfe
+Railcraft.cart.furnace
+Railcraft.cart.gift
+Railcraft.cart.loco.creative
+Railcraft.cart.loco.electric
+Railcraft.cart.loco.steam.solid
+Railcraft.cart.pumpkin
+Railcraft.cart.redstone.flux
+Railcraft.cart.tank
+Railcraft.cart.tnt
+Railcraft.cart.tnt.wood
+Railcraft.cart.track.layer
+Railcraft.cart.track.relayer
+Railcraft.cart.track.remover
+Railcraft.cart.undercutter
+Railcraft.cart.work
+Railcraft.railcraft.cart.anchor
+Railcraft.railcraft.cart.anchor.admin
+Railcraft.railcraft.cart.anchor.personal
+Railcraft.railcraft.cart.basic
+Railcraft.railcraft.cart.bore
+Railcraft.railcraft.cart.cargo
+Railcraft.railcraft.cart.chest
+Railcraft.railcraft.cart.command.block
+Railcraft.railcraft.cart.energy.batbox
+Railcraft.railcraft.cart.energy.cesu
+Railcraft.railcraft.cart.energy.mfe
+Railcraft.railcraft.cart.furnace
+Railcraft.railcraft.cart.gift
+Railcraft.railcraft.cart.hopper
+Railcraft.railcraft.cart.loco.creative
+Railcraft.railcraft.cart.loco.electric
+Railcraft.railcraft.cart.loco.steam
+Railcraft.railcraft.cart.loco.steam.solid
+Railcraft.railcraft.cart.pumpkin
+Railcraft.railcraft.cart.redstone.flux
+Railcraft.railcraft.cart.tank
+Railcraft.railcraft.cart.tnt
+Railcraft.railcraft.cart.tnt.wood
+Railcraft.railcraft.cart.track.layer
+Railcraft.railcraft.cart.track.relayer
+Railcraft.railcraft.cart.track.remover
+Railcraft.railcraft.cart.undercutter
+Railcraft.railcraft.cart.work
 RandomThings.HealingOrb
 RandomThings.bloodmoonCircle
 RandomThings.playerSoul
 RandomThings.reviveCircle
 RandomThings.spirit
-Rat
-Red Ant
 RedPuppy
 ReindeerBike
-Robo-Gunner
-Robo-Pounder
-Robo-Sniper
-Robo-Warrior
-Robot Red Ant
-Robot Spider
-Rock
 RopesPlus.ConfusingArrow
 RopesPlus.DirtArrow
 RopesPlus.ExplodingArrow
@@ -536,18 +517,13 @@ RopesPlus.SeedArrow
 RopesPlus.SlimeArrow
 RopesPlus.TorchArrow
 RopesPlus.WarpArrow
-Rotator
-Rubber Ducky
-Ruby Bird
 SGCraft.Stargate Iris
+SaberTiger
 SaltMod.entityRainmaker
 SaltMod.entityRainmakerDust
-Scorpion
-Sea Monster
-Sea Viper
+Scarab
 Sheep
 SheepBike
-Shoes
 SilentPets.pet.cat
 SilentPets.pet.chicken
 SilentPets.pet.cow
@@ -558,7 +534,6 @@ SilentPets.pet.sheep
 Silverfish
 SilverfishBike
 SixPuppy
-Skate
 Skeleton
 Slime
 SlimeBike
@@ -589,9 +564,9 @@ SlimeCarnage.SnowSlime
 SlimeCarnage.UnderSlime
 SlimeCarnage.VillagerSlime
 SlimeCarnage.YellowSlime
-Small Worm
 SmallFireball
 SnowMan
+SnowOwl
 Snowball
 SnowmanBike
 SpecialMobs.ArmorCreeper
@@ -704,9 +679,7 @@ SpecialMobs.WindWitch
 SpecialMobs.WitchCaveSpider
 SpecialMobs.WitchSpider
 Spider
-Spider Driver
 SpiderBike
-Spit Bug
 Squid
 SquidBike
 Steamcraft.CanisterItem
@@ -717,11 +690,6 @@ StevePuppy
 StevesCarts.Cake.Vswe
 StevesCarts.Egg.Vswe
 StevesCarts.Minecart.Vswe.0
-Stink Bug
-Stinky
-SunspotUrchin
-T-Shirt
-T. Rex
 TConstruct.Arrow
 TConstruct.Bolt
 TConstruct.Crystal
@@ -739,15 +707,91 @@ TSteelworks.HighGolem
 TSteelworks.LimestoneBrick
 TSteelworks.ScorchedBrick
 TSteelworks.SteelGolem
-Termite
-Terrible Terror
-The King
-The Kraken
-The Prince
-The Princess
-The Queen
-The Young Adult Prince
-The Young Prince
+TaintedMagic.EntityEldritchOrbAttack
+TaintedMagic.EntityHomingShard
+TaintedMagic.EntityTaintBubble
+Thaumcraft.Alumentum
+Thaumcraft.AspectOrb
+Thaumcraft.BottleTaint
+Thaumcraft.BrainyZombie
+Thaumcraft.CultistCleric
+Thaumcraft.CultistKnight
+Thaumcraft.CultistLeader
+Thaumcraft.CultistPortal
+Thaumcraft.Dart
+Thaumcraft.EldritchCrab
+Thaumcraft.EldritchGolem
+Thaumcraft.EldritchGuardian
+Thaumcraft.EldritchOrb
+Thaumcraft.EldritchWarden
+Thaumcraft.Ember
+Thaumcraft.ExplosiveOrb
+Thaumcraft.FallingTaint
+Thaumcraft.Firebat
+Thaumcraft.FollowItem
+Thaumcraft.FrostShard
+Thaumcraft.GiantBrainyZombie
+Thaumcraft.Golem
+Thaumcraft.GolemBobber
+Thaumcraft.GolemOrb
+Thaumcraft.InhabitedZombie
+Thaumcraft.MindSpider
+Thaumcraft.Pech
+Thaumcraft.PechBlast
+Thaumcraft.PermanentItem
+Thaumcraft.PrimalArrow
+Thaumcraft.PrimalOrb
+Thaumcraft.ShockOrb
+Thaumcraft.SpecialItem
+Thaumcraft.SpecialItemGrate
+Thaumcraft.TaintSpider
+Thaumcraft.TaintSpore
+Thaumcraft.TaintSwarm
+Thaumcraft.TaintSwarmer
+Thaumcraft.Taintacle
+Thaumcraft.TaintacleGiant
+Thaumcraft.TaintacleTiny
+Thaumcraft.TaintedChicken
+Thaumcraft.TaintedCow
+Thaumcraft.TaintedCreeper
+Thaumcraft.TaintedPig
+Thaumcraft.TaintedSheep
+Thaumcraft.TaintedVillager
+Thaumcraft.ThaumSlime
+Thaumcraft.TravelingTrunk
+Thaumcraft.Wisp
+ThaumicHorizons.BlastPhial
+ThaumicHorizons.BoatGreatwood
+ThaumicHorizons.BoatThaumium
+ThaumicHorizons.ChocolateCow
+ThaumicHorizons.ChromaticSheep
+ThaumicHorizons.Egg
+ThaumicHorizons.Endersteed
+ThaumicHorizons.Familiar
+ThaumicHorizons.GoldChicken
+ThaumicHorizons.GolemTH
+ThaumicHorizons.Gravekeeper
+ThaumicHorizons.GuardianPanther
+ThaumicHorizons.HorseSkeleton
+ThaumicHorizons.HorseZombie
+ThaumicHorizons.LightningBoltFinite
+ThaumicHorizons.LostSoul
+ThaumicHorizons.LunarWolf
+ThaumicHorizons.MeatSlime
+ThaumicHorizons.MedSlime
+ThaumicHorizons.MercurialSlime
+ThaumicHorizons.NetherHound
+ThaumicHorizons.NightmareTH
+ThaumicHorizons.OrePig
+ThaumicHorizons.PrimedAlchemite
+ThaumicHorizons.ScholarChicken
+ThaumicHorizons.Seawolf
+ThaumicHorizons.SelfShearingSheep
+ThaumicHorizons.Sheeder
+ThaumicHorizons.Syringe
+ThaumicHorizons.TaintEaterPig
+ThaumicHorizons.VoltSlime
+ThaumicTinkerer.ShadowbeamStaffBeam
 ThermalDynamics.Transport
 ThermalExpansion.florb
 ThermalFoundation.basalzBolt
@@ -756,7 +800,6 @@ ThermalFoundation.blizzBolt
 ThrownEnderpearl
 ThrownExpBottle
 ThrownPotion
-Triffid
 TwilightForest.Adherent
 TwilightForest.Armored Giant
 TwilightForest.Bighorn Sheep
@@ -834,24 +877,16 @@ TwilightForest.tfthrownice
 TwilightForest.tfthrownpick
 TwilightForest.tftomebolt
 TwilightForest.tftwilightwandbolt
-UltimateArrow
-UltimateFishHook
-Unstable Ant
-Velocity Raptor
 Villager
 VillagerGolem
 VillagersNose.NoselessVillager
-Vortex
-WTF?
-Water Dragon
-WaterBall
-Whale
 Witch
 WitherBike
 WitherBoss
 WitherSkull
 Wolf
 WolfBike
+WoollyMammoth
 XPOrb
 YellowPuppy
 Zombie
@@ -872,6 +907,7 @@ ZoocraftDiscoveries.ZD_Tapir
 ZoocraftDiscoveries.ZD_TranquilizerDart
 ac2.HammerProjectile
 adhooks.HookShot
+advancedgenetics.geneticShoot
 adventurebackpack.inflatableBoat
 adventurebackpack.rideableSpider
 aether_legacy.aechor_plant
@@ -926,55 +962,9 @@ appliedenergistics2.EntityChargedQuartz
 appliedenergistics2.EntityGrowingCrystal
 appliedenergistics2.EntitySingularity
 appliedenergistics2.EntityTinyTNTPrimed
+arcticFox
 astikoor.cargocart
 astikoor.plowcart
-atum.ArrowDoubleShot
-atum.ArrowExplosive
-atum.ArrowFire
-atum.ArrowPoison
-atum.ArrowQuickDraw
-atum.ArrowVeloctiy
-atum.EntityAtumFishHook
-atum.EntityNutsCall
-atum.banditArcher
-atum.banditWarlord
-atum.banditWarrior
-atum.barbarian
-atum.desertGhost
-atum.desertWolf
-atum.dustySkeleton
-atum.mummy
-atum.pharaoh
-atum.stoneSoldier
-babymobs.babyBlaze
-babymobs.babyCaveSpider
-babymobs.babyCreeper
-babymobs.babyDragon
-babymobs.babyEnderman
-babymobs.babyGhast
-babymobs.babyIronGolem
-babymobs.babyOcelot
-babymobs.babyPigZombie
-babymobs.babySkeleton
-babymobs.babySnowman
-babymobs.babySpider
-babymobs.babySquid
-babymobs.babyWitch
-babymobs.babyWither
-babymobs.babyWitherSkeleton
-babymobs.babyZombie
-babymobs.blazeFlamethrower
-babymobs.caveSpiderVenom
-babymobs.creeperExplosion
-babymobs.ghastFireball
-babymobs.skeletonArrow
-babymobs.snowmanSnowball
-babymobs.squidInk
-babymobs.witherExplosion
-babymobs.witherSkeletonSmoke
-babymobs.witherWitherSkull
-babymobs.zombieChicken
-babymobs.zombiePig
 balloonBoy
 betterboat.betterBoat
 betterquesting.placeholder
@@ -989,8 +979,6 @@ bttfmod.delorean
 bttfmod.hoverboard
 bttfmod.pitBullHoverboard
 bull
-butterflymania.Butterfly
-butterflymania.EtymologistVillager
 cannibalism.wendigo
 cfm.MountableBlock
 cherrypig.CherryPig
@@ -1103,6 +1091,27 @@ entityDemonCat
 entityEagle
 entityFairyPixie
 entity_blockling
+etfuturum.bee
+etfuturum.boosting_firework_rocket
+etfuturum.brown_mooshroom
+etfuturum.chest_boat
+etfuturum.end_crystal
+etfuturum.ender_dragon
+etfuturum.endermite
+etfuturum.fireproof_item
+etfuturum.husk
+etfuturum.lingering_effect
+etfuturum.lingering_potion
+etfuturum.new_boat
+etfuturum.new_boat_seat
+etfuturum.rabbit
+etfuturum.shulker
+etfuturum.shulker_candy
+etfuturum.snow_golem
+etfuturum.stray
+etfuturum.tipped_arrow
+etfuturum.villager_zombie
+etfuturum.wooden_armorstand
 farlanders.Classic Enderman
 farlanders.Elder Farlander
 farlanders.Ender Golem
@@ -1116,7 +1125,6 @@ farlanders.Mystic Enderminion
 farlanders.Rebel Farlander
 farlanders.Titan
 farlanders.Wanderer
-femalecreeper
 fireSpawn
 fireWizard
 foundry.gunSkeleton
@@ -1360,8 +1368,6 @@ golems_addon_tconstruct.golem_seared
 golems_addon_tconstruct.golem_slime
 golems_addon_tconstruct.golem_steel
 golems_addon_tconstruct.golem_tin
-golemtweaks.IronGolem
-golemtweaks.SnowGolem
 gondolamob
 grimoireofalice.PotatoArrow
 grimoireofalice.PotatoNeedle
@@ -1383,6 +1389,7 @@ kitsumedievalcraft.itemIronTippedModelArrow
 kitsumedievalcraft.itemModelArrow
 kitsumedievalcraft.itemShit
 kitsumedievalcraft.itemTester
+lightingBolt
 lightningcraft.demonSoldier
 lightningcraft.divineCreeper
 lightningcraft.heavenGuard
@@ -1406,6 +1413,10 @@ menagerie.mummy
 menagerie.oliphant
 menagerie.rat
 menagerie.spine
+ml_GenericAsimmFemale
+ml_GenericSimmFemale
+ml_GenericVillager
+ml_Tapestry
 moreShearables.ChickenNaked
 moreShearables.CowNaked
 moreShearables.PigNaked
@@ -2202,9 +2213,11 @@ openmodularturrets.laserProjectile
 openmodularturrets.rocketProjectile
 opensecurity.energybolt
 pandorasbox.pandorasBox
+paniclecraft.paintonblock
 pixelnauts.Blue Droid
 pixelnauts.Evil Eye
 pixelnauts.Totem Orb
+polarBear
 rangeEntity
 redgear_core.Brewcraft:Potion
 row.Bobber
@@ -2750,6 +2763,61 @@ wildmobsmod.Tarantula
 wildmobsmod.TarantulaHair
 wildmobsmod.WMWolf
 wildmobsmod.Zomgus
+witchery.attackbat
+witchery.babayaga
+witchery.banshee
+witchery.bolt
+witchery.brew
+witchery.brew2
+witchery.broom
+witchery.cat
+witchery.corpse
+witchery.covenwitch
+witchery.darkmark
+witchery.death
+witchery.deathhorse
+witchery.demon
+witchery.droplet
+witchery.ent
+witchery.eye
+witchery.familiar
+witchery.follower
+witchery.goblin
+witchery.goblingulg
+witchery.goblinmog
+witchery.grenade
+witchery.hellhound
+witchery.hornedHuntsman
+witchery.illusionCreeper
+witchery.illusionSpider
+witchery.illusionZombie
+witchery.imp
+witchery.item
+witchery.leonard
+witchery.lilith
+witchery.lordoftorment
+witchery.lostsoul
+witchery.louse
+witchery.mandrake
+witchery.mindrake
+witchery.mirrorface
+witchery.nightmare
+witchery.owl
+witchery.poltergeist
+witchery.reflection
+witchery.soulfire
+witchery.spectre
+witchery.spellEffect
+witchery.spirit
+witchery.splatter
+witchery.toad
+witchery.treefyd
+witchery.vampire
+witchery.villageguard
+witchery.werevillager
+witchery.wingedmonkey
+witchery.witchhunter
+witchery.wolfman
 witherSkeleton
 wizardry.Arc
 wizardry.Arrow Rain
@@ -2894,47 +2962,63 @@ zeldaswordskills.wizzrobe_thunder
 94 - Squid
 95 - Wolf
 96 - MushroomCow
-97 - SnowMan
 98 - Ozelot
-99 - VillagerGolem
 100 - EntityHorse
 102 - creepermite
 105 - cpc:pewds
 106 - cpc:cry
 120 - Villager
-125 - fireWizard
-126 - ChocolateCreeper
-127 - ChocolateCow
-128 - fireSpawn
-129 - blackWidowSpider
-130 - bull
-131 - blackKnight
-132 - whiteKnight
-133 - dragonKnightBoss
-134 - waterSpider
-135 - mummyMob
-136 - emeraldSlime
-137 - broodSpider
-138 - femalecreeper
-139 - goldenBonnieMOB
-140 - foxyThePirateFox
-141 - freddyFazbear
-142 - bonnie
-143 - chica
-144 - balloonBoy
-145 - stablar
-146 - gondolamob
-147 - drummer
-148 - ogre
-267 - Rock
-284 - skull
-287 - Battletower Golem
-289 - witherSkeleton
-290 - Creeper-Spider
-291 - Guardian
-293 - Blizz
-294 - Blitz
-295 - Basalz
+124 - fireWizard
+125 - ChocolateCreeper
+126 - ChocolateCow
+127 - fireSpawn
+128 - blackWidowSpider
+129 - bull
+130 - blackKnight
+131 - whiteKnight
+132 - dragonKnightBoss
+133 - waterSpider
+134 - mummyMob
+135 - emeraldSlime
+136 - broodSpider
+137 - goldenBonnieMOB
+138 - foxyThePirateFox
+139 - freddyFazbear
+140 - bonnie
+141 - chica
+142 - balloonBoy
+143 - stablar
+144 - gondolamob
+145 - drummer
+146 - ogre
+154 - skull
+157 - witherSkeleton
+158 - Creeper-Spider
+159 - IceCube
+160 - Glace
+161 - IcePigZombie
+162 - FuryBoar
+163 - FrostbiteSpider
+164 - EFQueenSpider
+165 - ColdCreeper
+166 - Scarab
+167 - SnowOwl
+168 - ColdKnightMinion
+169 - ColdKnight
+170 - Goat
+171 - HornedGoat
+172 - WoollyMammoth
+173 - EFYeti
+176 - SaberTiger
+177 - EFVillager
+179 - arcticFox
+180 - polarBear
+186 - Battletower Golem
+187 - EntityHamster
+188 - Guardian
+190 - Blizz
+191 - Blitz
+192 - Basalz
 301 - ani_koto.Drine
 302 - ani_koto.Chipmunk
 303 - ani_koto.Miresi
@@ -2945,4 +3029,43 @@ zeldaswordskills.wizzrobe_thunder
 308 - ani_koto.Jinn
 309 - ani_koto.DarkMiresi
 310 - ani_koto.CyclopsGolem
+500 - etfuturum.rabbit
 501 - DiseaseCraft.rat
+502 - etfuturum.endermite
+503 - etfuturum.husk
+504 - etfuturum.stray
+505 - etfuturum.villager_zombie
+506 - etfuturum.shulker
+507 - etfuturum.bee
+6396 - witchery.demon
+6397 - witchery.mandrake
+6398 - witchery.treefyd
+6399 - witchery.hornedHuntsman
+6400 - witchery.ent
+6401 - witchery.owl
+6402 - witchery.toad
+6403 - witchery.babayaga
+6404 - witchery.covenwitch
+6405 - witchery.nightmare
+6406 - witchery.spectre
+6407 - witchery.poltergeist
+6408 - witchery.banshee
+6409 - witchery.spirit
+6410 - witchery.death
+6411 - witchery.witchhunter
+6412 - witchery.lordoftorment
+6413 - witchery.imp
+6414 - witchery.mindrake
+6415 - witchery.goblin
+6416 - witchery.goblinmog
+6417 - witchery.goblingulg
+6418 - witchery.leonard
+6419 - witchery.lostsoul
+6420 - witchery.wolfman
+6421 - witchery.hellhound
+6422 - witchery.werevillager
+6423 - witchery.villageguard
+6424 - witchery.vampire
+6425 - witchery.lilith
+6426 - witchery.wingedmonkey
+6427 - witchery.reflection
