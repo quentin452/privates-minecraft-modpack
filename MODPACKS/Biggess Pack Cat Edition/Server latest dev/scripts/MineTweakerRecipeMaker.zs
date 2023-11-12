@@ -12,6 +12,10 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<minecraft:cobblestone>);
+recipes.remove(<minecraft:gravel>);
+recipes.remove(<minecraft:sand>);
+recipes.remove(<teaandbiscuits:flour>);
 recipes.remove(<minecraft:spawn_egg:3>);
 recipes.remove(<tc:WigWag>);
 recipes.remove(<tc:overheadWire>);
@@ -38,6 +42,7 @@ recipes.remove(<minecraft:chainmail_leggings>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
+recipes.removeShapeless(<minecraft:wheat_seeds>, [<ore:cropWheat>]);
 recipes.removeShapeless(<minecraft:lapis_ore>, [<minecraft:lapis_block>, <minecraft:stone>]);
 recipes.removeShapeless(<minecraft:coal_ore>, [<minecraft:coal>, <minecraft:stone>]);
 recipes.removeShapeless(<minecraft:gold_ore>, [<ore:ingotGold>, <ore:stoneCyan>]);
@@ -57,12 +62,27 @@ recipes.removeShaped(<minecraft:stone>, [[<minecraft:cobblestone>, <ore:cobblest
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<minecraft:cobblestone>, [<ore:slabCobblestone>, <ore:slabCobblestone>]);
 recipes.addShapeless(<steamcraft2:ItemIronNugget> * 9, [<ore:ingotIron>]);
 recipes.addShapeless(<AgriCraft:cropsItem> * 4, [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>, <ore:stickWood>]);
 recipes.addShapeless(<lootplusplus:custom_spawn_egg:181>, [<projs:antiqueAridBlizzSpawnEgg>, <ore:listAllwater>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<minecraft:cobblestone> * 64, [[<magicalcrops:FireEssence>, <magicalcrops:EarthEssence>], [<magicalcrops:EarthEssence>, <magicalcrops:FireEssence>]]);
+recipes.addShaped(<minecraft:cobblestone> * 9, [[<ore:compressedCobblestone1x>]]);
+recipes.addShaped(<minecraft:cobblestone> * 64, [[<TwilightForest:tile.GiantCobble>]]);
+recipes.addShaped(<minecraft:cobblestone> * 4, [[<convenientitems:Convenient>]]);
+recipes.addShaped(<minecraft:cobblestone>, [[<ore:pebble>, <ore:pebble>], [<ore:pebble>, <ore:pebble>]]);
+recipes.addShaped(<minecraft:gravel> * 9, [[<ore:compressedGravel1x>]]);
+recipes.addShaped(<minecraft:gravel> * 32, [[<magicalcrops:EarthEssence>, <magicalcrops:EarthEssence>], [<magicalcrops:FireEssence>, <magicalcrops:FireEssence>]]);
+recipes.addShaped(<minecraft:sand> * 9, [[<ore:compressedSand1x>]]);
+recipes.addShaped(<minecraft:sand> * 4, [[<convenientitems:Convenient:2>]]);
+recipes.addShaped(<minecraft:sand> * 16, [[<magicalcrops:EarthEssence>, <magicalcrops:FireEssence>], [<magicalcrops:FireEssence>, <magicalcrops:EarthEssence>]]);
+recipes.addShaped(<cp:BlockSoftReinforcedBrick>*4, [[<cp:BlockSoftReinforcedStone>,<cp:BlockSoftReinforcedStone>],[<cp:BlockSoftReinforcedStone>,<cp:BlockSoftReinforcedStone>]]);
+recipes.addShaped(<minecraft:stone>, [[<etfuturum:stone_slab>], [<etfuturum:stone_slab>]]);
+recipes.addShaped(<teaandbiscuits:flour>*3, [[null,<ore:cropWheat>,null],[null,<ore:cropWheat>,null],[null,<ore:cropWheat>,null]]);
+recipes.addShaped(<minecraft:wheat_seeds>, [[<ore:cropWheat>]]);
 recipes.addShaped(<tc:stopper>, [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>], [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <tc:tcRailSmallStraight>, <minecraft:iron_ingot>]]);
 recipes.addShaped(<tc:stopper>, [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>], [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>], [<minecraft:rail>, <minecraft:rail>, <minecraft:rail>]]);
 recipes.addShaped(<tc:WigWag>, [[null, <minecraft:iron_ingot>], [<minecraft:redstone_lamp>, <ore:blockQuartz>], [null, <minecraft:iron_ingot>]]);
