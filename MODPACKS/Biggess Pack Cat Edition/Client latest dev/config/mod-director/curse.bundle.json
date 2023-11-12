@@ -354,11 +354,6 @@
 			"fileName": "AdvancedBackups-forge-1.7.10-3.3.jar"
 		},
 		{
-			"addonId": 362768,
-			"fileId": 2885953,
-			"fileName": "AdvancedSolarPanel_1.7.10_Edition.jar"
-		},
-		{
 			"addonId": 224117,
 			"fileId": 2216320,
 			"fileName": "AdvDims-0.5.jar"
@@ -925,11 +920,6 @@
 			"addonId": 222753,
 			"fileId": 2211753,
 			"fileName": "ComplexCrops-v3-1.7.10.jar"
-		},
-		{
-			"addonId": 282717,
-			"fileId": 2641037,
-			"fileName": "CompositeGear-1.7.10-1.6.1.jar"
 		},
 		{
 			"addonId": 67504,
@@ -1719,16 +1709,6 @@
 			"fileName": "HxCPeripherals-1.0.1.jar"
 		},
 		{
-			"addonId": 236609,
-			"fileId": 2941926,
-			"fileName": "IC2 Crop Plugin Version 1.7.10-1.3.1.jar"
-		},
-		{
-			"addonId": 237224,
-			"fileId": 2292162,
-			"fileName": "IC2 Wrench Plugin Version 1.0.3.jar"
-		},
-		{
 			"addonId": 229060,
 			"fileId": 2338148,
 			"fileName": "iChunUtil-4.2.3.jar"
@@ -1747,26 +1727,6 @@
 			"addonId": 244509,
 			"fileId": 2296740,
 			"fileName": "IncreaseMobs_1.7.10-v1.0.0.jar"
-		},
-		{
-			"addonId": 242638,
-			"fileId": 2353971,
-			"fileName": "industrialcraft-2-2.2.827-experimental.jar"
-		},
-		{
-			"addonId": 238834,
-			"fileId": 2325300,
-			"fileName": "IndustrialExpansion-BETA-v1.1.2-var1.jar"
-		},
-		{
-			"addonId": 250380,
-			"fileId": 2326739,
-			"fileName": "industrialperipheral-1.7.10-1.02public-universal.jar"
-		},
-		{
-			"addonId": 372007,
-			"fileId": 3592456,
-			"fileName": "IndustrialUpgrade-2.5.21.jar"
 		},
 		{
 			"addonId": 287403,
@@ -1797,11 +1757,6 @@
 			"addonId": 222830,
 			"fileId": 2243685,
 			"fileName": "InvisibLights-2.3-7.jar"
-		},
-		{
-			"addonId": 627033,
-			"fileId": 3802712,
-			"fileName": "Iridium_Neutron_Reflector_Addon-1.0.jar"
 		},
 		{
 			"addonId": 237664,

@@ -85,9 +85,6 @@
 			"url": "https://github.com/GTNewHorizons/ThaumcraftMobAspects/releases/download/1.0.0-GTNH/ThaumcraftMobAspects-1.7.10-1.0.0-GTNH.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/Nodal-Mechanics/releases/download/1.1.-6-GTNH/NodalMechanics-1.7.10-1.1.-6-GTNH.jar"
-		},
-		{
 			"url": "https://github.com/GTNewHorizons/TCNodeTracker/releases/download/1.1.7/tcnodetracker-1.7.10-1.1.7.jar"
 		},
 		{
@@ -134,9 +131,6 @@
 		},
 		{
 			"url": "https://github.com/quentin452/The-Aether-Archived/releases/download/1.1.2.3/aether-1.7.10-1.1.2.3.jar"
-		},
-		{
-			"url": "https://github.com/GTNewHorizons/AFSU/releases/download/1.2.6-GTNH/AFSU-1.7.10-1.2.6-GTNH.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-281-GTNH/appliedenergistics2-rv3-beta-281-GTNH.jar"
@@ -291,9 +285,6 @@
 			"metadata": {
 				"side": "CLIENT"
 			}
-		},
-		{
-			"url": "https://github.com/GTNewHorizons/Nuclear-Control/releases/download/2.4.19/IC2NuclearControl-2.4.19.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/Infernal-Mobs-Continuation/releases/download/1.8.0/InfernalMobs-1.8.0.jar"
