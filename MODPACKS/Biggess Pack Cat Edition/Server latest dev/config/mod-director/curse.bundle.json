@@ -62,7 +62,10 @@
 			"addonId": 619344,
 			"fileId": 3907239,
 			"fileName": "kokoalinux-1.7.10-1.3.2.jar",
-			"folder": "mods"
+			"folder": "mods",
+			"metadata": {
+				"side": "CLIENT"
+			}
 		},
 		{
 			"addonId": 270871,
