@@ -2,6 +2,18 @@
 	"curse":
 	[
 		{
+			"addonId": 227874,
+			"fileId": 2337326,
+			"fileName": "Dynamic Lights-1.3.9a-MC1.7.10.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 229073,
+			"fileId": 2232170,
+			"fileName": "Hats-4.0.1.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId": 936617,
 			"fileId": 4862496,
 			"fileName": "ADFix-1.0.0.jar",
