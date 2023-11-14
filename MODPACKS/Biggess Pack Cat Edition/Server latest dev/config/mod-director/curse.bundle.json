@@ -2,6 +2,18 @@
 	"curse":
 	[
 		{
+			"addonId": 936617,
+			"fileId": 4862496,
+			"fileName": "ADFix-1.0.0.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 932475,
+			"fileId": 4845987,
+			"fileName": "Windows+Keyboard+Fixes-forge-1.7-1.0.1.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId": 229876,
 			"fileId": 2244002,
 			"fileName": "BetterFps-1.0.1.jar",
