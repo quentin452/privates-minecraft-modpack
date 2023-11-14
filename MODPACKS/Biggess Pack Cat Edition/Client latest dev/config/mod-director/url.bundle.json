@@ -48,7 +48,10 @@
 			"url": "https://cdn.modrinth.com/data/IJY7IqPP/versions/xrKK0Ej7/fossilsarcheology-7.3.2.jar"
 		},
 		{
-			"url": "https://github.com/makamys/DTools/releases/download/0.3.3/DTools-1.7.10-0.3.3.jar"
+			"url": "https://github.com/makamys/DTools/releases/download/0.3.3/DTools-1.7.10-0.3.3.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/HoloInventory/releases/download/2.3.2-GTNH/holoinventory-2.3.2-GTNH.jar"
