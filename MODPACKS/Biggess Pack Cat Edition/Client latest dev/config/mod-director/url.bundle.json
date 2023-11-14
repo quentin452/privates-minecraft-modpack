@@ -15,7 +15,10 @@
 		},
 		{
 			"url": "https://minecraft-inside.ru/download/13570/",
-			"fileName": "Essence_of_the_Gods_1.7.10_1.7.jar"
+			"fileName": "Essence_of_the_Gods_1.7.10_1.7.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
 		},
 		{
 			"url": "https://github.com/quentin452/More-Creeps-And-Weirdos-Reboot-1.7.10/releases/download/V1.0/morecreeps-V1.0.jar"
