@@ -23,7 +23,10 @@
 			"addonId": 932475,
 			"fileId": 4845987,
 			"fileName": "Windows+Keyboard+Fixes-forge-1.7-1.0.1.jar",
-			"folder": "mods"
+			"folder": "mods",
+			"metadata": {
+				"side": "CLIENT"
+			}
 		},
 		{
 			"addonId": 229876,
