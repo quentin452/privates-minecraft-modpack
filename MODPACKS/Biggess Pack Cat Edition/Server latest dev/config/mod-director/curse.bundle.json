@@ -1199,7 +1199,10 @@
 		{
 			"addonId": 241135,
 			"fileId": 2315970,
-			"fileName": "DynamicCraft-1.7.10-1.1.4.jar"
+			"fileName": "DynamicCraft-1.7.10-1.1.4.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
 		},
 		{
 			"addonId": 236045,
