@@ -13,45 +13,63 @@ id:(-8)
 Dark World
 id:(-9)
 
+DrZhark's Mo'Creatures Mod
+id:(-10)
+
+Essence Of The Gods
+id:(25 - 28)
+
 Eternal Frost
-id:(25)
+id:(29)
 
 Extra Utilities
-id:(-11 - -10)
+id:(-12 - -11)
 
-Gadomancy
-id:(-12)
-
-LightningCraft
+Fossils and Archeology Revival
 id:(-14 - -13)
 
-Maze Mod
-id:(26)
-
-RandomThings
+Gadomancy
 id:(-15)
 
+Galacticraft Core
+id:(-20 - -16)
+
+GalaxySpace
+id:(-38 - -21)
+
+LightningCraft
+id:(-40 - -39)
+
+Maze Mod
+id:(30)
+
+RandomThings
+id:(-41)
+
 Runic Dungeons
-id:(-16)
+id:(-42)
 
 Thaumcraft
-id:(-17)
+id:(-43)
 
 Thaumic Tinkerer
-id:(-18)
+id:(-44)
 
 ThaumicHorizons
-id:(27)
+id:(31)
 
 The Aether
-id:(28)
+id:(32)
 
 The Twilight Forest
-id:(-19)
+id:(-45)
+
+Tropicraft
+id:(-46)
 
 Witchery
-id:(-22 - -20)
+id:(-49 - -47)
 
 WolfCore
-id:(29 - 30)
+id:(33 - 34)
 

@@ -45,34 +45,39 @@ id:(130 - 138)
 Dynamic Craft
 id:(139)
 
+Eldritch Empires
+id:(140 - 157)
+
 Elijah's Chocolate Mod
-id:(140 - 141)
+id:(158 - 159)
 
 Ender IO
-id:(142 - 144)
+id:(160 - 162)
 
 Eternal Frost
-id:(145 - 167)
+id:(163 - 185)
 
 Gadomancy
-id:(168 - 171)
+id:(186 - 189)
 
 Hamsterrific
-id:(172)
+id:(190)
 
 Magical Instrument
-id:(173 - 174)
+id:(191 - 192)
 
 MillÃ©naire
-id:(175 - 181)
+id:(193 - 199)
+
+More Creeps And Weirdos Unofficial
+id:(201 - 226)
 
 Runic Dungeons
-id:(182)
+id:(227)
 
 Thermal Foundation
-id:(183 - 185)
+id:(228 - 230)
 
 WolfCore
-id:(186 - 199)
-id:(201 - 205)
+id:(231 - 249)
 

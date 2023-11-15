@@ -1,4 +1,29 @@
 {
+  "biomes-id:0": [
+    {
+      "name": "Ocean",
+      "mod": "Minecraft",
+      "class": "net.minecraft.world.biome.BiomeGenOcean"
+    },
+    {
+      "name": "-=|WorldEngine|=-",
+      "mod": "GalaxySpace",
+      "replaced": true,
+      "class": "galaxyspace.systems.BarnardsSystem.planets.barnardaC.world.gen.we.Barnarda_C_DeepOcean"
+    },
+    {
+      "name": "-=|WorldEngine|=-",
+      "mod": "GalaxySpace",
+      "replaced": true,
+      "class": "galaxyspace.systems.BarnardsSystem.planets.barnardaC.world.gen.we.Barnarda_C_Ocean"
+    },
+    {
+      "name": "null",
+      "mod": "GalaxySpace",
+      "freeId": 40,
+      "class": "galaxyspace.systems.BarnardsSystem.planets.barnardaC.world.gen.we.Barnarda_C_Beach"
+    }
+  ],
   "biomes-id:9": [
     {
       "name": "Sky",

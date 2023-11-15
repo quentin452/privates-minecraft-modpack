@@ -29,48 +29,48 @@ id:(85)
 Gadomancy
 id:(86 - 90)
 
+GalaxySpace
+id:(91 - 92)
+
 Growthcraft
-id:(91)
-
-Hardcore Wither
-id:(92)
-
-IndustrialCraft 2
 id:(93)
 
-LightningCraft
+Hardcore Wither
 id:(94)
 
+LightningCraft
+id:(95)
+
 RandomThings
-id:(95 - 100)
+id:(96 - 101)
 
 Red Cow
-id:(101)
+id:(102)
 
 Thaumcraft
-id:(102 - 109)
+id:(103 - 107)
 
 Thaumic Tinkerer
-id:(110 - 113)
+id:(108 - 111)
 
 ThaumicHorizons
-id:(114 - 118)
+id:(112 - 116)
 
 The Aether
-id:(119)
+id:(117)
 
 Totemic
-id:(120 - 122)
+id:(118 - 120)
 
 TrailMix
-id:(123)
+id:(121)
 
 Wild Mobs
-id:(124)
+id:(122)
 
 Witchery
-id:(125 - 168)
+id:(123 - 166)
 
 §5§oEt Futurum Requiem
-id:(169)
+id:(167)
 
