@@ -39,10 +39,7 @@
 			"url": "https://github.com/quentin452/Galacticraft-Continuation/releases/download/V4.0.8/Galacticraft-4.0.8-cat.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/tropicraft-REUP/releases/download/v6.0.5/tropicraft-6.0.5.jar",
-			"metadata": {
-				"side": "CLIENT"
-			}
+			"url": "https://github.com/quentin452/tropicraft-REUP/releases/download/v6.0.5/tropicraft-6.0.5.jar"
 		},
 		{
 			"url": "https://cdn.modrinth.com/data/IJY7IqPP/versions/xrKK0Ej7/fossilsarcheology-7.3.2.jar"
