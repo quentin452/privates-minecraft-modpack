@@ -1,10 +1,6 @@
 {
-	"modify": [
-		{
-			"folder": "mods",
-			"fileName": "BetterFps-1.0.1.jar",
-			"delete": true
-		},
+	"modify":
+	[
 		{
 			"folder": "mods",
 			"fileName": "catwalks-2.0.4.jar",
