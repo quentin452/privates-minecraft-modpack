@@ -1,1 +1,21 @@
-{}
+{
+  "providers-id:0": [
+    {
+      "name": "MiddleEarth",
+      "mod": "The Lord of the Rings Mod",
+      "freeId": 2,
+      "class": "lotr.common.world.LOTRWorldProviderMiddleEarth"
+    },
+    {
+      "name": "Utumno",
+      "mod": "The Lord of the Rings Mod",
+      "freeId": 3,
+      "class": "lotr.common.world.LOTRWorldProviderUtumno"
+    },
+    {
+      "name": "Overworld",
+      "mod": "Mineralogy",
+      "class": "cyano.mineralogy.worldgen.MineralogyWorldProvider"
+    }
+  ]
+}

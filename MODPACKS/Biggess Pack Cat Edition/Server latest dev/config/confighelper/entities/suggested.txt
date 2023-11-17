@@ -69,15 +69,12 @@ id:(191 - 192)
 MillÃ©naire
 id:(193 - 199)
 
-More Creeps And Weirdos Unofficial
-id:(201 - 226)
-
 Runic Dungeons
-id:(227)
+id:(201)
 
 Thermal Foundation
-id:(228 - 230)
+id:(202 - 204)
 
 WolfCore
-id:(231 - 249)
+id:(205 - 223)
 

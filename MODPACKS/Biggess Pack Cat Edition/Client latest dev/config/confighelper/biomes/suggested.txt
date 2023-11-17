@@ -26,65 +26,65 @@ id:(141 - 148)
 id:(150)
 id:(152 - 154)
 id:(159)
-id:(168 - 592)
+id:(168 - 611)
 
 Essence Of The Gods
-id:(593 - 596)
+id:(612 - 615)
 
 Eternal Frost
-id:(597 - 603)
+id:(616 - 622)
 
 Fossils and Archeology Revival
-id:(604 - 605)
+id:(623 - 624)
 
 Galacticraft Core
-id:(606)
-
-GalaxySpace
-id:(607 - 608)
+id:(625)
 
 Growthcraft
-id:(609)
+id:(626)
 
 Highlands
-id:(610 - 648)
+id:(627 - 665)
 
 LightningCraft
-id:(649 - 650)
+id:(666 - 667)
 
 Maze Mod
-id:(651 - 670)
+id:(668 - 687)
 
 Minecraft
-id:(671 - 672)
+id:(688 - 689)
 
 Realistic World Gen Alpha
-id:(673 - 697)
+id:(690 - 714)
 
 Runic Dungeons
-id:(698)
+id:(715)
 
 Steamcraft 2
-id:(699 - 708)
+id:(716 - 725)
 
 Thaumcraft
-id:(709 - 712)
+id:(726 - 729)
 
 The Aether
-id:(713)
+id:(730)
+
+The Lord of the Rings Mod
+id:(731 - 900)
 
 The Twilight Forest
-id:(714 - 732)
+id:(901 - 919)
 
 Tropicraft
-id:(733 - 741)
+id:(920 - 928)
 
 §5Enderlicious
-id:(742 - 745)
+id:(929 - 932)
 
 §5§oEt Futurum Requiem
-id:(746 - 749)
+id:(933 - 936)
 
 §6Netherlicious
-id:(750 - 757)
+id:(937 - 944)
 
