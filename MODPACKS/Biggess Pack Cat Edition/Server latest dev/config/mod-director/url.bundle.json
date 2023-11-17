@@ -14,13 +14,13 @@
 			"fileName": "Coral-Reef-Mod-1.7.10-Scuba-Diving.jar"
 		},
 		{
+			"url": "https://github.com/quentin452/EndlessIDs/releases/download/1.5-beta0001fork1/endlessids-mc1.7.10-1.5-beta0001fork1.jar"
+		},
+		{
 			"url": "https://github.com/quentin452/Essence-of-the-god-reup/releases/download/V1.3/eotg-V1.3.jar"
 		},
 		{
-			"url": "https://github.com/makamys/Neodymium/releases/download/0.1.8.4/neodymium-1.7.10-0.1.8.4.jar",
-			"metadata": {
-				"side": "CLIENT"
-			}
+			"url": "https://github.com/quentin452/Hodgepodge/releases/download/v2.3.32/hodgepodge-2.3.32.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/eldritchempires/releases/download/1.7.10-091/eldritch-empires-091.1.jar"
@@ -62,7 +62,7 @@
 			"url": "https://github.com/quentin452/RFTools-Continuation/releases/download/V4.2.4/rftools-4.24.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.4.4/optimizationsandtweaks-V1.4.4.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.4.6/optimizationsandtweaks-V1.4.6.jar"
 		},
 		{
 			"url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/catwalks-1.7.10-2.1.4-GTNH.jar"

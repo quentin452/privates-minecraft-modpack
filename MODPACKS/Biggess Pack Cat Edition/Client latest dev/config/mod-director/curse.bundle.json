@@ -11,6 +11,12 @@
 			}
 		},
 		{
+			"addonId": 572570,
+			"fileId": 3637728,
+			"fileName": "Opticubes-1.7.10-1.0.0.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId": 229073,
 			"fileId": 2232170,
 			"fileName": "Hats-4.0.1.jar",
@@ -156,8 +162,8 @@
 		},
 		{
 			"addonId": 431297,
-			"fileId": 4847615,
-			"fileName": "Thaumcraft4Tweaks-1.5.18-beta.2.jar",
+			"fileId": 4874965,
+			"fileName": "Thaumcraft4Tweaks-1.5.18.jar",
 			"folder": "mods"
 		},
 		{
@@ -180,8 +186,8 @@
 		},
 		{
 			"addonId": 873867,
-			"fileId": 4789752,
-			"fileName": "Red-Core-MC-1.7-1.12-0.5-Dev-4.jar",
+			"fileId": 4875221,
+			"fileName": "!Red-Core-MC-1.7-1.12-0.5.jar",
 			"folder": "mods"
 		},
 		{
@@ -246,11 +252,6 @@
 			"fileId": 2260966,
 			"fileName": "RedGearCore-1.7.10-2.2.2.jar",
 			"folder": "mods/1.7.10"
-		},
-		{
-			"addonId": 688899,
-			"fileId": 4850424,
-			"fileName": "hodgepodge-2.3.29.jar"
 		},
 		{
 			"addonId": 247368,
@@ -881,8 +882,8 @@
 		},
 		{
 			"addonId": 844484,
-			"fileId": 4647209,
-			"fileName": "chunkapi-mc1.7.10-0.3.2.jar"
+			"fileId": 4870978,
+			"fileName": "chunkapi-mc1.7.10-0.4.0-hotfix1"
 		},
 		{
 			"addonId": 242568,
@@ -1303,11 +1304,6 @@
 			"fileName": "enderutilities-1.7.10-0.5.3.jar"
 		},
 		{
-			"addonId": 665730,
-			"fileId": 4738955,
-			"fileName": "endlessids-mc1.7.10-1.5-alpha0010.jar"
-		},
-		{
 			"addonId": 417147,
 			"fileId": 3099722,
 			"fileName": "Eraser Bomb-1.7.10-1.0.jar"
@@ -1539,11 +1535,6 @@
 			"metadata": {
 				"side": "CLIENT"
 			}
-		},
-		{
-			"addonId": 916870,
-			"fileId": 4793269,
-			"fileName": "Frustrator-1.7.10-1.1.2.jar"
 		},
 		{
 			"addonId": 224867,
