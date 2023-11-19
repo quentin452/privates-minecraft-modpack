@@ -2,10 +2,6 @@
 	"url":
 	[
 		{
-			"url": "https://github.com/makamys/MAtmos-2020-Zen/releases/download/35-v1.2.2/mat_zen-35-1.2.2.zip",
-			"folder": "resourcepacks"
-		},
-		{
 			"url": "https://github.com/quentin452/Advanced-Genetics-Reup/releases/download/V1.0/Advanced-Genetics-Mod-1.7.10.jar",
 			"fileName": "advancedgenetics-1.7.2-1.5.jar"
 		},
@@ -29,7 +25,7 @@
 			"url": "https://github.com/quentin452/Mo-Creatures-Continuation/releases/download/6.3.4/DrZharks.MoCreatures.Mod.v6.3.4.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/Galacticraft-Continuation/releases/download/V4.1.0/Galacticraft-4.1.0-cat.jar"
+			"url": "https://github.com/quentin452/Galacticraft-Continuation/releases/download/V4.1.1/Galacticraft-V4.1.1.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/tropicraft-REUP/releases/download/v6.0.6/tropicraft-v6.0.6.jar"
@@ -62,7 +58,7 @@
 			"url": "https://github.com/quentin452/RFTools-Continuation/releases/download/V4.2.4/rftools-4.24.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.4.7/optimizationsandtweaks-V1.4.7.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.4.9/optimizationsandtweaks-V1.4.9.jar"
 		},
 		{
 			"url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/catwalks-1.7.10-2.1.4-GTNH.jar"

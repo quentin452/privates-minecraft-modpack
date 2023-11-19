@@ -1081,11 +1081,6 @@
 			"fileName": "dark_menagerie-1.7.10-beta-3.1a.jar"
 		},
 		{
-			"addonId": 225075,
-			"fileId": 2225172,
-			"fileName": "DarkWorld-1.7.10-0.2.jar"
-		},
-		{
 			"addonId": 239398,
 			"fileId": 2274048,
 			"fileName": "DaVincing-1710.1.8.jar"
@@ -2062,14 +2057,6 @@
 			"addonId": 669429,
 			"fileId": 4100766,
 			"fileName": "MaterialsPlus-1.7.10-1.2.0.jar"
-		},
-		{
-			"addonId": 366256,
-			"fileId": 4819513,
-			"fileName": "matmos-1.7.10-36.jar",
-			"metadata": {
-				"side": "CLIENT"
-			}
 		},
 		{
 			"addonId": 406154,
