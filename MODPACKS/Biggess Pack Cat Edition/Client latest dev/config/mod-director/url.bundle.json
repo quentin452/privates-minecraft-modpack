@@ -59,6 +59,15 @@
 			"url": "https://github.com/quentin452/Et-Futurum-Requiem/releases/download/v2.6.0fork1/Et_Futurum_Requiem-2.6.0fork1.jar"
 		},
 		{
+			"url": "https://github.com/jss2a98aj/NotFine/releases/download/alpha-20/notfine-alpha-20.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"url": "https://github.com/embeddedt/Mooz/releases/download/0.1.0/mooz-mc1.7.10-0.1.0.jar"
+		},
+		{
 			"url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.0.0/ServerUtilities-2.0.0.jar"
 		},
 		{
