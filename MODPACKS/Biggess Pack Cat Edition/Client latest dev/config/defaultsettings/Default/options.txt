@@ -85,7 +85,6 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-key_Zoom:46
 key_ae2wct.OpenTerminal:0
 key_ae2wct.OpenMagnetFilter:0
 key_ae2wct.SwitchMagnetMode:0
@@ -158,6 +157,7 @@ key_Lore Journal:38
 key_MagicYarn Clientkey:0
 key_MagicYarn Playerkey:37
 key_key.open_menu:19
+key_key.mooz.zoom:46
 key_key.openNotes:49
 key_openblocks.keybind.vario_switch:0
 key_openblocks.keybind.vario_vol_up:0
