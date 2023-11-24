@@ -41,7 +41,7 @@
 		},
 		{
 			"url": "https://optifine.net/downloadx?f=OptiFine_1.7.10_HD_U_D6.jar&x=3e7fe132861dc95ae487a009f444a3af",
-			"fileName": "OptiFine_1.7.10_HD_U_D6.jar",
+			"fileName": "OptiFine_1.7.10_HD_U_D6.jar.disabled",
 			"metadata": {
 				"side": "CLIENT"
 			}
@@ -65,7 +65,7 @@
 			"url": "https://github.com/quentin452/RFTools-Continuation/releases/download/V4.2.4/rftools-4.24.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.6.3/optimizationsandtweaks-V1.6.3.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.6.3HOTFIX/optimizationsandtweaks-V1.6.3HOTFIX.jar"
 		},
 		{
 			"url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/catwalks-1.7.10-2.1.4-GTNH.jar"
