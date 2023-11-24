@@ -11,6 +11,18 @@
 			}
 		},
 		{
+			"addonId": 939770,
+			"fileId": 4893192,
+			"fileName": "ThaumicUpholstery-1.2.1.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 939770,
+			"fileId": 4891946,
+			"fileName": "Pumpkifiction-1.0.2.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId": 572570,
 			"fileId": 3637728,
 			"fileName": "Opticubes-1.7.10-1.0.0.jar",
@@ -89,12 +101,6 @@
 			"addonId": 224473,
 			"fileId": 2215002,
 			"fileName": "HungerInPeace-mc1.7.10-1.0.0.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId": 228019,
-			"fileId": 2233282,
-			"fileName": "Thaumic_Upholstery-1.2_1.7.10.jar",
 			"folder": "mods"
 		},
 		{
@@ -186,8 +192,8 @@
 		},
 		{
 			"addonId": 873867,
-			"fileId": 4875221,
-			"fileName": "!Red-Core-MC-1.7-1.12-0.5.jar",
+			"fileId": 4883852,
+			"fileName": "!Red-Core-MC-1.7-1.12-0.5.1.jar",
 			"folder": "mods"
 		},
 		{
@@ -1457,11 +1463,6 @@
 			"addonId": 431430,
 			"fileId": 4648627,
 			"fileName": "flickerfix-1.7.10-v5.0.0.jar"
-		},
-		{
-			"addonId": 549437,
-			"fileId": 3536677,
-			"fileName": "FloatingItems-1.7.10-0.1.0.jar"
 		},
 		{
 			"addonId": 227782,
