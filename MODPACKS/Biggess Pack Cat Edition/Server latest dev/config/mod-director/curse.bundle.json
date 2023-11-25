@@ -2,6 +2,18 @@
 	"curse":
 	[
 		{
+			"addonId": 614949,
+			"fileId": 3759159,
+			"fileName": "BasaltWalker-Reborn-Forge-1.7.10-1.0.0.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 819494,
+			"fileId": 4873300,
+			"fileName": "glassbreaker-1.0.0.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId": 227874,
 			"fileId": 2337326,
 			"fileName": "Dynamic Lights-1.3.9a-MC1.7.10.jar",
@@ -170,18 +182,6 @@
 			"addonId": 223628,
 			"fileId": 2227552,
 			"fileName": "Thaumcraft-1.7.10-4.2.3.5.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId": 69673,
-			"fileId": 2234410,
-			"fileName": "witchery-1.7.10-0.24.1.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId": 253015,
-			"fileId": 2340610,
-			"fileName": "WitcheryPatch-1.7.10-1.0.0.jar",
 			"folder": "mods"
 		},
 		{
@@ -1660,6 +1660,18 @@
 			"addonId": 237407,
 			"fileId": 2282681,
 			"fileName": "Hardcore Wither-1.7.10-1.1.3-21-universal.jar"
+		},
+		{
+			"addonId": 402125,
+			"fileId": 3068428,
+			"fileName": "witchery-1.7.10-0.25.1.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 253015,
+			"fileId": 2340610,
+			"fileName": "WitcheryPatch-1.7.10-1.0.0.jar",
+			"folder": "mods"
 		},
 		{
 			"addonId": 240783,
