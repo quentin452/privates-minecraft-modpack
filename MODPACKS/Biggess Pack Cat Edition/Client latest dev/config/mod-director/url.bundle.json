@@ -33,12 +33,6 @@
 			"url": "https://cdn.modrinth.com/data/IJY7IqPP/versions/xrKK0Ej7/fossilsarcheology-7.3.2.jar"
 		},
 		{
-			"url": "https://github.com/makamys/DTools/releases/download/0.3.3/DTools-1.7.10-0.3.3.jar",
-			"metadata": {
-				"side": "CLIENT"
-			}
-		},
-		{
 			"url": "https://optifine.net/downloadx?f=OptiFine_1.7.10_HD_U_D6.jar&x=3e7fe132861dc95ae487a009f444a3af",
 			"fileName": "OptiFine_1.7.10_HD_U_D6.jar.disabled",
 			"metadata": {
