@@ -48,11 +48,6 @@
 		},
 		{
 			"folder": "mods",
-			"fileName": "sampler-1.60.1.jar",
-			"delete": true
-		},
-		{
-			"folder": "mods",
 			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.30-Core.jar",
 			"delete": true
 		},
