@@ -43,4 +43,4 @@ echo "Dézippage de $zipFileName dans le répertoire $extractFolder..."
 unzip -q "$downloadFolder/$zipFileName" -d "$extractFolder"
 
 # Lancez votre serveur Minecraft
-"/home/iamacat/Téléchargements/java/graalvm/graalvm-ce-java8-21.2.0/bin/java" -Xmx10G -Xms1G -XX:+UnlockExperimentalVMOptions -XX:+UseConcMarkSweepGC -XX:+UseFastAccessorMethods -XX:+UseCompressedOops -XX:+ParallelRefProcEnabled -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar nogui
+"/home/iamacat/Téléchargements/java/graalvm/graalvm-ce-java8-21.2.0/bin/java" -Xmx10G -Xms1G -XX:+UseConcMarkSweepGC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=50 -XX:GCTimeRatio=15M -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseTLAB -XX:-UseBiasedLocking -XX:+OptimizeStringConcat -Xnoclassgc -XX:-UseLargePages -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar nogui
