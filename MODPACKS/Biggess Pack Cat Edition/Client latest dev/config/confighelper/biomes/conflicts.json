@@ -164,7 +164,7 @@
     {
       "name": "Roofed Forest M",
       "mod": "Minecraft",
-      "freeId": 40,
+      "replaced": true,
       "class": "net.minecraft.world.biome.BiomeGenForest$1"
     }
   ],

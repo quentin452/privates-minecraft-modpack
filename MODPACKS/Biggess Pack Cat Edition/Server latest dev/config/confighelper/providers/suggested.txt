@@ -10,11 +10,8 @@ id:(-7 - -3)
 Aroma1997DimensionFix
 id:(-8)
 
-Dark World
-id:(-9)
-
 DrZhark's Mo'Creatures Mod
-id:(-10)
+id:(-9)
 
 Essence Of The Gods
 id:(25 - 28)
@@ -23,37 +20,34 @@ Eternal Frost
 id:(29)
 
 Extra Utilities
-id:(-12 - -11)
+id:(-11 - -10)
 
 Fossils and Archeology Revival
-id:(-14 - -13)
+id:(-13 - -12)
 
 Gadomancy
-id:(-15)
+id:(-14)
 
 Galacticraft Core
-id:(-20 - -16)
-
-GalaxySpace
-id:(-38 - -21)
+id:(-19 - -15)
 
 LightningCraft
-id:(-40 - -39)
+id:(-21 - -20)
 
 Maze Mod
 id:(30)
 
 RandomThings
-id:(-41)
+id:(-22)
 
 Runic Dungeons
-id:(-42)
+id:(-23)
 
 Thaumcraft
-id:(-43)
+id:(-24)
 
 Thaumic Tinkerer
-id:(-44)
+id:(-25)
 
 ThaumicHorizons
 id:(31)
@@ -61,18 +55,15 @@ id:(31)
 The Aether
 id:(32)
 
-The Lord of the Rings Mod
-id:(33 - 34)
-
 The Twilight Forest
-id:(-45)
+id:(-26)
 
 Tropicraft
-id:(-46)
+id:(-27)
 
 Witchery
-id:(-49 - -47)
+id:(-30 - -28)
 
 WolfCore
-id:(35 - 36)
+id:(33 - 34)
 

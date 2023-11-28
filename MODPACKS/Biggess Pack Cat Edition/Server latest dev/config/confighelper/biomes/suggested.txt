@@ -13,78 +13,72 @@ id:(92)
 BuildCraft
 id:(93 - 94)
 
-Dark World
-id:(95 - 101)
-
 DrZhark's Mo'Creatures Mod
-id:(102)
+id:(95)
 
 EndlessIDs
-id:(103 - 128)
+id:(96 - 128)
 id:(135 - 139)
 id:(141 - 148)
 id:(150)
 id:(152 - 154)
 id:(159)
-id:(168 - 611)
+id:(168 - 590)
 
 Essence Of The Gods
-id:(612 - 615)
+id:(591 - 594)
 
 Eternal Frost
-id:(616 - 622)
+id:(595 - 601)
 
 Fossils and Archeology Revival
-id:(623 - 624)
+id:(602 - 603)
 
 Galacticraft Core
-id:(625)
+id:(604)
 
 Growthcraft
-id:(626)
+id:(605)
 
 Highlands
-id:(627 - 665)
+id:(606 - 644)
 
 LightningCraft
-id:(666 - 667)
+id:(645 - 646)
 
 Maze Mod
-id:(668 - 687)
+id:(647 - 666)
 
 Minecraft
-id:(688 - 689)
+id:(667 - 668)
 
 Realistic World Gen Alpha
-id:(690 - 714)
+id:(669 - 693)
 
 Runic Dungeons
-id:(715)
+id:(694)
 
 Steamcraft 2
-id:(716 - 725)
+id:(695 - 704)
 
 Thaumcraft
-id:(726 - 729)
+id:(705 - 708)
 
 The Aether
-id:(730)
-
-The Lord of the Rings Mod
-id:(731 - 900)
+id:(709)
 
 The Twilight Forest
-id:(901 - 919)
+id:(710 - 728)
 
 Tropicraft
-id:(920 - 928)
+id:(729 - 737)
 
 §5Enderlicious
-id:(929 - 932)
+id:(738 - 741)
 
 §5§oEt Futurum Requiem
-id:(933 - 936)
+id:(742 - 745)
 
 §6Netherlicious
-id:(937 - 944)
+id:(746 - 753)
 

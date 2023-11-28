@@ -9,74 +9,75 @@ Arcana RPG
 id:(31)
 id:(36 - 44)
 
+BasaltWalker
+id:(45)
+
 BiblioCraft
-id:(45 - 46)
+id:(46 - 47)
 
 CoFH Core
-id:(47)
-id:(52)
+id:(52 - 53)
 
 Draconic Evolution
-id:(53)
-
-Dungeon Tools
 id:(54)
 
+Dungeon Tools
+id:(55)
+
 Electroblob's Wizardry
-id:(55 - 58)
+id:(56 - 59)
 
 Ender IO
-id:(59)
+id:(60)
 
 EnderCore
-id:(60)
-id:(63)
+id:(63 - 64)
 
 Essence Of The Gods
-id:(64 - 65)
+id:(65 - 66)
 
 Forbidden Magic
-id:(66 - 73)
+id:(67 - 74)
 
 Fossils and Archeology Revival
-id:(74 - 75)
+id:(75 - 76)
 
 Gadomancy
-id:(76)
+id:(77)
 
 LightningCraft
-id:(77 - 78)
+id:(78 - 79)
 
 OpenBlocks
-id:(79 - 81)
+id:(80 - 82)
 
 Railcraft
-id:(82 - 84)
+id:(83 - 85)
 
 Runic Dungeons
-id:(85 - 88)
+id:(86 - 89)
 
 Simply Jetpacks
-id:(89)
-
-Slime Carnage
 id:(90)
 
-Soul Shards: The Old Ways
+Slime Carnage
 id:(91)
 
+Soul Shards: The Old Ways
+id:(92)
+
 Special Mobs
-id:(92 - 97)
+id:(93 - 98)
 
 Thaumcraft
-id:(98 - 99)
+id:(99 - 100)
 
 Thaumic Tinkerer
-id:(100 - 113)
+id:(101 - 114)
 
 UnbreakEn Mod
-id:(114)
+id:(115)
 
 §5§oEt Futurum Requiem
-id:(115 - 117)
+id:(116 - 118)
 

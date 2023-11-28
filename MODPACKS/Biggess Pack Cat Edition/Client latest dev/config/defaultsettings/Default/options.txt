@@ -1,12 +1,12 @@
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:1.0
+gamma:-0.3
 saturation:0.0
 renderDistance:5
-guiScale:3
-particles:1
-bobView:false
+guiScale:0
+particles:0
+bobView:true
 anaglyph3d:false
 advancedOpengl:false
 maxFps:260
@@ -14,8 +14,8 @@ fboEnable:true
 difficulty:2
 fancyGraphics:true
 ao:2
-clouds:false
-resourcePacks:["Netherlicious ore texture fix.zip","texturefixer.zip"]
+clouds:true
+resourcePacks:[]
 lastServer:
 lang:en_US
 chatVisibility:0
@@ -23,13 +23,13 @@ chatColors:true
 chatLinks:true
 chatLinksPrompt:true
 chatOpacity:1.0
-snooperEnabled:false
+snooperEnabled:true
 fullscreen:false
 enableVsync:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
-showCape:false
+showCape:true
 touchscreen:false
 overrideWidth:0
 overrideHeight:0
@@ -55,18 +55,18 @@ streamMicToggleBehavior:0
 forceUnicodeFont:false
 key_key.attack:-100
 key_key.use:-99
-key_key.forward:44
-key_key.left:16
+key_key.forward:17
+key_key.left:30
 key_key.back:31
 key_key.right:32
 key_key.jump:57
 key_key.sneak:42
 key_key.drop:18
-key_key.inventory:30
+key_key.inventory:16
 key_key.chat:0
 key_key.playerlist:15
 key_key.pickItem:0
-key_key.command:17
+key_key.command:44
 key_key.screenshot:60
 key_key.togglePerspective:63
 key_key.smoothCamera:0
@@ -78,7 +78,7 @@ key_key.streamToggleMic:0
 key_key.fullscreen:87
 key_key.hotbar.1:0
 key_key.hotbar.2:0
-key_key.hotbar.3:0
+key_key.hotbar.3:4
 key_key.hotbar.4:5
 key_key.hotbar.5:6
 key_key.hotbar.6:7
@@ -127,7 +127,7 @@ key_key.traincraft.mtcOverride:24
 key_key.traincraft.overspeedOverride:38
 key_ChatFlow:88
 key_key.clearChatKey:211
-key_key.loadFileKey:0
+key_key.loadFileKey:-97
 key_cos.key.openCosArmorInventory:0
 key_doggytalents.key.come:200
 key_doggytalents.key.stay:208
@@ -140,7 +140,7 @@ key_key.binder:40
 key_Tool Increase:201
 key_Tool Decrease:209
 key_enderutilities.key.togglemode:33
-key_key.skills:39
+key_key.skills:23
 key_key.cinfo:49
 key_key.skillnameleft:203
 key_key.skillnameright:205
@@ -234,7 +234,7 @@ key_Yeta Wrench Mode:0
 key_Toggle Electromagnet:0
 key_key.materialCosts:0
 key_key.clipboardPaste:0
-key_coralmod.key.gui:0
+key_coralmod.key.gui:39
 key_key.craftingtweaks.rotate:19
 key_key.craftingtweaks.balance:48
 key_key.craftingtweaks.clear:46
@@ -252,7 +252,7 @@ key_key.monocle.desc:44
 key_Open Galaxy Map:0
 key_Open Spaceship Inventory:0
 key_Toggle Sensor Goggles Mode:0
-key_invtweaks.key.sort:-96
+key_invtweaks.key.sort:0
 key_jecalculation.key.gui_craft:0
 key_jecalculation.key.gui_math:0
 key_key.littletiles.rotateup:0
@@ -266,11 +266,9 @@ key_key.playInstrument:25
 key_Quick Commands:83
 key_key.fart.desc:33
 key_key.openglasses.interact:46
-key_key.openglasses.interactToggle:46
+key_key.openglasses.interactToggle:0
 key_key.openRadial:37
 key_key.PickBlockPlus:-98
-key_key.quit.fastQuit:45
-key_key.quit.bossKey:48
 key_2.1. Increase the reverse:19
 key_2.2. Decrease the reverse:33
 key_2.3. Zero the reverse:47
@@ -309,7 +307,7 @@ key_gui.xaero_zoom_out:0
 key_gui.xaero_new_waypoint:48
 key_gui.xaero_display_all_sets:0
 key_gui.xaero_toggle_light_overlay:0
-key_gui.xaero_minimap_settings:-97
+key_gui.xaero_minimap_settings:21
 key_gui.xaero_open_map:50
 key_gui.xaero_open_settings:27
 key_gui.xaero_map_zoom_in:0
@@ -333,12 +331,12 @@ key_key.eternalfrost_gui.desc:25
 key_key.practicalities.magnet_toggle:50
 key_BetterFps:88
 key_key.craftpresence.config_keycode.name:41
-soundCategory_master:0.4536424
+soundCategory_master:0.24834438
 soundCategory_music:0.0
-soundCategory_record:0.37323943
-soundCategory_weather:0.20422535
-soundCategory_block:0.14788732
-soundCategory_hostile:0.3802817
-soundCategory_neutral:0.52112675
-soundCategory_player:0.7887324
+soundCategory_record:1.0
+soundCategory_weather:1.0
+soundCategory_block:1.0
+soundCategory_hostile:1.0
+soundCategory_neutral:1.0
+soundCategory_player:1.0
 soundCategory_ambient:1.0

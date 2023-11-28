@@ -2,6 +2,12 @@
 	"curse":
 	[
 		{
+			"addonId": 896289,
+			"fileId": 4675121,
+			"fileName": "pipeblocker-forge17_112-1.1.3.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId": 939770,
 			"fileId": 4899233,
 			"fileName": "ThaumicMachina-0.2.1.1.jar",
@@ -11,12 +17,6 @@
 			"addonId": 614949,
 			"fileId": 3759159,
 			"fileName": "BasaltWalker-Reborn-Forge-1.7.10-1.0.0.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId": 630788,
-			"fileId": 4723427,
-			"fileName": "FiskHeroes-1.7.10-2.3.1.jar",
 			"folder": "mods"
 		},
 		{
@@ -74,12 +74,6 @@
 			"addonId": 243298,
 			"fileId": 2319767,
 			"fileName": "llibrary-1.5.1-1.7.10.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId": 684750,
-			"fileId": 4017621,
-			"fileName": "Quit-Forge-1.7.10-1.0.1-mixinless.jar",
 			"folder": "mods"
 		},
 		{
@@ -1427,8 +1421,8 @@
 		},
 		{
 			"addonId": 665627,
-			"fileId": 4899243,
-			"fileName": "falsepatternlib-mc1.7.10-1.0.0-pre03.jar"
+			"fileId": 4905393,
+			"fileName": "falsepatternlib-mc1.7.10-1.0.0.jar"
 		},
 		{
 			"addonId": 232683,
@@ -2785,11 +2779,6 @@
 			"addonId": 59652,
 			"fileId": 2511803,
 			"fileName": "secretroomsmod-1.7.10-4.7.1.413.jar"
-		},
-		{
-			"addonId": 896591,
-			"fileId": 4728250,
-			"fileName": "serializationisbad-1.5.jar"
 		},
 		{
 			"addonId": 255025,

@@ -29,51 +29,45 @@ id:(85)
 Gadomancy
 id:(86 - 90)
 
-GalaxySpace
-id:(91 - 92)
-
 Growthcraft
-id:(93)
+id:(91)
 
 Hardcore Wither
-id:(94)
+id:(92)
 
 LightningCraft
-id:(95)
+id:(93)
 
 RandomThings
-id:(96 - 101)
+id:(94 - 99)
 
 Red Cow
-id:(102)
+id:(100)
 
 Thaumcraft
-id:(103 - 107)
+id:(101 - 105)
 
 Thaumic Tinkerer
-id:(108 - 111)
+id:(106 - 109)
 
 ThaumicHorizons
-id:(112 - 116)
+id:(110 - 114)
 
 The Aether
-id:(117)
-
-The Lord of the Rings Mod
-id:(118)
+id:(115)
 
 Totemic
-id:(119 - 121)
+id:(116 - 118)
 
 TrailMix
-id:(122)
+id:(119)
 
 Wild Mobs
-id:(123)
+id:(120)
 
 Witchery
-id:(124 - 167)
+id:(121 - 165)
 
 §5§oEt Futurum Requiem
-id:(168)
+id:(166)
 

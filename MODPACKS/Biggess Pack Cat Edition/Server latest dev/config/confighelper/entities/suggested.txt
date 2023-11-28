@@ -60,21 +60,18 @@ id:(163 - 185)
 Gadomancy
 id:(186 - 189)
 
-Hamsterrific
-id:(190)
-
 Magical Instrument
-id:(191 - 192)
+id:(190 - 191)
 
-MillÃ©naire
-id:(193 - 199)
+Millénaire
+id:(192 - 198)
 
 Runic Dungeons
-id:(201)
+id:(199)
 
 Thermal Foundation
-id:(202 - 204)
+id:(201 - 203)
 
 WolfCore
-id:(205 - 223)
+id:(204 - 222)
 
