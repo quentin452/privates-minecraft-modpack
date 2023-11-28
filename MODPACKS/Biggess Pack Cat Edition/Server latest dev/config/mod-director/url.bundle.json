@@ -88,7 +88,7 @@
 			"url": "https://github.com/GTNewHorizons/AppleCore/releases/download/3.2.12/AppleCore-3.2.12.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/BuildCraftCompat/releases/download/7.1.14/buildcraft-compat-7.1.14.jar"
+			"url": "https://github.com/GTNewHorizons/BuildCraftCompat/releases/download/7.1.16/buildcraft-compat-7.1.16.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/ForbiddenMagic/releases/download/0.6.7-GTNH/Forbidden.Magic-0.6.7-GTNH.jar"
@@ -100,10 +100,10 @@
 			"url": "https://github.com/GTNewHorizons/Tainted-Magic/releases/download/7.6.3-GTNH/Tainted-Magic-7.6.3-GTNH.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/ThaumicEnergistics/releases/download/1.4.13-GTNH/thaumicenergistics-1.4.13-GTNH.jar"
+			"url": "https://github.com/GTNewHorizons/ThaumicEnergistics/releases/download/1.5.2-GTNH/thaumicenergistics-1.5.2-GTNH.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/ThaumicTinkerer/releases/download/2.8.4/ThaumicTinkerer-2.8.4.jar"
+			"url": "https://github.com/GTNewHorizons/ThaumicTinkerer/releases/download/2.8.5/ThaumicTinkerer-2.8.5.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/ThaumicHorizons/releases/download/1.3.5/ThaumicHorizons-1.3.5.jar"
@@ -147,7 +147,7 @@
 			"fileName": "Gollum-Core-Lib-1.7.10.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/ForgeMultipart/releases/download/1.3.4/ForgeMultipart-1.3.4.jar",
+			"url": "https://github.com/GTNewHorizons/ForgeMultipart/releases/download/1.4.1/ForgeMultipart-1.4.1.jar",
 			"folder": "mods/1.7.10"
 		},
 		{
@@ -163,7 +163,7 @@
 			"url": "https://github.com/quentin452/The-Aether-Archived/releases/download/1.1.2.3/aether-1.7.10-1.1.2.3.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-281-GTNH/appliedenergistics2-rv3-beta-281-GTNH.jar"
+			"url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-288-GTNH/appliedenergistics2-rv3-beta-288-GTNH.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/ArchaicFix/releases/download/V0.6.2fork5/archaicfix-V0.6.2fork5.jar"
@@ -233,7 +233,7 @@
 			"url": "https://github.com/GTNewHorizons/BugTorch/releases/download/1.2.11-GTNH/bugtorch-1.2.11-GTNH.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/BuildCraft/releases/download/7.1.36/buildcraft-7.1.36.jar"
+			"url": "https://github.com/GTNewHorizons/BuildCraft/releases/download/7.1.37/buildcraft-7.1.37.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/BuildCraftOilTweak/releases/download/1.0.4/BuildCraftOilTweak-1.7.10-1.0.4.jar"
@@ -242,7 +242,7 @@
 			"url": "https://github.com/GTNewHorizons/CarpentersBlocks/releases/download/3.4.1-GTNH/CarpentersBlocks-3.4.1-GTNH.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.11.4-GTNH/chisel-2.11.4-GTNH.jar"
+			"url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.12.3-GTNH/chisel-2.12.3-GTNH.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/confighelper2/releases/download/1.2.5.4/confighelper-1.7.10-1.2.5.4.jar"
@@ -269,7 +269,7 @@
 			"url": "https://github.com/GTNewHorizons/EnderCore/releases/download/0.2.18/endercore-0.2.18.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.5.4/EnderIO-2.5.4.jar"
+			"url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.5.6/EnderIO-2.5.6.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/EnderStorage/releases/download/1.4.12/EnderStorage-1.7.10-1.4.12.jar"
@@ -296,7 +296,7 @@
 			"url": "https://github.com/quentin452/Familiars-API-mods-reup/releases/download/1.7.108/FamiliarsHerobrineFamPack-1.7.10.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.6.14/Forestry-4.6.14.jar"
+			"url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.7.0/Forestry-4.7.0.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/gendustry/releases/download/1.6.5.5-GTNH/gendustry-1.7.10-1.6.5.5-GTNH.jar"
@@ -365,7 +365,7 @@
 			}
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/MrTJPCore/releases/download/1.1.4/MrTJPCore-1.7.10-1.1.4.jar"
+			"url": "https://github.com/GTNewHorizons/MrTJPCore/releases/download/1.1.5/MrTJPCore-1.1.5.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/NaturesCompass/releases/download/1.3.6-GTNH/naturescompass-1.7.10-1.3.6-GTNH.jar"
@@ -384,7 +384,7 @@
 			"url": "https://github.com/quentin452/NotEnoughEnergistics/releases/download/1.4.3/NotEnoughEnergistics-1.4.3.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.7.0-GTNH/OpenBlocks-1.7.0-GTNH.jar"
+			"url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.8.1-GTNH/OpenBlocks-1.8.1-GTNH.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.9.19-GTNH/OpenComputers-1.9.19-GTNH.jar"
@@ -423,7 +423,7 @@
 			"url": "https://github.com/quentin452/Roguelike-Dungeons/releases/download/roguelike-1.5.3-GTNH-master.5%2B8684ddd572-dirty/roguelike-1.5.3-GTNH-master.5+8684ddd572-dirty.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/Realistic-World-Gen/releases/download/alpha-1.3.3.2/RWG-1.7.10-alpha-1.3.3.2.jar"
+			"url": "https://github.com/GTNewHorizons/Realistic-World-Gen/releases/download/alpha-1.3.5/RWG-alpha-1.3.5.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/Schematica/releases/download/1.9.4-GTNH/Schematica-1.9.4-GTNH.jar"
@@ -462,7 +462,7 @@
 			"url": "https://github.com/GTNewHorizons/Super-TiC/releases/download/1.2.5/SuperTic-1.7.10-1.2.5.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.10.11-GTNH/TConstruct-1.10.11-GTNH.jar"
+			"url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.10.12-GTNH/TConstruct-1.10.12-GTNH.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/ToroHealth/releases/download/1.0.2/torohealth-1.0.2.jar"
@@ -474,7 +474,7 @@
 			"url": "https://github.com/GTNewHorizons/Universal-Singularities/releases/download/8.6.6/Universal-Singularities-8.6.6.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/waila/releases/download/1.6.0/Waila-1.6.0.jar"
+			"url": "https://github.com/GTNewHorizons/waila/releases/download/1.6.5/Waila-1.6.5.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/WAILAPlugins/releases/download/0.3.0/WAILAPlugins-0.3.0.jar"
