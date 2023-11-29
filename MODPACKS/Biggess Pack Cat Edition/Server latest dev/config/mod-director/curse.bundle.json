@@ -2,6 +2,21 @@
 	"curse":
 	[
 		{
+			"addonId": 577749,
+			"fileId": 4026995,
+			"fileName": "defaultserverlist-1.7.10-1.4.0.jar",
+			"folder": "mods",
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 229089,
+			"fileId": 2232259,
+			"fileName": "Streak-4.0.0.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId": 939770,
 			"fileId": 4899233,
 			"fileName": "ThaumicMachina-0.2.1.1.jar",

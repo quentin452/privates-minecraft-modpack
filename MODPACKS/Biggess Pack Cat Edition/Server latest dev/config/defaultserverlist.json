@@ -1,0 +1,9 @@
+{
+  "useURL": false,
+  "allowModifications": true,
+  "url": "",
+  "servers": {
+    "My Server 1": "51.255.6.146:25565"
+  },
+  "DO_NOT_EDIT_prevDefaultServers": []
+}
