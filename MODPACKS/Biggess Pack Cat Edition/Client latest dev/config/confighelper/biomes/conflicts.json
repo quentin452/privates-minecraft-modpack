@@ -90,6 +90,19 @@
       "class": "net.minecraft.world.biome.BiomeGenMutated"
     }
   ],
+  "biomes-id:139": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 11 [net.minecraft.world.biome.BiomeGenRiver]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "towerHills",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenTowerHills"
+    }
+  ],
   "biomes-id:140": [
     {
       "name": "EndlessIDs ID conflict avoidance placeholder for ID 12 [net.minecraft.world.biome.BiomeGenSnow]",
@@ -114,6 +127,12 @@
       "mod": "Minecraft",
       "replaced": true,
       "class": "net.minecraft.world.biome.BiomeGenMutated"
+    },
+    {
+      "name": "harnedor",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenHarnedor"
     }
   ],
   "biomes-id:151": [
@@ -127,6 +146,12 @@
       "mod": "Minecraft",
       "replaced": true,
       "class": "net.minecraft.world.biome.BiomeGenMutated"
+    },
+    {
+      "name": "lamedonHills",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenLamedonHills"
     }
   ],
   "biomes-id:155": [
@@ -153,6 +178,12 @@
       "mod": "Minecraft",
       "replaced": true,
       "class": "net.minecraft.world.biome.BiomeGenForest$2"
+    },
+    {
+      "name": "rhunLandSteppe",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenRhunLandSteppe"
     }
   ],
   "biomes-id:157": [
@@ -166,6 +197,12 @@
       "mod": "Minecraft",
       "replaced": true,
       "class": "net.minecraft.world.biome.BiomeGenForest$1"
+    },
+    {
+      "name": "rhunLandHills",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenRhunLandHills"
     }
   ],
   "biomes-id:158": [
@@ -179,6 +216,25 @@
       "mod": "Minecraft",
       "replaced": true,
       "class": "net.minecraft.world.biome.BiomeGenMutated"
+    },
+    {
+      "name": "rhunRedForest",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenRhunRedForest"
+    }
+  ],
+  "biomes-id:159": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 31 [net.minecraft.world.biome.BiomeGenTaiga]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "rhunIsland",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenRhunIsland"
     }
   ],
   "biomes-id:160": [
@@ -192,6 +248,12 @@
       "mod": "Minecraft",
       "replaced": true,
       "class": "net.minecraft.world.biome.BiomeGenTaiga"
+    },
+    {
+      "name": "rhunIslandForest",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenRhunIslandForest"
     }
   ],
   "biomes-id:161": [
@@ -205,6 +267,12 @@
       "mod": "Minecraft",
       "replaced": true,
       "class": "net.minecraft.world.biome.BiomeGenTaiga"
+    },
+    {
+      "name": "lastDesert",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenLastDesert"
     }
   ],
   "biomes-id:162": [
@@ -218,6 +286,12 @@
       "mod": "Minecraft",
       "replaced": true,
       "class": "net.minecraft.world.biome.BiomeGenHills"
+    },
+    {
+      "name": "windMountains",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenWindMountains"
     }
   ],
   "biomes-id:163": [
@@ -231,6 +305,12 @@
       "mod": "Minecraft",
       "replaced": true,
       "class": "net.minecraft.world.biome.BiomeGenSavanna$Mutated"
+    },
+    {
+      "name": "windMountainsFoothills",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenWindMountainsFoothills"
     }
   ],
   "biomes-id:164": [
@@ -244,6 +324,12 @@
       "mod": "Minecraft",
       "replaced": true,
       "class": "net.minecraft.world.biome.BiomeGenSavanna$Mutated"
+    },
+    {
+      "name": "rivendell",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenRivendell"
     }
   ],
   "biomes-id:165": [
@@ -257,6 +343,12 @@
       "mod": "Minecraft",
       "replaced": true,
       "class": "net.minecraft.world.biome.BiomeGenMesa"
+    },
+    {
+      "name": "rivendellHills",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenRivendellHills"
     }
   ],
   "biomes-id:166": [
@@ -270,6 +362,12 @@
       "mod": "Minecraft",
       "replaced": true,
       "class": "net.minecraft.world.biome.BiomeGenMesa"
+    },
+    {
+      "name": "farHaradJungleMountains",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenFarHaradJungleMountains"
     }
   ],
   "biomes-id:167": [
@@ -283,6 +381,12 @@
       "mod": "Minecraft",
       "replaced": true,
       "class": "net.minecraft.world.biome.BiomeGenMesa"
+    },
+    {
+      "name": "halfTrollForest",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenHalfTrollForest"
     }
   ]
 }

@@ -9,6 +9,9 @@
 			"url": "https://github.com/quentin452/Coral-Reef-Continuation/releases/download/fork1/Coral-Reef-Mod-1.7.10-Scuba-Divingfork1.jar"
 		},
 		{
+			"url": "https://github.com/quentin452/The-Lord-of-the-Rings/releases/download/v36.21/LOTRModfork.v36.21.jar"
+		},
+		{
 			"url": "https://github.com/quentin452/EndlessIDs/releases/download/1.5-beta0001fork1/endlessids-mc1.7.10-1.5-beta0001fork1.jar"
 		},
 		{
@@ -60,7 +63,7 @@
 			"url": "https://github.com/quentin452/RFTools-Continuation/releases/download/V4.2.4/rftools-4.24.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.6.7/optimizationsandtweaks-V1.6.7.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.6.8/optimizationsandtweaks-V1.6.8.jar"
 		},
 		{
 			"url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/catwalks-1.7.10-2.1.4-GTNH.jar"
@@ -99,7 +102,7 @@
 			"url": "https://github.com/GTNewHorizons/ThaumicTinkerer/releases/download/2.8.5/ThaumicTinkerer-2.8.5.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/ThaumicHorizons/releases/download/1.3.5/ThaumicHorizons-1.3.5.jar"
+			"url": "https://github.com/GTNewHorizons/ThaumicHorizons/releases/download/1.4.0/ThaumicHorizons-1.4.0.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/thaumcraft-research-tweaks/releases/download/1.0.6/ThaumcraftResearchTweaks-1.0.6.jar"
@@ -416,9 +419,6 @@
 			"url": "https://github.com/quentin452/Roguelike-Dungeons/releases/download/roguelike-1.5.3-GTNH-master.5%2B8684ddd572-dirty/roguelike-1.5.3-GTNH-master.5+8684ddd572-dirty.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/Realistic-World-Gen/releases/download/alpha-1.3.5/RWG-alpha-1.3.5.jar"
-		},
-		{
 			"url": "https://github.com/GTNewHorizons/Schematica/releases/download/1.9.4-GTNH/Schematica-1.9.4-GTNH.jar"
 		},
 		{
@@ -482,11 +482,11 @@
 			"url": "https://github.com/GTNewHorizons/WirelessCraftingTerminal/releases/download/1.10.1/WirelessCraftingTerminal-1.10.1.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/CodeChickenLib/releases/download/1.1.8/CodeChickenLib-1.1.8.jar",
+			"url": "https://github.com/GTNewHorizons/CodeChickenLib/releases/download/1.1.10/CodeChickenLib-1.1.10.jar",
 			"folder": "mods/1.7.10"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.1.11/CodeChickenCore-1.1.11.jar"
+			"url": "https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.1.13/CodeChickenCore-1.1.13.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/Redirector/releases/download/1.7.10-1.2.1/redirectionor-1.7.10-1.2.1.jar"

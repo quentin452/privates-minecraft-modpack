@@ -55,6 +55,9 @@ id:(31)
 The Aether
 id:(32)
 
+The Lord of the Rings Mod
+id:(33 - 34)
+
 The Twilight Forest
 id:(-26)
 
@@ -65,5 +68,5 @@ Witchery
 id:(-30 - -28)
 
 WolfCore
-id:(33 - 34)
+id:(35 - 36)
 

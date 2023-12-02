@@ -11,6 +11,12 @@
 			}
 		},
 		{
+			"addonId":939770,
+			"fileId": 4914347,
+			"fileName": "ThaumicRevelations-1.2.2.1.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId": 229089,
 			"fileId": 2232259,
 			"fileName": "Streak-4.0.0.jar",
@@ -274,8 +280,8 @@
 		},
 		{
 			"addonId": 915822,
-			"fileId": 4851029,
-			"fileName": "Arcana-Rpg-Continuation-1.7.10-1.4.8.3.jar"
+			"fileId": 4911100,
+			"fileName": "Arcana-Rpg-Continuation-1.7.10-1.4.8.4.jar"
 		},
 		{
 			"addonId": 248334,
@@ -389,8 +395,8 @@
 		},
 		{
 			"addonId": 876284,
-			"fileId": 4857142,
-			"fileName": "AdvancedBackups-forge-1.7.10-3.3.jar"
+			"fileId": 4913287,
+			"fileName": "AdvancedBackups-forge-1.7.10-3.4.jar"
 		},
 		{
 			"addonId": 224117,
