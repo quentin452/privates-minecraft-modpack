@@ -11,6 +11,12 @@
 			}
 		},
 		{
+			"addonId":923801,
+			"fileId": 4801397,
+			"fileName": "JarFinder.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId":855466,
 			"fileId": 4919706,
 			"fileName": "optimizationsandtweaks-V1.7.0.jar",
@@ -1959,11 +1965,6 @@
 			"fileName": "liquidenchanting-1.7.10_v1.jar"
 		},
 		{
-			"addonId": 256018,
-			"fileId": 2553669,
-			"fileName": "LittleUtilities-1.7.10-1.4.1.jar"
-		},
-		{
 			"addonId": 245384,
 			"fileId": 2306912,
 			"fileName": "livewithoutmobs-1.7-1.0.1.0.jar"
@@ -2123,18 +2124,18 @@
 		},
 		{
 			"addonId": 399904,
-			"fileId": 4800127,
-			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.32-Core.jar"
+			"fileId": 4930125,
+			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.33-Core.jar"
 		},
 		{
 			"addonId": 813408,
-			"fileId": 4800129,
-			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.32-Generators.jar"
+			"fileId": 4930124,
+			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.33-Generators.jar"
 		},
 		{
 			"addonId": 813407,
-			"fileId": 4800128,
-			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.32-Tools.jar"
+			"fileId": 4930123,
+			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.33-Tools.jar"
 		},
 		{
 			"addonId": 247095,
@@ -3346,8 +3347,8 @@
 		},
 		{
 			"addonId": 358228,
-			"fileId": 4856799,
-			"fileName": "NotEnoughItems-2.4.12-GTNH.jar"
+			"fileId": 4923403,
+			"fileName": "NotEnoughItems-2.4.13-GTNH.jar"
 		}
 
 	]

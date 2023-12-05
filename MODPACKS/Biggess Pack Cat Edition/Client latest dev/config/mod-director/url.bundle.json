@@ -30,7 +30,7 @@
 			"url": "https://github.com/quentin452/Galacticraft-Continuation/releases/download/V4.1.1/Galacticraft-V4.1.1.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/tropicraft-REUP/releases/download/v6.0.6/tropicraft-v6.0.6.jar"
+			"url": "https://github.com/quentin452/tropicraft-REUP/releases/download/v6.1.0/tropicraft-v6.1.0.jar"
 		},
 		{
 			"url": "https://cdn.modrinth.com/data/IJY7IqPP/versions/xrKK0Ej7/fossilsarcheology-7.3.2.jar"
@@ -49,6 +49,12 @@
 		},
 		{
 			"url": "https://github.com/jss2a98aj/NotFine/releases/download/alpha-20/notfine-alpha-20.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"url": "https://github.com/makamys/Neodymium/releases/download/0.1.9/neodymium-1.7.10-0.1.9+nomixin.jar",
 			"metadata": {
 				"side": "CLIENT"
 			}
@@ -226,7 +232,7 @@
 			"url": "https://github.com/GTNewHorizons/BrandonsCore/releases/download/1.0.0.13-GTNH/BrandonsCore-1.7.10-1.0.0.13-GTNH.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/BugTorch/releases/download/1.2.11-GTNH/bugtorch-1.2.11-GTNH.jar"
+			"url": "https://github.com/GTNewHorizons/BugTorch/releases/download/1.2.12-GTNH/bugtorch-1.2.12-GTNH.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/BuildCraft/releases/download/7.1.37/buildcraft-7.1.37.jar"
@@ -487,9 +493,6 @@
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.1.13/CodeChickenCore-1.1.13.jar"
-		},
-		{
-			"url": "https://github.com/quentin452/Redirector/releases/download/1.7.10-1.2.1/redirectionor-1.7.10-1.2.1.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/Additional-Buildcraft-Objects/releases/download/release4.0.14/ABO-MC1.7.10-BC7.1release4.0.14.jar"
