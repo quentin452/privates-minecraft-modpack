@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Recipes marked as "default" will be reset every time the game launches.
+If you wish to disable a recipe change its status to "ignored"
+If you want to add a custom recipe, mark it as "custom". If you mark it as default, it will be deleted!!
+If you alter a default recipe don't forget to also mark it as "custom"
+
+The syntax for an item stack is the same as you'd use in the /give command. NBT tags are supported! (e.g. minecraft:skull 1 3 {SkullOwner:"ganymedes01"})
+The syntax for a fluid stack is simiar to the item stack, it should be the fluid name followed by the amount. NBT tags are also supported! (e.g. water 1000)
+The syntax for ore dictionary values is the value between double-quotes. (e.g. "ingotIron")
+-->
+
+<ENDERFURNACEFUELS>
+	<entry status="default">
+		<fuel>minecraft:ender_pearl 1 0</fuel>
+		<burnTime>1600</burnTime>
+	</entry>
+
+	<entry status="default">
+		<fuel>minecraft:ender_eye 1 0</fuel>
+		<burnTime>2000</burnTime>
+	</entry>
+
+	<entry status="default">
+		<fuel>minecraft:end_stone 1 0</fuel>
+		<burnTime>10</burnTime>
+	</entry>
+
+	<entry status="default">
+		<fuel>"flowerEnder"</fuel>
+		<burnTime>100</burnTime>
+	</entry>
+
+	<entry status="default">
+		<fuel>"blockEnderPearl"</fuel>
+		<burnTime>1600</burnTime>
+	</entry>
+
+</ENDERFURNACEFUELS>

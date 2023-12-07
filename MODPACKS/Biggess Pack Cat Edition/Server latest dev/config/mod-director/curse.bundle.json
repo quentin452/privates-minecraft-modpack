@@ -11,15 +11,27 @@
 			}
 		},
 		{
-			"addonId":923801,
-			"fileId": 4801397,
-			"fileName": "JarFinder.jar",
+			"addonId":227099,
+			"fileId": 2261766,
+			"fileName": "AuraCascade-557.jar",
 			"folder": "mods"
 		},
 		{
-			"addonId":855466,
-			"fileId": 4919706,
-			"fileName": "optimizationsandtweaks-V1.7.0.jar",
+			"addonId":222084,
+			"fileId": 2289135,
+			"fileName": "Ganys+End-1.11.3.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":222302,
+			"fileId": 2274606,
+			"fileName": "Ganys+Surface-1.12.8.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":923801,
+			"fileId": 4801397,
+			"fileName": "JarFinder.jar",
 			"folder": "mods"
 		},
 		{
@@ -100,12 +112,6 @@
 			"addonId": 229876,
 			"fileId": 2244002,
 			"fileName": "BetterFps-1.0.1.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId": 243298,
-			"fileId": 2319767,
-			"fileName": "llibrary-1.5.1-1.7.10.jar",
 			"folder": "mods"
 		},
 		{
