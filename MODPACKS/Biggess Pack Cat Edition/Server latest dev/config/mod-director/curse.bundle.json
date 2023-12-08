@@ -11,12 +11,6 @@
 			}
 		},
 		{
-			"addonId":227099,
-			"fileId": 2261766,
-			"fileName": "AuraCascade-557.jar",
-			"folder": "mods"
-		},
-		{
 			"addonId":222084,
 			"fileId": 2289135,
 			"fileName": "Ganys+End-1.11.3.jar",
@@ -1449,11 +1443,6 @@
 			"addonId": 665627,
 			"fileId": 4905393,
 			"fileName": "falsepatternlib-mc1.7.10-1.0.0.jar"
-		},
-		{
-			"addonId": 232683,
-			"fileId": 2276269,
-			"fileName": "Fancy Fluid Storage-1.7.10-1.3.7.jar"
 		},
 		{
 			"addonId": 336432,
