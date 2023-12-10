@@ -11,6 +11,42 @@
 			}
 		},
 		{
+			"addonId":947266,
+			"fileId": 4933359,
+			"fileName": "rftools-4.24.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":947264,
+			"fileId": 4933351,
+			"fileName": "AgriCraft-1.5.2-unofficial.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":947269,
+			"fileId": 4933362,
+			"fileName": "Electroblob.s.Wizardry.-.1.1.6.-.MC.1.7.10fork3.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":947270,
+			"fileId": 4933366,
+			"fileName": "roguelike-1.5.3-GTNH-master.5+8684ddd572-dirty.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":947274,
+			"fileId": 4947205,
+			"fileName": "DrZharks.MoCreatures.Mod.v6.3.7.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":947323,
+			"fileId": 4942184,
+			"fileName": "tropicraft-v6.1.1.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId":947431,
 			"fileId": 4941543,
 			"fileName": "TragicMC-V2.49.jar",
@@ -604,8 +640,8 @@
 		},
 		{
 			"addonId": 918162,
-			"fileId": 4798838,
-			"fileName": "BattleTowersContinuation-1.7.10-V1.12.2.jar"
+			"fileId": 4944685,
+			"fileName": "BattleTowersContinuation-1.7.10-V1.12.3.jar"
 		},
 		{
 			"addonId": 223951,
@@ -2720,11 +2756,6 @@
 			"addonId": 912447,
 			"fileId": 4749186,
 			"fileName": "SafeKeyString-Forge-1.7.10-1.0.0.jar"
-		},
-		{
-			"addonId": 659083,
-			"fileId": 3985032,
-			"fileName": "SaltyMod Expanded [1.7.10] [1.9.j].jar"
 		},
 		{
 			"addonId": 238154,
