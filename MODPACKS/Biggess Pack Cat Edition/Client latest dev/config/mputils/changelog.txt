@@ -1,3 +1,0 @@
-# Add Your ChangeLog to 'changelog.txt' in the config files
-
-You can use Minecrafts Color Codes to make your changlogs look Good.
