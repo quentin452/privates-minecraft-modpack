@@ -1,0 +1,430 @@
+{
+	"modify":
+	[
+		{
+			"folder": "mods",
+			"fileName": "catwalks-2.0.4.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "hodgepodge-2.3.15-pre.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "Origin-1.9.4-9.1.8.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "AIImprovements-1.7.10-0.0.1b8.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "AdvancedBackups-forge-1.7.10-2.3.2.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "NotEnoughEnergistics-1.4.2.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "InfernalMobs-1.7.9-GTNH.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "aether-1.7.10-1.1.2.2.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "CoreTweaks-1.7.10-0.3.0.4+nomixin.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.30-Core.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.30-Generators.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.30-Tools.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "AdvancedBackups-forge-1.7.10-2.3.2.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "mineralogy-1.7.10-1.2.4.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "Arcana-Rpg-Continuation-1.7.10-1.4.8.1.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "WildMobs-1.7.10-1.5.3.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "multithreadingandtweaks-V0.8.8.2.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "Computronics-1.7.1-GTNH.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "ThaumicRevelations-1.2.2.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "Electroblob's Wizardry - 1.1.6 - MC 1.7.10fork1.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "DefaultWorldGenerator-1.7.10-0.1-b13-universal.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "multithreadingandtweaks-V0.8.8.0.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "playertrophy-1.7.10-1.3.3b.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "BattleTowersContinuation-1.7.10-V1.12.1.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "butterflymania-1.7.10-1.3.2.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "IC2NuclearControl-1.7.10-2.4.16.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "chisel-2.11.3-GTNH.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "RandomThings-2.4.4.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "eternalsingularity-1.0.10.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "Avaritia-1.45.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "backpack-2.2.11-GTNH.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "BetterBuildersWands-1.7.10-0.9.6-GTNH.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "TwilightForest-2.4.3.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "TMechworks-1.7.10-0.2.15.106.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "magicbees-2.6.6-GTNH.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "structurelib-1.2.8.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "ae2stuff-0.5.7-GTNH.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "OpenGlasses-1.3.1-GTNH.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "WAILAPlugins-0.2.6.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "OpenComputers-1.9.14-GTNH.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "Schematica-1.9.3-GTNH.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "overloadedarmorbar-1.7.10-1.0.1.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "torohealth-1.7.10-1.0.1.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "EnderIO-2.4.24.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "endercore-0.2.17.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "BetterQuesting-3.3.27-GTNH.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "Botania-1.9.24-GTNH.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "TConstruct-1.9.39-GTNH.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "adventurebackpack-1.0.14-GTNH.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "IronChest-1.7.10-6.0.71.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "WirelessCraftingTerminal-1.9.4.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "StorageDrawers-1.12.0-GTNH.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "appliedenergistics2-rv3-beta-248-GTNH.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "[MC1.7.10]Hearts-2.0.1.54_R.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "[1.7.2] 3D Furnace-1.4.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "txloader-1.6.0.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "NotEnoughItems-2.4.3-GTNH.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "Frustrator-1.7.10-1.1.1.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "AdvancedBackups-forge-1.7.10-2.2.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "IGW-Mod-1.7.10-1.1.12-34-universal.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "D3Core-1.7.10-1.1.2.41.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "zeldaswordskills-1.7.10-v2.5.3.1-1-7-10.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "1.7.10-zeldaswordskills-2.5.3.1",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "ABO-MC1.7.10-BC7.1release4.0.13.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "redirectionor-1.7.10-1.2.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "journeymap-1.7.10-5.1.4p6-unlimited.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "roguelike-1.5.3-GTNH-5-g5d1397a.dirty.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "hodgepodge-2.3.7.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "hodgepodge-2.3.8.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "hodgepodge-2.3.9.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "Arcana-Rpg-Continuation-1.7.10-1.4.7.8.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "Arcana-Rpg-Continuation-1.7.10-1.4.7.9.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "Arcana-Rpg-Continuation-1.7.10-1.4.8.0.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "AdvancedBackups-forge-1.7.10-2.0.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "AdvancedBackups-forge-1.7.10-2.1.3.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "multithreadingandtweaks-V0.8.7.7.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "[1.7.10]PacmanMod 1.0.8Installer.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "ssmlegacy-mc1.7.10-1.2.0.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "Induo Hammers-1.0.1.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "cooler-1.7.10-1.1.5.1β.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "Atum-1.7.10-0.6.77.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "mineralogy-1.7.10-1.2.3.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "ASMC-1.7.10-1.0.2.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "Decocraft-2.4.2_1.7.10.jar",
+			"delete": true
+		},
+		{
+			"folder": "mods",
+			"fileName": "hodgepodge-2.3.6.jar",
+			"delete": true
+		}
+	]
+}
