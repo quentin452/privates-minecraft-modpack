@@ -6,7 +6,8 @@
 			"folder": "config",
 			"installationPolicy":
 			{
-				"extract": true
+				"extract": true,
+				"modpackVersion": "V0.90.9"
 			}
 		}
 	]
