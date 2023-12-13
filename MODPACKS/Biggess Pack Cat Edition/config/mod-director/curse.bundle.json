@@ -259,12 +259,6 @@
 			"folder": "mods"
 		},
 		{
-			"addonId": 873867,
-			"fileId": 4897941,
-			"fileName": "!Red-Core-MC-1.7-1.12-0.6-Dev-1.jar",
-			"folder": "mods"
-		},
-		{
 			"addonId": 256087,
 			"fileId": 2444459,
 			"fileName": "Notes-1.7.10-1.1.1.jar",
@@ -2386,11 +2380,6 @@
 			"fileName": "NotEnoughBones-1.7.10-1.0.jar"
 		},
 		{
-			"addonId": 322159,
-			"fileId": 4460610,
-			"fileName": "NotEnoughPets-1.7.10-2.3.6.jar"
-		},
-			{
 			"addonId": 277740,
 			"fileId": 2478642,
 			"fileName": "obelisk-1.7.10-1.0.0.jar"
