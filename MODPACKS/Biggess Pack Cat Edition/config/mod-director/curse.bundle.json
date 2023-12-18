@@ -11,6 +11,24 @@
 			}
 		},
 		{
+			"addonId":886305,
+			"fileId": 4633027,
+			"fileName": "ssmlegacy-mc1.7.10-1.2.1.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":223908,
+			"fileId": 2321502,
+			"fileName": "fossilsarcheology-7.3.2.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":224375,
+			"fileId": 2268219,
+			"fileName": "ThutMods-2.1.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId":947266,
 			"fileId": 4933359,
 			"fileName": "rftools-4.24.jar",
@@ -3068,11 +3086,6 @@
 			"addonId": 245708,
 			"fileId": 2304677,
 			"fileName": "ThermalSmeltery-Redux-v1.1.jar"
-		},
-		{
-			"addonId": 260368,
-			"fileId": 2381962,
-			"fileName": "The Wings of Alfheim-1.7.10-30.jar"
 		},
 		{
 			"addonId": 231124,

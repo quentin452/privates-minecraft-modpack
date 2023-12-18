@@ -48,9 +48,6 @@
 			"url": "https://github.com/quentin452/Galacticraft-Continuation/releases/download/V4.1.6/Galacticraft-V4.1.6.jar"
 		},
 		{
-			"url": "https://cdn.modrinth.com/data/IJY7IqPP/versions/xrKK0Ej7/fossilsarcheology-7.3.2.jar"
-		},
-		{
 			"url": "https://github.com/GTNewHorizons/HoloInventory/releases/download/2.3.2-GTNH/holoinventory-2.3.2-GTNH.jar"
 		},
 		{
@@ -271,7 +268,7 @@
 			"url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.2.1-GTNH/Draconic-Evolution-1.2.1-GTNH.jar"
 		},
 		{
-			"url": "https://cdn.modrinth.com/data/cW8M4ADI/versions/xAJKpyqb/elytra_mining-1.7.10-1.2.0.jar"
+			"url": "https://github.com/Taskeren/ElytraMining/releases/download/1.2.0.1/elytra_mining-1.7.10-1.2.0.1.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/EnderCore/releases/download/0.2.18/endercore-0.2.18.jar"
@@ -341,9 +338,6 @@
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/itlt/releases/download/1.0.4/itlt-1.7.10-1.0.4.jar"
-		},
-		{
-			"url": "https://cdn.modrinth.com/data/nyobcYVj/versions/1.0.0%2B1.7_to_1.8/languagefix-1.0.0+1.7_to_1.8.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.2.9-GTNH/littletiles-1.2.9-GTNH.jar"
@@ -437,9 +431,6 @@
 			"url": "https://github.com/GTNewHorizons/SpecialMobs/releases/download/3.4.3/SpecialMobs-3.4.3.jar"
 		},
 		{
-			"url": "https://cdn.modrinth.com/data/vwTF02wB/versions/qUVByuYA/ssmlegacy-mc1.7.10-1.2.1.jar"
-		},
-		{
 			"url": "https://github.com/GTNewHorizons/StevesAddons/releases/download/0.10.27/StevesAddons-1.7.10-0.10.27.jar"
 		},
 		{
@@ -501,7 +492,7 @@
 			"url": "https://github.com/quentin452/Additional-Buildcraft-Objects/releases/download/release4.0.14/ABO-MC1.7.10-BC7.1release4.0.14.jar"
 		},
 		{
-			"url": "https://cdn.modrinth.com/data/cKitwCSu/versions/uxSWLWki/TileEntityResetFix-1.0.1-noreq.jar"
+			"url": "https://github.com/TCLProject/TileEntityResetFix/releases/download/1.0.1-noreq/TileEntityResetFix-1.0.1-noreq.jar"
 		}
 	]
 }
