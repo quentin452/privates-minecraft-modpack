@@ -11,6 +11,24 @@
 			}
 		},
 		{
+			"addonId":404239,
+			"fileId": 4967772,
+			"fileName": "DimensionalDoors-2.2.6-1.7.10.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":239115,
+			"fileId": 2294996,
+			"fileName": "morefuelsmod-1.7.10-v1.3.2.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":466902,
+			"fileId": 4450692,
+			"fileName": "MoreBows-1.0.10.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId":886305,
 			"fileId": 4633027,
 			"fileName": "ssmlegacy-mc1.7.10-1.2.1.jar",
@@ -60,8 +78,8 @@
 		},
 		{
 			"addonId":947431,
-			"fileId": 4965402,
-			"fileName": "TragicMC-V2.53.jar",
+			"fileId": 4970239,
+			"fileName": "TragicMC-V2.54.jar",
 			"folder": "mods"
 		},
 		{
