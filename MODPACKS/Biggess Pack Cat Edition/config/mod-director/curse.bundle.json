@@ -2387,7 +2387,10 @@
 		{
 			"addonId": 353994,
 			"fileId": 2838405,
-			"fileName": "wisla-1.0.0.jar"
+			"fileName": "wisla-1.0.0.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
 		},
 		{
 			"addonId": 617897,
