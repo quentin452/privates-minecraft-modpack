@@ -146,20 +146,14 @@
 		},
 		{
 			"addonId": 939770,
-			"fileId": 4891946,
-			"fileName": "Pumpkifiction-1.0.2.jar",
+			"fileId": 4952523,
+			"fileName": "Pumpkifiction-1.0.4.jar",
 			"folder": "mods"
 		},
 		{
 			"addonId": 572570,
 			"fileId": 3637728,
 			"fileName": "Opticubes-1.7.10-1.0.0.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId": 229073,
-			"fileId": 2232170,
-			"fileName": "Hats-4.0.1.jar",
 			"folder": "mods"
 		},
 		{
@@ -317,14 +311,14 @@
 		},
 		{
 			"addonId": 263420,
-			"fileId": 4716681,
-			"fileName": "Xaeros_Minimap_21.10.38_Forge_1.7.10.jar",
+			"fileId": 4905582,
+			"fileName": "Xaeros_Minimap_21.10.40_Forge_1.7.10.jar",
 			"folder": "mods"
 		},
 		{
 			"addonId": 317780,
-			"fileId": 4716737,
-			"fileName": "XaerosWorldMap_1.14.1.29_Forge_1.7.10.jar",
+			"fileId": 4905612,
+			"fileName": "XaerosWorldMap_1.14.1.30_Forge_1.7.10.jar",
 			"folder": "mods"
 		},
 		{
@@ -397,8 +391,8 @@
 		},
 		{
 			"addonId": 389886,
-			"fileId": 4585149,
-			"fileName": "[1.7.10] The Rings of Power v23.06.13.jar"
+			"fileId": 4824018,
+			"fileName": "[1.7.10] The Rings of Power v23.10.29.jar"
 		},
 		{
 			"addonId": 230674,
@@ -1086,8 +1080,8 @@
 		},
 		{
 			"addonId": 297038,
-			"fileId": 4819719,
-			"fileName": "CraftPresence-2.2.4+1.7.10.jar",
+			"fileId": 4969665,
+			"fileName": "CraftPresence-2.2.6+1.7.10.jar",
 			"metadata": {
 				"side": "CLIENT"
 			}
@@ -3364,14 +3358,9 @@
 			"fileName": "Zoocraft Discoveries 1.7.10-1.1.0.jar"
 		},
 		{
-			"addonId": 224369,
-			"fileId": 2223720,
-			"fileName": "Ztones-1.7.10-2.2.1.jar"
-		},
-		{
 			"addonId": 826970,
-			"fileId": 4889127,
-			"fileName": "+unimixins-all-1.7.10-0.1.14.jar"
+			"fileId": 4982116,
+			"fileName": "+unimixins-all-1.7.10-0.1.15.jar"
 		},
 		{
 			"addonId": 688894,
