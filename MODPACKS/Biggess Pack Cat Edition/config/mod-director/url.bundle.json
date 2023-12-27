@@ -6,18 +6,49 @@
 			"fileName": "advancedgenetics-1.7.2-1.5.jar"
 		},
 		{
-			"url": "https://download1078.mediafire.com/6ut3sxd75wygNtauDH7qtZuk4e2Sj635WIdEDx8VqQMiiT9oTccne5hksMzOY58LkQtjc3Nlf08NPu_-nAmnJZjjAEFjcWc8ND5Ct-Jv1uu-71duc5U7kQBxdErurBnYhrHsglNQQNJvnvsNEMclHYgdqmT3hqAsiw3krzP7GNQ/bi3b9bu2btg2yb0/ColorMod-2.0.zip",
+			"url": "https://download1531.mediafire.com/sywa2zoezvkgTjDFkEBEE9N06PVKDmBU2C2IV0nwzsYBbymGIwtDDhztyBd0l-ZIB8NhT9mS9Ia_z1ylhw1p74YQqPnxVJvNIoHnx7QyWFNZfGxvo9lMOwjghLK3lBWvcy3yDyHynT1aRU4RZIQCNjDbhS1W-7vB6im8sKJYaC4/qvm79r056535zlx/HEGM+1.7.10+Update+1.jar",
 			"fileName": "HEGM 1.7.10 Update 1.jar"
 		},
 		{
-			"url": "https://download1531.mediafire.com/sywa2zoezvkgTjDFkEBEE9N06PVKDmBU2C2IV0nwzsYBbymGIwtDDhztyBd0l-ZIB8NhT9mS9Ia_z1ylhw1p74YQqPnxVJvNIoHnx7QyWFNZfGxvo9lMOwjghLK3lBWvcy3yDyHynT1aRU4RZIQCNjDbhS1W-7vB6im8sKJYaC4/qvm79r056535zlx/HEGM+1.7.10+Update+1.jar",
-			"fileName": "ColorMod-2.0.zip"
+			"url": "https://minecraft-inside.ru/download/12039/",
+			"fileName": "FloorBallCraft-Mod-1.7.10.jar"
+		},
+		{
+			"url": "https://dl.9minecraft.net/index.php?act=download&id=1667214493&hash=658bbd2c6f8bd",
+			"fileName": "M&Ms-Mod-1.7.10.jar"
+		},
+		{
+			"url": "https://dl4.9minecraft.net/index.php?act=download&id=1408423877&hash=658bbe292e5a8",
+			"fileName": "OresPlus-Mod-1.7.10.jar"
+		},
+		{
+			"url": "https://dl4.9minecraft.net/index.php?act=download&id=1412908381&hash=658bc05f0620c",
+			"fileName": "Fireplace-Mod-1.7.10.jar"
+		},
+		{
+			"url": "https://dl4.9minecraft.net/index.php?act=download&id=1412908464&hash=658bc05b5f386",
+			"fileName": "Grim3212-Core-1.7.10.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/Natura/releases/download/2.5.7/Natura-2.5.7.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/Nutrition/releases/download/0.0.5/nutrition-0.0.5.jar"
+		},
+		{
+			"url": "https://github.com/Rozmir-Rohi/primitive-mobs-1.7.10-rozmirs-fork/releases/download/1.0/primitive-mobs-rozmirs-fork-1.0.jar"
+		},
+		{
+			"url": "https://github.com/DrParadox7/WitchingGadgets/releases/download/v1.3.0-LE/WitchingGadgets-v1.3.0-LE.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/Ztones-Unofficial/releases/download/2.3.0-GTNH/Ztones-2.3.0-GTNH.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.9.5/optimizationsandtweaks-V1.9.5.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.9.6/optimizationsandtweaks-V1.9.6.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/NotEnoughItems/releases/download/v2.4.13fork1/NotEnoughItems-2.4.13fork1.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/Aura-Cascade/releases/download/558/AuraCascade-558.jar"
@@ -41,7 +72,7 @@
 			"url": "https://github.com/quentin452/Coral-Reef-Continuation/releases/download/fork1/Coral-Reef-Mod-1.7.10-Scuba-Divingfork1.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/The-Lord-of-the-Rings/releases/download/v36.27/LOTRModfork.v36.27.jar"
+			"url": "https://github.com/quentin452/The-Lord-of-the-Rings/releases/download/v36.28/LOTRModfork.v36.28.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/EndlessIDs/releases/download/1.5-beta0001fork1/endlessids-mc1.7.10-1.5-beta0001fork1.jar"
@@ -66,6 +97,9 @@
 		},
 		{
 			"url": "https://github.com/quentin452/Et-Futurum-Requiem/releases/download/v2.6.0fork5/Et_Futurum_Requiem-2.6.0fork5.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/MegaBlue/releases/download/V2.0.1/MegaBlueMod-2.0.1.jar"
 		},
 		{
 			"url": "https://github.com/jss2a98aj/NotFine/releases/download/0.1.1/notfine-0.1.1.jar",
@@ -149,10 +183,19 @@
 			"url": "https://github.com/GTNewHorizons/TinkersMechworks/releases/download/0.3.0/TMechworks-0.3.0.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/Amazing-Trophies/releases/download/0.5.0/amazingtrophies-0.5.0.jar"
+			"url": "https://github.com/quentin452/MinecraftMineralogy/releases/download/V1.2.8/mineralogy-V1.2.8.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/Amazing-Trophies/releases/download/1.1.4/amazingtrophies-1.1.4.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/DuraDisplay/releases/download/1.1.7/duradisplay-1.1.7.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Uplink/releases/download/V1.2.3/Uplink-MC1.7.10-1.2.3.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
 		},
 		{
 			"url": "https://github.com/quentin452/Gollum-core-lib-reup/releases/download/1.7.10-2.0.0/GollumCoreLib-2.0.0-1.7.10.jar",
@@ -467,9 +510,6 @@
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/ToroHealth/releases/download/1.0.2/torohealth-1.0.2.jar"
-		},
-		{
-			"url": "https://github.com/quentin452/Traincraft-RWC-EditionReupwithoutFoxblocks/releases/download/withoutfoxblock2/Traincraft-4.4.1_020-CE_3.3.1-RWC_6.0.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/Universal-Singularities/releases/download/8.6.6/Universal-Singularities-8.6.6.jar"
