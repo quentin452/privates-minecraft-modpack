@@ -2,6 +2,10 @@ import glob
 from zipfile import ZipFile, BadZipFile
 import sys
 import os
+import logging
+
+# Configure logging
+logging.basicConfig(filename='search_logs.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 script_directory = os.path.dirname(os.path.realpath(__file__))
 
@@ -13,6 +17,7 @@ while True:
 
     if not os.path.isdir(rootdir):
         print("Invalid directory path or directory does not exist.")
+        logging.error(f"Invalid directory path or directory does not exist: {rootdir}")
         continue
 
     query = ""
@@ -22,8 +27,11 @@ while True:
         if query.lower() == 'exit':
             break
 
-        names = "--names" in sys.argv
+        if not query.strip():  # Check if the query string is empty or contains only whitespace
+            print("Please enter a valid search text or type 'exit' to change root folder.")
+            continue
 
+        names = "--names" in sys.argv
         deep_scan = not names
 
         # Load excluded extensions from the config file
@@ -42,7 +50,11 @@ while True:
             pass  # Handle the case where the config file doesn't exist
 
         def scan_zip(path):
-            zip = ZipFile(path)
+            try:
+                zip = ZipFile(path)
+            except BadZipFile:
+                logging.warning(f"Skipped {path}: Not a valid ZIP file")
+                return []  # Return an empty list when encountering a bad ZIP file
             
             found_files = []
             
@@ -51,18 +63,18 @@ while True:
                 if any(name.lower().endswith(ext) for ext in excluded_extensions):
                     continue  # Skip excluded file types
                 
-                if (deep_scan and query.encode("latin-1") in zip.read(name)) or (not deep_scan and query in name):
+                content = zip.read(name).decode("latin-1")  # Decode content from ZIP file
+                content_lower = content.lower()  # Convert content to lowercase for case-insensitive comparison
+                
+                if (deep_scan and query.lower() in content_lower) or (not deep_scan and query.lower() in name.lower()):
                     found_files.append(name)
             
             return found_files
 
         for path in glob.glob(rootdir + "/**/*", recursive=True):
             if not os.path.isdir(path):
-                try:
-                    found = scan_zip(path)
-                    if found:
-                        print("\n" + path + " contains the query in these files:\n" + "\n".join([" * " + x for x in found]))
-                except BadZipFile as e:
-                    pass
-                except Exception as e:
-                    print("\nException scanning", path, ":", e)
+                found = scan_zip(path)
+                if found:
+                    message = f"{path} contains the query in these files:\n" + "\n".join([" * " + x for x in found])
+                    print("\n" + message)
+                    logging.info(message)
