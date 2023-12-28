@@ -30,7 +30,16 @@
 			"fileName": "Grim3212-Core-1.7.10.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/Natura/releases/download/2.5.7/Natura-2.5.7.jar"
+			"url": "https://github.com/quentin452/Immibis-Core-Reup/releases/download/V59.1.4/immibis-core-59.1.4.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/AutoFood/releases/download/V59.0.0/autofood-59.0.0.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Mariculture/releases/download/1.3.0-6fork1/Mariculture-Deluxe-1.7.10-1.3.0-6fork1.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Natura/releases/download/2.5.7fork1/Natura-2.5.7fork1.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/Nutrition/releases/download/0.0.5/nutrition-0.0.5.jar"
@@ -304,7 +313,7 @@
 			"url": "https://github.com/quentin452/confighelper2/releases/download/1.2.5.5/confighelper-1.7.10-1.2.5.5.jar"
 		},
 		{
-			"url": "https://github.com/makamys/CoreTweaks/releases/download/0.3.3.1/CoreTweaks-1.7.10-0.3.3.1+nomixin.jar"
+			"url": "https://github.com/makamys/CoreTweaks/releases/download/0.3.3.2/CoreTweaks-1.7.10-0.3.3.2+nomixin.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/CraftTweaker/releases/download/3.2.13/CraftTweaker-3.2.13.jar"

@@ -11,6 +11,24 @@
 			}
 		},
 		{
+			"addonId":302913,
+			"fileId": 2982112,
+			"fileName": "middleearththaumaturgy-0.7.3.1_a for v36.x.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":243190,
+			"fileId": 4635415,
+			"fileName": "ShoulderSurfing-1.7.10-2.4.1.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":235201,
+			"fileId": 2255507,
+			"fileName": "SeedCopy-1.7.10-1.0.0.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId":404239,
 			"fileId": 4967772,
 			"fileName": "DimensionalDoors-2.2.6-1.7.10.jar",
@@ -245,12 +263,6 @@
 			"folder": "mods"
 		},
 		{
-			"addonId":68023,
-			"fileId": 2323944,
-			"fileName": "Mariculture-Deluxe-1.7.10-1.3.0-6.jar",
-			"folder": "mods"
-		},
-		{
 			"addonId":250498,
 			"fileId": 2327392,
 			"fileName": "MowziesMobs-1.2.99.jar",
@@ -368,12 +380,6 @@
 			"addonId":939770,
 			"fileId": 4914347,
 			"fileName": "ThaumicRevelations-1.2.2.1.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId": 229089,
-			"fileId": 2232259,
-			"fileName": "Streak-4.0.0.jar",
 			"folder": "mods"
 		},
 		{
@@ -3431,11 +3437,6 @@
 			"addonId": 237289,
 			"fileId": 2263773,
 			"fileName": "TougherTools-SPELLS.jar"
-		},
-		{
-			"addonId": 229094,
-			"fileId": 2232285,
-			"fileName": "TrailMix-4.0.0.jar"
 		},
 		{
 			"addonId": 272266,
