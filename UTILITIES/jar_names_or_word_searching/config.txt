@@ -1,0 +1,10 @@
+# config.txt
+.mp3=true
+.wav=true
+.json=true
+.mf=true
+.sf=true
+.jar=true
+# Class is more important (Main libary for the mod sace)
+.class=false
+# Add more extensions here as needed with true or false values
