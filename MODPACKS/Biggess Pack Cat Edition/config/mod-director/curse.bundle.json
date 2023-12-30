@@ -11,6 +11,18 @@
 			}
 		},
 		{
+			"addonId":226395,
+			"fileId": 2875412,
+			"fileName": "Apples+.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":257487,
+			"fileId": 2593260,
+			"fileName": "Color Blocks Plus - 1.0.20180725.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId":302913,
 			"fileId": 2982112,
 			"fileName": "middleearththaumaturgy-0.7.3.1_a for v36.x.jar",
@@ -188,12 +200,6 @@
 			"addonId":237539,
 			"fileId": 2264768,
 			"fileName": "Pumpkin Tools[1.7.10-V1].jar",
-			"folder": "mods"
-		},
-		{
-			"addonId":255256,
-			"fileId": 2356838,
-			"fileName": "puzzlecubes-2.3.jar",
 			"folder": "mods"
 		},
 		{
@@ -1238,8 +1244,8 @@
 		},
 		{
 			"addonId": 844484,
-			"fileId": 4870978,
-			"fileName": "chunkapi-mc1.7.10-0.4.0-hotfix1.jar"
+			"fileId": 4990503,
+			"fileName": "chunkapi-mc1.7.10-0.5.0.jar"
 		},
 		{
 			"addonId": 242568,
