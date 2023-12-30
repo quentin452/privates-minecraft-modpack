@@ -45,9 +45,6 @@
 			"url": "https://github.com/quentin452/Mobs-Block-Reup/releases/download/V1.0/mob_blocks_mod_1.7.10.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/Food-Reup/releases/download/V1.0/food_plus_mod_1.7.10.jar"
-		},
-		{
 			"url": "https://github.com/quentin452/Fans-Mod-Reup/releases/download/V1.0/fans_mod_1.7.10.jar"
 		},
 		{
@@ -81,10 +78,13 @@
 			"url": "https://github.com/GTNewHorizons/Ztones-Unofficial/releases/download/2.3.0-GTNH/Ztones-2.3.0-GTNH.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.9.9/optimizationsandtweaks-V1.9.9.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.10.0/optimizationsandtweaks-V1.10.0.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/NotEnoughItems/releases/download/v2.4.13fork1/NotEnoughItems-2.4.13fork1.jar"
+			"url": "https://github.com/GTNewHorizons/HungerOverhaul/releases/download/1.0.4-GTNH/HungerOverhaul-1.7.10-1.0.4-GTNH.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/NotEnoughItems/releases/download/v2.4.13fork2/NotEnoughItems-2.4.13fork2.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/Aura-Cascade/releases/download/558/AuraCascade-558.jar"
@@ -156,7 +156,7 @@
 			"url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.0.7/ServerUtilities-2.0.7.jar"
 		},
 		{
-			"url": "https://github.com/Alastors/ThaumicBoots/releases/download/1.1.0.0/thaumicboots-1.1.0.0.jar"
+			"url": "https://github.com/Alastors/ThaumicBoots/releases/download/1.1.0.1/thaumicboots-1.1.0.1.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/DynamicDynamos/releases/download/v0.2.2/DynamicDynamos-0.2.2.jar"
@@ -407,9 +407,6 @@
 			"metadata": {
 				"side": "CLIENT"
 			}
-		},
-		{
-			"url": "https://github.com/quentin452/Infernal-Mobs-Continuation/releases/download/1.8.0/InfernalMobs-1.8.0.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/inventory-tweaks/releases/download/1.5.16/inventorytweaks-1.5.16.jar"
