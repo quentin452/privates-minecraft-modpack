@@ -526,12 +526,6 @@
 			"folder": "mods"
 		},
 		{
-			"addonId": 289181,
-			"fileId": 2535617,
-			"fileName": "ThaumPatch-1.7.10-1.0.2.9-universal.jar",
-			"folder": "mods"
-		},
-		{
 			"addonId": 225095,
 			"fileId": 2241913,
 			"fileName": "thaumcraftneiplugin-1.7.10-1.7a.jar",
@@ -3293,6 +3287,11 @@
 			"addonId": 620164,
 			"fileId": 4357794,
 			"fileName": "terralizationcompat-1.7.10-1.0.5.jar"
+		},
+		{
+			"addonId": 237422,
+			"fileId": 2286706,
+			"fileName": "LightningCraft-1.5.0-[1.7.10].jar"
 		},
 		{
 			"addonId": 332131,
