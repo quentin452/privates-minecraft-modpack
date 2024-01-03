@@ -11,6 +11,12 @@
 			}
 		},
 		{
+			"addonId":230410,
+			"fileId": 2237835,
+			"fileName": "TerraArts-1.1.1710.27.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId":230103,
 			"fileId": 2256966,
 			"fileName": "DummyCore-2.0.1710.0A.jar",
@@ -56,12 +62,6 @@
 			"addonId":243019,
 			"fileId": 2305478,
 			"fileName": "Carnival-1.7.10-1.0.4a.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId":258378,
-			"fileId": 2529469,
-			"fileName": "ChinaCraft-1.7.10-0.4.208.jar",
 			"folder": "mods"
 		},
 		{
@@ -1212,11 +1212,6 @@
 			"fileName": "biggerpacketsplz-upto1.7.10-1.2.jar"
 		},
 		{
-			"addonId": 241994,
-			"fileId": 2282591,
-			"fileName": "BigReactors-0.4.3A.jar"
-		},
-		{
 			"addonId": 243812,
 			"fileId": 2293356,
 			"fileName": "biomereactors-1.0.2.jar"
@@ -2132,11 +2127,6 @@
 			"addonId": 227657,
 			"fileId": 2226680,
 			"fileName": "GlobalGameRules-1.0.jar"
-		},
-		{
-			"addonId": 229157,
-			"fileId": 2283306,
-			"fileName": "godweapons - 1.7.10 - 4.1.jar"
 		},
 		{
 			"addonId": 238635,

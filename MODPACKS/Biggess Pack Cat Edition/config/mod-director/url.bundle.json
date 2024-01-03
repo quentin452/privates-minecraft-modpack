@@ -34,6 +34,12 @@
 			"fileName": "replaymod-1.7.10-2.5.2.jar"
 		},
 		{
+			"url": "https://github.com/quentin452/ChinaCraft/releases/download/V0.5/chinacraft-Beta-0.5.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/BiggessPackTweakMod/releases/download/V1.0/BiggessPackTweak-V1.0.jar"
+		},
+		{
 			"url": "https://github.com/quentin452/Infernal-Mobs-Continuation/releases/download/1.8.0/InfernalMobs-1.8.0.jar"
 		},
 		{
@@ -91,7 +97,7 @@
 			"url": "https://github.com/GTNewHorizons/HungerOverhaul/releases/download/1.0.4-GTNH/HungerOverhaul-1.7.10-1.0.4-GTNH.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/NotEnoughItems/releases/download/2.4.13-GTNHfork2/NotEnoughItems-2.4.13-GTNHfork2.jar"
+			"url": "https://github.com/quentin452/NotEnoughItems/releases/download/v2.4.13fork3/NotEnoughItems-2.4.13-GTNHfork3.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/Aura-Cascade/releases/download/558/AuraCascade-558.jar"
@@ -392,7 +398,7 @@
 			"url": "https://github.com/quentin452/Familiars-API-mods-reup/releases/download/1.7.108/FamiliarsHerobrineFamPack-1.7.10.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.10.6/optimizationsandtweaks-V1.10.6.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.10.7/optimizationsandtweaks-V1.10.7.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.8.1/Forestry-4.8.1.jar"
