@@ -30,6 +30,10 @@
 			"fileName": "Grim3212-Core-1.7.10.jar"
 		},
 		{
+			"url": "https://www.replaymod.com/download/download_new.php?version=1.7.10-2.5.2",
+			"fileName": "replaymod-1.7.10-2.5.2.jar"
+		},
+		{
 			"url": "https://github.com/quentin452/Infernal-Mobs-Continuation/releases/download/1.8.0/InfernalMobs-1.8.0.jar"
 		},
 		{
@@ -66,10 +70,10 @@
 			"url": "https://github.com/quentin452/AutoFood/releases/download/V59.0.0/autofood-59.0.0.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/Mariculture/releases/download/1.3.0-6fork4/Mariculture-Deluxe-1.7.10-1.3.0-6fork4.jar"
+			"url": "https://github.com/quentin452/Mariculture/releases/download/1.3.0-6fork6/mariculture-1.3.0-6fork6.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/Natura/releases/download/2.5.7fork1/Natura-2.5.7fork1.jar"
+			"url": "https://github.com/quentin452/Natura/releases/download/2.5.7fork2/Natura-2.5.7fork2.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/Nutrition/releases/download/0.0.5/nutrition-0.0.5.jar"
@@ -82,9 +86,6 @@
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/Ztones-Unofficial/releases/download/2.3.0-GTNH/Ztones-2.3.0-GTNH.jar"
-		},
-		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.10.3/optimizationsandtweaks-V1.10.3.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/HungerOverhaul/releases/download/1.0.4-GTNH/HungerOverhaul-1.7.10-1.0.4-GTNH.jar"
@@ -123,7 +124,7 @@
 			"url": "https://github.com/quentin452/Essence-of-the-god-reup/releases/download/V1.5.4/eotg-V1.5.4.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/Hodgepodge/releases/download/v2.4.3fork1/hodgepodge-v2.4.3fork2.jar"
+			"url": "https://github.com/quentin452/Hodgepodge/releases/download/v2.4.5fork1/hodgepodge-v2.4.5fork1.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/eldritchempires/releases/download/1.7.10-091/eldritch-empires-091.1.jar"
@@ -138,7 +139,7 @@
 			"url": "https://github.com/quentin452/Alchemy-Craft-fork/releases/download/V1.2.0.2/alchemycraft2.v1.2.0.2.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/Et-Futurum-Requiem/releases/download/v2.6.0fork5/Et_Futurum_Requiem-2.6.0fork5.jar"
+			"url": "https://github.com/quentin452/Et-Futurum-Requiem/releases/download/v2.6.0fork6/Et_Futurum_Requiem-2.6.0fork6.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/MegaBlue/releases/download/V2.0.1/MegaBlueMod-2.0.1.jar"
@@ -156,9 +157,6 @@
 			}
 		},
 		{
-			"url": "https://github.com/embeddedt/Mooz/releases/download/0.1.0/mooz-mc1.7.10-0.1.0.jar"
-		},
-		{
 			"url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.0.7/ServerUtilities-2.0.7.jar"
 		},
 		{
@@ -174,7 +172,10 @@
 			"url": "https://github.com/quentin452/wildmobs/releases/download/1.5.6.7/WildMobs-1.7.10-1.5.6.7.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/AppleCore/releases/download/3.2.12/AppleCore-3.2.12.jar"
+			"url": "https://github.com/quentin452/tropicraft-REUP/releases/download/v6.1.3/tropicraft-v6.1.3.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/AppleCore/releases/download/v3.2.12fork1/AppleCore-3.2.12fork1.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/BuildCraftCompat/releases/download/7.1.16/buildcraft-compat-7.1.16.jar"
@@ -223,9 +224,6 @@
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/TinkersMechworks/releases/download/0.3.0/TMechworks-0.3.0.jar"
-		},
-		{
-			"url": "https://github.com/quentin452/MinecraftMineralogy/releases/download/V1.2.8/mineralogy-V1.2.8.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/Amazing-Trophies/releases/download/1.1.4/amazingtrophies-1.1.4.jar"
@@ -379,7 +377,7 @@
 			"url": "https://github.com/GTNewHorizons/ExtraCells2/releases/download/2.5.34/ExtraCells-2.5.34.jar"
 		},
 		{
-			"url": "https://github.com/FalsePattern/FalseTweaks/releases/download/2.7.3/falsetweaks-mc1.7.10-2.7.3.jar"
+			"url": "https://github.com/FalsePattern/FalseTweaks/releases/download/2.7.4/falsetweaks-mc1.7.10-2.7.4.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/Familiars-API-mods-reup/releases/download/1.7.105/FamiliarsAPI-1.7.10.jar"
@@ -394,7 +392,10 @@
 			"url": "https://github.com/quentin452/Familiars-API-mods-reup/releases/download/1.7.108/FamiliarsHerobrineFamPack-1.7.10.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.7.1/Forestry-4.7.1.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.10.6/optimizationsandtweaks-V1.10.6.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.8.1/Forestry-4.8.1.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/gendustry/releases/download/1.6.5.5-GTNH/gendustry-1.7.10-1.6.5.5-GTNH.jar"

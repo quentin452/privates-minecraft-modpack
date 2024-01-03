@@ -11,6 +11,210 @@
 			}
 		},
 		{
+			"addonId":230103,
+			"fileId": 2256966,
+			"fileName": "DummyCore-2.0.1710.0A.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":243205,
+			"fileId": 2309559,
+			"fileName": "[1.7.10]MoVillages-1.4.2.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":229626,
+			"fileId": 2261983,
+			"fileName": "AncientTrees-1.7.10-1.6.4.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":910848,
+			"fileId": 5001152,
+			"fileName": "mineralogy-V1.2.9.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":229931,
+			"fileId": 2235686,
+			"fileName": "BatBelt-1.1.0.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":233175,
+			"fileId": 2278998,
+			"fileName": "bedcraftbeyond-1.7.10-1.1.5.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":567107,
+			"fileId": 4002829,
+			"fileName": "Bodyguards 1.0.2.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":243019,
+			"fileId": 2305478,
+			"fileName": "Carnival-1.7.10-1.0.4a.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":258378,
+			"fileId": 2529469,
+			"fileName": "ChinaCraft-1.7.10-0.4.208.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":226759,
+			"fileId": 2225803,
+			"fileName": "Classlessrook32's-Coins-Mod-v1.2.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":950952,
+			"fileId": 4995243,
+			"fileName": "ColoredEndCrystals-1.0.1-forge-1.7.10.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":223324,
+			"fileId": 2211497,
+			"fileName": "dooglamoojuniorarchaeology-1.7.10-1.0.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":226591,
+			"fileId": 2223296,
+			"fileName": "ExperienceOre-1.1a.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":227277,
+			"fileId": 2226248,
+			"fileName": "Floating Rails Beta v1.0.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":227782,
+			"fileId": 2291991,
+			"fileName": "Floocraft-1.7.10-1.7.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":913626,
+			"fileId": 4964433,
+			"fileName": "History of Arda-ALPHA 1.3.1.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":63549,
+			"fileId": 2233568,
+			"fileName": "IceCreamSandwichCreeperModv1.1.0a 1.7.10.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":242530,
+			"fileId": 2334119,
+			"fileName": "Improving Minecraft-1.12.3 for Minecraft 1.7.10.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":229579,
+			"fileId": 2234203,
+			"fileName": "IronFence-1.1.0.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":224778,
+			"fileId": 2241385,
+			"fileName": "LatCoreMC-1.7.10-1.6.11.1.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":243164,
+			"fileId": 2291568,
+			"fileName": "Melon-pants v1.2 1.7.10.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":445698,
+			"fileId": 3211511,
+			"fileName": "Mimicry 11.0 beta.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":226917,
+			"fileId": 2243756,
+			"fileName": "morematerials-0.9.20150615.0-MC1.7-20150621.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":222698,
+			"fileId": 2209547,
+			"fileName": "Mysterious_Cookies_1.7.10-1.0-1.0.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":677521,
+			"fileId": 3997236,
+			"fileName": "Pebbles-Begone-v1.0-mc1.7.10.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":74078,
+			"fileId": 2249552,
+			"fileName": "PotionPacks_1.7.10_b5.zip",
+			"folder": "mods"
+		},
+		{
+			"addonId":232093,
+			"fileId": 2268162,
+			"fileName": "PowerApples-1.7.10-1.1.3.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":231935,
+			"fileId": 2271259,
+			"fileName": "practicalities-2.0.0-b2.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":72320,
+			"fileId": 2214478,
+			"fileName": "SpiritOres-1.7.10-2.0.zip",
+			"folder": "mods"
+		},
+		{
+			"addonId":230410,
+			"fileId": 2237835,
+			"fileName": "TerraArts-1.1.1710.27.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":238803,
+			"fileId": 2922539,
+			"fileName": "twotility-1710.2.3.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":230488,
+			"fileId": 2238534,
+			"fileName": "UsefulTools-v1.6-1.7.10.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":229429,
+			"fileId": 2233679,
+			"fileName": "Weather Carpets Mod-1.2.5.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":226985,
+			"fileId": 2281231,
+			"fileName":"worldexplorer-1.2.15 Dev.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId":226395,
 			"fileId": 2875412,
 			"fileName": "Apples+.jar",
@@ -32,7 +236,10 @@
 			"addonId":243190,
 			"fileId": 4635415,
 			"fileName": "ShoulderSurfing-1.7.10-2.4.1.jar",
-			"folder": "mods"
+			"folder": "mods",
+			"metadata": {
+				"side": "CLIENT"
+			}
 		},
 		{
 			"addonId":235201,
@@ -356,12 +563,6 @@
 			"addonId":947274,
 			"fileId": 4974499,
 			"fileName": "DrZharks.MoCreatures.Mod.v6.4.2.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId":947323,
-			"fileId": 4974502,
-			"fileName": "tropicraft-v6.1.2.jar",
 			"folder": "mods"
 		},
 		{
@@ -1197,6 +1398,14 @@
 			"addonId": 231453,
 			"fileId": 2242214,
 			"fileName": "ChatFlow-1.1.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 927564,
+			"fileId": 5002634,
+			"fileName": "zume-0.9.0.jar",
 			"metadata": {
 				"side": "CLIENT"
 			}
@@ -2050,11 +2259,6 @@
 			"addonId": 72210,
 			"fileId": 2211247,
 			"fileName": "hopperductmod-1.7.10-1.3.2.jar"
-		},
-		{
-			"addonId": 263392,
-			"fileId": 2396966,
-			"fileName": "HxCPeripherals-1.0.1.jar"
 		},
 		{
 			"addonId": 229060,
@@ -3537,14 +3741,6 @@
 			"addonId": 283870,
 			"fileId": 2512006,
 			"fileName": "WitherRing.jar"
-		},
-		{
-			"addonId": 244464,
-			"fileId": 2580520,
-			"fileName": "WorldSelectionAdvanced-1.7.10-8.jar",
-			"metadata": {
-				"side": "CLIENT"
-			}
 		},
 		{
 			"addonId": 241545,
