@@ -130,7 +130,7 @@
 			"url": "https://github.com/quentin452/Essence-of-the-god-reup/releases/download/V1.5.4/eotg-V1.5.4.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/Hodgepodge/releases/download/v2.4.5fork1/hodgepodge-v2.4.5fork1.jar"
+			"url": "https://github.com/quentin452/Hodgepodge/releases/download/v2.4.5fork2/hodgepodge-v2.4.5fork2.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/eldritchempires/releases/download/1.7.10-091/eldritch-empires-091.1.jar"
@@ -236,12 +236,6 @@
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/DuraDisplay/releases/download/1.1.7/duradisplay-1.1.7.jar"
-		},
-		{
-			"url": "https://github.com/quentin452/Uplink/releases/download/V1.2.3/Uplink-MC1.7.10-1.2.3.jar",
-			"metadata": {
-				"side": "CLIENT"
-			}
 		},
 		{
 			"url": "https://github.com/quentin452/Gollum-core-lib-reup/releases/download/1.7.10-2.0.0/GollumCoreLib-2.0.0-1.7.10.jar",
@@ -398,7 +392,7 @@
 			"url": "https://github.com/quentin452/Familiars-API-mods-reup/releases/download/1.7.108/FamiliarsHerobrineFamPack-1.7.10.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.10.7/optimizationsandtweaks-V1.10.7.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.10.8/optimizationsandtweaks-V1.10.8.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.8.1/Forestry-4.8.1.jar"
