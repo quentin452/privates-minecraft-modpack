@@ -11,6 +11,27 @@
 			}
 		},
 		{
+			"addonId":402981,
+			"fileId": 3035595,
+			"fileName": "hamsterrific-0.2.1.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":222907,
+			"fileId": 2228812,
+			"fileName": "wildycraft-1.7.10-1.7.4.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":227441,
+			"fileId": 2317743,
+			"fileName": "FullscreenWindowed-1.7.10-1.3.0b.jar",
+			"folder": "mods",
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
 			"addonId":230410,
 			"fileId": 2237835,
 			"fileName": "TerraArts-1.1.1710.27.jar",
@@ -212,12 +233,6 @@
 			"addonId":226985,
 			"fileId": 2281231,
 			"fileName":"worldexplorer-1.2.15 Dev.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId":226395,
-			"fileId": 2875412,
-			"fileName": "Apples+.jar",
 			"folder": "mods"
 		},
 		{
@@ -661,12 +676,6 @@
 			}
 		},
 		{
-			"addonId": 270871,
-			"fileId": 2583202,
-			"fileName": "millenaire-6.0.2.jar",
-			"folder": "mods"
-		},
-		{
 			"addonId": 72503,
 			"fileId": 2272713,
 			"fileName": "Origin-1.7.10-8.0.3.jar",
@@ -881,8 +890,8 @@
 		},
 		{
 			"addonId": 909859,
-			"fileId": 4785170,
-			"fileName": "1.7.10-v2.5.3.1HOTFIX-1-7-10.jar"
+			"fileId": 5010547,
+			"fileName": "zeldaswordskills-1.7.10-v2.5.3.3.jar"
 		},
 		{
 			"addonId": 238494,
@@ -1795,11 +1804,6 @@
 			"fileName": "Emotes 1.0.1.jar"
 		},
 		{
-			"addonId": 76612,
-			"fileId": 2242855,
-			"fileName": "Enchiridion 2-1.7.10-2.0.2a.jar"
-		},
-		{
 			"addonId": 739893,
 			"fileId": 4239269,
 			"fileName": "EnderAddons-1.7.10-0.1R.jar"
@@ -1863,11 +1867,6 @@
 			"addonId": 247804,
 			"fileId": 2317972,
 			"fileName": "expandedbonemeal-1.7.10-1.0.0.jar"
-		},
-		{
-			"addonId": 261759,
-			"fileId": 2407991,
-			"fileName": "ExperienceApple-2.5.jar"
 		},
 		{
 			"addonId": 270558,
@@ -3733,11 +3732,6 @@
 			"metadata": {
 				"side": "CLIENT"
 			}
-		},
-		{
-			"addonId": 403827,
-			"fileId": 3041959,
-			"fileName": "world_trigger_0.6.0.jar"
 		},
 		{
 			"addonId": 243060,
