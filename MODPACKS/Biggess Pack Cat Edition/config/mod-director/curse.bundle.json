@@ -44,12 +44,6 @@
 			"folder": "mods"
 		},
 		{
-			"addonId":243205,
-			"fileId": 2309559,
-			"fileName": "[1.7.10]MoVillages-1.4.2.jar",
-			"folder": "mods"
-		},
-		{
 			"addonId":229626,
 			"fileId": 2261983,
 			"fileName": "AncientTrees-1.7.10-1.6.4.jar",
@@ -890,8 +884,8 @@
 		},
 		{
 			"addonId": 909859,
-			"fileId": 5010547,
-			"fileName": "zeldaswordskills-1.7.10-v2.5.3.3.jar"
+			"fileId": 5012473,
+			"fileName": "zeldaswordskills-1.7.10-v2.5.3.4.jar"
 		},
 		{
 			"addonId": 238494,
