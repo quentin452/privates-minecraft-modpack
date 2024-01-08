@@ -30,10 +30,6 @@
 			"fileName": "Grim3212-Core-1.7.10.jar"
 		},
 		{
-			"url": "https://www.replaymod.com/download/download_new.php?version=1.7.10-2.5.2",
-			"fileName": "replaymod-1.7.10-2.5.2.jar"
-		},
-		{
 			"url": "https://github.com/quentin452/ChinaCraft/releases/download/V0.5/chinacraft-Beta-0.5.jar"
 		},
 		{
@@ -149,18 +145,6 @@
 		},
 		{
 			"url": "https://github.com/quentin452/MegaBlue/releases/download/V2.0.1/MegaBlueMod-2.0.1.jar"
-		},
-		{
-			"url": "https://github.com/jss2a98aj/NotFine/releases/download/0.1.1/notfine-0.1.1.jar",
-			"metadata": {
-				"side": "CLIENT"
-			}
-		},
-		{
-			"url": "https://github.com/makamys/Neodymium/releases/download/0.1.9/neodymium-1.7.10-0.1.9+nomixin.jar",
-			"metadata": {
-				"side": "CLIENT"
-			}
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.0.7/ServerUtilities-2.0.7.jar"
@@ -291,6 +275,12 @@
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/bdlib/releases/download/1.9.8-GTNH/bdlib-1.7.10-1.9.8-GTNH.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Angelica-Biggess-Pack-Cat-Edition/releases/download/1.0.0-alpha13fork2/angelica-1.0.0-alpha13-BiggessPackCatEdtionfork2.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
 		},
 		{
 			"url": "https://github.com/quentin452/LootBeamsBackport/releases/download/1.0.3/BeamingDrops-1.0.3-clientside.jar",

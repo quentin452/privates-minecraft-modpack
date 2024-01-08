@@ -11,6 +11,21 @@
 			}
 		},
 		{
+			"addonId": 242677,
+			"fileId": 2292386,
+			"fileName": "fastcraft-1.23.jar",
+			"folder": "mods",
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId":854528,
+			"fileId": 5014904,
+			"fileName": "IamacatHUDV0.2.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId":402981,
 			"fileId": 3035595,
 			"fileName": "hamsterrific-0.2.1.jar",
