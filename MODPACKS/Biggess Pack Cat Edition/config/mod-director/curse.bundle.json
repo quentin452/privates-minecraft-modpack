@@ -14,16 +14,16 @@
 			"addonId": 242677,
 			"fileId": 2292386,
 			"fileName": "fastcraft-1.23.jar",
-			"folder": "mods",
-			"metadata": {
-				"side": "CLIENT"
-			}
+			"folder": "mods"
 		},
 		{
 			"addonId":854528,
 			"fileId": 5014904,
 			"fileName": "IamacatHUDV0.2.jar",
-			"folder": "mods"
+			"folder": "mods",
+			"metadata": {
+				"side": "CLIENT"
+			}
 		},
 		{
 			"addonId":402981,
