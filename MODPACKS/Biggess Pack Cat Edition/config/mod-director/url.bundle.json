@@ -2,6 +2,9 @@
 	"url":
 	[
 		{
+			"url": "https://github.com/quentin452/UltraTech/releases/download/0.9.6.2/Ultratech-1.7.10-0.9.6.2.jar.jar"
+		},
+		{
 			"url": "https://github.com/quentin452/Advanced-Genetics-Reup/releases/download/V1.0/Advanced-Genetics-Mod-1.7.10.jar",
 			"fileName": "advancedgenetics-1.7.2-1.5.jar"
 		},
@@ -75,7 +78,7 @@
 			"url": "https://github.com/quentin452/Mariculture/releases/download/1.3.0-6fork6/mariculture-1.3.0-6fork6.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/Natura/releases/download/2.5.7fork2/Natura-2.5.7fork2.jar"
+			"url": "https://github.com/quentin452/Natura/releases/download/2.5.7fork3/Natura-2.5.7fork3.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/Nutrition/releases/download/0.0.5/nutrition-0.0.5.jar"
@@ -123,7 +126,7 @@
 			"url": "https://github.com/quentin452/EndlessIDs/releases/download/1.5-beta0002fork1/endlessids-mc1.7.10-1.5-beta0002fork1.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/Essence-of-the-god-reup/releases/download/V1.5.4/eotg-V1.5.4.jar"
+			"url": "https://github.com/quentin452/Essence-of-the-god-reup/releases/download/V1.5.5/eotg-V1.5.5.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/Hodgepodge/releases/download/v2.4.5fork2/hodgepodge-v2.4.5fork2.jar"
@@ -277,7 +280,7 @@
 			"url": "https://github.com/GTNewHorizons/bdlib/releases/download/1.9.8-GTNH/bdlib-1.7.10-1.9.8-GTNH.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/Angelica-Biggess-Pack-Cat-Edition/releases/download/1.0.0-alpha13fork5/angelica-1.0.0-alpha13-BiggessPackCatEdtionfork5.jar",
+			"url": "https://github.com/quentin452/Angelica-Biggess-Pack-Cat-Edition/releases/download/1.0.0-alpha13fork6/angelica-1.0.0-alpha13-BiggessPackCatEdtionfork6.jar",
 			"metadata": {
 				"side": "CLIENT"
 			}
@@ -376,7 +379,7 @@
 			"url": "https://github.com/GTNewHorizons/ExtraCells2/releases/download/2.5.34/ExtraCells-2.5.34.jar"
 		},
 		{
-			"url": "https://github.com/FalsePattern/FalseTweaks/releases/download/2.7.4/falsetweaks-mc1.7.10-2.7.4.jar"
+			"url": "https://github.com/FalsePattern/FalseTweaks/releases/download/2.8.1/falsetweaks-mc1.7.10-2.8.1.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/Familiars-API-mods-reup/releases/download/1.7.105/FamiliarsAPI-1.7.10.jar"
@@ -391,7 +394,7 @@
 			"url": "https://github.com/quentin452/Familiars-API-mods-reup/releases/download/1.7.108/FamiliarsHerobrineFamPack-1.7.10.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.11.1/optimizationsandtweaks-V1.11.1.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.11.2/optimizationsandtweaks-V1.11.2.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/TravellersGear/releases/download/V1.16.7/TravellersGear-1.7.10-1.16.7.jar"

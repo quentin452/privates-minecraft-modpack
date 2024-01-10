@@ -11,6 +11,12 @@
 			}
 		},
 		{
+			"addonId": 959745,
+			"fileId": 5017816,
+			"fileName": "whitelistfixer-mc1.7.10-1.0.0.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId": 242677,
 			"fileId": 2292386,
 			"fileName": "fastcraft-1.23.jar",
@@ -1689,11 +1695,6 @@
 			"addonId": 245769,
 			"fileId": 2543762,
 			"fileName": "DisenchanterMod-[1.7.10]1.6.jar"
-		},
-		{
-			"addonId": 513764,
-			"fileId": 4523625,
-			"fileName": "DMod-1.7.10-1.0.3.4.jar"
 		},
 		{
 			"addonId": 235430,
@@ -3642,11 +3643,6 @@
 			"addonId": 706505,
 			"fileId": 4796692,
 			"fileName": "txloader-1.6.3.jar"
-		},
-		{
-			"addonId": 70036,
-			"fileId": 2214347,
-			"fileName": "Ultratech-1.7.10-0.9.6.1.jar"
 		},
 		{
 			"addonId": 292535,
