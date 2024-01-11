@@ -7,16 +7,16 @@
 			"installationPolicy":
 			{
 				"extract": true,
-				"modpackVersion": "V0.94.88"
+				"modpackVersion": "V0.95.2"
 			}
 		},
 		{
-			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/V0.94.86/modsbundleV0.94.86.zip",
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/V0.95.2/Biggess+Pack+Cat+Edition+V0.95.2.zip",
 			"folder": "mods",
 			"installationPolicy":
 			{
 				"extract": true,
-				"modpackVersion": "V0.94.88"
+				"modpackVersion": "V0.95.2"
 			}
 		}
 	]
