@@ -78,7 +78,7 @@
 			"url": "https://github.com/quentin452/Mariculture/releases/download/1.3.0-6fork6/mariculture-1.3.0-6fork6.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/Natura/releases/download/2.5.7fork3/Natura-2.5.7fork3.jar"
+			"url": "https://github.com/quentin452/Natura/releases/download/2.5.7fork5/Natura-2.5.7fork5.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/Nutrition/releases/download/0.0.5/nutrition-0.0.5.jar"
@@ -246,7 +246,13 @@
 			"url": "https://github.com/quentin452/The-Aether-Archived/releases/download/1.1.2.3/aether-1.7.10-1.1.2.3.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-305-GTNH/appliedenergistics2-rv3-beta-305-GTNH.jar"
+			"url": "https://github.com/GTNewHorizons/DummyCore/releases/download/1.17.0/DummyCore-1.17.0.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Ae2TechAddonFork/releases/download/V1.1/AE2TechAddOn-1.7.10-1.1.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-310-GTNH-fork1/appliedenergistics2-rv3-beta-310-GTNH-FORK1.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/ArchaicFix/releases/download/V0.6.2fork7/archaicfix-V0.6.2fork7.jar"
@@ -394,7 +400,7 @@
 			"url": "https://github.com/quentin452/Familiars-API-mods-reup/releases/download/1.7.108/FamiliarsHerobrineFamPack-1.7.10.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.11.2/optimizationsandtweaks-V1.11.2.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.11.3/optimizationsandtweaks-V1.11.3.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/TravellersGear/releases/download/V1.16.7/TravellersGear-1.7.10-1.16.7.jar"

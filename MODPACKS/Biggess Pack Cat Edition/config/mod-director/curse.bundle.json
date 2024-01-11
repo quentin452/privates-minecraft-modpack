@@ -59,12 +59,6 @@
 			"folder": "mods"
 		},
 		{
-			"addonId":230103,
-			"fileId": 2256966,
-			"fileName": "DummyCore-2.0.1710.0A.jar",
-			"folder": "mods"
-		},
-		{
 			"addonId":229626,
 			"fileId": 2261983,
 			"fileName": "AncientTrees-1.7.10-1.6.4.jar",
@@ -579,8 +573,8 @@
 		},
 		{
 			"addonId":947270,
-			"fileId": 4955652,
-			"fileName": "roguelike-1.5.4.jar",
+			"fileId": 5023671,
+			"fileName": "roguelike-1.5.5.jar",
 			"folder": "mods"
 		},
 		{
@@ -957,11 +951,6 @@
 			"addonId": 222637,
 			"fileId": 2245006,
 			"fileName": "AdventurersAmulets-1.7.10-1.6.0-pre1.jar"
-		},
-		{
-			"addonId": 221903,
-			"fileId": 2209990,
-			"fileName": "AE2TechAddOn-1.7.10-1.0-b81-universal.jar"
 		},
 		{
 			"addonId": 372760,
