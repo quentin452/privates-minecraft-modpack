@@ -11,6 +11,12 @@
 			}
 		},
 		{
+			"addonId": 521557,
+			"fileId": 4723376,
+			"fileName": "immersivecavegen-1.2g-hotfix5.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId": 959745,
 			"fileId": 5017816,
 			"fileName": "whitelistfixer-mc1.7.10-1.0.0.jar",
@@ -62,12 +68,6 @@
 			"addonId":229626,
 			"fileId": 2261983,
 			"fileName": "AncientTrees-1.7.10-1.6.4.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId":910848,
-			"fileId": 5001152,
-			"fileName": "mineralogy-V1.2.9.jar",
 			"folder": "mods"
 		},
 		{
@@ -2359,11 +2359,6 @@
 			"addonId": 223533,
 			"fileId": 2215813,
 			"fileName": "KinetiCraft-[1.7.10]1.3.3beta.jar"
-		},
-		{
-			"addonId": 876236,
-			"fileId": 4592109,
-			"fileName": "Kingdoms of the Overworld-1.7.10-1.6.jar"
 		},
 		{
 			"addonId": 226688,
