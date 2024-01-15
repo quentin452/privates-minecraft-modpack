@@ -11,6 +11,36 @@
 			}
 		},
 		{
+			"addonId": 962372,
+			"fileId": 5034130,
+			"fileName": "egg-particle-fix-1.0.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 242480,
+			"fileId": 2323225,
+			"fileName": "CraftArcanum-1.1.1.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 222153,
+			"fileId": 2285272,
+			"fileName": "Automagy-1.7.10-0.28.2.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 961371,
+			"fileId": 5028011,
+			"fileName": "BiggessPackTweak-V1.1.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 232159,
+			"fileId": 2289306,
+			"fileName": "immersiveintegration-0.6.8.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId": 521557,
 			"fileId": 4723376,
 			"fileName": "immersivecavegen-1.2g-hotfix5.jar",
@@ -585,8 +615,8 @@
 		},
 		{
 			"addonId":947431,
-			"fileId": 4971869,
-			"fileName": "TragicMC-V2.55.jar",
+			"fileId": 5031470,
+			"fileName": "TragicMC-V2.56.jar",
 			"folder": "mods"
 		},
 		{

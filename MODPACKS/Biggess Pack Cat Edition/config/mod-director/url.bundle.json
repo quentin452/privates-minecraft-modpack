@@ -2,7 +2,19 @@
 	"url":
 	[
 		{
-			"url": "https://github.com/quentin452/UltraTech/releases/download/0.9.6.2/Ultratech-1.7.10-0.9.6.2.jar.jar"
+			"url": "https://github.com/GTNewHorizons/TravellersGearNeo/releases/download/1.1.0/travellersgearneo-1.1.0.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/UltraTech/releases/download/0.9.6.2/Ultratech-1.7.10-0.9.6.2.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/Tinkers-Defense/releases/download/1.2.2/tinkersdefense-1.2.2.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/ImmersiveEngineering/releases/download/0.7.11-fork1/ImmersiveEngineering-mc1.7.10-0.7.11-fork1.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/Battlegear2/releases/download/1.3.3/battlegear2-1.3.3.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/Advanced-Genetics-Reup/releases/download/V1.0/Advanced-Genetics-Mod-1.7.10.jar",
@@ -34,9 +46,6 @@
 		},
 		{
 			"url": "https://github.com/quentin452/ChinaCraft/releases/download/V0.5/chinacraft-Beta-0.5.jar"
-		},
-		{
-			"url": "https://github.com/quentin452/BiggessPackTweakMod/releases/download/V1.1/BiggessPackTweak-V1.1.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/Infernal-Mobs-Continuation/releases/download/1.8.0/InfernalMobs-1.8.0.jar"
@@ -246,7 +255,7 @@
 			"url": "https://github.com/quentin452/The-Aether-Archived/releases/download/1.1.2.3/aether-1.7.10-1.1.2.3.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/DummyCore/releases/download/1.17.0/DummyCore-1.17.0.jar"
+			"url": "https://github.com/quentin452/DummyCore/releases/download/1.18.0fork1/DummyCore-1.18.0-fork1.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/Ae2TechAddonFork/releases/download/V1.1/AE2TechAddOn-1.7.10-1.1.jar"
@@ -255,7 +264,7 @@
 			"url": "https://github.com/quentin452/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-310-GTNH-fork1/appliedenergistics2-rv3-beta-310-GTNH-FORK1.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/ArchaicFix/releases/download/0.7.0fork1up2/archaicfix-v0.7FORK1.jar"
+			"url": "https://github.com/quentin452/ArchaicFix/releases/download/V0.7fork2/archaicfix-v0.7FORK2.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/ExperienceApple/releases/download/2.5.1/ExperienceApple-2.5.1.jar"
@@ -286,7 +295,7 @@
 			"url": "https://github.com/GTNewHorizons/bdlib/releases/download/1.9.8-GTNH/bdlib-1.7.10-1.9.8-GTNH.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/Angelica-Biggess-Pack-Cat-Edition/releases/download/1.0.0-alpha13fork6/angelica-1.0.0-alpha13-BiggessPackCatEdtionfork6.jar",
+			"url": "https://github.com/quentin452/Angelica-Biggess-Pack-Cat-Edition/releases/download/1.0.0-alpha14fork1/angelica-1.0.0-alpha14-BiggessPackCatEdtionfork1.jar",
 			"metadata": {
 				"side": "CLIENT"
 			}
@@ -400,7 +409,7 @@
 			"url": "https://github.com/quentin452/Familiars-API-mods-reup/releases/download/1.7.108/FamiliarsHerobrineFamPack-1.7.10.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.11.5/optimizationsandtweaks-V1.11.5.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.11.7/optimizationsandtweaks-V1.11.7.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/TravellersGear/releases/download/V1.16.7/TravellersGear-1.7.10-1.16.7.jar"
