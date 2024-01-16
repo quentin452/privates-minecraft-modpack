@@ -1430,8 +1430,8 @@
 		},
 		{
 			"addonId": 927564,
-			"fileId": 5002634,
-			"fileName": "zume-0.9.0.jar",
+			"fileId": 5035679,
+			"fileName": "zume-0.10.0.jar",
 			"metadata": {
 				"side": "CLIENT"
 			}
@@ -2838,11 +2838,7 @@
 			"fileId": 3768140,
 			"fileName": "NextSpring-Forge-1.7.10-1.0.0.jar"
 		},
-		{
-			"addonId": 226941,
-			"fileId": 2224971,
-			"fileName": "Niceties-1.7.10-1.4.jar"
-		},
+
 		{
 			"addonId": 226779,
 			"fileId": 2362270,
