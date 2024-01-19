@@ -2,6 +2,9 @@
 	"url":
 	[
 		{
+			"url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.2.1/gtnhlib-0.2.1.jarr"
+		},
+		{
 			"url": "https://github.com/GTNewHorizons/TravellersGearNeo/releases/download/1.1.0/travellersgearneo-1.1.0.jar"
 		},
 		{
@@ -298,7 +301,7 @@
 			}
 		},
 		{
-			"url": "https://github.com/quentin452/Angelica-Biggess-Pack-Cat-Edition/releases/download/1.0.0-alpha14fork1/angelica-1.0.0-alpha14-BiggessPackCatEdtionfork1.jar",
+			"url": "https://github.com/quentin452/Angelica-Biggess-Pack-Cat-Edition/releases/download/1.0.0-alpha15fork1/angelica-1.0.0-alpha15-BiggessPackCatEdtionfork1.jar",
 			"metadata": {
 				"side": "CLIENT"
 			}
@@ -412,7 +415,7 @@
 			"url": "https://github.com/quentin452/Familiars-API-mods-reup/releases/download/1.7.108/FamiliarsHerobrineFamPack-1.7.10.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.12.1/optimizationsandtweaks-V1.12.1.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.12.2/optimizationsandtweaks-V1.12.2.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/TravellersGear/releases/download/V1.16.7/TravellersGear-1.7.10-1.16.7.jar"
