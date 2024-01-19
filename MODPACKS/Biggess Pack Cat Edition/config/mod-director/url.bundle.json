@@ -150,7 +150,7 @@
 			"url": "https://github.com/quentin452/Alchemy-Craft-fork/releases/download/V1.2.0.2/alchemycraft2.v1.2.0.2.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/Et-Futurum-Requiem/releases/download/v2.6.0fork7/Et_Futurum_Requiem-2.6.0fork7.jar"
+			"url": "https://github.com/quentin452/Et-Futurum-Requiem/releases/download/v2.6.0fork8/Et_Futurum_Requiem-2.6.0fork8.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/MegaBlue/releases/download/V2.0.1/MegaBlueMod-2.0.1.jar"
@@ -261,7 +261,7 @@
 			"url": "https://github.com/quentin452/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-310-GTNH-fork1/appliedenergistics2-rv3-beta-310-GTNH-FORK1.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/ArchaicFix/releases/download/V0.7fork2/archaicfix-v0.7FORK2.jar"
+			"url": "https://github.com/quentin452/ArchaicFix/releases/download/V0.7fork4/archaicfix-v0.7FORK4.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/ExperienceApple/releases/download/2.5.1/ExperienceApple-2.5.1.jar"
@@ -290,6 +290,12 @@
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/bdlib/releases/download/1.9.8-GTNH/bdlib-1.7.10-1.9.8-GTNH.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Dynamic-Light-Continuation/releases/download/V1.4/Dynamic.Lights-1.4.0-MC1.7.10.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
 		},
 		{
 			"url": "https://github.com/quentin452/Angelica-Biggess-Pack-Cat-Edition/releases/download/1.0.0-alpha14fork1/angelica-1.0.0-alpha14-BiggessPackCatEdtionfork1.jar",
@@ -406,7 +412,7 @@
 			"url": "https://github.com/quentin452/Familiars-API-mods-reup/releases/download/1.7.108/FamiliarsHerobrineFamPack-1.7.10.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.11.8/optimizationsandtweaks-V1.11.8.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.12.1/optimizationsandtweaks-V1.12.1.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/TravellersGear/releases/download/V1.16.7/TravellersGear-1.7.10-1.16.7.jar"
