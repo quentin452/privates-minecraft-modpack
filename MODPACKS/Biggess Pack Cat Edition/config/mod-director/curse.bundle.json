@@ -2,13 +2,16 @@
 	"curse":
 	[
 		{
-			"addonId": 577749,
-			"fileId": 4026995,
-			"fileName": "defaultserverlist-1.7.10-1.4.0.jar",
-			"folder": "mods",
-			"metadata": {
-				"side": "CLIENT"
-			}
+			"addonId": 965712,
+			"fileId": 5053646,
+			"fileName": "Enchiridion2-2.0.3.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 957564,
+			"fileId": 5045355,
+			"fileName": "MoCreatures-Legacy-Beta-1.2.jar",
+			"folder": "mods"
 		},
 		{
 			"addonId": 962372,
@@ -50,12 +53,6 @@
 			"addonId": 959745,
 			"fileId": 5017816,
 			"fileName": "whitelistfixer-mc1.7.10-1.0.0.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId": 242677,
-			"fileId": 2292386,
-			"fileName": "fastcraft-1.23.jar",
 			"folder": "mods"
 		},
 		{
@@ -602,15 +599,9 @@
 			"folder": "mods"
 		},
 		{
-			"addonId":947274,
-			"fileId": 4974499,
-			"fileName": "DrZharks.MoCreatures.Mod.v6.4.2.jar",
-			"folder": "mods"
-		},
-		{
 			"addonId":947431,
-			"fileId": 5031470,
-			"fileName": "TragicMC-V2.56.jar",
+			"fileId": 5058833,
+			"fileName": "TragicMC-V2.57.jar",
 			"folder": "mods"
 		},
 		{
@@ -730,12 +721,6 @@
 			"folder": "mods"
 		},
 		{
-			"addonId": 662225,
-			"fileId": 4657373,
-			"fileName": "thaumicinsurgence-0.2.6.jar",
-			"folder": "mods"
-		},
-		{
 			"addonId": 238392,
 			"fileId": 2268718,
 			"fileName": "thaumicSanity-1.0-1.7.10-9.jar",
@@ -815,8 +800,8 @@
 		},
 		{
 			"addonId": 920309,
-			"fileId": 4787136,
-			"fileName": "D3Core-1.7.10-1.1.2.44.jar",
+			"fileId": 5055636,
+			"fileName": "D3Core-1.7.10-1.1.3.jar",
 			"folder": "mods"
 		},
 		{
@@ -902,8 +887,8 @@
 		},
 		{
 			"addonId": 909859,
-			"fileId": 5048188,
-			"fileName": "zeldaswordskills-1.7.10-v2.5.3.5.jar"
+			"fileId": 5059659,
+			"fileName": "zeldaswordskills-1.7.10-v2.5.3.6.jar"
 		},
 		{
 			"addonId": 238494,
@@ -1991,11 +1976,6 @@
 			"fileName": "Floocraft-1.7.10-1.7.jar"
 		},
 		{
-			"addonId": 224728,
-			"fileId": 2320032,
-			"fileName": "FloodLights-1.7.10-1.2.8-137.jar"
-		},
-		{
 			"addonId": 224164,
 			"fileId": 2218631,
 			"fileName": "Fluxed Trinkets-1.7.10-1.0.54.jar"
@@ -2340,11 +2320,6 @@
 			"fileName": "JumpPad++ 2.3.8.jar"
 		},
 		{
-			"addonId": 242223,
-			"fileId": 4986053,
-			"fileName": "JustEnoughCalculation-1.7.10-3.8.6.jar"
-		},
-		{
 			"addonId": 543890,
 			"fileId": 3513712,
 			"fileName": "JustRoadStuff-0.1.jar"
@@ -2594,18 +2569,18 @@
 		},
 		{
 			"addonId": 399904,
-			"fileId": 4930125,
-			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.33-Core.jar"
+			"fileId": 5056801,
+			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.34-Core.jar"
 		},
 		{
 			"addonId": 813408,
-			"fileId": 4930124,
-			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.33-Generators.jar"
+			"fileId": 5056799,
+			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.34-Generators.jar"
 		},
 		{
 			"addonId": 813407,
-			"fileId": 4930123,
-			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.33-Tools.jar"
+			"fileId": 5056800,
+			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.34-Tools.jar"
 		},
 		{
 			"addonId": 247095,
@@ -2995,11 +2970,6 @@
 			"addonId": 729362,
 			"fileId": 4271453,
 			"fileName": "Proton-Forge-1.7.10-0.0.2.jar"
-		},
-		{
-			"addonId": 224785,
-			"fileId": 2241123,
-			"fileName": "QmunityLib-1.7.10-0.1.114-universal.jar"
 		},
 		{
 			"addonId": 223773,
@@ -3629,11 +3599,6 @@
 			"fileName": "turkish-meals-v1.0(1.7.10)(1).jar"
 		},
 		{
-			"addonId": 706505,
-			"fileId": 4796692,
-			"fileName": "txloader-1.6.3.jar"
-		},
-		{
 			"addonId": 292535,
 			"fileId": 2554183,
 			"fileName": "unbreaken-1.0.2.jar"
@@ -3725,11 +3690,6 @@
 			"addonId": 243060,
 			"fileId": 2360292,
 			"fileName": "xprings-1.7.10-1.3.0.jar"
-		},
-		{
-			"addonId": 385873,
-			"fileId": 4459506,
-			"fileName": "YAMCore-0.5.86.jar"
 		},
 		{
 			"addonId": 332360,
