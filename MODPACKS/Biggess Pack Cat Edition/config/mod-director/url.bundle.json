@@ -2,6 +2,9 @@
 	"url":
 	[
 		{
+			"url": "https://github.com/quentin452/Gravestones-mod-Continuation/releases/download/v2.17.3/GraveStone-BiggessPackCatEdition-V2.17.3.jar"
+		},
+		{
 			"url": "https://github.com/GTNewHorizons/JustEnoughCalculation/releases/download/1.7.10-4.0/JustEnoughCalculation-1.7.10-4.0.jar"
 		},
 		{
@@ -319,7 +322,7 @@
 			}
 		},
 		{
-			"url": "https://github.com/quentin452/Angelica-Biggess-Pack-Cat-Edition/releases/download/1.0.0-alpha18fork2/angelica-1.0.0-alpha18fork2.jar",
+			"url": "https://github.com/quentin452/Angelica-Biggess-Pack-Cat-Edition/releases/download/1.0.0-alpha18fork4/angelica-1.0.0-alpha18fork4.jar",
 			"metadata": {
 				"side": "CLIENT"
 			}
@@ -385,7 +388,7 @@
 			"url": "https://github.com/quentin452/confighelper2/releases/download/1.2.5.5/confighelper-1.7.10-1.2.5.5.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/CoreTweaks/releases/download/v0.3.3.2fork1/CoreTweaks-1.7.10-0.3.3.2fork1+nomixin.jar"
+			"url": "https://github.com/makamys/CoreTweaks/releases/download/0.3.3.2/CoreTweaks-1.7.10-0.3.3.2+nomixin.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/CraftTweaker/releases/download/3.3.0/CraftTweaker-3.3.0.jar"
@@ -433,7 +436,7 @@
 			"url": "https://github.com/quentin452/Familiars-API-mods-reup/releases/download/1.7.108/FamiliarsHerobrineFamPack-1.7.10.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.13.2HOTFIX5/optimizationsandtweaks-V1.13.2HOTFIX5.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.13.3/optimizationsandtweaks-V1.13.3.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/TravellersGear/releases/download/V1.16.7/TravellersGear-1.7.10-1.16.7.jar"
