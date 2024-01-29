@@ -2,6 +2,9 @@
 	"url":
 	[
 		{
+			"url": "https://github.com/quentin452/FalsePatternLib/releases/download/1.0.0-fork1/falsepatternlib-mc1.7.10-1.0.0fork1.jar"
+		},
+		{
 			"url": "https://github.com/quentin452/Gravestones-mod-Continuation/releases/download/v2.17.3/GraveStone-BiggessPackCatEdition-V2.17.3.jar"
 		},
 		{
@@ -430,7 +433,7 @@
 			"url": "https://github.com/quentin452/Familiars-API-mods-reup/releases/download/1.7.108/FamiliarsHerobrineFamPack-1.7.10.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.13.4/optimizationsandtweaks-V1.13.4.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.13.5/optimizationsandtweaks-V1.13.5.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/TravellersGear/releases/download/V1.16.7/TravellersGear-1.7.10-1.16.7.jar"
@@ -617,7 +620,7 @@
 			"url": "https://github.com/GTNewHorizons/WirelessCraftingTerminal/releases/download/1.11.0/WirelessCraftingTerminal-1.11.0.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/CodeChickenLib/releases/download/1.2.1/CodeChickenLib-1.2.1.jar",
+			"url": "https://github.com/quentin452/CodeChickenLib/releases/download/1.2.1fork1/CodeChickenLib-1.2.1fork1.jar",
 			"folder": "mods/1.7.10"
 		},
 		{
