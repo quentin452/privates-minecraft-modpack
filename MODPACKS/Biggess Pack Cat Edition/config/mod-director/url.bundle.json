@@ -225,9 +225,6 @@
 			"url": "https://github.com/GTNewHorizons/ThaumicHorizons/releases/download/1.5.1/ThaumicHorizons-1.5.1.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/thaumcraft-research-tweaks/releases/download/1.1.0/ThaumcraftResearchTweaks-1.1.0.jar"
-		},
-		{
 			"url": "https://github.com/GTNewHorizons/ThaumcraftMobAspects/releases/download/1.1.0-GTNH/ThaumcraftMobAspects-1.1.0-GTNH.jar"
 		},
 		{
@@ -364,7 +361,7 @@
 			"url": "https://github.com/GTNewHorizons/BloodMagic/releases/download/1.5.1/BloodMagic-1.5.1.jar"
 		},
 		{
-			"url": "https://github.com/GTNewHorizons/Botania/releases/download/1.10.5-GTNH/Botania-1.10.5-GTNH.jar"
+			"url": "https://github.com/quentin452/Botania/releases/download/1.10.5fork1-GTNH/Botania-1.10.5fork1-GTNH.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/BrandonsCore/releases/download/1.1.0-GTNH/BrandonsCore-1.1.0-GTNH.jar"
@@ -436,7 +433,7 @@
 			"url": "https://github.com/quentin452/Familiars-API-mods-reup/releases/download/1.7.108/FamiliarsHerobrineFamPack-1.7.10.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.13.3/optimizationsandtweaks-V1.13.3.jar"
+			"url": "https://github.com/quentin452/OptimizationsAndTweaks/releases/download/V1.13.4/optimizationsandtweaks-V1.13.4.jar"
 		},
 		{
 			"url": "https://github.com/quentin452/TravellersGear/releases/download/V1.16.7/TravellersGear-1.7.10-1.16.7.jar"
