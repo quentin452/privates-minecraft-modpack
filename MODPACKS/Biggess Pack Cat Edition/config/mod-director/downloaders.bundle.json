@@ -2,12 +2,12 @@
 	"url":
 	[
 		{
-			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Configs/releases/download/V0.96.8.4/configV0.96.8.4.zip",
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Configs/releases/download/V0.97.1/configV0.97.1.zip",
 			"folder": "config",
 			"installationPolicy":
 			{
 				"extract": true,
-				"modpackVersion": "V0.96.8.4"
+				"modpackVersion": "V0.97.1"
 			}
 		},
 		{
@@ -16,7 +16,7 @@
 			"installationPolicy":
 			{
 				"extract": true,
-				"modpackVersion": "V0.96.8.4"
+				"modpackVersion": "V0.97.1"
 			}
 		}
 	]
