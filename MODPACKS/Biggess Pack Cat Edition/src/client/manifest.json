@@ -1,25 +1,24 @@
 {
-    "minecraft": {
-      "version": "1.7.10",
-      "modLoaders": [
-        {
-          "id": "forge-10.13.4.1614",
-          "primary": true
-        }
-      ]
-    },
-    "manifestType": "minecraftModpack",
-    "overrides": "overrides",
-    "manifestVersion": 1,
-    "version": "V1.0",
-    "author": "Quentin453",
-    "name": "cattest 1.7.10",
-    "files": [
+  "minecraft": {
+    "version": "1.7.10",
+    "modLoaders": [
       {
-        "projectID": 650242,
-        "fileID": 5272359,
-        "required": true
+        "id": "forge-10.13.4.1614",
+        "primary": true
       }
     ]
-  }
-  
+  },
+  "manifestType": "minecraftModpack",
+  "overrides": "overrides",
+  "manifestVersion": 1,
+  "version": "V2.0",
+  "author": "Quentin453",
+  "name": "cattest 1.7.10",
+  "files": [
+    {
+      "projectID": 650242,
+      "fileID": 5272359,
+      "required": true
+    }
+  ]
+}
