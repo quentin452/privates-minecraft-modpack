@@ -84,7 +84,7 @@ with ZipFile(server_zip_name, "w", compression=zipfile.ZIP_DEFLATED) as zipf:
     for file in [
         "AdvancedBackups.properties", "betterfps.txt", "eula.txt", "server.properties",
         "1downloadlibs.bat", "2downloadjars.bat", "3startserver.bat",
-        "1downloadlibs.sh", "2downloadjars.sh", "3startserver.sh", "!readme.txt"
+        "1downloadlibs.sh", "2downloadjars.sh", "3startserver.sh", "!readme.txt", "java9args.txt", "lwjgl3ify-2.1.15-forgePatches.jar"
     ]:
         zipf.write(os.path.join(SERVER_DIR, file), file)
 

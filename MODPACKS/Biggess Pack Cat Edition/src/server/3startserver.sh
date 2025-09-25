@@ -4,7 +4,7 @@
 echo "Démarrage du serveur Minecraft..."
 
 # Chemin vers Java (à adapter selon votre installation)
-java -Xmx10G -Xms1G -XX:+UnlockExperimentalVMOptions -XX:+UseConcMarkSweepGC -XX:+UseFastAccessorMethods -XX:+UseCompressedOops -XX:+ParallelRefProcEnabled -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar nogui
+/usr/lib/jvm/java-25-openjdk/bin/java -Xmx7G -Xms500M -XX:+UseG1GC -XX:MaxGCPauseMillis=100 -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+UseStringDeduplication -XX:SoftRefLRUPolicyMSPerMB=50 -XX:+UseCompressedOops -XX:+TieredCompilation -XX:+OptimizeStringConcat @java9args.txt -jar lwjgl3ify-2.1.15-forgePatches.jar nogui
 
 # Fin du script
 read -p "Appuyez sur une touche pour quitter..."
