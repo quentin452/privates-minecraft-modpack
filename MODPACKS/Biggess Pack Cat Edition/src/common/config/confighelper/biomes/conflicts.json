@@ -1,0 +1,392 @@
+{
+  "biomes-id:9": [
+    {
+      "name": "Sky",
+      "mod": "Minecraft",
+      "class": "net.minecraft.world.biome.BiomeGenEnd"
+    },
+    {
+      "name": "Sky",
+      "mod": "Hardcore Ender Expansion",
+      "replaced": true,
+      "class": "chylex.hee.world.biome.BiomeGenHardcoreEnd"
+    }
+  ],
+  "biomes-id:129": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 1 [net.minecraft.world.biome.BiomeGenPlains]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Sunflower Plains",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenPlains"
+    }
+  ],
+  "biomes-id:130": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 2 [net.minecraft.world.biome.BiomeGenDesert]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Desert M",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenMutated"
+    }
+  ],
+  "biomes-id:131": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 3 [net.minecraft.world.biome.BiomeGenHills]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Extreme Hills M",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenHills"
+    }
+  ],
+  "biomes-id:132": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 4 [net.minecraft.world.biome.BiomeGenForest]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Flower Forest",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenForest"
+    }
+  ],
+  "biomes-id:133": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 5 [net.minecraft.world.biome.BiomeGenTaiga]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Taiga M",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenMutated"
+    }
+  ],
+  "biomes-id:134": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 6 [net.minecraft.world.biome.BiomeGenSwamp]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Swampland M",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenMutated"
+    }
+  ],
+  "biomes-id:139": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 11 [net.minecraft.world.biome.BiomeGenRiver]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "towerHills",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenTowerHills"
+    }
+  ],
+  "biomes-id:140": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 12 [net.minecraft.world.biome.BiomeGenSnow]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Ice Plains Spikes",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenSnow"
+    }
+  ],
+  "biomes-id:149": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 21 [net.minecraft.world.biome.BiomeGenJungle]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Jungle M",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenMutated"
+    },
+    {
+      "name": "harnedor",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenHarnedor"
+    }
+  ],
+  "biomes-id:151": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 23 [net.minecraft.world.biome.BiomeGenJungle]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "JungleEdge M",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenMutated"
+    },
+    {
+      "name": "lamedonHills",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenLamedonHills"
+    }
+  ],
+  "biomes-id:155": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 27 [net.minecraft.world.biome.BiomeGenForest]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Birch Forest M",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenForest$2"
+    }
+  ],
+  "biomes-id:156": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 28 [net.minecraft.world.biome.BiomeGenForest]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Birch Forest Hills M",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenForest$2"
+    },
+    {
+      "name": "rhunLandSteppe",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenRhunLandSteppe"
+    }
+  ],
+  "biomes-id:157": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 29 [net.minecraft.world.biome.BiomeGenForest]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Roofed Forest M",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenForest$1"
+    },
+    {
+      "name": "rhunLandHills",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenRhunLandHills"
+    }
+  ],
+  "biomes-id:158": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 30 [net.minecraft.world.biome.BiomeGenTaiga]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Cold Taiga M",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenMutated"
+    },
+    {
+      "name": "rhunRedForest",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenRhunRedForest"
+    }
+  ],
+  "biomes-id:159": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 31 [net.minecraft.world.biome.BiomeGenTaiga]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "rhunIsland",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenRhunIsland"
+    }
+  ],
+  "biomes-id:160": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 32 [net.minecraft.world.biome.BiomeGenTaiga]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Mega Spruce Taiga",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenTaiga"
+    },
+    {
+      "name": "rhunIslandForest",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenRhunIslandForest"
+    }
+  ],
+  "biomes-id:161": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 33 [net.minecraft.world.biome.BiomeGenTaiga]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Mega Spruce Taiga",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenTaiga"
+    },
+    {
+      "name": "lastDesert",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenLastDesert"
+    }
+  ],
+  "biomes-id:162": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 34 [net.minecraft.world.biome.BiomeGenHills]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Extreme Hills+ M",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenHills"
+    },
+    {
+      "name": "windMountains",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenWindMountains"
+    }
+  ],
+  "biomes-id:163": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 35 [net.minecraft.world.biome.BiomeGenSavanna]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Savanna M",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenSavanna$Mutated"
+    },
+    {
+      "name": "windMountainsFoothills",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenWindMountainsFoothills"
+    }
+  ],
+  "biomes-id:164": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 36 [net.minecraft.world.biome.BiomeGenSavanna]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Savanna Plateau M",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenSavanna$Mutated"
+    },
+    {
+      "name": "rivendell",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenRivendell"
+    }
+  ],
+  "biomes-id:165": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 37 [net.minecraft.world.biome.BiomeGenMesa]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Mesa (Bryce)",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenMesa"
+    },
+    {
+      "name": "rivendellHills",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenRivendellHills"
+    }
+  ],
+  "biomes-id:166": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 38 [net.minecraft.world.biome.BiomeGenMesa]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Mesa Plateau F M",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenMesa"
+    },
+    {
+      "name": "farHaradJungleMountains",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenFarHaradJungleMountains"
+    }
+  ],
+  "biomes-id:167": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 39 [net.minecraft.world.biome.BiomeGenMesa]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "Mesa Plateau M",
+      "mod": "Minecraft",
+      "replaced": true,
+      "class": "net.minecraft.world.biome.BiomeGenMesa"
+    },
+    {
+      "name": "halfTrollForest",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenHalfTrollForest"
+    }
+  ]
+}

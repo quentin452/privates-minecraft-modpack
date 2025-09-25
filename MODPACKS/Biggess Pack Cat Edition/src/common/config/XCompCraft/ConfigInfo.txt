@@ -1,0 +1,120 @@
+This is the SimpleDim Dimension Configuration Information file. It should tell you how to write and
+set up your server's custom dimensions. It is created the first time XCompCraft is run in an
+instance and may not be updated to reflect changes that occur after the first run.
+For the most up-to-date information, please visit:
+	http://minecraft.curseforge.com/mc-mods/234839-xcompcraft/pages/main/configuration
+
+Every dimension entry consists of a name, followed by a parameter list in the form:
+	
+	myCustomDimension { parameter: value; parameter: value; parameter: value; }
+
+SimpleDim will try to parse your configs to the best of its ability, however, it is ultimately up
+to you to set up the parameters and values correctly. For instance, if you install other dimension
+mods, you must take care to avoid creating a SimpleDim dimension that shares a dimension ID with
+one of these mods.
+
+Parameters:
+
+There are two parameters required for all dimensions:
+
+	id : The dimension ID of the dimension - take care to not collide with other SimpleDim or other
+			mods' dimensions! (This may be trickier if you use Mystcraft.)
+			Integer to use as the dimension ID.
+	
+	type : The type of terrain the dimension will consist of. Currently, the supported types are:
+			overworld - Will create an overworld type dimension. Use the seed parameter with this
+						type to produce a different overworld, or no seed to clone it.
+			superflat - Creates a dimension in the style of the Minecraft Superflat world type.
+						Use with the generator parameter to customize the result to your liking.
+			singleBiome - Creates a world that contains only one biome. Use with the biome
+						parameter to set which biome is used, and the seed parameter to change up
+						the terrain if desired.
+			void - Creates an empty world with nothing inside.
+
+These parameters can be used with any dimension type:
+	
+	spawn: Used to set the spawn location of the dimension.
+			Set of 3 comma separated integers. Enclosing with parentheses is recommended, but not
+			strictly required. (x, y, z) where y cannot be negative. (Don't spawn under the world!)
+			Usable with all world types.
+	
+	seed: Sets the seed for the dimension, overriding the global server seed. Useful to recreate
+			your perfect world in a dimension, or bring past servers to your new server with
+			seamless terrain generation.
+			Integer to use as the seed. Can be specified in decimal with optional negative sign (-)
+			or as a hexadecimal value.
+			Applicable to 'superflat', 'overworld' and 'singleBiome' types. (Void type may use it,
+			but will not affect terrain, since there is none.)
+	
+	loadSpawn: Whether or not the spawn of the dimension should be loaded regardless of whether
+			players are present. May help speed up transfer time to the dimension.
+			Either 'true' or 'false. Other values will be ignored.
+	
+Other types of parameters are used in conjunction with specific types of dimensions:
+	
+	generator: Used with the 'superflat' type. Controls what the world consists of. Uses the same
+			format as the Superflat configuration screen, such as what you can build and customize
+			using http://www.minecraft101.net/superflat/
+			Must be enclosed with either single or double quotes.
+			Only applicable to 'superflat' type.
+	
+	biome: Used to set the biome of 'singleBiome' worlds, specified as the biome name without
+			spaces. "plains", "extremeHills", "mushroomIsland" etc. Mod biomes that have assigned
+			names are supported.
+			Name of the biome.
+			Only applicable to 'singleBiome' type.
+
+Example Dimension Entries:
+
+customAge { id: 16; type: overworld; spawn: (12, 75, -153); seed: 15203824 }
+
+	- Creates an Overworld type dimension with spawn set to (12, 75, -153) and a seed of 15203824.
+
+justAVoid { id: -2; type: void }
+
+	- Creates a void age with dimension ID 2.
+
+justGrassAndSlimes { id: 3; type: superflat; generator: "2;7,2x3,2;1;village" }
+
+	- Creates a dimension similar to the default Superflat setting.
+
+
+To transport between SimpleDim dimensions, you may specify items in the config file. Each transport
+item follows a similar entry as dimensions, in the format:
+
+	item The Item Name In-game { parameter: value; parameter: value }
+
+The text that follows the item keyword will be used as the display name of the item in-game, less
+the trailing space, and will also be registered in the Game Registry with the provided name. Item
+entries have two required parameters:
+
+	forDimension: text identifying the dimension the item is linked to. Must be one of the
+			dimensions defined in one of the SimpleDim config files.
+	
+	type: visual representation of the teleporter item. Must be one of the valid types in the
+			following table.
+			
+Item Types:
+Each type is listed with the number of layers, and any available variants.
+
+	accessCard - gives the appearance of a credit-card type item.
+			3 layers. variants: [1, 1, 1]
+	pocketwatch - gives the appearance of a pocket watch or locket item.
+			2 layers, variants: [1, 2]
+
+
+Optional parameters are:
+
+	colours: Add colour to the teleporter icon's layers. Takes a list of numbers corresponding to
+			values in RGB format, length should not exceed the number of layers in the type.
+			Of the format: [ number, number, number ]
+			Number may either be hexadecimal or base 10.
+			
+	variant: A list of numbers corresponding to available variants. If no variant is available
+			for the layer, use 0. Must be strictly less than the number of variants for a layer.
+			Of the format: [ number, number, number ]
+			Number must be base 10.
+			
+	displayName: If using MineTweaker or similar mods to add recipes for the teleport item, use
+			this parameter to override the display name of the item, and don't use spaces in the
+			string provided to the item definition.

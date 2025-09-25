@@ -1,0 +1,40 @@
+[
+  {
+    "skills": [
+      {
+        "skill": "Attack",
+        "level": 1
+      },
+      {
+        "skill": "Strength",
+        "level": 20
+      },
+      {
+        "skill": "Defence",
+        "level": 30
+      },
+      {
+        "skill": "Magic",
+        "level": 1
+      },
+      {
+        "skill": "Ranged",
+        "level": 1
+      },
+      {
+        "skill": "Prayer",
+        "level": 1
+      },
+      {
+        "skill": "Constitution",
+        "level": 8
+      },
+      {
+        "skill": "Summoning",
+        "level": 1
+      }
+    ],
+    "entityID": "Creeper",
+    "weight": 1.0
+  }
+]

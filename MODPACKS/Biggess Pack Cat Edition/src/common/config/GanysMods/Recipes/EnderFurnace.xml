@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Recipes marked as "default" will be reset every time the game launches.
+If you wish to disable a recipe change its status to "ignored"
+If you want to add a custom recipe, mark it as "custom". If you mark it as default, it will be deleted!!
+If you alter a default recipe don't forget to also mark it as "custom"
+
+The syntax for an item stack is the same as you'd use in the /give command. NBT tags are supported! (e.g. minecraft:skull 1 3 {SkullOwner:"ganymedes01"})
+The syntax for a fluid stack is simiar to the item stack, it should be the fluid name followed by the amount. NBT tags are also supported! (e.g. water 1000)
+The syntax for ore dictionary values is the value between double-quotes. (e.g. "ingotIron")
+-->
+
+<ENDERFURNACE>
+	<recipe status="default">
+		<output>minecraft:ender_pearl 4 0</output>
+		<input1>"itemSkull"</input1>
+		<input2>"itemSkull"</input2>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:end_stone 1 0</output>
+		<input1>minecraft:stone 1 0</input1>
+	</recipe>
+
+	<recipe status="default">
+		<output>ganysend:endstoneBrick 1 0</output>
+		<input1>minecraft:stonebrick 1 0</input1>
+	</recipe>
+
+	<recipe status="default">
+		<output>ganysend:enderpearlBlock 1 1</output>
+		<input1>ganysend:enderpearlBlock 1 0</input1>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:stone 1 0</output>
+		<input1>minecraft:netherrack 1 0</input1>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:stonebrick 1 0</output>
+		<input1>minecraft:nether_brick 1 0</input1>
+	</recipe>
+
+	<recipe status="default">
+		<output>ganysend:endiumIngot 2 0</output>
+		<input1>"oreEndium"</input1>
+	</recipe>
+
+	<recipe status="default">
+		<output>ganysend:enderTag 1 0 {}</output>
+		<input1>minecraft:paper 1 0</input1>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:mycelium 1 0</output>
+		<input1>minecraft:grass 1 0</input1>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:emerald 1 0</output>
+		<input1>minecraft:diamond 1 0</input1>
+		<input2>minecraft:gold_ingot 1 0</input2>
+		<input3>"itemSkull"</input3>
+		<input4>minecraft:potion 1 8196</input4>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:diamond 1 0</output>
+		<input1>minecraft:emerald 1 0</input1>
+		<input2>minecraft:gold_ingot 1 0</input2>
+		<input3>"itemSkull"</input3>
+		<input4>minecraft:potion 1 8194</input4>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:experience_bottle 1 0</output>
+		<input1>minecraft:potion 1 8197</input1>
+		<input2>ganysend:endstoneRod 1 0</input2>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:ender_pearl 1 0</output>
+		<input1>minecraft:ghast_tear 1 0</input1>
+		<input2>minecraft:sugar 1 0</input2>
+		<input3>minecraft:glowstone_dust 1 0</input3>
+		<input4>minecraft:experience_bottle 1 0</input4>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:dragon_egg 1 0</output>
+		<input1>ganysend:timeManipulator 1 0</input1>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:cooked_fished 1 0</output>
+		<input1>minecraft:fish 1 0</input1>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:potato 1 0</output>
+		<input1>minecraft:poisonous_potato 1 0</input1>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:beef 1 0</output>
+		<input1>minecraft:rotten_flesh 1 0</input1>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:tallgrass 1 2</output>
+		<input1>minecraft:deadbush 1 0</input1>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:skull 1 1</output>
+		<input1>minecraft:skull 1 0</input1>
+		<input2>minecraft:potion 1 8265</input2>
+		<input3>minecraft:skull 1 0</input3>
+		<input4>minecraft:potion 1 8259</input4>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:ghast_tear 1 0</output>
+		<input1>minecraft:gold_nugget 1 0</input1>
+		<input2>minecraft:potion 1 8270</input2>
+		<input3>minecraft:fire_charge 1 0</input3>
+		<input4>minecraft:gold_ingot 1 0</input4>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:record_13 1 0</output>
+		<input1>minecraft:skull 1 0</input1>
+		<input2>minecraft:redstone 1 0</input2>
+		<input3>minecraft:dye 1 11</input3>
+		<input4>minecraft:dye 1 15</input4>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:record_cat 1 0</output>
+		<input1>minecraft:skull 1 0</input1>
+		<input2>minecraft:redstone 1 0</input2>
+		<input3>minecraft:dye 1 10</input3>
+		<input4>minecraft:dye 1 10</input4>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:record_blocks 1 0</output>
+		<input1>minecraft:skull 1 0</input1>
+		<input2>minecraft:redstone 1 0</input2>
+		<input3>minecraft:dye 1 14</input3>
+		<input4>minecraft:dye 1 3</input4>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:record_chirp 1 0</output>
+		<input1>minecraft:skull 1 0</input1>
+		<input2>minecraft:redstone 1 0</input2>
+		<input3>minecraft:dye 1 0</input3>
+		<input4>minecraft:dye 1 1</input4>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:record_far 1 0</output>
+		<input1>minecraft:skull 1 0</input1>
+		<input2>minecraft:redstone 1 0</input2>
+		<input3>minecraft:dye 1 15</input3>
+		<input4>minecraft:dye 1 2</input4>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:record_mall 1 0</output>
+		<input1>minecraft:skull 1 0</input1>
+		<input2>minecraft:redstone 1 0</input2>
+		<input3>minecraft:dye 1 5</input3>
+		<input4>minecraft:dye 1 5</input4>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:record_mellohi 1 0</output>
+		<input1>minecraft:skull 1 0</input1>
+		<input2>minecraft:redstone 1 0</input2>
+		<input3>minecraft:dye 1 13</input3>
+		<input4>minecraft:dye 1 15</input4>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:record_stal 1 0</output>
+		<input1>minecraft:skull 1 0</input1>
+		<input2>minecraft:redstone 1 0</input2>
+		<input3>minecraft:dye 1 0</input3>
+		<input4>minecraft:dye 1 0</input4>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:record_strad 1 0</output>
+		<input1>minecraft:skull 1 0</input1>
+		<input2>minecraft:redstone 1 0</input2>
+		<input3>minecraft:dye 1 15</input3>
+		<input4>minecraft:dye 1 15</input4>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:record_ward 1 0</output>
+		<input1>minecraft:skull 1 0</input1>
+		<input2>minecraft:redstone 1 0</input2>
+		<input3>minecraft:dye 1 2</input3>
+		<input4>minecraft:dye 1 10</input4>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:record_11 1 0</output>
+		<input1>minecraft:record_stal 1 0</input1>
+		<input2>minecraft:gunpowder 1 0</input2>
+		<input3>minecraft:gunpowder 1 0</input3>
+		<input4>minecraft:gunpowder 1 0</input4>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:record_wait 1 0</output>
+		<input1>minecraft:skull 1 0</input1>
+		<input2>minecraft:redstone 1 0</input2>
+		<input3>minecraft:dye 1 6</input3>
+		<input4>minecraft:dye 1 6</input4>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:dye 2 0</output>
+		<input1>minecraft:dye 1 0</input1>
+		<input2>"flowerEnder"</input2>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:dye 2 1</output>
+		<input1>minecraft:dye 1 1</input1>
+		<input2>"flowerEnder"</input2>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:dye 2 2</output>
+		<input1>minecraft:dye 1 2</input1>
+		<input2>"flowerEnder"</input2>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:dye 2 3</output>
+		<input1>minecraft:dye 1 3</input1>
+		<input2>"flowerEnder"</input2>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:dye 2 4</output>
+		<input1>minecraft:dye 1 4</input1>
+		<input2>"flowerEnder"</input2>
+		<input3>"flowerEnder"</input3>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:dye 2 5</output>
+		<input1>minecraft:dye 1 5</input1>
+		<input2>"flowerEnder"</input2>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:dye 2 6</output>
+		<input1>minecraft:dye 1 6</input1>
+		<input2>"flowerEnder"</input2>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:dye 2 7</output>
+		<input1>minecraft:dye 1 7</input1>
+		<input2>"flowerEnder"</input2>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:dye 2 8</output>
+		<input1>minecraft:dye 1 8</input1>
+		<input2>"flowerEnder"</input2>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:dye 2 9</output>
+		<input1>minecraft:dye 1 9</input1>
+		<input2>"flowerEnder"</input2>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:dye 2 10</output>
+		<input1>minecraft:dye 1 10</input1>
+		<input2>"flowerEnder"</input2>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:dye 2 11</output>
+		<input1>minecraft:dye 1 11</input1>
+		<input2>"flowerEnder"</input2>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:dye 2 12</output>
+		<input1>minecraft:dye 1 12</input1>
+		<input2>"flowerEnder"</input2>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:dye 2 13</output>
+		<input1>minecraft:dye 1 13</input1>
+		<input2>"flowerEnder"</input2>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:dye 2 14</output>
+		<input1>minecraft:dye 1 14</input1>
+		<input2>"flowerEnder"</input2>
+	</recipe>
+
+	<recipe status="default">
+		<output>minecraft:dye 2 15</output>
+		<input1>minecraft:dye 1 15</input1>
+		<input2>"flowerEnder"</input2>
+	</recipe>
+
+	<recipe status="default">
+		<output>ganysend:rawEndium 1 0</output>
+		<input1>"oreDiamond"</input1>
+	</recipe>
+
+</ENDERFURNACE>

@@ -1,0 +1,19 @@
+{Forestry:[
+	{keep-one:[[ffarm],[]]};
+	{hide:[[crated*,adventurerBag*],[]]};
+	{keep:[[resources,slabs,slabsDouble,fences,stairs,*Fireproof],[0]]};
+	{keep-one:[[leaves,beePrincessGE,beeDroneGE,beeLarvaeGE,caterpillarGE,sapling,pollenFertile],[]]};
+	{hide:[[can*,wax*,refractory*],[]]};
+	{show:[[canEmpty,waxCapsule,refractoryEmpty],[0]]};
+],
+Botany:[
+	{keep-one:[[ceramic,stained,ceramicBrick,insulatedTube,pigment,clay],[0]]};
+	{hide:[[flower,plant,seed,pollen],[]]};
+],
+Genetics:[
+	{keep-one:[[serum*],[]]};
+],
+ExtraTrees:[
+	{keep:[[fence,gate,slab,doubleSlab,door,stairs,panel],[0]]};
+	]
+}

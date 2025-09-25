@@ -1,0 +1,3 @@
+#BetterFps Config
+#Sat Nov 11 14:20:13 WAT 2023
+algorithm=half

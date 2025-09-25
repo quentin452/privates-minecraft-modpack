@@ -1,0 +1,29 @@
+{
+	"general": {
+		"Item Class BlackList": [
+			"net.minecraft.item.ItemBlock",
+			"net.minecraft.item.ItemMonsterPlacer",
+			"net.minecraft.item.ItemSkull",
+			"net.minecraft.item.ItemFireworkCharge",
+			"net.minecraft.item.ItemDoor",
+			"net.minecraft.item.ItemEmptyMap",
+			"net.minecraft.item.ItemMap"
+		],
+		"Stack Blacklist": [
+			"minecraft:bedrock"
+		],
+		"Block Class BlackList": [
+			"com.temportalist.compression.common.blocks.BlockCompressed"
+		]
+	},
+	"compressed objects": {
+		// When players pick up blocks or items that match the same type as the first compressed block or item with a minimum tier as this value, the block or item will be inserted into the first compressed stack (-1 to disable).
+		"Pool Functionality": 3,
+		// When a compressed block or item of this minimum tier is in the world, all entities will be attracted to it (-1 to disable).
+		"Black Hole": 9,
+		// When a compressed block or item of this minimum tier is in your inventory, all blocks and items of the same type will be attracted to you (-1 to disable).
+		"Magnet": 5,
+		// When a compressed block or item is on the ground, others of the same type will be sucked into it, as long as it is this minimum tier (-1 to disable).
+		"Attractor": 4
+	}
+}

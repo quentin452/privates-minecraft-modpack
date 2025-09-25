@@ -1,0 +1,77 @@
+Adventurer's Amulets
+id:(0)
+id:(3 - 4)
+
+Akatsuki Mod
+id:(5 - 7)
+id:(23 - 24)
+
+Animal Bikes
+id:(25 - 39)
+id:(67 - 83)
+
+Aquaculture
+id:(84)
+
+Arcana RPG
+id:(85 - 89)
+id:(101 - 111)
+
+Battle Towers
+id:(112)
+
+Blocklings
+id:(113)
+
+Blood Arsenal
+id:(114)
+
+Camouflage Creepers
+id:(115)
+
+Conception
+id:(116)
+
+Creeper-Spider Mod
+id:(117)
+
+CreepyPastaCraft
+id:(118 - 119)
+id:(121 - 129)
+
+CutePuppyMod
+id:(130 - 138)
+
+Dynamic Craft
+id:(139)
+
+Eldritch Empires
+id:(140 - 157)
+
+Elijah's Chocolate Mod
+id:(158 - 159)
+
+Ender IO
+id:(160 - 162)
+
+Eternal Frost
+id:(163 - 185)
+
+Gadomancy
+id:(186 - 189)
+
+Magical Instrument
+id:(190 - 191)
+
+Millénaire
+id:(192 - 198)
+
+Runic Dungeons
+id:(199)
+
+Thermal Foundation
+id:(201 - 203)
+
+WolfCore
+id:(204 - 222)
+

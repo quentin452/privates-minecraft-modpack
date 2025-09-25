@@ -1,0 +1,19 @@
+{
+  "_comment": "This is the default head hitbox file. When this mod generates a default hitbox file for any mob without a custom default hitbox, it will be an auto-formatted copy of this file. Remember, comments (such as this one) will not be copied.",
+  "scale": 1.0,
+  "child_scale": 1.0,
+  "size": [
+    NaN,
+    0.2,
+    NaN
+  ],
+  "offset": [
+    0.0,
+    -0.1,
+    0.0
+  ],
+  "head_damage": 1.0,
+  "body_damage": 0.0,
+  "head_multiplier": 2.0,
+  "body_multiplier": 1.0
+}

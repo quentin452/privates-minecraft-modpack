@@ -1,0 +1,101 @@
+{
+  "Achievements To Remove": [],
+  "Achievements": [
+    {
+      "Name": "Triumph!",
+      "Description": "Install the greatest achievement mod",
+      "XPos": 0,
+      "YPos": 0,
+      "Icon": "minecraft:nether_star",
+      "Color": "LIGHT_PURPLE",
+      "Special": true,
+      "Count": 1,
+      "Triggers": [
+        {
+          "Trigger Type": "PLAYER_LOGIN",
+          "Name": "login",
+          "Usage": "AND",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "Name": "Undead Slayer",
+      "Description": "Kill 10 of either zombies or skeletons",
+      "XPos": 0,
+      "YPos": 3,
+      "Icon": "minecraft:skull",
+      "Color": "DARK_RED",
+      "Parent": "Triumph!",
+      "Special": false,
+      "Count": 10,
+      "Triggers": [
+        {
+          "Entity Data": [
+            {
+              "Name": "Zombie"
+            }
+          ],
+          "Trigger Type": "KILL_ENTITY",
+          "Name": "kill_zombie",
+          "Usage": "OR",
+          "Count": 1
+        },
+        {
+          "Entity Data": [
+            {
+              "Name": "Skeleton"
+            }
+          ],
+          "Trigger Type": "KILL_ENTITY",
+          "Name": "kill_skeleton",
+          "Usage": "OR",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "Name": "Undead Decimator",
+      "Description": "Kill 50 of either zombies or skeletons",
+      "XPos": -2,
+      "YPos": 3,
+      "Icon": "minecraft:skull",
+      "Color": "DARK_RED",
+      "Parent": "Undead Slayer",
+      "Special": false,
+      "Count": 40,
+      "Triggers": [
+        {
+          "Entity Data": [
+            {
+              "Name": "Zombie"
+            }
+          ],
+          "Trigger Type": "KILL_ENTITY",
+          "Name": "kill_zombie",
+          "Usage": "OR",
+          "Count": 1
+        },
+        {
+          "Entity Data": [
+            {
+              "Name": "Skeleton"
+            }
+          ],
+          "Trigger Type": "KILL_ENTITY",
+          "Name": "kill_skeleton",
+          "Usage": "OR",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "Achievement Pages": [
+    {
+      "Name": "Triumphant Achievements",
+      "Achievement List": [
+        "Triumph!"
+      ]
+    }
+  ]
+}

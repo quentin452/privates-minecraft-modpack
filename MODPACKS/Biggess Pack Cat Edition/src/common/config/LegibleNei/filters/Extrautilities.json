@@ -1,0 +1,9 @@
+{ExtraUtilities:[
+    {keep-one:[[microblocks],[]]};
+	{keep-one:[[drum],[0,1]]};
+	{keep:[[greenscreen],[8]]};
+	{keep:[[cobblestone_compressed],[0,8,12,14]]};
+	{hide:[[nodeUpgrade],[4]]};
+	{keep:[[color*,decorativeBlock2,generator.8,generator.64],[0]]};
+    ]
+}

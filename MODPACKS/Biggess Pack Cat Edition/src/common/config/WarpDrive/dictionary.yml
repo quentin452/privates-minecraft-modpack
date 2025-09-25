@@ -1,0 +1,219 @@
+# Configuration file
+
+##########################################################################################################
+# block_tags
+#--------------------------------------------------------------------------------------------------------#
+# Use this section to enable special behavior on blocks using tags.
+# Most blocks are already supported automatically. Only modify this section when something doesn't work!
+# 
+# Tags shall be separated by at least one space, comma or tabulation.
+# Invalid tags will be ignored silently. Tags and block names are case sensitive.
+# In case of conflicts, the latest tag overwrite the previous ones.
+# - Soil: this block is a soil for plants (default: dirt, farmland, grass, sand & soul sand).
+# - Log: this block is harvestable as a wood log (default: all 'log*', '*log' & '*logs' blocks from the ore dictionary).
+# - Leaf: this block is harvestable as a leaf (default: all 'leave*', '*leave' & '*leaves' blocks from the ore dictionary).
+# - Anchor: ship can't move with this block aboard (default: bedrock and assimilated).
+# - NoMass: this block doesn't count when calculating ship volume/mass (default: leaves, all 'air' blocks).
+# - LeftBehind: this block won't move with your ship (default: RailCraft heat, WarpDrive gases).
+# - Expandable: this block will be squished/ignored in case of collision.
+# - Mining: this block is mineable (default: all 'ore' blocks from the ore dictionary).
+# - SkipMining: this block is ignored from mining (default: bedrock).
+# - StopMining: this block will prevent mining through it (default: command/creative, bedrock, force fields).
+# - PlaceEarliest: this block will be removed last and placed first (default: ship hull and projectors).
+# - PlaceEarlier: this block will be placed fairly soon (default: forcefield blocks).
+# - PlaceNormal: this block will be removed and placed with non-tile entities.
+# - PlaceLater: this block will be placed fairly late (default: IC2 Reactor core).
+# - PlaceLatest: this block will be removed first and placed last (default: IC2 Reactor chamber).
+# - NoCamouflage: this block isn't valid for camouflage.
+# - NoBlink: this block will prevent teleportation through it (default: bedrock, force fields)
+##########################################################################################################
+
+block_tags {
+    S:"AdvancedRepulsionSystems:field"=PlaceEarlier StopMining NoBlink
+    S:"Artifacts:anti_anti_builder_stone"=Anchor StopMining
+    S:"Artifacts:anti_builder"=Anchor StopMining
+    S:"Artifacts:invisible_bedrock"=Anchor StopMining NoBlink
+    S:"CarpentersBlocks:blockCarpentersDaylightSensor"=PlaceLatest
+    S:"CarpentersBlocks:blockCarpentersDoor"=PlaceLatest
+    S:"CarpentersBlocks:blockCarpentersGarageDoor"=PlaceLatest
+    S:"CarpentersBlocks:blockCarpentersHatch"=PlaceLatest
+    S:"CarpentersBlocks:blockCarpentersLadder"=PlaceLatest
+    S:"CarpentersBlocks:blockCarpentersLever"=PlaceLatest
+    S:"CarpentersBlocks:blockCarpentersPressurePlate"=PlaceLatest
+    S:"CarpentersBlocks:blockCarpentersTorch"=PlaceLatest
+    S:"ComputerCraft:command_computer"=Anchor SkipMining
+    S:"IC2:blockAlloy"=PlaceEarliest StopMining
+    S:"IC2:blockAlloyGlass"=PlaceEarliest StopMining
+    S:"IC2:blockGenerator"=PlaceLater
+    S:"IC2:blockPersonal"=Anchor SkipMining
+    S:"IC2:blockReactorChamber"=PlaceLatest
+    S:"IC2:blockReinforcedFoam"=PlaceEarliest StopMining
+    S:"IC2:blockRubWood"=Log
+    S:"ImmersiveEngineering:metalDevice"=PlaceLatest
+    S:"InvisibLights:blockLightSource"=NoMass Expandable
+    S:"OpenComputers:case1"=PlaceLatest
+    S:"OpenComputers:case2"=PlaceLatest
+    S:"OpenComputers:case3"=PlaceLatest
+    S:"OpenComputers:caseCreative"=PlaceLatest
+    S:"OpenComputers:keyboard"=PlaceLatest
+    S:"PneumaticCraft:pressureChamberValve"=PlaceEarlier
+    S:"Railcraft:residual.heat"=LeftBehind Expandable
+    S:"StargateTech2:block.busAdapter"=PlaceLatest StopMining
+    S:"StargateTech2:block.busCable"=PlaceNormal StopMining
+    S:"StargateTech2:block.shield"=PlaceNormal StopMining NoBlink
+    S:"StargateTech2:block.shieldController"=PlaceNormal StopMining NoBlink
+    S:"StargateTech2:block.shieldEmitter"=PlaceLater StopMining NoBlink
+    S:"TConstruct:slime.gel"=Log
+    S:"TConstruct:slime.leaves"=Leaf
+    S:"Thaumcraft:blockCustomPlant"=NoCamouflage
+    S:"ThermalExpansion:Cache"=NoCamouflage
+    S:"ThermalExpansion:Device"=NoCamouflage
+    S:"ThermalExpansion:Machine"=NoCamouflage
+    S:"ThermalExpansion:Sponge"=NoCamouflage
+    S:"WarpDrive:blockAir"=NoMass Expandable PlaceLatest
+    S:"WarpDrive:blockAirFlow"=NoMass Expandable PlaceLatest
+    S:"WarpDrive:blockAirSource"=NoMass Expandable PlaceLatest
+    S:"WarpDrive:blockBedrockGlass"=Anchor StopMining NoBlink
+    S:"WarpDrive:blockForceField1"=PlaceLatest StopMining NoMass
+    S:"WarpDrive:blockForceField2"=PlaceLatest StopMining NoMass
+    S:"WarpDrive:blockForceField3"=PlaceLatest StopMining NoMass
+    S:"WarpDrive:blockGas"=LeftBehind Expandable
+    S:"WarpDrive:blockHull1_glass"=PlaceEarliest StopMining
+    S:"WarpDrive:blockHull1_plain"=PlaceEarliest StopMining
+    S:"WarpDrive:blockHull2_glass"=PlaceEarliest StopMining
+    S:"WarpDrive:blockHull2_plain"=PlaceEarliest StopMining
+    S:"WarpDrive:blockHull3_glass"=PlaceEarliest StopMining
+    S:"WarpDrive:blockHull3_plain"=PlaceEarliest StopMining
+    S:"WarpDrive:blockIridium"=Mining
+    S:"chisel:cloud"=LeftBehind Expandable
+    S:"deepresonance:energyCollectorBlock"=NoCamouflage
+    S:"deepresonance:resonatingCrystalBlock"=NoCamouflage
+    S:"evilcraft:bloodInfuser"=NoCamouflage
+    S:"evilcraft:darkOre"=NoCamouflage
+    S:"evilcraft:sanguinaryEnvironmentalAccumulator"=NoCamouflage
+    S:"evilcraft:spiritReanimator"=NoCamouflage
+    S:"malisisdoors:null"=Anchor
+    S:"malisisdoors:rustyHatch"=Anchor
+    S:"minecraft:bedrock"=Anchor SkipMining NoBlink
+    S:"minecraft:command_block"=Anchor StopMining
+    S:"minecraft:dirt"=Soil
+    S:"minecraft:end_portal"=Anchor StopMining
+    S:"minecraft:end_portal_frame"=Anchor StopMining
+    S:"minecraft:farmland"=Soil
+    S:"minecraft:fence"=Mining
+    S:"minecraft:glowstone"=Mining
+    S:"minecraft:grass"=Soil
+    S:"minecraft:lever"=PlaceLatest
+    S:"minecraft:mycelium"=Soil
+    S:"minecraft:obsidian"=PlaceEarliest Mining
+    S:"minecraft:redstone_block"=Mining
+    S:"minecraft:sand"=Soil
+    S:"minecraft:soul_sand"=Soil
+    S:"minecraft:torch"=Mining
+    S:"minecraft:web"=Mining
+    S:"openmodularturrets:baseTierFourBlock"=NoCamouflage
+    S:"openmodularturrets:baseTierOneBlock"=NoCamouflage
+    S:"openmodularturrets:baseTierThreeBlock"=NoCamouflage
+    S:"openmodularturrets:baseTierTwoBlock"=NoCamouflage
+    S:"openmodularturrets:baseTierWood"=NoCamouflage
+    S:"witchery:leechchest"=NoCamouflage
+}
+
+
+##########################################################################################################
+# entity_tags
+#--------------------------------------------------------------------------------------------------------#
+# Use this section to enable special behavior on entities using tags.
+# Most entities are already supported automatically. Only modify this section when something doesn't work!
+# 
+# Tags shall be separated by at least one space, comma or tabulation.
+# Invalid tags will be ignored silently. Tags and block names are case sensitive.
+# In case of conflicts, the latest tag overwrite the previous ones.
+# - Anchor: ship can't move with this entity aboard (default: none).
+# - NoMass: this entity doesn't count when calculating ship volume/mass (default: Galacticraft air bubble).
+# - LeftBehind: this entity won't move with your ship nor transporter (default: Galacticraft air bubble).
+# - NonLivingTarget: this non-living entity can be targeted/removed by weapons (default: ItemFrame, Painting).
+# - LivingWithoutAir: this living entity doesn't need air to live (default: vanilla zombies and skeletons).
+##########################################################################################################
+
+entity_tags {
+    S:Arrow=NoMass NonLivingTarget
+    S:Boat=NoMass NonLivingTarget
+    S:Creeper=LivingWithoutAir
+    S:EnderCrystal=NoMass NonLivingTarget
+    S:GalacticraftCore.OxygenBubble=NoMass LeftBehind
+    S:IC2.BoatCarbon=NoMass NonLivingTarget
+    S:IC2.BoatElectric=NoMass NonLivingTarget
+    S:IC2.BoatRubber=NoMass NonLivingTarget
+    S:IC2.Dynamite=NoMass NonLivingTarget
+    S:IC2.Itnt=NoMass NonLivingTarget
+    S:IC2.Nuke=NoMass NonLivingTarget
+    S:IC2.StickyDynamite=NoMass NonLivingTarget
+    S:ItemFrame=NoMass NonLivingTarget
+    S:LeashKnot=NoMass NonLivingTarget
+    S:MinecartChest=NoMass NonLivingTarget
+    S:MinecartFurnace=NoMass NonLivingTarget
+    S:MinecartHopper=NoMass NonLivingTarget
+    S:MinecartRideable=NoMass NonLivingTarget
+    S:MinecartSpawner=NoMass NonLivingTarget
+    S:MinecartTNT=NoMass NonLivingTarget
+    S:Painting=NoMass NonLivingTarget
+    S:Skeleton=LivingWithoutAir
+    S:Zombie=LivingWithoutAir
+    S:testdummy.Dummy=LivingWithoutAir
+}
+
+
+##########################################################################################################
+# item_tags
+#--------------------------------------------------------------------------------------------------------#
+# Use this section to enable special behavior on items using tags.
+# Most items are already supported automatically. Only modify this section when something doesn't work!
+# 
+# Tags shall be separated by at least one space, comma or tabulation.
+# Invalid tags will be ignored silently. Tags and block names are case sensitive.
+# In case of conflicts, the latest tag overwrite the previous ones.
+# - FlyInSpace: player can move without gravity effect while wearing this item (default: jetpacks).
+# - NoFallDamage: player doesn't take fall damage while wearing this armor item (default: IC2 rubber boots).
+# - BreathingHelmet: player can breath from WarpDrive air canister or IC2 compressed air while wearing this armor item (default: IC2 nano helmet and Cie).
+# 
+##########################################################################################################
+
+item_tags {
+    S:"AWWayofTime:boundHelmet"=BreathingHelmet
+    S:"AWWayofTime:boundHelmetEarth"=BreathingHelmet
+    S:"AWWayofTime:boundHelmetFire"=BreathingHelmet
+    S:"AWWayofTime:boundHelmetWater"=BreathingHelmet
+    S:"AWWayofTime:boundHelmetWind"=BreathingHelmet
+    S:"AdvancedSolarPanel:advanced_solar_helmet"=BreathingHelmet
+    S:"AdvancedSolarPanel:hybrid_solar_helmet"=BreathingHelmet
+    S:"AdvancedSolarPanel:ultimate_solar_helmet"=BreathingHelmet
+    S:"Botania:elementiumHelm"=BreathingHelmet
+    S:"Botania:elementiumHelmReveal"=BreathingHelmet
+    S:"Botania:terrasteelHelm"=BreathingHelmet
+    S:"Botania:terrasteelHelmReveal"=BreathingHelmet
+    S:"EnderIO:item.darkSteel_helmet"=BreathingHelmet
+    S:"GraviSuite:advJetpack"=FlyInSpace NoFallDamage
+    S:"GraviSuite:advNanoChestPlate"=FlyInSpace NoFallDamage
+    S:"GraviSuite:graviChestPlate"=FlyInSpace NoFallDamage
+    S:"IC2:itemArmorHazmatHelmet"=BreathingHelmet
+    S:"IC2:itemArmorJetpack"=FlyInSpace NoFallDamage
+    S:"IC2:itemArmorJetpackElectric"=FlyInSpace NoFallDamage
+    S:"IC2:itemArmorNanoHelmet"=BreathingHelmet
+    S:"IC2:itemArmorQuantumBoots"=NoFallDamage
+    S:"IC2:itemArmorQuantumChestplate"=FlyInSpace NoFallDamage
+    S:"IC2:itemArmorQuantumHelmet"=BreathingHelmet
+    S:"IC2:itemArmorRubBoots"=NoFallDamage
+    S:"IC2:itemSolarHelmet"=BreathingHelmet
+    S:"PneumaticCraft:pneumaticHelmet"=BreathingHelmet
+    S:"RedstoneArsenal:armor.helmetFlux"=BreathingHelmet
+    S:"Techguns:steam,_helmet"=BreathingHelmet
+    S:"Techguns:t3_exo_helmet"=BreathingHelmet
+    S:"Techguns:t3_miner_helmet"=BreathingHelmet
+    S:"Techguns:t3_power_helmet"=BreathingHelmet
+    S:"Techguns:tacticalMask"=BreathingHelmet
+    S:"WarpDrive:itemWarpArmor_boots"=NoFallDamage
+    S:"WarpDrive:itemWarpArmor_leggings"=NoFallDamage
+}
+
+

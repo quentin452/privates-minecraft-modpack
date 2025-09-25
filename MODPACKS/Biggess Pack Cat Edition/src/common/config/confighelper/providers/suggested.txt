@@ -1,0 +1,72 @@
+Advent of Ascension
+id:(2 - 24)
+
+Applied Energistics 2
+id:(-2)
+
+Arcana RPG
+id:(-7 - -3)
+
+Aroma1997DimensionFix
+id:(-8)
+
+DrZhark's Mo'Creatures Mod
+id:(-9)
+
+Essence Of The Gods
+id:(25 - 28)
+
+Eternal Frost
+id:(29)
+
+Extra Utilities
+id:(-11 - -10)
+
+Fossils and Archeology Revival
+id:(-13 - -12)
+
+Gadomancy
+id:(-14)
+
+Galacticraft Core
+id:(-19 - -15)
+
+LightningCraft
+id:(-21 - -20)
+
+Maze Mod
+id:(30)
+
+RandomThings
+id:(-22)
+
+Runic Dungeons
+id:(-23)
+
+Thaumcraft
+id:(-24)
+
+Thaumic Tinkerer
+id:(-25)
+
+ThaumicHorizons
+id:(31)
+
+The Aether
+id:(32)
+
+The Lord of the Rings Mod
+id:(33 - 34)
+
+The Twilight Forest
+id:(-26)
+
+Tropicraft
+id:(-27)
+
+Witchery
+id:(-30 - -28)
+
+WolfCore
+id:(35 - 36)
+

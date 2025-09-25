@@ -1,0 +1,93 @@
+{
+  "entities-id:40": [
+    {
+      "name": "MinecartCommandBlock",
+      "mod": "Minecraft",
+      "class": "net.minecraft.entity.EntityMinecartCommandBlock"
+    },
+    {
+      "name": "MinecartCommandBlock",
+      "mod": "Railcraft",
+      "replaced": true,
+      "class": "mods.railcraft.common.carts.EntityCartCommand"
+    }
+  ],
+  "entities-id:42": [
+    {
+      "name": "MinecartRideable",
+      "mod": "Minecraft",
+      "class": "net.minecraft.entity.item.EntityMinecartEmpty"
+    },
+    {
+      "name": "MinecartRideable",
+      "mod": "Railcraft",
+      "replaced": true,
+      "class": "mods.railcraft.common.carts.EntityCartBasic"
+    }
+  ],
+  "entities-id:43": [
+    {
+      "name": "MinecartChest",
+      "mod": "Minecraft",
+      "class": "net.minecraft.entity.item.EntityMinecartChest"
+    },
+    {
+      "name": "MinecartChest",
+      "mod": "Railcraft",
+      "replaced": true,
+      "class": "mods.railcraft.common.carts.EntityCartChest"
+    }
+  ],
+  "entities-id:44": [
+    {
+      "name": "MinecartFurnace",
+      "mod": "Minecraft",
+      "class": "net.minecraft.entity.item.EntityMinecartFurnace"
+    },
+    {
+      "name": "MinecartFurnace",
+      "mod": "Railcraft",
+      "replaced": true,
+      "class": "mods.railcraft.common.carts.EntityCartFurnace"
+    }
+  ],
+  "entities-id:45": [
+    {
+      "name": "MinecartTNT",
+      "mod": "Minecraft",
+      "class": "net.minecraft.entity.item.EntityMinecartTNT"
+    },
+    {
+      "name": "MinecartTNT",
+      "mod": "Railcraft",
+      "replaced": true,
+      "class": "mods.railcraft.common.carts.EntityCartTNT"
+    }
+  ],
+  "entities-id:58": [
+    {
+      "name": "Enderman",
+      "mod": "Minecraft",
+      "class": "net.minecraft.entity.monster.EntityEnderman"
+    },
+    {
+      "name": "Enderman",
+      "mod": "Hardcore Ender Expansion",
+      "replaced": true,
+      "class": "chylex.hee.entity.mob.EntityMobEnderman"
+    }
+  ],
+  "entities-id:200": [
+    {
+      "name": "EnderCrystal",
+      "mod": "Minecraft",
+      "class": "net.minecraft.entity.item.EntityEnderCrystal"
+    },
+    {
+      "name": "EnderCrystal",
+      "mod": "Hardcore Ender Expansion",
+      "replaced": true,
+      "class": "chylex.hee.entity.block.EntityBlockEnderCrystal"
+    }
+  ]
+}

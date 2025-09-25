@@ -1,0 +1,81 @@
+Advent of Ascension
+id:(40 - 85)
+
+Applied Energistics 2
+id:(86)
+
+Arcana RPG
+id:(87 - 91)
+
+Aroma1997's Dimensional World
+id:(92)
+
+BuildCraft
+id:(93 - 94)
+
+DrZhark's Mo'Creatures Mod
+id:(95)
+
+EndlessIDs
+id:(96 - 128)
+id:(135 - 139)
+id:(141 - 148)
+id:(150)
+id:(152 - 154)
+id:(159)
+id:(168 - 540)
+
+Essence Of The Gods
+id:(541 - 544)
+
+Eternal Frost
+id:(545 - 551)
+
+Fossils and Archeology Revival
+id:(552 - 553)
+
+Galacticraft Core
+id:(554)
+
+Growthcraft
+id:(555)
+
+Highlands
+id:(556 - 594)
+
+LightningCraft
+id:(595 - 596)
+
+Maze Mod
+id:(597 - 616)
+
+Minecraft
+id:(617 - 618)
+
+Runic Dungeons
+id:(619)
+
+Steamcraft 2
+id:(620 - 629)
+
+Thaumcraft
+id:(630 - 633)
+
+The Aether
+id:(634)
+
+The Twilight Forest
+id:(635 - 653)
+
+Tropicraft
+id:(654 - 662)
+
+§5Enderlicious
+id:(663 - 666)
+
+§5§oEt Futurum Requiem
+id:(667 - 670)
+
+§6Netherlicious
+id:(671 - 678)
+

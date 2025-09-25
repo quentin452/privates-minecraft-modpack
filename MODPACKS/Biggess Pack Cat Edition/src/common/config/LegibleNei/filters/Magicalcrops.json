@@ -1,0 +1,7 @@
+{magicalcrops:[
+	{hide:[[*Crop,*FurnaceActive,CropBooster2,CropBooster3],[]]};
+	],
+magicalcropsdeco:[
+	{keep:[[essence_*],[0]]};
+	]
+}

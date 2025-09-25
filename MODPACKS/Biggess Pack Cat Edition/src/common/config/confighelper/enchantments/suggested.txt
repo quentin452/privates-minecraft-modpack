@@ -1,0 +1,83 @@
+Advent of Ascension
+id:(8 - 15)
+id:(22 - 23)
+
+Aquaculture
+id:(24 - 30)
+
+Arcana RPG
+id:(31)
+id:(36 - 44)
+
+BasaltWalker
+id:(45)
+
+BiblioCraft
+id:(46 - 47)
+
+CoFH Core
+id:(52 - 53)
+
+Draconic Evolution
+id:(54)
+
+Dungeon Tools
+id:(55)
+
+Electroblob's Wizardry
+id:(56 - 59)
+
+Ender IO
+id:(60)
+
+EnderCore
+id:(63 - 64)
+
+Essence Of The Gods
+id:(65 - 66)
+
+Forbidden Magic
+id:(67 - 74)
+
+Fossils and Archeology Revival
+id:(75 - 76)
+
+Gadomancy
+id:(77)
+
+LightningCraft
+id:(78 - 79)
+
+OpenBlocks
+id:(80 - 82)
+
+Railcraft
+id:(83 - 85)
+
+Runic Dungeons
+id:(86 - 89)
+
+Simply Jetpacks
+id:(90)
+
+Slime Carnage
+id:(91)
+
+Soul Shards: The Old Ways
+id:(92)
+
+Special Mobs
+id:(93 - 98)
+
+Thaumcraft
+id:(99 - 100)
+
+Thaumic Tinkerer
+id:(101 - 114)
+
+UnbreakEn Mod
+id:(115)
+
+§5§oEt Futurum Requiem
+id:(116 - 118)
+

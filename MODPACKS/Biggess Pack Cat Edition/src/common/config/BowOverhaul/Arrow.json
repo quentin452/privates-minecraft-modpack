@@ -1,0 +1,11 @@
+{
+  "_comment": "This is the default arrow stats file. When this mod generates default arrow stats for any projectile, it will be an auto-formatted copy of this file. Remember, comments (such as this one) will not be copied.",
+  "ramp_up_distance": "10.0~10.0",
+  "speed_multiplier": "1.0~1.0",
+  "variance": "0.0~0.0",
+  "head_damage": "0.0~0.0",
+  "body_damage": "0.0~0.0",
+  "head_multiplier": "1.0~1.0",
+  "body_multiplier": "1.0~1.0",
+  "nbt": []
+}
