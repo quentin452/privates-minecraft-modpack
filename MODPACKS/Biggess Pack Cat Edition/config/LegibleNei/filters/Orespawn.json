@@ -1,5 +1,0 @@
-{OreSpawn:[
-	{hide:[[*SpawnBlock,*Egg,*Plant*,OreSpawn_Caged*],[]]};
-	{hide:[OreSpawn_,[PizzaBlock,DuctTapeBlock],[]]};
-    ]
-}

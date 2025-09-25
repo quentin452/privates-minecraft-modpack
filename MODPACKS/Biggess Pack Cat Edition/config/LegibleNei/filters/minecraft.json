@@ -1,6 +1,0 @@
-{
-minecraft:[
-    {keep:[[wool,stained*,carpet,*spawner,*_egg,potion],[0]]};
-    {hide:[[fire,*lava,*water],[]]};
-]
-}
