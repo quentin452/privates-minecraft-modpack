@@ -5,7 +5,7 @@
       "comment": "",
       "entry_type": "generic",
       "block": {
-        "comment": "tile.flower2.name",
+        "comment": "Flower",
         "mod_id": "minecraft",
         "name": "red_flower",
         "meta": 32767
@@ -15,7 +15,7 @@
       "comment": "",
       "entry_type": "generic",
       "block": {
-        "comment": "tile.flower1.name",
+        "comment": "Flower",
         "mod_id": "minecraft",
         "name": "yellow_flower",
         "meta": 32767

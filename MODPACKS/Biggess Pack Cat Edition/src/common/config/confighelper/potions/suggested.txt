@@ -2,75 +2,105 @@ Arcana RPG
 id:(0)
 id:(24 - 32)
 
+Aura Cascade
+id:(33 - 38)
+
 Blood Arsenal
-id:(33 - 36)
+id:(39 - 42)
 
 Blood Magic: Alchemical Wizardry
-id:(37 - 53)
+id:(43 - 59)
 
 Botania
-id:(54 - 59)
+id:(60 - 65)
 
 Brewcraft
-id:(60 - 70)
+id:(66 - 76)
 
 Dungeon Mobs
-id:(71)
+id:(77)
 
 Dwarven Proc
-id:(72)
+id:(78)
 
 Electroblob's Wizardry
-id:(73 - 84)
+id:(79 - 90)
 
-Forbidden Magic
-id:(85)
-
-Gadomancy
-id:(86 - 90)
-
-Growthcraft
+Et Futurum Requiem
 id:(91)
 
-Hardcore Wither
+Forbidden Magic
 id:(92)
 
-LightningCraft
-id:(93)
+Gadomancy
+id:(93 - 97)
 
-RandomThings
-id:(94 - 99)
+GraveStone
+id:(98)
 
-Red Cow
+Growthcraft
+id:(99)
+
+Hardcore Wither
 id:(100)
 
+Hunger Overhaul
+id:(101)
+
+Immersive Engineering
+id:(102 - 105)
+
+LightningCraft
+id:(106)
+
+Mowzie's Mobs
+id:(107)
+
+Myths & Monsters Mod
+id:(108)
+
+Nutrition
+id:(109 - 111)
+
+Power Apples
+id:(112 - 114)
+
+RandomThings
+id:(115 - 120)
+
+Red Cow
+id:(121)
+
 Thaumcraft
-id:(101 - 102)
+id:(122 - 130)
 
 Thaumic Tinkerer
-id:(103 - 106)
+id:(131 - 134)
 
 ThaumicHorizons
-id:(107 - 111)
+id:(135 - 139)
 
 The Aether
-id:(112)
+id:(140)
 
 The Lord of the Rings Mod
-id:(113)
+id:(141)
 
 Totemic
-id:(114 - 116)
+id:(142 - 144)
 
-TrailMix
-id:(117)
+TragicMC 2
+id:(145 - 164)
 
 Wild Mobs
-id:(118)
+id:(165)
+
+Wildycraft
+id:(166 - 171)
 
 Witchery
-id:(119 - 163)
+id:(172 - 216)
 
-§5§oEt Futurum Requiem
-id:(164)
+Witching Gadgets
+id:(217 - 219)
 

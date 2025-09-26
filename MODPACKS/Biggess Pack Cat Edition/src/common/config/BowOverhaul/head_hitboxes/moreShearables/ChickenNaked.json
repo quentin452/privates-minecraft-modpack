@@ -1,0 +1,19 @@
+{
+  "_name": "moreShearables.ChickenNaked",
+  "scale": 1.0,
+  "child_scale": 1.0,
+  "size": [
+    1.0,
+    0.8,
+    1.0
+  ],
+  "offset": [
+    0.0,
+    -0.4,
+    1.6
+  ],
+  "head_damage": 1.0,
+  "body_damage": 0.0,
+  "head_multiplier": 2.0,
+  "body_multiplier": 1.0
+}

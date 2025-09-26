@@ -1,11 +1,11 @@
 {
   "url": [
     {
-      "url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/V1.0/Biggess+Pack+Cat+Edition+V1.0.zip",
+      "url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/V0.95.2/Biggess+Pack+Cat+Edition+V0.95.2.zip",
       "folder": "mods",
       "installationPolicy": {
         "extract": true,
-        "modpackVersion": "V1.0.1"
+        "modpackVersion": "V1.0.2"
       }
     }
   ]

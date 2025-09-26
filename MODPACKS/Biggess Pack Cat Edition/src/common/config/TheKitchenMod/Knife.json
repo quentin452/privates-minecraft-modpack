@@ -1,0 +1,8 @@
+{
+  "knife_recipe": 0,
+  "custom_knife_recipe": [
+    "BBI",
+    "BIB",
+    "SBB"
+  ]
+}

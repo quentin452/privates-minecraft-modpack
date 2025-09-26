@@ -1,7 +1,5 @@
 {
-  "_README": "https://gitlab.com/CDAGaming/CraftPresence/-/wikis/home",
-  "_SOURCE": "https://gitlab.com/CDAGaming/CraftPresence",
-  "_schemaVersion": 6,
+  "_schemaVersion": 7,
   "_lastMCVersionId": 5,
   "generalSettings": {
     "detectATLauncherInstance": true,
@@ -16,7 +14,6 @@
     "clientId": "450485984333660181",
     "defaultIcon": "grass",
     "enableJoinRequests": false,
-    "partyPrivacyLevel": 1,
     "preferredClientLevel": 3,
     "resetTimeOnInit": false,
     "autoRegister": false
@@ -29,6 +26,9 @@
         "data": {
           "enabled": true,
           "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
           "details": "",
           "gameState": "",
           "largeImageKey": "",
@@ -37,12 +37,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       }
     }
@@ -55,6 +50,9 @@
         "data": {
           "enabled": true,
           "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
           "details": "",
           "gameState": "",
           "largeImageKey": "",
@@ -63,12 +61,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       }
     }
@@ -83,6 +76,9 @@
         "data": {
           "enabled": true,
           "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
           "details": "",
           "gameState": "",
           "largeImageKey": "",
@@ -91,15 +87,12 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       }
-    }
+    },
+    "pingRateInterval": 5,
+    "pingRateUnit": "minutes"
   },
   "statusMessages": {
     "mainMenuData": {
@@ -107,6 +100,9 @@
       "data": {
         "enabled": true,
         "useAsMain": false,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
         "details": "",
         "gameState": "",
         "largeImageKey": "",
@@ -115,12 +111,7 @@
         "smallImageText": "",
         "startTimestamp": "",
         "endTimestamp": "",
-        "buttons": {
-          "default": {
-            "label": "Example Text",
-            "url": "https://google.com"
-          }
-        }
+        "buttons": {}
       }
     },
     "loadingData": {
@@ -128,6 +119,9 @@
       "data": {
         "enabled": true,
         "useAsMain": false,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
         "details": "",
         "gameState": "",
         "largeImageKey": "",
@@ -136,12 +130,7 @@
         "smallImageText": "",
         "startTimestamp": "",
         "endTimestamp": "",
-        "buttons": {
-          "default": {
-            "label": "Example Text",
-            "url": "https://google.com"
-          }
-        }
+        "buttons": {}
       }
     },
     "lanData": {
@@ -149,6 +138,9 @@
       "data": {
         "enabled": true,
         "useAsMain": false,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
         "details": "",
         "gameState": "",
         "largeImageKey": "",
@@ -157,12 +149,7 @@
         "smallImageText": "",
         "startTimestamp": "",
         "endTimestamp": "",
-        "buttons": {
-          "default": {
-            "label": "Example Text",
-            "url": "https://google.com"
-          }
-        }
+        "buttons": {}
       }
     },
     "singleplayerData": {
@@ -170,6 +157,9 @@
       "data": {
         "enabled": true,
         "useAsMain": false,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
         "details": "",
         "gameState": "",
         "largeImageKey": "",
@@ -178,13 +168,11 @@
         "smallImageText": "",
         "startTimestamp": "",
         "endTimestamp": "",
-        "buttons": {
-          "default": {
-            "label": "Example Text",
-            "url": "https://google.com"
-          }
-        }
+        "buttons": {}
       }
+    },
+    "realmData": {
+      "textOverride": "Playing on {server.motd.raw}"
     }
   },
   "advancedSettings": {
@@ -204,6 +192,9 @@
           "data": {
             "enabled": true,
             "useAsMain": false,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
             "details": "",
             "gameState": "",
             "largeImageKey": "",
@@ -212,12 +203,7 @@
             "smallImageText": "",
             "startTimestamp": "",
             "endTimestamp": "",
-            "buttons": {
-              "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
-              }
-            }
+            "buttons": {}
           }
         }
       }
@@ -233,6 +219,9 @@
           "data": {
             "enabled": true,
             "useAsMain": false,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
             "details": "",
             "gameState": "",
             "largeImageKey": "",
@@ -241,12 +230,7 @@
             "smallImageText": "",
             "startTimestamp": "",
             "endTimestamp": "",
-            "buttons": {
-              "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
-              }
-            }
+            "buttons": {}
           }
         }
       },
@@ -256,6 +240,9 @@
           "data": {
             "enabled": true,
             "useAsMain": false,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
             "details": "",
             "gameState": "",
             "largeImageKey": "",
@@ -264,12 +251,7 @@
             "smallImageText": "",
             "startTimestamp": "",
             "endTimestamp": "",
-            "buttons": {
-              "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
-              }
-            }
+            "buttons": {}
           }
         }
       }
@@ -278,64 +260,23 @@
     "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
     "playerSkinEndpoint": "https://crafatar.com/avatars/%1$s",
     "allowDuplicatePackets": false,
-    "maxConnectionAttempts": 10
+    "maxConnectionAttempts": 10,
+    "enableClassGraph": false
   },
   "accessibilitySettings": {
-    "tooltipBackground": {
-      "start": {
-        "red": 16,
-        "green": 0,
-        "blue": 16,
-        "alpha": 240
-      }
-    },
-    "tooltipBorder": {
-      "start": {
-        "red": 80,
-        "green": 0,
-        "blue": 255,
-        "alpha": 80
-      },
-      "end": {
-        "red": 40,
-        "green": 0,
-        "blue": 127,
-        "alpha": 80
-      }
-    },
-    "guiBackground": {
-      "start": {
-        "red": 64,
-        "green": 64,
-        "blue": 64,
-        "alpha": 255
-      },
-      "texLocation": "minecraft:textures/gui/options_background.png"
-    },
-    "worldGuiBackground": {
-      "start": {
-        "red": 16,
-        "green": 16,
-        "blue": 16,
-        "alpha": 192
-      },
-      "end": {
-        "red": 16,
-        "green": 16,
-        "blue": 16,
-        "alpha": 208
-      }
-    },
     "languageId": "en_US",
     "stripTranslationColors": false,
+    "stripTranslationFormatting": false,
     "stripExtraGuiElements": false,
-    "renderTooltips": true,
     "configKeyCode": 41
   },
   "displaySettings": {
     "presenceData": {
       "enabled": true,
       "useAsMain": false,
+      "isInstance": false,
+      "activityType": 0,
+      "partyPrivacy": 1,
       "details": "{menu.message}{dimension.message}",
       "gameState": "{server.message} {custom.pack}",
       "largeImageKey": "{menu.icon}{dimension.icon}",
@@ -344,21 +285,14 @@
       "smallImageText": "{server.message} {custom.pack}",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
-      "buttons": {
-        "default": {
-          "label": "Example Text",
-          "url": "https://google.com"
-        }
-      }
+      "buttons": {}
     },
     "dynamicIcons": {
-      "default": "https://via.placeholder.com/256.png",
       "Quentin453": "https://crafatar.com/avatars/eea3414063594a7080fd6879fea1218c",
       "localhost": "https://api.mcsrvstat.us/icon/localhost",
       "51.255.6.146": "https://api.mcsrvstat.us/icon/51.255.6.146"
     },
     "dynamicVariables": {
-      "default": "Example Text",
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",
       "players": "{server.players.current} / {server.players.max} Players",

@@ -1,0 +1,130 @@
+{
+  "sandwichable_items": [
+    {
+      "item_name": "kitchen:bread_slice",
+      "heal_amount": 0,
+      "is_bread": true,
+      "hide_information": false,
+      "drop_item": true
+    },
+    {
+      "item_name": "kitchen:toast",
+      "heal_amount": 0,
+      "is_bread": true,
+      "hide_information": false,
+      "drop_item": true
+    },
+    {
+      "item_name": "kitchen:bacon_cooked",
+      "heal_amount": 2,
+      "is_bread": false,
+      "hide_information": false,
+      "drop_item": true
+    },
+    {
+      "item_name": "kitchen:bacon_raw",
+      "heal_amount": 1,
+      "is_bread": false,
+      "hide_information": false,
+      "drop_item": true
+    },
+    {
+      "item_name": "kitchen:tomato_slice",
+      "heal_amount": 1,
+      "is_bread": false,
+      "hide_information": false,
+      "drop_item": true
+    },
+    {
+      "item_name": "kitchen:lettuce_leaf",
+      "heal_amount": 2,
+      "is_bread": false,
+      "hide_information": false,
+      "drop_item": true
+    },
+    {
+      "item_name": "kitchen:potato_slice",
+      "heal_amount": 2,
+      "is_bread": false,
+      "hide_information": false,
+      "drop_item": true
+    },
+    {
+      "item_name": "kitchen:carrot_slice",
+      "heal_amount": 2,
+      "is_bread": false,
+      "hide_information": false,
+      "drop_item": true
+    },
+    {
+      "item_name": "kitchen:raw_roast_beef",
+      "heal_amount": 1,
+      "is_bread": false,
+      "hide_information": false,
+      "drop_item": true
+    },
+    {
+      "item_name": "kitchen:roast_beef",
+      "heal_amount": 4,
+      "is_bread": false,
+      "hide_information": false,
+      "drop_item": true
+    },
+    {
+      "item_name": "kitchen:chicken_fillet_raw",
+      "heal_amount": 1,
+      "is_bread": false,
+      "hide_information": false,
+      "drop_item": true
+    },
+    {
+      "item_name": "kitchen:chicken_fillet_cooked",
+      "heal_amount": 4,
+      "is_bread": false,
+      "hide_information": false,
+      "drop_item": true
+    },
+    {
+      "item_name": "kitchen:cheese_slice",
+      "heal_amount": 3,
+      "is_bread": false,
+      "hide_information": false,
+      "drop_item": true
+    },
+    {
+      "item_name": "kitchen:butter",
+      "heal_amount": 1,
+      "is_bread": false,
+      "hide_information": false,
+      "drop_item": true
+    },
+    {
+      "item_name": "kitchen:strawberry_jam",
+      "heal_amount": 2,
+      "is_bread": false,
+      "hide_information": true,
+      "drop_item": false
+    },
+    {
+      "item_name": "kitchen:apple_jam",
+      "heal_amount": 2,
+      "is_bread": false,
+      "hide_information": true,
+      "drop_item": false
+    },
+    {
+      "item_name": "kitchen:peanut_jam",
+      "heal_amount": 2,
+      "is_bread": false,
+      "hide_information": true,
+      "drop_item": false
+    },
+    {
+      "item_name": "kitchen:jam_jar",
+      "heal_amount": 0,
+      "is_bread": false,
+      "hide_information": true,
+      "drop_item": true
+    }
+  ]
+}

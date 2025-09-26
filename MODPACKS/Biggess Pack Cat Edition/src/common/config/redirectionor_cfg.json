@@ -1,4 +1,9 @@
 {
+  "printTransformedClasses": false,
+  "checkEnumsWhenRunningTime": false,
+  "runOnAbsoluteSafeEnvironment": false,
   "type": "block",
-  "contains": []
+  "contains": [],
+  "prefix": [],
+  "generateConfigWhenCrash": true
 }

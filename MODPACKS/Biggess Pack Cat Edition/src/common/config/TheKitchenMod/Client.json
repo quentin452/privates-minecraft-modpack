@@ -1,0 +1,32 @@
+{
+  "oven_rendering": {
+    "inventory": true,
+    "entity": true,
+    "first_person": true,
+    "third_person": true
+  },
+  "pan_rendering": {
+    "inventory": true,
+    "entity": true,
+    "first_person": true,
+    "third_person": true
+  },
+  "plate_rendering": {
+    "inventory": true,
+    "entity": true,
+    "first_person": true,
+    "third_person": true
+  },
+  "kitchen_cabinet_rendering": {
+    "inventory": true,
+    "entity": true,
+    "first_person": true,
+    "third_person": true
+  },
+  "sandwich_rendering": {
+    "inventory": true,
+    "entity": true,
+    "first_person": true,
+    "third_person": true
+  }
+}

@@ -10,68 +10,126 @@ Animal Bikes
 id:(25 - 39)
 id:(67 - 83)
 
-Aquaculture
-id:(84)
-
-Arcana RPG
-id:(85 - 89)
+Animals+
+id:(84 - 89)
 id:(101 - 111)
 
-Battle Towers
+Aquaculture
 id:(112)
 
-Blocklings
-id:(113)
-
-Blood Arsenal
-id:(114)
-
-Camouflage Creepers
-id:(115)
-
-Conception
-id:(116)
-
-Creeper-Spider Mod
-id:(117)
-
-CreepyPastaCraft
-id:(118 - 119)
+Arcana RPG
+id:(113 - 119)
 id:(121 - 129)
 
+Battle Towers
+id:(130)
+
+Blocklings
+id:(131)
+
+Blood Arsenal
+id:(132)
+
+Camouflage Creepers
+id:(133)
+
+Castle Defender
+id:(134 - 144)
+
+ChinaCraft
+id:(145 - 146)
+
+Colored End Crystals
+id:(147)
+
+Conception
+id:(148)
+
+Creeper-Spider Mod
+id:(149)
+
+CreepyPastaCraft
+id:(150 - 160)
+
+Custom Sword  By Kelco_K22
+id:(161 - 162)
+
 CutePuppyMod
-id:(130 - 138)
+id:(163 - 171)
 
 Dynamic Craft
-id:(139)
+id:(172)
 
 Eldritch Empires
-id:(140 - 157)
+id:(173 - 190)
 
 Elijah's Chocolate Mod
-id:(158 - 159)
+id:(191 - 192)
 
 Ender IO
-id:(160 - 162)
+id:(193 - 195)
 
 Eternal Frost
-id:(163 - 185)
+id:(196 - 199)
+id:(201 - 219)
+
+FloorBallCraft
+id:(220 - 224)
 
 Gadomancy
-id:(186 - 189)
+id:(225 - 228)
+
+Hamsterrific
+id:(229)
+
+Icecream Sandwich Creeper Mod
+id:(230 - 232)
+
+Immersive Cavegen
+id:(233 - 236)
+
+Improving Minecraft
+id:(237 - 238)
 
 Magical Instrument
-id:(190 - 191)
+id:(239 - 240)
 
-Millénaire
-id:(192 - 198)
+Mankini
+id:(241)
+
+Material Creepers
+id:(242 - 253)
+
+Mimicry
+id:(254 - 256)
+
+Minecraft
+id:(257 - 271)
+
+Nether Enhancements
+id:(272 - 273)
+
+Ore Creepers
+id:(274 - 281)
+
+Ore Spiders
+id:(282 - 292)
 
 Runic Dungeons
-id:(199)
+id:(293)
+
+The Real Kether
+id:(294 - 308)
 
 Thermal Foundation
-id:(201 - 203)
+id:(309 - 311)
+
+Weird Mobs Mod
+id:(312 - 336)
+
+Wildycraft
+id:(337 - 390)
 
 WolfCore
-id:(204 - 222)
+id:(391 - 409)
 

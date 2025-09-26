@@ -12,6 +12,32 @@
       "class": "chylex.hee.world.biome.BiomeGenHardcoreEnd"
     }
   ],
+  "biomes-id:40": [
+    {
+      "name": "apeJungle",
+      "mod": "Minecraft",
+      "class": "net.minecraft.src.mcreator_apeJungle$BiomeGenapeJungle"
+    },
+    {
+      "name": "enedwaith",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenEnedwaith"
+    }
+  ],
+  "biomes-id:100": [
+    {
+      "name": "Phantasia",
+      "mod": "Flowercraft",
+      "class": "flowercraftmod.world.biome.BiomeGenFCPhantasia"
+    },
+    {
+      "name": "nearHaradHills",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenNearHaradHills"
+    }
+  ],
   "biomes-id:129": [
     {
       "name": "EndlessIDs ID conflict avoidance placeholder for ID 1 [net.minecraft.world.biome.BiomeGenPlains]",
@@ -387,6 +413,32 @@
       "mod": "The Lord of the Rings Mod",
       "replaced": true,
       "class": "lotr.common.world.biome.LOTRBiomeGenHalfTrollForest"
+    }
+  ],
+  "biomes-id:168": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 40 [net.minecraft.src.mcreator_apeJungle$BiomeGenapeJungle]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "farHaradKanuka",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenKanuka"
+    }
+  ],
+  "biomes-id:228": [
+    {
+      "name": "EndlessIDs ID conflict avoidance placeholder for ID 100 [flowercraftmod.world.biome.BiomeGenFCPhantasia]",
+      "mod": "EndlessIDs",
+      "class": "com.falsepattern.endlessids.PlaceholderBiome"
+    },
+    {
+      "name": "eriador",
+      "mod": "The Lord of the Rings Mod",
+      "replaced": true,
+      "class": "lotr.common.world.biome.LOTRBiomeGenEriador"
     }
   ]
 }

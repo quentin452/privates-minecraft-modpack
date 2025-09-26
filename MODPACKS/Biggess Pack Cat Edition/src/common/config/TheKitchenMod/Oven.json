@@ -1,0 +1,12 @@
+{
+  "custom_oven_recipes_input": [
+    "kitchen:raw_roast_beef",
+    "kitchen:chicken_fillet_raw",
+    "kitchen:bacon_raw"
+  ],
+  "custom_oven_recipes_output": [
+    "kitchen:roast_beef",
+    "kitchen:chicken_fillet_cooked",
+    "kitchen:bacon_cooked"
+  ]
+}
