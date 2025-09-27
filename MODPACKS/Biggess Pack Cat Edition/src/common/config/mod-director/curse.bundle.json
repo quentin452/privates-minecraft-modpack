@@ -3627,6 +3627,12 @@
 			"metadata": {
 				"side": "CLIENT"
 			}
+		},
+		{
+			"addonId":238551,
+			"fileId": 2374232,
+			"fileName": "GraveStone Mod 0.7.10.3.jar",
+			"folder": "mods"
 		}
 	]
 }
