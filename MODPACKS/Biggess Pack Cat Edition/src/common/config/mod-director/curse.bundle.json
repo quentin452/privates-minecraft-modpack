@@ -3,14 +3,8 @@
 	[
 		{
 			"addonId": 855466,
-			"fileId": 7036945,
-			"fileName": "optimizationsandtweaks-V1.15.0.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId": 935217,
-			"fileId": 5396851,
-			"fileName": "thaumicboots-1.3.1.2.jar",
+			"fileId": 7037212,
+			"fileName": "optimizationsandtweaks-V1.15.1.jar",
 			"folder": "mods"
 		},
 		{
@@ -51,8 +45,8 @@
 		},
 		{
 			"addonId": 961371,
-			"fileId": 5028011,
-			"fileName": "BiggessPackTweak-V1.1.jar",
+			"fileId": 6030226,
+			"fileName": "BiggessPackTweak-V1.2.1.jar",
 			"folder": "mods"
 		},
 		{
@@ -75,8 +69,8 @@
 		},
 		{
 			"addonId":854528,
-			"fileId": 5921178,
-			"fileName": "IamacatHUDV0.7.jar",
+			"fileId": 6042523,
+			"fileName": "IamacatHUDV0.9.jar",
 			"folder": "mods",
 			"metadata": {
 				"side": "CLIENT"
@@ -182,12 +176,6 @@
 			"folder": "mods"
 		},
 		{
-			"addonId":242530,
-			"fileId": 2334119,
-			"fileName": "Improving Minecraft-1.12.3 for Minecraft 1.7.10.jar",
-			"folder": "mods"
-		},
-		{
 			"addonId":229579,
 			"fileId": 2234203,
 			"fileName": "IronFence-1.1.0.jar",
@@ -250,7 +238,7 @@
 		{
 			"addonId":72320,
 			"fileId": 2214478,
-			"fileName": "SpiritOres-1.7.10-2.0.zip",
+			"fileName": "SpiritOres-1.7.10-2.0.jar",
 			"folder": "mods"
 		},
 		{
@@ -305,12 +293,6 @@
 			}
 		},
 		{
-			"addonId":235201,
-			"fileId": 2255507,
-			"fileName": "SeedCopy-1.7.10-1.0.0.jar",
-			"folder": "mods"
-		},
-		{
 			"addonId":404239,
 			"fileId": 4967772,
 			"fileName": "DimensionalDoors-2.2.6-1.7.10.jar",
@@ -356,12 +338,6 @@
 			"addonId":420658,
 			"fileId": 3114767,
 			"fileName": "CobblestoneCraftingTable [1.7.10].jar",
-			"folder": "mods"
-		},
-		{
-			"addonId":248871,
-			"fileId": 2323251,
-			"fileName": "Colored+Iron Version 1.0.jar",
 			"folder": "mods"
 		},
 		{
@@ -422,12 +398,6 @@
 			"addonId":240468,
 			"fileId": 2373459,
 			"fileName": "MahMeat-1.7.10-1.0.2-backport.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId":233370,
-			"fileId": 2249891,
-			"fileName": "ne-1.7.10-15.5.21-R1.0.jar",
 			"folder": "mods"
 		},
 		{
@@ -518,12 +488,6 @@
 			"addonId":507428,
 			"fileId": 3400890,
 			"fileName": "WhatsappMod-1.7.10-1.2.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId":268548,
-			"fileId": 5282874,
-			"fileName": "[1.7.10] Tinker's Middleearth-1.3.9.jar",
 			"folder": "mods"
 		},
 		{
@@ -682,15 +646,6 @@
 			"folder": "mods"
 		},
 		{
-			"addonId": 619344,
-			"fileId": 3907239,
-			"fileName": "kokoalinux-1.7.10-1.3.2.jar",
-			"folder": "mods",
-			"metadata": {
-				"side": "CLIENT"
-			}
-		},
-		{
 			"addonId": 72503,
 			"fileId": 2272713,
 			"fileName": "Origin-1.7.10-8.0.3.jar",
@@ -739,12 +694,6 @@
 			"folder": "mods"
 		},
 		{
-			"addonId": 225095,
-			"fileId": 2241913,
-			"fileName": "thaumcraftneiplugin-1.7.10-1.7a.jar",
-			"folder": "mods"
-		},
-		{
 			"addonId": 518485,
 			"fileId": 4083601,
 			"fileName": "ThaumcraftLocalizationOptimizer-1.0.4.jar",
@@ -755,8 +704,8 @@
 		},
 		{
 			"addonId": 431297,
-			"fileId": 5383323,
-			"fileName": "Thaumcraft4Tweaks-1.5.24.jar",
+			"fileId": 6929888,
+			"fileName": "Thaumcraft4Tweaks-1.5.39.jar",
 			"folder": "mods"
 		},
 		{
@@ -800,8 +749,8 @@
 		},
 		{
 			"addonId": 317780,
-			"fileId": 5658209,
-			"fileName": "XaerosWorldMap_1.14.1.32_Forge_1.7.10.jar",
+			"fileId": 5987124,
+			"fileName": "XaerosWorldMap_1.14.1.33_Forge_1.7.10.jar",
 			"folder": "mods"
 		},
 		{
@@ -1017,16 +966,6 @@
 			"fileName": "ankeritemod-0.2.1_1.7.10.jar"
 		},
 		{
-			"addonId": 227795,
-			"fileId": 2454232,
-			"fileName": "antiqueatlas-1.7.10-4.4.4.jar"
-		},
-		{
-			"addonId": 227699,
-			"fileId": 2227570,
-			"fileName": "antiquemarkers-1.7.10-1.0a.jar"
-		},
-		{
 			"addonId": 60028,
 			"fileId": 2285775,
 			"fileName": "Aquaculture-1.7.10-1.2.6.21.jar"
@@ -1153,11 +1092,6 @@
 			"addonId": 229862,
 			"fileId": 2241018,
 			"fileName": "Bedrockium-0.1.1.jar"
-		},
-		{
-			"addonId": 225176,
-			"fileId": 2223717,
-			"fileName": "beheaded-1.7.10-0.3.1-UNIVERSAL.jar"
 		},
 		{
 			"addonId": 230898,
@@ -1438,16 +1372,6 @@
 			"fileName": "Chicken Chunk Patcher 1.1.jar"
 		},
 		{
-			"addonId": 229316,
-			"fileId": 2233250,
-			"fileName": "ChickenChunks-1.7.10-1.3.4.19-universal.jar"
-		},
-		{
-			"addonId": 844484,
-			"fileId": 5886355,
-			"fileName": "chunkapi-mc1.7.10-0.5.2.jar"
-		},
-		{
 			"addonId": 242568,
 			"fileId": 2293402,
 			"fileName": "ClayBucket-1.7.10-1.2.jar"
@@ -1467,11 +1391,6 @@
 			"metadata": {
 				"side": "CLIENT"
 			}
-		},
-		{
-			"addonId": 361579,
-			"fileId": 4271867,
-			"fileName": "spark-1.10.19-forge1710.jar"
 		},
 		{
 			"addonId": 257588,
@@ -1548,11 +1467,6 @@
 			"addonId": 231450,
 			"fileId": 2242210,
 			"fileName": "CraftHeraldry 1.1.3.jar"
-		},
-		{
-			"addonId": 233071,
-			"fileId": 2457094,
-			"fileName": "craftingtweaks-mc1.7.10-1.0.88.jar"
 		},
 		{
 			"addonId": 235943,
@@ -1662,11 +1576,6 @@
 			"addonId": 236953,
 			"fileId": 2262040,
 			"fileName": "dimensionalcakes-0.0.1.jar"
-		},
-		{
-			"addonId": 226264,
-			"fileId": 2230331,
-			"fileName": "DimensionGuard-1.7.10-1.2.2.jar"
 		},
 		{
 			"addonId": 245058,
@@ -1838,11 +1747,6 @@
 			"addonId": 286612,
 			"fileId": 2526878,
 			"fileName": "EvenMoreFood1.1.jar"
-		},
-		{
-			"addonId": 290581,
-			"fileId": 2882525,
-			"fileName": "evilnotchlib-a109.jar"
 		},
 		{
 			"addonId": 236564,
@@ -2275,11 +2179,6 @@
 			"fileName": "ironfurnaces-1.2.4R.jar"
 		},
 		{
-			"addonId": 854876,
-			"fileId": 4508922,
-			"fileName": "Item.Frame.Remover-1.7.10-0.2.jar"
-		},
-		{
 			"addonId": 918155,
 			"fileId": 4776309,
 			"fileName": "IvToolkit-1.2.2.jar"
@@ -2563,18 +2462,18 @@
 		},
 		{
 			"addonId": 399904,
-			"fileId": 5826329,
-			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.41-Core.jar"
+			"fileId": 6853217,
+			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.45-Core.jar"
 		},
 		{
 			"addonId": 813408,
-			"fileId": 5826328,
-			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.41-Generators.jar"
+			"fileId": 6853229,
+			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.45-Generators.jar"
 		},
 		{
 			"addonId": 813407,
-			"fileId": 5826326,
-			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.41-Tools.jar"
+			"fileId": 6853219,
+			"fileName": "Mekanism-Community-Edition-1.7.10-9.10.45-Tools.jar"
 		},
 		{
 			"addonId": 247095,
@@ -2618,11 +2517,6 @@
 			"addonId": 66672,
 			"fileId": 2366149,
 			"fileName": "MineFactoryReloaded-[1.7.10]2.8.2B1-201.jar"
-		},
-		{
-			"addonId": 222378,
-			"fileId": 2214959,
-			"fileName": "MineMenu-1.7.10-1.2.0.B44-universal.jar"
 		},
 		{
 			"addonId": 231048,
@@ -2670,14 +2564,6 @@
 			"fileName": "MobRebirth-Forge-1.7.10-7.0.2.jar"
 		},
 		{
-			"addonId": 852182,
-			"fileId": 4502887,
-			"fileName": "mobs-no-render-1.7.10-05.jar",
-			"metadata": {
-				"side": "CLIENT"
-			}
-		},
-		{
 			"addonId": 241266,
 			"fileId": 2278976,
 			"fileName": "ModDisruptor-1.7.10_0.2.jar"
@@ -2686,11 +2572,6 @@
 			"addonId": 686846,
 			"fileId": 4034362,
 			"fileName": "ModernKeyBinding-Forge-1.7.10-2.1.0-mixinless.jar"
-		},
-		{
-			"addonId": 72534,
-			"fileId": 2237824,
-			"fileName": "more_armor-1.7.10-1.1.2.jar"
 		},
 		{
 			"addonId": 250823,
@@ -2848,11 +2729,6 @@
 			"fileName": "parachronology-0.1.6-universal.jar"
 		},
 		{
-			"addonId": 317753,
-			"fileId": 2794803,
-			"fileName": "ParallelWorld.jar"
-		},
-		{
 			"addonId": 242878,
 			"fileId": 2287047,
 			"fileName": "Patcher.jar"
@@ -2954,11 +2830,6 @@
 			"addonId": 316202,
 			"fileId": 2682350,
 			"fileName": "ProjectPower-1.2.jar"
-		},
-		{
-			"addonId": 231037,
-			"fileId": 2240852,
-			"fileName": "ProjectS~1.20{1.7.10}.jar"
 		},
 		{
 			"addonId": 729362,
@@ -3215,11 +3086,6 @@
 			"fileName": "ScottsTweaks-1.7.10-1.3.1.jar"
 		},
 		{
-			"addonId": 227991,
-			"fileId": 2244985,
-			"fileName": "screwdriver-2.4.2.jar"
-		},
-		{
 			"addonId": 59652,
 			"fileId": 2511803,
 			"fileName": "secretroomsmod-1.7.10-4.7.1.413.jar"
@@ -3258,11 +3124,6 @@
 			"fileName": "shipwrecks-1.7.10-1.7.1.jar"
 		},
 		{
-			"addonId": 261837,
-			"fileId": 2922217,
-			"fileName": "signpost-1.7.10-1.08.4.jar"
-		},
-		{
 			"addonId": 232406,
 			"fileId": 2266259,
 			"fileName": "SilentPets-1.7.10-0.2.02-20.jar"
@@ -3276,11 +3137,6 @@
 			"addonId": 222624,
 			"fileId": 2209457,
 			"fileName": "SimpleEnderThings-MC1.7.10-1.2.1.jar"
-		},
-		{
-			"addonId": 232134,
-			"fileId": 2309399,
-			"fileName": "SimpleLabels-1.7.10-1.0-9.jar"
 		},
 		{
 			"addonId": 79325,
@@ -3346,11 +3202,6 @@
 			"addonId": 226958,
 			"fileId": 2230470,
 			"fileName": "SoulShards-TOW-1.7.10-0.1-RC9-7.jar"
-		},
-		{
-			"addonId": 225175,
-			"fileId": 2223715,
-			"fileName": "sourcecodedcore-1.7.10-1.0.2-UNIVERSAL.jar"
 		},
 		{
 			"addonId": 226115,
@@ -3707,26 +3558,8 @@
 		},
 		{
 			"addonId": 826970,
-			"fileId": 5858384,
-			"fileName": "+unimixins-all-1.7.10-0.1.19.jar"
-		},
-		{
-			"addonId": 448233,
-			"fileId": 5351930,
-			"fileName": "entityculling-1.6.4-mc1.7.10.jar",
-			"folder": "mods",
-			"metadata": {
-				"side": "CLIENT"
-			}
-		},
-		{
-			"addonId": 1031274,
-			"fileId": 5903303,
-			"fileName": "neodymium-mc1.7.10-0.4.0-unofficial.jar",
-			"folder": "mods",
-			"metadata": {
-				"side": "CLIENT"
-			}
+			"fileId": 6953804,
+			"fileName": "+unimixins-all-1.7.10-0.1.23.jar"
 		},
 		{
 			"addonId": 229302,
@@ -3736,6 +3569,60 @@
 			"metadata": {
 				"side": "CLIENT"
 			}
+		},
+		{
+			"addonId": 1325650,
+			"fileId": 6887698,
+			"fileName": "OreSpawnLegacy(1.7.10).jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 998880,
+			"fileId": 7021642,
+			"fileName": "lwjgl3ify-2.1.15.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 1065808,
+			"fileId": 7027151,
+			"fileName": "beddium-mc1.7.10-1.0.1-j21.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 907559,
+			"fileId": 6827742,
+			"fileName": "redirectionor-1.9 for 1.7.10.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 297038,
+			"fileId": 6860791,
+			"fileName": "CraftPresence-2.6.2+1.7.10-forge.jar",
+			"folder": "mods",
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 1056812,
+			"fileId": 6860734,
+			"fileName": "UniLib-1.1.1+1.7.10-forge.jar",
+			"folder": "mods",
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 242677,
+			"fileId": 2522249,
+			"fileName": "fastcraft-1.25.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 1050470,
+			"fileId": 6543345,
+			"fileName": "lumi-mc1.7.10-1.2.0.jar",
+			"folder": "mods"
 		},
 		{
 			"addonId":226670,

@@ -5,7 +5,7 @@
       "folder": "mods",
       "installationPolicy": {
         "extract": true,
-        "modpackVersion": "V1.0.2"
+        "modpackVersion": "V1.0.3"
       }
     }
   ]
