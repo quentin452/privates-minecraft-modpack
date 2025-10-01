@@ -607,9 +607,6 @@
 			"url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.2.18-1.7.10/modularui2-2.2.18-1.7.10.jar"
 		},
 		{
-			"url": "https://github.com/LITW-Refined/AlternativeChunkloading/releases/download/1.4.4/alternativechunkloading-1.4.4.jar"
-		},
-		{
 			"url": "https://github.com/GTNewHorizons/Postea/releases/download/1.1.3/postea-1.1.3.jar"
 		},
 		{
@@ -635,6 +632,12 @@
 		},
 		{
 			"url": "https://github.com/quentin452/ChunkAPI/releases/download/0.6.4fork1/chunkapi-mc1.7.10-0.6.4fork1.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/FoodCraft/releases/download/1.7.10-1.0/FoodCraft-1.7.10-v1.0.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/BiomesOPlenty/releases/download/BOP-1.7.10-2.1.0.2309/BiomesOPlenty-BOP-1.7.10-2.1.0.2309.jar"
 		}
 	]
 }

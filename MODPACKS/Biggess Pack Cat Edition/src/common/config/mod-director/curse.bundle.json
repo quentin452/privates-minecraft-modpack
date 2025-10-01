@@ -3,8 +3,8 @@
 	[
 		{
 			"addonId": 855466,
-			"fileId": 7037718,
-			"fileName": "optimizationsandtweaks-V1.15.2.jar",
+			"fileId": 7052331,
+			"fileName": "optimizationsandtweaks-V1.15.4.jar",
 			"folder": "mods"
 		},
 		{
@@ -2174,8 +2174,8 @@
 		},
 		{
 			"addonId": 918155,
-			"fileId": 4776309,
-			"fileName": "IvToolkit-1.2.2.jar"
+			"fileId": 7051346,
+			"fileName": "IvToolkit-1.2.3.jar"
 		},
 		{
 			"addonId": 317543,
@@ -2885,8 +2885,8 @@
 		},
 		{
 			"addonId": 917982,
-			"fileId": 4780112,
-			"fileName": "RecurrentComplex-0.9.7.1.8.jar"
+			"fileId": 7051339,
+			"fileName": "RecurrentComplex-0.9.7.1.9.jar"
 		},
 		{
 			"addonId": 934608,
@@ -3603,8 +3603,8 @@
 		},
 		{
 			"addonId": 242677,
-			"fileId": 2522249,
-			"fileName": "fastcraft-1.25.jar",
+			"fileId": 2292386,
+			"fileName": "fastcraft-1.23.jar",
 			"folder": "mods"
 		},
 		{
@@ -3626,6 +3626,24 @@
 			"addonId":238551,
 			"fileId": 2374232,
 			"fileName": "GraveStone Mod 0.7.10.3.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":944519,
+			"fileId": 6340117,
+			"fileName": "marchofents-1.3.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":234907,
+			"fileId": 2253542,
+			"fileName": "doorsoplenty-1.0.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId":238770,
+			"fileId": 3806537,
+			"fileName": "GalaxySpace-1.7.10-1.2.15.jar",
 			"folder": "mods"
 		}
 	]
