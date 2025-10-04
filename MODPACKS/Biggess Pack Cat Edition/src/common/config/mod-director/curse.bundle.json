@@ -68,15 +68,6 @@
 			"folder": "mods"
 		},
 		{
-			"addonId":854528,
-			"fileId": 6042523,
-			"fileName": "IamacatHUDV0.9.jar",
-			"folder": "mods",
-			"metadata": {
-				"side": "CLIENT"
-			}
-		},
-		{
 			"addonId":402981,
 			"fileId": 3035672,
 			"fileName": "hamsterrific-0.2.2.jar",

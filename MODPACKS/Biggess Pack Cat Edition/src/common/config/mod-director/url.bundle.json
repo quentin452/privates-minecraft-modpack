@@ -638,6 +638,15 @@
 		},
 		{
 			"url": "https://github.com/quentin452/BiomesOPlenty/releases/download/BOP-1.7.10-2.1.0.2309/BiomesOPlenty-BOP-1.7.10-2.1.0.2309.jar"
+		},
+		{
+			"url": "https://github.com/kimoVoid/MicroHUD/releases/download/1.1.1/MicroHUD-1.7.10.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"url": "https://github.com/quentin452/NoLeafDecay/releases/download/1.0-fork1/noleafdecay-1.0fork1.jar"
 		}
 	]
 }
