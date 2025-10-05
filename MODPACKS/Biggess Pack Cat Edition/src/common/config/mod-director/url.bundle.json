@@ -101,7 +101,7 @@
 			"url": "https://github.com/quentin452/CST7-Weapons-Mod-Reupload/releases/download/V1.0/cst7_weapons_mod_1.7.10.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/Mariculture/releases/download/1.3.0-6fork6/mariculture-1.3.0-6fork6.jar"
+			"url": "https://github.com/quentin452/Mariculture/releases/download/1.3.0-6fork7/mariculture-1.3.0-6fork7.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/Natura/releases/download/2.8.9/Natura-2.8.9.jar"
@@ -426,12 +426,6 @@
 			}
 		},
 		{
-			"url": "https://github.com/Aizistral-Studios/HookLib-Ultimate/releases/download/v1.7.10-1.0-ultimate/HookLibUltimate-1.0-universal.jar",
-			"metadata": {
-				"side": "CLIENT"
-			}
-		},
-		{
 			"url": "https://github.com/GTNewHorizons/ironchest/releases/download/6.1.6/IronChest-6.1.6.jar"
 		},
 		{
@@ -647,6 +641,9 @@
 		},
 		{
 			"url": "https://github.com/quentin452/NoLeafDecay/releases/download/1.0-fork1/noleafdecay-1.0fork1.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/AlternateCurrent/releases/download/1.5.1fork1/alternatecurrent-1.5.1fork1.jar"
 		}
 	]
 }

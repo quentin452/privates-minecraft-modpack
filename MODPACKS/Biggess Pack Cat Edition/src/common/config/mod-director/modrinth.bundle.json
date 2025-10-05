@@ -6,12 +6,6 @@
 			"fileId": "2.3-1.7.10",
 			"fileName": "+Mycelium-2.3.jar",
 			"folder": "mods"
-		},
-        {
-			"addonId": "alternate-current-unofficial",
-			"fileId": "1.5.1",
-			"fileName": "alternatecurrent-1.5.1.jar",
-			"folder": "mods"
 		}
 	]
 }
