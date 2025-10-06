@@ -49,18 +49,8 @@ modpack_path = os.path.join(MODDIRECTOR_DIR, "modpack.json")
 with open(modpack_path, "r+", encoding="utf-8") as f:
     modpack = json.load(f)
     modpack["localVersion"] = version
-    modpack["packName"] = f"Biggess Pack Cat Edition 1.7.10 {version}"
     f.seek(0)
     json.dump(modpack, f, indent=2)
-    f.truncate()
-
-# === UPDATE downloaders.bundle.json ===
-downloaders_path = os.path.join(MODDIRECTOR_DIR, "downloaders.bundle.json")
-with open(downloaders_path, "r+", encoding="utf-8") as f:
-    bundle = json.load(f)
-    bundle["url"][0]["installationPolicy"]["modpackVersion"] = version
-    f.seek(0)
-    json.dump(bundle, f, indent=2)
     f.truncate()
 
 # === BUILD SERVER ZIP ===
@@ -125,5 +115,5 @@ with ZipFile(client_zip_name, "w", compression=zipfile.ZIP_DEFLATED) as zipf:
         "manifest.json", "modlist.html"
     ]:
         zipf.write(os.path.join(CLIENT_DIR if "manifest" in file or "modlist" in file else COMMON_DIR, file), file)
-
+        
 print(f"\n✅ Generated:\n- {server_zip_name}\n- {client_zip_name}")

@@ -8,7 +8,7 @@
 			}
 		},
 		{
-			"url": "https://github.com/FalsePattern/FalsePatternLib/releases/download/1.9.0/falsepatternlib-mc1.7.10-1.9.0.jar"
+			"url": "https://github.com/FalsePattern/FalsePatternLib/releases/download/1.9.1/falsepatternlib-mc1.7.10-1.9.1.jar"
 		},
 		{
 			"url": "https://github.com/GTNewHorizons/JustEnoughCalculation/releases/download/1.7.10-4.9/JustEnoughCalculation-1.7.10-4.9.jar"
@@ -589,7 +589,7 @@
 			"url": "https://github.com/GTNewHorizons/ModernMarkings/releases/download/0.3.12-1.7.10/modernmarkings-0.3.12-1.7.10.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/Cat-Culling/releases/download/V1.0.0/catculling-V1.0.0.jar",
+			"url": "https://github.com/quentin452/Cat-Culling/releases/download/V1.0.1/catculling-V1.0.1.jar",
 			"metadata": {
 				"side": "CLIENT"
 			}
@@ -644,6 +644,135 @@
 		},
 		{
 			"url": "https://github.com/quentin452/AlternateCurrent/releases/download/1.5.1fork1/alternatecurrent-1.5.1fork1.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/BabyAnimals-1.7.10-5/BabyAnimals-1.7.10-5.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/Bread_1.7.2_1.0/Bread_1.7.2_1.0.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/Castle-Defender-Mod-1.7.10/Castle-Defender-Mod-1.7.10.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/CubicCore-1.7.10/CubicCore-1.7.10.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/CulinaireMod_1.0/CulinaireMod_1.0.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/DonutCraft_1.7.10_2.0.4/DonutCraft_1.7.10_2.0.4.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/EliteBows_1.0.4_1.7.10_release/EliteBows_1.0.4_1.7.10_release.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/EnderOres_1.7.10_Alpha0.8/EnderOres_1.7.10_Alpha0.8.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/Expanded_Food_Mod_1.7.10/Expanded_Food_Mod_1.7.10.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/ExtraStonesMod_1.7.10_1.0.jar/ExtraStonesMod_1.7.10_1.0.jar.zip"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/Mankini_1.7.10_1.2.1/Mankini_1.7.10_1.2.1.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/Material_Creepers_Mod_1.7.10/Material_Creepers_Mod_1.7.10.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/MoreTorches/MoreTorches.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/PPAP_Mod_1.7.10_1.5.0/PPAP_Mod_1.7.10_1.5.0.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/Rail_Bridges_Mod_1.7.10/Rail_Bridges_Mod_1.7.10.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/Soda_Mod_1.7.10/Soda_Mod_1.7.10.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/Storage_Silo_Mod_1.7.10/Storage_Silo_Mod_1.7.10.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/TheKitchenMod-1.3.23-1.7.2-10/TheKitchenMod-1.3.23-1.7.2-10.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/Throwing_Spears_Mod_1.7.10/Throwing_Spears_Mod_1.7.10.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/WackyWeapons_1.3/WackyWeapons_1.3.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/animalsPlus_1.2/animalsPlus_1.2.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/cooler-1.7.10-1.1.5.1%CE%B2/cooler-1.7.10-1.1.5.1.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/custom_sword_1.7.10_V0.10/custom_sword_1.7.10_V0.10.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/dawn_of_the_planet_of_the_apes_mod_1.7.10/dawn_of_the_planet_of_the_apes_mod_1.7.10.zip"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/expanded_rails_mod_1.7.10/expanded_rails_mod_1.7.10.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/flowercraftmod_1.8_1.7.10_forge/flowercraftmod_1.8_1.7.10_forge.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/gnrsharedlib-1.7.10/gnrsharedlib-1.7.10.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/goblins_mod_6.0/goblins_mod_6.0.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/landmines_1.1/landmines_1.1.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/moarcarts-1.7.10-1.2.4-11/moarcarts-1.7.10-1.2.4-11.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/more_pickaxes_mod_1.7.10/more_pickaxes_mod_1.7.10.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/mythandmonsters_1.7.10_1.0.0/mythandmonsters_1.7.10_1.0.0.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/quidcraft_mod_1.7.10/quidcraft_mod_1.7.10.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/shrekcraft_mod_1.7.10/shrekcraft_mod_1.7.10.zip"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/stairs_plusplus_1.0/stairs_plusplus_1.0.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/steamboat_mod_1.7.10/steamboat_mod_1.7.10.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/wall_clock_mod_1.7.10/wall_clock_mod_1.7.10.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/1.7.2v1.1_RoxaStrawMod/1.7.2v1.1_RoxaStrawMod.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/1.7.10v1.3.0_MC_Cocoa/1.7.10v1.3.0_MC_Cocoa.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/1.7.10_10.13.2.1230MataCraft_1.7.10_1.3/1.7.10_10.13.2.1230MataCraft_1.7.10_1.3.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/jaad-0.8.5/jaad-0.8.5.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/mp3spi-1.9.5-1/mp3spi-1.9.5-1.jar"
+		},
+		{
+			"url": "https://github.com/quentin452/Biggess-Pack-Cat-Edition-Mods/releases/download/vorbisspi-1.0.3-1/vorbisspi-1.0.3-1.jar"
 		}
 	]
 }

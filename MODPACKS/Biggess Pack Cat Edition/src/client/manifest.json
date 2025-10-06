@@ -11,13 +11,13 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "V1.0.9",
+  "version": "V1.1.0",
   "author": "Quentin453",
   "name": "cattest 1.7.10",
   "files": [
     {
-      "projectID": 650242,
-      "fileID": 6436962,
+      "projectID": 1359998,
+      "fileID": 7073071,
       "required": true
     }
   ]

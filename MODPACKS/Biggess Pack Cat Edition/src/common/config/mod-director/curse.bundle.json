@@ -3,8 +3,8 @@
 	[
 		{
 			"addonId": 855466,
-			"fileId": 7068946, 
-			"fileName": "optimizationsandtweaks-V1.15.8.jar",
+			"fileId": 7072775, 
+			"fileName": "optimizationsandtweaks-V1.15.9.jar",
 			"folder": "mods"
 		},
 		{
@@ -248,12 +248,6 @@
 			"addonId":230488,
 			"fileId": 2238534,
 			"fileName": "UsefulTools-v1.6-1.7.10.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId":229429,
-			"fileId": 2233679,
-			"fileName": "Weather Carpets Mod-1.2.5.jar",
 			"folder": "mods"
 		},
 		{
@@ -549,8 +543,8 @@
 		},
 		{
 			"addonId":947269,
-			"fileId": 5332580,
-			"fileName": "wizardry-1.7.10-1.1.6fork6.jar",
+			"fileId": 7069190,
+			"fileName": "wizardry-1.7.10-1.1.6fork7.jar",
 			"folder": "mods"
 		},
 		{
