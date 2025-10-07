@@ -87,6 +87,8 @@ XNOR  - Either all completed OR none completed
 @status incomplete
 
 >quest techmod_discover
+    x: 0
+    y: 0
     title: Discover TechMod
     desc: Find your first TechMod item
     requires: none
@@ -97,6 +99,8 @@ XNOR  - Either all completed OR none completed
     auto_claim: no
 
 >quest techmod_basic_machine
+    x: 0
+    y: 0
     title: Build Your First Machine
     desc: Craft a basic TechMod machine
     requires: TechMod:techmod_discover
@@ -107,6 +111,8 @@ XNOR  - Either all completed OR none completed
     auto_claim: no
 
 >quest techmod_advanced
+    x: 0
+    y: 0
     title: Advanced Technology
     desc: Master advanced TechMod features (requires Minecraft basics)
     requires: TechMod:techmod_basic_machine, Minecraft:mining_basics

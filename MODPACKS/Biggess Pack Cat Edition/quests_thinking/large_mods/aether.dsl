@@ -13,6 +13,8 @@
 
 # Discovery Quest
 >quest aether_discover
+    x: 0
+    y: 0
     title: Skyward Bound
     desc: Discover the mysterious Aether portal formation
     requires: none
@@ -24,6 +26,8 @@
     
 # First Entry Quest
 >quest aether_enter
+    x: 0
+    y: -1
     title: First Steps in the Aether
     desc: Enter the Aether dimension for the first time
     requires: aetherQL:aether_discover
@@ -35,6 +39,8 @@
 
 # Basic Tools Quest
 >quest aether_tools
+    x: 0
+    y: -2
     title: Skyforge Crafting
     desc: Craft your first set of Aether tools
     requires: aetherQL:aether_enter
@@ -46,6 +52,8 @@
 
 # Aether Resources Quest
 >quest aether_resources
+    x: 0
+    y: -3
     title: Heavenly Resources
     desc: Collect essential Aether materials
     requires: aetherQL:aether_enter
@@ -57,6 +65,8 @@
 
 # Mob Hunting Quest
 >quest aether_mobs
+    x: 0
+    y: -4
     title: Skyborne Threats
     desc: Defeat the hostile creatures of the Aether
     requires: aetherQL:aether_enter
@@ -70,6 +80,8 @@
 
 # Meet Quest
 >quest aether_meat_moa
+    x: 0
+    y: -5
     title: Winged Companion
     desc: Tame and ride a Moa
     requires: aetherQL:aether_enter
