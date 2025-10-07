@@ -3902,12 +3902,6 @@
           "size_mb": 0.01
         },
         {
-          "name": "WitcheryPatch",
-          "folder": "WitcheryPatch",
-          "original_filename": "WitcheryPatch-1.7.10-1.0.0.jar",
-          "size_mb": 0.01
-        },
-        {
           "name": "underphangables",
           "folder": "underphangables",
           "original_filename": "underphangables-1.7.10-1.0.1.jar",
