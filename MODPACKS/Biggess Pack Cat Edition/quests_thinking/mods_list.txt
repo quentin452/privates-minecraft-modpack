@@ -530,7 +530,6 @@ marchofents-1.3.jar
 mariculture-1.3.0-6fork7.jar
 Material_Creepers_Mod_1.7.10.jar
 MaterialsPlus-1.7.10-1.2.0.jar
-MatoiVanillaPack1.5.2_on_1.7.10.jar
 mazemod-1.2.5.jar
 mcanm-2.0.4.90-1.7.10.jar
 mcjammer-1.7.10-2017.01.29.jar
@@ -746,7 +745,6 @@ ShoulderSurfing-1.7.10-2.4.1.jar
 shrekcraft_mod_1.7.10.zip
 signposts-1.3.5-GTNH.jar
 SilentPets-1.7.10-0.2.02-20.jar
-SimpleArmorFly.jar
 SimpleEnderThings-MC1.7.10-1.2.1.jar
 SimpleLabels-1.7.10-1.0-9fork1.jar
 SimplyJetpacks-MC1.7.10-1.5.3.jar

@@ -36,12 +36,6 @@
           "size_mb": 26.97
         },
         {
-          "name": "MatoiVanillaPack",
-          "folder": "MatoiVanillaPack",
-          "original_filename": "MatoiVanillaPack1.5.2_on_1.7.10.jar",
-          "size_mb": 25.62
-        },
-        {
           "name": "MoCreatures-Legacy-Final",
           "folder": "MoCreatures-Legacy-Final",
           "original_filename": "MoCreatures-Legacy-Final-1.2.jar",
@@ -204,12 +198,6 @@
           "size_mb": 6.49
         },
         {
-          "name": "chisel",
-          "folder": "chisel",
-          "original_filename": "chisel-2.16.13-GTNH.jar",
-          "size_mb": 6.36
-        },
-        {
           "name": "Automagy",
           "folder": "Automagy",
           "original_filename": "Automagy-1.7.10-0.28.2.jar",
@@ -244,18 +232,6 @@
           "folder": "steamcraft2",
           "original_filename": "steamcraft2-1.7.10-B5.0.2-universal.jar",
           "size_mb": 5.61
-        },
-        {
-          "name": "unimixins-all",
-          "folder": "unimixins-all",
-          "original_filename": "+unimixins-all-1.7.10-0.1.23.jar",
-          "size_mb": 5.52
-        },
-        {
-          "name": "BiomesOPlenty-BOP",
-          "folder": "BiomesOPlenty-BOP",
-          "original_filename": "BiomesOPlenty-BOP-1.7.10-2.1.0.2309.jar",
-          "size_mb": 5.47
         },
         {
           "name": "TConstruct",
@@ -438,12 +414,6 @@
           "size_mb": 2.84
         },
         {
-          "name": "achievementbooks",
-          "folder": "achievementbooks",
-          "original_filename": "achievementbooks-v1.0-MC1.7.10.jar",
-          "size_mb": 2.84
-        },
-        {
           "name": "logisticspipes",
           "folder": "logisticspipes",
           "original_filename": "logisticspipes-1.4.23-GTNH-pre.jar",
@@ -582,12 +552,6 @@
           "size_mb": 2.15
         },
         {
-          "name": "CraftPresence",
-          "folder": "CraftPresence",
-          "original_filename": "CraftPresence-2.6.2+1.7.10-forge.jar",
-          "size_mb": 2.06
-        },
-        {
           "name": "AdventurersAmulets",
           "folder": "AdventurersAmulets",
           "original_filename": "AdventurersAmulets-1.7.10-1.6.0-pre1.jar",
@@ -642,12 +606,6 @@
           "size_mb": 1.82
         },
         {
-          "name": "BetterQuesting",
-          "folder": "BetterQuesting",
-          "original_filename": "BetterQuesting-3.7.14-GTNH.jar",
-          "size_mb": 1.81
-        },
-        {
           "name": "ThaumicExpansion",
           "folder": "ThaumicExpansion",
           "original_filename": "ThaumicExpansion-1.7.10-4.1.3.jar",
@@ -669,12 +627,6 @@
           "name": "ActuallyAdditions",
           "folder": "ActuallyAdditions",
           "original_filename": "ActuallyAdditions-1.7.10-r21.jar",
-          "size_mb": 1.69
-        },
-        {
-          "name": "ServerUtilities",
-          "folder": "ServerUtilities",
-          "original_filename": "ServerUtilities-2.0.84.jar",
           "size_mb": 1.69
         },
         {
@@ -712,12 +664,6 @@
           "folder": "AgriCraft",
           "original_filename": "AgriCraft-1.5.2-unofficial.jar",
           "size_mb": 1.63
-        },
-        {
-          "name": "modularui2",
-          "folder": "modularui2",
-          "original_filename": "modularui2-2.2.18-1.7.10.jar",
-          "size_mb": 1.61
         },
         {
           "name": "ThaumicRevelations",
@@ -852,12 +798,6 @@
           "size_mb": 1.11
         },
         {
-          "name": "antiqueatlas",
-          "folder": "antiqueatlas",
-          "original_filename": "antiqueatlas-4.4.6-GTNH.jar",
-          "size_mb": 1.07
-        },
-        {
           "name": "MutantCreatures",
           "folder": "MutantCreatures",
           "original_filename": "MutantCreatures-1.7.10-1.4.9.jar",
@@ -900,12 +840,6 @@
           "size_mb": 0.99
         },
         {
-          "name": "CraftTweaker",
-          "folder": "CraftTweaker",
-          "original_filename": "CraftTweaker-3.4.2.jar",
-          "size_mb": 0.96
-        },
-        {
           "name": "Pantography",
           "folder": "Pantography",
           "original_filename": "Pantography-1.7.10-1.0.1.jar",
@@ -934,18 +868,6 @@
           "folder": "LightningCraft-1.5.0",
           "original_filename": "LightningCraft-1.5.0-[1.7.10].jar",
           "size_mb": 0.91
-        },
-        {
-          "name": "Origin",
-          "folder": "Origin",
-          "original_filename": "Origin-1.7.10-8.0.3.jar",
-          "size_mb": 0.9
-        },
-        {
-          "name": "ForgeMultipart",
-          "folder": "ForgeMultipart",
-          "original_filename": "ForgeMultipart-1.6.8.jar",
-          "size_mb": 0.9
         },
         {
           "name": "Avaritia",
@@ -1230,21 +1152,9 @@
           "size_mb": 0.55
         },
         {
-          "name": "jaad",
-          "folder": "jaad",
-          "original_filename": "jaad-0.8.5.jar",
-          "size_mb": 0.55
-        },
-        {
           "name": "mcjammer",
           "folder": "mcjammer",
           "original_filename": "mcjammer-1.7.10-2017.01.29.jar",
-          "size_mb": 0.55
-        },
-        {
-          "name": "ModTweaker2",
-          "folder": "ModTweaker2",
-          "original_filename": "ModTweaker2-0.12.0.jar",
           "size_mb": 0.55
         },
         {
@@ -1257,12 +1167,6 @@
           "name": "Color Blocks Plus - 1.0.20180725",
           "folder": "Color Blocks Plus - 1.0.20180725",
           "original_filename": "Color Blocks Plus - 1.0.20180725.jar",
-          "size_mb": 0.54
-        },
-        {
-          "name": "Neutron",
-          "folder": "Neutron",
-          "original_filename": "Neutron-Forge-1.7.10-0.1.1-hotfix.jar",
           "size_mb": 0.54
         },
         {
@@ -1300,12 +1204,6 @@
           "folder": "worldexplorer-1.2.15 Dev",
           "original_filename": "worldexplorer-1.2.15 Dev.jar",
           "size_mb": 0.5
-        },
-        {
-          "name": "serializationisbad",
-          "folder": "serializationisbad",
-          "original_filename": "serializationisbad-1.5.2.jar",
-          "size_mb": 0.49
         },
         {
           "name": "CarpentersBlocks",
@@ -1392,12 +1290,6 @@
           "size_mb": 0.44
         },
         {
-          "name": "mcanm",
-          "folder": "mcanm",
-          "original_filename": "mcanm-2.0.4.90-1.7.10.jar",
-          "size_mb": 0.44
-        },
-        {
           "name": "majoramod v1.2.2",
           "folder": "majoramod v1.2.2",
           "original_filename": "majoramod v1.2.2.jar",
@@ -1437,12 +1329,6 @@
           "name": "eldritch-empires",
           "folder": "eldritch-empires",
           "original_filename": "eldritch-empires-091.1.jar",
-          "size_mb": 0.41
-        },
-        {
-          "name": "Loot++",
-          "folder": "Loot++",
-          "original_filename": "Loot++-0.24_for_1.7.jar",
           "size_mb": 0.41
         },
         {
@@ -1512,12 +1398,6 @@
           "size_mb": 0.36
         },
         {
-          "name": "Thaumcraft4Tweaks",
-          "folder": "Thaumcraft4Tweaks",
-          "original_filename": "Thaumcraft4Tweaks-1.5.39.jar",
-          "size_mb": 0.36
-        },
-        {
           "name": "dooglamoomod",
           "folder": "dooglamoomod",
           "original_filename": "dooglamoomod-1.7.10-1.3.jar",
@@ -1560,24 +1440,6 @@
           "size_mb": 0.35
         },
         {
-          "name": "Highlands-1.7.2-v",
-          "folder": "Highlands-1.7.2-v",
-          "original_filename": "Highlands-1.7.2-v-2.2.3.jar",
-          "size_mb": 0.35
-        },
-        {
-          "name": "MetallurgyChisel",
-          "folder": "MetallurgyChisel",
-          "original_filename": "MetallurgyChisel-1.7.10-1.0.0.11.jar",
-          "size_mb": 0.34
-        },
-        {
-          "name": "AdvancedBackups",
-          "folder": "AdvancedBackups",
-          "original_filename": "AdvancedBackups-forge-1.7.10-3.6.4.jar",
-          "size_mb": 0.32
-        },
-        {
           "name": "Mekanism-Community-Edition",
           "folder": "Mekanism-Community-Edition",
           "original_filename": "Mekanism-Community-Edition-1.7.10-9.10.45-Generators.jar",
@@ -1594,12 +1456,6 @@
           "folder": "ControlCraft",
           "original_filename": "ControlCraft.jar",
           "size_mb": 0.32
-        },
-        {
-          "name": "configmaxxing",
-          "folder": "configmaxxing",
-          "original_filename": "configmaxxing-mc1.7.10-0.0.1.jar",
-          "size_mb": 0.31
         },
         {
           "name": "RedstoneArsenal-[1.7.10]1.1.2-92",
@@ -1623,12 +1479,6 @@
           "name": "TravellersGear",
           "folder": "TravellersGear",
           "original_filename": "TravellersGear-1.7.10-1.16.7.jar",
-          "size_mb": 0.3
-        },
-        {
-          "name": "LumySkinPatch",
-          "folder": "LumySkinPatch",
-          "original_filename": "LumySkinPatch-1.0.13.jar",
           "size_mb": 0.3
         },
         {
@@ -1770,12 +1620,6 @@
           "size_mb": 0.25
         },
         {
-          "name": "Schematica",
-          "folder": "Schematica",
-          "original_filename": "Schematica-1.12.6-GTNH.jar",
-          "size_mb": 0.25
-        },
-        {
           "name": "betterp2p",
           "folder": "betterp2p",
           "original_filename": "betterp2p-1.3.1.jar",
@@ -1852,12 +1696,6 @@
           "folder": "Digital XP",
           "original_filename": "Digital XP-[1.7.10]-0.1.5.jar",
           "size_mb": 0.23
-        },
-        {
-          "name": "ReducedMusicDelay",
-          "folder": "ReducedMusicDelay",
-          "original_filename": "ReducedMusicDelay-1.7.10.jar",
-          "size_mb": 0.22
         },
         {
           "name": "FamiliarsExtendedFamPack",
@@ -2064,12 +1902,6 @@
           "size_mb": 0.17
         },
         {
-          "name": "boilerplate",
-          "folder": "boilerplate",
-          "original_filename": "boilerplate-1.7.10-6.3.0.81-universal.jar",
-          "size_mb": 0.17
-        },
-        {
           "name": "TerraArts",
           "folder": "TerraArts",
           "original_filename": "TerraArts-1.1.1710.27.jar",
@@ -2147,12 +1979,7 @@
           "original_filename": "Throwing_Spears_Mod_1.7.10.jar",
           "size_mb": 0.16
         },
-        {
-          "name": "Proton",
-          "folder": "Proton",
-          "original_filename": "Proton-Forge-1.7.10-0.0.2.jar",
-          "size_mb": 0.16
-        },
+
         {
           "name": "AtelierCanvas",
           "folder": "AtelierCanvas",
@@ -2166,12 +1993,6 @@
           "size_mb": 0.16
         },
         {
-          "name": "MoreCommands",
-          "folder": "MoreCommands",
-          "original_filename": "MoreCommands_1.7.1710.jar",
-          "size_mb": 0.16
-        },
-        {
           "name": "DynamicCraft",
           "folder": "DynamicCraft",
           "original_filename": "DynamicCraft-1.7.10-1.1.4.jar",
@@ -2181,12 +2002,6 @@
           "name": "HearthstoneMod",
           "folder": "HearthstoneMod",
           "original_filename": "HearthstoneMod-1.7.10-0.3.4.jar",
-          "size_mb": 0.16
-        },
-        {
-          "name": "ForgeEndertech",
-          "folder": "ForgeEndertech",
-          "original_filename": "ForgeEndertech-1.7.10-1.9.2.0-build.0061.jar",
           "size_mb": 0.16
         },
         {
@@ -2208,21 +2023,9 @@
           "size_mb": 0.16
         },
         {
-          "name": "Ambience 1.0-3",
-          "folder": "Ambience 1.0-3",
-          "original_filename": "Ambience 1.0-3.jar",
-          "size_mb": 0.15
-        },
-        {
           "name": "Runes-of-Wizardry",
           "folder": "Runes-of-Wizardry",
           "original_filename": "Runes-of-Wizardry-1.7.10-0.3.1.jar",
-          "size_mb": 0.15
-        },
-        {
-          "name": "ShoulderSurfing",
-          "folder": "ShoulderSurfing",
-          "original_filename": "ShoulderSurfing-1.7.10-2.4.1.jar",
           "size_mb": 0.15
         },
         {
@@ -2241,12 +2044,6 @@
           "name": "creeperchicks-v2.a",
           "folder": "creeperchicks-v2.a",
           "original_filename": "creeperchicks-v2.a.jar",
-          "size_mb": 0.15
-        },
-        {
-          "name": "ServerPropertiesLAN",
-          "folder": "ServerPropertiesLAN",
-          "original_filename": "ServerPropertiesLAN-2.65-1.7.10.jar",
           "size_mb": 0.15
         },
         {
@@ -2346,12 +2143,6 @@
           "size_mb": 0.14
         },
         {
-          "name": "doorsoplenty",
-          "folder": "doorsoplenty",
-          "original_filename": "doorsoplenty-1.0.jar",
-          "size_mb": 0.14
-        },
-        {
           "name": "eternalsingularity",
           "folder": "eternalsingularity",
           "original_filename": "eternalsingularity-1.2.0.jar",
@@ -2430,12 +2221,6 @@
           "size_mb": 0.12
         },
         {
-          "name": "BeamingDrops",
-          "folder": "BeamingDrops",
-          "original_filename": "BeamingDrops-1.0.3-clientside.jar",
-          "size_mb": 0.12
-        },
-        {
           "name": "QuantumStorage",
           "folder": "QuantumStorage",
           "original_filename": "QuantumStorage-1.7.10-1.4.2.jar",
@@ -2469,12 +2254,6 @@
           "name": "BlazeTorch Utilities 0.4",
           "folder": "BlazeTorch Utilities 0.4",
           "original_filename": "BlazeTorch Utilities 0.4.jar",
-          "size_mb": 0.12
-        },
-        {
-          "name": "alreadydecoratingfix",
-          "folder": "alreadydecoratingfix",
-          "original_filename": "alreadydecoratingfix-1.0a.jar",
           "size_mb": 0.12
         },
         {
@@ -2517,18 +2296,6 @@
           "name": "ironfurnaces",
           "folder": "ironfurnaces",
           "original_filename": "ironfurnaces-1.2.4R.jar",
-          "size_mb": 0.11
-        },
-        {
-          "name": "nutrition",
-          "folder": "nutrition",
-          "original_filename": "nutrition-0.1.3.jar",
-          "size_mb": 0.11
-        },
-        {
-          "name": "custommainmenu",
-          "folder": "custommainmenu",
-          "original_filename": "custommainmenu-1.12.1.jar",
           "size_mb": 0.11
         },
         {
@@ -2700,27 +2467,9 @@
           "size_mb": 0.09
         },
         {
-          "name": "externaltweaker",
-          "folder": "externaltweaker",
-          "original_filename": "externaltweaker-1.7.10-0.3.jar",
-          "size_mb": 0.09
-        },
-        {
-          "name": "ImprovedHoes",
-          "folder": "ImprovedHoes",
-          "original_filename": "ImprovedHoes-1.7.10-1.1.jar",
-          "size_mb": 0.09
-        },
-        {
           "name": "wall_clock_mod",
           "folder": "wall_clock_mod",
           "original_filename": "wall_clock_mod_1.7.10.jar",
-          "size_mb": 0.09
-        },
-        {
-          "name": "Treecapitator",
-          "folder": "Treecapitator",
-          "original_filename": "[1.7.10]Treecapitator-universal-2.0.4.jar",
           "size_mb": 0.09
         },
         {
@@ -2742,12 +2491,6 @@
           "size_mb": 0.09
         },
         {
-          "name": "Emotes 1.0.1",
-          "folder": "Emotes 1.0.1",
-          "original_filename": "Emotes 1.0.1.jar",
-          "size_mb": 0.09
-        },
-        {
           "name": "WitcheryExtras",
           "folder": "WitcheryExtras",
           "original_filename": "WitcheryExtras-1.3.6.jar",
@@ -2763,12 +2506,6 @@
           "name": "compactstorage-1.7.10-release-2.1.0-lts.21",
           "folder": "compactstorage-1.7.10-release-2.1.0-lts.21",
           "original_filename": "compactstorage-1.7.10-release-2.1.0-lts.21-universal.jar",
-          "size_mb": 0.09
-        },
-        {
-          "name": "holoinventory",
-          "folder": "holoinventory",
-          "original_filename": "holoinventory-2.5.5-GTNH.jar",
           "size_mb": 0.09
         },
         {
@@ -2793,12 +2530,6 @@
           "name": "Hardcore Wither-1.7.10-1.1.3-21",
           "folder": "Hardcore Wither-1.7.10-1.1.3-21",
           "original_filename": "Hardcore Wither-1.7.10-1.1.3-21-universal.jar",
-          "size_mb": 0.08
-        },
-        {
-          "name": "BetterLoadingScreen",
-          "folder": "BetterLoadingScreen",
-          "original_filename": "BetterLoadingScreen-1.3.10.jar",
           "size_mb": 0.08
         },
         {
@@ -2844,18 +2575,6 @@
           "size_mb": 0.08
         },
         {
-          "name": "VillagerDrop",
-          "folder": "VillagerDrop",
-          "original_filename": "VillagerDrop-1.7.10_4.jar",
-          "size_mb": 0.08
-        },
-        {
-          "name": "Eureka",
-          "folder": "Eureka",
-          "original_filename": "Eureka-1.7.10-3.0.2.jar",
-          "size_mb": 0.08
-        },
-        {
           "name": "hamsterrific",
           "folder": "hamsterrific",
           "original_filename": "hamsterrific-0.2.2.jar",
@@ -2880,27 +2599,9 @@
           "size_mb": 0.07
         },
         {
-          "name": "ssmlegacy",
-          "folder": "ssmlegacy",
-          "original_filename": "ssmlegacy-mc1.7.10-1.2.3.jar",
-          "size_mb": 0.07
-        },
-        {
-          "name": "ForgeNBTEdit",
-          "folder": "ForgeNBTEdit",
-          "original_filename": "ForgeNBTEdit-universal-1.0.0.test.jar",
-          "size_mb": 0.07
-        },
-        {
           "name": "landmines",
           "folder": "landmines",
           "original_filename": "landmines_1.1.jar",
-          "size_mb": 0.07
-        },
-        {
-          "name": "DefaultSettings-1.7.10+1.12.2",
-          "folder": "DefaultSettings-1.7.10+1.12.2",
-          "original_filename": "DefaultSettings-1.7.10+1.12.2-4.0.7-Forge.jar",
           "size_mb": 0.07
         },
         {
@@ -3024,12 +2725,6 @@
           "size_mb": 0.06
         },
         {
-          "name": "Notes",
-          "folder": "Notes",
-          "original_filename": "Notes-1.7.10-1.1.1.jar",
-          "size_mb": 0.06
-        },
-        {
           "name": "RanchableFluidCows",
           "folder": "RanchableFluidCows",
           "original_filename": "RanchableFluidCows-1.7.10-1.1.5.jar",
@@ -3084,12 +2779,6 @@
           "size_mb": 0.06
         },
         {
-          "name": "KoreSample",
-          "folder": "KoreSample",
-          "original_filename": "KoreSample-1.7.10-1.3.2.jar",
-          "size_mb": 0.06
-        },
-        {
           "name": "SBM-GrapplingHook",
           "folder": "SBM-GrapplingHook",
           "original_filename": "SBM-GrapplingHook-1.7.10-0.1.0b20170514023901.jar",
@@ -3106,18 +2795,6 @@
           "folder": "skull",
           "original_filename": "skull_mc1.7.10.jar",
           "size_mb": 0.06
-        },
-        {
-          "name": "duradisplay",
-          "folder": "duradisplay",
-          "original_filename": "duradisplay-1.3.4.jar",
-          "size_mb": 0.06
-        },
-        {
-          "name": "BaublesHud",
-          "folder": "BaublesHud",
-          "original_filename": "BaublesHud-1.7.10-2.0.1.jar",
-          "size_mb": 0.05
         },
         {
           "name": "Expanded_Food_Mod",
@@ -3144,12 +2821,6 @@
           "size_mb": 0.05
         },
         {
-          "name": "TiCTooltips",
-          "folder": "TiCTooltips",
-          "original_filename": "TiCTooltips-1.4.0.jar",
-          "size_mb": 0.05
-        },
-        {
           "name": "ExtremeFood[0.5 Beta-MC 1.7.10]",
           "folder": "ExtremeFood[0.5 Beta-MC 1.7.10]",
           "original_filename": "ExtremeFood[0.5 Beta-MC 1.7.10].jar",
@@ -3171,12 +2842,6 @@
           "name": "Extracoal",
           "folder": "Extracoal",
           "original_filename": "Extracoal-1.7.10-1.0.2.jar",
-          "size_mb": 0.05
-        },
-        {
-          "name": "BetterBoat",
-          "folder": "BetterBoat",
-          "original_filename": "BetterBoat-1.7.10-1.1.0.jar",
           "size_mb": 0.05
         },
         {
@@ -3222,18 +2887,6 @@
           "size_mb": 0.05
         },
         {
-          "name": "ServerTabInfo-1.7.10-Final",
-          "folder": "ServerTabInfo-1.7.10-Final",
-          "original_filename": "ServerTabInfo-1.7.10-Final-b3.jar",
-          "size_mb": 0.05
-        },
-        {
-          "name": "legiblenei",
-          "folder": "legiblenei",
-          "original_filename": "legiblenei_1.7.10-1.6.7.6.jar",
-          "size_mb": 0.05
-        },
-        {
           "name": "HealthAmulet r1.0-1",
           "folder": "HealthAmulet r1.0-1",
           "original_filename": "HealthAmulet r1.0-1.jar",
@@ -3270,12 +2923,6 @@
           "size_mb": 0.05
         },
         {
-          "name": "BetterAchievements",
-          "folder": "BetterAchievements",
-          "original_filename": "BetterAchievements-0.3.0.jar",
-          "size_mb": 0.05
-        },
-        {
           "name": "EnderOres_1.7.10_Alpha0.8",
           "folder": "EnderOres_1.7.10_Alpha0.8",
           "original_filename": "EnderOres_1.7.10_Alpha0.8.jar",
@@ -3291,12 +2938,6 @@
           "name": "hopperductmod",
           "folder": "hopperductmod",
           "original_filename": "hopperductmod-1.7.10-1.3.2.jar",
-          "size_mb": 0.04
-        },
-        {
-          "name": "tellme",
-          "folder": "tellme",
-          "original_filename": "tellme-1.7.10-0.2.6a.jar",
           "size_mb": 0.04
         },
         {
@@ -3372,12 +3013,6 @@
           "size_mb": 0.04
         },
         {
-          "name": "txloader",
-          "folder": "txloader",
-          "original_filename": "txloader-1.8.5.jar",
-          "size_mb": 0.04
-        },
-        {
           "name": "Unchant",
           "folder": "Unchant",
           "original_filename": "Unchant-1.0.1.jar",
@@ -3407,12 +3042,7 @@
           "original_filename": "[1.7.10]SidedBuffer-0.4.jar",
           "size_mb": 0.04
         },
-        {
-          "name": "bettermobgriefinggamerule",
-          "folder": "bettermobgriefinggamerule",
-          "original_filename": "bettermobgriefinggamerule-1.7.10-1.0.0.jar",
-          "size_mb": 0.04
-        },
+
         {
           "name": "Chekote-blink",
           "folder": "Chekote-blink",
@@ -3423,12 +3053,6 @@
           "name": "terraformer",
           "folder": "terraformer",
           "original_filename": "terraformer-0.1.1.jar",
-          "size_mb": 0.04
-        },
-        {
-          "name": "ModernKeyBinding",
-          "folder": "ModernKeyBinding",
-          "original_filename": "ModernKeyBinding-Forge-1.7.10-2.1.0-mixinless.jar",
           "size_mb": 0.04
         },
         {
@@ -3504,12 +3128,6 @@
           "size_mb": 0.03
         },
         {
-          "name": "World-Tooltips",
-          "folder": "World-Tooltips",
-          "original_filename": "World-Tooltips-1.7.10-1.2.3-79.jar",
-          "size_mb": 0.03
-        },
-        {
           "name": "TNS",
           "folder": "TNS",
           "original_filename": "TNS-1.0.1.jar",
@@ -3546,30 +3164,6 @@
           "size_mb": 0.03
         },
         {
-          "name": "JCPlugin",
-          "folder": "JCPlugin",
-          "original_filename": "JCPlugin-1.7.10-4.0.4-Forge.jar",
-          "size_mb": 0.03
-        },
-        {
-          "name": "alternatecurrent",
-          "folder": "alternatecurrent",
-          "original_filename": "alternatecurrent-1.5.1fork1.jar",
-          "size_mb": 0.03
-        },
-        {
-          "name": "SimpleArmorFly",
-          "folder": "SimpleArmorFly",
-          "original_filename": "SimpleArmorFly.jar",
-          "size_mb": 0.03
-        },
-        {
-          "name": "MineTweakerRecipeMaker",
-          "folder": "MineTweakerRecipeMaker",
-          "original_filename": "MineTweakerRecipeMaker-1.7.10-1.1.1.jar",
-          "size_mb": 0.03
-        },
-        {
           "name": "ChatFuel",
           "folder": "ChatFuel",
           "original_filename": "ChatFuel-1.2.jar",
@@ -3603,12 +3197,6 @@
           "name": "Fuel Canister",
           "folder": "Fuel Canister",
           "original_filename": "Fuel Canister[1.7.10]-1.2.1.jar",
-          "size_mb": 0.03
-        },
-        {
-          "name": "biggerpacketsplz-upto1.7.10",
-          "folder": "biggerpacketsplz-upto1.7.10",
-          "original_filename": "biggerpacketsplz-upto1.7.10-1.2.jar",
           "size_mb": 0.03
         },
         {
@@ -3708,12 +3296,6 @@
           "size_mb": 0.03
         },
         {
-          "name": "autopackager",
-          "folder": "autopackager",
-          "original_filename": "autopackager-1.5.9a.jar",
-          "size_mb": 0.03
-        },
-        {
           "name": "turkish-meals-v1.0(1.7.10)",
           "folder": "turkish-meals-v1.0(1.7.10)",
           "original_filename": "turkish-meals-v1.0(1.7.10)(1).jar",
@@ -3729,12 +3311,6 @@
           "name": "WhatsappMod",
           "folder": "WhatsappMod",
           "original_filename": "WhatsappMod-1.7.10-1.2.jar",
-          "size_mb": 0.03
-        },
-        {
-          "name": "ModernControlling",
-          "folder": "ModernControlling",
-          "original_filename": "ModernControlling-Forge-1.7.10-1.0.0.jar",
           "size_mb": 0.03
         },
         {
@@ -3828,12 +3404,6 @@
           "size_mb": 0.02
         },
         {
-          "name": "DamageTilt",
-          "folder": "DamageTilt",
-          "original_filename": "DamageTilt-1.7.10-0.1.0.jar",
-          "size_mb": 0.02
-        },
-        {
           "name": "Cubics Mod 1.7.10 BETA",
           "folder": "Cubics Mod 1.7.10 BETA",
           "original_filename": "Cubics Mod 1.7.10 BETA.jar",
@@ -3867,12 +3437,6 @@
           "name": "ThermalShade",
           "folder": "ThermalShade",
           "original_filename": "ThermalShade-1.7.10-1.0.jar",
-          "size_mb": 0.02
-        },
-        {
-          "name": "lonelybiome",
-          "folder": "lonelybiome",
-          "original_filename": "lonelybiome-1.7.10-1.0.jar",
           "size_mb": 0.02
         },
         {
@@ -3948,12 +3512,6 @@
           "size_mb": 0.02
         },
         {
-          "name": "colorfulhealthbar",
-          "folder": "colorfulhealthbar",
-          "original_filename": "colorfulhealthbar-1.7.10-1.0.0.jar",
-          "size_mb": 0.02
-        },
-        {
           "name": "Mob Battle Mod-2.0.0[1.7.10]final",
           "folder": "Mob Battle Mod-2.0.0[1.7.10]final",
           "original_filename": "Mob Battle Mod-2.0.0[1.7.10]final.jar",
@@ -3981,18 +3539,6 @@
           "name": "SimplyProcessing",
           "folder": "SimplyProcessing",
           "original_filename": "SimplyProcessing-V1.0-1.7.10.jar",
-          "size_mb": 0.02
-        },
-        {
-          "name": "EmergencyCommand",
-          "folder": "EmergencyCommand",
-          "original_filename": "EmergencyCommand-1.7.10-1.0.jar",
-          "size_mb": 0.02
-        },
-        {
-          "name": "vorbisspi",
-          "folder": "vorbisspi",
-          "original_filename": "vorbisspi-1.0.3-1.jar",
           "size_mb": 0.02
         },
         {
@@ -4026,12 +3572,6 @@
           "size_mb": 0.02
         },
         {
-          "name": "FullscreenWindowed",
-          "folder": "FullscreenWindowed",
-          "original_filename": "FullscreenWindowed-1.7.10-1.3.0b.jar",
-          "size_mb": 0.02
-        },
-        {
           "name": "BleachMod-Alpha1.0.0",
           "folder": "BleachMod-Alpha1.0.0",
           "original_filename": "BleachMod-Alpha1.0.0-MC1.7.10.jar",
@@ -4050,21 +3590,9 @@
           "size_mb": 0.02
         },
         {
-          "name": "Healer",
-          "folder": "Healer",
-          "original_filename": "Healer-1.2.1.jar",
-          "size_mb": 0.02
-        },
-        {
           "name": "tcinventoryscan",
           "folder": "tcinventoryscan",
           "original_filename": "tcinventoryscan-1.7.10-1.0.12-GTNH.jar",
-          "size_mb": 0.02
-        },
-        {
-          "name": "Shatter",
-          "folder": "Shatter",
-          "original_filename": "Shatter-4.0.0.jar",
           "size_mb": 0.02
         },
         {
@@ -4074,33 +3602,9 @@
           "size_mb": 0.02
         },
         {
-          "name": "Login_Shield-1.7.10-2-gf6e21a7",
-          "folder": "Login_Shield-1.7.10-2-gf6e21a7",
-          "original_filename": "Login_Shield-1.7.10-2-gf6e21a7.jar",
-          "size_mb": 0.02
-        },
-        {
           "name": "SimpleEnderThings",
           "folder": "SimpleEnderThings",
           "original_filename": "SimpleEnderThings-MC1.7.10-1.2.1.jar",
-          "size_mb": 0.02
-        },
-        {
-          "name": "GravelMiner",
-          "folder": "GravelMiner",
-          "original_filename": "GravelMiner-mc1.7.10-1.0.5.jar",
-          "size_mb": 0.02
-        },
-        {
-          "name": "BuildCraftOilTweak",
-          "folder": "BuildCraftOilTweak",
-          "original_filename": "BuildCraftOilTweak-1.1.0.jar",
-          "size_mb": 0.02
-        },
-        {
-          "name": "itlt",
-          "folder": "itlt",
-          "original_filename": "itlt-1.7.10-1.0.4.jar",
           "size_mb": 0.02
         },
         {
@@ -4110,27 +3614,9 @@
           "size_mb": 0.02
         },
         {
-          "name": "StartingInventory",
-          "folder": "StartingInventory",
-          "original_filename": "[1.7.10]StartingInventory-universal-1.7.10.r03.jar",
-          "size_mb": 0.02
-        },
-        {
-          "name": "BiomesTweaker",
-          "folder": "BiomesTweaker",
-          "original_filename": "BiomesTweaker-1.7.10-1.1.jar",
-          "size_mb": 0.02
-        },
-        {
           "name": "additionalrecipes",
           "folder": "additionalrecipes",
           "original_filename": "[1.7.10] additionalrecipes-1.5.jar",
-          "size_mb": 0.02
-        },
-        {
-          "name": "resiever",
-          "folder": "resiever",
-          "original_filename": "resiever-1.7.10-1.1.jar",
           "size_mb": 0.02
         },
         {
@@ -4146,63 +3632,15 @@
           "size_mb": 0.02
         },
         {
-          "name": "torohealth",
-          "folder": "torohealth",
-          "original_filename": "torohealth-1.2.0.jar",
-          "size_mb": 0.02
-        },
-        {
-          "name": "WhisperingShout",
-          "folder": "WhisperingShout",
-          "original_filename": "WhisperingShout-1.0.jar",
-          "size_mb": 0.02
-        },
-        {
           "name": "Melon-pants v1.2 1.7.10",
           "folder": "Melon-pants v1.2 1.7.10",
           "original_filename": "Melon-pants v1.2 1.7.10.jar",
           "size_mb": 0.02
         },
         {
-          "name": "DeathCounter",
-          "folder": "DeathCounter",
-          "original_filename": "DeathCounter-4.0.0.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "ChatFlow",
-          "folder": "ChatFlow",
-          "original_filename": "ChatFlow-1.1.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "QuickPlant",
-          "folder": "QuickPlant",
-          "original_filename": "QuickPlant-1.7.10-1.0.1.jar",
-          "size_mb": 0.01
-        },
-        {
           "name": "creepernuggets",
           "folder": "creepernuggets",
           "original_filename": "creepernuggets-1.7.10-1.0.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "OreDictDumper",
-          "folder": "OreDictDumper",
-          "original_filename": "OreDictDumper-1.7.10-1.3.0.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "ThaumcraftLocalizationOptimizer",
-          "folder": "ThaumcraftLocalizationOptimizer",
-          "original_filename": "ThaumcraftLocalizationOptimizer-1.0.4.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "livewithoutmobs",
-          "folder": "livewithoutmobs",
-          "original_filename": "livewithoutmobs-1.7-1.0.1.0.jar",
           "size_mb": 0.01
         },
         {
@@ -4212,51 +3650,15 @@
           "size_mb": 0.01
         },
         {
-          "name": "torchkey",
-          "folder": "torchkey",
-          "original_filename": "torchkey-mc1.7.10-1.0.1.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "defaultserverlist",
-          "folder": "defaultserverlist",
-          "original_filename": "defaultserverlist-1.6.5.jar",
-          "size_mb": 0.01
-        },
-        {
           "name": "ArtsEffectsSpellPack",
           "folder": "ArtsEffectsSpellPack",
           "original_filename": "ArtsEffectsSpellPack.jar",
           "size_mb": 0.01
         },
         {
-          "name": "BiggessPackTweak",
-          "folder": "BiggessPackTweak",
-          "original_filename": "BiggessPackTweak-V1.2.1.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "NextSpring",
-          "folder": "NextSpring",
-          "original_filename": "NextSpring-Forge-1.7.10-1.0.0.jar",
-          "size_mb": 0.01
-        },
-        {
           "name": "travellersgearneo",
           "folder": "travellersgearneo",
           "original_filename": "travellersgearneo-1.2.4.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "LLOverlayReloaded",
-          "folder": "LLOverlayReloaded",
-          "original_filename": "LLOverlayReloaded-1.0.7-mc1.7.10.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "dimensionloader",
-          "folder": "dimensionloader",
-          "original_filename": "dimensionloader-1.7.10-4.0.jar",
           "size_mb": 0.01
         },
         {
@@ -4278,21 +3680,9 @@
           "size_mb": 0.01
         },
         {
-          "name": "editmobdrops",
-          "folder": "editmobdrops",
-          "original_filename": "editmobdrops-1.7.10-1.4.4.jar",
-          "size_mb": 0.01
-        },
-        {
           "name": "RedCow-1.7.10-0.0.1b2",
           "folder": "RedCow-1.7.10-0.0.1b2",
           "original_filename": "RedCow-1.7.10-0.0.1b2-universal.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "TabulaRasa-[1.7.10]1.0.1-3",
-          "folder": "TabulaRasa-[1.7.10]1.0.1-3",
-          "original_filename": "TabulaRasa-[1.7.10]1.0.1-3.jar",
           "size_mb": 0.01
         },
         {
@@ -4320,12 +3710,6 @@
           "size_mb": 0.01
         },
         {
-          "name": "biomestats",
-          "folder": "biomestats",
-          "original_filename": "biomestats-v1.0.1.jar",
-          "size_mb": 0.01
-        },
-        {
           "name": "PotionPacks_1.7.10",
           "folder": "PotionPacks_1.7.10",
           "original_filename": "PotionPacks_1.7.10_b5.zip",
@@ -4335,12 +3719,6 @@
           "name": "Snad",
           "folder": "Snad",
           "original_filename": "Snad-1.7.10-1.6.01.31a.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "RemoveMouseoverHighlight",
-          "folder": "RemoveMouseoverHighlight",
-          "original_filename": "RemoveMouseoverHighlight-1.0.jar",
           "size_mb": 0.01
         },
         {
@@ -4368,33 +3746,9 @@
           "size_mb": 0.01
         },
         {
-          "name": "ExtraFixes",
-          "folder": "ExtraFixes",
-          "original_filename": "ExtraFixes-1.7.10-1.2.4b.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "overloadedarmorbar",
-          "folder": "overloadedarmorbar",
-          "original_filename": "overloadedarmorbar-1.1.0.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "PickBlockPlus",
-          "folder": "PickBlockPlus",
-          "original_filename": "PickBlockPlus-1.7.10-1.1.1.jar",
-          "size_mb": 0.01
-        },
-        {
           "name": "Mysterious_Cookies",
           "folder": "Mysterious_Cookies",
           "original_filename": "Mysterious_Cookies_1.7.10-1.0-1.0.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "whitelistfixer",
-          "folder": "whitelistfixer",
-          "original_filename": "whitelistfixer-mc1.7.10-1.0.0.jar",
           "size_mb": 0.01
         },
         {
@@ -4428,24 +3782,6 @@
           "size_mb": 0.01
         },
         {
-          "name": "BowInfinityFix",
-          "folder": "BowInfinityFix",
-          "original_filename": "BowInfinityFix-1.7.10-rv0.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "BetterPlacement",
-          "folder": "BetterPlacement",
-          "original_filename": "BetterPlacement-MC1.7.10-1.0.0-1.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "Harvest",
-          "folder": "Harvest",
-          "original_filename": "Harvest-1.7.10-1.0.0-2.jar",
-          "size_mb": 0.01
-        },
-        {
           "name": "Timely Stones Mod",
           "folder": "Timely Stones Mod",
           "original_filename": "Timely Stones Mod-1.0.jar",
@@ -4461,12 +3797,6 @@
           "name": "SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev",
           "folder": "SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev",
           "original_filename": "SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev-universal.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "legacy-patch",
-          "folder": "legacy-patch",
-          "original_filename": "legacy-patch-1.7.10.1.jar",
           "size_mb": 0.01
         },
         {
@@ -4494,12 +3824,6 @@
           "size_mb": 0.01
         },
         {
-          "name": "AutoRefresh",
-          "folder": "AutoRefresh",
-          "original_filename": "AutoRefresh-1.7.10-1.1.0.jar",
-          "size_mb": 0.01
-        },
-        {
           "name": "1.7.2v1.1_RoxaStrawMod",
           "folder": "1.7.2v1.1_RoxaStrawMod",
           "original_filename": "1.7.2v1.1_RoxaStrawMod.jar",
@@ -4518,33 +3842,9 @@
           "size_mb": 0.01
         },
         {
-          "name": "GlobalGameRules",
-          "folder": "GlobalGameRules",
-          "original_filename": "GlobalGameRules-1.0.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "kleeslabs",
-          "folder": "kleeslabs",
-          "original_filename": "kleeslabs-mc1.7.10-1.2.9.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "JadedNEI",
-          "folder": "JadedNEI",
-          "original_filename": "JadedNEI-1.7.10-1.0.3.jar",
-          "size_mb": 0.01
-        },
-        {
           "name": "stairs_plusplus",
           "folder": "stairs_plusplus",
           "original_filename": "stairs_plusplus_1.0.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "no_item_rotation",
-          "folder": "no_item_rotation",
-          "original_filename": "no_item_rotation-1.1-beta.jar",
           "size_mb": 0.01
         },
         {
@@ -4620,18 +3920,6 @@
           "size_mb": 0.01
         },
         {
-          "name": "JarFinder",
-          "folder": "JarFinder",
-          "original_filename": "JarFinder.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "BetterPing",
-          "folder": "BetterPing",
-          "original_filename": "BetterPing-1.7.10-1.0.jar",
-          "size_mb": 0.01
-        },
-        {
           "name": "PeacefulToDyeFor-1.0.2",
           "folder": "PeacefulToDyeFor-1.0.2",
           "original_filename": "PeacefulToDyeFor-1.0.2[1.7.10].jar",
@@ -4644,22 +3932,10 @@
           "size_mb": 0.01
         },
         {
-          "name": "BetterBurning",
-          "folder": "BetterBurning",
-          "original_filename": "BetterBurning-1.7.10-0.4.2.jar",
-          "size_mb": 0.01
-        },
-        {
           "name": "PlutoBeta2For1.7.2",
           "folder": "PlutoBeta2For1.7.2",
           "original_filename": "PlutoBeta2For1.7.2.zip",
           "size_mb": 0.01
-        },
-        {
-          "name": "ToolTipMod",
-          "folder": "ToolTipMod",
-          "original_filename": "ToolTipMod_1.7.10.jar",
-          "size_mb": 0.0
         },
         {
           "name": "glassbreaker",
@@ -4668,27 +3944,9 @@
           "size_mb": 0.0
         },
         {
-          "name": "HungerInPeace",
-          "folder": "HungerInPeace",
-          "original_filename": "HungerInPeace-mc1.7.10-1.0.0.jar",
-          "size_mb": 0.0
-        },
-        {
           "name": "easybreading",
           "folder": "easybreading",
           "original_filename": "easybreading-1.7.10-2.0.3.jar",
-          "size_mb": 0.0
-        },
-        {
-          "name": "Loading-Progress-Bar-v1.0",
-          "folder": "Loading-Progress-Bar-v1.0",
-          "original_filename": "Loading-Progress-Bar-v1.0-mc1.7.10.jar",
-          "size_mb": 0.0
-        },
-        {
-          "name": "Chicken Chunk Patcher 1.1",
-          "folder": "Chicken Chunk Patcher 1.1",
-          "original_filename": "Chicken Chunk Patcher 1.1.jar",
           "size_mb": 0.0
         },
         {
@@ -4710,21 +3968,9 @@
           "size_mb": 0.0
         },
         {
-          "name": "ExtraUtilitiesTweaks",
-          "folder": "ExtraUtilitiesTweaks",
-          "original_filename": "ExtraUtilitiesTweaks-1.0.0.jar",
-          "size_mb": 0.0
-        },
-        {
           "name": "Pebbles-Begone-v1.0",
           "folder": "Pebbles-Begone-v1.0",
           "original_filename": "Pebbles-Begone-v1.0-mc1.7.10.jar",
-          "size_mb": 0.0
-        },
-        {
-          "name": "squidless",
-          "folder": "squidless",
-          "original_filename": "squidless-1.7.10-0.6.1.jar",
           "size_mb": 0.0
         },
         {
@@ -4740,57 +3986,15 @@
           "size_mb": 0.0
         },
         {
-          "name": "Sleep",
-          "folder": "Sleep",
-          "original_filename": "Sleep-1.7.10-0.0-1.jar",
-          "size_mb": 0.0
-        },
-        {
-          "name": "BetterInvalidSession",
-          "folder": "BetterInvalidSession",
-          "original_filename": "BetterInvalidSession-1.7.10-1.0.3.jar",
-          "size_mb": 0.0
-        },
-        {
-          "name": "Born in a Barn 1.7.x",
-          "folder": "Born in a Barn 1.7.x",
-          "original_filename": "Born in a Barn 1.7.x.jar",
-          "size_mb": 0.0
-        },
-        {
-          "name": "JadedOceanSpawns",
-          "folder": "JadedOceanSpawns",
-          "original_filename": "JadedOceanSpawns-1.7.10-1.0.3.jar",
-          "size_mb": 0.0
-        },
-        {
           "name": "thaumicSanity",
           "folder": "thaumicSanity",
           "original_filename": "thaumicSanity-1.0-1.7.10-9.jar",
           "size_mb": 0.0
         },
         {
-          "name": "SafeKeyString",
-          "folder": "SafeKeyString",
-          "original_filename": "SafeKeyString-Forge-1.7.10-1.0.0.jar",
-          "size_mb": 0.0
-        },
-        {
-          "name": "PreventCrappyLauncher",
-          "folder": "PreventCrappyLauncher",
-          "original_filename": "PreventCrappyLauncher-2.0-retro.jar",
-          "size_mb": 0.0
-        },
-        {
           "name": "CraftRock 0.2 MC17",
           "folder": "CraftRock 0.2 MC17",
           "original_filename": "CraftRock 0.2 MC17.jar",
-          "size_mb": 0.0
-        },
-        {
-          "name": "Torch Attack",
-          "folder": "Torch Attack",
-          "original_filename": "Torch Attack-1.7.10-1.1.jar",
           "size_mb": 0.0
         }
       ]
