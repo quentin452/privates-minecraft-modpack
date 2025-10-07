@@ -1,45 +1,45 @@
 ## See _dsl_reference.md for full syntax details   
      
-# MataCraft Quest Chain
+# pressure Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
 # ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
-@mod MataCraft
-@filename 1.7.10_10.13.2.1230MataCraft_1.7.10_1.3.jar
-@size 0.04MB
+@mod pressure
+@filename pressure-1.3.0.fix1-mc1.7.10.jar
+@size 1.37MB
 @category small_mods
-@quest_line MataCraftQL
+@quest_line pressureQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
->quest 1_7_10_10_13_2_1230matacraft_discover
-    title: Discover MataCraft
-    desc: Find and identify items or blocks from MataCraft
+>quest pressure_1_3_0_fix1_discover
+    title: Discover pressure
+    desc: Find and identify items or blocks from pressure
     requires: none
     logic: AND
-    task: checkbox "Explore and find items from MataCraft"
+    task: checkbox "Explore and find items from pressure"
     reward: xp 50
     repeatable: no
     auto_claim: no
 
 # Introduction Quest - Basic crafting
->quest 1_7_10_10_13_2_1230matacraft_intro
-    title: Introduction to MataCraft
-    desc: Learn the basics of MataCraft and craft your first item
-    requires: MataCraftQL:1_7_10_10_13_2_1230matacraft_discover
+>quest pressure_1_3_0_fix1_intro
+    title: Introduction to pressure
+    desc: Learn the basics of pressure and craft your first item
+    requires: pressureQL:pressure_1_3_0_fix1_discover
     logic: AND
-    task: craft "any item from MataCraft" 1
-    reward: item minecraft:book 1 "MataCraft Guide"
+    task: craft "any item from pressure" 1
+    reward: item minecraft:book 1 "pressure Guide"
     repeatable: no
     auto_claim: no
 
 # Advanced Quest - Mastery of the mod
->quest 1_7_10_10_13_2_1230matacraft_master
-    title: Master MataCraft
-    desc: Become proficient with advanced MataCraft mechanics
-    requires: MataCraftQL:1_7_10_10_13_2_1230matacraft_intro
+>quest pressure_1_3_0_fix1_master
+    title: Master pressure
+    desc: Become proficient with advanced pressure mechanics
+    requires: pressureQL:pressure_1_3_0_fix1_intro
     logic: AND
-    task: collect "advanced items from MataCraft" 5
+    task: collect "advanced items from pressure" 5
     reward: choice
         minecraft:diamond 3
         minecraft:emerald 5

@@ -1,0 +1,54 @@
+## See _dsl_reference.md for full syntax details   
+     
+# ThermalDynamics Quest Chain
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
+
+@mod ThermalDynamics
+@filename ThermalDynamics-[1.7.10]1.2.1-172.jar
+@size 0.60MB
+@category small_mods
+@quest_line ThermalDynamicsQL
+@status incomplete
+
+# Discovery Quest - First interaction with the mod
+>quest thermaldynamics_1_7_101_2_1_172_discover
+    title: Discover ThermalDynamics
+    desc: Find and identify items or blocks from ThermalDynamics
+    requires: none
+    logic: AND
+    task: checkbox "Explore and find items from ThermalDynamics"
+    reward: xp 50
+    repeatable: no
+    auto_claim: no
+
+# Introduction Quest - Basic crafting
+>quest thermaldynamics_1_7_101_2_1_172_intro
+    title: Introduction to ThermalDynamics
+    desc: Learn the basics of ThermalDynamics and craft your first item
+    requires: ThermalDynamicsQL:thermaldynamics_1_7_101_2_1_172_discover
+    logic: AND
+    task: craft "any item from ThermalDynamics" 1
+    reward: item minecraft:book 1 "ThermalDynamics Guide"
+    repeatable: no
+    auto_claim: no
+
+# Advanced Quest - Mastery of the mod
+>quest thermaldynamics_1_7_101_2_1_172_master
+    title: Master ThermalDynamics
+    desc: Become proficient with advanced ThermalDynamics mechanics
+    requires: ThermalDynamicsQL:thermaldynamics_1_7_101_2_1_172_intro
+    logic: AND
+    task: collect "advanced items from ThermalDynamics" 5
+    reward: choice
+        minecraft:diamond 3
+        minecraft:emerald 5
+        minecraft:gold_ingot 8
+    repeatable: no
+    auto_claim: no
+
+# TODO: Customize the quests above for this specific mod
+# TODO: Remove unused example quests
+# TODO: Add mod-specific items, blocks, and mechanics
+# TODO: Set proper item IDs and counts
+# TODO: Add appropriate descriptions and titles

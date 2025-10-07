@@ -654,8 +654,8 @@
           "size_mb": 1.65
         },
         {
-          "name": "Zoocraft Discoveries 1.7.10",
-          "folder": "Zoocraft Discoveries 1.7.10",
+          "name": "Zoocraft Discoveries",
+          "folder": "Zoocraft Discoveries",
           "original_filename": "Zoocraft Discoveries 1.7.10-1.1.0.jar",
           "size_mb": 1.64
         },
@@ -708,8 +708,8 @@
           "size_mb": 1.48
         },
         {
-          "name": "Thaumic-Dyes-[1.7.10] 1.10.5-0",
-          "folder": "Thaumic-Dyes-[1.7.10] 1.10.5-0",
+          "name": "Thaumic-Dyes",
+          "folder": "Thaumic-Dyes",
           "original_filename": "Thaumic-Dyes-[1.7.10] 1.10.5-0.jar",
           "size_mb": 1.47
         },
@@ -738,8 +738,8 @@
           "size_mb": 1.39
         },
         {
-          "name": "pressure-1.3.0.fix1",
-          "folder": "pressure-1.3.0.fix1",
+          "name": "pressure",
+          "folder": "pressure",
           "original_filename": "pressure-1.3.0.fix1-mc1.7.10.jar",
           "size_mb": 1.37
         },
@@ -756,8 +756,8 @@
           "size_mb": 1.33
         },
         {
-          "name": "ToolUpgrades 1.7.10 (v.1.2.3)",
-          "folder": "ToolUpgrades 1.7.10 (v.1.2.3)",
+          "name": "ToolUpgrades",
+          "folder": "ToolUpgrades",
           "original_filename": "ToolUpgrades 1.7.10 (v.1.2.3).jar",
           "size_mb": 1.25
         },
@@ -1074,8 +1074,8 @@
           "size_mb": 0.6
         },
         {
-          "name": "ThermalDynamics-[1.7.10]1.2.1-172",
-          "folder": "ThermalDynamics-[1.7.10]1.2.1-172",
+          "name": "ThermalDynamics",
+          "folder": "ThermalDynamics",
           "original_filename": "ThermalDynamics-[1.7.10]1.2.1-172.jar",
           "size_mb": 0.6
         },
@@ -1116,8 +1116,8 @@
           "size_mb": 0.57
         },
         {
-          "name": "SlimeCarnage-1.0.5d",
-          "folder": "SlimeCarnage-1.0.5d",
+          "name": "SlimeCarnage",
+          "folder": "SlimeCarnage",
           "original_filename": "SlimeCarnage-1.0.5d-mc1.7.10.jar",
           "size_mb": 0.56
         },
@@ -1200,8 +1200,8 @@
           "size_mb": 0.51
         },
         {
-          "name": "worldexplorer-1.2.15 Dev",
-          "folder": "worldexplorer-1.2.15 Dev",
+          "name": "worldexplorer",
+          "folder": "worldexplorer",
           "original_filename": "worldexplorer-1.2.15 Dev.jar",
           "size_mb": 0.5
         },
@@ -1458,8 +1458,8 @@
           "size_mb": 0.32
         },
         {
-          "name": "RedstoneArsenal-[1.7.10]1.1.2-92",
-          "folder": "RedstoneArsenal-[1.7.10]1.1.2-92",
+          "name": "RedstoneArsenal",
+          "folder": "RedstoneArsenal",
           "original_filename": "RedstoneArsenal-[1.7.10]1.1.2-92.jar",
           "size_mb": 0.3
         },
@@ -1770,12 +1770,6 @@
           "size_mb": 0.21
         },
         {
-          "name": "[1.7.10-10.13.2.1230]Large Sign",
-          "folder": "[1.7.10-10.13.2.1230]Large Sign",
-          "original_filename": "[1.7.10-10.13.2.1230]Large Sign-2.0.jar",
-          "size_mb": 0.21
-        },
-        {
           "name": "Thaumaturgical Knowledge-0.1.5.2 - 1.7.10",
           "folder": "Thaumaturgical Knowledge-0.1.5.2 - 1.7.10",
           "original_filename": "Thaumaturgical Knowledge-0.1.5.2 - 1.7.10.jar",
@@ -1926,8 +1920,8 @@
           "size_mb": 0.17
         },
         {
-          "name": "SoulShards-TOW-1.7.10-0.1-RC9-7",
-          "folder": "SoulShards-TOW-1.7.10-0.1-RC9-7",
+          "name": "SoulShards-TOW",
+          "folder": "SoulShards-TOW",
           "original_filename": "SoulShards-TOW-1.7.10-0.1-RC9-7.jar",
           "size_mb": 0.17
         },
@@ -1941,12 +1935,6 @@
           "name": "Magical Stick 1.3",
           "folder": "Magical Stick 1.3",
           "original_filename": "Magical Stick 1.3.zip",
-          "size_mb": 0.17
-        },
-        {
-          "name": "ReAuth-1.7.10",
-          "folder": "ReAuth-1.7.10",
-          "original_filename": "ReAuth-1.7.10-Forge-4.0.7.jar",
           "size_mb": 0.17
         },
         {
@@ -2269,12 +2257,6 @@
           "size_mb": 0.12
         },
         {
-          "name": "redirectionor-1.9 for 1.7.10",
-          "folder": "redirectionor-1.9 for 1.7.10",
-          "original_filename": "redirectionor-1.9 for 1.7.10.jar",
-          "size_mb": 0.12
-        },
-        {
           "name": "BunkerMod",
           "folder": "BunkerMod",
           "original_filename": "BunkerMod-1.1.jar",
@@ -2455,8 +2437,8 @@
           "size_mb": 0.09
         },
         {
-          "name": "The Rings of Power 24.07.19 (Forge)",
-          "folder": "The Rings of Power 24.07.19 (Forge)",
+          "name": "The Rings of Power",
+          "folder": "The Rings of Power",
           "original_filename": "[1.7.10] The Rings of Power 24.07.19 (Forge).jar",
           "size_mb": 0.09
         },
@@ -2491,8 +2473,8 @@
           "size_mb": 0.09
         },
         {
-          "name": "RopeBridge-v1.3",
-          "folder": "RopeBridge-v1.3",
+          "name": "RopeBridge",
+          "folder": "RopeBridge",
           "original_filename": "RopeBridge-v1.3-mc1.7.10.jar",
           "size_mb": 0.09
         },
@@ -2779,12 +2761,6 @@
           "size_mb": 0.06
         },
         {
-          "name": "Quadrum-1.7.10-1.2.0.B13",
-          "folder": "Quadrum-1.7.10-1.2.0.B13",
-          "original_filename": "Quadrum-1.7.10-1.2.0.B13-universal.jar",
-          "size_mb": 0.06
-        },
-        {
           "name": "skull",
           "folder": "skull",
           "original_filename": "skull_mc1.7.10.jar",
@@ -2935,8 +2911,8 @@
           "size_mb": 0.04
         },
         {
-          "name": "1.7.10_10.13.2.1230MataCraft",
-          "folder": "1.7.10_10.13.2.1230MataCraft",
+          "name": "MataCraft",
+          "folder": "MataCraft",
           "original_filename": "1.7.10_10.13.2.1230MataCraft_1.7.10_1.3.jar",
           "size_mb": 0.04
         },
@@ -3110,8 +3086,8 @@
           "size_mb": 0.03
         },
         {
-          "name": "Pumpkin Tools[1.7.10-V1]",
-          "folder": "Pumpkin Tools[1.7.10-V1]",
+          "name": "Pumpkin Tools",
+          "folder": "Pumpkin Tools",
           "original_filename": "Pumpkin Tools[1.7.10-V1].jar",
           "size_mb": 0.03
         },
@@ -3176,8 +3152,8 @@
           "size_mb": 0.03
         },
         {
-          "name": "SBM-Magic-Mirror-1.7.10-0.0.1b13",
-          "folder": "SBM-Magic-Mirror-1.7.10-0.0.1b13",
+          "name": "SBM-Magic-Mirror",
+          "folder": "SBM-Magic-Mirror",
           "original_filename": "SBM-Magic-Mirror-1.7.10-0.0.1b13-universal.jar",
           "size_mb": 0.03
         },
@@ -3242,8 +3218,8 @@
           "size_mb": 0.03
         },
         {
-          "name": "SBM-CardboardBoxes-1.7.10-0.0.1b5",
-          "folder": "SBM-CardboardBoxes-1.7.10-0.0.1b5",
+          "name": "SBM-CardboardBoxes",
+          "folder": "SBM-CardboardBoxes",
           "original_filename": "SBM-CardboardBoxes-1.7.10-0.0.1b5-universal.jar",
           "size_mb": 0.03
         },
@@ -3284,8 +3260,8 @@
           "size_mb": 0.03
         },
         {
-          "name": "turkish-meals-v1.0(1.7.10)",
-          "folder": "turkish-meals-v1.0(1.7.10)",
+          "name": "turkish-meals",
+          "folder": "turkish-meals",
           "original_filename": "turkish-meals-v1.0(1.7.10)(1).jar",
           "size_mb": 0.03
         },
@@ -3314,8 +3290,8 @@
           "size_mb": 0.03
         },
         {
-          "name": "The Flesh Mod [v1.1] for 1.7.10",
-          "folder": "The Flesh Mod [v1.1] for 1.7.10",
+          "name": "The Flesh Mod",
+          "folder": "The Flesh Mod",
           "original_filename": "The Flesh Mod [v1.1] for 1.7.10.jar",
           "size_mb": 0.03
         },
@@ -3350,8 +3326,8 @@
           "size_mb": 0.02
         },
         {
-          "name": "SimpleLabels-1.7.10-1.0-9fork1",
-          "folder": "SimpleLabels-1.7.10-1.0-9fork1",
+          "name": "SimpleLabels",
+          "folder": "SimpleLabels",
           "original_filename": "SimpleLabels-1.7.10-1.0-9fork1.jar",
           "size_mb": 0.02
         },
@@ -3434,8 +3410,8 @@
           "size_mb": 0.02
         },
         {
-          "name": "SAO Crystals Mod 1.3 Reborn",
-          "folder": "SAO Crystals Mod 1.3 Reborn",
+          "name": "SAO Crystals Mod",
+          "folder": "SAO Crystals Mod",
           "original_filename": "SAO Crystals Mod 1.3 Reborn.jar",
           "size_mb": 0.02
         },
@@ -3554,8 +3530,8 @@
           "size_mb": 0.02
         },
         {
-          "name": "StuffForMC1.0.1_for_Minecarft",
-          "folder": "StuffForMC1.0.1_for_Minecarft",
+          "name": "StuffForMC",
+          "folder": "StuffForMC",
           "original_filename": "StuffForMC1.0.1_for_Minecarft_1.7.10.jar",
           "size_mb": 0.02
         },
@@ -3566,8 +3542,8 @@
           "size_mb": 0.02
         },
         {
-          "name": "Toasted-Bread-And-Wheat-Flour_RP112",
-          "folder": "Toasted-Bread-And-Wheat-Flour_RP112",
+          "name": "Toasted-Bread-And-Wheat-Flour",
+          "folder": "Toasted-Bread-And-Wheat-Flour",
           "original_filename": "Toasted-Bread-And-Wheat-Flour_RP112.jar",
           "size_mb": 0.02
         },
@@ -3668,8 +3644,8 @@
           "size_mb": 0.01
         },
         {
-          "name": "RedCow-1.7.10-0.0.1b2",
-          "folder": "RedCow-1.7.10-0.0.1b2",
+          "name": "RedCow",
+          "folder": "RedCow",
           "original_filename": "RedCow-1.7.10-0.0.1b2-universal.jar",
           "size_mb": 0.01
         },
@@ -3782,8 +3758,8 @@
           "size_mb": 0.01
         },
         {
-          "name": "SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev",
-          "folder": "SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev",
+          "name": "SBM-CactiBucket",
+          "folder": "SBM-CactiBucket",
           "original_filename": "SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev-universal.jar",
           "size_mb": 0.01
         },
@@ -3809,12 +3785,6 @@
           "name": "InvisibleArmor",
           "folder": "InvisibleArmor",
           "original_filename": "InvisibleArmor-1.0.0.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "1.7.2v1.1_RoxaStrawMod",
-          "folder": "1.7.2v1.1_RoxaStrawMod",
-          "original_filename": "1.7.2v1.1_RoxaStrawMod.jar",
           "size_mb": 0.01
         },
         {
@@ -3854,20 +3824,14 @@
           "size_mb": 0.01
         },
         {
-          "name": "1-7-10-005-KoRIN",
-          "folder": "1-7-10-005-KoRIN",
-          "original_filename": "1-7-10-005-KoRIN.jar",
-          "size_mb": 0.01
-        },
-        {
           "name": "additionalresources-1.7.10",
           "folder": "additionalresources-1.7.10",
           "original_filename": "additionalresources-1.7.10_0.1.0.unknown.jar",
           "size_mb": 0.01
         },
         {
-          "name": "SBM-WoodenShears-1.7.10-0.0.1b4",
-          "folder": "SBM-WoodenShears-1.7.10-0.0.1b4",
+          "name": "SBM-WoodenShears",
+          "folder": "SBM-WoodenShears",
           "original_filename": "SBM-WoodenShears-1.7.10-0.0.1b4-universal.jar",
           "size_mb": 0.01
         },
@@ -3932,8 +3896,8 @@
           "size_mb": 0.0
         },
         {
-          "name": "StevsApplePie_v1.0.1",
-          "folder": "StevsApplePie_v1.0.1",
+          "name": "StevsApplePie",
+          "folder": "StevsApplePie",
           "original_filename": "StevsApplePie_v1.0.1_mc1.7.10.jar",
           "size_mb": 0.0
         },

@@ -1,45 +1,45 @@
 ## See _dsl_reference.md for full syntax details   
      
-# MataCraft Quest Chain
+# worldexplorer Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
 # ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
-@mod MataCraft
-@filename 1.7.10_10.13.2.1230MataCraft_1.7.10_1.3.jar
-@size 0.04MB
+@mod worldexplorer
+@filename worldexplorer-1.2.15 Dev.jar
+@size 0.50MB
 @category small_mods
-@quest_line MataCraftQL
+@quest_line worldexplorerQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
->quest 1_7_10_10_13_2_1230matacraft_discover
-    title: Discover MataCraft
-    desc: Find and identify items or blocks from MataCraft
+>quest worldexplorer_1_2_15_dev_discover
+    title: Discover worldexplorer
+    desc: Find and identify items or blocks from worldexplorer
     requires: none
     logic: AND
-    task: checkbox "Explore and find items from MataCraft"
+    task: checkbox "Explore and find items from worldexplorer"
     reward: xp 50
     repeatable: no
     auto_claim: no
 
 # Introduction Quest - Basic crafting
->quest 1_7_10_10_13_2_1230matacraft_intro
-    title: Introduction to MataCraft
-    desc: Learn the basics of MataCraft and craft your first item
-    requires: MataCraftQL:1_7_10_10_13_2_1230matacraft_discover
+>quest worldexplorer_1_2_15_dev_intro
+    title: Introduction to worldexplorer
+    desc: Learn the basics of worldexplorer and craft your first item
+    requires: worldexplorerQL:worldexplorer_1_2_15_dev_discover
     logic: AND
-    task: craft "any item from MataCraft" 1
-    reward: item minecraft:book 1 "MataCraft Guide"
+    task: craft "any item from worldexplorer" 1
+    reward: item minecraft:book 1 "worldexplorer Guide"
     repeatable: no
     auto_claim: no
 
 # Advanced Quest - Mastery of the mod
->quest 1_7_10_10_13_2_1230matacraft_master
-    title: Master MataCraft
-    desc: Become proficient with advanced MataCraft mechanics
-    requires: MataCraftQL:1_7_10_10_13_2_1230matacraft_intro
+>quest worldexplorer_1_2_15_dev_master
+    title: Master worldexplorer
+    desc: Become proficient with advanced worldexplorer mechanics
+    requires: worldexplorerQL:worldexplorer_1_2_15_dev_intro
     logic: AND
-    task: collect "advanced items from MataCraft" 5
+    task: collect "advanced items from worldexplorer" 5
     reward: choice
         minecraft:diamond 3
         minecraft:emerald 5

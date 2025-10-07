@@ -1,45 +1,45 @@
 ## See _dsl_reference.md for full syntax details   
      
-# MataCraft Quest Chain
+# turkish-meals Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
 # ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
-@mod MataCraft
-@filename 1.7.10_10.13.2.1230MataCraft_1.7.10_1.3.jar
-@size 0.04MB
+@mod turkish-meals
+@filename turkish-meals-v1.0(1.7.10)(1).jar
+@size 0.03MB
 @category small_mods
-@quest_line MataCraftQL
+@quest_line turkish-mealsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
->quest 1_7_10_10_13_2_1230matacraft_discover
-    title: Discover MataCraft
-    desc: Find and identify items or blocks from MataCraft
+>quest turkish_meals_v1_01_7_10_discover
+    title: Discover turkish-meals
+    desc: Find and identify items or blocks from turkish-meals
     requires: none
     logic: AND
-    task: checkbox "Explore and find items from MataCraft"
+    task: checkbox "Explore and find items from turkish-meals"
     reward: xp 50
     repeatable: no
     auto_claim: no
 
 # Introduction Quest - Basic crafting
->quest 1_7_10_10_13_2_1230matacraft_intro
-    title: Introduction to MataCraft
-    desc: Learn the basics of MataCraft and craft your first item
-    requires: MataCraftQL:1_7_10_10_13_2_1230matacraft_discover
+>quest turkish_meals_v1_01_7_10_intro
+    title: Introduction to turkish-meals
+    desc: Learn the basics of turkish and craft your first item
+    requires: turkish-mealsQL:turkish_meals_v1_01_7_10_discover
     logic: AND
-    task: craft "any item from MataCraft" 1
-    reward: item minecraft:book 1 "MataCraft Guide"
+    task: craft "any item from turkish-meals" 1
+    reward: item minecraft:book 1 "turkish-meals Guide"
     repeatable: no
     auto_claim: no
 
 # Advanced Quest - Mastery of the mod
->quest 1_7_10_10_13_2_1230matacraft_master
-    title: Master MataCraft
-    desc: Become proficient with advanced MataCraft mechanics
-    requires: MataCraftQL:1_7_10_10_13_2_1230matacraft_intro
+>quest turkish_meals_v1_01_7_10_master
+    title: Master turkish-meals
+    desc: Become proficient with advanced turkish-meals mechanics
+    requires: turkish-mealsQL:turkish_meals_v1_01_7_10_intro
     logic: AND
-    task: collect "advanced items from MataCraft" 5
+    task: collect "advanced items from turkish-meals" 5
     reward: choice
         minecraft:diamond 3
         minecraft:emerald 5

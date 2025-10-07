@@ -1,45 +1,45 @@
 ## See _dsl_reference.md for full syntax details   
      
-# MataCraft Quest Chain
+# RedCow Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
 # ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
-@mod MataCraft
-@filename 1.7.10_10.13.2.1230MataCraft_1.7.10_1.3.jar
-@size 0.04MB
+@mod RedCow
+@filename RedCow-1.7.10-0.0.1b2-universal.jar
+@size 0.01MB
 @category small_mods
-@quest_line MataCraftQL
+@quest_line RedCowQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
->quest 1_7_10_10_13_2_1230matacraft_discover
-    title: Discover MataCraft
-    desc: Find and identify items or blocks from MataCraft
+>quest redcow_1_7_10_0_0_1b2_discover
+    title: Discover RedCow
+    desc: Find and identify items or blocks from RedCow
     requires: none
     logic: AND
-    task: checkbox "Explore and find items from MataCraft"
+    task: checkbox "Explore and find items from RedCow"
     reward: xp 50
     repeatable: no
     auto_claim: no
 
 # Introduction Quest - Basic crafting
->quest 1_7_10_10_13_2_1230matacraft_intro
-    title: Introduction to MataCraft
-    desc: Learn the basics of MataCraft and craft your first item
-    requires: MataCraftQL:1_7_10_10_13_2_1230matacraft_discover
+>quest redcow_1_7_10_0_0_1b2_intro
+    title: Introduction to RedCow
+    desc: Learn the basics of RedCow and craft your first item
+    requires: RedCowQL:redcow_1_7_10_0_0_1b2_discover
     logic: AND
-    task: craft "any item from MataCraft" 1
-    reward: item minecraft:book 1 "MataCraft Guide"
+    task: craft "any item from RedCow" 1
+    reward: item minecraft:book 1 "RedCow Guide"
     repeatable: no
     auto_claim: no
 
 # Advanced Quest - Mastery of the mod
->quest 1_7_10_10_13_2_1230matacraft_master
-    title: Master MataCraft
-    desc: Become proficient with advanced MataCraft mechanics
-    requires: MataCraftQL:1_7_10_10_13_2_1230matacraft_intro
+>quest redcow_1_7_10_0_0_1b2_master
+    title: Master RedCow
+    desc: Become proficient with advanced RedCow mechanics
+    requires: RedCowQL:redcow_1_7_10_0_0_1b2_intro
     logic: AND
-    task: collect "advanced items from MataCraft" 5
+    task: collect "advanced items from RedCow" 5
     reward: choice
         minecraft:diamond 3
         minecraft:emerald 5
