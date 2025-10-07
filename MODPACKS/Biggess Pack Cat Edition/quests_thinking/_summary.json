@@ -36,8 +36,8 @@
           "size_mb": 26.97
         },
         {
-          "name": "MatoiVanillaPack1.5.2_on",
-          "folder": "MatoiVanillaPack1.5.2_on",
+          "name": "MatoiVanillaPack",
+          "folder": "MatoiVanillaPack",
           "original_filename": "MatoiVanillaPack1.5.2_on_1.7.10.jar",
           "size_mb": 25.62
         },
@@ -54,8 +54,8 @@
           "size_mb": 23.79
         },
         {
-          "name": "LOTRModfork.v36.33",
-          "folder": "LOTRModfork.v36.33",
+          "name": "LOTRModfork",
+          "folder": "LOTRModfork",
           "original_filename": "LOTRModfork.v36.33.jar",
           "size_mb": 20.36
         },
@@ -186,8 +186,8 @@
           "size_mb": 7.84
         },
         {
-          "name": "CreepyPastaCraft-1.7.x-r76.6c6e88f",
-          "folder": "CreepyPastaCraft-1.7.x-r76.6c6e88f",
+          "name": "CreepyPastaCraft",
+          "folder": "CreepyPastaCraft",
           "original_filename": "CreepyPastaCraft-1.7.x-r76.6c6e88f-universal.jar",
           "size_mb": 7.5
         },
@@ -222,8 +222,8 @@
           "size_mb": 6.52
         },
         {
-          "name": "mariculture-1.3.0-6fork7",
-          "folder": "mariculture-1.3.0-6fork7",
+          "name": "mariculture",
+          "folder": "mariculture",
           "original_filename": "mariculture-1.3.0-6fork7.jar",
           "size_mb": 6.49
         },
@@ -246,8 +246,8 @@
           "size_mb": 6.26
         },
         {
-          "name": "PneumaticCraft-1.7.10-1.12.7-152",
-          "folder": "PneumaticCraft-1.7.10-1.12.7-152",
+          "name": "PneumaticCraft",
+          "folder": "PneumaticCraft",
           "original_filename": "PneumaticCraft-1.7.10-1.12.7-152-universal.jar",
           "size_mb": 6.17
         },
@@ -264,8 +264,8 @@
           "size_mb": 5.77
         },
         {
-          "name": "steamcraft2-1.7.10",
-          "folder": "steamcraft2-1.7.10",
+          "name": "steamcraft2",
+          "folder": "steamcraft2",
           "original_filename": "steamcraft2-1.7.10-B5.0.2-universal.jar",
           "size_mb": 5.61
         },
@@ -288,14 +288,14 @@
           "size_mb": 5.46
         },
         {
-          "name": "tinker_io-1.7.10-release 1.5.0",
-          "folder": "tinker_io-1.7.10-release 1.5.0",
+          "name": "tinker_io",
+          "folder": "tinker_io",
           "original_filename": "tinker_io-1.7.10-release 1.5.0.jar",
           "size_mb": 5.4
         },
         {
-          "name": "BiblioCraft[v1.11.7][MC1.7.10]",
-          "folder": "BiblioCraft[v1.11.7][MC1.7.10]",
+          "name": "BiblioCraft",
+          "folder": "BiblioCraft",
           "original_filename": "BiblioCraft[v1.11.7][MC1.7.10].jar",
           "size_mb": 5.2
         },
@@ -336,8 +336,8 @@
           "size_mb": 4.31
         },
         {
-          "name": "Weird-MobsV1.3",
-          "folder": "Weird-MobsV1.3",
+          "name": "Weird-Mobs",
+          "folder": "Weird-Mobs",
           "original_filename": "Weird-MobsV1.3.jar",
           "size_mb": 4.31
         },
@@ -384,8 +384,8 @@
           "size_mb": 3.71
         },
         {
-          "name": "appliedenergistics2-rv3-beta-688",
-          "folder": "appliedenergistics2-rv3-beta-688",
+          "name": "appliedenergistics2",
+          "folder": "appliedenergistics2",
           "original_filename": "appliedenergistics2-rv3-beta-688-GTNH.jar",
           "size_mb": 3.63
         },
@@ -438,8 +438,8 @@
           "size_mb": 3.15
         },
         {
-          "name": "Yugioh Plus Beta 0.2 Forge 1.7.10",
-          "folder": "Yugioh Plus Beta 0.2 Forge 1.7.10",
+          "name": "Yugioh Plus Beta",
+          "folder": "Yugioh Plus Beta",
           "original_filename": "Yugioh Plus Beta 0.2 Forge 1.7.10.jar",
           "size_mb": 3.11
         },
@@ -474,8 +474,8 @@
           "size_mb": 2.84
         },
         {
-          "name": "achievementbooks-v1.0",
-          "folder": "achievementbooks-v1.0",
+          "name": "achievementbooks",
+          "folder": "achievementbooks",
           "original_filename": "achievementbooks-v1.0-MC1.7.10.jar",
           "size_mb": 2.84
         },
@@ -486,8 +486,8 @@
           "size_mb": 2.81
         },
         {
-          "name": "logisticspipes-1.4.23",
-          "folder": "logisticspipes-1.4.23",
+          "name": "logisticspipes",
+          "folder": "logisticspipes",
           "original_filename": "logisticspipes-1.4.23-GTNH-pre.jar",
           "size_mb": 2.78
         },
@@ -534,8 +534,8 @@
           "size_mb": 2.53
         },
         {
-          "name": "ThermalExpansion-[1.7.10]4.1.5-248",
-          "folder": "ThermalExpansion-[1.7.10]4.1.5-248",
+          "name": "ThermalExpansion",
+          "folder": "ThermalExpansion",
           "original_filename": "ThermalExpansion-[1.7.10]4.1.5-248.jar",
           "size_mb": 2.49
         },
@@ -564,8 +564,8 @@
           "size_mb": 2.43
         },
         {
-          "name": "CraftHeraldry 1.1.3",
-          "folder": "CraftHeraldry 1.1.3",
+          "name": "CraftHeraldry",
+          "folder": "CraftHeraldry",
           "original_filename": "CraftHeraldry 1.1.3.jar",
           "size_mb": 2.42
         },
@@ -582,8 +582,8 @@
           "size_mb": 2.37
         },
         {
-          "name": "PlumePack_Vietnam_0_0_2",
-          "folder": "PlumePack_Vietnam_0_0_2",
+          "name": "PlumePack_Vietnam",
+          "folder": "PlumePack_Vietnam",
           "original_filename": "PlumePack_Vietnam_0_0_2.jar",
           "size_mb": 2.31
         },
@@ -600,8 +600,8 @@
           "size_mb": 2.22
         },
         {
-          "name": "ThermalFoundation-[1.7.10]1.2.6-118",
-          "folder": "ThermalFoundation-[1.7.10]1.2.6-118",
+          "name": "ThermalFoundation",
+          "folder": "ThermalFoundation",
           "original_filename": "ThermalFoundation-[1.7.10]1.2.6-118.jar",
           "size_mb": 2.21
         },
@@ -618,14 +618,14 @@
           "size_mb": 2.18
         },
         {
-          "name": "middleearththaumaturgy-0.7.3.1_a for v36.x",
-          "folder": "middleearththaumaturgy-0.7.3.1_a for v36.x",
+          "name": "middleearththaumaturgy",
+          "folder": "middleearththaumaturgy",
           "original_filename": "middleearththaumaturgy-0.7.3.1_a for v36.x.jar",
           "size_mb": 2.15
         },
         {
-          "name": "CraftPresence-2.6.2+1.7.10",
-          "folder": "CraftPresence-2.6.2+1.7.10",
+          "name": "CraftPresence",
+          "folder": "CraftPresence",
           "original_filename": "CraftPresence-2.6.2+1.7.10-forge.jar",
           "size_mb": 2.06
         },
@@ -642,8 +642,8 @@
           "size_mb": 2.05
         },
         {
-          "name": "CazzarCoreLib-1.2.0-SNAPSHOT",
-          "folder": "CazzarCoreLib-1.2.0-SNAPSHOT",
+          "name": "CazzarCoreLib",
+          "folder": "CazzarCoreLib",
           "original_filename": "CazzarCoreLib-1.2.0-SNAPSHOT-universal.jar",
           "size_mb": 2.03
         },
