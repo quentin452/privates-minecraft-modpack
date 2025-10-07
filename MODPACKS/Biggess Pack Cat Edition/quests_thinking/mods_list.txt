@@ -1,24 +1,27 @@
+(1.7.10) Wolfcore 2.0.0.jar
++Mycelium-2.3.jar
++unimixins-all-1.7.10-0.1.23.jar
 1-7-10-005-KoRIN.jar
-[1.7.10-10.13.2.1230]Large\ Sign-2.0.jar
-1.7.10_10.13.2.1230MataCraft_1.7.10_1.3.jar
-[1.7.10]\ additionalrecipes-1.5.jar
-[1.7.10]\ AlchemyRocks\ v1.2.5R.jar
-[1.7.10]CrystalWing-universal-1.7.10.r02.jar
 1.7.10-DungeonTools-v2.1.1.jar
 1.7.10-PhaseBlocks-4.1.0.jar
 1.7.10-Pistronics2-v0.6.4.jar
-[1.7.10]\ Redstone\ Tools\ Mod.zip
 1.7.10.SecurityCraft.v1.8.15.jar
-[1.7.10]SidedBuffer-0.4.jar
-[1.7.10]\ Special\ Swords\ Mod!.jar
-[1.7.10]StartingInventory-universal-1.7.10.r03.jar
-[1.7.10]\ The\ Rings\ of\ Power\ 24.07.19\ (Forge).jar
-[1.7.10]\ The\ Whetstone\ Mod-v1.0.1.jar
-[1.7.10]Treecapitator-universal-2.0.4.jar
+1.7.10_10.13.2.1230MataCraft_1.7.10_1.3.jar
 1.7.10v1.3.0_MC_Cocoa.jar
-(1.7.10)\ Wolfcore\ 2.0.0.jar
 1.7.2v1.1_RoxaStrawMod.jar
 3DManeuverGear-1.7.10-0.6.jar
+[1.7.10-10.13.2.1230]Large Sign-2.0.jar
+[1.7.10] additionalrecipes-1.5.jar
+[1.7.10] AlchemyRocks v1.2.5R.jar
+[1.7.10] Redstone Tools Mod.zip
+[1.7.10] Special Swords Mod!.jar
+[1.7.10] The Rings of Power 24.07.19 (Forge).jar
+[1.7.10] The Whetstone Mod-v1.0.1.jar
+[1.7.10]bspkrsCore-universal-6.16.jar
+[1.7.10]CrystalWing-universal-1.7.10.r02.jar
+[1.7.10]SidedBuffer-0.4.jar
+[1.7.10]StartingInventory-universal-1.7.10.r03.jar
+[1.7.10]Treecapitator-universal-2.0.4.jar
 ABO-MC1.7.10-BC7.1release4.0.14.jar
 achievementbooks-v1.0-MC1.7.10.jar
 ActuallyAdditions-1.7.10-r21.jar
@@ -44,10 +47,10 @@ AkutoLib-1.0.5.jar
 alchemycraft2.v1.2.0.2.jar
 AllSushiModv1.3(1.7.10).jar
 alreadydecoratingfix-1.0a.jar
-alternatecurrent-1.5.1.jar
+alternatecurrent-1.5.1fork1.jar
 am2.0.90.jar
 amazingtrophies-1.3.9-pre.jar
-Ambience\ 1.0-3.jar
+Ambience 1.0-3.jar
 AncientTrees-1.7.10-1.6.4.jar
 AnimalBikes_1.7.10.jar
 animalsPlus_1.2.jar
@@ -60,8 +63,8 @@ Aquaculture-1.7.10-1.2.6.21.jar
 Arcana-Rpg-Continuation-1.7.10-1.4.8.5.jar
 archaicfix-0.7.0fork9.jar
 archimedesshipsplus-1.7.10-1.8.1.jar
+Architecture Utils-1.7.10-1.0.jar
 ArchitectureCraft-1.11.5.jar
-Architecture\ Utils-1.7.10-1.0.jar
 armorplusplus-1.0.1.245.jar
 Aroma1997Core-1.7.10-1.0.2.16.jar
 Aroma1997DimensionFix-1.1.jar
@@ -76,13 +79,13 @@ Atum-1.7.10-0.6.77.jar
 AuraCascade-559.jar
 Automagy-1.7.10-0.28.2.jar
 AutomatedRedstone-1.7.10-2.2.1.jar
-Automation\ Utilities-1.7.10-1.0.1.jar
+Automation Utilities-1.7.10-1.0.1.jar
 autopackager-1.5.9a.jar
 AutoRefresh-1.7.10-1.1.0.jar
 Avaritia-1.75.jar
 Avaritiaddons-1.9.1-GTNH.jar
 BabyAnimals-1.7.10-5.jar
-Back\ In\ Slime-1.7.10-3.1.6.jar
+Back In Slime-1.7.10-3.1.6.jar
 backpack-2.5.9-GTNH.jar
 BackToTheFutureMod_1_7_10.jar
 baconators-1.7.10-2.0.3.jar
@@ -94,12 +97,13 @@ BattleAxeMod.jar
 battlegear2-1.4.3.jar
 BattleTowersContinuation-1.7.10-V1.12.4.jar
 baublelicious-1.7.10-1.2.2-final.jar
+BaublesExpanded-2.1.15-GTNH.jar
 BaublesHud-1.7.10-2.0.1.jar
 baublesstuff-2.1.2.jar
 bdlib-1.11.0-GTNH.jar
 BeamingDrops-1.0.3-clientside.jar
 bedcraftbeyond-1.7.10-1.1.5.jar
-beddium-mc1.7.10-1.0.1-j21.jar
+beddium-mc1.7.10-1.0.4-j21.jar
 Bedrockium-0.1.1.jar
 beebetteratbees-0.4.3-GTNH.jar
 BetterAchievements-0.3.0.jar
@@ -117,27 +121,26 @@ bettersugarcane--1.7.10-2.0a.jar
 BiblioCraft[v1.11.7][MC1.7.10].jar
 BiggerCraftingTables-1.7.10-1.7.jar
 biggerpacketsplz-upto1.7.10-1.2.jar
-Biggess+Pack+Cat+Edition+V1.0.zip
 BiggessPackTweak-V1.2.1.jar
 biomereactors-1.0.2.jar
 BiomesOPlenty-BOP-1.7.10-2.1.0.2309.jar
 biomestats-v1.0.1.jar
 BiomesTweaker-1.7.10-1.1.jar
+birds of a feather 5.jar
 BirdsNests1.7.10-1.4.jar
-birds\ of\ a\ feather\ 5.jar
-BlazeTorch\ Utilities\ 0.4.jar
+BlazeTorch Utilities 0.4.jar
 BleachMod-Alpha1.0.0-MC1.7.10.jar
 BlockArmor-1.7.10-1.1.jar
 Blocklings-Mod-1.7.10.jar
 BloodArsenal-1.4.10.jar
 BloodMagic-1.7.51.jar
 BNBGamingLib-2.3.2.jar
-Bodyguards\ 1.0.2.jar
+Bodyguards 1.0.2.jar
 bogosorter-1.2.60-GTNH.jar
 boilerplate-1.7.10-6.3.0.81-universal.jar
 Bookshelf-1.7.10-1.0.4.187.jar
 BookStealer-1.1.0.jar
-Born\ in\ a\ Barn\ 1.7.x.jar
+Born in a Barn 1.7.x.jar
 Botania-1.12.25-GTNH.jar
 BouncingBalls-1.7.10-1.1.jar
 BowInfinityFix-1.7.10-rv0.jar
@@ -158,16 +161,15 @@ BunkerMod-1.1.jar
 Calculator-1.7.10-1.9.11.jar
 CamouflageCreepers-1.7.10-1.4.jar
 Cannibalism-1.3.0-1.7.10.jar
-Careful\ Cast\ Corrector-2.0.jar
-carpentersblocks
+Careful Cast Corrector-2.0.jar
 CarpentersBlocks-3.7.0-GTNH.jar
 CartFixes-1.7.10-0.1.0.jar
 cartload-mc1.7.10-1.0.2.jar
 Carvable_Pumpkins_Mod.jar
-castleblocks-1.0\ (2).jar
 Castle-Defender-Mod-1.7.10.jar
+castleblocks-1.0 (2).jar
 CastleProtectvBeta1.0(1.7.10).jar
-catculling-V1.0.0.jar
+catculling-V1.0.1.jar
 caveworld-V2.3.5.jar
 CazzarCoreLib-1.2.0-SNAPSHOT-universal.jar
 CbmReborn-1.7.10-1.0.8.jar
@@ -178,7 +180,7 @@ ChatFuel-1.2.jar
 Chekote-blink-1.7.10-1.6.0.jar
 CherryPig-1.5.jar
 ChestTransporter-1.7.10-2.0.6.jar
-Chicken\ Chunk\ Patcher\ 1.1.jar
+Chicken Chunk Patcher 1.1.jar
 ChickenChunks-1.3.4.27.jar
 chinacraft-Beta-0.5.jar
 chisel-2.16.13-GTNH.jar
@@ -187,11 +189,12 @@ Classlessrook32's-Coins-Mod-v1.2.jar
 ClayBucket-1.7.10-1.2.jar
 CleanView-1.7.10-v2.jar
 clearchat-1.1.jar
-CobblestoneCraftingTable\ [1.7.10].jar
+CobblestoneCraftingTable [1.7.10].jar
 CodeChickenCore-1.4.7.jar
-Coffee\ Spawner-1.7.10-1.0.2.jar
+CodeChickenLib-1.2.1fork1.jar
+Coffee Spawner-1.7.10-1.0.2.jar
 CoFHCore-[1.7.10]3.1.4-329.jar
-Color\ Blocks\ Plus\ -\ 1.0.20180725.jar
+Color Blocks Plus - 1.0.20180725.jar
 ColoredEndCrystals-1.0.1-forge-1.7.10.jar
 colorfulhealthbar-1.7.10-1.0.0.jar
 CombatPlus-1.0.3.jar
@@ -199,54 +202,54 @@ compacter-1.2.1.15-mc1.7.10.jar
 compactstorage-1.7.10-release-2.1.0-lts.21-universal.jar
 ComplexCrops-v3-1.7.10.jar
 computerlandmarks-1.0.jar
-CondensedFoods\ -\ 1.7.10\ -\ 1.2.jar
+CondensedFoods - 1.7.10 - 1.2.jar
 configmaxxing-mc1.7.10-0.0.1.jar
 ControlCraft.jar
-Convenient\ Items-1.7.10\ v1.0.jar
+Convenient Items-1.7.10 v1.0.jar
 CookieCore-1.7.10-1.4.0-11.jar
 CookingForBlockheads-1.4.4-GTNH.jar
-cooler-1.7.10-1.1.5.1β.jar
+cooler-1.7.10-1.1.5.1.jar
 Coral-Reef-Mod-1.7.10-Scuba-Divingfork1.jar
 coretweaks-0.3.3.6-GTNH.jar
 coroutil-1.7.10-1.1.6.jar
 cosmeticarmorreworked-1.7.10-v7fork1.jar
-CraftableItems1.0.0\ NEWMOD.jar
+CraftableItems1.0.0 NEWMOD.jar
 CraftArcanum-1.1.1.jar
-CraftHeraldry\ 1.1.3.jar
+CraftHeraldry 1.1.3.jar
 CraftPresence-2.6.2+1.7.10-forge.jar
-CraftRock\ 0.2\ MC17.jar
+CraftRock 0.2 MC17.jar
 CraftTweaker-3.4.2.jar
 CreativeSwords1.7.10.jar
+Creeper-Spider Mod-v1.2-1.7.10.jar
 creeperchicks-v2.a.jar
 Creepermite1.7.10.zip
 creepernuggets-1.7.10-1.0.jar
-Creeper-Spider\ Mod-v1.2-1.7.10.jar
 CreepyPastaCraft-1.7.x-r76.6c6e88f-universal.jar
-CSGO\ Knife\ Mod(1.7.10).zip
+CSGO Knife Mod(1.7.10).zip
 csStaffOPower-1.0-1.7.10.jar
 cst7_weapons_mod_1.7.10.jar
 CTMLib-1.4.5.jar
 CubicCore-1.7.10.jar
-Cubics\ Mod\ 1.7.10\ BETA.jar
+Cubics Mod 1.7.10 BETA.jar
 CubicVillager-0.28.jar
 CulinaireMod_1.0.jar
-custommainmenu-1.12.1.jar
 custom_sword_1.7.10_V0.10.jar
+custommainmenu-1.12.1.jar
 CutePuppyMod-1.7.10-0.0.4.jar
 CuttingEdge-1.7.10-0.1.0-5.jar
-Cyan\ Warrior\ Swords\ Mod\ 2.1.2-fix.jar
-D3Core-1.7.10-1.1.3.jar
+Cyan Warrior Swords Mod 2.1.2-fix.jar
+D3Core-1.7.10-1.1.4.jar
 DamageTilt-1.7.10-0.1.0.jar
-darkcore-0.41-179.jar
 dark_menagerie-1.7.10-beta-3.1a.jar
+darkcore-0.41-179.jar
 DaVincing-1710.1.8.jar
 dawn_of_the_planet_of_the_apes_mod_1.7.10.zip
 DeathCounter-4.0.0.jar
 DecorativeBlocksMod-1.0.0.2.jar
-Deep\ Sea\ Diving\ 1.1.zip
+Deep Sea Diving 1.1.zip
 defaultserverlist-1.6.5.jar
 DefaultSettings-1.7.10+1.12.2-4.0.7-Forge.jar
-Digital\ XP-[1.7.10]-0.1.5.jar
+Digital XP-[1.7.10]-0.1.5.jar
 dimensionalcakes-0.0.1.jar
 DimensionalDoors-2.2.6-1.7.10.jar
 dimensionloader-1.7.10-4.0.jar
@@ -278,14 +281,14 @@ EkiMod-1.0.1R.E.jar
 eldritch-empires-091.1.jar
 electromagnetic-coherence-mod-1.7.10.jar
 elegant-networking-1.7.10-3.14.jar
-Elemental\ Creepers-universal_1.7.10-4.3.0.jar
+Elemental Creepers-universal_1.7.10-4.3.0.jar
 ElementalStones_v1.3.0_1.7.10_Forge10.13.2.1291.jar
-Elijah's\ Chocolate\ Mod-1.1.jar
+Elijah's Chocolate Mod-1.1.jar
 EliteBows_1.0.4_1.7.10_release.jar
-ElytraBombing-Forge-1.7.10-1.0.1.jar
 elytra_mining-1.7.10-1.2.0.1.jar
+ElytraBombing-Forge-1.7.10-1.0.1.jar
 EmergencyCommand-1.7.10-1.0.jar
-Emotes\ 1.0.1.jar
+Emotes 1.0.1.jar
 Enchiridion2-2.0.3.jar
 EnderAddons-1.7.10-0.1R.jar
 endercore-0.4.8.jar
@@ -297,43 +300,43 @@ EnderRift-0.53.jar
 EnderStorage-1.7.7.jar
 EnderTech-1.7.10-0.3.2.405.jar
 enderutilities-1.7.10-0.5.3.jar
-endlessids-mc1.7.10-1.6.12.jar
+endlessids-mc1.7.10-1.6.13.jar
 eotg-V1.5.6.jar
-Eraser\ Bomb-1.7.10-1.0.jar
+Eraser Bomb-1.7.10-1.0.jar
 eternalfrost-2.0b6.jar
 eternalsingularity-1.2.0.jar
 etfuturum-2.6.2.jar
 Etsy's_Mod-1.7.10-1.0.0.jar
 Eureka-1.7.10-3.0.2.jar
 EvenMoreFood1.1.jar
-Ewy's\ Workshop-1.1.6.jar
+Ewy's Workshop-1.1.6.jar
 Excore-1.5.3-1.7.10.jar
-expandedbonemeal-1.7.10-1.0.0.jar
 Expanded_Food_Mod_1.7.10.jar
 expanded_rails_mod_1.7.10.jar
+expandedbonemeal-1.7.10-1.0.0.jar
 ExperienceApple-2.5.1.jar
 ExperienceOre-1.1a.jar
 externaltweaker-1.7.10-0.3.jar
+Extra-Golems[1.7.10]-1.20.jar
 ExtraBlocksy-1.7.10-1.0.1.jar
 ExtraButtons-1.7.10.1.jar
 ExtraCells-2.5.35.jar
 Extracoal-1.7.10-1.0.2.jar
 ExtraFixes-1.7.10-1.2.4b.jar
-Extra-Golems[1.7.10]-1.20.jar
 ExtraGolemsAddonFuturum[1.7.10]-1.04.jar
 ExtraGolemsMetalAddon[1.7.10]-1.12.jar
 ExtraGolemsTinkersAddon[1.7.10]-1.08.jar
-ExtraMobs\ Mod\ v1.01.zip
+ExtraMobs Mod v1.01.zip
 ExtraStonesMod_1.7.10_1.0.jar.zip
 ExtraTiC-1.7.10-1.4.6.jar
 ExtraTools-1.7.10-1.1.jar
 ExtraUtilities-1.2.12.2.jar
 ExtraUtilitiesTweaks-1.0.0.jar
-ExtremeFood[0.5\ Beta-MC\ 1.7.10].jar
+ExtremeFood[0.5 Beta-MC 1.7.10].jar
 fabricator-1.7.10-1.2.64-universal.jar
-Failstick\ 1.2.1.zip
-falsepatternlib-mc1.7.10-1.9.0.jar
-falsetweaks-mc1.7.10-4.0.5.jar
+Failstick 1.2.1.zip
+falsepatternlib-mc1.7.10-1.9.1.jar
+falsetweaks-mc1.7.10-4.1.1.jar
 FamiliarsAPI-1.7.10.jar
 FamiliarsDefaultMobPack-1.7.10.jar
 FamiliarsExtendedFamPack-1.7.10.jar
@@ -344,16 +347,16 @@ farlanders-1.7.10-v1.2b.jar
 fastcraft-1.23.jar
 fastlang-1.0.jar
 FCTweaks-1.7.10-1.9.jar
-FireBallsForPlayers\ 3.0\ 1.7.10.jar
+FireBallsForPlayers 3.0 1.7.10.jar
 Fireplace-Mod-1.7.10.jar
 FlatSigns-1.7.10-universal-2.1.0.19.jar
 FlenixRoads_[1.7.10]-0.11.0-b43.jar
 flickerfix-1.7.10-v5.0.0.jar
-Floating\ Rails\ Beta\ v1.0.jar
+Floating Rails Beta v1.0.jar
 Floocraft-1.7.10-1.7.jar
 FloodLights-1.5.4.jar
 flowercraftmod_1.8_1.7.10_forge.jar
-Fluxed\ Trinkets-1.7.10-1.0.54.jar
+Fluxed Trinkets-1.7.10-1.0.54.jar
 FNAF3[1.7.10]v1.0.1O.jar
 FoamFix-1.7.10-universal-1.0.4.jar
 FoodCraft-1.7.10-v1.0.jar
@@ -363,14 +366,15 @@ Forbidden.Magic-0.8.3-GTNH.jar
 Forestry-4.10.17.jar
 FOrgeCraft-2.4.2.jar
 ForgeEndertech-1.7.10-1.9.2.0-build.0061.jar
+ForgeMultipart-1.6.8.jar
 ForgeNBTEdit-universal-1.0.0.test.jar
-Fork-lift\ truck.jar
+Fork-lift truck.jar
 fossilsarcheology-7.3.2.jar
 Foundry-1.7.10-1.2.2.0.jar
 FoxLib-1.7.10-0.7.0.jar
 FpsReducer-mc1.7.10-1.10.3.jar
 FSP-1.7.10-0.29.3.jar
-Fuel\ Canister[1.7.10]-1.2.1.jar
+Fuel Canister[1.7.10]-1.2.1.jar
 FullscreenWindowed-1.7.10-1.3.0b.jar
 Furnus-1.7.10-1.75-final.jar
 Futucytakun-1.7.10-15.1.0.jar
@@ -396,43 +400,42 @@ Gollum-Core-Lib-1.7.10.jar
 GondolaModBeta.jar
 grantermod-1.2.jar
 GravelMiner-mc1.7.10-1.0.5.jar
-GraveStone\ Mod\ 0.7.10.3.jar
+GraveStone Mod 0.7.10.3.jar
 greenscreen-1.7.10-1.2.jar
 Grim3212-Core-1.7.10.jar
 Grimoire-Of-Alice-1.7.10-4.0.0.jar
 GrimoireOfGaia3-1.7.10-1.2.7.jar
 growthcraft-1.7.10-2.7.3-complete.jar
 GrumpysModV1.4(1.7.10).jar
-gtnhlib-0.6.39.jar
+gtnhlib-0.7.0.jar
 guideapi-1.1.0.jar
 gwycraft-mc1710-0.1.10.jar
 Gyth-1.1.0-1.7.10.jar
 HammerTime-1.3.6.jar
 Hammerz-1.7.10-0.1.7.37.jar
 hamsterrific-0.2.2.jar
+Hardcore Wither-1.7.10-1.1.3-21-universal.jar
 HardcoreEnderExpansion-1.12.13-GTNH.jar
-Hardcore\ Wither-1.7.10-1.1.3-21-universal.jar
 Harvest-1.7.10-1.0.0-2.jar
 harvestcraft-1.1.1-GTNH.jar
 Hatt.jar
 Healer-1.2.1.jar
 HealerBlock_and_Oxygen_crystal_v1.jar
-HealthAmulet\ r1.0-1.jar
+HealthAmulet r1.0-1.jar
 HearthstoneMod-1.7.10-0.3.4.jar
-HEGM\ 1.7.10\ Update\ 1.jar
+HEGM 1.7.10 Update 1.jar
 HelperTools-1.7.10-v1.6f.jar
 HelpFixer-1.3.0.jar
 hgp-1.7.10-1.1.0.4-universal.jar
 Highlands-1.7.2-v-2.2.3.jar
-History\ of\ Arda-ALPHA\ 1.3.1.jar
-hodgepodge-2.6.107.jar
+History of Arda-ALPHA 1.3.1.jar
+hodgepodge-2.7.2.jar
 holoinventory-2.5.5-GTNH.jar
-HookLibUltimate-1.0-universal.jar
 hopperductmod-1.7.10-1.3.2.jar
 hudcaching-V1.0.0.jar
 HungerInPeace-mc1.7.10-1.0.0.jar
 HungerOverhaul-1.1.0-GTNH.jar
-IceCreamSandwichCreeperModv1.1.0a\ 1.7.10.jar
+IceCreamSandwichCreeperModv1.1.0a 1.7.10.jar
 iChunUtil-4.2.3.jar
 IlluminatedBows-1.7.10-1.7.1f.jar
 immersivecavegen-1.2g-hotfix5.jar
@@ -462,23 +465,23 @@ Jammy-Furniture-Reborn-Mod-1.7.10.jar
 JarFinder.jar
 JCPlugin-1.7.10-4.0.4-Forge.jar
 Jukebox-Reloaded-1.7.10-3.0.0-universal.jar
-JumpPad++\ 2.3.8.jar
+JumpPad++ 2.3.8.jar
 JustEnoughCalculation-1.7.10-4.9.jar
 JustRoadStuff-0.1.jar
 k4lib-1.7.10-0.1.75-universal.jar
 KaratGarden-0.1.0-[1.7.10].jar
-Kinetic\ Add-OnsV0.4.6.jar
+Kinetic Add-OnsV0.4.6.jar
 KinetiCraft-[1.7.10]1.3.3beta.jar
 kleeslabs-mc1.7.10-1.2.9.jar
 KoreSample-1.7.10-1.3.2.jar
+La Prison MOD 0.2.4.jar
 Ladders-0.5.0-MC1.7.10.jar
 LampsAndTrafficlights-1.2-Minecraft_1.7.10.jar
 landmines_1.1.jar
-La\ Prison\ MOD\ 0.2.4.jar
 LaserMod-1.7.10-v1.2.0a-universal.jar
 LatCoreMC-1.7.10-1.6.11.1.jar
 Laugicality-v1.0[1.7.10].jar
-Lava\ Melon-1.7.10-1.0.jar
+Lava Melon-1.7.10-1.0.jar
 LeafCulling-mc1.7.10-1.1.0.dirty.jar
 LEDLighting-1.0.0.jar
 legacy-patch-1.7.10.1.jar
@@ -497,8 +500,8 @@ logisticspipes-1.4.23-GTNH-pre.jar
 LomLib-1.7.10-3.2.1-universal.jar
 lonelybiome-1.7.10-1.0.jar
 LookingGlass-1.7.10-0.2.0.01.jar
+Loot Roulette (materials only).zip
 Loot++-0.24_for_1.7.jar
-Loot\ Roulette\ (materials\ only).zip
 LoreExpansion-1.7.10-1.0.5.B11.jar
 LOTRModfork.v36.33.jar
 lucky-block-forge-1.7.10-1.0.jar
@@ -506,24 +509,25 @@ lumi-mc1.7.10-1.2.0.jar
 LumySkinPatch-1.0.13.jar
 LunatriusCore-1.2.1-GTNH.jar
 lwjgl3ify-2.1.15.jar
+M&Ms-Mod-1.7.10.jar
+Magical Instruments-0.9.1.jar
+Magical Stick 1.3.zip
 magicalcrops-4.0.0_PUBLIC_BETA_5.jar
 magicalcropsarmoury-4.0.0_PUBLIC_BETA_4.jar
-Magical\ Instruments-0.9.1.jar
-Magical\ Stick\ 1.3.zip
 magicbees-2.9.4-GTNH.jar
 MagicFoods-1.12.2-1.7.10-1.15.2-1.10.2-realese.jar
 MagicYarn-1.7.10.jar
-MagnificentTrinkets\ Beta\ 0.1b.jar
+MagnificentTrinkets Beta 0.1b.jar
 MagTools-1.7.10-1.0.8.jar
 MahMeat-1.7.10-1.0.2-backport.jar
-majoramod\ v1.2.2.jar
+majoramod v1.2.2.jar
 MalCore-1.7.10-1.2.0.jar
 Mankini_1.7.10_1.2.1.jar
 Mantle-0.5.1.jar
 MapleItems14.0[1.7.10].jar
 MaplePets2.5a[1.7.10].jar
 marchofents-1.3.jar
-mariculture-1.3.0-6fork6.jar
+mariculture-1.3.0-6fork7.jar
 Material_Creepers_Mod_1.7.10.jar
 MaterialsPlus-1.7.10-1.2.0.jar
 MatoiVanillaPack1.5.2_on_1.7.10.jar
@@ -532,45 +536,43 @@ mcanm-2.0.4.90-1.7.10.jar
 mcjammer-1.7.10-2017.01.29.jar
 mcjtylib-1.8.1.jar
 MegaBlueMod-2.0.1.jar
-Mekanism-Community-Edition-1.7.10-9.10.45-Core.jar
 Mekanism-Community-Edition-1.7.10-9.10.45-Generators.jar
-Mekanism-Community-Edition-1.7.10-9.10.45-Tools.jar
+Mekanism-Community-Edition-1.7.10-9.10.46-Core.jar
+Mekanism-Community-Edition-1.7.10-9.10.46-Tools.jar
 Meldexun'sCrystalicVoid-1.7.10-2.4.104.jar
-Melon-pants\ v1.2\ 1.7.10.jar
+Melon-pants v1.2 1.7.10.jar
 Metallurgy-1.7.10-4.0.9.148.jar
 MetallurgyChisel-1.7.10-1.0.0.11.jar
 MetallurgyClassicMachines-1.7.10-1.0.3.75.jar
 MetallurgyCore-1.7.10-4.0.5.30.jar
-MFR\ Compat\ -\ Magical\ Crops\ v1-2-4.jar
+MFR Compat - Magical Crops v1-2-4.jar
 MicroHUD-1.7.10.jar
-middleearththaumaturgy-0.7.3.1_a\ for\ v36.x.jar
-Mimicry\ 11.0\ beta.jar
+middleearththaumaturgy-0.7.3.1_a for v36.x.jar
+Mimicry 11.0 beta.jar
 MinecraftCalculator_v1.10.jar
 MineFactoryReloaded-[1.7.10]2.8.2B1-201.jar
 MineTweakerRecipeMaker-1.7.10-1.1.1.jar
-MiniWheats\ 0.9.4.1(MC\ 1.7.10).jar
+MiniWheats 0.9.4.1(MC 1.7.10).jar
 MmmMmmMmmMmm-1.7.10-1.9.jar
-M&Ms-Mod-1.7.10.jar
 moarcarts-1.7.10-1.2.4-11.jar
 MoarSwords-[1.7.10]-6.2.jar
-Mob\ Battle\ Mod-2.0.0[1.7.10]final.jar
+Mob Battle Mod-2.0.0[1.7.10]final.jar
 mobcages-1.7.10-1.2.jar
 MobProperties-1.7.10-1.0.2.jar
 MobRebirth-Forge-1.7.10-7.0.2.jar
-MoCreatures-Legacy-Final-1.1.jar
-!mod-director-launchwrapper-1.9.1.jar.disabled
+MoCreatures-Legacy-Final-1.2.jar
 ModDisruptor-1.7.10_0.2.jar
 ModernControlling-Forge-1.7.10-1.0.0.jar
 ModernKeyBinding-Forge-1.7.10-2.1.0-mixinless.jar
 modernmarkings-0.3.12-1.7.10.jar
 ModTweaker2-0.12.0.jar
 modularui2-2.2.18-1.7.10.jar
+more_pickaxes_mod_1.7.10.jar
 MoreBows-1.0.10.jar
 MoreCommands_1.7.1710.jar
 MoreFoodModV1.2.1(1.7.10).jar
 morefuelsmod-1.7.10-v1.3.2.jar
 morematerials-0.9.20150615.0-MC1.7-20150621.jar
-more_pickaxes_mod_1.7.10.jar
 MoreRealGlass-v.0.0.5-mc1.7.10.jar
 MoreShearables1.0-1.7.10.jar
 MoreToolsMod_1-16-5_0-1-0.jar
@@ -586,7 +588,6 @@ MrTJPCore-1.3.4.jar
 MSTM-v0.2(1.7.10).jar
 MukaStructureMod_1.0.2_mc1.7.10.jar
 MutantCreatures-1.7.10-1.4.9.jar
-+Mycelium-2.3.jar
 Mysterious_Cookies_1.7.10-1.0-1.0.jar
 mythandmonsters_1.7.10_1.0.0.jar
 Namenax-1.2.0-mc1.7.10.jar
@@ -603,7 +604,7 @@ noleafdecay-1.0fork1.jar
 NoMobSpawningOnTrees-1.2.0-mc1.7.10.jar
 NotEnoughBones-1.7.10-1.0.jar
 NotEnoughEnergistics-1.7.14.jar
-NotEnoughItems-2.7.90-GTNH.jar
+NotEnoughItems-2.8.7-GTNH-pre.jar
 Notes-1.7.10-1.1.1.jar
 nutrition-0.1.3.jar
 obelisk-1.7.10-1.0.0.jar
@@ -618,17 +619,16 @@ OpenGlasses-1.6.1-GTNH.jar
 OpenModsLibs-0.10.10.jar
 OpenModularTurrets-2.4.3.jar
 openprinter-0.3.0-GTNH.jar
-OpenSecurity
 opensecurity-1.2.0-GTNH.jar
 Opis-1.4.6-mapless.jar
 Opticubes-1.7.10-1.0.0.jar
-optimizationsandtweaks-V1.15.4.jar
+optimizationsandtweaks-V1.15.9.jar
 ordinarycoins-1.7.10-1.5.jar
+Ore+Spiders V1.2.1 For MC 1.7.10.jar
 ore_cow_mod_1.7.10.jar
 orecreepers1.7.10_v.1.jar
 OreDictDumper-1.7.10-1.3.0.jar
 OreSpawnLegacy(1.7.10).jar
-Ore+Spiders\ V1.2.1\ For\ MC\ 1.7.10.jar
 OresPlus-Mod-1.7.10.jar
 Origin-1.7.10-8.0.3.jar
 overloadedarmorbar-1.1.0.jar
@@ -640,7 +640,7 @@ PandorasBox-2.1.jar
 paniclecraft-1.7.10-2.7.2.0.jar
 Pantography-1.7.10-1.0.1.jar
 parachronology-0.1.6-universal.jar
-ParticleLib\ -\ 1.jar
+ParticleLib - 1.jar
 Patcher.jar
 PeacefulToDyeFor-1.0.2[1.7.10].jar
 Pebbles-Begone-v1.0-mc1.7.10.jar
@@ -652,37 +652,35 @@ platforms-1.7.10-0.1.2.jar
 playertracking_1.7-1.0.jar
 PlumePack_Vietnam_0_0_2.jar
 PlutoBeta2For1.7.2.zip
-Pneumatic\ Cooking-1.7.10-1.1.jar
+Pneumatic Cooking-1.7.10-1.1.jar
 PneumaticCraft-1.7.10-1.12.7-152-universal.jar
-POLVOLUMINOSO\ LINGOTE.jar
+POLVOLUMINOSO LINGOTE.jar
 PortalGun-4.0.0-beta-6-fix-1.jar
-PortalGunSounds.pak
-PortalGunSounds.pak.md5
 portaportal-0.0.2i.jar
 postea-1.1.3.jar
+Potion Shards 2.0.jar
 PotionPacks_1.7.10_b5.zip
-Potion\ Shards\ 2.0.jar
 PowerApples-1.7.10-1.1.3.jar
 PPAP_Mod_1.7.10_1.5.0.jar
-practicalities-2.0.0-b2.jar
 Practical-Logistics-1.7.10-0.2.4.jar
+practicalities-2.0.0-b2.jar
 pressure-1.3.0.fix1-mc1.7.10.jar
 PreventCrappyLauncher-2.0-retro.jar
 primitive-mobs-rozmirs-fork-1.0.jar
 ProjectPower-1.2.jar
 Proton-Forge-1.7.10-0.0.2.jar
 Pumpkifiction-1.0.4.jar
-Pumpkin\ Tools[1.7.10-V1].jar
+Pumpkin Tools[1.7.10-V1].jar
 QmunityLib-0.3.1.jar
 Quadrum-1.7.10-1.2.0.B13-universal.jar
-QuantumStorage-1.7.10-1.4.2.jar
 quantum-utilities-1.0.zip
+QuantumStorage-1.7.10-1.4.2.jar
 QuickPlant-1.7.10-1.0.1.jar
 quidcraft_mod_1.7.10.jar
 RadixCore-1.7.10-2.1.3-universal.jar
+Rail Plus-1.7.10-1.6.jar
 Rail_Bridges_Mod_1.7.10.jar
 Railcraft-9.16.33.jar
-Rail\ Plus-1.7.10-1.6.jar
 RailsOfWar-1.7.10-5.8-RC7.jar
 RainbowTrees-1.0-1.7.10.jar
 RAINZ.zip
@@ -694,7 +692,8 @@ RebornCore-1.1.0.15-universal.jar
 RecurrentComplex-0.9.7.1.9.jar
 RedCoal-1.7.10-1.4.jar
 RedCow-1.7.10-0.0.1b2-universal.jar
-redirectionor-1.9\ for\ 1.7.10.jar
+RedGearCore-1.7.10-2.2.2.jar
+redirectionor-1.9 for 1.7.10.jar
 RedstoneArsenal-[1.7.10]1.1.2-92.jar
 ReducedMusicDelay-1.7.10.jar
 Reedcraft-1.1.0.jar
@@ -720,7 +719,7 @@ Runes-of-Wizardry-1.7.10-0.3.1.jar
 RunicDungeons-1.1.7b.jar
 sacrfice_heph-1.0.1.jar
 SafeKeyString-Forge-1.7.10-1.0.0.jar
-SAO\ Crystals\ Mod\ 1.3\ Reborn.jar
+SAO Crystals Mod 1.3 Reborn.jar
 SAPManPack-1.7.10-2.7.2.jar
 SBM-BagablePlants-1.7.10-0.0.1b12.jar
 SBM-BoneTorch-1.7.10-0.0.1b6.jar
@@ -756,12 +755,12 @@ skull_mc1.7.10.jar
 Slabify-1.7.10-1.1.2.jar
 Sleep-1.7.10-0.0-1.jar
 SlimeCarnage-1.0.5d-mc1.7.10.jar
-Small\ Stairs-1.7.10-1.0.jar
+Small Stairs-1.7.10-1.0.jar
 Snad-1.7.10-1.6.01.31a.jar
 Soda_Mod_1.7.10.jar
 sodiumcraft-1.2.jar
 solarfluxreboot-1.0.0.jar
-Solomons\ Rod\ (Iwaliner)-1.7.10-1.0.jar
+Solomons Rod (Iwaliner)-1.7.10-1.0.jar
 SonarCore-1.7.10-1.1.3.jar
 SoulShards-TOW-1.7.10-0.1-RC9-7.jar
 spark-1.10.20-forge1710.jar
@@ -772,22 +771,21 @@ SRSM-1.7.10-1.0.4.jar
 ssmlegacy-mc1.7.10-1.2.3.jar
 Stackie-1.7.10-1.6.0.36-universal.jar
 stairs_plusplus_1.0.jar
-StealthMod\ -v0.0.9.jar
+StealthMod -v0.0.9.jar
 steamboat_mod_1.7.10.jar
 steamcraft2-1.7.10-B5.0.2-universal.jar
 steelindustries-1.7.10-0.6.jar
-Stefinus\ Guns-0.5.2.jar
+Stefinus Guns-0.5.2.jar
 StevesAddons-0.14.2.jar
 StevesCarts-2.3.12.jar
 StevesFactoryManager-1.3.4-GTNH.jar
 StevsApplePie_v1.0.1_mc1.7.10.jar
-StorageDrawers-2.1.7-GTNH.jar
 Storage_Silo_Mod_1.7.10.jar
+StorageDrawers-2.1.7-GTNH.jar
 strangevanillarecipes-1.7.10-0.1.2.jar
 structurecompat-0.7.4.jar
 structurelib-1.4.23.jar
 StuffForMC1.0.1_for_Minecarft_1.7.10.jar
-s.txt
 StylerCraft.jar
 suj-1.7.x.jar
 SuperTic-1.5.0.jar
@@ -803,14 +801,14 @@ tellme-1.7.10-0.2.6a.jar
 TerraArts-1.1.1710.27.jar
 terraformer-0.1.1.jar
 terralizationcompat-1.7.10-1.0.5.jar
-Thaumaturgical\ Knowledge-0.1.5.2\ -\ 1.7.10.jar
+Thaumaturgical Knowledge-0.1.5.2 - 1.7.10.jar
+Thaumcraft Minus Thaumcraft-1.7.10-1.1.jar
 Thaumcraft-1.7.10-4.2.3.5.jar
 Thaumcraft4Tweaks-1.5.39.jar
 ThaumcraftLocalizationOptimizer-1.0.4.jar
-Thaumcraft\ Minus\ Thaumcraft-1.7.10-1.1.jar
 ThaumcraftMobAspects-1.2.1-GTNH.jar
+Thaumic-Dyes-[1.7.10] 1.10.5-0.jar
 thaumicboots-1.4.14.jar
-Thaumic-Dyes-[1.7.10]\ 1.10.5-0.jar
 thaumicenergistics-1.7.14-GTNH.jar
 ThaumicExpansion-1.7.10-4.1.3.jar
 ThaumicHorizons-1.7.7-pre.jar
@@ -819,9 +817,9 @@ ThaumicRevelations-1.2.2.1.jar
 thaumicSanity-1.0-1.7.10-9.jar
 ThaumicTinkerer-2.10.2.jar
 ThaumicUpholstery-1.2.1.jar
-The\ Flesh\ Mod\ [v1.1]\ for\ 1.7.10.jar
+The Flesh Mod [v1.1] for 1.7.10.jar
+The More Armor Mod.jar
 TheKitchenMod-1.3.23-1.7.2-10.jar
-The\ More\ Armor\ Mod.jar
 thermalcasting-0.0.3.jar
 ThermalDynamics-[1.7.10]1.2.1-172.jar
 ThermalExpansion-[1.7.10]4.1.5-248.jar
@@ -835,10 +833,10 @@ TiConAutoToolStation-1.7.10-1.1.2.jar
 TiCTooltips-1.4.0.jar
 tidepod-1.0.jar
 TileEntityResetFix-1.0.1-noreq.jar
-Timely\ Stones\ Mod-1.0.jar
-tinker_io-1.7.10-release\ 1.5.0.jar
+Timely Stones Mod-1.0.jar
+tinker_io-1.7.10-release 1.5.0.jar
 tinkersdefense-1.3.2.jar
-Tiny\ Tree-1.7.10-1.0.jar
+Tiny Tree-1.7.10-1.0.jar
 TITANIUMORE.jar
 Titanpower-1.7.10-1.6.8.jar
 tlhpoe_core_1.7.10.jar
@@ -848,8 +846,8 @@ TNS-1.0.1.jar
 tnt_utilities-mc1.7.10-1.2.jar
 Toasted-Bread-And-Wheat-Flour_RP112.jar
 ToolTipMod_1.7.10.jar
-ToolUpgrades\ 1.7.10\ (v.1.2.3).jar
-Torch\ Attack-1.7.10-1.1.jar
+ToolUpgrades 1.7.10 (v.1.2.3).jar
+Torch Attack-1.7.10-1.1.jar
 Torcherino-1.7.10-2.2s.jar
 torchkey-mc1.7.10-1.0.1.jar
 torohealth-1.2.0.jar
@@ -872,7 +870,6 @@ Unchant-1.0.1.jar
 underphangables-1.7.10-1.0.1.jar
 UniDict-1.7.10-2.9.2.jar
 UniLib-1.1.1+1.7.10-forge.jar
-+unimixins-all-1.7.10-0.1.23.jar
 Universal-Singularities-8.10.0.jar
 Useful-Emeralds-1.0.0.jar
 UsefulPlus-1.7.10-18.jar
@@ -890,10 +887,9 @@ warpbook-1.7.10_2.0.37.jar
 WatkinsBase-0.2.jar
 Wawla-1.3.1-GTNH.jar
 Waystones_Jawsawn_Fork-mc1.7.10-1.0.0.jar
-Weather\ Carpets\ Mod-1.2.5.jar
 webshooter-1.7.10-1.0.0.jar
-WeirdForce-1.1.3.2.jar
 Weird-MobsV1.3.jar
+WeirdForce-1.1.3.2.jar
 Werkbench-1.7.10-1.2.56.jar
 WhatsappMod-1.7.10-1.2.jar
 WhisperingShout-1.0.jar
@@ -907,19 +903,19 @@ WitcheryExtras-1.3.6.jar
 WitcheryPatch-1.7.10-1.0.0.jar
 WitchingGadgets-1.7.24-GTNH.jar
 WitherRing.jar
-wizardry-1.7.10-1.1.6fork6.jar
+wizardry-1.7.10-1.1.6fork7.jar
 WoodStuff-1.3.2.jar
-worldexplorer-1.2.15\ Dev.jar
 World-Tooltips-1.7.10-1.2.3-79.jar
+worldexplorer-1.2.15 Dev.jar
 Xaeros_Minimap_21.10.40_Forge_1.7.10.jar
 XaerosWorldMap_1.14.1.33_Forge_1.7.10.jar
 xprings-1.7.10-1.3.0.jar
 YAMCore-0.6.0.jar
-Yugioh\ Plus\ Beta\ 0.2\ Forge\ 1.7.10.jar
+Yugioh Plus Beta 0.2 Forge 1.7.10.jar
 ZDoctorBB-1.7.10-Server.jar
 zeldaswordskills-1.7.10-v2.5.3.6.jar
 ZeronPowerCraft_1.7.10-2.0-Stable.jar
 zettaindustries-1.1-120.jar
-Zoocraft\ Discoveries\ 1.7.10-1.1.0.jar
+Zoocraft Discoveries 1.7.10-1.1.0.jar
 Ztones-2.3.2-GTNH.jar
 zume-1.1.4.jar
