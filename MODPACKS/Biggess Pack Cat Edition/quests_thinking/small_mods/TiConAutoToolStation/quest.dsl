@@ -1,0 +1,53 @@
+## See _dsl_reference.md for full syntax details   
+     
+# TiConAutoToolStation Quest Chain
+# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+
+@mod TiConAutoToolStation
+@filename TiConAutoToolStation-1.7.10-1.1.2.jar
+@size 0.02MB
+@category small_mods
+@quest_line TiConAutoToolStation Quest Line
+@status incomplete
+
+# Discovery Quest - First interaction with the mod
+>quest ticonautotoolstation_discover
+    title: Discover TiConAutoToolStation
+    desc: Find and identify items or blocks from TiConAutoToolStation
+    requires: none
+    logic: AND
+    task: checkbox "Explore and find items from TiConAutoToolStation"
+    reward: xp 50
+    repeatable: no
+    auto_claim: no
+
+# Introduction Quest - Basic crafting
+>quest ticonautotoolstation_intro
+    title: Introduction to TiConAutoToolStation
+    desc: Learn the basics of TiConAutoToolStation and craft your first item
+    requires: TiConAutoToolStation Quest Line:ticonautotoolstation_discover
+    logic: AND
+    task: craft "any item from TiConAutoToolStation" 1
+    reward: item minecraft:book 1 "TiConAutoToolStation Guide"
+    repeatable: no
+    auto_claim: no
+
+# Advanced Quest - Mastery of the mod
+>quest ticonautotoolstation_master
+    title: Master TiConAutoToolStation
+    desc: Become proficient with advanced TiConAutoToolStation mechanics
+    requires: TiConAutoToolStation Quest Line:ticonautotoolstation_intro
+    logic: AND
+    task: collect "advanced items from TiConAutoToolStation" 5
+    reward: choice
+        minecraft:diamond 3
+        minecraft:emerald 5
+        minecraft:gold_ingot 8
+    repeatable: no
+    auto_claim: no
+
+# TODO: Customize the quests above for this specific mod
+# TODO: Remove unused example quests
+# TODO: Add mod-specific items, blocks, and mechanics
+# TODO: Set proper item IDs and counts
+# TODO: Add appropriate descriptions and titles
