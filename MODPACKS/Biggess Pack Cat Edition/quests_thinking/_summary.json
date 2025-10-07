@@ -2502,12 +2502,6 @@
           "size_mb": 0.12
         },
         {
-          "name": "TileEntityResetFix",
-          "folder": "TileEntityResetFix",
-          "original_filename": "TileEntityResetFix-1.0.1-noreq.jar",
-          "size_mb": 0.12
-        },
-        {
           "name": "BunkerMod",
           "folder": "BunkerMod",
           "original_filename": "BunkerMod-1.1.jar",
@@ -2820,12 +2814,6 @@
           "size_mb": 0.08
         },
         {
-          "name": "Wawla",
-          "folder": "Wawla",
-          "original_filename": "Wawla-1.3.1-GTNH.jar",
-          "size_mb": 0.08
-        },
-        {
           "name": "EnderRift",
           "folder": "EnderRift",
           "original_filename": "EnderRift-0.53.jar",
@@ -2940,12 +2928,6 @@
           "size_mb": 0.07
         },
         {
-          "name": "ScottsTweaks",
-          "folder": "ScottsTweaks",
-          "original_filename": "ScottsTweaks-1.7.10-1.3.1.jar",
-          "size_mb": 0.07
-        },
-        {
           "name": "gearswap",
           "folder": "gearswap",
           "original_filename": "gearswap-1.2.3.jar",
@@ -3009,12 +2991,6 @@
           "name": "Mankini",
           "folder": "Mankini",
           "original_filename": "Mankini_1.7.10_1.2.1.jar",
-          "size_mb": 0.07
-        },
-        {
-          "name": "wisla",
-          "folder": "wisla",
-          "original_filename": "wisla-1.2.0.jar",
           "size_mb": 0.07
         },
         {
@@ -3183,12 +3159,6 @@
           "name": "ObsidianTools",
           "folder": "ObsidianTools",
           "original_filename": "ObsidianTools-1.7.10-2.3.3.jar",
-          "size_mb": 0.05
-        },
-        {
-          "name": "Stackie",
-          "folder": "Stackie",
-          "original_filename": "Stackie-1.7.10-1.6.0.36-universal.jar",
           "size_mb": 0.05
         },
         {
@@ -4431,12 +4401,6 @@
           "name": "playertracking",
           "folder": "playertracking",
           "original_filename": "playertracking_1.7-1.0.jar",
-          "size_mb": 0.01
-        },
-        {
-          "name": "Patcher",
-          "folder": "Patcher",
-          "original_filename": "Patcher.jar",
           "size_mb": 0.01
         },
         {
