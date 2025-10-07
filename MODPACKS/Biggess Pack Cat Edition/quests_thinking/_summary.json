@@ -2,8 +2,6 @@
   "total_mods": 924,
   "categories": {
     "large_mods": {
-      "count": 24,
-      "total_size_mb": 484.4089593887329,
       "mods": [
         {
           "folder": "fossilsarcheology",
@@ -108,8 +106,6 @@
       ]
     },
     "medium_mods": {
-      "count": 84,
-      "total_size_mb": 345.45537662506104,
       "mods": [
         {
           "folder": "Real.Kether",
@@ -479,8 +475,6 @@
       ]
     },
     "small_mods": {
-      "count": 816,
-      "total_size_mb": 208.66989135742188,
       "mods": [
         {
           "folder": "FlenixRoads",
