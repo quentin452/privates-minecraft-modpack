@@ -36,19 +36,25 @@ questline:quest_id, other:quest_id  # Multiple requirements (logic applies)
 
 ## Task Types
 
-checkbox "description"                   # Manual completion
-craft "item_id" count                    # Craft items
-kill "entity_id" count                   # Kill entities  
-collect "item_id" count                  # Collect/submit items
-interact "item_id" count "description"   # Use items/blocks
-visit dimension_id coordinates           # Visit location
-break "block_id" count "description"     # Break blocks
-fluid "fluid_id" amount_mb               # Collect/submit fluids (in millibuckets)
-meeting "entity_id"                      # Meet/encounter a mob
-retrieval "item_id" count                # Retrieve items (consumed on submit)
-optional_retrieval "item_id" count       # Optional item retrieval
-xp amount                                # Gain experience points
-scoreboard objective_name score_value    # Reach scoreboard score
+checkbox "description"                                  # Manual completion
+craft "item_id" count                                   # Craft items
+kill "entity_id" count                                  # Kill entities  
+collect "item_id" count                                 # Collect/submit items
+interact "item_id" count "description"                  # Use items/blocks
+visit dimension_name                                    # Visit any location in dimension
+visit dimension_name x y z                              # Visit specific coordinates
+visit dimension_name biome "biome_name"                 # Visit any location in biome
+visit dimension_name x y z biome "biome_name"           # Visit coordinates in specific biome
+visit dimension_name x y z range distance               # Visit within radius of coordinates
+visit dimension_name biome "biome_name" range distance  # Visit within radius in biome
+
+break "block_id" count "description"                    # Break blocks
+fluid "fluid_id" amount_mb                              # Collect/submit fluids (in millibuckets)
+meeting "entity_id"                                     # Meet/encounter a mob
+retrieval "item_id" count                               # Retrieve items (consumed on submit)
+optional_retrieval "item_id" count                      # Optional item retrieval
+xp amount                                               # Gain experience points
+scoreboard objective_name score_value                   # Reach scoreboard score
 
 ## Reward Types
 
