@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # OpenGlasses Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod OpenGlasses
 @filename OpenGlasses-1.6.1-GTNH.jar
 @size 0.14MB
 @category small_mods
-@quest_line OpenGlasses Quest Line
+@quest_line OpenGlassesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest openglasses_intro
     title: Introduction to OpenGlasses
     desc: Learn the basics of OpenGlasses and craft your first item
-    requires: OpenGlasses Quest Line:openglasses_discover
+    requires: OpenGlassesQL:openglasses_discover
     logic: AND
     task: craft "any item from OpenGlasses" 1
     reward: item minecraft:book 1 "OpenGlasses Guide"
@@ -36,7 +37,7 @@
 >quest openglasses_master
     title: Master OpenGlasses
     desc: Become proficient with advanced OpenGlasses mechanics
-    requires: OpenGlasses Quest Line:openglasses_intro
+    requires: OpenGlassesQL:openglasses_intro
     logic: AND
     task: collect "advanced items from OpenGlasses" 5
     reward: choice

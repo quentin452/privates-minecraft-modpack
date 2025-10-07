@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ThermalSmeltery-Redux Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ThermalSmeltery-Redux
 @filename ThermalSmeltery-Redux-v1.1.jar
 @size 0.18MB
 @category small_mods
-@quest_line ThermalSmeltery-Redux Quest Line
+@quest_line ThermalSmeltery-ReduxQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest thermalsmeltery_redux_intro
     title: Introduction to ThermalSmeltery-Redux
     desc: Learn the basics of ThermalSmeltery-Redux and craft your first item
-    requires: ThermalSmeltery-Redux Quest Line:thermalsmeltery_redux_discover
+    requires: ThermalSmeltery-ReduxQL:thermalsmeltery_redux_discover
     logic: AND
     task: craft "any item from ThermalSmeltery-Redux" 1
     reward: item minecraft:book 1 "ThermalSmeltery-Redux Guide"
@@ -36,7 +37,7 @@
 >quest thermalsmeltery_redux_master
     title: Master ThermalSmeltery-Redux
     desc: Become proficient with advanced ThermalSmeltery-Redux mechanics
-    requires: ThermalSmeltery-Redux Quest Line:thermalsmeltery_redux_intro
+    requires: ThermalSmeltery-ReduxQL:thermalsmeltery_redux_intro
     logic: AND
     task: collect "advanced items from ThermalSmeltery-Redux" 5
     reward: choice

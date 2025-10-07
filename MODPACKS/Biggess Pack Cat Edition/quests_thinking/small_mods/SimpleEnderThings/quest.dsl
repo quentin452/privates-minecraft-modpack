@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # SimpleEnderThings Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SimpleEnderThings
 @filename SimpleEnderThings-MC1.7.10-1.2.1.jar
 @size 0.02MB
 @category small_mods
-@quest_line SimpleEnderThings Quest Line
+@quest_line SimpleEnderThingsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest simpleenderthings_intro
     title: Introduction to SimpleEnderThings
     desc: Learn the basics of SimpleEnderThings and craft your first item
-    requires: SimpleEnderThings Quest Line:simpleenderthings_discover
+    requires: SimpleEnderThingsQL:simpleenderthings_discover
     logic: AND
     task: craft "any item from SimpleEnderThings" 1
     reward: item minecraft:book 1 "SimpleEnderThings Guide"
@@ -36,7 +37,7 @@
 >quest simpleenderthings_master
     title: Master SimpleEnderThings
     desc: Become proficient with advanced SimpleEnderThings mechanics
-    requires: SimpleEnderThings Quest Line:simpleenderthings_intro
+    requires: SimpleEnderThingsQL:simpleenderthings_intro
     logic: AND
     task: collect "advanced items from SimpleEnderThings" 5
     reward: choice

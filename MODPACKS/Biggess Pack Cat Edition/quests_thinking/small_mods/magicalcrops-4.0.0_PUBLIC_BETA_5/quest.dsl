@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # magicalcrops-4.0.0_PUBLIC_BETA_5 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod magicalcrops-4.0.0_PUBLIC_BETA_5
 @filename magicalcrops-4.0.0_PUBLIC_BETA_5.jar
 @size 1.43MB
 @category small_mods
-@quest_line magicalcrops-4.0.0_PUBLIC_BETA_5 Quest Line
+@quest_line magicalcrops-4.0.0_PUBLIC_BETA_5QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest magicalcrops_4_0_0_public_beta_5_intro
     title: Introduction to magicalcrops-4.0.0_PUBLIC_BETA_5
     desc: Learn the basics of magicalcrops-4.0.0_PUBLIC_BETA_5 and craft your first item
-    requires: magicalcrops-4.0.0_PUBLIC_BETA_5 Quest Line:magicalcrops_4_0_0_public_beta_5_discover
+    requires: magicalcrops-4.0.0_PUBLIC_BETA_5QL:magicalcrops_4_0_0_public_beta_5_discover
     logic: AND
     task: craft "any item from magicalcrops-4.0.0_PUBLIC_BETA_5" 1
     reward: item minecraft:book 1 "magicalcrops-4.0.0_PUBLIC_BETA_5 Guide"
@@ -36,7 +37,7 @@
 >quest magicalcrops_4_0_0_public_beta_5_master
     title: Master magicalcrops-4.0.0_PUBLIC_BETA_5
     desc: Become proficient with advanced magicalcrops-4.0.0_PUBLIC_BETA_5 mechanics
-    requires: magicalcrops-4.0.0_PUBLIC_BETA_5 Quest Line:magicalcrops_4_0_0_public_beta_5_intro
+    requires: magicalcrops-4.0.0_PUBLIC_BETA_5QL:magicalcrops_4_0_0_public_beta_5_intro
     logic: AND
     task: collect "advanced items from magicalcrops-4.0.0_PUBLIC_BETA_5" 5
     reward: choice

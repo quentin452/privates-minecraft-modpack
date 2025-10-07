@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # witchery Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod witchery
 @filename witchery-1.7.10-0.25.1.jar
 @size 7.40MB
 @category medium_mods
-@quest_line witchery Quest Line
+@quest_line witcheryQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest witchery_intro
     title: Introduction to witchery
     desc: Learn the basics of witchery and craft your first item
-    requires: witchery Quest Line:witchery_discover
+    requires: witcheryQL:witchery_discover
     logic: AND
     task: craft "any item from witchery" 1
     reward: item minecraft:book 1 "witchery Guide"
@@ -36,7 +37,7 @@
 >quest witchery_master
     title: Master witchery
     desc: Become proficient with advanced witchery mechanics
-    requires: witchery Quest Line:witchery_intro
+    requires: witcheryQL:witchery_intro
     logic: AND
     task: collect "advanced items from witchery" 5
     reward: choice

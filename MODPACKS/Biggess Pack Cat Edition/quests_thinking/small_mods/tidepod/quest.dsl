@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # tidepod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod tidepod
 @filename tidepod-1.0.jar
 @size 0.01MB
 @category small_mods
-@quest_line tidepod Quest Line
+@quest_line tidepodQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest tidepod_intro
     title: Introduction to tidepod
     desc: Learn the basics of tidepod and craft your first item
-    requires: tidepod Quest Line:tidepod_discover
+    requires: tidepodQL:tidepod_discover
     logic: AND
     task: craft "any item from tidepod" 1
     reward: item minecraft:book 1 "tidepod Guide"
@@ -36,7 +37,7 @@
 >quest tidepod_master
     title: Master tidepod
     desc: Become proficient with advanced tidepod mechanics
-    requires: tidepod Quest Line:tidepod_intro
+    requires: tidepodQL:tidepod_intro
     logic: AND
     task: collect "advanced items from tidepod" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # DoggyTalents Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod DoggyTalents
 @filename DoggyTalents-1.7.10-1.14.2.325.jar
 @size 0.60MB
 @category small_mods
-@quest_line DoggyTalents Quest Line
+@quest_line DoggyTalentsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest doggytalents_intro
     title: Introduction to DoggyTalents
     desc: Learn the basics of DoggyTalents and craft your first item
-    requires: DoggyTalents Quest Line:doggytalents_discover
+    requires: DoggyTalentsQL:doggytalents_discover
     logic: AND
     task: craft "any item from DoggyTalents" 1
     reward: item minecraft:book 1 "DoggyTalents Guide"
@@ -36,7 +37,7 @@
 >quest doggytalents_master
     title: Master DoggyTalents
     desc: Become proficient with advanced DoggyTalents mechanics
-    requires: DoggyTalents Quest Line:doggytalents_intro
+    requires: DoggyTalentsQL:doggytalents_intro
     logic: AND
     task: collect "advanced items from DoggyTalents" 5
     reward: choice

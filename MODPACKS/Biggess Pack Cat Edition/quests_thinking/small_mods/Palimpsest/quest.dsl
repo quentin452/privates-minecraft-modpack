@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Palimpsest Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Palimpsest
 @filename Palimpsest-1.7.10-1.0.2.jar
 @size 0.61MB
 @category small_mods
-@quest_line Palimpsest Quest Line
+@quest_line PalimpsestQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest palimpsest_intro
     title: Introduction to Palimpsest
     desc: Learn the basics of Palimpsest and craft your first item
-    requires: Palimpsest Quest Line:palimpsest_discover
+    requires: PalimpsestQL:palimpsest_discover
     logic: AND
     task: craft "any item from Palimpsest" 1
     reward: item minecraft:book 1 "Palimpsest Guide"
@@ -36,7 +37,7 @@
 >quest palimpsest_master
     title: Master Palimpsest
     desc: Become proficient with advanced Palimpsest mechanics
-    requires: Palimpsest Quest Line:palimpsest_intro
+    requires: PalimpsestQL:palimpsest_intro
     logic: AND
     task: collect "advanced items from Palimpsest" 5
     reward: choice

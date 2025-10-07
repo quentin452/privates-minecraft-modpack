@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # CamouflageCreepers Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CamouflageCreepers
 @filename CamouflageCreepers-1.7.10-1.4.jar
 @size 0.47MB
 @category small_mods
-@quest_line CamouflageCreepers Quest Line
+@quest_line CamouflageCreepersQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest camouflagecreepers_intro
     title: Introduction to CamouflageCreepers
     desc: Learn the basics of CamouflageCreepers and craft your first item
-    requires: CamouflageCreepers Quest Line:camouflagecreepers_discover
+    requires: CamouflageCreepersQL:camouflagecreepers_discover
     logic: AND
     task: craft "any item from CamouflageCreepers" 1
     reward: item minecraft:book 1 "CamouflageCreepers Guide"
@@ -36,7 +37,7 @@
 >quest camouflagecreepers_master
     title: Master CamouflageCreepers
     desc: Become proficient with advanced CamouflageCreepers mechanics
-    requires: CamouflageCreepers Quest Line:camouflagecreepers_intro
+    requires: CamouflageCreepersQL:camouflagecreepers_intro
     logic: AND
     task: collect "advanced items from CamouflageCreepers" 5
     reward: choice

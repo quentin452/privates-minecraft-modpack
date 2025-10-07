@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # KinetiCraft-[1.7.10]1.3.3beta Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod KinetiCraft-[1.7.10]1.3.3beta
 @filename KinetiCraft-[1.7.10]1.3.3beta.jar
 @size 0.24MB
 @category small_mods
-@quest_line KinetiCraft-[1.7.10]1.3.3beta Quest Line
+@quest_line KinetiCraft-[1.7.10]1.3.3betaQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest kineticraft_1_7_101_3_3beta_intro
     title: Introduction to KinetiCraft-[1.7.10]1.3.3beta
     desc: Learn the basics of KinetiCraft-[1.7.10]1.3.3beta and craft your first item
-    requires: KinetiCraft-[1.7.10]1.3.3beta Quest Line:kineticraft_1_7_101_3_3beta_discover
+    requires: KinetiCraft-[1.7.10]1.3.3betaQL:kineticraft_1_7_101_3_3beta_discover
     logic: AND
     task: craft "any item from KinetiCraft-[1.7.10]1.3.3beta" 1
     reward: item minecraft:book 1 "KinetiCraft-[1.7.10]1.3.3beta Guide"
@@ -36,7 +37,7 @@
 >quest kineticraft_1_7_101_3_3beta_master
     title: Master KinetiCraft-[1.7.10]1.3.3beta
     desc: Become proficient with advanced KinetiCraft-[1.7.10]1.3.3beta mechanics
-    requires: KinetiCraft-[1.7.10]1.3.3beta Quest Line:kineticraft_1_7_101_3_3beta_intro
+    requires: KinetiCraft-[1.7.10]1.3.3betaQL:kineticraft_1_7_101_3_3beta_intro
     logic: AND
     task: collect "advanced items from KinetiCraft-[1.7.10]1.3.3beta" 5
     reward: choice

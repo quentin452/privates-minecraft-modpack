@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # unbreaken Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod unbreaken
 @filename unbreaken-1.0.2.jar
 @size 0.04MB
 @category small_mods
-@quest_line unbreaken Quest Line
+@quest_line unbreakenQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest unbreaken_intro
     title: Introduction to unbreaken
     desc: Learn the basics of unbreaken and craft your first item
-    requires: unbreaken Quest Line:unbreaken_discover
+    requires: unbreakenQL:unbreaken_discover
     logic: AND
     task: craft "any item from unbreaken" 1
     reward: item minecraft:book 1 "unbreaken Guide"
@@ -36,7 +37,7 @@
 >quest unbreaken_master
     title: Master unbreaken
     desc: Become proficient with advanced unbreaken mechanics
-    requires: unbreaken Quest Line:unbreaken_intro
+    requires: unbreakenQL:unbreaken_intro
     logic: AND
     task: collect "advanced items from unbreaken" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # AttainedDrops Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod AttainedDrops
 @filename AttainedDrops-1.7.10-1.3.jar
 @size 0.09MB
 @category small_mods
-@quest_line AttainedDrops Quest Line
+@quest_line AttainedDropsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest attaineddrops_intro
     title: Introduction to AttainedDrops
     desc: Learn the basics of AttainedDrops and craft your first item
-    requires: AttainedDrops Quest Line:attaineddrops_discover
+    requires: AttainedDropsQL:attaineddrops_discover
     logic: AND
     task: craft "any item from AttainedDrops" 1
     reward: item minecraft:book 1 "AttainedDrops Guide"
@@ -36,7 +37,7 @@
 >quest attaineddrops_master
     title: Master AttainedDrops
     desc: Become proficient with advanced AttainedDrops mechanics
-    requires: AttainedDrops Quest Line:attaineddrops_intro
+    requires: AttainedDropsQL:attaineddrops_intro
     logic: AND
     task: collect "advanced items from AttainedDrops" 5
     reward: choice

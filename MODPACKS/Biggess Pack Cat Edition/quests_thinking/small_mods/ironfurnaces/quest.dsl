@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ironfurnaces Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ironfurnaces
 @filename ironfurnaces-1.2.4R.jar
 @size 0.11MB
 @category small_mods
-@quest_line ironfurnaces Quest Line
+@quest_line ironfurnacesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ironfurnaces_intro
     title: Introduction to ironfurnaces
     desc: Learn the basics of ironfurnaces and craft your first item
-    requires: ironfurnaces Quest Line:ironfurnaces_discover
+    requires: ironfurnacesQL:ironfurnaces_discover
     logic: AND
     task: craft "any item from ironfurnaces" 1
     reward: item minecraft:book 1 "ironfurnaces Guide"
@@ -36,7 +37,7 @@
 >quest ironfurnaces_master
     title: Master ironfurnaces
     desc: Become proficient with advanced ironfurnaces mechanics
-    requires: ironfurnaces Quest Line:ironfurnaces_intro
+    requires: ironfurnacesQL:ironfurnaces_intro
     logic: AND
     task: collect "advanced items from ironfurnaces" 5
     reward: choice

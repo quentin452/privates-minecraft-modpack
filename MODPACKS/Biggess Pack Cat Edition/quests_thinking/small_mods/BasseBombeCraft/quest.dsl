@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BasseBombeCraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BasseBombeCraft
 @filename BasseBombeCraft-1.7.10-1.2.jar
 @size 0.05MB
 @category small_mods
-@quest_line BasseBombeCraft Quest Line
+@quest_line BasseBombeCraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest bassebombecraft_intro
     title: Introduction to BasseBombeCraft
     desc: Learn the basics of BasseBombeCraft and craft your first item
-    requires: BasseBombeCraft Quest Line:bassebombecraft_discover
+    requires: BasseBombeCraftQL:bassebombecraft_discover
     logic: AND
     task: craft "any item from BasseBombeCraft" 1
     reward: item minecraft:book 1 "BasseBombeCraft Guide"
@@ -36,7 +37,7 @@
 >quest bassebombecraft_master
     title: Master BasseBombeCraft
     desc: Become proficient with advanced BasseBombeCraft mechanics
-    requires: BasseBombeCraft Quest Line:bassebombecraft_intro
+    requires: BasseBombeCraftQL:bassebombecraft_intro
     logic: AND
     task: collect "advanced items from BasseBombeCraft" 5
     reward: choice

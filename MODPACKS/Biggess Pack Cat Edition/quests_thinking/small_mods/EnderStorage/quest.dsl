@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # EnderStorage Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod EnderStorage
 @filename EnderStorage-1.7.7.jar
 @size 0.14MB
 @category small_mods
-@quest_line EnderStorage Quest Line
+@quest_line EnderStorageQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest enderstorage_intro
     title: Introduction to EnderStorage
     desc: Learn the basics of EnderStorage and craft your first item
-    requires: EnderStorage Quest Line:enderstorage_discover
+    requires: EnderStorageQL:enderstorage_discover
     logic: AND
     task: craft "any item from EnderStorage" 1
     reward: item minecraft:book 1 "EnderStorage Guide"
@@ -36,7 +37,7 @@
 >quest enderstorage_master
     title: Master EnderStorage
     desc: Become proficient with advanced EnderStorage mechanics
-    requires: EnderStorage Quest Line:enderstorage_intro
+    requires: EnderStorageQL:enderstorage_intro
     logic: AND
     task: collect "advanced items from EnderStorage" 5
     reward: choice

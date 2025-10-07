@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Locks Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Locks
 @filename Locks-1.0.0.jar
 @size 0.13MB
 @category small_mods
-@quest_line Locks Quest Line
+@quest_line LocksQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest locks_intro
     title: Introduction to Locks
     desc: Learn the basics of Locks and craft your first item
-    requires: Locks Quest Line:locks_discover
+    requires: LocksQL:locks_discover
     logic: AND
     task: craft "any item from Locks" 1
     reward: item minecraft:book 1 "Locks Guide"
@@ -36,7 +37,7 @@
 >quest locks_master
     title: Master Locks
     desc: Become proficient with advanced Locks mechanics
-    requires: Locks Quest Line:locks_intro
+    requires: LocksQL:locks_intro
     logic: AND
     task: collect "advanced items from Locks" 5
     reward: choice

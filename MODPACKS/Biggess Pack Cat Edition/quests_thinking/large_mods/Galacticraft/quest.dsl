@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Galacticraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Galacticraft
 @filename Galacticraft-V4.1.8.jar
 @size 12.05MB
 @category large_mods
-@quest_line Galacticraft Quest Line
+@quest_line GalacticraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest galacticraft_intro
     title: Introduction to Galacticraft
     desc: Learn the basics of Galacticraft and craft your first item
-    requires: Galacticraft Quest Line:galacticraft_discover
+    requires: GalacticraftQL:galacticraft_discover
     logic: AND
     task: craft "any item from Galacticraft" 1
     reward: item minecraft:book 1 "Galacticraft Guide"
@@ -36,7 +37,7 @@
 >quest galacticraft_master
     title: Master Galacticraft
     desc: Become proficient with advanced Galacticraft mechanics
-    requires: Galacticraft Quest Line:galacticraft_intro
+    requires: GalacticraftQL:galacticraft_intro
     logic: AND
     task: collect "advanced items from Galacticraft" 5
     reward: choice

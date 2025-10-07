@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # AncientTrees Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod AncientTrees
 @filename AncientTrees-1.7.10-1.6.4.jar
 @size 0.88MB
 @category small_mods
-@quest_line AncientTrees Quest Line
+@quest_line AncientTreesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ancienttrees_intro
     title: Introduction to AncientTrees
     desc: Learn the basics of AncientTrees and craft your first item
-    requires: AncientTrees Quest Line:ancienttrees_discover
+    requires: AncientTreesQL:ancienttrees_discover
     logic: AND
     task: craft "any item from AncientTrees" 1
     reward: item minecraft:book 1 "AncientTrees Guide"
@@ -36,7 +37,7 @@
 >quest ancienttrees_master
     title: Master AncientTrees
     desc: Become proficient with advanced AncientTrees mechanics
-    requires: AncientTrees Quest Line:ancienttrees_intro
+    requires: AncientTreesQL:ancienttrees_intro
     logic: AND
     task: collect "advanced items from AncientTrees" 5
     reward: choice

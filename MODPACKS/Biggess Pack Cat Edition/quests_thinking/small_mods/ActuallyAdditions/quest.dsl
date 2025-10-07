@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ActuallyAdditions Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ActuallyAdditions
 @filename ActuallyAdditions-1.7.10-r21.jar
 @size 1.69MB
 @category small_mods
-@quest_line ActuallyAdditions Quest Line
+@quest_line ActuallyAdditionsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest actuallyadditions_intro
     title: Introduction to ActuallyAdditions
     desc: Learn the basics of ActuallyAdditions and craft your first item
-    requires: ActuallyAdditions Quest Line:actuallyadditions_discover
+    requires: ActuallyAdditionsQL:actuallyadditions_discover
     logic: AND
     task: craft "any item from ActuallyAdditions" 1
     reward: item minecraft:book 1 "ActuallyAdditions Guide"
@@ -36,7 +37,7 @@
 >quest actuallyadditions_master
     title: Master ActuallyAdditions
     desc: Become proficient with advanced ActuallyAdditions mechanics
-    requires: ActuallyAdditions Quest Line:actuallyadditions_intro
+    requires: ActuallyAdditionsQL:actuallyadditions_intro
     logic: AND
     task: collect "advanced items from ActuallyAdditions" 5
     reward: choice

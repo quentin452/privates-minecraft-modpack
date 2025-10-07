@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # SimplyJetpacks Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SimplyJetpacks
 @filename SimplyJetpacks-MC1.7.10-1.5.3.jar
 @size 0.58MB
 @category small_mods
-@quest_line SimplyJetpacks Quest Line
+@quest_line SimplyJetpacksQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest simplyjetpacks_intro
     title: Introduction to SimplyJetpacks
     desc: Learn the basics of SimplyJetpacks and craft your first item
-    requires: SimplyJetpacks Quest Line:simplyjetpacks_discover
+    requires: SimplyJetpacksQL:simplyjetpacks_discover
     logic: AND
     task: craft "any item from SimplyJetpacks" 1
     reward: item minecraft:book 1 "SimplyJetpacks Guide"
@@ -36,7 +37,7 @@
 >quest simplyjetpacks_master
     title: Master SimplyJetpacks
     desc: Become proficient with advanced SimplyJetpacks mechanics
-    requires: SimplyJetpacks Quest Line:simplyjetpacks_intro
+    requires: SimplyJetpacksQL:simplyjetpacks_intro
     logic: AND
     task: collect "advanced items from SimplyJetpacks" 5
     reward: choice

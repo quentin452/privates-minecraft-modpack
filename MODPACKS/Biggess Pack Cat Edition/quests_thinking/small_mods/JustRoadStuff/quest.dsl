@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # JustRoadStuff Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod JustRoadStuff
 @filename JustRoadStuff-0.1.jar
 @size 0.64MB
 @category small_mods
-@quest_line JustRoadStuff Quest Line
+@quest_line JustRoadStuffQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest justroadstuff_intro
     title: Introduction to JustRoadStuff
     desc: Learn the basics of JustRoadStuff and craft your first item
-    requires: JustRoadStuff Quest Line:justroadstuff_discover
+    requires: JustRoadStuffQL:justroadstuff_discover
     logic: AND
     task: craft "any item from JustRoadStuff" 1
     reward: item minecraft:book 1 "JustRoadStuff Guide"
@@ -36,7 +37,7 @@
 >quest justroadstuff_master
     title: Master JustRoadStuff
     desc: Become proficient with advanced JustRoadStuff mechanics
-    requires: JustRoadStuff Quest Line:justroadstuff_intro
+    requires: JustRoadStuffQL:justroadstuff_intro
     logic: AND
     task: collect "advanced items from JustRoadStuff" 5
     reward: choice

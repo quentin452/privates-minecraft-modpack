@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BetterBuildersWands Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BetterBuildersWands
 @filename BetterBuildersWands-0.13.3-GTNH.jar
 @size 0.06MB
 @category small_mods
-@quest_line BetterBuildersWands Quest Line
+@quest_line BetterBuildersWandsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest betterbuilderswands_intro
     title: Introduction to BetterBuildersWands
     desc: Learn the basics of BetterBuildersWands and craft your first item
-    requires: BetterBuildersWands Quest Line:betterbuilderswands_discover
+    requires: BetterBuildersWandsQL:betterbuilderswands_discover
     logic: AND
     task: craft "any item from BetterBuildersWands" 1
     reward: item minecraft:book 1 "BetterBuildersWands Guide"
@@ -36,7 +37,7 @@
 >quest betterbuilderswands_master
     title: Master BetterBuildersWands
     desc: Become proficient with advanced BetterBuildersWands mechanics
-    requires: BetterBuildersWands Quest Line:betterbuilderswands_intro
+    requires: BetterBuildersWandsQL:betterbuilderswands_intro
     logic: AND
     task: collect "advanced items from BetterBuildersWands" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # tinkersdefense Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod tinkersdefense
 @filename tinkersdefense-1.3.2.jar
 @size 0.23MB
 @category small_mods
-@quest_line tinkersdefense Quest Line
+@quest_line tinkersdefenseQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest tinkersdefense_intro
     title: Introduction to tinkersdefense
     desc: Learn the basics of tinkersdefense and craft your first item
-    requires: tinkersdefense Quest Line:tinkersdefense_discover
+    requires: tinkersdefenseQL:tinkersdefense_discover
     logic: AND
     task: craft "any item from tinkersdefense" 1
     reward: item minecraft:book 1 "tinkersdefense Guide"
@@ -36,7 +37,7 @@
 >quest tinkersdefense_master
     title: Master tinkersdefense
     desc: Become proficient with advanced tinkersdefense mechanics
-    requires: tinkersdefense Quest Line:tinkersdefense_intro
+    requires: tinkersdefenseQL:tinkersdefense_intro
     logic: AND
     task: collect "advanced items from tinkersdefense" 5
     reward: choice

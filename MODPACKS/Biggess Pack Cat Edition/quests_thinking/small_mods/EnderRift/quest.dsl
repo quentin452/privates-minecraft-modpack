@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # EnderRift Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod EnderRift
 @filename EnderRift-0.53.jar
 @size 0.08MB
 @category small_mods
-@quest_line EnderRift Quest Line
+@quest_line EnderRiftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest enderrift_intro
     title: Introduction to EnderRift
     desc: Learn the basics of EnderRift and craft your first item
-    requires: EnderRift Quest Line:enderrift_discover
+    requires: EnderRiftQL:enderrift_discover
     logic: AND
     task: craft "any item from EnderRift" 1
     reward: item minecraft:book 1 "EnderRift Guide"
@@ -36,7 +37,7 @@
 >quest enderrift_master
     title: Master EnderRift
     desc: Become proficient with advanced EnderRift mechanics
-    requires: EnderRift Quest Line:enderrift_intro
+    requires: EnderRiftQL:enderrift_intro
     logic: AND
     task: collect "advanced items from EnderRift" 5
     reward: choice

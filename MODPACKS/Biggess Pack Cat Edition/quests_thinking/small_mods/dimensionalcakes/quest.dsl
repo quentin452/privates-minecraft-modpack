@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # dimensionalcakes Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod dimensionalcakes
 @filename dimensionalcakes-0.0.1.jar
 @size 0.02MB
 @category small_mods
-@quest_line dimensionalcakes Quest Line
+@quest_line dimensionalcakesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest dimensionalcakes_intro
     title: Introduction to dimensionalcakes
     desc: Learn the basics of dimensionalcakes and craft your first item
-    requires: dimensionalcakes Quest Line:dimensionalcakes_discover
+    requires: dimensionalcakesQL:dimensionalcakes_discover
     logic: AND
     task: craft "any item from dimensionalcakes" 1
     reward: item minecraft:book 1 "dimensionalcakes Guide"
@@ -36,7 +37,7 @@
 >quest dimensionalcakes_master
     title: Master dimensionalcakes
     desc: Become proficient with advanced dimensionalcakes mechanics
-    requires: dimensionalcakes Quest Line:dimensionalcakes_intro
+    requires: dimensionalcakesQL:dimensionalcakes_intro
     logic: AND
     task: collect "advanced items from dimensionalcakes" 5
     reward: choice

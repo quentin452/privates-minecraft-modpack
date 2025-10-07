@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # buildersguides Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod buildersguides
 @filename buildersguides-1.7.10-1.0.2.jar
 @size 0.12MB
 @category small_mods
-@quest_line buildersguides Quest Line
+@quest_line buildersguidesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest buildersguides_intro
     title: Introduction to buildersguides
     desc: Learn the basics of buildersguides and craft your first item
-    requires: buildersguides Quest Line:buildersguides_discover
+    requires: buildersguidesQL:buildersguides_discover
     logic: AND
     task: craft "any item from buildersguides" 1
     reward: item minecraft:book 1 "buildersguides Guide"
@@ -36,7 +37,7 @@
 >quest buildersguides_master
     title: Master buildersguides
     desc: Become proficient with advanced buildersguides mechanics
-    requires: buildersguides Quest Line:buildersguides_intro
+    requires: buildersguidesQL:buildersguides_intro
     logic: AND
     task: collect "advanced items from buildersguides" 5
     reward: choice

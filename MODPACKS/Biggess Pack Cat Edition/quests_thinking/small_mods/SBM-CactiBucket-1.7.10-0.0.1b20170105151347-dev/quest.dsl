@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev
 @filename SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev-universal.jar
 @size 0.01MB
 @category small_mods
-@quest_line SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev Quest Line
+@quest_line SBM-CactiBucket-1.7.10-0.0.1b20170105151347-devQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest sbm_cactibucket_1_7_10_0_0_1b20170105151347_dev_intro
     title: Introduction to SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev
     desc: Learn the basics of SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev and craft your first item
-    requires: SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev Quest Line:sbm_cactibucket_1_7_10_0_0_1b20170105151347_dev_discover
+    requires: SBM-CactiBucket-1.7.10-0.0.1b20170105151347-devQL:sbm_cactibucket_1_7_10_0_0_1b20170105151347_dev_discover
     logic: AND
     task: craft "any item from SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev" 1
     reward: item minecraft:book 1 "SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev Guide"
@@ -36,7 +37,7 @@
 >quest sbm_cactibucket_1_7_10_0_0_1b20170105151347_dev_master
     title: Master SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev
     desc: Become proficient with advanced SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev mechanics
-    requires: SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev Quest Line:sbm_cactibucket_1_7_10_0_0_1b20170105151347_dev_intro
+    requires: SBM-CactiBucket-1.7.10-0.0.1b20170105151347-devQL:sbm_cactibucket_1_7_10_0_0_1b20170105151347_dev_intro
     logic: AND
     task: collect "advanced items from SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev" 5
     reward: choice

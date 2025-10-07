@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # MoCreatures-Legacy-Final Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MoCreatures-Legacy-Final
 @filename MoCreatures-Legacy-Final-1.2.jar
 @size 24.28MB
 @category large_mods
-@quest_line MoCreatures-Legacy-Final Quest Line
+@quest_line MoCreatures-Legacy-FinalQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest mocreatures_legacy_final_intro
     title: Introduction to MoCreatures-Legacy-Final
     desc: Learn the basics of MoCreatures-Legacy-Final and craft your first item
-    requires: MoCreatures-Legacy-Final Quest Line:mocreatures_legacy_final_discover
+    requires: MoCreatures-Legacy-FinalQL:mocreatures_legacy_final_discover
     logic: AND
     task: craft "any item from MoCreatures-Legacy-Final" 1
     reward: item minecraft:book 1 "MoCreatures-Legacy-Final Guide"
@@ -36,7 +37,7 @@
 >quest mocreatures_legacy_final_master
     title: Master MoCreatures-Legacy-Final
     desc: Become proficient with advanced MoCreatures-Legacy-Final mechanics
-    requires: MoCreatures-Legacy-Final Quest Line:mocreatures_legacy_final_intro
+    requires: MoCreatures-Legacy-FinalQL:mocreatures_legacy_final_intro
     logic: AND
     task: collect "advanced items from MoCreatures-Legacy-Final" 5
     reward: choice

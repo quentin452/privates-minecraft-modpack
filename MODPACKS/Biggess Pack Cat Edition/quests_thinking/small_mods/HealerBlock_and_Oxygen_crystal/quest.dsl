@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # HealerBlock_and_Oxygen_crystal Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod HealerBlock_and_Oxygen_crystal
 @filename HealerBlock_and_Oxygen_crystal_v1.jar
 @size 0.01MB
 @category small_mods
-@quest_line HealerBlock_and_Oxygen_crystal Quest Line
+@quest_line HealerBlock_and_Oxygen_crystalQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest healerblock_and_oxygen_crystal_intro
     title: Introduction to HealerBlock_and_Oxygen_crystal
     desc: Learn the basics of HealerBlock_and_Oxygen_crystal and craft your first item
-    requires: HealerBlock_and_Oxygen_crystal Quest Line:healerblock_and_oxygen_crystal_discover
+    requires: HealerBlock_and_Oxygen_crystalQL:healerblock_and_oxygen_crystal_discover
     logic: AND
     task: craft "any item from HealerBlock_and_Oxygen_crystal" 1
     reward: item minecraft:book 1 "HealerBlock_and_Oxygen_crystal Guide"
@@ -36,7 +37,7 @@
 >quest healerblock_and_oxygen_crystal_master
     title: Master HealerBlock_and_Oxygen_crystal
     desc: Become proficient with advanced HealerBlock_and_Oxygen_crystal mechanics
-    requires: HealerBlock_and_Oxygen_crystal Quest Line:healerblock_and_oxygen_crystal_intro
+    requires: HealerBlock_and_Oxygen_crystalQL:healerblock_and_oxygen_crystal_intro
     logic: AND
     task: collect "advanced items from HealerBlock_and_Oxygen_crystal" 5
     reward: choice

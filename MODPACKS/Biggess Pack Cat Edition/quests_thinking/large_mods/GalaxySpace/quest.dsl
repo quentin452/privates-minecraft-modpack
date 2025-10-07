@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # GalaxySpace Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod GalaxySpace
 @filename GalaxySpace-1.7.10-1.2.15.jar
 @size 18.99MB
 @category large_mods
-@quest_line GalaxySpace Quest Line
+@quest_line GalaxySpaceQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest galaxyspace_intro
     title: Introduction to GalaxySpace
     desc: Learn the basics of GalaxySpace and craft your first item
-    requires: GalaxySpace Quest Line:galaxyspace_discover
+    requires: GalaxySpaceQL:galaxyspace_discover
     logic: AND
     task: craft "any item from GalaxySpace" 1
     reward: item minecraft:book 1 "GalaxySpace Guide"
@@ -36,7 +37,7 @@
 >quest galaxyspace_master
     title: Master GalaxySpace
     desc: Become proficient with advanced GalaxySpace mechanics
-    requires: GalaxySpace Quest Line:galaxyspace_intro
+    requires: GalaxySpaceQL:galaxyspace_intro
     logic: AND
     task: collect "advanced items from GalaxySpace" 5
     reward: choice

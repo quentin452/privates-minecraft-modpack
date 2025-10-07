@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Bagginses Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Bagginses
 @filename Bagginses-2.1.1.jar
 @size 0.09MB
 @category small_mods
-@quest_line Bagginses Quest Line
+@quest_line BagginsesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest bagginses_intro
     title: Introduction to Bagginses
     desc: Learn the basics of Bagginses and craft your first item
-    requires: Bagginses Quest Line:bagginses_discover
+    requires: BagginsesQL:bagginses_discover
     logic: AND
     task: craft "any item from Bagginses" 1
     reward: item minecraft:book 1 "Bagginses Guide"
@@ -36,7 +37,7 @@
 >quest bagginses_master
     title: Master Bagginses
     desc: Become proficient with advanced Bagginses mechanics
-    requires: Bagginses Quest Line:bagginses_intro
+    requires: BagginsesQL:bagginses_intro
     logic: AND
     task: collect "advanced items from Bagginses" 5
     reward: choice

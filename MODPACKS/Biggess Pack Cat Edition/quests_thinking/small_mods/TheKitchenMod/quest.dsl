@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # TheKitchenMod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TheKitchenMod
 @filename TheKitchenMod-1.3.23-1.7.2-10.jar
 @size 0.38MB
 @category small_mods
-@quest_line TheKitchenMod Quest Line
+@quest_line TheKitchenModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest thekitchenmod_intro
     title: Introduction to TheKitchenMod
     desc: Learn the basics of TheKitchenMod and craft your first item
-    requires: TheKitchenMod Quest Line:thekitchenmod_discover
+    requires: TheKitchenModQL:thekitchenmod_discover
     logic: AND
     task: craft "any item from TheKitchenMod" 1
     reward: item minecraft:book 1 "TheKitchenMod Guide"
@@ -36,7 +37,7 @@
 >quest thekitchenmod_master
     title: Master TheKitchenMod
     desc: Become proficient with advanced TheKitchenMod mechanics
-    requires: TheKitchenMod Quest Line:thekitchenmod_intro
+    requires: TheKitchenModQL:thekitchenmod_intro
     logic: AND
     task: collect "advanced items from TheKitchenMod" 5
     reward: choice

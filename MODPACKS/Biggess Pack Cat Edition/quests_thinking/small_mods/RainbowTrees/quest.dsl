@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # RainbowTrees Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RainbowTrees
 @filename RainbowTrees-1.0-1.7.10.jar
 @size 0.02MB
 @category small_mods
-@quest_line RainbowTrees Quest Line
+@quest_line RainbowTreesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest rainbowtrees_intro
     title: Introduction to RainbowTrees
     desc: Learn the basics of RainbowTrees and craft your first item
-    requires: RainbowTrees Quest Line:rainbowtrees_discover
+    requires: RainbowTreesQL:rainbowtrees_discover
     logic: AND
     task: craft "any item from RainbowTrees" 1
     reward: item minecraft:book 1 "RainbowTrees Guide"
@@ -36,7 +37,7 @@
 >quest rainbowtrees_master
     title: Master RainbowTrees
     desc: Become proficient with advanced RainbowTrees mechanics
-    requires: RainbowTrees Quest Line:rainbowtrees_intro
+    requires: RainbowTreesQL:rainbowtrees_intro
     logic: AND
     task: collect "advanced items from RainbowTrees" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # PandorasBox Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod PandorasBox
 @filename PandorasBox-2.1.jar
 @size 0.27MB
 @category small_mods
-@quest_line PandorasBox Quest Line
+@quest_line PandorasBoxQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest pandorasbox_intro
     title: Introduction to PandorasBox
     desc: Learn the basics of PandorasBox and craft your first item
-    requires: PandorasBox Quest Line:pandorasbox_discover
+    requires: PandorasBoxQL:pandorasbox_discover
     logic: AND
     task: craft "any item from PandorasBox" 1
     reward: item minecraft:book 1 "PandorasBox Guide"
@@ -36,7 +37,7 @@
 >quest pandorasbox_master
     title: Master PandorasBox
     desc: Become proficient with advanced PandorasBox mechanics
-    requires: PandorasBox Quest Line:pandorasbox_intro
+    requires: PandorasBoxQL:pandorasbox_intro
     logic: AND
     task: collect "advanced items from PandorasBox" 5
     reward: choice

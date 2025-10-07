@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # CbmReborn Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CbmReborn
 @filename CbmReborn-1.7.10-1.0.8.jar
 @size 0.55MB
 @category small_mods
-@quest_line CbmReborn Quest Line
+@quest_line CbmRebornQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest cbmreborn_intro
     title: Introduction to CbmReborn
     desc: Learn the basics of CbmReborn and craft your first item
-    requires: CbmReborn Quest Line:cbmreborn_discover
+    requires: CbmRebornQL:cbmreborn_discover
     logic: AND
     task: craft "any item from CbmReborn" 1
     reward: item minecraft:book 1 "CbmReborn Guide"
@@ -36,7 +37,7 @@
 >quest cbmreborn_master
     title: Master CbmReborn
     desc: Become proficient with advanced CbmReborn mechanics
-    requires: CbmReborn Quest Line:cbmreborn_intro
+    requires: CbmRebornQL:cbmreborn_intro
     logic: AND
     task: collect "advanced items from CbmReborn" 5
     reward: choice

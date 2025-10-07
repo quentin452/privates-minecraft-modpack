@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Akatsuki Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Akatsuki
 @filename Akatsuki-0.1.1.jar
 @size 0.19MB
 @category small_mods
-@quest_line Akatsuki Quest Line
+@quest_line AkatsukiQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest akatsuki_intro
     title: Introduction to Akatsuki
     desc: Learn the basics of Akatsuki and craft your first item
-    requires: Akatsuki Quest Line:akatsuki_discover
+    requires: AkatsukiQL:akatsuki_discover
     logic: AND
     task: craft "any item from Akatsuki" 1
     reward: item minecraft:book 1 "Akatsuki Guide"
@@ -36,7 +37,7 @@
 >quest akatsuki_master
     title: Master Akatsuki
     desc: Become proficient with advanced Akatsuki mechanics
-    requires: Akatsuki Quest Line:akatsuki_intro
+    requires: AkatsukiQL:akatsuki_intro
     logic: AND
     task: collect "advanced items from Akatsuki" 5
     reward: choice

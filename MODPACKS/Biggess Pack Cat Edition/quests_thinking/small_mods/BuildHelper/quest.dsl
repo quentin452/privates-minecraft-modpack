@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BuildHelper Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BuildHelper
 @filename BuildHelper_v1.0.0.jar
 @size 0.05MB
 @category small_mods
-@quest_line BuildHelper Quest Line
+@quest_line BuildHelperQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest buildhelper_intro
     title: Introduction to BuildHelper
     desc: Learn the basics of BuildHelper and craft your first item
-    requires: BuildHelper Quest Line:buildhelper_discover
+    requires: BuildHelperQL:buildhelper_discover
     logic: AND
     task: craft "any item from BuildHelper" 1
     reward: item minecraft:book 1 "BuildHelper Guide"
@@ -36,7 +37,7 @@
 >quest buildhelper_master
     title: Master BuildHelper
     desc: Become proficient with advanced BuildHelper mechanics
-    requires: BuildHelper Quest Line:buildhelper_intro
+    requires: BuildHelperQL:buildhelper_intro
     logic: AND
     task: collect "advanced items from BuildHelper" 5
     reward: choice

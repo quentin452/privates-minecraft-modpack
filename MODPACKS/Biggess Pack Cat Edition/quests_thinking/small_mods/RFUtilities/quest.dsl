@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # RFUtilities Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RFUtilities
 @filename RFUtilities-MC1.7.10-0.5-hotfix4.jar
 @size 0.18MB
 @category small_mods
-@quest_line RFUtilities Quest Line
+@quest_line RFUtilitiesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest rfutilities_intro
     title: Introduction to RFUtilities
     desc: Learn the basics of RFUtilities and craft your first item
-    requires: RFUtilities Quest Line:rfutilities_discover
+    requires: RFUtilitiesQL:rfutilities_discover
     logic: AND
     task: craft "any item from RFUtilities" 1
     reward: item minecraft:book 1 "RFUtilities Guide"
@@ -36,7 +37,7 @@
 >quest rfutilities_master
     title: Master RFUtilities
     desc: Become proficient with advanced RFUtilities mechanics
-    requires: RFUtilities Quest Line:rfutilities_intro
+    requires: RFUtilitiesQL:rfutilities_intro
     logic: AND
     task: collect "advanced items from RFUtilities" 5
     reward: choice

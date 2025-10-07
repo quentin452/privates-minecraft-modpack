@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # interdictionpillar Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod interdictionpillar
 @filename interdictionpillar-1.1.0.jar
 @size 0.10MB
 @category small_mods
-@quest_line interdictionpillar Quest Line
+@quest_line interdictionpillarQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest interdictionpillar_intro
     title: Introduction to interdictionpillar
     desc: Learn the basics of interdictionpillar and craft your first item
-    requires: interdictionpillar Quest Line:interdictionpillar_discover
+    requires: interdictionpillarQL:interdictionpillar_discover
     logic: AND
     task: craft "any item from interdictionpillar" 1
     reward: item minecraft:book 1 "interdictionpillar Guide"
@@ -36,7 +37,7 @@
 >quest interdictionpillar_master
     title: Master interdictionpillar
     desc: Become proficient with advanced interdictionpillar mechanics
-    requires: interdictionpillar Quest Line:interdictionpillar_intro
+    requires: interdictionpillarQL:interdictionpillar_intro
     logic: AND
     task: collect "advanced items from interdictionpillar" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # LaserMod-1.7.10-v1.2.0a Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod LaserMod-1.7.10-v1.2.0a
 @filename LaserMod-1.7.10-v1.2.0a-universal.jar
 @size 0.19MB
 @category small_mods
-@quest_line LaserMod-1.7.10-v1.2.0a Quest Line
+@quest_line LaserMod-1.7.10-v1.2.0aQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest lasermod_1_7_10_v1_2_0a_intro
     title: Introduction to LaserMod-1.7.10-v1.2.0a
     desc: Learn the basics of LaserMod-1.7.10-v1.2.0a and craft your first item
-    requires: LaserMod-1.7.10-v1.2.0a Quest Line:lasermod_1_7_10_v1_2_0a_discover
+    requires: LaserMod-1.7.10-v1.2.0aQL:lasermod_1_7_10_v1_2_0a_discover
     logic: AND
     task: craft "any item from LaserMod-1.7.10-v1.2.0a" 1
     reward: item minecraft:book 1 "LaserMod-1.7.10-v1.2.0a Guide"
@@ -36,7 +37,7 @@
 >quest lasermod_1_7_10_v1_2_0a_master
     title: Master LaserMod-1.7.10-v1.2.0a
     desc: Become proficient with advanced LaserMod-1.7.10-v1.2.0a mechanics
-    requires: LaserMod-1.7.10-v1.2.0a Quest Line:lasermod_1_7_10_v1_2_0a_intro
+    requires: LaserMod-1.7.10-v1.2.0aQL:lasermod_1_7_10_v1_2_0a_intro
     logic: AND
     task: collect "advanced items from LaserMod-1.7.10-v1.2.0a" 5
     reward: choice

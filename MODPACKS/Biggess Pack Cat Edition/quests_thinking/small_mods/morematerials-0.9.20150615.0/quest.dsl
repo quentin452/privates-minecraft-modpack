@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # morematerials-0.9.20150615.0 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod morematerials-0.9.20150615.0
 @filename morematerials-0.9.20150615.0-MC1.7-20150621.jar
 @size 0.09MB
 @category small_mods
-@quest_line morematerials-0.9.20150615.0 Quest Line
+@quest_line morematerials-0.9.20150615.0QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest morematerials_0_9_20150615_0_intro
     title: Introduction to morematerials-0.9.20150615.0
     desc: Learn the basics of morematerials-0.9.20150615.0 and craft your first item
-    requires: morematerials-0.9.20150615.0 Quest Line:morematerials_0_9_20150615_0_discover
+    requires: morematerials-0.9.20150615.0QL:morematerials_0_9_20150615_0_discover
     logic: AND
     task: craft "any item from morematerials-0.9.20150615.0" 1
     reward: item minecraft:book 1 "morematerials-0.9.20150615.0 Guide"
@@ -36,7 +37,7 @@
 >quest morematerials_0_9_20150615_0_master
     title: Master morematerials-0.9.20150615.0
     desc: Become proficient with advanced morematerials-0.9.20150615.0 mechanics
-    requires: morematerials-0.9.20150615.0 Quest Line:morematerials_0_9_20150615_0_intro
+    requires: morematerials-0.9.20150615.0QL:morematerials_0_9_20150615_0_intro
     logic: AND
     task: collect "advanced items from morematerials-0.9.20150615.0" 5
     reward: choice

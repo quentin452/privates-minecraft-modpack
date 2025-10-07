@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # WitherRing Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod WitherRing
 @filename WitherRing.jar
 @size 0.01MB
 @category small_mods
-@quest_line WitherRing Quest Line
+@quest_line WitherRingQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest witherring_intro
     title: Introduction to WitherRing
     desc: Learn the basics of WitherRing and craft your first item
-    requires: WitherRing Quest Line:witherring_discover
+    requires: WitherRingQL:witherring_discover
     logic: AND
     task: craft "any item from WitherRing" 1
     reward: item minecraft:book 1 "WitherRing Guide"
@@ -36,7 +37,7 @@
 >quest witherring_master
     title: Master WitherRing
     desc: Become proficient with advanced WitherRing mechanics
-    requires: WitherRing Quest Line:witherring_intro
+    requires: WitherRingQL:witherring_intro
     logic: AND
     task: collect "advanced items from WitherRing" 5
     reward: choice

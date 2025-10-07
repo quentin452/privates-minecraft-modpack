@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # TiConAutoToolStation Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TiConAutoToolStation
 @filename TiConAutoToolStation-1.7.10-1.1.2.jar
 @size 0.02MB
 @category small_mods
-@quest_line TiConAutoToolStation Quest Line
+@quest_line TiConAutoToolStationQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ticonautotoolstation_intro
     title: Introduction to TiConAutoToolStation
     desc: Learn the basics of TiConAutoToolStation and craft your first item
-    requires: TiConAutoToolStation Quest Line:ticonautotoolstation_discover
+    requires: TiConAutoToolStationQL:ticonautotoolstation_discover
     logic: AND
     task: craft "any item from TiConAutoToolStation" 1
     reward: item minecraft:book 1 "TiConAutoToolStation Guide"
@@ -36,7 +37,7 @@
 >quest ticonautotoolstation_master
     title: Master TiConAutoToolStation
     desc: Become proficient with advanced TiConAutoToolStation mechanics
-    requires: TiConAutoToolStation Quest Line:ticonautotoolstation_intro
+    requires: TiConAutoToolStationQL:ticonautotoolstation_intro
     logic: AND
     task: collect "advanced items from TiConAutoToolStation" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Fluxed Trinkets Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Fluxed Trinkets
 @filename Fluxed Trinkets-1.7.10-1.0.54.jar
 @size 2.89MB
 @category medium_mods
-@quest_line Fluxed Trinkets Quest Line
+@quest_line Fluxed TrinketsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest fluxed_trinkets_intro
     title: Introduction to Fluxed Trinkets
     desc: Learn the basics of Fluxed Trinkets and craft your first item
-    requires: Fluxed Trinkets Quest Line:fluxed_trinkets_discover
+    requires: Fluxed TrinketsQL:fluxed_trinkets_discover
     logic: AND
     task: craft "any item from Fluxed Trinkets" 1
     reward: item minecraft:book 1 "Fluxed Trinkets Guide"
@@ -36,7 +37,7 @@
 >quest fluxed_trinkets_master
     title: Master Fluxed Trinkets
     desc: Become proficient with advanced Fluxed Trinkets mechanics
-    requires: Fluxed Trinkets Quest Line:fluxed_trinkets_intro
+    requires: Fluxed TrinketsQL:fluxed_trinkets_intro
     logic: AND
     task: collect "advanced items from Fluxed Trinkets" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # AdvDims Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod AdvDims
 @filename AdvDims-0.5.jar
 @size 0.00MB
 @category small_mods
-@quest_line AdvDims Quest Line
+@quest_line AdvDimsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest advdims_intro
     title: Introduction to AdvDims
     desc: Learn the basics of AdvDims and craft your first item
-    requires: AdvDims Quest Line:advdims_discover
+    requires: AdvDimsQL:advdims_discover
     logic: AND
     task: craft "any item from AdvDims" 1
     reward: item minecraft:book 1 "AdvDims Guide"
@@ -36,7 +37,7 @@
 >quest advdims_master
     title: Master AdvDims
     desc: Become proficient with advanced AdvDims mechanics
-    requires: AdvDims Quest Line:advdims_intro
+    requires: AdvDimsQL:advdims_intro
     logic: AND
     task: collect "advanced items from AdvDims" 5
     reward: choice

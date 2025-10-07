@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # hopperductmod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod hopperductmod
 @filename hopperductmod-1.7.10-1.3.2.jar
 @size 0.04MB
 @category small_mods
-@quest_line hopperductmod Quest Line
+@quest_line hopperductmodQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest hopperductmod_intro
     title: Introduction to hopperductmod
     desc: Learn the basics of hopperductmod and craft your first item
-    requires: hopperductmod Quest Line:hopperductmod_discover
+    requires: hopperductmodQL:hopperductmod_discover
     logic: AND
     task: craft "any item from hopperductmod" 1
     reward: item minecraft:book 1 "hopperductmod Guide"
@@ -36,7 +37,7 @@
 >quest hopperductmod_master
     title: Master hopperductmod
     desc: Become proficient with advanced hopperductmod mechanics
-    requires: hopperductmod Quest Line:hopperductmod_intro
+    requires: hopperductmodQL:hopperductmod_intro
     logic: AND
     task: collect "advanced items from hopperductmod" 5
     reward: choice

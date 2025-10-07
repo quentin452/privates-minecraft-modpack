@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Thump Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Thump
 @filename Thump-1.7.10-2.1.0.8.jar
 @size 1.43MB
 @category small_mods
-@quest_line Thump Quest Line
+@quest_line ThumpQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest thump_intro
     title: Introduction to Thump
     desc: Learn the basics of Thump and craft your first item
-    requires: Thump Quest Line:thump_discover
+    requires: ThumpQL:thump_discover
     logic: AND
     task: craft "any item from Thump" 1
     reward: item minecraft:book 1 "Thump Guide"
@@ -36,7 +37,7 @@
 >quest thump_master
     title: Master Thump
     desc: Become proficient with advanced Thump mechanics
-    requires: Thump Quest Line:thump_intro
+    requires: ThumpQL:thump_intro
     logic: AND
     task: collect "advanced items from Thump" 5
     reward: choice

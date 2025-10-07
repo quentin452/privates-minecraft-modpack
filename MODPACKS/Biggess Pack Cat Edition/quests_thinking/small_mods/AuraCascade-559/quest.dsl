@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # AuraCascade-559 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod AuraCascade-559
 @filename AuraCascade-559.jar
 @size 1.01MB
 @category small_mods
-@quest_line AuraCascade-559 Quest Line
+@quest_line AuraCascade-559QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest auracascade_559_intro
     title: Introduction to AuraCascade-559
     desc: Learn the basics of AuraCascade-559 and craft your first item
-    requires: AuraCascade-559 Quest Line:auracascade_559_discover
+    requires: AuraCascade-559QL:auracascade_559_discover
     logic: AND
     task: craft "any item from AuraCascade-559" 1
     reward: item minecraft:book 1 "AuraCascade-559 Guide"
@@ -36,7 +37,7 @@
 >quest auracascade_559_master
     title: Master AuraCascade-559
     desc: Become proficient with advanced AuraCascade-559 mechanics
-    requires: AuraCascade-559 Quest Line:auracascade_559_intro
+    requires: AuraCascade-559QL:auracascade_559_intro
     logic: AND
     task: collect "advanced items from AuraCascade-559" 5
     reward: choice

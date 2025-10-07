@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ColoredEndCrystals-1.0.1 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ColoredEndCrystals-1.0.1
 @filename ColoredEndCrystals-1.0.1-forge-1.7.10.jar
 @size 0.08MB
 @category small_mods
-@quest_line ColoredEndCrystals-1.0.1 Quest Line
+@quest_line ColoredEndCrystals-1.0.1QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest coloredendcrystals_1_0_1_intro
     title: Introduction to ColoredEndCrystals-1.0.1
     desc: Learn the basics of ColoredEndCrystals-1.0.1 and craft your first item
-    requires: ColoredEndCrystals-1.0.1 Quest Line:coloredendcrystals_1_0_1_discover
+    requires: ColoredEndCrystals-1.0.1QL:coloredendcrystals_1_0_1_discover
     logic: AND
     task: craft "any item from ColoredEndCrystals-1.0.1" 1
     reward: item minecraft:book 1 "ColoredEndCrystals-1.0.1 Guide"
@@ -36,7 +37,7 @@
 >quest coloredendcrystals_1_0_1_master
     title: Master ColoredEndCrystals-1.0.1
     desc: Become proficient with advanced ColoredEndCrystals-1.0.1 mechanics
-    requires: ColoredEndCrystals-1.0.1 Quest Line:coloredendcrystals_1_0_1_intro
+    requires: ColoredEndCrystals-1.0.1QL:coloredendcrystals_1_0_1_intro
     logic: AND
     task: collect "advanced items from ColoredEndCrystals-1.0.1" 5
     reward: choice

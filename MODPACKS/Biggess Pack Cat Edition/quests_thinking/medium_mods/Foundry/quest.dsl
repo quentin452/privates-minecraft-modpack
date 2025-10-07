@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Foundry Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Foundry
 @filename Foundry-1.7.10-1.2.2.0.jar
 @size 4.31MB
 @category medium_mods
-@quest_line Foundry Quest Line
+@quest_line FoundryQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest foundry_intro
     title: Introduction to Foundry
     desc: Learn the basics of Foundry and craft your first item
-    requires: Foundry Quest Line:foundry_discover
+    requires: FoundryQL:foundry_discover
     logic: AND
     task: craft "any item from Foundry" 1
     reward: item minecraft:book 1 "Foundry Guide"
@@ -36,7 +37,7 @@
 >quest foundry_master
     title: Master Foundry
     desc: Become proficient with advanced Foundry mechanics
-    requires: Foundry Quest Line:foundry_intro
+    requires: FoundryQL:foundry_intro
     logic: AND
     task: collect "advanced items from Foundry" 5
     reward: choice

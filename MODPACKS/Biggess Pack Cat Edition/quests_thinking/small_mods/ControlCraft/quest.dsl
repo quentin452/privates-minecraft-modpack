@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ControlCraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ControlCraft
 @filename ControlCraft.jar
 @size 0.32MB
 @category small_mods
-@quest_line ControlCraft Quest Line
+@quest_line ControlCraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest controlcraft_intro
     title: Introduction to ControlCraft
     desc: Learn the basics of ControlCraft and craft your first item
-    requires: ControlCraft Quest Line:controlcraft_discover
+    requires: ControlCraftQL:controlcraft_discover
     logic: AND
     task: craft "any item from ControlCraft" 1
     reward: item minecraft:book 1 "ControlCraft Guide"
@@ -36,7 +37,7 @@
 >quest controlcraft_master
     title: Master ControlCraft
     desc: Become proficient with advanced ControlCraft mechanics
-    requires: ControlCraft Quest Line:controlcraft_intro
+    requires: ControlCraftQL:controlcraft_intro
     logic: AND
     task: collect "advanced items from ControlCraft" 5
     reward: choice

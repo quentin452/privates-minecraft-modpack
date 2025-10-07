@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ArtsEffectsSpellPack Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ArtsEffectsSpellPack
 @filename ArtsEffectsSpellPack.jar
 @size 0.01MB
 @category small_mods
-@quest_line ArtsEffectsSpellPack Quest Line
+@quest_line ArtsEffectsSpellPackQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest artseffectsspellpack_intro
     title: Introduction to ArtsEffectsSpellPack
     desc: Learn the basics of ArtsEffectsSpellPack and craft your first item
-    requires: ArtsEffectsSpellPack Quest Line:artseffectsspellpack_discover
+    requires: ArtsEffectsSpellPackQL:artseffectsspellpack_discover
     logic: AND
     task: craft "any item from ArtsEffectsSpellPack" 1
     reward: item minecraft:book 1 "ArtsEffectsSpellPack Guide"
@@ -36,7 +37,7 @@
 >quest artseffectsspellpack_master
     title: Master ArtsEffectsSpellPack
     desc: Become proficient with advanced ArtsEffectsSpellPack mechanics
-    requires: ArtsEffectsSpellPack Quest Line:artseffectsspellpack_intro
+    requires: ArtsEffectsSpellPackQL:artseffectsspellpack_intro
     logic: AND
     task: collect "advanced items from ArtsEffectsSpellPack" 5
     reward: choice

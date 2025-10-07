@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # morefuelsmod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod morefuelsmod
 @filename morefuelsmod-1.7.10-v1.3.2.jar
 @size 0.03MB
 @category small_mods
-@quest_line morefuelsmod Quest Line
+@quest_line morefuelsmodQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest morefuelsmod_intro
     title: Introduction to morefuelsmod
     desc: Learn the basics of morefuelsmod and craft your first item
-    requires: morefuelsmod Quest Line:morefuelsmod_discover
+    requires: morefuelsmodQL:morefuelsmod_discover
     logic: AND
     task: craft "any item from morefuelsmod" 1
     reward: item minecraft:book 1 "morefuelsmod Guide"
@@ -36,7 +37,7 @@
 >quest morefuelsmod_master
     title: Master morefuelsmod
     desc: Become proficient with advanced morefuelsmod mechanics
-    requires: morefuelsmod Quest Line:morefuelsmod_intro
+    requires: morefuelsmodQL:morefuelsmod_intro
     logic: AND
     task: collect "advanced items from morefuelsmod" 5
     reward: choice

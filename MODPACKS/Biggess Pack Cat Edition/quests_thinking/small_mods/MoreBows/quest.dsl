@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # MoreBows Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MoreBows
 @filename MoreBows-1.0.10.jar
 @size 0.03MB
 @category small_mods
-@quest_line MoreBows Quest Line
+@quest_line MoreBowsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest morebows_intro
     title: Introduction to MoreBows
     desc: Learn the basics of MoreBows and craft your first item
-    requires: MoreBows Quest Line:morebows_discover
+    requires: MoreBowsQL:morebows_discover
     logic: AND
     task: craft "any item from MoreBows" 1
     reward: item minecraft:book 1 "MoreBows Guide"
@@ -36,7 +37,7 @@
 >quest morebows_master
     title: Master MoreBows
     desc: Become proficient with advanced MoreBows mechanics
-    requires: MoreBows Quest Line:morebows_intro
+    requires: MoreBowsQL:morebows_intro
     logic: AND
     task: collect "advanced items from MoreBows" 5
     reward: choice

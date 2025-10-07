@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # compactstorage-1.7.10-release-2.1.0-lts.21 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod compactstorage-1.7.10-release-2.1.0-lts.21
 @filename compactstorage-1.7.10-release-2.1.0-lts.21-universal.jar
 @size 0.09MB
 @category small_mods
-@quest_line compactstorage-1.7.10-release-2.1.0-lts.21 Quest Line
+@quest_line compactstorage-1.7.10-release-2.1.0-lts.21QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest compactstorage_1_7_10_release_2_1_0_lts_21_intro
     title: Introduction to compactstorage-1.7.10-release-2.1.0-lts.21
     desc: Learn the basics of compactstorage-1.7.10-release-2.1.0-lts.21 and craft your first item
-    requires: compactstorage-1.7.10-release-2.1.0-lts.21 Quest Line:compactstorage_1_7_10_release_2_1_0_lts_21_discover
+    requires: compactstorage-1.7.10-release-2.1.0-lts.21QL:compactstorage_1_7_10_release_2_1_0_lts_21_discover
     logic: AND
     task: craft "any item from compactstorage-1.7.10-release-2.1.0-lts.21" 1
     reward: item minecraft:book 1 "compactstorage-1.7.10-release-2.1.0-lts.21 Guide"
@@ -36,7 +37,7 @@
 >quest compactstorage_1_7_10_release_2_1_0_lts_21_master
     title: Master compactstorage-1.7.10-release-2.1.0-lts.21
     desc: Become proficient with advanced compactstorage-1.7.10-release-2.1.0-lts.21 mechanics
-    requires: compactstorage-1.7.10-release-2.1.0-lts.21 Quest Line:compactstorage_1_7_10_release_2_1_0_lts_21_intro
+    requires: compactstorage-1.7.10-release-2.1.0-lts.21QL:compactstorage_1_7_10_release_2_1_0_lts_21_intro
     logic: AND
     task: collect "advanced items from compactstorage-1.7.10-release-2.1.0-lts.21" 5
     reward: choice

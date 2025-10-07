@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ElytraBombing Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ElytraBombing
 @filename ElytraBombing-Forge-1.7.10-1.0.1.jar
 @size 0.03MB
 @category small_mods
-@quest_line ElytraBombing Quest Line
+@quest_line ElytraBombingQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest elytrabombing_intro
     title: Introduction to ElytraBombing
     desc: Learn the basics of ElytraBombing and craft your first item
-    requires: ElytraBombing Quest Line:elytrabombing_discover
+    requires: ElytraBombingQL:elytrabombing_discover
     logic: AND
     task: craft "any item from ElytraBombing" 1
     reward: item minecraft:book 1 "ElytraBombing Guide"
@@ -36,7 +37,7 @@
 >quest elytrabombing_master
     title: Master ElytraBombing
     desc: Become proficient with advanced ElytraBombing mechanics
-    requires: ElytraBombing Quest Line:elytrabombing_intro
+    requires: ElytraBombingQL:elytrabombing_intro
     logic: AND
     task: collect "advanced items from ElytraBombing" 5
     reward: choice

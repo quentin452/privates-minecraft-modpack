@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # beebetteratbees Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod beebetteratbees
 @filename beebetteratbees-0.4.3-GTNH.jar
 @size 0.03MB
 @category small_mods
-@quest_line beebetteratbees Quest Line
+@quest_line beebetteratbeesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest beebetteratbees_intro
     title: Introduction to beebetteratbees
     desc: Learn the basics of beebetteratbees and craft your first item
-    requires: beebetteratbees Quest Line:beebetteratbees_discover
+    requires: beebetteratbeesQL:beebetteratbees_discover
     logic: AND
     task: craft "any item from beebetteratbees" 1
     reward: item minecraft:book 1 "beebetteratbees Guide"
@@ -36,7 +37,7 @@
 >quest beebetteratbees_master
     title: Master beebetteratbees
     desc: Become proficient with advanced beebetteratbees mechanics
-    requires: beebetteratbees Quest Line:beebetteratbees_intro
+    requires: beebetteratbeesQL:beebetteratbees_intro
     logic: AND
     task: collect "advanced items from beebetteratbees" 5
     reward: choice

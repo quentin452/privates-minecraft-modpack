@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # TSteelworks Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TSteelworks
 @filename TSteelworks-1.7.10-1.1.2-20.jar
 @size 2.70MB
 @category medium_mods
-@quest_line TSteelworks Quest Line
+@quest_line TSteelworksQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest tsteelworks_intro
     title: Introduction to TSteelworks
     desc: Learn the basics of TSteelworks and craft your first item
-    requires: TSteelworks Quest Line:tsteelworks_discover
+    requires: TSteelworksQL:tsteelworks_discover
     logic: AND
     task: craft "any item from TSteelworks" 1
     reward: item minecraft:book 1 "TSteelworks Guide"
@@ -36,7 +37,7 @@
 >quest tsteelworks_master
     title: Master TSteelworks
     desc: Become proficient with advanced TSteelworks mechanics
-    requires: TSteelworks Quest Line:tsteelworks_intro
+    requires: TSteelworksQL:tsteelworks_intro
     logic: AND
     task: collect "advanced items from TSteelworks" 5
     reward: choice

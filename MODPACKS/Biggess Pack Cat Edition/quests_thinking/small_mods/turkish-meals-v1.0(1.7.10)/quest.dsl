@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # turkish-meals-v1.0(1.7.10) Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod turkish-meals-v1.0(1.7.10)
 @filename turkish-meals-v1.0(1.7.10)(1).jar
 @size 0.03MB
 @category small_mods
-@quest_line turkish-meals-v1.0(1.7.10) Quest Line
+@quest_line turkish-meals-v1.0(1.7.10)QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest turkish_meals_v1_01_7_10_intro
     title: Introduction to turkish-meals-v1.0(1.7.10)
     desc: Learn the basics of turkish-meals-v1.0(1.7.10) and craft your first item
-    requires: turkish-meals-v1.0(1.7.10) Quest Line:turkish_meals_v1_01_7_10_discover
+    requires: turkish-meals-v1.0(1.7.10)QL:turkish_meals_v1_01_7_10_discover
     logic: AND
     task: craft "any item from turkish-meals-v1.0(1.7.10)" 1
     reward: item minecraft:book 1 "turkish-meals-v1.0(1.7.10) Guide"
@@ -36,7 +37,7 @@
 >quest turkish_meals_v1_01_7_10_master
     title: Master turkish-meals-v1.0(1.7.10)
     desc: Become proficient with advanced turkish-meals-v1.0(1.7.10) mechanics
-    requires: turkish-meals-v1.0(1.7.10) Quest Line:turkish_meals_v1_01_7_10_intro
+    requires: turkish-meals-v1.0(1.7.10)QL:turkish_meals_v1_01_7_10_intro
     logic: AND
     task: collect "advanced items from turkish-meals-v1.0(1.7.10)" 5
     reward: choice

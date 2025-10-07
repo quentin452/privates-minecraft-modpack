@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Arcana-Rpg-Continuation Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Arcana-Rpg-Continuation
 @filename Arcana-Rpg-Continuation-1.7.10-1.4.8.5.jar
 @size 3.89MB
 @category medium_mods
-@quest_line Arcana-Rpg-Continuation Quest Line
+@quest_line Arcana-Rpg-ContinuationQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest arcana_rpg_continuation_intro
     title: Introduction to Arcana-Rpg-Continuation
     desc: Learn the basics of Arcana-Rpg-Continuation and craft your first item
-    requires: Arcana-Rpg-Continuation Quest Line:arcana_rpg_continuation_discover
+    requires: Arcana-Rpg-ContinuationQL:arcana_rpg_continuation_discover
     logic: AND
     task: craft "any item from Arcana-Rpg-Continuation" 1
     reward: item minecraft:book 1 "Arcana-Rpg-Continuation Guide"
@@ -36,7 +37,7 @@
 >quest arcana_rpg_continuation_master
     title: Master Arcana-Rpg-Continuation
     desc: Become proficient with advanced Arcana-Rpg-Continuation mechanics
-    requires: Arcana-Rpg-Continuation Quest Line:arcana_rpg_continuation_intro
+    requires: Arcana-Rpg-ContinuationQL:arcana_rpg_continuation_intro
     logic: AND
     task: collect "advanced items from Arcana-Rpg-Continuation" 5
     reward: choice

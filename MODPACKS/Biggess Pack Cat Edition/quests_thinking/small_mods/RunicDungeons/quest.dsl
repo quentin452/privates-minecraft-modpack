@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # RunicDungeons Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RunicDungeons
 @filename RunicDungeons-1.1.7b.jar
 @size 0.67MB
 @category small_mods
-@quest_line RunicDungeons Quest Line
+@quest_line RunicDungeonsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest runicdungeons_intro
     title: Introduction to RunicDungeons
     desc: Learn the basics of RunicDungeons and craft your first item
-    requires: RunicDungeons Quest Line:runicdungeons_discover
+    requires: RunicDungeonsQL:runicdungeons_discover
     logic: AND
     task: craft "any item from RunicDungeons" 1
     reward: item minecraft:book 1 "RunicDungeons Guide"
@@ -36,7 +37,7 @@
 >quest runicdungeons_master
     title: Master RunicDungeons
     desc: Become proficient with advanced RunicDungeons mechanics
-    requires: RunicDungeons Quest Line:runicdungeons_intro
+    requires: RunicDungeonsQL:runicdungeons_intro
     logic: AND
     task: collect "advanced items from RunicDungeons" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # HardcoreEnderExpansion Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod HardcoreEnderExpansion
 @filename HardcoreEnderExpansion-1.12.13-GTNH.jar
 @size 18.76MB
 @category large_mods
-@quest_line HardcoreEnderExpansion Quest Line
+@quest_line HardcoreEnderExpansionQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest hardcoreenderexpansion_intro
     title: Introduction to HardcoreEnderExpansion
     desc: Learn the basics of HardcoreEnderExpansion and craft your first item
-    requires: HardcoreEnderExpansion Quest Line:hardcoreenderexpansion_discover
+    requires: HardcoreEnderExpansionQL:hardcoreenderexpansion_discover
     logic: AND
     task: craft "any item from HardcoreEnderExpansion" 1
     reward: item minecraft:book 1 "HardcoreEnderExpansion Guide"
@@ -36,7 +37,7 @@
 >quest hardcoreenderexpansion_master
     title: Master HardcoreEnderExpansion
     desc: Become proficient with advanced HardcoreEnderExpansion mechanics
-    requires: HardcoreEnderExpansion Quest Line:hardcoreenderexpansion_intro
+    requires: HardcoreEnderExpansionQL:hardcoreenderexpansion_intro
     logic: AND
     task: collect "advanced items from HardcoreEnderExpansion" 5
     reward: choice

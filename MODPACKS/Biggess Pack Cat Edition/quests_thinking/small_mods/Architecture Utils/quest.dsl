@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Architecture Utils Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Architecture Utils
 @filename Architecture Utils-1.7.10-1.0.jar
 @size 0.02MB
 @category small_mods
-@quest_line Architecture Utils Quest Line
+@quest_line Architecture UtilsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest architecture_utils_intro
     title: Introduction to Architecture Utils
     desc: Learn the basics of Architecture Utils and craft your first item
-    requires: Architecture Utils Quest Line:architecture_utils_discover
+    requires: Architecture UtilsQL:architecture_utils_discover
     logic: AND
     task: craft "any item from Architecture Utils" 1
     reward: item minecraft:book 1 "Architecture Utils Guide"
@@ -36,7 +37,7 @@
 >quest architecture_utils_master
     title: Master Architecture Utils
     desc: Become proficient with advanced Architecture Utils mechanics
-    requires: Architecture Utils Quest Line:architecture_utils_intro
+    requires: Architecture UtilsQL:architecture_utils_intro
     logic: AND
     task: collect "advanced items from Architecture Utils" 5
     reward: choice

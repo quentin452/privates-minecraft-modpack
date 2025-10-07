@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # baublelicious Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod baublelicious
 @filename baublelicious-1.7.10-1.2.2-final.jar
 @size 0.15MB
 @category small_mods
-@quest_line baublelicious Quest Line
+@quest_line baubleliciousQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest baublelicious_intro
     title: Introduction to baublelicious
     desc: Learn the basics of baublelicious and craft your first item
-    requires: baublelicious Quest Line:baublelicious_discover
+    requires: baubleliciousQL:baublelicious_discover
     logic: AND
     task: craft "any item from baublelicious" 1
     reward: item minecraft:book 1 "baublelicious Guide"
@@ -36,7 +37,7 @@
 >quest baublelicious_master
     title: Master baublelicious
     desc: Become proficient with advanced baublelicious mechanics
-    requires: baublelicious Quest Line:baublelicious_intro
+    requires: baubleliciousQL:baublelicious_intro
     logic: AND
     task: collect "advanced items from baublelicious" 5
     reward: choice

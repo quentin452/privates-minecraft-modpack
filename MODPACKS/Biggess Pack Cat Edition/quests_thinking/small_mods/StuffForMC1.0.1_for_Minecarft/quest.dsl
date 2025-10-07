@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # StuffForMC1.0.1_for_Minecarft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod StuffForMC1.0.1_for_Minecarft
 @filename StuffForMC1.0.1_for_Minecarft_1.7.10.jar
 @size 0.02MB
 @category small_mods
-@quest_line StuffForMC1.0.1_for_Minecarft Quest Line
+@quest_line StuffForMC1.0.1_for_MinecarftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest stuffformc1_0_1_for_minecarft_intro
     title: Introduction to StuffForMC1.0.1_for_Minecarft
     desc: Learn the basics of StuffForMC1.0.1_for_Minecarft and craft your first item
-    requires: StuffForMC1.0.1_for_Minecarft Quest Line:stuffformc1_0_1_for_minecarft_discover
+    requires: StuffForMC1.0.1_for_MinecarftQL:stuffformc1_0_1_for_minecarft_discover
     logic: AND
     task: craft "any item from StuffForMC1.0.1_for_Minecarft" 1
     reward: item minecraft:book 1 "StuffForMC1.0.1_for_Minecarft Guide"
@@ -36,7 +37,7 @@
 >quest stuffformc1_0_1_for_minecarft_master
     title: Master StuffForMC1.0.1_for_Minecarft
     desc: Become proficient with advanced StuffForMC1.0.1_for_Minecarft mechanics
-    requires: StuffForMC1.0.1_for_Minecarft Quest Line:stuffformc1_0_1_for_minecarft_intro
+    requires: StuffForMC1.0.1_for_MinecarftQL:stuffformc1_0_1_for_minecarft_intro
     logic: AND
     task: collect "advanced items from StuffForMC1.0.1_for_Minecarft" 5
     reward: choice

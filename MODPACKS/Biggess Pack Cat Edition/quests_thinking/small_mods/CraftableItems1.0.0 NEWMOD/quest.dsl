@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # CraftableItems1.0.0 NEWMOD Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CraftableItems1.0.0 NEWMOD
 @filename CraftableItems1.0.0 NEWMOD.jar
 @size 0.38MB
 @category small_mods
-@quest_line CraftableItems1.0.0 NEWMOD Quest Line
+@quest_line CraftableItems1.0.0 NEWMODQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest craftableitems1_0_0_newmod_intro
     title: Introduction to CraftableItems1.0.0 NEWMOD
     desc: Learn the basics of CraftableItems1.0.0 NEWMOD and craft your first item
-    requires: CraftableItems1.0.0 NEWMOD Quest Line:craftableitems1_0_0_newmod_discover
+    requires: CraftableItems1.0.0 NEWMODQL:craftableitems1_0_0_newmod_discover
     logic: AND
     task: craft "any item from CraftableItems1.0.0 NEWMOD" 1
     reward: item minecraft:book 1 "CraftableItems1.0.0 NEWMOD Guide"
@@ -36,7 +37,7 @@
 >quest craftableitems1_0_0_newmod_master
     title: Master CraftableItems1.0.0 NEWMOD
     desc: Become proficient with advanced CraftableItems1.0.0 NEWMOD mechanics
-    requires: CraftableItems1.0.0 NEWMOD Quest Line:craftableitems1_0_0_newmod_intro
+    requires: CraftableItems1.0.0 NEWMODQL:craftableitems1_0_0_newmod_intro
     logic: AND
     task: collect "advanced items from CraftableItems1.0.0 NEWMOD" 5
     reward: choice

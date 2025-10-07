@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # LidlMod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod LidlMod
 @filename LidlMod_1.16.5.jar
 @size 0.42MB
 @category small_mods
-@quest_line LidlMod Quest Line
+@quest_line LidlModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest lidlmod_intro
     title: Introduction to LidlMod
     desc: Learn the basics of LidlMod and craft your first item
-    requires: LidlMod Quest Line:lidlmod_discover
+    requires: LidlModQL:lidlmod_discover
     logic: AND
     task: craft "any item from LidlMod" 1
     reward: item minecraft:book 1 "LidlMod Guide"
@@ -36,7 +37,7 @@
 >quest lidlmod_master
     title: Master LidlMod
     desc: Become proficient with advanced LidlMod mechanics
-    requires: LidlMod Quest Line:lidlmod_intro
+    requires: LidlModQL:lidlmod_intro
     logic: AND
     task: collect "advanced items from LidlMod" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # RopeBridge-v1.3 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RopeBridge-v1.3
 @filename RopeBridge-v1.3-mc1.7.10.jar
 @size 0.09MB
 @category small_mods
-@quest_line RopeBridge-v1.3 Quest Line
+@quest_line RopeBridge-v1.3QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ropebridge_v1_3_intro
     title: Introduction to RopeBridge-v1.3
     desc: Learn the basics of RopeBridge-v1.3 and craft your first item
-    requires: RopeBridge-v1.3 Quest Line:ropebridge_v1_3_discover
+    requires: RopeBridge-v1.3QL:ropebridge_v1_3_discover
     logic: AND
     task: craft "any item from RopeBridge-v1.3" 1
     reward: item minecraft:book 1 "RopeBridge-v1.3 Guide"
@@ -36,7 +37,7 @@
 >quest ropebridge_v1_3_master
     title: Master RopeBridge-v1.3
     desc: Become proficient with advanced RopeBridge-v1.3 mechanics
-    requires: RopeBridge-v1.3 Quest Line:ropebridge_v1_3_intro
+    requires: RopeBridge-v1.3QL:ropebridge_v1_3_intro
     logic: AND
     task: collect "advanced items from RopeBridge-v1.3" 5
     reward: choice

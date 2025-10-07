@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # hgp Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod hgp
 @filename hgp-1.7.10-1.1.0.4-universal.jar
 @size 0.01MB
 @category small_mods
-@quest_line hgp Quest Line
+@quest_line hgpQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest hgp_intro
     title: Introduction to hgp
     desc: Learn the basics of hgp and craft your first item
-    requires: hgp Quest Line:hgp_discover
+    requires: hgpQL:hgp_discover
     logic: AND
     task: craft "any item from hgp" 1
     reward: item minecraft:book 1 "hgp Guide"
@@ -36,7 +37,7 @@
 >quest hgp_master
     title: Master hgp
     desc: Become proficient with advanced hgp mechanics
-    requires: hgp Quest Line:hgp_intro
+    requires: hgpQL:hgp_intro
     logic: AND
     task: collect "advanced items from hgp" 5
     reward: choice

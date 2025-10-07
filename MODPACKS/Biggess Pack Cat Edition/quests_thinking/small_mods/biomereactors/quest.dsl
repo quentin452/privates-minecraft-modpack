@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # biomereactors Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod biomereactors
 @filename biomereactors-1.0.2.jar
 @size 0.28MB
 @category small_mods
-@quest_line biomereactors Quest Line
+@quest_line biomereactorsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest biomereactors_intro
     title: Introduction to biomereactors
     desc: Learn the basics of biomereactors and craft your first item
-    requires: biomereactors Quest Line:biomereactors_discover
+    requires: biomereactorsQL:biomereactors_discover
     logic: AND
     task: craft "any item from biomereactors" 1
     reward: item minecraft:book 1 "biomereactors Guide"
@@ -36,7 +37,7 @@
 >quest biomereactors_master
     title: Master biomereactors
     desc: Become proficient with advanced biomereactors mechanics
-    requires: biomereactors Quest Line:biomereactors_intro
+    requires: biomereactorsQL:biomereactors_intro
     logic: AND
     task: collect "advanced items from biomereactors" 5
     reward: choice

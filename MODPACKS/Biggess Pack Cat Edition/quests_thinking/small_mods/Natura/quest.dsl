@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Natura Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Natura
 @filename Natura-2.8.9.jar
 @size 0.85MB
 @category small_mods
-@quest_line Natura Quest Line
+@quest_line NaturaQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest natura_intro
     title: Introduction to Natura
     desc: Learn the basics of Natura and craft your first item
-    requires: Natura Quest Line:natura_discover
+    requires: NaturaQL:natura_discover
     logic: AND
     task: craft "any item from Natura" 1
     reward: item minecraft:book 1 "Natura Guide"
@@ -36,7 +37,7 @@
 >quest natura_master
     title: Master Natura
     desc: Become proficient with advanced Natura mechanics
-    requires: Natura Quest Line:natura_intro
+    requires: NaturaQL:natura_intro
     logic: AND
     task: collect "advanced items from Natura" 5
     reward: choice

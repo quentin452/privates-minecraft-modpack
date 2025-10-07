@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # NotEnoughEnergistics Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod NotEnoughEnergistics
 @filename NotEnoughEnergistics-1.7.14.jar
 @size 0.29MB
 @category small_mods
-@quest_line NotEnoughEnergistics Quest Line
+@quest_line NotEnoughEnergisticsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest notenoughenergistics_intro
     title: Introduction to NotEnoughEnergistics
     desc: Learn the basics of NotEnoughEnergistics and craft your first item
-    requires: NotEnoughEnergistics Quest Line:notenoughenergistics_discover
+    requires: NotEnoughEnergisticsQL:notenoughenergistics_discover
     logic: AND
     task: craft "any item from NotEnoughEnergistics" 1
     reward: item minecraft:book 1 "NotEnoughEnergistics Guide"
@@ -36,7 +37,7 @@
 >quest notenoughenergistics_master
     title: Master NotEnoughEnergistics
     desc: Become proficient with advanced NotEnoughEnergistics mechanics
-    requires: NotEnoughEnergistics Quest Line:notenoughenergistics_intro
+    requires: NotEnoughEnergisticsQL:notenoughenergistics_intro
     logic: AND
     task: collect "advanced items from NotEnoughEnergistics" 5
     reward: choice

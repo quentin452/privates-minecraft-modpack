@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Atum Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Atum
 @filename Atum-1.7.10-0.6.77.jar
 @size 2.53MB
 @category medium_mods
-@quest_line Atum Quest Line
+@quest_line AtumQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest atum_intro
     title: Introduction to Atum
     desc: Learn the basics of Atum and craft your first item
-    requires: Atum Quest Line:atum_discover
+    requires: AtumQL:atum_discover
     logic: AND
     task: craft "any item from Atum" 1
     reward: item minecraft:book 1 "Atum Guide"
@@ -36,7 +37,7 @@
 >quest atum_master
     title: Master Atum
     desc: Become proficient with advanced Atum mechanics
-    requires: Atum Quest Line:atum_intro
+    requires: AtumQL:atum_intro
     logic: AND
     task: collect "advanced items from Atum" 5
     reward: choice

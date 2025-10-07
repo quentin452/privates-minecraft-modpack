@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # SBM-GrapplingHook Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SBM-GrapplingHook
 @filename SBM-GrapplingHook-1.7.10-0.1.0b20170514023901.jar
 @size 0.06MB
 @category small_mods
-@quest_line SBM-GrapplingHook Quest Line
+@quest_line SBM-GrapplingHookQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest sbm_grapplinghook_intro
     title: Introduction to SBM-GrapplingHook
     desc: Learn the basics of SBM-GrapplingHook and craft your first item
-    requires: SBM-GrapplingHook Quest Line:sbm_grapplinghook_discover
+    requires: SBM-GrapplingHookQL:sbm_grapplinghook_discover
     logic: AND
     task: craft "any item from SBM-GrapplingHook" 1
     reward: item minecraft:book 1 "SBM-GrapplingHook Guide"
@@ -36,7 +37,7 @@
 >quest sbm_grapplinghook_master
     title: Master SBM-GrapplingHook
     desc: Become proficient with advanced SBM-GrapplingHook mechanics
-    requires: SBM-GrapplingHook Quest Line:sbm_grapplinghook_intro
+    requires: SBM-GrapplingHookQL:sbm_grapplinghook_intro
     logic: AND
     task: collect "advanced items from SBM-GrapplingHook" 5
     reward: choice

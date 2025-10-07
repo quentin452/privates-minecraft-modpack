@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ExtraUtilities Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ExtraUtilities
 @filename ExtraUtilities-1.2.12.2.jar
 @size 2.05MB
 @category medium_mods
-@quest_line ExtraUtilities Quest Line
+@quest_line ExtraUtilitiesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest extrautilities_intro
     title: Introduction to ExtraUtilities
     desc: Learn the basics of ExtraUtilities and craft your first item
-    requires: ExtraUtilities Quest Line:extrautilities_discover
+    requires: ExtraUtilitiesQL:extrautilities_discover
     logic: AND
     task: craft "any item from ExtraUtilities" 1
     reward: item minecraft:book 1 "ExtraUtilities Guide"
@@ -36,7 +37,7 @@
 >quest extrautilities_master
     title: Master ExtraUtilities
     desc: Become proficient with advanced ExtraUtilities mechanics
-    requires: ExtraUtilities Quest Line:extrautilities_intro
+    requires: ExtraUtilitiesQL:extrautilities_intro
     logic: AND
     task: collect "advanced items from ExtraUtilities" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # StevesAddons Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod StevesAddons
 @filename StevesAddons-0.14.2.jar
 @size 0.22MB
 @category small_mods
-@quest_line StevesAddons Quest Line
+@quest_line StevesAddonsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest stevesaddons_intro
     title: Introduction to StevesAddons
     desc: Learn the basics of StevesAddons and craft your first item
-    requires: StevesAddons Quest Line:stevesaddons_discover
+    requires: StevesAddonsQL:stevesaddons_discover
     logic: AND
     task: craft "any item from StevesAddons" 1
     reward: item minecraft:book 1 "StevesAddons Guide"
@@ -36,7 +37,7 @@
 >quest stevesaddons_master
     title: Master StevesAddons
     desc: Become proficient with advanced StevesAddons mechanics
-    requires: StevesAddons Quest Line:stevesaddons_intro
+    requires: StevesAddonsQL:stevesaddons_intro
     logic: AND
     task: collect "advanced items from StevesAddons" 5
     reward: choice

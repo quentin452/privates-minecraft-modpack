@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # middleearththaumaturgy Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod middleearththaumaturgy
 @filename middleearththaumaturgy-0.7.3.1_a for v36.x.jar
 @size 2.15MB
 @category medium_mods
-@quest_line middleearththaumaturgy Quest Line
+@quest_line middleearththaumaturgyQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest middleearththaumaturgy_0_7_3_1_a_for_v36_x_intro
     title: Introduction to middleearththaumaturgy
     desc: Learn the basics of middleearththaumaturgy and craft your first item
-    requires: middleearththaumaturgy Quest Line:middleearththaumaturgy_0_7_3_1_a_for_v36_x_discover
+    requires: middleearththaumaturgyQL:middleearththaumaturgy_0_7_3_1_a_for_v36_x_discover
     logic: AND
     task: craft "any item from middleearththaumaturgy" 1
     reward: item minecraft:book 1 "middleearththaumaturgy Guide"
@@ -36,7 +37,7 @@
 >quest middleearththaumaturgy_0_7_3_1_a_for_v36_x_master
     title: Master middleearththaumaturgy
     desc: Become proficient with advanced middleearththaumaturgy mechanics
-    requires: middleearththaumaturgy Quest Line:middleearththaumaturgy_0_7_3_1_a_for_v36_x_intro
+    requires: middleearththaumaturgyQL:middleearththaumaturgy_0_7_3_1_a_for_v36_x_intro
     logic: AND
     task: collect "advanced items from middleearththaumaturgy" 5
     reward: choice

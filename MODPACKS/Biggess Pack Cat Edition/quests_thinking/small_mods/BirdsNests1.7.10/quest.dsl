@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BirdsNests1.7.10 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BirdsNests1.7.10
 @filename BirdsNests1.7.10-1.4.jar
 @size 0.02MB
 @category small_mods
-@quest_line BirdsNests1.7.10 Quest Line
+@quest_line BirdsNests1.7.10QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest birdsnests1_7_10_intro
     title: Introduction to BirdsNests1.7.10
     desc: Learn the basics of BirdsNests1.7.10 and craft your first item
-    requires: BirdsNests1.7.10 Quest Line:birdsnests1_7_10_discover
+    requires: BirdsNests1.7.10QL:birdsnests1_7_10_discover
     logic: AND
     task: craft "any item from BirdsNests1.7.10" 1
     reward: item minecraft:book 1 "BirdsNests1.7.10 Guide"
@@ -36,7 +37,7 @@
 >quest birdsnests1_7_10_master
     title: Master BirdsNests1.7.10
     desc: Become proficient with advanced BirdsNests1.7.10 mechanics
-    requires: BirdsNests1.7.10 Quest Line:birdsnests1_7_10_intro
+    requires: BirdsNests1.7.10QL:birdsnests1_7_10_intro
     logic: AND
     task: collect "advanced items from BirdsNests1.7.10" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # gadomancy Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod gadomancy
 @filename gadomancy-1.4.7.jar
 @size 6.78MB
 @category medium_mods
-@quest_line gadomancy Quest Line
+@quest_line gadomancyQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest gadomancy_intro
     title: Introduction to gadomancy
     desc: Learn the basics of gadomancy and craft your first item
-    requires: gadomancy Quest Line:gadomancy_discover
+    requires: gadomancyQL:gadomancy_discover
     logic: AND
     task: craft "any item from gadomancy" 1
     reward: item minecraft:book 1 "gadomancy Guide"
@@ -36,7 +37,7 @@
 >quest gadomancy_master
     title: Master gadomancy
     desc: Become proficient with advanced gadomancy mechanics
-    requires: gadomancy Quest Line:gadomancy_intro
+    requires: gadomancyQL:gadomancy_intro
     logic: AND
     task: collect "advanced items from gadomancy" 5
     reward: choice

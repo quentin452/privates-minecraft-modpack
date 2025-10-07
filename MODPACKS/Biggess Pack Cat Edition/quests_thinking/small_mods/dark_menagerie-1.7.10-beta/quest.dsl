@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # dark_menagerie-1.7.10-beta Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod dark_menagerie-1.7.10-beta
 @filename dark_menagerie-1.7.10-beta-3.1a.jar
 @size 0.24MB
 @category small_mods
-@quest_line dark_menagerie-1.7.10-beta Quest Line
+@quest_line dark_menagerie-1.7.10-betaQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest dark_menagerie_1_7_10_beta_intro
     title: Introduction to dark_menagerie-1.7.10-beta
     desc: Learn the basics of dark_menagerie-1.7.10-beta and craft your first item
-    requires: dark_menagerie-1.7.10-beta Quest Line:dark_menagerie_1_7_10_beta_discover
+    requires: dark_menagerie-1.7.10-betaQL:dark_menagerie_1_7_10_beta_discover
     logic: AND
     task: craft "any item from dark_menagerie-1.7.10-beta" 1
     reward: item minecraft:book 1 "dark_menagerie-1.7.10-beta Guide"
@@ -36,7 +37,7 @@
 >quest dark_menagerie_1_7_10_beta_master
     title: Master dark_menagerie-1.7.10-beta
     desc: Become proficient with advanced dark_menagerie-1.7.10-beta mechanics
-    requires: dark_menagerie-1.7.10-beta Quest Line:dark_menagerie_1_7_10_beta_intro
+    requires: dark_menagerie-1.7.10-betaQL:dark_menagerie_1_7_10_beta_intro
     logic: AND
     task: collect "advanced items from dark_menagerie-1.7.10-beta" 5
     reward: choice

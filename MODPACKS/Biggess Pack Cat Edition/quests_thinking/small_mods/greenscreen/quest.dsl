@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # greenscreen Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod greenscreen
 @filename greenscreen-1.7.10-1.2.jar
 @size 0.05MB
 @category small_mods
-@quest_line greenscreen Quest Line
+@quest_line greenscreenQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest greenscreen_intro
     title: Introduction to greenscreen
     desc: Learn the basics of greenscreen and craft your first item
-    requires: greenscreen Quest Line:greenscreen_discover
+    requires: greenscreenQL:greenscreen_discover
     logic: AND
     task: craft "any item from greenscreen" 1
     reward: item minecraft:book 1 "greenscreen Guide"
@@ -36,7 +37,7 @@
 >quest greenscreen_master
     title: Master greenscreen
     desc: Become proficient with advanced greenscreen mechanics
-    requires: greenscreen Quest Line:greenscreen_intro
+    requires: greenscreenQL:greenscreen_intro
     logic: AND
     task: collect "advanced items from greenscreen" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # DisenchanterMod-[1.7.10]1.6 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod DisenchanterMod-[1.7.10]1.6
 @filename DisenchanterMod-[1.7.10]1.6.jar
 @size 0.10MB
 @category small_mods
-@quest_line DisenchanterMod-[1.7.10]1.6 Quest Line
+@quest_line DisenchanterMod-[1.7.10]1.6QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest disenchantermod_1_7_101_6_intro
     title: Introduction to DisenchanterMod-[1.7.10]1.6
     desc: Learn the basics of DisenchanterMod-[1.7.10]1.6 and craft your first item
-    requires: DisenchanterMod-[1.7.10]1.6 Quest Line:disenchantermod_1_7_101_6_discover
+    requires: DisenchanterMod-[1.7.10]1.6QL:disenchantermod_1_7_101_6_discover
     logic: AND
     task: craft "any item from DisenchanterMod-[1.7.10]1.6" 1
     reward: item minecraft:book 1 "DisenchanterMod-[1.7.10]1.6 Guide"
@@ -36,7 +37,7 @@
 >quest disenchantermod_1_7_101_6_master
     title: Master DisenchanterMod-[1.7.10]1.6
     desc: Become proficient with advanced DisenchanterMod-[1.7.10]1.6 mechanics
-    requires: DisenchanterMod-[1.7.10]1.6 Quest Line:disenchantermod_1_7_101_6_intro
+    requires: DisenchanterMod-[1.7.10]1.6QL:disenchantermod_1_7_101_6_intro
     logic: AND
     task: collect "advanced items from DisenchanterMod-[1.7.10]1.6" 5
     reward: choice

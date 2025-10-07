@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Potion Shards 2.0 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Potion Shards 2.0
 @filename Potion Shards 2.0.jar
 @size 0.20MB
 @category small_mods
-@quest_line Potion Shards 2.0 Quest Line
+@quest_line Potion Shards 2.0QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest potion_shards_2_0_intro
     title: Introduction to Potion Shards 2.0
     desc: Learn the basics of Potion Shards 2.0 and craft your first item
-    requires: Potion Shards 2.0 Quest Line:potion_shards_2_0_discover
+    requires: Potion Shards 2.0QL:potion_shards_2_0_discover
     logic: AND
     task: craft "any item from Potion Shards 2.0" 1
     reward: item minecraft:book 1 "Potion Shards 2.0 Guide"
@@ -36,7 +37,7 @@
 >quest potion_shards_2_0_master
     title: Master Potion Shards 2.0
     desc: Become proficient with advanced Potion Shards 2.0 mechanics
-    requires: Potion Shards 2.0 Quest Line:potion_shards_2_0_intro
+    requires: Potion Shards 2.0QL:potion_shards_2_0_intro
     logic: AND
     task: collect "advanced items from Potion Shards 2.0" 5
     reward: choice

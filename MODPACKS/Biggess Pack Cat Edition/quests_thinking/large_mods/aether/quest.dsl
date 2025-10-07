@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
 
 # aether Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod aether
 @filename aether-1.7.10-1.1.2.3.jar
 @size 13.67MB
 @category large_mods
-@quest_line aether Quest Line
+@quest_line aetherQL
 @status incomplete
 
 # Discovery Quest
@@ -25,7 +26,7 @@
 >quest aether_enter
     title: First Steps in the Aether
     desc: Enter the Aether dimension for the first time
-    requires: aether Quest Line:aether_discover
+    requires: aetherQL:aether_discover
     logic: AND
     task: visit aether
     reward: item "minecraft:diamond" 1
@@ -36,7 +37,7 @@
 >quest aether_tools
     title: Skyforge Crafting
     desc: Craft your first set of Aether tools
-    requires: aether Quest Line:aether_enter
+    requires: aetherQL:aether_enter
     logic: AND
     task: craft "aether:zanite_pickaxe" 1
     reward: item "aether:zanite_ore" 3
@@ -47,7 +48,7 @@
 >quest aether_resources
     title: Heavenly Resources
     desc: Collect essential Aether materials
-    requires: aether Quest Line:aether_enter
+    requires: aetherQL:aether_enter
     logic: AND
     task: collect "aether:zanite_gem" 8
     reward: xp 200
@@ -58,7 +59,7 @@
 >quest aether_mobs
     title: Skyborne Threats
     desc: Defeat the hostile creatures of the Aether
-    requires: aether Quest Line:aether_enter
+    requires: aetherQL:aether_enter
     logic: AND
     task: kill "aether:zephyr" 3
     reward: choice
@@ -71,7 +72,7 @@
 >quest aether_meat_moa
     title: Winged Companion
     desc: Tame and ride a Moa
-    requires: aether Quest Line:aether_enter
+    requires: aetherQL:aether_enter
     logic: AND
     task: meeting "aether:moa"
     reward: item "minecraft:feather" 8

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # CreepyPastaCraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CreepyPastaCraft
 @filename CreepyPastaCraft-1.7.x-r76.6c6e88f-universal.jar
 @size 7.50MB
 @category medium_mods
-@quest_line CreepyPastaCraft Quest Line
+@quest_line CreepyPastaCraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest creepypastacraft_1_7_x_r76_6c6e88f_intro
     title: Introduction to CreepyPastaCraft
     desc: Learn the basics of CreepyPastaCraft and craft your first item
-    requires: CreepyPastaCraft Quest Line:creepypastacraft_1_7_x_r76_6c6e88f_discover
+    requires: CreepyPastaCraftQL:creepypastacraft_1_7_x_r76_6c6e88f_discover
     logic: AND
     task: craft "any item from CreepyPastaCraft" 1
     reward: item minecraft:book 1 "CreepyPastaCraft Guide"
@@ -36,7 +37,7 @@
 >quest creepypastacraft_1_7_x_r76_6c6e88f_master
     title: Master CreepyPastaCraft
     desc: Become proficient with advanced CreepyPastaCraft mechanics
-    requires: CreepyPastaCraft Quest Line:creepypastacraft_1_7_x_r76_6c6e88f_intro
+    requires: CreepyPastaCraftQL:creepypastacraft_1_7_x_r76_6c6e88f_intro
     logic: AND
     task: collect "advanced items from CreepyPastaCraft" 5
     reward: choice

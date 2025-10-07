@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # gwycraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod gwycraft
 @filename gwycraft-mc1710-0.1.10.jar
 @size 0.76MB
 @category small_mods
-@quest_line gwycraft Quest Line
+@quest_line gwycraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest gwycraft_intro
     title: Introduction to gwycraft
     desc: Learn the basics of gwycraft and craft your first item
-    requires: gwycraft Quest Line:gwycraft_discover
+    requires: gwycraftQL:gwycraft_discover
     logic: AND
     task: craft "any item from gwycraft" 1
     reward: item minecraft:book 1 "gwycraft Guide"
@@ -36,7 +37,7 @@
 >quest gwycraft_master
     title: Master gwycraft
     desc: Become proficient with advanced gwycraft mechanics
-    requires: gwycraft Quest Line:gwycraft_intro
+    requires: gwycraftQL:gwycraft_intro
     logic: AND
     task: collect "advanced items from gwycraft" 5
     reward: choice

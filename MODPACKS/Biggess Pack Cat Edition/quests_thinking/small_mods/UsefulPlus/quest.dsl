@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # UsefulPlus Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod UsefulPlus
 @filename UsefulPlus-1.7.10-18.jar
 @size 0.10MB
 @category small_mods
-@quest_line UsefulPlus Quest Line
+@quest_line UsefulPlusQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest usefulplus_intro
     title: Introduction to UsefulPlus
     desc: Learn the basics of UsefulPlus and craft your first item
-    requires: UsefulPlus Quest Line:usefulplus_discover
+    requires: UsefulPlusQL:usefulplus_discover
     logic: AND
     task: craft "any item from UsefulPlus" 1
     reward: item minecraft:book 1 "UsefulPlus Guide"
@@ -36,7 +37,7 @@
 >quest usefulplus_master
     title: Master UsefulPlus
     desc: Become proficient with advanced UsefulPlus mechanics
-    requires: UsefulPlus Quest Line:usefulplus_intro
+    requires: UsefulPlusQL:usefulplus_intro
     logic: AND
     task: collect "advanced items from UsefulPlus" 5
     reward: choice

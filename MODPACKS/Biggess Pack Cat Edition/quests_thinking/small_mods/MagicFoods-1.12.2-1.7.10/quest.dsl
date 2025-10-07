@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # MagicFoods-1.12.2-1.7.10 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MagicFoods-1.12.2-1.7.10
 @filename MagicFoods-1.12.2-1.7.10-1.15.2-1.10.2-realese.jar
 @size 0.19MB
 @category small_mods
-@quest_line MagicFoods-1.12.2-1.7.10 Quest Line
+@quest_line MagicFoods-1.12.2-1.7.10QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest magicfoods_1_12_2_1_7_10_intro
     title: Introduction to MagicFoods-1.12.2-1.7.10
     desc: Learn the basics of MagicFoods-1.12.2-1.7.10 and craft your first item
-    requires: MagicFoods-1.12.2-1.7.10 Quest Line:magicfoods_1_12_2_1_7_10_discover
+    requires: MagicFoods-1.12.2-1.7.10QL:magicfoods_1_12_2_1_7_10_discover
     logic: AND
     task: craft "any item from MagicFoods-1.12.2-1.7.10" 1
     reward: item minecraft:book 1 "MagicFoods-1.12.2-1.7.10 Guide"
@@ -36,7 +37,7 @@
 >quest magicfoods_1_12_2_1_7_10_master
     title: Master MagicFoods-1.12.2-1.7.10
     desc: Become proficient with advanced MagicFoods-1.12.2-1.7.10 mechanics
-    requires: MagicFoods-1.12.2-1.7.10 Quest Line:magicfoods_1_12_2_1_7_10_intro
+    requires: MagicFoods-1.12.2-1.7.10QL:magicfoods_1_12_2_1_7_10_intro
     logic: AND
     task: collect "advanced items from MagicFoods-1.12.2-1.7.10" 5
     reward: choice

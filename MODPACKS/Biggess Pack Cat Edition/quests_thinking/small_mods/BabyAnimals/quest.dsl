@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BabyAnimals Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BabyAnimals
 @filename BabyAnimals-1.7.10-5.jar
 @size 0.27MB
 @category small_mods
-@quest_line BabyAnimals Quest Line
+@quest_line BabyAnimalsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest babyanimals_intro
     title: Introduction to BabyAnimals
     desc: Learn the basics of BabyAnimals and craft your first item
-    requires: BabyAnimals Quest Line:babyanimals_discover
+    requires: BabyAnimalsQL:babyanimals_discover
     logic: AND
     task: craft "any item from BabyAnimals" 1
     reward: item minecraft:book 1 "BabyAnimals Guide"
@@ -36,7 +37,7 @@
 >quest babyanimals_master
     title: Master BabyAnimals
     desc: Become proficient with advanced BabyAnimals mechanics
-    requires: BabyAnimals Quest Line:babyanimals_intro
+    requires: BabyAnimalsQL:babyanimals_intro
     logic: AND
     task: collect "advanced items from BabyAnimals" 5
     reward: choice

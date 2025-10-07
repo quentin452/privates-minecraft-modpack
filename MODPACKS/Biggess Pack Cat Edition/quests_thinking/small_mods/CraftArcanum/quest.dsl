@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # CraftArcanum Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CraftArcanum
 @filename CraftArcanum-1.1.1.jar
 @size 0.27MB
 @category small_mods
-@quest_line CraftArcanum Quest Line
+@quest_line CraftArcanumQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest craftarcanum_intro
     title: Introduction to CraftArcanum
     desc: Learn the basics of CraftArcanum and craft your first item
-    requires: CraftArcanum Quest Line:craftarcanum_discover
+    requires: CraftArcanumQL:craftarcanum_discover
     logic: AND
     task: craft "any item from CraftArcanum" 1
     reward: item minecraft:book 1 "CraftArcanum Guide"
@@ -36,7 +37,7 @@
 >quest craftarcanum_master
     title: Master CraftArcanum
     desc: Become proficient with advanced CraftArcanum mechanics
-    requires: CraftArcanum Quest Line:craftarcanum_intro
+    requires: CraftArcanumQL:craftarcanum_intro
     logic: AND
     task: collect "advanced items from CraftArcanum" 5
     reward: choice

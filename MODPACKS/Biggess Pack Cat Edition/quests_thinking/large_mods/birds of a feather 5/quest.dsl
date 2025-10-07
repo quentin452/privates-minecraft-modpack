@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # birds of a feather 5 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod birds of a feather 5
 @filename birds of a feather 5.jar
 @size 12.64MB
 @category large_mods
-@quest_line birds of a feather 5 Quest Line
+@quest_line birds of a feather 5QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest birds_of_a_feather_5_intro
     title: Introduction to birds of a feather 5
     desc: Learn the basics of birds of a feather 5 and craft your first item
-    requires: birds of a feather 5 Quest Line:birds_of_a_feather_5_discover
+    requires: birds of a feather 5QL:birds_of_a_feather_5_discover
     logic: AND
     task: craft "any item from birds of a feather 5" 1
     reward: item minecraft:book 1 "birds of a feather 5 Guide"
@@ -36,7 +37,7 @@
 >quest birds_of_a_feather_5_master
     title: Master birds of a feather 5
     desc: Become proficient with advanced birds of a feather 5 mechanics
-    requires: birds of a feather 5 Quest Line:birds_of_a_feather_5_intro
+    requires: birds of a feather 5QL:birds_of_a_feather_5_intro
     logic: AND
     task: collect "advanced items from birds of a feather 5" 5
     reward: choice

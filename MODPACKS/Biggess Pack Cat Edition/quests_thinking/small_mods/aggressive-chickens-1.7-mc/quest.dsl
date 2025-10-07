@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # aggressive-chickens-1.7-mc Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod aggressive-chickens-1.7-mc
 @filename aggressive-chickens-1.7-mc-1.7.jar
 @size 0.01MB
 @category small_mods
-@quest_line aggressive-chickens-1.7-mc Quest Line
+@quest_line aggressive-chickens-1.7-mcQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest aggressive_chickens_1_7_mc_intro
     title: Introduction to aggressive-chickens-1.7-mc
     desc: Learn the basics of aggressive-chickens-1.7-mc and craft your first item
-    requires: aggressive-chickens-1.7-mc Quest Line:aggressive_chickens_1_7_mc_discover
+    requires: aggressive-chickens-1.7-mcQL:aggressive_chickens_1_7_mc_discover
     logic: AND
     task: craft "any item from aggressive-chickens-1.7-mc" 1
     reward: item minecraft:book 1 "aggressive-chickens-1.7-mc Guide"
@@ -36,7 +37,7 @@
 >quest aggressive_chickens_1_7_mc_master
     title: Master aggressive-chickens-1.7-mc
     desc: Become proficient with advanced aggressive-chickens-1.7-mc mechanics
-    requires: aggressive-chickens-1.7-mc Quest Line:aggressive_chickens_1_7_mc_intro
+    requires: aggressive-chickens-1.7-mcQL:aggressive_chickens_1_7_mc_intro
     logic: AND
     task: collect "advanced items from aggressive-chickens-1.7-mc" 5
     reward: choice

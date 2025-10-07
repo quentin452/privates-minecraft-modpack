@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # MmmMmmMmmMmm Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MmmMmmMmmMmm
 @filename MmmMmmMmmMmm-1.7.10-1.9.jar
 @size 0.02MB
 @category small_mods
-@quest_line MmmMmmMmmMmm Quest Line
+@quest_line MmmMmmMmmMmmQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest mmmmmmmmmmmm_intro
     title: Introduction to MmmMmmMmmMmm
     desc: Learn the basics of MmmMmmMmmMmm and craft your first item
-    requires: MmmMmmMmmMmm Quest Line:mmmmmmmmmmmm_discover
+    requires: MmmMmmMmmMmmQL:mmmmmmmmmmmm_discover
     logic: AND
     task: craft "any item from MmmMmmMmmMmm" 1
     reward: item minecraft:book 1 "MmmMmmMmmMmm Guide"
@@ -36,7 +37,7 @@
 >quest mmmmmmmmmmmm_master
     title: Master MmmMmmMmmMmm
     desc: Become proficient with advanced MmmMmmMmmMmm mechanics
-    requires: MmmMmmMmmMmm Quest Line:mmmmmmmmmmmm_intro
+    requires: MmmMmmMmmMmmQL:mmmmmmmmmmmm_intro
     logic: AND
     task: collect "advanced items from MmmMmmMmmMmm" 5
     reward: choice

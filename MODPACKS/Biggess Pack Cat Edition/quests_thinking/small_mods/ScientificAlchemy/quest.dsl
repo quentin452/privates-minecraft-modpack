@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ScientificAlchemy Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ScientificAlchemy
 @filename ScientificAlchemy-1.7.10-1.3.jar
 @size 0.32MB
 @category small_mods
-@quest_line ScientificAlchemy Quest Line
+@quest_line ScientificAlchemyQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest scientificalchemy_intro
     title: Introduction to ScientificAlchemy
     desc: Learn the basics of ScientificAlchemy and craft your first item
-    requires: ScientificAlchemy Quest Line:scientificalchemy_discover
+    requires: ScientificAlchemyQL:scientificalchemy_discover
     logic: AND
     task: craft "any item from ScientificAlchemy" 1
     reward: item minecraft:book 1 "ScientificAlchemy Guide"
@@ -36,7 +37,7 @@
 >quest scientificalchemy_master
     title: Master ScientificAlchemy
     desc: Become proficient with advanced ScientificAlchemy mechanics
-    requires: ScientificAlchemy Quest Line:scientificalchemy_intro
+    requires: ScientificAlchemyQL:scientificalchemy_intro
     logic: AND
     task: collect "advanced items from ScientificAlchemy" 5
     reward: choice

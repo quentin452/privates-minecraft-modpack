@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # The Rings of Power 24.07.19 (Forge) Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod The Rings of Power 24.07.19 (Forge)
 @filename [1.7.10] The Rings of Power 24.07.19 (Forge).jar
 @size 0.09MB
 @category small_mods
-@quest_line The Rings of Power 24.07.19 (Forge) Quest Line
+@quest_line The Rings of Power 24.07.19 (Forge)QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest the_rings_of_power_24_07_19_forge_intro
     title: Introduction to The Rings of Power 24.07.19 (Forge)
     desc: Learn the basics of The Rings of Power 24.07.19 (Forge) and craft your first item
-    requires: The Rings of Power 24.07.19 (Forge) Quest Line:the_rings_of_power_24_07_19_forge_discover
+    requires: The Rings of Power 24.07.19 (Forge)QL:the_rings_of_power_24_07_19_forge_discover
     logic: AND
     task: craft "any item from The Rings of Power 24.07.19 (Forge)" 1
     reward: item minecraft:book 1 "The Rings of Power 24.07.19 (Forge) Guide"
@@ -36,7 +37,7 @@
 >quest the_rings_of_power_24_07_19_forge_master
     title: Master The Rings of Power 24.07.19 (Forge)
     desc: Become proficient with advanced The Rings of Power 24.07.19 (Forge) mechanics
-    requires: The Rings of Power 24.07.19 (Forge) Quest Line:the_rings_of_power_24_07_19_forge_intro
+    requires: The Rings of Power 24.07.19 (Forge)QL:the_rings_of_power_24_07_19_forge_intro
     logic: AND
     task: collect "advanced items from The Rings of Power 24.07.19 (Forge)" 5
     reward: choice

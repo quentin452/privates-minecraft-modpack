@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # DynamicCraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod DynamicCraft
 @filename DynamicCraft-1.7.10-1.1.4.jar
 @size 0.16MB
 @category small_mods
-@quest_line DynamicCraft Quest Line
+@quest_line DynamicCraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest dynamiccraft_intro
     title: Introduction to DynamicCraft
     desc: Learn the basics of DynamicCraft and craft your first item
-    requires: DynamicCraft Quest Line:dynamiccraft_discover
+    requires: DynamicCraftQL:dynamiccraft_discover
     logic: AND
     task: craft "any item from DynamicCraft" 1
     reward: item minecraft:book 1 "DynamicCraft Guide"
@@ -36,7 +37,7 @@
 >quest dynamiccraft_master
     title: Master DynamicCraft
     desc: Become proficient with advanced DynamicCraft mechanics
-    requires: DynamicCraft Quest Line:dynamiccraft_intro
+    requires: DynamicCraftQL:dynamiccraft_intro
     logic: AND
     task: collect "advanced items from DynamicCraft" 5
     reward: choice

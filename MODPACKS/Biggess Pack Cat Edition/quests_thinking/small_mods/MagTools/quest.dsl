@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # MagTools Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MagTools
 @filename MagTools-1.7.10-1.0.8.jar
 @size 0.08MB
 @category small_mods
-@quest_line MagTools Quest Line
+@quest_line MagToolsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest magtools_intro
     title: Introduction to MagTools
     desc: Learn the basics of MagTools and craft your first item
-    requires: MagTools Quest Line:magtools_discover
+    requires: MagToolsQL:magtools_discover
     logic: AND
     task: craft "any item from MagTools" 1
     reward: item minecraft:book 1 "MagTools Guide"
@@ -36,7 +37,7 @@
 >quest magtools_master
     title: Master MagTools
     desc: Become proficient with advanced MagTools mechanics
-    requires: MagTools Quest Line:magtools_intro
+    requires: MagToolsQL:magtools_intro
     logic: AND
     task: collect "advanced items from MagTools" 5
     reward: choice

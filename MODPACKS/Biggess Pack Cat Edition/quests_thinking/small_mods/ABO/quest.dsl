@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ABO Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ABO
 @filename ABO-MC1.7.10-BC7.1release4.0.14.jar
 @size 0.45MB
 @category small_mods
-@quest_line ABO Quest Line
+@quest_line ABOQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest abo_intro
     title: Introduction to ABO
     desc: Learn the basics of ABO and craft your first item
-    requires: ABO Quest Line:abo_discover
+    requires: ABOQL:abo_discover
     logic: AND
     task: craft "any item from ABO" 1
     reward: item minecraft:book 1 "ABO Guide"
@@ -36,7 +37,7 @@
 >quest abo_master
     title: Master ABO
     desc: Become proficient with advanced ABO mechanics
-    requires: ABO Quest Line:abo_intro
+    requires: ABOQL:abo_intro
     logic: AND
     task: collect "advanced items from ABO" 5
     reward: choice

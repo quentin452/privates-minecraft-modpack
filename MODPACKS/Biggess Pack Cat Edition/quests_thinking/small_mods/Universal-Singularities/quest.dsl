@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Universal-Singularities Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Universal-Singularities
 @filename Universal-Singularities-8.10.0.jar
 @size 0.02MB
 @category small_mods
-@quest_line Universal-Singularities Quest Line
+@quest_line Universal-SingularitiesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest universal_singularities_intro
     title: Introduction to Universal-Singularities
     desc: Learn the basics of Universal-Singularities and craft your first item
-    requires: Universal-Singularities Quest Line:universal_singularities_discover
+    requires: Universal-SingularitiesQL:universal_singularities_discover
     logic: AND
     task: craft "any item from Universal-Singularities" 1
     reward: item minecraft:book 1 "Universal-Singularities Guide"
@@ -36,7 +37,7 @@
 >quest universal_singularities_master
     title: Master Universal-Singularities
     desc: Become proficient with advanced Universal-Singularities mechanics
-    requires: Universal-Singularities Quest Line:universal_singularities_intro
+    requires: Universal-SingularitiesQL:universal_singularities_intro
     logic: AND
     task: collect "advanced items from Universal-Singularities" 5
     reward: choice

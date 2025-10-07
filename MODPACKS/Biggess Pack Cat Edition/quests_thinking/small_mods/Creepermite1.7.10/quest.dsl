@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Creepermite1.7.10 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Creepermite1.7.10
 @filename Creepermite1.7.10.zip
 @size 0.02MB
 @category small_mods
-@quest_line Creepermite1.7.10 Quest Line
+@quest_line Creepermite1.7.10QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest creepermite1_7_10_intro
     title: Introduction to Creepermite1.7.10
     desc: Learn the basics of Creepermite1.7.10 and craft your first item
-    requires: Creepermite1.7.10 Quest Line:creepermite1_7_10_discover
+    requires: Creepermite1.7.10QL:creepermite1_7_10_discover
     logic: AND
     task: craft "any item from Creepermite1.7.10" 1
     reward: item minecraft:book 1 "Creepermite1.7.10 Guide"
@@ -36,7 +37,7 @@
 >quest creepermite1_7_10_master
     title: Master Creepermite1.7.10
     desc: Become proficient with advanced Creepermite1.7.10 mechanics
-    requires: Creepermite1.7.10 Quest Line:creepermite1_7_10_intro
+    requires: Creepermite1.7.10QL:creepermite1_7_10_intro
     logic: AND
     task: collect "advanced items from Creepermite1.7.10" 5
     reward: choice

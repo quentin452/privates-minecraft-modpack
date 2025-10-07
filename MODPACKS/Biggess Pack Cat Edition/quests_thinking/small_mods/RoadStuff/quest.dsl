@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # RoadStuff Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RoadStuff
 @filename RoadStuff-mc1.7.10-1.0.2-final.jar
 @size 0.67MB
 @category small_mods
-@quest_line RoadStuff Quest Line
+@quest_line RoadStuffQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest roadstuff_intro
     title: Introduction to RoadStuff
     desc: Learn the basics of RoadStuff and craft your first item
-    requires: RoadStuff Quest Line:roadstuff_discover
+    requires: RoadStuffQL:roadstuff_discover
     logic: AND
     task: craft "any item from RoadStuff" 1
     reward: item minecraft:book 1 "RoadStuff Guide"
@@ -36,7 +37,7 @@
 >quest roadstuff_master
     title: Master RoadStuff
     desc: Become proficient with advanced RoadStuff mechanics
-    requires: RoadStuff Quest Line:roadstuff_intro
+    requires: RoadStuffQL:roadstuff_intro
     logic: AND
     task: collect "advanced items from RoadStuff" 5
     reward: choice

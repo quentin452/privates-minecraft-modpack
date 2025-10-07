@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ChestTransporter Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ChestTransporter
 @filename ChestTransporter-1.7.10-2.0.6.jar
 @size 0.04MB
 @category small_mods
-@quest_line ChestTransporter Quest Line
+@quest_line ChestTransporterQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest chesttransporter_intro
     title: Introduction to ChestTransporter
     desc: Learn the basics of ChestTransporter and craft your first item
-    requires: ChestTransporter Quest Line:chesttransporter_discover
+    requires: ChestTransporterQL:chesttransporter_discover
     logic: AND
     task: craft "any item from ChestTransporter" 1
     reward: item minecraft:book 1 "ChestTransporter Guide"
@@ -36,7 +37,7 @@
 >quest chesttransporter_master
     title: Master ChestTransporter
     desc: Become proficient with advanced ChestTransporter mechanics
-    requires: ChestTransporter Quest Line:chesttransporter_intro
+    requires: ChestTransporterQL:chesttransporter_intro
     logic: AND
     task: collect "advanced items from ChestTransporter" 5
     reward: choice

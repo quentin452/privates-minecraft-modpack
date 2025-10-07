@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Metallurgy Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Metallurgy
 @filename Metallurgy-1.7.10-4.0.9.148.jar
 @size 1.55MB
 @category small_mods
-@quest_line Metallurgy Quest Line
+@quest_line MetallurgyQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest metallurgy_intro
     title: Introduction to Metallurgy
     desc: Learn the basics of Metallurgy and craft your first item
-    requires: Metallurgy Quest Line:metallurgy_discover
+    requires: MetallurgyQL:metallurgy_discover
     logic: AND
     task: craft "any item from Metallurgy" 1
     reward: item minecraft:book 1 "Metallurgy Guide"
@@ -36,7 +37,7 @@
 >quest metallurgy_master
     title: Master Metallurgy
     desc: Become proficient with advanced Metallurgy mechanics
-    requires: Metallurgy Quest Line:metallurgy_intro
+    requires: MetallurgyQL:metallurgy_intro
     logic: AND
     task: collect "advanced items from Metallurgy" 5
     reward: choice

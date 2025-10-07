@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ArchitectureCraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ArchitectureCraft
 @filename ArchitectureCraft-1.11.5.jar
 @size 0.73MB
 @category small_mods
-@quest_line ArchitectureCraft Quest Line
+@quest_line ArchitectureCraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest architecturecraft_intro
     title: Introduction to ArchitectureCraft
     desc: Learn the basics of ArchitectureCraft and craft your first item
-    requires: ArchitectureCraft Quest Line:architecturecraft_discover
+    requires: ArchitectureCraftQL:architecturecraft_discover
     logic: AND
     task: craft "any item from ArchitectureCraft" 1
     reward: item minecraft:book 1 "ArchitectureCraft Guide"
@@ -36,7 +37,7 @@
 >quest architecturecraft_master
     title: Master ArchitectureCraft
     desc: Become proficient with advanced ArchitectureCraft mechanics
-    requires: ArchitectureCraft Quest Line:architecturecraft_intro
+    requires: ArchitectureCraftQL:architecturecraft_intro
     logic: AND
     task: collect "advanced items from ArchitectureCraft" 5
     reward: choice

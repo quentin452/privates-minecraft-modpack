@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # astikoor Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod astikoor
 @filename astikoor-1.7.10-1.0.0.jar
 @size 0.05MB
 @category small_mods
-@quest_line astikoor Quest Line
+@quest_line astikoorQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest astikoor_intro
     title: Introduction to astikoor
     desc: Learn the basics of astikoor and craft your first item
-    requires: astikoor Quest Line:astikoor_discover
+    requires: astikoorQL:astikoor_discover
     logic: AND
     task: craft "any item from astikoor" 1
     reward: item minecraft:book 1 "astikoor Guide"
@@ -36,7 +37,7 @@
 >quest astikoor_master
     title: Master astikoor
     desc: Become proficient with advanced astikoor mechanics
-    requires: astikoor Quest Line:astikoor_intro
+    requires: astikoorQL:astikoor_intro
     logic: AND
     task: collect "advanced items from astikoor" 5
     reward: choice

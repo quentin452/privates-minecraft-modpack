@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # EggyGoodness Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod EggyGoodness
 @filename EggyGoodness-1.7.10-1.3.jar
 @size 0.25MB
 @category small_mods
-@quest_line EggyGoodness Quest Line
+@quest_line EggyGoodnessQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest eggygoodness_intro
     title: Introduction to EggyGoodness
     desc: Learn the basics of EggyGoodness and craft your first item
-    requires: EggyGoodness Quest Line:eggygoodness_discover
+    requires: EggyGoodnessQL:eggygoodness_discover
     logic: AND
     task: craft "any item from EggyGoodness" 1
     reward: item minecraft:book 1 "EggyGoodness Guide"
@@ -36,7 +37,7 @@
 >quest eggygoodness_master
     title: Master EggyGoodness
     desc: Become proficient with advanced EggyGoodness mechanics
-    requires: EggyGoodness Quest Line:eggygoodness_intro
+    requires: EggyGoodnessQL:eggygoodness_intro
     logic: AND
     task: collect "advanced items from EggyGoodness" 5
     reward: choice

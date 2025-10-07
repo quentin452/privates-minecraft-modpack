@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # mobcages Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod mobcages
 @filename mobcages-1.7.10-1.2.jar
 @size 0.07MB
 @category small_mods
-@quest_line mobcages Quest Line
+@quest_line mobcagesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest mobcages_intro
     title: Introduction to mobcages
     desc: Learn the basics of mobcages and craft your first item
-    requires: mobcages Quest Line:mobcages_discover
+    requires: mobcagesQL:mobcages_discover
     logic: AND
     task: craft "any item from mobcages" 1
     reward: item minecraft:book 1 "mobcages Guide"
@@ -36,7 +37,7 @@
 >quest mobcages_master
     title: Master mobcages
     desc: Become proficient with advanced mobcages mechanics
-    requires: mobcages Quest Line:mobcages_intro
+    requires: mobcagesQL:mobcages_intro
     logic: AND
     task: collect "advanced items from mobcages" 5
     reward: choice

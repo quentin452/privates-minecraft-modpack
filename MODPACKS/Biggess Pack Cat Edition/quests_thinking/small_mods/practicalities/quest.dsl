@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # practicalities Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod practicalities
 @filename practicalities-2.0.0-b2.jar
 @size 0.17MB
 @category small_mods
-@quest_line practicalities Quest Line
+@quest_line practicalitiesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest practicalities_intro
     title: Introduction to practicalities
     desc: Learn the basics of practicalities and craft your first item
-    requires: practicalities Quest Line:practicalities_discover
+    requires: practicalitiesQL:practicalities_discover
     logic: AND
     task: craft "any item from practicalities" 1
     reward: item minecraft:book 1 "practicalities Guide"
@@ -36,7 +37,7 @@
 >quest practicalities_master
     title: Master practicalities
     desc: Become proficient with advanced practicalities mechanics
-    requires: practicalities Quest Line:practicalities_intro
+    requires: practicalitiesQL:practicalities_intro
     logic: AND
     task: collect "advanced items from practicalities" 5
     reward: choice

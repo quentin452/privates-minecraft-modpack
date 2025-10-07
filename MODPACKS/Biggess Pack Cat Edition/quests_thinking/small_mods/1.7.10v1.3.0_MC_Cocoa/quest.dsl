@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # 1.7.10v1.3.0_MC_Cocoa Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod 1.7.10v1.3.0_MC_Cocoa
 @filename 1.7.10v1.3.0_MC_Cocoa.jar
 @size 0.27MB
 @category small_mods
-@quest_line 1.7.10v1.3.0_MC_Cocoa Quest Line
+@quest_line 1.7.10v1.3.0_MC_CocoaQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest 1_7_10v1_3_0_mc_cocoa_intro
     title: Introduction to 1.7.10v1.3.0_MC_Cocoa
     desc: Learn the basics of 1.7.10v1.3.0_MC_Cocoa and craft your first item
-    requires: 1.7.10v1.3.0_MC_Cocoa Quest Line:1_7_10v1_3_0_mc_cocoa_discover
+    requires: 1.7.10v1.3.0_MC_CocoaQL:1_7_10v1_3_0_mc_cocoa_discover
     logic: AND
     task: craft "any item from 1.7.10v1.3.0_MC_Cocoa" 1
     reward: item minecraft:book 1 "1.7.10v1.3.0_MC_Cocoa Guide"
@@ -36,7 +37,7 @@
 >quest 1_7_10v1_3_0_mc_cocoa_master
     title: Master 1.7.10v1.3.0_MC_Cocoa
     desc: Become proficient with advanced 1.7.10v1.3.0_MC_Cocoa mechanics
-    requires: 1.7.10v1.3.0_MC_Cocoa Quest Line:1_7_10v1_3_0_mc_cocoa_intro
+    requires: 1.7.10v1.3.0_MC_CocoaQL:1_7_10v1_3_0_mc_cocoa_intro
     logic: AND
     task: collect "advanced items from 1.7.10v1.3.0_MC_Cocoa" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Chekote-blink Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Chekote-blink
 @filename Chekote-blink-1.7.10-1.6.0.jar
 @size 0.04MB
 @category small_mods
-@quest_line Chekote-blink Quest Line
+@quest_line Chekote-blinkQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest chekote_blink_intro
     title: Introduction to Chekote-blink
     desc: Learn the basics of Chekote-blink and craft your first item
-    requires: Chekote-blink Quest Line:chekote_blink_discover
+    requires: Chekote-blinkQL:chekote_blink_discover
     logic: AND
     task: craft "any item from Chekote-blink" 1
     reward: item minecraft:book 1 "Chekote-blink Guide"
@@ -36,7 +37,7 @@
 >quest chekote_blink_master
     title: Master Chekote-blink
     desc: Become proficient with advanced Chekote-blink mechanics
-    requires: Chekote-blink Quest Line:chekote_blink_intro
+    requires: Chekote-blinkQL:chekote_blink_intro
     logic: AND
     task: collect "advanced items from Chekote-blink" 5
     reward: choice

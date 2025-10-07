@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Thaumcraft Minus Thaumcraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Thaumcraft Minus Thaumcraft
 @filename Thaumcraft Minus Thaumcraft-1.7.10-1.1.jar
 @size 0.00MB
 @category small_mods
-@quest_line Thaumcraft Minus Thaumcraft Quest Line
+@quest_line Thaumcraft Minus ThaumcraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest thaumcraft_minus_thaumcraft_intro
     title: Introduction to Thaumcraft Minus Thaumcraft
     desc: Learn the basics of Thaumcraft Minus Thaumcraft and craft your first item
-    requires: Thaumcraft Minus Thaumcraft Quest Line:thaumcraft_minus_thaumcraft_discover
+    requires: Thaumcraft Minus ThaumcraftQL:thaumcraft_minus_thaumcraft_discover
     logic: AND
     task: craft "any item from Thaumcraft Minus Thaumcraft" 1
     reward: item minecraft:book 1 "Thaumcraft Minus Thaumcraft Guide"
@@ -36,7 +37,7 @@
 >quest thaumcraft_minus_thaumcraft_master
     title: Master Thaumcraft Minus Thaumcraft
     desc: Become proficient with advanced Thaumcraft Minus Thaumcraft mechanics
-    requires: Thaumcraft Minus Thaumcraft Quest Line:thaumcraft_minus_thaumcraft_intro
+    requires: Thaumcraft Minus ThaumcraftQL:thaumcraft_minus_thaumcraft_intro
     logic: AND
     task: collect "advanced items from Thaumcraft Minus Thaumcraft" 5
     reward: choice

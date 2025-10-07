@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # PlainBlocks Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod PlainBlocks
 @filename PlainBlocks-1.0.jar
 @size 0.02MB
 @category small_mods
-@quest_line PlainBlocks Quest Line
+@quest_line PlainBlocksQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest plainblocks_intro
     title: Introduction to PlainBlocks
     desc: Learn the basics of PlainBlocks and craft your first item
-    requires: PlainBlocks Quest Line:plainblocks_discover
+    requires: PlainBlocksQL:plainblocks_discover
     logic: AND
     task: craft "any item from PlainBlocks" 1
     reward: item minecraft:book 1 "PlainBlocks Guide"
@@ -36,7 +37,7 @@
 >quest plainblocks_master
     title: Master PlainBlocks
     desc: Become proficient with advanced PlainBlocks mechanics
-    requires: PlainBlocks Quest Line:plainblocks_intro
+    requires: PlainBlocksQL:plainblocks_intro
     logic: AND
     task: collect "advanced items from PlainBlocks" 5
     reward: choice

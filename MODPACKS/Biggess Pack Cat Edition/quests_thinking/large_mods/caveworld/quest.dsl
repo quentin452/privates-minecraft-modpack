@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # caveworld Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod caveworld
 @filename caveworld-V2.3.5.jar
 @size 10.38MB
 @category large_mods
-@quest_line caveworld Quest Line
+@quest_line caveworldQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest caveworld_intro
     title: Introduction to caveworld
     desc: Learn the basics of caveworld and craft your first item
-    requires: caveworld Quest Line:caveworld_discover
+    requires: caveworldQL:caveworld_discover
     logic: AND
     task: craft "any item from caveworld" 1
     reward: item minecraft:book 1 "caveworld Guide"
@@ -36,7 +37,7 @@
 >quest caveworld_master
     title: Master caveworld
     desc: Become proficient with advanced caveworld mechanics
-    requires: caveworld Quest Line:caveworld_intro
+    requires: caveworldQL:caveworld_intro
     logic: AND
     task: collect "advanced items from caveworld" 5
     reward: choice

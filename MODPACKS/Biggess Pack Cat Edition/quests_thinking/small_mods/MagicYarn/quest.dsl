@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # MagicYarn Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MagicYarn
 @filename MagicYarn-1.7.10.jar
 @size 0.07MB
 @category small_mods
-@quest_line MagicYarn Quest Line
+@quest_line MagicYarnQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest magicyarn_intro
     title: Introduction to MagicYarn
     desc: Learn the basics of MagicYarn and craft your first item
-    requires: MagicYarn Quest Line:magicyarn_discover
+    requires: MagicYarnQL:magicyarn_discover
     logic: AND
     task: craft "any item from MagicYarn" 1
     reward: item minecraft:book 1 "MagicYarn Guide"
@@ -36,7 +37,7 @@
 >quest magicyarn_master
     title: Master MagicYarn
     desc: Become proficient with advanced MagicYarn mechanics
-    requires: MagicYarn Quest Line:magicyarn_intro
+    requires: MagicYarnQL:magicyarn_intro
     logic: AND
     task: collect "advanced items from MagicYarn" 5
     reward: choice

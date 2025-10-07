@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # SpecialMobs Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SpecialMobs
 @filename SpecialMobs-3.7.0.jar
 @size 1.11MB
 @category small_mods
-@quest_line SpecialMobs Quest Line
+@quest_line SpecialMobsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest specialmobs_intro
     title: Introduction to SpecialMobs
     desc: Learn the basics of SpecialMobs and craft your first item
-    requires: SpecialMobs Quest Line:specialmobs_discover
+    requires: SpecialMobsQL:specialmobs_discover
     logic: AND
     task: craft "any item from SpecialMobs" 1
     reward: item minecraft:book 1 "SpecialMobs Guide"
@@ -36,7 +37,7 @@
 >quest specialmobs_master
     title: Master SpecialMobs
     desc: Become proficient with advanced SpecialMobs mechanics
-    requires: SpecialMobs Quest Line:specialmobs_intro
+    requires: SpecialMobsQL:specialmobs_intro
     logic: AND
     task: collect "advanced items from SpecialMobs" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # hamsterrific Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod hamsterrific
 @filename hamsterrific-0.2.2.jar
 @size 0.08MB
 @category small_mods
-@quest_line hamsterrific Quest Line
+@quest_line hamsterrificQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest hamsterrific_intro
     title: Introduction to hamsterrific
     desc: Learn the basics of hamsterrific and craft your first item
-    requires: hamsterrific Quest Line:hamsterrific_discover
+    requires: hamsterrificQL:hamsterrific_discover
     logic: AND
     task: craft "any item from hamsterrific" 1
     reward: item minecraft:book 1 "hamsterrific Guide"
@@ -36,7 +37,7 @@
 >quest hamsterrific_master
     title: Master hamsterrific
     desc: Become proficient with advanced hamsterrific mechanics
-    requires: hamsterrific Quest Line:hamsterrific_intro
+    requires: hamsterrificQL:hamsterrific_intro
     logic: AND
     task: collect "advanced items from hamsterrific" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Pixelnauts Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Pixelnauts
 @filename Pixelnauts-1.7.10-Beta1.jar
 @size 0.66MB
 @category small_mods
-@quest_line Pixelnauts Quest Line
+@quest_line PixelnautsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest pixelnauts_intro
     title: Introduction to Pixelnauts
     desc: Learn the basics of Pixelnauts and craft your first item
-    requires: Pixelnauts Quest Line:pixelnauts_discover
+    requires: PixelnautsQL:pixelnauts_discover
     logic: AND
     task: craft "any item from Pixelnauts" 1
     reward: item minecraft:book 1 "Pixelnauts Guide"
@@ -36,7 +37,7 @@
 >quest pixelnauts_master
     title: Master Pixelnauts
     desc: Become proficient with advanced Pixelnauts mechanics
-    requires: Pixelnauts Quest Line:pixelnauts_intro
+    requires: PixelnautsQL:pixelnauts_intro
     logic: AND
     task: collect "advanced items from Pixelnauts" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # thaumicSanity Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod thaumicSanity
 @filename thaumicSanity-1.0-1.7.10-9.jar
 @size 0.00MB
 @category small_mods
-@quest_line thaumicSanity Quest Line
+@quest_line thaumicSanityQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest thaumicsanity_intro
     title: Introduction to thaumicSanity
     desc: Learn the basics of thaumicSanity and craft your first item
-    requires: thaumicSanity Quest Line:thaumicsanity_discover
+    requires: thaumicSanityQL:thaumicsanity_discover
     logic: AND
     task: craft "any item from thaumicSanity" 1
     reward: item minecraft:book 1 "thaumicSanity Guide"
@@ -36,7 +37,7 @@
 >quest thaumicsanity_master
     title: Master thaumicSanity
     desc: Become proficient with advanced thaumicSanity mechanics
-    requires: thaumicSanity Quest Line:thaumicsanity_intro
+    requires: thaumicSanityQL:thaumicsanity_intro
     logic: AND
     task: collect "advanced items from thaumicSanity" 5
     reward: choice

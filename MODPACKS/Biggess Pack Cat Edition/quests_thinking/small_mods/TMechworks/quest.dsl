@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # TMechworks Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TMechworks
 @filename TMechworks-0.4.1.jar
 @size 0.21MB
 @category small_mods
-@quest_line TMechworks Quest Line
+@quest_line TMechworksQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest tmechworks_intro
     title: Introduction to TMechworks
     desc: Learn the basics of TMechworks and craft your first item
-    requires: TMechworks Quest Line:tmechworks_discover
+    requires: TMechworksQL:tmechworks_discover
     logic: AND
     task: craft "any item from TMechworks" 1
     reward: item minecraft:book 1 "TMechworks Guide"
@@ -36,7 +37,7 @@
 >quest tmechworks_master
     title: Master TMechworks
     desc: Become proficient with advanced TMechworks mechanics
-    requires: TMechworks Quest Line:tmechworks_intro
+    requires: TMechworksQL:tmechworks_intro
     logic: AND
     task: collect "advanced items from TMechworks" 5
     reward: choice

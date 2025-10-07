@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ExtraGolemsTinkersAddon Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ExtraGolemsTinkersAddon
 @filename ExtraGolemsTinkersAddon[1.7.10]-1.08.jar
 @size 0.13MB
 @category small_mods
-@quest_line ExtraGolemsTinkersAddon Quest Line
+@quest_line ExtraGolemsTinkersAddonQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest extragolemstinkersaddon_intro
     title: Introduction to ExtraGolemsTinkersAddon
     desc: Learn the basics of ExtraGolemsTinkersAddon and craft your first item
-    requires: ExtraGolemsTinkersAddon Quest Line:extragolemstinkersaddon_discover
+    requires: ExtraGolemsTinkersAddonQL:extragolemstinkersaddon_discover
     logic: AND
     task: craft "any item from ExtraGolemsTinkersAddon" 1
     reward: item minecraft:book 1 "ExtraGolemsTinkersAddon Guide"
@@ -36,7 +37,7 @@
 >quest extragolemstinkersaddon_master
     title: Master ExtraGolemsTinkersAddon
     desc: Become proficient with advanced ExtraGolemsTinkersAddon mechanics
-    requires: ExtraGolemsTinkersAddon Quest Line:extragolemstinkersaddon_intro
+    requires: ExtraGolemsTinkersAddonQL:extragolemstinkersaddon_intro
     logic: AND
     task: collect "advanced items from ExtraGolemsTinkersAddon" 5
     reward: choice

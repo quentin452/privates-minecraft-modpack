@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # goblins_mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod goblins_mod
 @filename goblins_mod_6.0.jar
 @size 0.45MB
 @category small_mods
-@quest_line goblins_mod Quest Line
+@quest_line goblins_modQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest goblins_mod_intro
     title: Introduction to goblins_mod
     desc: Learn the basics of goblins_mod and craft your first item
-    requires: goblins_mod Quest Line:goblins_mod_discover
+    requires: goblins_modQL:goblins_mod_discover
     logic: AND
     task: craft "any item from goblins_mod" 1
     reward: item minecraft:book 1 "goblins_mod Guide"
@@ -36,7 +37,7 @@
 >quest goblins_mod_master
     title: Master goblins_mod
     desc: Become proficient with advanced goblins_mod mechanics
-    requires: goblins_mod Quest Line:goblins_mod_intro
+    requires: goblins_modQL:goblins_mod_intro
     logic: AND
     task: collect "advanced items from goblins_mod" 5
     reward: choice

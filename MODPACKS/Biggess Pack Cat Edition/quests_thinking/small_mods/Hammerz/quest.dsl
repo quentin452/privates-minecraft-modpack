@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Hammerz Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Hammerz
 @filename Hammerz-1.7.10-0.1.7.37.jar
 @size 0.11MB
 @category small_mods
-@quest_line Hammerz Quest Line
+@quest_line HammerzQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest hammerz_intro
     title: Introduction to Hammerz
     desc: Learn the basics of Hammerz and craft your first item
-    requires: Hammerz Quest Line:hammerz_discover
+    requires: HammerzQL:hammerz_discover
     logic: AND
     task: craft "any item from Hammerz" 1
     reward: item minecraft:book 1 "Hammerz Guide"
@@ -36,7 +37,7 @@
 >quest hammerz_master
     title: Master Hammerz
     desc: Become proficient with advanced Hammerz mechanics
-    requires: Hammerz Quest Line:hammerz_intro
+    requires: HammerzQL:hammerz_intro
     logic: AND
     task: collect "advanced items from Hammerz" 5
     reward: choice

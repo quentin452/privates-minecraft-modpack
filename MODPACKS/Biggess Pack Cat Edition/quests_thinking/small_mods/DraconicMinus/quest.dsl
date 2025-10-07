@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # DraconicMinus Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod DraconicMinus
 @filename DraconicMinus-1.3.jar
 @size 0.26MB
 @category small_mods
-@quest_line DraconicMinus Quest Line
+@quest_line DraconicMinusQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest draconicminus_intro
     title: Introduction to DraconicMinus
     desc: Learn the basics of DraconicMinus and craft your first item
-    requires: DraconicMinus Quest Line:draconicminus_discover
+    requires: DraconicMinusQL:draconicminus_discover
     logic: AND
     task: craft "any item from DraconicMinus" 1
     reward: item minecraft:book 1 "DraconicMinus Guide"
@@ -36,7 +37,7 @@
 >quest draconicminus_master
     title: Master DraconicMinus
     desc: Become proficient with advanced DraconicMinus mechanics
-    requires: DraconicMinus Quest Line:draconicminus_intro
+    requires: DraconicMinusQL:draconicminus_intro
     logic: AND
     task: collect "advanced items from DraconicMinus" 5
     reward: choice

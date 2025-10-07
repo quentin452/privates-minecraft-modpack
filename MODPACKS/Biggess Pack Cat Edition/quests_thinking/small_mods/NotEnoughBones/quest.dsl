@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # NotEnoughBones Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod NotEnoughBones
 @filename NotEnoughBones-1.7.10-1.0.jar
 @size 0.00MB
 @category small_mods
-@quest_line NotEnoughBones Quest Line
+@quest_line NotEnoughBonesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest notenoughbones_intro
     title: Introduction to NotEnoughBones
     desc: Learn the basics of NotEnoughBones and craft your first item
-    requires: NotEnoughBones Quest Line:notenoughbones_discover
+    requires: NotEnoughBonesQL:notenoughbones_discover
     logic: AND
     task: craft "any item from NotEnoughBones" 1
     reward: item minecraft:book 1 "NotEnoughBones Guide"
@@ -36,7 +37,7 @@
 >quest notenoughbones_master
     title: Master NotEnoughBones
     desc: Become proficient with advanced NotEnoughBones mechanics
-    requires: NotEnoughBones Quest Line:notenoughbones_intro
+    requires: NotEnoughBonesQL:notenoughbones_intro
     logic: AND
     task: collect "advanced items from NotEnoughBones" 5
     reward: choice

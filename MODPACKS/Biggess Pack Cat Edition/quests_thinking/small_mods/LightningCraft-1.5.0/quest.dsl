@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # LightningCraft-1.5.0 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod LightningCraft-1.5.0
 @filename LightningCraft-1.5.0-[1.7.10].jar
 @size 0.91MB
 @category small_mods
-@quest_line LightningCraft-1.5.0 Quest Line
+@quest_line LightningCraft-1.5.0QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest lightningcraft_1_5_0_intro
     title: Introduction to LightningCraft-1.5.0
     desc: Learn the basics of LightningCraft-1.5.0 and craft your first item
-    requires: LightningCraft-1.5.0 Quest Line:lightningcraft_1_5_0_discover
+    requires: LightningCraft-1.5.0QL:lightningcraft_1_5_0_discover
     logic: AND
     task: craft "any item from LightningCraft-1.5.0" 1
     reward: item minecraft:book 1 "LightningCraft-1.5.0 Guide"
@@ -36,7 +37,7 @@
 >quest lightningcraft_1_5_0_master
     title: Master LightningCraft-1.5.0
     desc: Become proficient with advanced LightningCraft-1.5.0 mechanics
-    requires: LightningCraft-1.5.0 Quest Line:lightningcraft_1_5_0_intro
+    requires: LightningCraft-1.5.0QL:lightningcraft_1_5_0_intro
     logic: AND
     task: collect "advanced items from LightningCraft-1.5.0" 5
     reward: choice

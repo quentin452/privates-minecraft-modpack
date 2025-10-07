@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # infusedring Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod infusedring
 @filename infusedring-1.7.10-1.0.4.jar
 @size 0.02MB
 @category small_mods
-@quest_line infusedring Quest Line
+@quest_line infusedringQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest infusedring_intro
     title: Introduction to infusedring
     desc: Learn the basics of infusedring and craft your first item
-    requires: infusedring Quest Line:infusedring_discover
+    requires: infusedringQL:infusedring_discover
     logic: AND
     task: craft "any item from infusedring" 1
     reward: item minecraft:book 1 "infusedring Guide"
@@ -36,7 +37,7 @@
 >quest infusedring_master
     title: Master infusedring
     desc: Become proficient with advanced infusedring mechanics
-    requires: infusedring Quest Line:infusedring_intro
+    requires: infusedringQL:infusedring_intro
     logic: AND
     task: collect "advanced items from infusedring" 5
     reward: choice

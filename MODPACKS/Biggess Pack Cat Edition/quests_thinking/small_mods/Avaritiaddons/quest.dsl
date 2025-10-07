@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Avaritiaddons Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Avaritiaddons
 @filename Avaritiaddons-1.9.1-GTNH.jar
 @size 0.20MB
 @category small_mods
-@quest_line Avaritiaddons Quest Line
+@quest_line AvaritiaddonsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest avaritiaddons_intro
     title: Introduction to Avaritiaddons
     desc: Learn the basics of Avaritiaddons and craft your first item
-    requires: Avaritiaddons Quest Line:avaritiaddons_discover
+    requires: AvaritiaddonsQL:avaritiaddons_discover
     logic: AND
     task: craft "any item from Avaritiaddons" 1
     reward: item minecraft:book 1 "Avaritiaddons Guide"
@@ -36,7 +37,7 @@
 >quest avaritiaddons_master
     title: Master Avaritiaddons
     desc: Become proficient with advanced Avaritiaddons mechanics
-    requires: Avaritiaddons Quest Line:avaritiaddons_intro
+    requires: AvaritiaddonsQL:avaritiaddons_intro
     logic: AND
     task: collect "advanced items from Avaritiaddons" 5
     reward: choice

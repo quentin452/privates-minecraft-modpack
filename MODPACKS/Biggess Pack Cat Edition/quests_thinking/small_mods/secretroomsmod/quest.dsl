@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # secretroomsmod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod secretroomsmod
 @filename secretroomsmod-1.7.10-4.7.1.413.jar
 @size 0.14MB
 @category small_mods
-@quest_line secretroomsmod Quest Line
+@quest_line secretroomsmodQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest secretroomsmod_intro
     title: Introduction to secretroomsmod
     desc: Learn the basics of secretroomsmod and craft your first item
-    requires: secretroomsmod Quest Line:secretroomsmod_discover
+    requires: secretroomsmodQL:secretroomsmod_discover
     logic: AND
     task: craft "any item from secretroomsmod" 1
     reward: item minecraft:book 1 "secretroomsmod Guide"
@@ -36,7 +37,7 @@
 >quest secretroomsmod_master
     title: Master secretroomsmod
     desc: Become proficient with advanced secretroomsmod mechanics
-    requires: secretroomsmod Quest Line:secretroomsmod_intro
+    requires: secretroomsmodQL:secretroomsmod_intro
     logic: AND
     task: collect "advanced items from secretroomsmod" 5
     reward: choice

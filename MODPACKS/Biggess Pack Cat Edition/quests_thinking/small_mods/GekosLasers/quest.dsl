@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # GekosLasers Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod GekosLasers
 @filename GekosLasers-1.7.10-0.8.jar
 @size 1.03MB
 @category small_mods
-@quest_line GekosLasers Quest Line
+@quest_line GekosLasersQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest gekoslasers_intro
     title: Introduction to GekosLasers
     desc: Learn the basics of GekosLasers and craft your first item
-    requires: GekosLasers Quest Line:gekoslasers_discover
+    requires: GekosLasersQL:gekoslasers_discover
     logic: AND
     task: craft "any item from GekosLasers" 1
     reward: item minecraft:book 1 "GekosLasers Guide"
@@ -36,7 +37,7 @@
 >quest gekoslasers_master
     title: Master GekosLasers
     desc: Become proficient with advanced GekosLasers mechanics
-    requires: GekosLasers Quest Line:gekoslasers_intro
+    requires: GekosLasersQL:gekoslasers_intro
     logic: AND
     task: collect "advanced items from GekosLasers" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # wizardry Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod wizardry
 @filename wizardry-1.7.10-1.1.6fork7.jar
 @size 2.47MB
 @category medium_mods
-@quest_line wizardry Quest Line
+@quest_line wizardryQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest wizardry_intro
     title: Introduction to wizardry
     desc: Learn the basics of wizardry and craft your first item
-    requires: wizardry Quest Line:wizardry_discover
+    requires: wizardryQL:wizardry_discover
     logic: AND
     task: craft "any item from wizardry" 1
     reward: item minecraft:book 1 "wizardry Guide"
@@ -36,7 +37,7 @@
 >quest wizardry_master
     title: Master wizardry
     desc: Become proficient with advanced wizardry mechanics
-    requires: wizardry Quest Line:wizardry_intro
+    requires: wizardryQL:wizardry_intro
     logic: AND
     task: collect "advanced items from wizardry" 5
     reward: choice

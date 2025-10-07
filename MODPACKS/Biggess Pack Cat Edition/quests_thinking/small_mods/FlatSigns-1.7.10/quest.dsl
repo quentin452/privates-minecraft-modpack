@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # FlatSigns-1.7.10 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod FlatSigns-1.7.10
 @filename FlatSigns-1.7.10-universal-2.1.0.19.jar
 @size 0.04MB
 @category small_mods
-@quest_line FlatSigns-1.7.10 Quest Line
+@quest_line FlatSigns-1.7.10QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest flatsigns_1_7_10_intro
     title: Introduction to FlatSigns-1.7.10
     desc: Learn the basics of FlatSigns-1.7.10 and craft your first item
-    requires: FlatSigns-1.7.10 Quest Line:flatsigns_1_7_10_discover
+    requires: FlatSigns-1.7.10QL:flatsigns_1_7_10_discover
     logic: AND
     task: craft "any item from FlatSigns-1.7.10" 1
     reward: item minecraft:book 1 "FlatSigns-1.7.10 Guide"
@@ -36,7 +37,7 @@
 >quest flatsigns_1_7_10_master
     title: Master FlatSigns-1.7.10
     desc: Become proficient with advanced FlatSigns-1.7.10 mechanics
-    requires: FlatSigns-1.7.10 Quest Line:flatsigns_1_7_10_intro
+    requires: FlatSigns-1.7.10QL:flatsigns_1_7_10_intro
     logic: AND
     task: collect "advanced items from FlatSigns-1.7.10" 5
     reward: choice

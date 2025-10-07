@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # IronChestMinecarts Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod IronChestMinecarts
 @filename IronChestMinecarts-1.2.0.jar
 @size 0.03MB
 @category small_mods
-@quest_line IronChestMinecarts Quest Line
+@quest_line IronChestMinecartsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ironchestminecarts_intro
     title: Introduction to IronChestMinecarts
     desc: Learn the basics of IronChestMinecarts and craft your first item
-    requires: IronChestMinecarts Quest Line:ironchestminecarts_discover
+    requires: IronChestMinecartsQL:ironchestminecarts_discover
     logic: AND
     task: craft "any item from IronChestMinecarts" 1
     reward: item minecraft:book 1 "IronChestMinecarts Guide"
@@ -36,7 +37,7 @@
 >quest ironchestminecarts_master
     title: Master IronChestMinecarts
     desc: Become proficient with advanced IronChestMinecarts mechanics
-    requires: IronChestMinecarts Quest Line:ironchestminecarts_intro
+    requires: IronChestMinecartsQL:ironchestminecarts_intro
     logic: AND
     task: collect "advanced items from IronChestMinecarts" 5
     reward: choice

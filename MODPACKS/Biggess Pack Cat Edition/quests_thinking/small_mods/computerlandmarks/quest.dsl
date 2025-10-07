@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # computerlandmarks Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod computerlandmarks
 @filename computerlandmarks-1.0.jar
 @size 0.05MB
 @category small_mods
-@quest_line computerlandmarks Quest Line
+@quest_line computerlandmarksQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest computerlandmarks_intro
     title: Introduction to computerlandmarks
     desc: Learn the basics of computerlandmarks and craft your first item
-    requires: computerlandmarks Quest Line:computerlandmarks_discover
+    requires: computerlandmarksQL:computerlandmarks_discover
     logic: AND
     task: craft "any item from computerlandmarks" 1
     reward: item minecraft:book 1 "computerlandmarks Guide"
@@ -36,7 +37,7 @@
 >quest computerlandmarks_master
     title: Master computerlandmarks
     desc: Become proficient with advanced computerlandmarks mechanics
-    requires: computerlandmarks Quest Line:computerlandmarks_intro
+    requires: computerlandmarksQL:computerlandmarks_intro
     logic: AND
     task: collect "advanced items from computerlandmarks" 5
     reward: choice

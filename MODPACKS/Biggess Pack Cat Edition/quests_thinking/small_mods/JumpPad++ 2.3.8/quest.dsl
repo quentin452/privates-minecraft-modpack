@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # JumpPad++ 2.3.8 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod JumpPad++ 2.3.8
 @filename JumpPad++ 2.3.8.jar
 @size 0.03MB
 @category small_mods
-@quest_line JumpPad++ 2.3.8 Quest Line
+@quest_line JumpPad++ 2.3.8QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest jumppad_2_3_8_intro
     title: Introduction to JumpPad++ 2.3.8
     desc: Learn the basics of JumpPad++ 2.3.8 and craft your first item
-    requires: JumpPad++ 2.3.8 Quest Line:jumppad_2_3_8_discover
+    requires: JumpPad++ 2.3.8QL:jumppad_2_3_8_discover
     logic: AND
     task: craft "any item from JumpPad++ 2.3.8" 1
     reward: item minecraft:book 1 "JumpPad++ 2.3.8 Guide"
@@ -36,7 +37,7 @@
 >quest jumppad_2_3_8_master
     title: Master JumpPad++ 2.3.8
     desc: Become proficient with advanced JumpPad++ 2.3.8 mechanics
-    requires: JumpPad++ 2.3.8 Quest Line:jumppad_2_3_8_intro
+    requires: JumpPad++ 2.3.8QL:jumppad_2_3_8_intro
     logic: AND
     task: collect "advanced items from JumpPad++ 2.3.8" 5
     reward: choice

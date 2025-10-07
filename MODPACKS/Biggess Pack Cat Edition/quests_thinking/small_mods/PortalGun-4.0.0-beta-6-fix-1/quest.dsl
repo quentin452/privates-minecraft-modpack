@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # PortalGun-4.0.0-beta-6-fix-1 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod PortalGun-4.0.0-beta-6-fix-1
 @filename PortalGun-4.0.0-beta-6-fix-1.jar
 @size 0.60MB
 @category small_mods
-@quest_line PortalGun-4.0.0-beta-6-fix-1 Quest Line
+@quest_line PortalGun-4.0.0-beta-6-fix-1QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest portalgun_4_0_0_beta_6_fix_1_intro
     title: Introduction to PortalGun-4.0.0-beta-6-fix-1
     desc: Learn the basics of PortalGun-4.0.0-beta-6-fix-1 and craft your first item
-    requires: PortalGun-4.0.0-beta-6-fix-1 Quest Line:portalgun_4_0_0_beta_6_fix_1_discover
+    requires: PortalGun-4.0.0-beta-6-fix-1QL:portalgun_4_0_0_beta_6_fix_1_discover
     logic: AND
     task: craft "any item from PortalGun-4.0.0-beta-6-fix-1" 1
     reward: item minecraft:book 1 "PortalGun-4.0.0-beta-6-fix-1 Guide"
@@ -36,7 +37,7 @@
 >quest portalgun_4_0_0_beta_6_fix_1_master
     title: Master PortalGun-4.0.0-beta-6-fix-1
     desc: Become proficient with advanced PortalGun-4.0.0-beta-6-fix-1 mechanics
-    requires: PortalGun-4.0.0-beta-6-fix-1 Quest Line:portalgun_4_0_0_beta_6_fix_1_intro
+    requires: PortalGun-4.0.0-beta-6-fix-1QL:portalgun_4_0_0_beta_6_fix_1_intro
     logic: AND
     task: collect "advanced items from PortalGun-4.0.0-beta-6-fix-1" 5
     reward: choice

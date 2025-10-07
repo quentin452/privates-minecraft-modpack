@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # IceCreamSandwichCreeperModv1.1.0a 1.7.10 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod IceCreamSandwichCreeperModv1.1.0a 1.7.10
 @filename IceCreamSandwichCreeperModv1.1.0a 1.7.10.jar
 @size 0.12MB
 @category small_mods
-@quest_line IceCreamSandwichCreeperModv1.1.0a 1.7.10 Quest Line
+@quest_line IceCreamSandwichCreeperModv1.1.0a 1.7.10QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest icecreamsandwichcreepermodv1_1_0a_1_7_10_intro
     title: Introduction to IceCreamSandwichCreeperModv1.1.0a 1.7.10
     desc: Learn the basics of IceCreamSandwichCreeperModv1.1.0a 1.7.10 and craft your first item
-    requires: IceCreamSandwichCreeperModv1.1.0a 1.7.10 Quest Line:icecreamsandwichcreepermodv1_1_0a_1_7_10_discover
+    requires: IceCreamSandwichCreeperModv1.1.0a 1.7.10QL:icecreamsandwichcreepermodv1_1_0a_1_7_10_discover
     logic: AND
     task: craft "any item from IceCreamSandwichCreeperModv1.1.0a 1.7.10" 1
     reward: item minecraft:book 1 "IceCreamSandwichCreeperModv1.1.0a 1.7.10 Guide"
@@ -36,7 +37,7 @@
 >quest icecreamsandwichcreepermodv1_1_0a_1_7_10_master
     title: Master IceCreamSandwichCreeperModv1.1.0a 1.7.10
     desc: Become proficient with advanced IceCreamSandwichCreeperModv1.1.0a 1.7.10 mechanics
-    requires: IceCreamSandwichCreeperModv1.1.0a 1.7.10 Quest Line:icecreamsandwichcreepermodv1_1_0a_1_7_10_intro
+    requires: IceCreamSandwichCreeperModv1.1.0a 1.7.10QL:icecreamsandwichcreepermodv1_1_0a_1_7_10_intro
     logic: AND
     task: collect "advanced items from IceCreamSandwichCreeperModv1.1.0a 1.7.10" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # 1.7.10-DungeonTools Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod 1.7.10-DungeonTools
 @filename 1.7.10-DungeonTools-v2.1.1.jar
 @size 0.21MB
 @category small_mods
-@quest_line 1.7.10-DungeonTools Quest Line
+@quest_line 1.7.10-DungeonToolsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest 1_7_10_dungeontools_intro
     title: Introduction to 1.7.10-DungeonTools
     desc: Learn the basics of 1.7.10-DungeonTools and craft your first item
-    requires: 1.7.10-DungeonTools Quest Line:1_7_10_dungeontools_discover
+    requires: 1.7.10-DungeonToolsQL:1_7_10_dungeontools_discover
     logic: AND
     task: craft "any item from 1.7.10-DungeonTools" 1
     reward: item minecraft:book 1 "1.7.10-DungeonTools Guide"
@@ -36,7 +37,7 @@
 >quest 1_7_10_dungeontools_master
     title: Master 1.7.10-DungeonTools
     desc: Become proficient with advanced 1.7.10-DungeonTools mechanics
-    requires: 1.7.10-DungeonTools Quest Line:1_7_10_dungeontools_intro
+    requires: 1.7.10-DungeonToolsQL:1_7_10_dungeontools_intro
     logic: AND
     task: collect "advanced items from 1.7.10-DungeonTools" 5
     reward: choice

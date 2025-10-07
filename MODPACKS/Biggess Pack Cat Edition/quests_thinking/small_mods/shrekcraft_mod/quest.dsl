@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # shrekcraft_mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod shrekcraft_mod
 @filename shrekcraft_mod_1.7.10.zip
 @size 0.09MB
 @category small_mods
-@quest_line shrekcraft_mod Quest Line
+@quest_line shrekcraft_modQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest shrekcraft_mod_intro
     title: Introduction to shrekcraft_mod
     desc: Learn the basics of shrekcraft_mod and craft your first item
-    requires: shrekcraft_mod Quest Line:shrekcraft_mod_discover
+    requires: shrekcraft_modQL:shrekcraft_mod_discover
     logic: AND
     task: craft "any item from shrekcraft_mod" 1
     reward: item minecraft:book 1 "shrekcraft_mod Guide"
@@ -36,7 +37,7 @@
 >quest shrekcraft_mod_master
     title: Master shrekcraft_mod
     desc: Become proficient with advanced shrekcraft_mod mechanics
-    requires: shrekcraft_mod Quest Line:shrekcraft_mod_intro
+    requires: shrekcraft_modQL:shrekcraft_mod_intro
     logic: AND
     task: collect "advanced items from shrekcraft_mod" 5
     reward: choice

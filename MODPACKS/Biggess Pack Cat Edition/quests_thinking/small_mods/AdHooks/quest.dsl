@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # AdHooks Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod AdHooks
 @filename AdHooks-1.7.10-2.1.1.0-build.0061.jar
 @size 0.05MB
 @category small_mods
-@quest_line AdHooks Quest Line
+@quest_line AdHooksQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest adhooks_intro
     title: Introduction to AdHooks
     desc: Learn the basics of AdHooks and craft your first item
-    requires: AdHooks Quest Line:adhooks_discover
+    requires: AdHooksQL:adhooks_discover
     logic: AND
     task: craft "any item from AdHooks" 1
     reward: item minecraft:book 1 "AdHooks Guide"
@@ -36,7 +37,7 @@
 >quest adhooks_master
     title: Master AdHooks
     desc: Become proficient with advanced AdHooks mechanics
-    requires: AdHooks Quest Line:adhooks_intro
+    requires: AdHooksQL:adhooks_intro
     logic: AND
     task: collect "advanced items from AdHooks" 5
     reward: choice

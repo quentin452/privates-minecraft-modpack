@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # MinecraftCalculator Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MinecraftCalculator
 @filename MinecraftCalculator_v1.10.jar
 @size 0.02MB
 @category small_mods
-@quest_line MinecraftCalculator Quest Line
+@quest_line MinecraftCalculatorQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest minecraftcalculator_intro
     title: Introduction to MinecraftCalculator
     desc: Learn the basics of MinecraftCalculator and craft your first item
-    requires: MinecraftCalculator Quest Line:minecraftcalculator_discover
+    requires: MinecraftCalculatorQL:minecraftcalculator_discover
     logic: AND
     task: craft "any item from MinecraftCalculator" 1
     reward: item minecraft:book 1 "MinecraftCalculator Guide"
@@ -36,7 +37,7 @@
 >quest minecraftcalculator_master
     title: Master MinecraftCalculator
     desc: Become proficient with advanced MinecraftCalculator mechanics
-    requires: MinecraftCalculator Quest Line:minecraftcalculator_intro
+    requires: MinecraftCalculatorQL:minecraftcalculator_intro
     logic: AND
     task: collect "advanced items from MinecraftCalculator" 5
     reward: choice

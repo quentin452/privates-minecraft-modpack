@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # littletiles Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod littletiles
 @filename littletiles-1.5.14-GTNH.jar
 @size 0.56MB
 @category small_mods
-@quest_line littletiles Quest Line
+@quest_line littletilesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest littletiles_intro
     title: Introduction to littletiles
     desc: Learn the basics of littletiles and craft your first item
-    requires: littletiles Quest Line:littletiles_discover
+    requires: littletilesQL:littletiles_discover
     logic: AND
     task: craft "any item from littletiles" 1
     reward: item minecraft:book 1 "littletiles Guide"
@@ -36,7 +37,7 @@
 >quest littletiles_master
     title: Master littletiles
     desc: Become proficient with advanced littletiles mechanics
-    requires: littletiles Quest Line:littletiles_intro
+    requires: littletilesQL:littletiles_intro
     logic: AND
     task: collect "advanced items from littletiles" 5
     reward: choice

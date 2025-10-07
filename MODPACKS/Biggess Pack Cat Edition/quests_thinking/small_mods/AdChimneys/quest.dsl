@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # AdChimneys Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod AdChimneys
 @filename AdChimneys-1.7.10-2.16.8.0-build.0071.jar
 @size 0.07MB
 @category small_mods
-@quest_line AdChimneys Quest Line
+@quest_line AdChimneysQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest adchimneys_intro
     title: Introduction to AdChimneys
     desc: Learn the basics of AdChimneys and craft your first item
-    requires: AdChimneys Quest Line:adchimneys_discover
+    requires: AdChimneysQL:adchimneys_discover
     logic: AND
     task: craft "any item from AdChimneys" 1
     reward: item minecraft:book 1 "AdChimneys Guide"
@@ -36,7 +37,7 @@
 >quest adchimneys_master
     title: Master AdChimneys
     desc: Become proficient with advanced AdChimneys mechanics
-    requires: AdChimneys Quest Line:adchimneys_intro
+    requires: AdChimneysQL:adchimneys_intro
     logic: AND
     task: collect "advanced items from AdChimneys" 5
     reward: choice

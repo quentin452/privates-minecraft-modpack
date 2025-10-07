@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # TravellersGear Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TravellersGear
 @filename TravellersGear-1.7.10-1.16.7.jar
 @size 0.30MB
 @category small_mods
-@quest_line TravellersGear Quest Line
+@quest_line TravellersGearQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest travellersgear_intro
     title: Introduction to TravellersGear
     desc: Learn the basics of TravellersGear and craft your first item
-    requires: TravellersGear Quest Line:travellersgear_discover
+    requires: TravellersGearQL:travellersgear_discover
     logic: AND
     task: craft "any item from TravellersGear" 1
     reward: item minecraft:book 1 "TravellersGear Guide"
@@ -36,7 +37,7 @@
 >quest travellersgear_master
     title: Master TravellersGear
     desc: Become proficient with advanced TravellersGear mechanics
-    requires: TravellersGear Quest Line:travellersgear_intro
+    requires: TravellersGearQL:travellersgear_intro
     logic: AND
     task: collect "advanced items from TravellersGear" 5
     reward: choice

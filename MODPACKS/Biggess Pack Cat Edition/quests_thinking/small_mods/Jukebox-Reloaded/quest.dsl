@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Jukebox-Reloaded Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Jukebox-Reloaded
 @filename Jukebox-Reloaded-1.7.10-3.0.0-universal.jar
 @size 0.18MB
 @category small_mods
-@quest_line Jukebox-Reloaded Quest Line
+@quest_line Jukebox-ReloadedQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest jukebox_reloaded_intro
     title: Introduction to Jukebox-Reloaded
     desc: Learn the basics of Jukebox-Reloaded and craft your first item
-    requires: Jukebox-Reloaded Quest Line:jukebox_reloaded_discover
+    requires: Jukebox-ReloadedQL:jukebox_reloaded_discover
     logic: AND
     task: craft "any item from Jukebox-Reloaded" 1
     reward: item minecraft:book 1 "Jukebox-Reloaded Guide"
@@ -36,7 +37,7 @@
 >quest jukebox_reloaded_master
     title: Master Jukebox-Reloaded
     desc: Become proficient with advanced Jukebox-Reloaded mechanics
-    requires: Jukebox-Reloaded Quest Line:jukebox_reloaded_intro
+    requires: Jukebox-ReloadedQL:jukebox_reloaded_intro
     logic: AND
     task: collect "advanced items from Jukebox-Reloaded" 5
     reward: choice

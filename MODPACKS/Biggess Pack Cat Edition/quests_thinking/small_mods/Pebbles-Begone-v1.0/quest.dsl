@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Pebbles-Begone-v1.0 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Pebbles-Begone-v1.0
 @filename Pebbles-Begone-v1.0-mc1.7.10.jar
 @size 0.00MB
 @category small_mods
-@quest_line Pebbles-Begone-v1.0 Quest Line
+@quest_line Pebbles-Begone-v1.0QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest pebbles_begone_v1_0_intro
     title: Introduction to Pebbles-Begone-v1.0
     desc: Learn the basics of Pebbles-Begone-v1.0 and craft your first item
-    requires: Pebbles-Begone-v1.0 Quest Line:pebbles_begone_v1_0_discover
+    requires: Pebbles-Begone-v1.0QL:pebbles_begone_v1_0_discover
     logic: AND
     task: craft "any item from Pebbles-Begone-v1.0" 1
     reward: item minecraft:book 1 "Pebbles-Begone-v1.0 Guide"
@@ -36,7 +37,7 @@
 >quest pebbles_begone_v1_0_master
     title: Master Pebbles-Begone-v1.0
     desc: Become proficient with advanced Pebbles-Begone-v1.0 mechanics
-    requires: Pebbles-Begone-v1.0 Quest Line:pebbles_begone_v1_0_intro
+    requires: Pebbles-Begone-v1.0QL:pebbles_begone_v1_0_intro
     logic: AND
     task: collect "advanced items from Pebbles-Begone-v1.0" 5
     reward: choice

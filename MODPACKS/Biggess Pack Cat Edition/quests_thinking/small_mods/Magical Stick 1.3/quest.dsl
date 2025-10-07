@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Magical Stick 1.3 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Magical Stick 1.3
 @filename Magical Stick 1.3.zip
 @size 0.17MB
 @category small_mods
-@quest_line Magical Stick 1.3 Quest Line
+@quest_line Magical Stick 1.3QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest magical_stick_1_3_intro
     title: Introduction to Magical Stick 1.3
     desc: Learn the basics of Magical Stick 1.3 and craft your first item
-    requires: Magical Stick 1.3 Quest Line:magical_stick_1_3_discover
+    requires: Magical Stick 1.3QL:magical_stick_1_3_discover
     logic: AND
     task: craft "any item from Magical Stick 1.3" 1
     reward: item minecraft:book 1 "Magical Stick 1.3 Guide"
@@ -36,7 +37,7 @@
 >quest magical_stick_1_3_master
     title: Master Magical Stick 1.3
     desc: Become proficient with advanced Magical Stick 1.3 mechanics
-    requires: Magical Stick 1.3 Quest Line:magical_stick_1_3_intro
+    requires: Magical Stick 1.3QL:magical_stick_1_3_intro
     logic: AND
     task: collect "advanced items from Magical Stick 1.3" 5
     reward: choice

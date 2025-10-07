@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # TerraArts Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TerraArts
 @filename TerraArts-1.1.1710.27.jar
 @size 0.17MB
 @category small_mods
-@quest_line TerraArts Quest Line
+@quest_line TerraArtsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest terraarts_intro
     title: Introduction to TerraArts
     desc: Learn the basics of TerraArts and craft your first item
-    requires: TerraArts Quest Line:terraarts_discover
+    requires: TerraArtsQL:terraarts_discover
     logic: AND
     task: craft "any item from TerraArts" 1
     reward: item minecraft:book 1 "TerraArts Guide"
@@ -36,7 +37,7 @@
 >quest terraarts_master
     title: Master TerraArts
     desc: Become proficient with advanced TerraArts mechanics
-    requires: TerraArts Quest Line:terraarts_intro
+    requires: TerraArtsQL:terraarts_intro
     logic: AND
     task: collect "advanced items from TerraArts" 5
     reward: choice

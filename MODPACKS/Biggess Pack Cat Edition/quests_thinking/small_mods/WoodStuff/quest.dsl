@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # WoodStuff Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod WoodStuff
 @filename WoodStuff-1.3.2.jar
 @size 0.06MB
 @category small_mods
-@quest_line WoodStuff Quest Line
+@quest_line WoodStuffQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest woodstuff_intro
     title: Introduction to WoodStuff
     desc: Learn the basics of WoodStuff and craft your first item
-    requires: WoodStuff Quest Line:woodstuff_discover
+    requires: WoodStuffQL:woodstuff_discover
     logic: AND
     task: craft "any item from WoodStuff" 1
     reward: item minecraft:book 1 "WoodStuff Guide"
@@ -36,7 +37,7 @@
 >quest woodstuff_master
     title: Master WoodStuff
     desc: Become proficient with advanced WoodStuff mechanics
-    requires: WoodStuff Quest Line:woodstuff_intro
+    requires: WoodStuffQL:woodstuff_intro
     logic: AND
     task: collect "advanced items from WoodStuff" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # immersiveintegration Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod immersiveintegration
 @filename immersiveintegration-0.6.8.jar
 @size 0.29MB
 @category small_mods
-@quest_line immersiveintegration Quest Line
+@quest_line immersiveintegrationQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest immersiveintegration_intro
     title: Introduction to immersiveintegration
     desc: Learn the basics of immersiveintegration and craft your first item
-    requires: immersiveintegration Quest Line:immersiveintegration_discover
+    requires: immersiveintegrationQL:immersiveintegration_discover
     logic: AND
     task: craft "any item from immersiveintegration" 1
     reward: item minecraft:book 1 "immersiveintegration Guide"
@@ -36,7 +37,7 @@
 >quest immersiveintegration_master
     title: Master immersiveintegration
     desc: Become proficient with advanced immersiveintegration mechanics
-    requires: immersiveintegration Quest Line:immersiveintegration_intro
+    requires: immersiveintegrationQL:immersiveintegration_intro
     logic: AND
     task: collect "advanced items from immersiveintegration" 5
     reward: choice

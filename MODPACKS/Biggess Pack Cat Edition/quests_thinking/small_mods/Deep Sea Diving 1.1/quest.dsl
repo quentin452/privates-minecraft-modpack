@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Deep Sea Diving 1.1 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Deep Sea Diving 1.1
 @filename Deep Sea Diving 1.1.zip
 @size 0.10MB
 @category small_mods
-@quest_line Deep Sea Diving 1.1 Quest Line
+@quest_line Deep Sea Diving 1.1QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest deep_sea_diving_1_1_intro
     title: Introduction to Deep Sea Diving 1.1
     desc: Learn the basics of Deep Sea Diving 1.1 and craft your first item
-    requires: Deep Sea Diving 1.1 Quest Line:deep_sea_diving_1_1_discover
+    requires: Deep Sea Diving 1.1QL:deep_sea_diving_1_1_discover
     logic: AND
     task: craft "any item from Deep Sea Diving 1.1" 1
     reward: item minecraft:book 1 "Deep Sea Diving 1.1 Guide"
@@ -36,7 +37,7 @@
 >quest deep_sea_diving_1_1_master
     title: Master Deep Sea Diving 1.1
     desc: Become proficient with advanced Deep Sea Diving 1.1 mechanics
-    requires: Deep Sea Diving 1.1 Quest Line:deep_sea_diving_1_1_intro
+    requires: Deep Sea Diving 1.1QL:deep_sea_diving_1_1_intro
     logic: AND
     task: collect "advanced items from Deep Sea Diving 1.1" 5
     reward: choice

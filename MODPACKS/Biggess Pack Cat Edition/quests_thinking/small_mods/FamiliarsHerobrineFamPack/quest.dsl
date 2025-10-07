@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # FamiliarsHerobrineFamPack Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod FamiliarsHerobrineFamPack
 @filename FamiliarsHerobrineFamPack-1.7.10.jar
 @size 0.03MB
 @category small_mods
-@quest_line FamiliarsHerobrineFamPack Quest Line
+@quest_line FamiliarsHerobrineFamPackQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest familiarsherobrinefampack_intro
     title: Introduction to FamiliarsHerobrineFamPack
     desc: Learn the basics of FamiliarsHerobrineFamPack and craft your first item
-    requires: FamiliarsHerobrineFamPack Quest Line:familiarsherobrinefampack_discover
+    requires: FamiliarsHerobrineFamPackQL:familiarsherobrinefampack_discover
     logic: AND
     task: craft "any item from FamiliarsHerobrineFamPack" 1
     reward: item minecraft:book 1 "FamiliarsHerobrineFamPack Guide"
@@ -36,7 +37,7 @@
 >quest familiarsherobrinefampack_master
     title: Master FamiliarsHerobrineFamPack
     desc: Become proficient with advanced FamiliarsHerobrineFamPack mechanics
-    requires: FamiliarsHerobrineFamPack Quest Line:familiarsherobrinefampack_intro
+    requires: FamiliarsHerobrineFamPackQL:familiarsherobrinefampack_intro
     logic: AND
     task: collect "advanced items from FamiliarsHerobrineFamPack" 5
     reward: choice

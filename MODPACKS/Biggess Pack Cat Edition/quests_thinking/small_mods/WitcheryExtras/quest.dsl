@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # WitcheryExtras Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod WitcheryExtras
 @filename WitcheryExtras-1.3.6.jar
 @size 0.09MB
 @category small_mods
-@quest_line WitcheryExtras Quest Line
+@quest_line WitcheryExtrasQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest witcheryextras_intro
     title: Introduction to WitcheryExtras
     desc: Learn the basics of WitcheryExtras and craft your first item
-    requires: WitcheryExtras Quest Line:witcheryextras_discover
+    requires: WitcheryExtrasQL:witcheryextras_discover
     logic: AND
     task: craft "any item from WitcheryExtras" 1
     reward: item minecraft:book 1 "WitcheryExtras Guide"
@@ -36,7 +37,7 @@
 >quest witcheryextras_master
     title: Master WitcheryExtras
     desc: Become proficient with advanced WitcheryExtras mechanics
-    requires: WitcheryExtras Quest Line:witcheryextras_intro
+    requires: WitcheryExtrasQL:witcheryextras_intro
     logic: AND
     task: collect "advanced items from WitcheryExtras" 5
     reward: choice

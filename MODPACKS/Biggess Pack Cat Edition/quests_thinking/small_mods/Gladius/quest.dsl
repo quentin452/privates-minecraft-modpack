@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Gladius Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Gladius
 @filename Gladius-1.1.0.jar
 @size 0.10MB
 @category small_mods
-@quest_line Gladius Quest Line
+@quest_line GladiusQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest gladius_intro
     title: Introduction to Gladius
     desc: Learn the basics of Gladius and craft your first item
-    requires: Gladius Quest Line:gladius_discover
+    requires: GladiusQL:gladius_discover
     logic: AND
     task: craft "any item from Gladius" 1
     reward: item minecraft:book 1 "Gladius Guide"
@@ -36,7 +37,7 @@
 >quest gladius_master
     title: Master Gladius
     desc: Become proficient with advanced Gladius mechanics
-    requires: Gladius Quest Line:gladius_intro
+    requires: GladiusQL:gladius_intro
     logic: AND
     task: collect "advanced items from Gladius" 5
     reward: choice

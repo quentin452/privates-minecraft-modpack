@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # RepairGem Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RepairGem
 @filename RepairGem-1.7.10-1.1.0.jar
 @size 0.01MB
 @category small_mods
-@quest_line RepairGem Quest Line
+@quest_line RepairGemQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest repairgem_intro
     title: Introduction to RepairGem
     desc: Learn the basics of RepairGem and craft your first item
-    requires: RepairGem Quest Line:repairgem_discover
+    requires: RepairGemQL:repairgem_discover
     logic: AND
     task: craft "any item from RepairGem" 1
     reward: item minecraft:book 1 "RepairGem Guide"
@@ -36,7 +37,7 @@
 >quest repairgem_master
     title: Master RepairGem
     desc: Become proficient with advanced RepairGem mechanics
-    requires: RepairGem Quest Line:repairgem_intro
+    requires: RepairGemQL:repairgem_intro
     logic: AND
     task: collect "advanced items from RepairGem" 5
     reward: choice

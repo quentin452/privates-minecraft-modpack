@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # skull Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod skull
 @filename skull_mc1.7.10.jar
 @size 0.06MB
 @category small_mods
-@quest_line skull Quest Line
+@quest_line skullQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest skull_intro
     title: Introduction to skull
     desc: Learn the basics of skull and craft your first item
-    requires: skull Quest Line:skull_discover
+    requires: skullQL:skull_discover
     logic: AND
     task: craft "any item from skull" 1
     reward: item minecraft:book 1 "skull Guide"
@@ -36,7 +37,7 @@
 >quest skull_master
     title: Master skull
     desc: Become proficient with advanced skull mechanics
-    requires: skull Quest Line:skull_intro
+    requires: skullQL:skull_intro
     logic: AND
     task: collect "advanced items from skull" 5
     reward: choice

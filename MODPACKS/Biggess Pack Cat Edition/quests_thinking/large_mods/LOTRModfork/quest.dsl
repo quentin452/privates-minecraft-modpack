@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # LOTRModfork Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod LOTRModfork
 @filename LOTRModfork.v36.33.jar
 @size 20.36MB
 @category large_mods
-@quest_line LOTRModfork Quest Line
+@quest_line LOTRModforkQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest lotrmodfork_v36_33_intro
     title: Introduction to LOTRModfork
     desc: Learn the basics of LOTRModfork and craft your first item
-    requires: LOTRModfork Quest Line:lotrmodfork_v36_33_discover
+    requires: LOTRModforkQL:lotrmodfork_v36_33_discover
     logic: AND
     task: craft "any item from LOTRModfork" 1
     reward: item minecraft:book 1 "LOTRModfork Guide"
@@ -36,7 +37,7 @@
 >quest lotrmodfork_v36_33_master
     title: Master LOTRModfork
     desc: Become proficient with advanced LOTRModfork mechanics
-    requires: LOTRModfork Quest Line:lotrmodfork_v36_33_intro
+    requires: LOTRModforkQL:lotrmodfork_v36_33_intro
     logic: AND
     task: collect "advanced items from LOTRModfork" 5
     reward: choice

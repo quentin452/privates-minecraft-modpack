@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # dawn_of_the_planet_of_the_apes_mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod dawn_of_the_planet_of_the_apes_mod
 @filename dawn_of_the_planet_of_the_apes_mod_1.7.10.zip
 @size 0.35MB
 @category small_mods
-@quest_line dawn_of_the_planet_of_the_apes_mod Quest Line
+@quest_line dawn_of_the_planet_of_the_apes_modQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest dawn_of_the_planet_of_the_apes_mod_intro
     title: Introduction to dawn_of_the_planet_of_the_apes_mod
     desc: Learn the basics of dawn_of_the_planet_of_the_apes_mod and craft your first item
-    requires: dawn_of_the_planet_of_the_apes_mod Quest Line:dawn_of_the_planet_of_the_apes_mod_discover
+    requires: dawn_of_the_planet_of_the_apes_modQL:dawn_of_the_planet_of_the_apes_mod_discover
     logic: AND
     task: craft "any item from dawn_of_the_planet_of_the_apes_mod" 1
     reward: item minecraft:book 1 "dawn_of_the_planet_of_the_apes_mod Guide"
@@ -36,7 +37,7 @@
 >quest dawn_of_the_planet_of_the_apes_mod_master
     title: Master dawn_of_the_planet_of_the_apes_mod
     desc: Become proficient with advanced dawn_of_the_planet_of_the_apes_mod mechanics
-    requires: dawn_of_the_planet_of_the_apes_mod Quest Line:dawn_of_the_planet_of_the_apes_mod_intro
+    requires: dawn_of_the_planet_of_the_apes_modQL:dawn_of_the_planet_of_the_apes_mod_intro
     logic: AND
     task: collect "advanced items from dawn_of_the_planet_of_the_apes_mod" 5
     reward: choice

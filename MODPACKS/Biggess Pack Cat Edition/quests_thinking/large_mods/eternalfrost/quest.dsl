@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # eternalfrost Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod eternalfrost
 @filename eternalfrost-2.0b6.jar
 @size 26.97MB
 @category large_mods
-@quest_line eternalfrost Quest Line
+@quest_line eternalfrostQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest eternalfrost_intro
     title: Introduction to eternalfrost
     desc: Learn the basics of eternalfrost and craft your first item
-    requires: eternalfrost Quest Line:eternalfrost_discover
+    requires: eternalfrostQL:eternalfrost_discover
     logic: AND
     task: craft "any item from eternalfrost" 1
     reward: item minecraft:book 1 "eternalfrost Guide"
@@ -36,7 +37,7 @@
 >quest eternalfrost_master
     title: Master eternalfrost
     desc: Become proficient with advanced eternalfrost mechanics
-    requires: eternalfrost Quest Line:eternalfrost_intro
+    requires: eternalfrostQL:eternalfrost_intro
     logic: AND
     task: collect "advanced items from eternalfrost" 5
     reward: choice

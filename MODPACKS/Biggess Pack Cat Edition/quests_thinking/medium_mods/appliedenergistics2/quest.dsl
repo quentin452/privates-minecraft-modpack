@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # achievementbooks Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod achievementbooks
 @filename appliedenergistics2-rv3-beta-688-GTNH.jar
 @size 3.63MB
 @category medium_mods
-@quest_line achievementbooks Quest Line
+@quest_line achievementbooksQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest appliedenergistics2_rv3_beta_688_intro
     title: Introduction to achievementbooks
     desc: Learn the basics of achievementbooks and craft your first item
-    requires: achievementbooks Quest Line:appliedenergistics2_rv3_beta_688_discover
+    requires: achievementbooksQL:appliedenergistics2_rv3_beta_688_discover
     logic: AND
     task: craft "any item from achievementbooks" 1
     reward: item minecraft:book 1 "achievementbooks Guide"
@@ -36,7 +37,7 @@
 >quest appliedenergistics2_rv3_beta_688_master
     title: Master achievementbooks
     desc: Become proficient with advanced achievementbooks mechanics
-    requires: achievementbooks Quest Line:appliedenergistics2_rv3_beta_688_intro
+    requires: achievementbooksQL:appliedenergistics2_rv3_beta_688_intro
     logic: AND
     task: collect "advanced items from achievementbooks" 5
     reward: choice

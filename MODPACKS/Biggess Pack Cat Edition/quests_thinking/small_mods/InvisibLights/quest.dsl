@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # InvisibLights Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod InvisibLights
 @filename InvisibLights-2.3-7.jar
 @size 0.03MB
 @category small_mods
-@quest_line InvisibLights Quest Line
+@quest_line InvisibLightsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest invisiblights_intro
     title: Introduction to InvisibLights
     desc: Learn the basics of InvisibLights and craft your first item
-    requires: InvisibLights Quest Line:invisiblights_discover
+    requires: InvisibLightsQL:invisiblights_discover
     logic: AND
     task: craft "any item from InvisibLights" 1
     reward: item minecraft:book 1 "InvisibLights Guide"
@@ -36,7 +37,7 @@
 >quest invisiblights_master
     title: Master InvisibLights
     desc: Become proficient with advanced InvisibLights mechanics
-    requires: InvisibLights Quest Line:invisiblights_intro
+    requires: InvisibLightsQL:invisiblights_intro
     logic: AND
     task: collect "advanced items from InvisibLights" 5
     reward: choice

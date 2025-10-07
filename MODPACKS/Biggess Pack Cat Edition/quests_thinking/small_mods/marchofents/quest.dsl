@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # marchofents Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod marchofents
 @filename marchofents-1.3.jar
 @size 0.16MB
 @category small_mods
-@quest_line marchofents Quest Line
+@quest_line marchofentsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest marchofents_intro
     title: Introduction to marchofents
     desc: Learn the basics of marchofents and craft your first item
-    requires: marchofents Quest Line:marchofents_discover
+    requires: marchofentsQL:marchofents_discover
     logic: AND
     task: craft "any item from marchofents" 1
     reward: item minecraft:book 1 "marchofents Guide"
@@ -36,7 +37,7 @@
 >quest marchofents_master
     title: Master marchofents
     desc: Become proficient with advanced marchofents mechanics
-    requires: marchofents Quest Line:marchofents_intro
+    requires: marchofentsQL:marchofents_intro
     logic: AND
     task: collect "advanced items from marchofents" 5
     reward: choice

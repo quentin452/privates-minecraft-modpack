@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # 1.7.10-Pistronics2 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod 1.7.10-Pistronics2
 @filename 1.7.10-Pistronics2-v0.6.4.jar
 @size 0.78MB
 @category small_mods
-@quest_line 1.7.10-Pistronics2 Quest Line
+@quest_line 1.7.10-Pistronics2QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest 1_7_10_pistronics2_intro
     title: Introduction to 1.7.10-Pistronics2
     desc: Learn the basics of 1.7.10-Pistronics2 and craft your first item
-    requires: 1.7.10-Pistronics2 Quest Line:1_7_10_pistronics2_discover
+    requires: 1.7.10-Pistronics2QL:1_7_10_pistronics2_discover
     logic: AND
     task: craft "any item from 1.7.10-Pistronics2" 1
     reward: item minecraft:book 1 "1.7.10-Pistronics2 Guide"
@@ -36,7 +37,7 @@
 >quest 1_7_10_pistronics2_master
     title: Master 1.7.10-Pistronics2
     desc: Become proficient with advanced 1.7.10-Pistronics2 mechanics
-    requires: 1.7.10-Pistronics2 Quest Line:1_7_10_pistronics2_intro
+    requires: 1.7.10-Pistronics2QL:1_7_10_pistronics2_intro
     logic: AND
     task: collect "advanced items from 1.7.10-Pistronics2" 5
     reward: choice

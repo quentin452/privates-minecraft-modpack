@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # FOrgeCraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod FOrgeCraft
 @filename FOrgeCraft-2.4.2.jar
 @size 2.37MB
 @category medium_mods
-@quest_line FOrgeCraft Quest Line
+@quest_line FOrgeCraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest forgecraft_intro
     title: Introduction to FOrgeCraft
     desc: Learn the basics of FOrgeCraft and craft your first item
-    requires: FOrgeCraft Quest Line:forgecraft_discover
+    requires: FOrgeCraftQL:forgecraft_discover
     logic: AND
     task: craft "any item from FOrgeCraft" 1
     reward: item minecraft:book 1 "FOrgeCraft Guide"
@@ -36,7 +37,7 @@
 >quest forgecraft_master
     title: Master FOrgeCraft
     desc: Become proficient with advanced FOrgeCraft mechanics
-    requires: FOrgeCraft Quest Line:forgecraft_intro
+    requires: FOrgeCraftQL:forgecraft_intro
     logic: AND
     task: collect "advanced items from FOrgeCraft" 5
     reward: choice

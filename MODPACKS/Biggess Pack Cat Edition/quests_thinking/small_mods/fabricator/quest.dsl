@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # fabricator Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod fabricator
 @filename fabricator-1.7.10-1.2.64-universal.jar
 @size 0.09MB
 @category small_mods
-@quest_line fabricator Quest Line
+@quest_line fabricatorQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest fabricator_intro
     title: Introduction to fabricator
     desc: Learn the basics of fabricator and craft your first item
-    requires: fabricator Quest Line:fabricator_discover
+    requires: fabricatorQL:fabricator_discover
     logic: AND
     task: craft "any item from fabricator" 1
     reward: item minecraft:book 1 "fabricator Guide"
@@ -36,7 +37,7 @@
 >quest fabricator_master
     title: Master fabricator
     desc: Become proficient with advanced fabricator mechanics
-    requires: fabricator Quest Line:fabricator_intro
+    requires: fabricatorQL:fabricator_intro
     logic: AND
     task: collect "advanced items from fabricator" 5
     reward: choice

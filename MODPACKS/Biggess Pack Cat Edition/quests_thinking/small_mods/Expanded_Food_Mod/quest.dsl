@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Expanded_Food_Mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Expanded_Food_Mod
 @filename Expanded_Food_Mod_1.7.10.jar
 @size 0.05MB
 @category small_mods
-@quest_line Expanded_Food_Mod Quest Line
+@quest_line Expanded_Food_ModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest expanded_food_mod_intro
     title: Introduction to Expanded_Food_Mod
     desc: Learn the basics of Expanded_Food_Mod and craft your first item
-    requires: Expanded_Food_Mod Quest Line:expanded_food_mod_discover
+    requires: Expanded_Food_ModQL:expanded_food_mod_discover
     logic: AND
     task: craft "any item from Expanded_Food_Mod" 1
     reward: item minecraft:book 1 "Expanded_Food_Mod Guide"
@@ -36,7 +37,7 @@
 >quest expanded_food_mod_master
     title: Master Expanded_Food_Mod
     desc: Become proficient with advanced Expanded_Food_Mod mechanics
-    requires: Expanded_Food_Mod Quest Line:expanded_food_mod_intro
+    requires: Expanded_Food_ModQL:expanded_food_mod_intro
     logic: AND
     task: collect "advanced items from Expanded_Food_Mod" 5
     reward: choice

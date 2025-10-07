@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # IlluminatedBows Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod IlluminatedBows
 @filename IlluminatedBows-1.7.10-1.7.1f.jar
 @size 0.21MB
 @category small_mods
-@quest_line IlluminatedBows Quest Line
+@quest_line IlluminatedBowsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest illuminatedbows_intro
     title: Introduction to IlluminatedBows
     desc: Learn the basics of IlluminatedBows and craft your first item
-    requires: IlluminatedBows Quest Line:illuminatedbows_discover
+    requires: IlluminatedBowsQL:illuminatedbows_discover
     logic: AND
     task: craft "any item from IlluminatedBows" 1
     reward: item minecraft:book 1 "IlluminatedBows Guide"
@@ -36,7 +37,7 @@
 >quest illuminatedbows_master
     title: Master IlluminatedBows
     desc: Become proficient with advanced IlluminatedBows mechanics
-    requires: IlluminatedBows Quest Line:illuminatedbows_intro
+    requires: IlluminatedBowsQL:illuminatedbows_intro
     logic: AND
     task: collect "advanced items from IlluminatedBows" 5
     reward: choice

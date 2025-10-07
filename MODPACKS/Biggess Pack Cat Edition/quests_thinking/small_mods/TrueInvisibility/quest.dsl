@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # TrueInvisibility Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TrueInvisibility
 @filename TrueInvisibility-0.3.0-1.7.10.jar
 @size 0.03MB
 @category small_mods
-@quest_line TrueInvisibility Quest Line
+@quest_line TrueInvisibilityQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest trueinvisibility_intro
     title: Introduction to TrueInvisibility
     desc: Learn the basics of TrueInvisibility and craft your first item
-    requires: TrueInvisibility Quest Line:trueinvisibility_discover
+    requires: TrueInvisibilityQL:trueinvisibility_discover
     logic: AND
     task: craft "any item from TrueInvisibility" 1
     reward: item minecraft:book 1 "TrueInvisibility Guide"
@@ -36,7 +37,7 @@
 >quest trueinvisibility_master
     title: Master TrueInvisibility
     desc: Become proficient with advanced TrueInvisibility mechanics
-    requires: TrueInvisibility Quest Line:trueinvisibility_intro
+    requires: TrueInvisibilityQL:trueinvisibility_intro
     logic: AND
     task: collect "advanced items from TrueInvisibility" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # TNS Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TNS
 @filename TNS-1.0.1.jar
 @size 0.03MB
 @category small_mods
-@quest_line TNS Quest Line
+@quest_line TNSQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest tns_intro
     title: Introduction to TNS
     desc: Learn the basics of TNS and craft your first item
-    requires: TNS Quest Line:tns_discover
+    requires: TNSQL:tns_discover
     logic: AND
     task: craft "any item from TNS" 1
     reward: item minecraft:book 1 "TNS Guide"
@@ -36,7 +37,7 @@
 >quest tns_master
     title: Master TNS
     desc: Become proficient with advanced TNS mechanics
-    requires: TNS Quest Line:tns_intro
+    requires: TNSQL:tns_intro
     logic: AND
     task: collect "advanced items from TNS" 5
     reward: choice

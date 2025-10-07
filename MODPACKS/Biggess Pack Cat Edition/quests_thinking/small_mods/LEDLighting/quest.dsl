@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # LEDLighting Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod LEDLighting
 @filename LEDLighting-1.0.0.jar
 @size 0.02MB
 @category small_mods
-@quest_line LEDLighting Quest Line
+@quest_line LEDLightingQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ledlighting_intro
     title: Introduction to LEDLighting
     desc: Learn the basics of LEDLighting and craft your first item
-    requires: LEDLighting Quest Line:ledlighting_discover
+    requires: LEDLightingQL:ledlighting_discover
     logic: AND
     task: craft "any item from LEDLighting" 1
     reward: item minecraft:book 1 "LEDLighting Guide"
@@ -36,7 +37,7 @@
 >quest ledlighting_master
     title: Master LEDLighting
     desc: Become proficient with advanced LEDLighting mechanics
-    requires: LEDLighting Quest Line:ledlighting_intro
+    requires: LEDLightingQL:ledlighting_intro
     logic: AND
     task: collect "advanced items from LEDLighting" 5
     reward: choice

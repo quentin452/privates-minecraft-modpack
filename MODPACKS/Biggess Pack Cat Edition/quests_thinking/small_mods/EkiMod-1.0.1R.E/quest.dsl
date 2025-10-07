@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # EkiMod-1.0.1R.E Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod EkiMod-1.0.1R.E
 @filename EkiMod-1.0.1R.E.jar
 @size 0.44MB
 @category small_mods
-@quest_line EkiMod-1.0.1R.E Quest Line
+@quest_line EkiMod-1.0.1R.EQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ekimod_1_0_1r_e_intro
     title: Introduction to EkiMod-1.0.1R.E
     desc: Learn the basics of EkiMod-1.0.1R.E and craft your first item
-    requires: EkiMod-1.0.1R.E Quest Line:ekimod_1_0_1r_e_discover
+    requires: EkiMod-1.0.1R.EQL:ekimod_1_0_1r_e_discover
     logic: AND
     task: craft "any item from EkiMod-1.0.1R.E" 1
     reward: item minecraft:book 1 "EkiMod-1.0.1R.E Guide"
@@ -36,7 +37,7 @@
 >quest ekimod_1_0_1r_e_master
     title: Master EkiMod-1.0.1R.E
     desc: Become proficient with advanced EkiMod-1.0.1R.E mechanics
-    requires: EkiMod-1.0.1R.E Quest Line:ekimod_1_0_1r_e_intro
+    requires: EkiMod-1.0.1R.EQL:ekimod_1_0_1r_e_intro
     logic: AND
     task: collect "advanced items from EkiMod-1.0.1R.E" 5
     reward: choice

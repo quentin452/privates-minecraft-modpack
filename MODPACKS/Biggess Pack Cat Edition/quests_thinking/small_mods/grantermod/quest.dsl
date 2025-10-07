@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # grantermod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod grantermod
 @filename grantermod-1.2.jar
 @size 0.03MB
 @category small_mods
-@quest_line grantermod Quest Line
+@quest_line grantermodQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest grantermod_intro
     title: Introduction to grantermod
     desc: Learn the basics of grantermod and craft your first item
-    requires: grantermod Quest Line:grantermod_discover
+    requires: grantermodQL:grantermod_discover
     logic: AND
     task: craft "any item from grantermod" 1
     reward: item minecraft:book 1 "grantermod Guide"
@@ -36,7 +37,7 @@
 >quest grantermod_master
     title: Master grantermod
     desc: Become proficient with advanced grantermod mechanics
-    requires: grantermod Quest Line:grantermod_intro
+    requires: grantermodQL:grantermod_intro
     logic: AND
     task: collect "advanced items from grantermod" 5
     reward: choice

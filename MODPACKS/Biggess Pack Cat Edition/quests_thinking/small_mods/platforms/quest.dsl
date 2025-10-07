@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # platforms Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod platforms
 @filename platforms-1.7.10-0.1.2.jar
 @size 0.45MB
 @category small_mods
-@quest_line platforms Quest Line
+@quest_line platformsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest platforms_intro
     title: Introduction to platforms
     desc: Learn the basics of platforms and craft your first item
-    requires: platforms Quest Line:platforms_discover
+    requires: platformsQL:platforms_discover
     logic: AND
     task: craft "any item from platforms" 1
     reward: item minecraft:book 1 "platforms Guide"
@@ -36,7 +37,7 @@
 >quest platforms_master
     title: Master platforms
     desc: Become proficient with advanced platforms mechanics
-    requires: platforms Quest Line:platforms_intro
+    requires: platformsQL:platforms_intro
     logic: AND
     task: collect "advanced items from platforms" 5
     reward: choice

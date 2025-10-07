@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # AutomatedRedstone Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod AutomatedRedstone
 @filename AutomatedRedstone-1.7.10-2.2.1.jar
 @size 0.12MB
 @category small_mods
-@quest_line AutomatedRedstone Quest Line
+@quest_line AutomatedRedstoneQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest automatedredstone_intro
     title: Introduction to AutomatedRedstone
     desc: Learn the basics of AutomatedRedstone and craft your first item
-    requires: AutomatedRedstone Quest Line:automatedredstone_discover
+    requires: AutomatedRedstoneQL:automatedredstone_discover
     logic: AND
     task: craft "any item from AutomatedRedstone" 1
     reward: item minecraft:book 1 "AutomatedRedstone Guide"
@@ -36,7 +37,7 @@
 >quest automatedredstone_master
     title: Master AutomatedRedstone
     desc: Become proficient with advanced AutomatedRedstone mechanics
-    requires: AutomatedRedstone Quest Line:automatedredstone_intro
+    requires: AutomatedRedstoneQL:automatedredstone_intro
     logic: AND
     task: collect "advanced items from AutomatedRedstone" 5
     reward: choice

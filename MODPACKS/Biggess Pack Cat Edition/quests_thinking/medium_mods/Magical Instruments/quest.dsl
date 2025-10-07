@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Magical Instruments Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Magical Instruments
 @filename Magical Instruments-0.9.1.jar
 @size 3.45MB
 @category medium_mods
-@quest_line Magical Instruments Quest Line
+@quest_line Magical InstrumentsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest magical_instruments_intro
     title: Introduction to Magical Instruments
     desc: Learn the basics of Magical Instruments and craft your first item
-    requires: Magical Instruments Quest Line:magical_instruments_discover
+    requires: Magical InstrumentsQL:magical_instruments_discover
     logic: AND
     task: craft "any item from Magical Instruments" 1
     reward: item minecraft:book 1 "Magical Instruments Guide"
@@ -36,7 +37,7 @@
 >quest magical_instruments_master
     title: Master Magical Instruments
     desc: Become proficient with advanced Magical Instruments mechanics
-    requires: Magical Instruments Quest Line:magical_instruments_intro
+    requires: Magical InstrumentsQL:magical_instruments_intro
     logic: AND
     task: collect "advanced items from Magical Instruments" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # PneumaticCraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod PneumaticCraft
 @filename PneumaticCraft-1.7.10-1.12.7-152-universal.jar
 @size 6.17MB
 @category medium_mods
-@quest_line PneumaticCraft Quest Line
+@quest_line PneumaticCraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest pneumaticcraft_1_7_10_1_12_7_152_intro
     title: Introduction to PneumaticCraft
     desc: Learn the basics of PneumaticCraft and craft your first item
-    requires: PneumaticCraft Quest Line:pneumaticcraft_1_7_10_1_12_7_152_discover
+    requires: PneumaticCraftQL:pneumaticcraft_1_7_10_1_12_7_152_discover
     logic: AND
     task: craft "any item from PneumaticCraft" 1
     reward: item minecraft:book 1 "PneumaticCraft Guide"
@@ -36,7 +37,7 @@
 >quest pneumaticcraft_1_7_10_1_12_7_152_master
     title: Master PneumaticCraft
     desc: Become proficient with advanced PneumaticCraft mechanics
-    requires: PneumaticCraft Quest Line:pneumaticcraft_1_7_10_1_12_7_152_intro
+    requires: PneumaticCraftQL:pneumaticcraft_1_7_10_1_12_7_152_intro
     logic: AND
     task: collect "advanced items from PneumaticCraft" 5
     reward: choice

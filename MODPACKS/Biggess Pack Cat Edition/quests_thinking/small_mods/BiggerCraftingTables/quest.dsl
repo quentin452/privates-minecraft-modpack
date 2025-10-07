@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BiggerCraftingTables Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BiggerCraftingTables
 @filename BiggerCraftingTables-1.7.10-1.7.jar
 @size 0.20MB
 @category small_mods
-@quest_line BiggerCraftingTables Quest Line
+@quest_line BiggerCraftingTablesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest biggercraftingtables_intro
     title: Introduction to BiggerCraftingTables
     desc: Learn the basics of BiggerCraftingTables and craft your first item
-    requires: BiggerCraftingTables Quest Line:biggercraftingtables_discover
+    requires: BiggerCraftingTablesQL:biggercraftingtables_discover
     logic: AND
     task: craft "any item from BiggerCraftingTables" 1
     reward: item minecraft:book 1 "BiggerCraftingTables Guide"
@@ -36,7 +37,7 @@
 >quest biggercraftingtables_master
     title: Master BiggerCraftingTables
     desc: Become proficient with advanced BiggerCraftingTables mechanics
-    requires: BiggerCraftingTables Quest Line:biggercraftingtables_intro
+    requires: BiggerCraftingTablesQL:biggercraftingtables_intro
     logic: AND
     task: collect "advanced items from BiggerCraftingTables" 5
     reward: choice

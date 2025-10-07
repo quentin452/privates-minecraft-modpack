@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ProjectPower Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ProjectPower
 @filename ProjectPower-1.2.jar
 @size 0.02MB
 @category small_mods
-@quest_line ProjectPower Quest Line
+@quest_line ProjectPowerQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest projectpower_intro
     title: Introduction to ProjectPower
     desc: Learn the basics of ProjectPower and craft your first item
-    requires: ProjectPower Quest Line:projectpower_discover
+    requires: ProjectPowerQL:projectpower_discover
     logic: AND
     task: craft "any item from ProjectPower" 1
     reward: item minecraft:book 1 "ProjectPower Guide"
@@ -36,7 +37,7 @@
 >quest projectpower_master
     title: Master ProjectPower
     desc: Become proficient with advanced ProjectPower mechanics
-    requires: ProjectPower Quest Line:projectpower_intro
+    requires: ProjectPowerQL:projectpower_intro
     logic: AND
     task: collect "advanced items from ProjectPower" 5
     reward: choice

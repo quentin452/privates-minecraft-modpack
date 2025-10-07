@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Bedrockium Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Bedrockium
 @filename Bedrockium-0.1.1.jar
 @size 0.02MB
 @category small_mods
-@quest_line Bedrockium Quest Line
+@quest_line BedrockiumQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest bedrockium_intro
     title: Introduction to Bedrockium
     desc: Learn the basics of Bedrockium and craft your first item
-    requires: Bedrockium Quest Line:bedrockium_discover
+    requires: BedrockiumQL:bedrockium_discover
     logic: AND
     task: craft "any item from Bedrockium" 1
     reward: item minecraft:book 1 "Bedrockium Guide"
@@ -36,7 +37,7 @@
 >quest bedrockium_master
     title: Master Bedrockium
     desc: Become proficient with advanced Bedrockium mechanics
-    requires: Bedrockium Quest Line:bedrockium_intro
+    requires: BedrockiumQL:bedrockium_intro
     logic: AND
     task: collect "advanced items from Bedrockium" 5
     reward: choice

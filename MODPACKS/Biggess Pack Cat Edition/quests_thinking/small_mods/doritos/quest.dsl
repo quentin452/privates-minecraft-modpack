@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # doritos Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod doritos
 @filename doritos-1.0.0.0.jar
 @size 1.23MB
 @category small_mods
-@quest_line doritos Quest Line
+@quest_line doritosQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest doritos_intro
     title: Introduction to doritos
     desc: Learn the basics of doritos and craft your first item
-    requires: doritos Quest Line:doritos_discover
+    requires: doritosQL:doritos_discover
     logic: AND
     task: craft "any item from doritos" 1
     reward: item minecraft:book 1 "doritos Guide"
@@ -36,7 +37,7 @@
 >quest doritos_master
     title: Master doritos
     desc: Become proficient with advanced doritos mechanics
-    requires: doritos Quest Line:doritos_intro
+    requires: doritosQL:doritos_intro
     logic: AND
     task: collect "advanced items from doritos" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # TougherTools-SPELLS Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TougherTools-SPELLS
 @filename TougherTools-SPELLS.jar
 @size 0.07MB
 @category small_mods
-@quest_line TougherTools-SPELLS Quest Line
+@quest_line TougherTools-SPELLSQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest toughertools_spells_intro
     title: Introduction to TougherTools-SPELLS
     desc: Learn the basics of TougherTools-SPELLS and craft your first item
-    requires: TougherTools-SPELLS Quest Line:toughertools_spells_discover
+    requires: TougherTools-SPELLSQL:toughertools_spells_discover
     logic: AND
     task: craft "any item from TougherTools-SPELLS" 1
     reward: item minecraft:book 1 "TougherTools-SPELLS Guide"
@@ -36,7 +37,7 @@
 >quest toughertools_spells_master
     title: Master TougherTools-SPELLS
     desc: Become proficient with advanced TougherTools-SPELLS mechanics
-    requires: TougherTools-SPELLS Quest Line:toughertools_spells_intro
+    requires: TougherTools-SPELLSQL:toughertools_spells_intro
     logic: AND
     task: collect "advanced items from TougherTools-SPELLS" 5
     reward: choice

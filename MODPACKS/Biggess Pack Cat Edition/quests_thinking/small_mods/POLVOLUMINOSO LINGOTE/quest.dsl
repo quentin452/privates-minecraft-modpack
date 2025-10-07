@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # POLVOLUMINOSO LINGOTE Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod POLVOLUMINOSO LINGOTE
 @filename POLVOLUMINOSO LINGOTE.jar
 @size 0.05MB
 @category small_mods
-@quest_line POLVOLUMINOSO LINGOTE Quest Line
+@quest_line POLVOLUMINOSO LINGOTEQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest polvoluminoso_lingote_intro
     title: Introduction to POLVOLUMINOSO LINGOTE
     desc: Learn the basics of POLVOLUMINOSO LINGOTE and craft your first item
-    requires: POLVOLUMINOSO LINGOTE Quest Line:polvoluminoso_lingote_discover
+    requires: POLVOLUMINOSO LINGOTEQL:polvoluminoso_lingote_discover
     logic: AND
     task: craft "any item from POLVOLUMINOSO LINGOTE" 1
     reward: item minecraft:book 1 "POLVOLUMINOSO LINGOTE Guide"
@@ -36,7 +37,7 @@
 >quest polvoluminoso_lingote_master
     title: Master POLVOLUMINOSO LINGOTE
     desc: Become proficient with advanced POLVOLUMINOSO LINGOTE mechanics
-    requires: POLVOLUMINOSO LINGOTE Quest Line:polvoluminoso_lingote_intro
+    requires: POLVOLUMINOSO LINGOTEQL:polvoluminoso_lingote_intro
     logic: AND
     task: collect "advanced items from POLVOLUMINOSO LINGOTE" 5
     reward: choice

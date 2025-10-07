@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # am2.0.90 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod am2.0.90
 @filename am2.0.90.jar
 @size 0.30MB
 @category small_mods
-@quest_line am2.0.90 Quest Line
+@quest_line am2.0.90QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest am2_0_90_intro
     title: Introduction to am2.0.90
     desc: Learn the basics of am2.0.90 and craft your first item
-    requires: am2.0.90 Quest Line:am2_0_90_discover
+    requires: am2.0.90QL:am2_0_90_discover
     logic: AND
     task: craft "any item from am2.0.90" 1
     reward: item minecraft:book 1 "am2.0.90 Guide"
@@ -36,7 +37,7 @@
 >quest am2_0_90_master
     title: Master am2.0.90
     desc: Become proficient with advanced am2.0.90 mechanics
-    requires: am2.0.90 Quest Line:am2_0_90_intro
+    requires: am2.0.90QL:am2_0_90_intro
     logic: AND
     task: collect "advanced items from am2.0.90" 5
     reward: choice

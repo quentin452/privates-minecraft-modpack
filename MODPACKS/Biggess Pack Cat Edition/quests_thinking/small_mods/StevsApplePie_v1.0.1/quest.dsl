@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # StevsApplePie_v1.0.1 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod StevsApplePie_v1.0.1
 @filename StevsApplePie_v1.0.1_mc1.7.10.jar
 @size 0.00MB
 @category small_mods
-@quest_line StevsApplePie_v1.0.1 Quest Line
+@quest_line StevsApplePie_v1.0.1QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest stevsapplepie_v1_0_1_intro
     title: Introduction to StevsApplePie_v1.0.1
     desc: Learn the basics of StevsApplePie_v1.0.1 and craft your first item
-    requires: StevsApplePie_v1.0.1 Quest Line:stevsapplepie_v1_0_1_discover
+    requires: StevsApplePie_v1.0.1QL:stevsapplepie_v1_0_1_discover
     logic: AND
     task: craft "any item from StevsApplePie_v1.0.1" 1
     reward: item minecraft:book 1 "StevsApplePie_v1.0.1 Guide"
@@ -36,7 +37,7 @@
 >quest stevsapplepie_v1_0_1_master
     title: Master StevsApplePie_v1.0.1
     desc: Become proficient with advanced StevsApplePie_v1.0.1 mechanics
-    requires: StevsApplePie_v1.0.1 Quest Line:stevsapplepie_v1_0_1_intro
+    requires: StevsApplePie_v1.0.1QL:stevsapplepie_v1_0_1_intro
     logic: AND
     task: collect "advanced items from StevsApplePie_v1.0.1" 5
     reward: choice

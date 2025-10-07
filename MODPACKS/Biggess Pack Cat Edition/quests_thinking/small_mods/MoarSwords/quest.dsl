@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # MoarSwords Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MoarSwords
 @filename MoarSwords-[1.7.10]-6.2.jar
 @size 0.39MB
 @category small_mods
-@quest_line MoarSwords Quest Line
+@quest_line MoarSwordsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest moarswords_intro
     title: Introduction to MoarSwords
     desc: Learn the basics of MoarSwords and craft your first item
-    requires: MoarSwords Quest Line:moarswords_discover
+    requires: MoarSwordsQL:moarswords_discover
     logic: AND
     task: craft "any item from MoarSwords" 1
     reward: item minecraft:book 1 "MoarSwords Guide"
@@ -36,7 +37,7 @@
 >quest moarswords_master
     title: Master MoarSwords
     desc: Become proficient with advanced MoarSwords mechanics
-    requires: MoarSwords Quest Line:moarswords_intro
+    requires: MoarSwordsQL:moarswords_intro
     logic: AND
     task: collect "advanced items from MoarSwords" 5
     reward: choice

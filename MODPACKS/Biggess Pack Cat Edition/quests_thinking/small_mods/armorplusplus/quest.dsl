@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # armorplusplus Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod armorplusplus
 @filename armorplusplus-1.0.1.245.jar
 @size 0.44MB
 @category small_mods
-@quest_line armorplusplus Quest Line
+@quest_line armorplusplusQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest armorplusplus_intro
     title: Introduction to armorplusplus
     desc: Learn the basics of armorplusplus and craft your first item
-    requires: armorplusplus Quest Line:armorplusplus_discover
+    requires: armorplusplusQL:armorplusplus_discover
     logic: AND
     task: craft "any item from armorplusplus" 1
     reward: item minecraft:book 1 "armorplusplus Guide"
@@ -36,7 +37,7 @@
 >quest armorplusplus_master
     title: Master armorplusplus
     desc: Become proficient with advanced armorplusplus mechanics
-    requires: armorplusplus Quest Line:armorplusplus_intro
+    requires: armorplusplusQL:armorplusplus_intro
     logic: AND
     task: collect "advanced items from armorplusplus" 5
     reward: choice

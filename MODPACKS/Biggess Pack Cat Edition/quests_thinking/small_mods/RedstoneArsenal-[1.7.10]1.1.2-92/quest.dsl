@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # RedstoneArsenal-[1.7.10]1.1.2-92 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RedstoneArsenal-[1.7.10]1.1.2-92
 @filename RedstoneArsenal-[1.7.10]1.1.2-92.jar
 @size 0.30MB
 @category small_mods
-@quest_line RedstoneArsenal-[1.7.10]1.1.2-92 Quest Line
+@quest_line RedstoneArsenal-[1.7.10]1.1.2-92QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest redstonearsenal_1_7_101_1_2_92_intro
     title: Introduction to RedstoneArsenal-[1.7.10]1.1.2-92
     desc: Learn the basics of RedstoneArsenal-[1.7.10]1.1.2-92 and craft your first item
-    requires: RedstoneArsenal-[1.7.10]1.1.2-92 Quest Line:redstonearsenal_1_7_101_1_2_92_discover
+    requires: RedstoneArsenal-[1.7.10]1.1.2-92QL:redstonearsenal_1_7_101_1_2_92_discover
     logic: AND
     task: craft "any item from RedstoneArsenal-[1.7.10]1.1.2-92" 1
     reward: item minecraft:book 1 "RedstoneArsenal-[1.7.10]1.1.2-92 Guide"
@@ -36,7 +37,7 @@
 >quest redstonearsenal_1_7_101_1_2_92_master
     title: Master RedstoneArsenal-[1.7.10]1.1.2-92
     desc: Become proficient with advanced RedstoneArsenal-[1.7.10]1.1.2-92 mechanics
-    requires: RedstoneArsenal-[1.7.10]1.1.2-92 Quest Line:redstonearsenal_1_7_101_1_2_92_intro
+    requires: RedstoneArsenal-[1.7.10]1.1.2-92QL:redstonearsenal_1_7_101_1_2_92_intro
     logic: AND
     task: collect "advanced items from RedstoneArsenal-[1.7.10]1.1.2-92" 5
     reward: choice

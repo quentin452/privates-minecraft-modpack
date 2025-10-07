@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # dooglamoojuniorarchaeology Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod dooglamoojuniorarchaeology
 @filename dooglamoojuniorarchaeology-1.7.10-1.0.jar
 @size 0.17MB
 @category small_mods
-@quest_line dooglamoojuniorarchaeology Quest Line
+@quest_line dooglamoojuniorarchaeologyQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest dooglamoojuniorarchaeology_intro
     title: Introduction to dooglamoojuniorarchaeology
     desc: Learn the basics of dooglamoojuniorarchaeology and craft your first item
-    requires: dooglamoojuniorarchaeology Quest Line:dooglamoojuniorarchaeology_discover
+    requires: dooglamoojuniorarchaeologyQL:dooglamoojuniorarchaeology_discover
     logic: AND
     task: craft "any item from dooglamoojuniorarchaeology" 1
     reward: item minecraft:book 1 "dooglamoojuniorarchaeology Guide"
@@ -36,7 +37,7 @@
 >quest dooglamoojuniorarchaeology_master
     title: Master dooglamoojuniorarchaeology
     desc: Become proficient with advanced dooglamoojuniorarchaeology mechanics
-    requires: dooglamoojuniorarchaeology Quest Line:dooglamoojuniorarchaeology_intro
+    requires: dooglamoojuniorarchaeologyQL:dooglamoojuniorarchaeology_intro
     logic: AND
     task: collect "advanced items from dooglamoojuniorarchaeology" 5
     reward: choice

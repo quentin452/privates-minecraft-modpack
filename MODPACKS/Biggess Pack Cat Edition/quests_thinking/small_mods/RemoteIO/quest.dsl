@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # RemoteIO Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RemoteIO
 @filename RemoteIO-2.7.6.jar
 @size 0.27MB
 @category small_mods
-@quest_line RemoteIO Quest Line
+@quest_line RemoteIOQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest remoteio_intro
     title: Introduction to RemoteIO
     desc: Learn the basics of RemoteIO and craft your first item
-    requires: RemoteIO Quest Line:remoteio_discover
+    requires: RemoteIOQL:remoteio_discover
     logic: AND
     task: craft "any item from RemoteIO" 1
     reward: item minecraft:book 1 "RemoteIO Guide"
@@ -36,7 +37,7 @@
 >quest remoteio_master
     title: Master RemoteIO
     desc: Become proficient with advanced RemoteIO mechanics
-    requires: RemoteIO Quest Line:remoteio_intro
+    requires: RemoteIOQL:remoteio_intro
     logic: AND
     task: collect "advanced items from RemoteIO" 5
     reward: choice

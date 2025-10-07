@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # JustEnoughCalculation Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod JustEnoughCalculation
 @filename JustEnoughCalculation-1.7.10-4.9.jar
 @size 0.39MB
 @category small_mods
-@quest_line JustEnoughCalculation Quest Line
+@quest_line JustEnoughCalculationQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest justenoughcalculation_intro
     title: Introduction to JustEnoughCalculation
     desc: Learn the basics of JustEnoughCalculation and craft your first item
-    requires: JustEnoughCalculation Quest Line:justenoughcalculation_discover
+    requires: JustEnoughCalculationQL:justenoughcalculation_discover
     logic: AND
     task: craft "any item from JustEnoughCalculation" 1
     reward: item minecraft:book 1 "JustEnoughCalculation Guide"
@@ -36,7 +37,7 @@
 >quest justenoughcalculation_master
     title: Master JustEnoughCalculation
     desc: Become proficient with advanced JustEnoughCalculation mechanics
-    requires: JustEnoughCalculation Quest Line:justenoughcalculation_intro
+    requires: JustEnoughCalculationQL:justenoughcalculation_intro
     logic: AND
     task: collect "advanced items from JustEnoughCalculation" 5
     reward: choice

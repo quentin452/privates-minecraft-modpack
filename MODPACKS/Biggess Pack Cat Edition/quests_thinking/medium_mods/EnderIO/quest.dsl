@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # EnderIO Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod EnderIO
 @filename EnderIO-2.9.22.jar
 @size 4.87MB
 @category medium_mods
-@quest_line EnderIO Quest Line
+@quest_line EnderIOQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest enderio_intro
     title: Introduction to EnderIO
     desc: Learn the basics of EnderIO and craft your first item
-    requires: EnderIO Quest Line:enderio_discover
+    requires: EnderIOQL:enderio_discover
     logic: AND
     task: craft "any item from EnderIO" 1
     reward: item minecraft:book 1 "EnderIO Guide"
@@ -36,7 +37,7 @@
 >quest enderio_master
     title: Master EnderIO
     desc: Become proficient with advanced EnderIO mechanics
-    requires: EnderIO Quest Line:enderio_intro
+    requires: EnderIOQL:enderio_intro
     logic: AND
     task: collect "advanced items from EnderIO" 5
     reward: choice

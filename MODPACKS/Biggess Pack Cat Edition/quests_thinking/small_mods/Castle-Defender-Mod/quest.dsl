@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Castle-Defender-Mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Castle-Defender-Mod
 @filename Castle-Defender-Mod-1.7.10.jar
 @size 0.36MB
 @category small_mods
-@quest_line Castle-Defender-Mod Quest Line
+@quest_line Castle-Defender-ModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest castle_defender_mod_intro
     title: Introduction to Castle-Defender-Mod
     desc: Learn the basics of Castle-Defender-Mod and craft your first item
-    requires: Castle-Defender-Mod Quest Line:castle_defender_mod_discover
+    requires: Castle-Defender-ModQL:castle_defender_mod_discover
     logic: AND
     task: craft "any item from Castle-Defender-Mod" 1
     reward: item minecraft:book 1 "Castle-Defender-Mod Guide"
@@ -36,7 +37,7 @@
 >quest castle_defender_mod_master
     title: Master Castle-Defender-Mod
     desc: Become proficient with advanced Castle-Defender-Mod mechanics
-    requires: Castle-Defender-Mod Quest Line:castle_defender_mod_intro
+    requires: Castle-Defender-ModQL:castle_defender_mod_intro
     logic: AND
     task: collect "advanced items from Castle-Defender-Mod" 5
     reward: choice

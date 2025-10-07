@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # wall_clock_mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod wall_clock_mod
 @filename wall_clock_mod_1.7.10.jar
 @size 0.09MB
 @category small_mods
-@quest_line wall_clock_mod Quest Line
+@quest_line wall_clock_modQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest wall_clock_mod_intro
     title: Introduction to wall_clock_mod
     desc: Learn the basics of wall_clock_mod and craft your first item
-    requires: wall_clock_mod Quest Line:wall_clock_mod_discover
+    requires: wall_clock_modQL:wall_clock_mod_discover
     logic: AND
     task: craft "any item from wall_clock_mod" 1
     reward: item minecraft:book 1 "wall_clock_mod Guide"
@@ -36,7 +37,7 @@
 >quest wall_clock_mod_master
     title: Master wall_clock_mod
     desc: Become proficient with advanced wall_clock_mod mechanics
-    requires: wall_clock_mod Quest Line:wall_clock_mod_intro
+    requires: wall_clock_modQL:wall_clock_mod_intro
     logic: AND
     task: collect "advanced items from wall_clock_mod" 5
     reward: choice

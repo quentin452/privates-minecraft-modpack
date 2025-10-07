@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # RestrictedSaplings Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RestrictedSaplings
 @filename RestrictedSaplings-1.7.10-1.0.0.jar
 @size 0.01MB
 @category small_mods
-@quest_line RestrictedSaplings Quest Line
+@quest_line RestrictedSaplingsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest restrictedsaplings_intro
     title: Introduction to RestrictedSaplings
     desc: Learn the basics of RestrictedSaplings and craft your first item
-    requires: RestrictedSaplings Quest Line:restrictedsaplings_discover
+    requires: RestrictedSaplingsQL:restrictedsaplings_discover
     logic: AND
     task: craft "any item from RestrictedSaplings" 1
     reward: item minecraft:book 1 "RestrictedSaplings Guide"
@@ -36,7 +37,7 @@
 >quest restrictedsaplings_master
     title: Master RestrictedSaplings
     desc: Become proficient with advanced RestrictedSaplings mechanics
-    requires: RestrictedSaplings Quest Line:restrictedsaplings_intro
+    requires: RestrictedSaplingsQL:restrictedsaplings_intro
     logic: AND
     task: collect "advanced items from RestrictedSaplings" 5
     reward: choice

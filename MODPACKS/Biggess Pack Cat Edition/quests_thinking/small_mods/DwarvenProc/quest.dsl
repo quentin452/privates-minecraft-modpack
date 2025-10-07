@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # DwarvenProc Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod DwarvenProc
 @filename DwarvenProc-1.2.6-1.7.10.jar
 @size 0.04MB
 @category small_mods
-@quest_line DwarvenProc Quest Line
+@quest_line DwarvenProcQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest dwarvenproc_intro
     title: Introduction to DwarvenProc
     desc: Learn the basics of DwarvenProc and craft your first item
-    requires: DwarvenProc Quest Line:dwarvenproc_discover
+    requires: DwarvenProcQL:dwarvenproc_discover
     logic: AND
     task: craft "any item from DwarvenProc" 1
     reward: item minecraft:book 1 "DwarvenProc Guide"
@@ -36,7 +37,7 @@
 >quest dwarvenproc_master
     title: Master DwarvenProc
     desc: Become proficient with advanced DwarvenProc mechanics
-    requires: DwarvenProc Quest Line:dwarvenproc_intro
+    requires: DwarvenProcQL:dwarvenproc_intro
     logic: AND
     task: collect "advanced items from DwarvenProc" 5
     reward: choice

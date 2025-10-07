@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Namenax Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Namenax
 @filename Namenax-1.2.0-mc1.7.10.jar
 @size 6.26MB
 @category medium_mods
-@quest_line Namenax Quest Line
+@quest_line NamenaxQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest namenax_intro
     title: Introduction to Namenax
     desc: Learn the basics of Namenax and craft your first item
-    requires: Namenax Quest Line:namenax_discover
+    requires: NamenaxQL:namenax_discover
     logic: AND
     task: craft "any item from Namenax" 1
     reward: item minecraft:book 1 "Namenax Guide"
@@ -36,7 +37,7 @@
 >quest namenax_master
     title: Master Namenax
     desc: Become proficient with advanced Namenax mechanics
-    requires: Namenax Quest Line:namenax_intro
+    requires: NamenaxQL:namenax_intro
     logic: AND
     task: collect "advanced items from Namenax" 5
     reward: choice

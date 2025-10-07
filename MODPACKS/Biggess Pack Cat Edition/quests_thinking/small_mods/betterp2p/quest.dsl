@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # betterp2p Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod betterp2p
 @filename betterp2p-1.3.1.jar
 @size 0.25MB
 @category small_mods
-@quest_line betterp2p Quest Line
+@quest_line betterp2pQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest betterp2p_intro
     title: Introduction to betterp2p
     desc: Learn the basics of betterp2p and craft your first item
-    requires: betterp2p Quest Line:betterp2p_discover
+    requires: betterp2pQL:betterp2p_discover
     logic: AND
     task: craft "any item from betterp2p" 1
     reward: item minecraft:book 1 "betterp2p Guide"
@@ -36,7 +37,7 @@
 >quest betterp2p_master
     title: Master betterp2p
     desc: Become proficient with advanced betterp2p mechanics
-    requires: betterp2p Quest Line:betterp2p_intro
+    requires: betterp2pQL:betterp2p_intro
     logic: AND
     task: collect "advanced items from betterp2p" 5
     reward: choice

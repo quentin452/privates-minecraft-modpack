@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BloodArsenal Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BloodArsenal
 @filename BloodArsenal-1.4.10.jar
 @size 0.75MB
 @category small_mods
-@quest_line BloodArsenal Quest Line
+@quest_line BloodArsenalQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest bloodarsenal_intro
     title: Introduction to BloodArsenal
     desc: Learn the basics of BloodArsenal and craft your first item
-    requires: BloodArsenal Quest Line:bloodarsenal_discover
+    requires: BloodArsenalQL:bloodarsenal_discover
     logic: AND
     task: craft "any item from BloodArsenal" 1
     reward: item minecraft:book 1 "BloodArsenal Guide"
@@ -36,7 +37,7 @@
 >quest bloodarsenal_master
     title: Master BloodArsenal
     desc: Become proficient with advanced BloodArsenal mechanics
-    requires: BloodArsenal Quest Line:bloodarsenal_intro
+    requires: BloodArsenalQL:bloodarsenal_intro
     logic: AND
     task: collect "advanced items from BloodArsenal" 5
     reward: choice

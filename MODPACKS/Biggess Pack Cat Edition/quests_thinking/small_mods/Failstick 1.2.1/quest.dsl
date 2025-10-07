@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Failstick 1.2.1 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Failstick 1.2.1
 @filename Failstick 1.2.1.zip
 @size 0.03MB
 @category small_mods
-@quest_line Failstick 1.2.1 Quest Line
+@quest_line Failstick 1.2.1QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest failstick_1_2_1_intro
     title: Introduction to Failstick 1.2.1
     desc: Learn the basics of Failstick 1.2.1 and craft your first item
-    requires: Failstick 1.2.1 Quest Line:failstick_1_2_1_discover
+    requires: Failstick 1.2.1QL:failstick_1_2_1_discover
     logic: AND
     task: craft "any item from Failstick 1.2.1" 1
     reward: item minecraft:book 1 "Failstick 1.2.1 Guide"
@@ -36,7 +37,7 @@
 >quest failstick_1_2_1_master
     title: Master Failstick 1.2.1
     desc: Become proficient with advanced Failstick 1.2.1 mechanics
-    requires: Failstick 1.2.1 Quest Line:failstick_1_2_1_intro
+    requires: Failstick 1.2.1QL:failstick_1_2_1_intro
     logic: AND
     task: collect "advanced items from Failstick 1.2.1" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # MowziesMobs Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MowziesMobs
 @filename MowziesMobs-1.2.99.jar
 @size 2.43MB
 @category medium_mods
-@quest_line MowziesMobs Quest Line
+@quest_line MowziesMobsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest mowziesmobs_intro
     title: Introduction to MowziesMobs
     desc: Learn the basics of MowziesMobs and craft your first item
-    requires: MowziesMobs Quest Line:mowziesmobs_discover
+    requires: MowziesMobsQL:mowziesmobs_discover
     logic: AND
     task: craft "any item from MowziesMobs" 1
     reward: item minecraft:book 1 "MowziesMobs Guide"
@@ -36,7 +37,7 @@
 >quest mowziesmobs_master
     title: Master MowziesMobs
     desc: Become proficient with advanced MowziesMobs mechanics
-    requires: MowziesMobs Quest Line:mowziesmobs_intro
+    requires: MowziesMobsQL:mowziesmobs_intro
     logic: AND
     task: collect "advanced items from MowziesMobs" 5
     reward: choice

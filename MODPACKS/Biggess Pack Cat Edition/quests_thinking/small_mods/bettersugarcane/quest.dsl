@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # bettersugarcane Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod bettersugarcane
 @filename bettersugarcane--1.7.10-2.0a.jar
 @size 1.33MB
 @category small_mods
-@quest_line bettersugarcane Quest Line
+@quest_line bettersugarcaneQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest bettersugarcane_intro
     title: Introduction to bettersugarcane
     desc: Learn the basics of bettersugarcane and craft your first item
-    requires: bettersugarcane Quest Line:bettersugarcane_discover
+    requires: bettersugarcaneQL:bettersugarcane_discover
     logic: AND
     task: craft "any item from bettersugarcane" 1
     reward: item minecraft:book 1 "bettersugarcane Guide"
@@ -36,7 +37,7 @@
 >quest bettersugarcane_master
     title: Master bettersugarcane
     desc: Become proficient with advanced bettersugarcane mechanics
-    requires: bettersugarcane Quest Line:bettersugarcane_intro
+    requires: bettersugarcaneQL:bettersugarcane_intro
     logic: AND
     task: collect "advanced items from bettersugarcane" 5
     reward: choice

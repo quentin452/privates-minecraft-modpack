@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # CherryPig Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CherryPig
 @filename CherryPig-1.5.jar
 @size 0.08MB
 @category small_mods
-@quest_line CherryPig Quest Line
+@quest_line CherryPigQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest cherrypig_intro
     title: Introduction to CherryPig
     desc: Learn the basics of CherryPig and craft your first item
-    requires: CherryPig Quest Line:cherrypig_discover
+    requires: CherryPigQL:cherrypig_discover
     logic: AND
     task: craft "any item from CherryPig" 1
     reward: item minecraft:book 1 "CherryPig Guide"
@@ -36,7 +37,7 @@
 >quest cherrypig_master
     title: Master CherryPig
     desc: Become proficient with advanced CherryPig mechanics
-    requires: CherryPig Quest Line:cherrypig_intro
+    requires: CherryPigQL:cherrypig_intro
     logic: AND
     task: collect "advanced items from CherryPig" 5
     reward: choice

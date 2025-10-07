@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ThaumicTinkerer Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ThaumicTinkerer
 @filename ThaumicTinkerer-2.10.2.jar
 @size 1.94MB
 @category small_mods
-@quest_line ThaumicTinkerer Quest Line
+@quest_line ThaumicTinkererQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest thaumictinkerer_intro
     title: Introduction to ThaumicTinkerer
     desc: Learn the basics of ThaumicTinkerer and craft your first item
-    requires: ThaumicTinkerer Quest Line:thaumictinkerer_discover
+    requires: ThaumicTinkererQL:thaumictinkerer_discover
     logic: AND
     task: craft "any item from ThaumicTinkerer" 1
     reward: item minecraft:book 1 "ThaumicTinkerer Guide"
@@ -36,7 +37,7 @@
 >quest thaumictinkerer_master
     title: Master ThaumicTinkerer
     desc: Become proficient with advanced ThaumicTinkerer mechanics
-    requires: ThaumicTinkerer Quest Line:thaumictinkerer_intro
+    requires: ThaumicTinkererQL:thaumictinkerer_intro
     logic: AND
     task: collect "advanced items from ThaumicTinkerer" 5
     reward: choice

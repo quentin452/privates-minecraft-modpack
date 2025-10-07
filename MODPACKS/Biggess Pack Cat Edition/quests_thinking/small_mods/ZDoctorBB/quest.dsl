@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ZDoctorBB Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ZDoctorBB
 @filename ZDoctorBB-1.7.10-Server.jar
 @size 0.05MB
 @category small_mods
-@quest_line ZDoctorBB Quest Line
+@quest_line ZDoctorBBQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest zdoctorbb_intro
     title: Introduction to ZDoctorBB
     desc: Learn the basics of ZDoctorBB and craft your first item
-    requires: ZDoctorBB Quest Line:zdoctorbb_discover
+    requires: ZDoctorBBQL:zdoctorbb_discover
     logic: AND
     task: craft "any item from ZDoctorBB" 1
     reward: item minecraft:book 1 "ZDoctorBB Guide"
@@ -36,7 +37,7 @@
 >quest zdoctorbb_master
     title: Master ZDoctorBB
     desc: Become proficient with advanced ZDoctorBB mechanics
-    requires: ZDoctorBB Quest Line:zdoctorbb_intro
+    requires: ZDoctorBBQL:zdoctorbb_intro
     logic: AND
     task: collect "advanced items from ZDoctorBB" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ObsidiPlates-1.7.10 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ObsidiPlates-1.7.10
 @filename ObsidiPlates-1.7.10-universal-3.0.0.18.jar
 @size 0.03MB
 @category small_mods
-@quest_line ObsidiPlates-1.7.10 Quest Line
+@quest_line ObsidiPlates-1.7.10QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest obsidiplates_1_7_10_intro
     title: Introduction to ObsidiPlates-1.7.10
     desc: Learn the basics of ObsidiPlates-1.7.10 and craft your first item
-    requires: ObsidiPlates-1.7.10 Quest Line:obsidiplates_1_7_10_discover
+    requires: ObsidiPlates-1.7.10QL:obsidiplates_1_7_10_discover
     logic: AND
     task: craft "any item from ObsidiPlates-1.7.10" 1
     reward: item minecraft:book 1 "ObsidiPlates-1.7.10 Guide"
@@ -36,7 +37,7 @@
 >quest obsidiplates_1_7_10_master
     title: Master ObsidiPlates-1.7.10
     desc: Become proficient with advanced ObsidiPlates-1.7.10 mechanics
-    requires: ObsidiPlates-1.7.10 Quest Line:obsidiplates_1_7_10_intro
+    requires: ObsidiPlates-1.7.10QL:obsidiplates_1_7_10_intro
     logic: AND
     task: collect "advanced items from ObsidiPlates-1.7.10" 5
     reward: choice

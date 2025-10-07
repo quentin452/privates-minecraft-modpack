@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # paniclecraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod paniclecraft
 @filename paniclecraft-1.7.10-2.7.2.0.jar
 @size 0.52MB
 @category small_mods
-@quest_line paniclecraft Quest Line
+@quest_line paniclecraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest paniclecraft_intro
     title: Introduction to paniclecraft
     desc: Learn the basics of paniclecraft and craft your first item
-    requires: paniclecraft Quest Line:paniclecraft_discover
+    requires: paniclecraftQL:paniclecraft_discover
     logic: AND
     task: craft "any item from paniclecraft" 1
     reward: item minecraft:book 1 "paniclecraft Guide"
@@ -36,7 +37,7 @@
 >quest paniclecraft_master
     title: Master paniclecraft
     desc: Become proficient with advanced paniclecraft mechanics
-    requires: paniclecraft Quest Line:paniclecraft_intro
+    requires: paniclecraftQL:paniclecraft_intro
     logic: AND
     task: collect "advanced items from paniclecraft" 5
     reward: choice

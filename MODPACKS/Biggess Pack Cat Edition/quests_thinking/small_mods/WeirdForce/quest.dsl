@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # WeirdForce Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod WeirdForce
 @filename WeirdForce-1.1.3.2.jar
 @size 0.04MB
 @category small_mods
-@quest_line WeirdForce Quest Line
+@quest_line WeirdForceQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest weirdforce_intro
     title: Introduction to WeirdForce
     desc: Learn the basics of WeirdForce and craft your first item
-    requires: WeirdForce Quest Line:weirdforce_discover
+    requires: WeirdForceQL:weirdforce_discover
     logic: AND
     task: craft "any item from WeirdForce" 1
     reward: item minecraft:book 1 "WeirdForce Guide"
@@ -36,7 +37,7 @@
 >quest weirdforce_master
     title: Master WeirdForce
     desc: Become proficient with advanced WeirdForce mechanics
-    requires: WeirdForce Quest Line:weirdforce_intro
+    requires: WeirdForceQL:weirdforce_intro
     logic: AND
     task: collect "advanced items from WeirdForce" 5
     reward: choice

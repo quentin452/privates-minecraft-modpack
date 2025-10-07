@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # GraveStone Mod 0.7.10.3 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod GraveStone Mod 0.7.10.3
 @filename GraveStone Mod 0.7.10.3.jar
 @size 0.07MB
 @category small_mods
-@quest_line GraveStone Mod 0.7.10.3 Quest Line
+@quest_line GraveStone Mod 0.7.10.3QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest gravestone_mod_0_7_10_3_intro
     title: Introduction to GraveStone Mod 0.7.10.3
     desc: Learn the basics of GraveStone Mod 0.7.10.3 and craft your first item
-    requires: GraveStone Mod 0.7.10.3 Quest Line:gravestone_mod_0_7_10_3_discover
+    requires: GraveStone Mod 0.7.10.3QL:gravestone_mod_0_7_10_3_discover
     logic: AND
     task: craft "any item from GraveStone Mod 0.7.10.3" 1
     reward: item minecraft:book 1 "GraveStone Mod 0.7.10.3 Guide"
@@ -36,7 +37,7 @@
 >quest gravestone_mod_0_7_10_3_master
     title: Master GraveStone Mod 0.7.10.3
     desc: Become proficient with advanced GraveStone Mod 0.7.10.3 mechanics
-    requires: GraveStone Mod 0.7.10.3 Quest Line:gravestone_mod_0_7_10_3_intro
+    requires: GraveStone Mod 0.7.10.3QL:gravestone_mod_0_7_10_3_intro
     logic: AND
     task: collect "advanced items from GraveStone Mod 0.7.10.3" 5
     reward: choice

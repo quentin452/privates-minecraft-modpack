@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Ultratech Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Ultratech
 @filename Ultratech-1.7.10-0.9.6.2.jar
 @size 1.82MB
 @category small_mods
-@quest_line Ultratech Quest Line
+@quest_line UltratechQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ultratech_intro
     title: Introduction to Ultratech
     desc: Learn the basics of Ultratech and craft your first item
-    requires: Ultratech Quest Line:ultratech_discover
+    requires: UltratechQL:ultratech_discover
     logic: AND
     task: craft "any item from Ultratech" 1
     reward: item minecraft:book 1 "Ultratech Guide"
@@ -36,7 +37,7 @@
 >quest ultratech_master
     title: Master Ultratech
     desc: Become proficient with advanced Ultratech mechanics
-    requires: Ultratech Quest Line:ultratech_intro
+    requires: UltratechQL:ultratech_intro
     logic: AND
     task: collect "advanced items from Ultratech" 5
     reward: choice

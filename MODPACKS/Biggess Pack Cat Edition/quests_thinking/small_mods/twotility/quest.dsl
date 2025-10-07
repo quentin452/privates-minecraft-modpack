@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # twotility Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod twotility
 @filename twotility-1710.2.3.jar
 @size 0.45MB
 @category small_mods
-@quest_line twotility Quest Line
+@quest_line twotilityQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest twotility_intro
     title: Introduction to twotility
     desc: Learn the basics of twotility and craft your first item
-    requires: twotility Quest Line:twotility_discover
+    requires: twotilityQL:twotility_discover
     logic: AND
     task: craft "any item from twotility" 1
     reward: item minecraft:book 1 "twotility Guide"
@@ -36,7 +37,7 @@
 >quest twotility_master
     title: Master twotility
     desc: Become proficient with advanced twotility mechanics
-    requires: twotility Quest Line:twotility_intro
+    requires: twotilityQL:twotility_intro
     logic: AND
     task: collect "advanced items from twotility" 5
     reward: choice

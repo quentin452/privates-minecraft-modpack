@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # obelisk Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod obelisk
 @filename obelisk-1.7.10-1.0.0.jar
 @size 0.03MB
 @category small_mods
-@quest_line obelisk Quest Line
+@quest_line obeliskQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest obelisk_intro
     title: Introduction to obelisk
     desc: Learn the basics of obelisk and craft your first item
-    requires: obelisk Quest Line:obelisk_discover
+    requires: obeliskQL:obelisk_discover
     logic: AND
     task: craft "any item from obelisk" 1
     reward: item minecraft:book 1 "obelisk Guide"
@@ -36,7 +37,7 @@
 >quest obelisk_master
     title: Master obelisk
     desc: Become proficient with advanced obelisk mechanics
-    requires: obelisk Quest Line:obelisk_intro
+    requires: obeliskQL:obelisk_intro
     logic: AND
     task: collect "advanced items from obelisk" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # HammerTime Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod HammerTime
 @filename HammerTime-1.3.6.jar
 @size 0.07MB
 @category small_mods
-@quest_line HammerTime Quest Line
+@quest_line HammerTimeQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest hammertime_intro
     title: Introduction to HammerTime
     desc: Learn the basics of HammerTime and craft your first item
-    requires: HammerTime Quest Line:hammertime_discover
+    requires: HammerTimeQL:hammertime_discover
     logic: AND
     task: craft "any item from HammerTime" 1
     reward: item minecraft:book 1 "HammerTime Guide"
@@ -36,7 +37,7 @@
 >quest hammertime_master
     title: Master HammerTime
     desc: Become proficient with advanced HammerTime mechanics
-    requires: HammerTime Quest Line:hammertime_intro
+    requires: HammerTimeQL:hammertime_intro
     logic: AND
     task: collect "advanced items from HammerTime" 5
     reward: choice

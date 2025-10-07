@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # SGCraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SGCraft
 @filename SGCraft-1.4.5-GTNH.jar
 @size 1.00MB
 @category small_mods
-@quest_line SGCraft Quest Line
+@quest_line SGCraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest sgcraft_intro
     title: Introduction to SGCraft
     desc: Learn the basics of SGCraft and craft your first item
-    requires: SGCraft Quest Line:sgcraft_discover
+    requires: SGCraftQL:sgcraft_discover
     logic: AND
     task: craft "any item from SGCraft" 1
     reward: item minecraft:book 1 "SGCraft Guide"
@@ -36,7 +37,7 @@
 >quest sgcraft_master
     title: Master SGCraft
     desc: Become proficient with advanced SGCraft mechanics
-    requires: SGCraft Quest Line:sgcraft_intro
+    requires: SGCraftQL:sgcraft_intro
     logic: AND
     task: collect "advanced items from SGCraft" 5
     reward: choice

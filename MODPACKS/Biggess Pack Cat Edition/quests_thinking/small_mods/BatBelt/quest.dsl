@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BatBelt Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BatBelt
 @filename BatBelt-1.1.0.jar
 @size 0.03MB
 @category small_mods
-@quest_line BatBelt Quest Line
+@quest_line BatBeltQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest batbelt_intro
     title: Introduction to BatBelt
     desc: Learn the basics of BatBelt and craft your first item
-    requires: BatBelt Quest Line:batbelt_discover
+    requires: BatBeltQL:batbelt_discover
     logic: AND
     task: craft "any item from BatBelt" 1
     reward: item minecraft:book 1 "BatBelt Guide"
@@ -36,7 +37,7 @@
 >quest batbelt_master
     title: Master BatBelt
     desc: Become proficient with advanced BatBelt mechanics
-    requires: BatBelt Quest Line:batbelt_intro
+    requires: BatBeltQL:batbelt_intro
     logic: AND
     task: collect "advanced items from BatBelt" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Digital XP Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Digital XP
 @filename Digital XP-[1.7.10]-0.1.5.jar
 @size 0.23MB
 @category small_mods
-@quest_line Digital XP Quest Line
+@quest_line Digital XPQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest digital_xp_intro
     title: Introduction to Digital XP
     desc: Learn the basics of Digital XP and craft your first item
-    requires: Digital XP Quest Line:digital_xp_discover
+    requires: Digital XPQL:digital_xp_discover
     logic: AND
     task: craft "any item from Digital XP" 1
     reward: item minecraft:book 1 "Digital XP Guide"
@@ -36,7 +37,7 @@
 >quest digital_xp_master
     title: Master Digital XP
     desc: Become proficient with advanced Digital XP mechanics
-    requires: Digital XP Quest Line:digital_xp_intro
+    requires: Digital XPQL:digital_xp_intro
     logic: AND
     task: collect "advanced items from Digital XP" 5
     reward: choice

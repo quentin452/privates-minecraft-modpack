@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # endermanage Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod endermanage
 @filename endermanage-1.1.jar
 @size 0.00MB
 @category small_mods
-@quest_line endermanage Quest Line
+@quest_line endermanageQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest endermanage_intro
     title: Introduction to endermanage
     desc: Learn the basics of endermanage and craft your first item
-    requires: endermanage Quest Line:endermanage_discover
+    requires: endermanageQL:endermanage_discover
     logic: AND
     task: craft "any item from endermanage" 1
     reward: item minecraft:book 1 "endermanage Guide"
@@ -36,7 +37,7 @@
 >quest endermanage_master
     title: Master endermanage
     desc: Become proficient with advanced endermanage mechanics
-    requires: endermanage Quest Line:endermanage_intro
+    requires: endermanageQL:endermanage_intro
     logic: AND
     task: collect "advanced items from endermanage" 5
     reward: choice

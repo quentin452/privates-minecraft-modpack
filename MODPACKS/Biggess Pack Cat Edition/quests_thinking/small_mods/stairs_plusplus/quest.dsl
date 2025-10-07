@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # stairs_plusplus Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod stairs_plusplus
 @filename stairs_plusplus_1.0.jar
 @size 0.01MB
 @category small_mods
-@quest_line stairs_plusplus Quest Line
+@quest_line stairs_plusplusQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest stairs_plusplus_intro
     title: Introduction to stairs_plusplus
     desc: Learn the basics of stairs_plusplus and craft your first item
-    requires: stairs_plusplus Quest Line:stairs_plusplus_discover
+    requires: stairs_plusplusQL:stairs_plusplus_discover
     logic: AND
     task: craft "any item from stairs_plusplus" 1
     reward: item minecraft:book 1 "stairs_plusplus Guide"
@@ -36,7 +37,7 @@
 >quest stairs_plusplus_master
     title: Master stairs_plusplus
     desc: Become proficient with advanced stairs_plusplus mechanics
-    requires: stairs_plusplus Quest Line:stairs_plusplus_intro
+    requires: stairs_plusplusQL:stairs_plusplus_intro
     logic: AND
     task: collect "advanced items from stairs_plusplus" 5
     reward: choice

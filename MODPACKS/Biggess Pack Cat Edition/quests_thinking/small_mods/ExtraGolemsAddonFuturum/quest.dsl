@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ExtraGolemsAddonFuturum Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ExtraGolemsAddonFuturum
 @filename ExtraGolemsAddonFuturum[1.7.10]-1.04.jar
 @size 0.21MB
 @category small_mods
-@quest_line ExtraGolemsAddonFuturum Quest Line
+@quest_line ExtraGolemsAddonFuturumQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest extragolemsaddonfuturum_intro
     title: Introduction to ExtraGolemsAddonFuturum
     desc: Learn the basics of ExtraGolemsAddonFuturum and craft your first item
-    requires: ExtraGolemsAddonFuturum Quest Line:extragolemsaddonfuturum_discover
+    requires: ExtraGolemsAddonFuturumQL:extragolemsaddonfuturum_discover
     logic: AND
     task: craft "any item from ExtraGolemsAddonFuturum" 1
     reward: item minecraft:book 1 "ExtraGolemsAddonFuturum Guide"
@@ -36,7 +37,7 @@
 >quest extragolemsaddonfuturum_master
     title: Master ExtraGolemsAddonFuturum
     desc: Become proficient with advanced ExtraGolemsAddonFuturum mechanics
-    requires: ExtraGolemsAddonFuturum Quest Line:extragolemsaddonfuturum_intro
+    requires: ExtraGolemsAddonFuturumQL:extragolemsaddonfuturum_intro
     logic: AND
     task: collect "advanced items from ExtraGolemsAddonFuturum" 5
     reward: choice

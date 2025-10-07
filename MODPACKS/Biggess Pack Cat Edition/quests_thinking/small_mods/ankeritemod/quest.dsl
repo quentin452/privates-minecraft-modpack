@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ankeritemod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ankeritemod
 @filename ankeritemod-0.2.1_1.7.10.jar
 @size 0.01MB
 @category small_mods
-@quest_line ankeritemod Quest Line
+@quest_line ankeritemodQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ankeritemod_intro
     title: Introduction to ankeritemod
     desc: Learn the basics of ankeritemod and craft your first item
-    requires: ankeritemod Quest Line:ankeritemod_discover
+    requires: ankeritemodQL:ankeritemod_discover
     logic: AND
     task: craft "any item from ankeritemod" 1
     reward: item minecraft:book 1 "ankeritemod Guide"
@@ -36,7 +37,7 @@
 >quest ankeritemod_master
     title: Master ankeritemod
     desc: Become proficient with advanced ankeritemod mechanics
-    requires: ankeritemod Quest Line:ankeritemod_intro
+    requires: ankeritemodQL:ankeritemod_intro
     logic: AND
     task: collect "advanced items from ankeritemod" 5
     reward: choice

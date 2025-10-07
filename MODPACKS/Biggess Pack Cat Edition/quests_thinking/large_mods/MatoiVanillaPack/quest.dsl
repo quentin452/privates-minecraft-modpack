@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # MatoiVanillaPack Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MatoiVanillaPack
 @filename MatoiVanillaPack1.5.2_on_1.7.10.jar
 @size 25.62MB
 @category large_mods
-@quest_line MatoiVanillaPack Quest Line
+@quest_line MatoiVanillaPackQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest matoivanillapack1_5_2_on_intro
     title: Introduction to MatoiVanillaPack
     desc: Learn the basics of MatoiVanillaPack and craft your first item
-    requires: MatoiVanillaPack Quest Line:matoivanillapack1_5_2_on_discover
+    requires: MatoiVanillaPackQL:matoivanillapack1_5_2_on_discover
     logic: AND
     task: craft "any item from MatoiVanillaPack" 1
     reward: item minecraft:book 1 "MatoiVanillaPack Guide"
@@ -36,7 +37,7 @@
 >quest matoivanillapack1_5_2_on_master
     title: Master MatoiVanillaPack
     desc: Become proficient with advanced MatoiVanillaPack mechanics
-    requires: MatoiVanillaPack Quest Line:matoivanillapack1_5_2_on_intro
+    requires: MatoiVanillaPackQL:matoivanillapack1_5_2_on_intro
     logic: AND
     task: collect "advanced items from MatoiVanillaPack" 5
     reward: choice

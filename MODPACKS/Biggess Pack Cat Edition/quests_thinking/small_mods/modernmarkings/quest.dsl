@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # modernmarkings Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod modernmarkings
 @filename modernmarkings-0.3.12-1.7.10.jar
 @size 0.10MB
 @category small_mods
-@quest_line modernmarkings Quest Line
+@quest_line modernmarkingsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest modernmarkings_intro
     title: Introduction to modernmarkings
     desc: Learn the basics of modernmarkings and craft your first item
-    requires: modernmarkings Quest Line:modernmarkings_discover
+    requires: modernmarkingsQL:modernmarkings_discover
     logic: AND
     task: craft "any item from modernmarkings" 1
     reward: item minecraft:book 1 "modernmarkings Guide"
@@ -36,7 +37,7 @@
 >quest modernmarkings_master
     title: Master modernmarkings
     desc: Become proficient with advanced modernmarkings mechanics
-    requires: modernmarkings Quest Line:modernmarkings_intro
+    requires: modernmarkingsQL:modernmarkings_intro
     logic: AND
     task: collect "advanced items from modernmarkings" 5
     reward: choice

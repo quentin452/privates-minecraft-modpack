@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Special Swords Mod! Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Special Swords Mod!
 @filename [1.7.10] Special Swords Mod!.jar
 @size 0.11MB
 @category small_mods
-@quest_line Special Swords Mod! Quest Line
+@quest_line Special Swords Mod!QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest special_swords_mod_intro
     title: Introduction to Special Swords Mod!
     desc: Learn the basics of Special Swords Mod! and craft your first item
-    requires: Special Swords Mod! Quest Line:special_swords_mod_discover
+    requires: Special Swords Mod!QL:special_swords_mod_discover
     logic: AND
     task: craft "any item from Special Swords Mod!" 1
     reward: item minecraft:book 1 "Special Swords Mod! Guide"
@@ -36,7 +37,7 @@
 >quest special_swords_mod_master
     title: Master Special Swords Mod!
     desc: Become proficient with advanced Special Swords Mod! mechanics
-    requires: Special Swords Mod! Quest Line:special_swords_mod_intro
+    requires: Special Swords Mod!QL:special_swords_mod_intro
     logic: AND
     task: collect "advanced items from Special Swords Mod!" 5
     reward: choice

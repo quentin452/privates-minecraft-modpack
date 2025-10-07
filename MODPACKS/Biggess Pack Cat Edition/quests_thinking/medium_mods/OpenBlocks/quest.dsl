@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # OpenBlocks Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod OpenBlocks
 @filename OpenBlocks-1.11.7-GTNH.jar
 @size 2.65MB
 @category medium_mods
-@quest_line OpenBlocks Quest Line
+@quest_line OpenBlocksQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest openblocks_intro
     title: Introduction to OpenBlocks
     desc: Learn the basics of OpenBlocks and craft your first item
-    requires: OpenBlocks Quest Line:openblocks_discover
+    requires: OpenBlocksQL:openblocks_discover
     logic: AND
     task: craft "any item from OpenBlocks" 1
     reward: item minecraft:book 1 "OpenBlocks Guide"
@@ -36,7 +37,7 @@
 >quest openblocks_master
     title: Master OpenBlocks
     desc: Become proficient with advanced OpenBlocks mechanics
-    requires: OpenBlocks Quest Line:openblocks_intro
+    requires: OpenBlocksQL:openblocks_intro
     logic: AND
     task: collect "advanced items from OpenBlocks" 5
     reward: choice

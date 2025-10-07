@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # PPAP_Mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod PPAP_Mod
 @filename PPAP_Mod_1.7.10_1.5.0.jar
 @size 3.21MB
 @category medium_mods
-@quest_line PPAP_Mod Quest Line
+@quest_line PPAP_ModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ppap_mod_intro
     title: Introduction to PPAP_Mod
     desc: Learn the basics of PPAP_Mod and craft your first item
-    requires: PPAP_Mod Quest Line:ppap_mod_discover
+    requires: PPAP_ModQL:ppap_mod_discover
     logic: AND
     task: craft "any item from PPAP_Mod" 1
     reward: item minecraft:book 1 "PPAP_Mod Guide"
@@ -36,7 +37,7 @@
 >quest ppap_mod_master
     title: Master PPAP_Mod
     desc: Become proficient with advanced PPAP_Mod mechanics
-    requires: PPAP_Mod Quest Line:ppap_mod_intro
+    requires: PPAP_ModQL:ppap_mod_intro
     logic: AND
     task: collect "advanced items from PPAP_Mod" 5
     reward: choice

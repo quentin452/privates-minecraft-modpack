@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # cooler Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod cooler
 @filename cooler-1.7.10-1.1.5.1.jar
 @size 0.07MB
 @category small_mods
-@quest_line cooler Quest Line
+@quest_line coolerQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest cooler_intro
     title: Introduction to cooler
     desc: Learn the basics of cooler and craft your first item
-    requires: cooler Quest Line:cooler_discover
+    requires: coolerQL:cooler_discover
     logic: AND
     task: craft "any item from cooler" 1
     reward: item minecraft:book 1 "cooler Guide"
@@ -36,7 +37,7 @@
 >quest cooler_master
     title: Master cooler
     desc: Become proficient with advanced cooler mechanics
-    requires: cooler Quest Line:cooler_intro
+    requires: coolerQL:cooler_intro
     logic: AND
     task: collect "advanced items from cooler" 5
     reward: choice

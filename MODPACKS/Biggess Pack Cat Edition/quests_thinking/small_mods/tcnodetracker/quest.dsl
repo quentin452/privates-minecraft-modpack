@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # tcnodetracker Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod tcnodetracker
 @filename tcnodetracker-1.4.0.jar
 @size 0.14MB
 @category small_mods
-@quest_line tcnodetracker Quest Line
+@quest_line tcnodetrackerQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest tcnodetracker_intro
     title: Introduction to tcnodetracker
     desc: Learn the basics of tcnodetracker and craft your first item
-    requires: tcnodetracker Quest Line:tcnodetracker_discover
+    requires: tcnodetrackerQL:tcnodetracker_discover
     logic: AND
     task: craft "any item from tcnodetracker" 1
     reward: item minecraft:book 1 "tcnodetracker Guide"
@@ -36,7 +37,7 @@
 >quest tcnodetracker_master
     title: Master tcnodetracker
     desc: Become proficient with advanced tcnodetracker mechanics
-    requires: tcnodetracker Quest Line:tcnodetracker_intro
+    requires: tcnodetrackerQL:tcnodetracker_intro
     logic: AND
     task: collect "advanced items from tcnodetracker" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # CraftHeraldry Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CraftHeraldry
 @filename CraftHeraldry 1.1.3.jar
 @size 2.42MB
 @category medium_mods
-@quest_line CraftHeraldry Quest Line
+@quest_line CraftHeraldryQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest craftheraldry_1_1_3_intro
     title: Introduction to CraftHeraldry
     desc: Learn the basics of CraftHeraldry and craft your first item
-    requires: CraftHeraldry Quest Line:craftheraldry_1_1_3_discover
+    requires: CraftHeraldryQL:craftheraldry_1_1_3_discover
     logic: AND
     task: craft "any item from CraftHeraldry" 1
     reward: item minecraft:book 1 "CraftHeraldry Guide"
@@ -36,7 +37,7 @@
 >quest craftheraldry_1_1_3_master
     title: Master CraftHeraldry
     desc: Become proficient with advanced CraftHeraldry mechanics
-    requires: CraftHeraldry Quest Line:craftheraldry_1_1_3_intro
+    requires: CraftHeraldryQL:craftheraldry_1_1_3_intro
     logic: AND
     task: collect "advanced items from CraftHeraldry" 5
     reward: choice

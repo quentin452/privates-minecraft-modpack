@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BattleTowersContinuation Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BattleTowersContinuation
 @filename BattleTowersContinuation-1.7.10-V1.12.4.jar
 @size 0.80MB
 @category small_mods
-@quest_line BattleTowersContinuation Quest Line
+@quest_line BattleTowersContinuationQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest battletowerscontinuation_intro
     title: Introduction to BattleTowersContinuation
     desc: Learn the basics of BattleTowersContinuation and craft your first item
-    requires: BattleTowersContinuation Quest Line:battletowerscontinuation_discover
+    requires: BattleTowersContinuationQL:battletowerscontinuation_discover
     logic: AND
     task: craft "any item from BattleTowersContinuation" 1
     reward: item minecraft:book 1 "BattleTowersContinuation Guide"
@@ -36,7 +37,7 @@
 >quest battletowerscontinuation_master
     title: Master BattleTowersContinuation
     desc: Become proficient with advanced BattleTowersContinuation mechanics
-    requires: BattleTowersContinuation Quest Line:battletowerscontinuation_intro
+    requires: BattleTowersContinuationQL:battletowerscontinuation_intro
     logic: AND
     task: collect "advanced items from BattleTowersContinuation" 5
     reward: choice

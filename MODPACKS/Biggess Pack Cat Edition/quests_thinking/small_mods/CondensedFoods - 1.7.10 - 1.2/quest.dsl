@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # CondensedFoods - 1.7.10 - 1.2 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CondensedFoods - 1.7.10 - 1.2
 @filename CondensedFoods - 1.7.10 - 1.2.jar
 @size 0.02MB
 @category small_mods
-@quest_line CondensedFoods - 1.7.10 - 1.2 Quest Line
+@quest_line CondensedFoods - 1.7.10 - 1.2QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest condensedfoods___1_7_10___1_2_intro
     title: Introduction to CondensedFoods - 1.7.10 - 1.2
     desc: Learn the basics of CondensedFoods - 1.7.10 - 1.2 and craft your first item
-    requires: CondensedFoods - 1.7.10 - 1.2 Quest Line:condensedfoods___1_7_10___1_2_discover
+    requires: CondensedFoods - 1.7.10 - 1.2QL:condensedfoods___1_7_10___1_2_discover
     logic: AND
     task: craft "any item from CondensedFoods - 1.7.10 - 1.2" 1
     reward: item minecraft:book 1 "CondensedFoods - 1.7.10 - 1.2 Guide"
@@ -36,7 +37,7 @@
 >quest condensedfoods___1_7_10___1_2_master
     title: Master CondensedFoods - 1.7.10 - 1.2
     desc: Become proficient with advanced CondensedFoods - 1.7.10 - 1.2 mechanics
-    requires: CondensedFoods - 1.7.10 - 1.2 Quest Line:condensedfoods___1_7_10___1_2_intro
+    requires: CondensedFoods - 1.7.10 - 1.2QL:condensedfoods___1_7_10___1_2_intro
     logic: AND
     task: collect "advanced items from CondensedFoods - 1.7.10 - 1.2" 5
     reward: choice

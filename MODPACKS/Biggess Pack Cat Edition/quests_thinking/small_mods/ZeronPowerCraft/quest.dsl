@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ZeronPowerCraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ZeronPowerCraft
 @filename ZeronPowerCraft_1.7.10-2.0-Stable.jar
 @size 0.25MB
 @category small_mods
-@quest_line ZeronPowerCraft Quest Line
+@quest_line ZeronPowerCraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest zeronpowercraft_intro
     title: Introduction to ZeronPowerCraft
     desc: Learn the basics of ZeronPowerCraft and craft your first item
-    requires: ZeronPowerCraft Quest Line:zeronpowercraft_discover
+    requires: ZeronPowerCraftQL:zeronpowercraft_discover
     logic: AND
     task: craft "any item from ZeronPowerCraft" 1
     reward: item minecraft:book 1 "ZeronPowerCraft Guide"
@@ -36,7 +37,7 @@
 >quest zeronpowercraft_master
     title: Master ZeronPowerCraft
     desc: Become proficient with advanced ZeronPowerCraft mechanics
-    requires: ZeronPowerCraft Quest Line:zeronpowercraft_intro
+    requires: ZeronPowerCraftQL:zeronpowercraft_intro
     logic: AND
     task: collect "advanced items from ZeronPowerCraft" 5
     reward: choice

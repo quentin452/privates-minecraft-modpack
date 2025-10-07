@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # 1.7.10.SecurityCraft.v1.8.15 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod 1.7.10.SecurityCraft.v1.8.15
 @filename 1.7.10.SecurityCraft.v1.8.15.jar
 @size 0.99MB
 @category small_mods
-@quest_line 1.7.10.SecurityCraft.v1.8.15 Quest Line
+@quest_line 1.7.10.SecurityCraft.v1.8.15QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest 1_7_10_securitycraft_v1_8_15_intro
     title: Introduction to 1.7.10.SecurityCraft.v1.8.15
     desc: Learn the basics of 1.7.10.SecurityCraft.v1.8.15 and craft your first item
-    requires: 1.7.10.SecurityCraft.v1.8.15 Quest Line:1_7_10_securitycraft_v1_8_15_discover
+    requires: 1.7.10.SecurityCraft.v1.8.15QL:1_7_10_securitycraft_v1_8_15_discover
     logic: AND
     task: craft "any item from 1.7.10.SecurityCraft.v1.8.15" 1
     reward: item minecraft:book 1 "1.7.10.SecurityCraft.v1.8.15 Guide"
@@ -36,7 +37,7 @@
 >quest 1_7_10_securitycraft_v1_8_15_master
     title: Master 1.7.10.SecurityCraft.v1.8.15
     desc: Become proficient with advanced 1.7.10.SecurityCraft.v1.8.15 mechanics
-    requires: 1.7.10.SecurityCraft.v1.8.15 Quest Line:1_7_10_securitycraft_v1_8_15_intro
+    requires: 1.7.10.SecurityCraft.v1.8.15QL:1_7_10_securitycraft_v1_8_15_intro
     logic: AND
     task: collect "advanced items from 1.7.10.SecurityCraft.v1.8.15" 5
     reward: choice

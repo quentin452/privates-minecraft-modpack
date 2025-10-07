@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # OpenModularTurrets Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod OpenModularTurrets
 @filename OpenModularTurrets-2.4.3.jar
 @size 0.92MB
 @category small_mods
-@quest_line OpenModularTurrets Quest Line
+@quest_line OpenModularTurretsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest openmodularturrets_intro
     title: Introduction to OpenModularTurrets
     desc: Learn the basics of OpenModularTurrets and craft your first item
-    requires: OpenModularTurrets Quest Line:openmodularturrets_discover
+    requires: OpenModularTurretsQL:openmodularturrets_discover
     logic: AND
     task: craft "any item from OpenModularTurrets" 1
     reward: item minecraft:book 1 "OpenModularTurrets Guide"
@@ -36,7 +37,7 @@
 >quest openmodularturrets_master
     title: Master OpenModularTurrets
     desc: Become proficient with advanced OpenModularTurrets mechanics
-    requires: OpenModularTurrets Quest Line:openmodularturrets_intro
+    requires: OpenModularTurretsQL:openmodularturrets_intro
     logic: AND
     task: collect "advanced items from OpenModularTurrets" 5
     reward: choice

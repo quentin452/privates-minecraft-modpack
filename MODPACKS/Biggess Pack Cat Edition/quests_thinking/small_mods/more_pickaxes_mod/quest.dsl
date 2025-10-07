@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # more_pickaxes_mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod more_pickaxes_mod
 @filename more_pickaxes_mod_1.7.10.jar
 @size 0.05MB
 @category small_mods
-@quest_line more_pickaxes_mod Quest Line
+@quest_line more_pickaxes_modQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest more_pickaxes_mod_intro
     title: Introduction to more_pickaxes_mod
     desc: Learn the basics of more_pickaxes_mod and craft your first item
-    requires: more_pickaxes_mod Quest Line:more_pickaxes_mod_discover
+    requires: more_pickaxes_modQL:more_pickaxes_mod_discover
     logic: AND
     task: craft "any item from more_pickaxes_mod" 1
     reward: item minecraft:book 1 "more_pickaxes_mod Guide"
@@ -36,7 +37,7 @@
 >quest more_pickaxes_mod_master
     title: Master more_pickaxes_mod
     desc: Become proficient with advanced more_pickaxes_mod mechanics
-    requires: more_pickaxes_mod Quest Line:more_pickaxes_mod_intro
+    requires: more_pickaxes_modQL:more_pickaxes_mod_intro
     logic: AND
     task: collect "advanced items from more_pickaxes_mod" 5
     reward: choice

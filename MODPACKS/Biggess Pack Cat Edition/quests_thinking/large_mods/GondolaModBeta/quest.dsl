@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # GondolaModBeta Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod GondolaModBeta
 @filename GondolaModBeta.jar
 @size 28.72MB
 @category large_mods
-@quest_line GondolaModBeta Quest Line
+@quest_line GondolaModBetaQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest gondolamodbeta_intro
     title: Introduction to GondolaModBeta
     desc: Learn the basics of GondolaModBeta and craft your first item
-    requires: GondolaModBeta Quest Line:gondolamodbeta_discover
+    requires: GondolaModBetaQL:gondolamodbeta_discover
     logic: AND
     task: craft "any item from GondolaModBeta" 1
     reward: item minecraft:book 1 "GondolaModBeta Guide"
@@ -36,7 +37,7 @@
 >quest gondolamodbeta_master
     title: Master GondolaModBeta
     desc: Become proficient with advanced GondolaModBeta mechanics
-    requires: GondolaModBeta Quest Line:gondolamodbeta_intro
+    requires: GondolaModBetaQL:gondolamodbeta_intro
     logic: AND
     task: collect "advanced items from GondolaModBeta" 5
     reward: choice

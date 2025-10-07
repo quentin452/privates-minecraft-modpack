@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ChatFuel Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ChatFuel
 @filename ChatFuel-1.2.jar
 @size 0.03MB
 @category small_mods
-@quest_line ChatFuel Quest Line
+@quest_line ChatFuelQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest chatfuel_intro
     title: Introduction to ChatFuel
     desc: Learn the basics of ChatFuel and craft your first item
-    requires: ChatFuel Quest Line:chatfuel_discover
+    requires: ChatFuelQL:chatfuel_discover
     logic: AND
     task: craft "any item from ChatFuel" 1
     reward: item minecraft:book 1 "ChatFuel Guide"
@@ -36,7 +37,7 @@
 >quest chatfuel_master
     title: Master ChatFuel
     desc: Become proficient with advanced ChatFuel mechanics
-    requires: ChatFuel Quest Line:chatfuel_intro
+    requires: ChatFuelQL:chatfuel_intro
     logic: AND
     task: collect "advanced items from ChatFuel" 5
     reward: choice

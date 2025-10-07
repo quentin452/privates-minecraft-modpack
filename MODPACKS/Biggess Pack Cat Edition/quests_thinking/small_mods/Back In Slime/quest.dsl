@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Back In Slime Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Back In Slime
 @filename Back In Slime-1.7.10-3.1.6.jar
 @size 0.01MB
 @category small_mods
-@quest_line Back In Slime Quest Line
+@quest_line Back In SlimeQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest back_in_slime_intro
     title: Introduction to Back In Slime
     desc: Learn the basics of Back In Slime and craft your first item
-    requires: Back In Slime Quest Line:back_in_slime_discover
+    requires: Back In SlimeQL:back_in_slime_discover
     logic: AND
     task: craft "any item from Back In Slime" 1
     reward: item minecraft:book 1 "Back In Slime Guide"
@@ -36,7 +37,7 @@
 >quest back_in_slime_master
     title: Master Back In Slime
     desc: Become proficient with advanced Back In Slime mechanics
-    requires: Back In Slime Quest Line:back_in_slime_intro
+    requires: Back In SlimeQL:back_in_slime_intro
     logic: AND
     task: collect "advanced items from Back In Slime" 5
     reward: choice

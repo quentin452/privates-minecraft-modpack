@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # DiseaseCraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod DiseaseCraft
 @filename DiseaseCraft-1.7.10-2.3.1-QUICKFIX.jar
 @size 0.68MB
 @category small_mods
-@quest_line DiseaseCraft Quest Line
+@quest_line DiseaseCraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest diseasecraft_intro
     title: Introduction to DiseaseCraft
     desc: Learn the basics of DiseaseCraft and craft your first item
-    requires: DiseaseCraft Quest Line:diseasecraft_discover
+    requires: DiseaseCraftQL:diseasecraft_discover
     logic: AND
     task: craft "any item from DiseaseCraft" 1
     reward: item minecraft:book 1 "DiseaseCraft Guide"
@@ -36,7 +37,7 @@
 >quest diseasecraft_master
     title: Master DiseaseCraft
     desc: Become proficient with advanced DiseaseCraft mechanics
-    requires: DiseaseCraft Quest Line:diseasecraft_intro
+    requires: DiseaseCraftQL:diseasecraft_intro
     logic: AND
     task: collect "advanced items from DiseaseCraft" 5
     reward: choice

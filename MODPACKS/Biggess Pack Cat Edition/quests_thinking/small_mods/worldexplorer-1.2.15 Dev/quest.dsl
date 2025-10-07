@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # worldexplorer-1.2.15 Dev Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod worldexplorer-1.2.15 Dev
 @filename worldexplorer-1.2.15 Dev.jar
 @size 0.50MB
 @category small_mods
-@quest_line worldexplorer-1.2.15 Dev Quest Line
+@quest_line worldexplorer-1.2.15 DevQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest worldexplorer_1_2_15_dev_intro
     title: Introduction to worldexplorer-1.2.15 Dev
     desc: Learn the basics of worldexplorer-1.2.15 Dev and craft your first item
-    requires: worldexplorer-1.2.15 Dev Quest Line:worldexplorer_1_2_15_dev_discover
+    requires: worldexplorer-1.2.15 DevQL:worldexplorer_1_2_15_dev_discover
     logic: AND
     task: craft "any item from worldexplorer-1.2.15 Dev" 1
     reward: item minecraft:book 1 "worldexplorer-1.2.15 Dev Guide"
@@ -36,7 +37,7 @@
 >quest worldexplorer_1_2_15_dev_master
     title: Master worldexplorer-1.2.15 Dev
     desc: Become proficient with advanced worldexplorer-1.2.15 Dev mechanics
-    requires: worldexplorer-1.2.15 Dev Quest Line:worldexplorer_1_2_15_dev_intro
+    requires: worldexplorer-1.2.15 DevQL:worldexplorer_1_2_15_dev_intro
     logic: AND
     task: collect "advanced items from worldexplorer-1.2.15 Dev" 5
     reward: choice

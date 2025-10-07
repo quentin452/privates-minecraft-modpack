@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # TConstruct Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TConstruct
 @filename TConstruct-1.13.54-GTNH.jar
 @size 5.46MB
 @category medium_mods
-@quest_line TConstruct Quest Line
+@quest_line TConstructQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest tconstruct_intro
     title: Introduction to TConstruct
     desc: Learn the basics of TConstruct and craft your first item
-    requires: TConstruct Quest Line:tconstruct_discover
+    requires: TConstructQL:tconstruct_discover
     logic: AND
     task: craft "any item from TConstruct" 1
     reward: item minecraft:book 1 "TConstruct Guide"
@@ -36,7 +37,7 @@
 >quest tconstruct_master
     title: Master TConstruct
     desc: Become proficient with advanced TConstruct mechanics
-    requires: TConstruct Quest Line:tconstruct_intro
+    requires: TConstructQL:tconstruct_intro
     logic: AND
     task: collect "advanced items from TConstruct" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # gearswap Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod gearswap
 @filename gearswap-1.2.3.jar
 @size 0.07MB
 @category small_mods
-@quest_line gearswap Quest Line
+@quest_line gearswapQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest gearswap_intro
     title: Introduction to gearswap
     desc: Learn the basics of gearswap and craft your first item
-    requires: gearswap Quest Line:gearswap_discover
+    requires: gearswapQL:gearswap_discover
     logic: AND
     task: craft "any item from gearswap" 1
     reward: item minecraft:book 1 "gearswap Guide"
@@ -36,7 +37,7 @@
 >quest gearswap_master
     title: Master gearswap
     desc: Become proficient with advanced gearswap mechanics
-    requires: gearswap Quest Line:gearswap_intro
+    requires: gearswapQL:gearswap_intro
     logic: AND
     task: collect "advanced items from gearswap" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # netherlicious Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod netherlicious
 @filename netherlicious-3.2.8.jar
 @size 2.77MB
 @category medium_mods
-@quest_line netherlicious Quest Line
+@quest_line netherliciousQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest netherlicious_intro
     title: Introduction to netherlicious
     desc: Learn the basics of netherlicious and craft your first item
-    requires: netherlicious Quest Line:netherlicious_discover
+    requires: netherliciousQL:netherlicious_discover
     logic: AND
     task: craft "any item from netherlicious" 1
     reward: item minecraft:book 1 "netherlicious Guide"
@@ -36,7 +37,7 @@
 >quest netherlicious_master
     title: Master netherlicious
     desc: Become proficient with advanced netherlicious mechanics
-    requires: netherlicious Quest Line:netherlicious_intro
+    requires: netherliciousQL:netherlicious_intro
     logic: AND
     task: collect "advanced items from netherlicious" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # eotg Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod eotg
 @filename eotg-V1.5.6.jar
 @size 9.50MB
 @category medium_mods
-@quest_line eotg Quest Line
+@quest_line eotgQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest eotg_intro
     title: Introduction to eotg
     desc: Learn the basics of eotg and craft your first item
-    requires: eotg Quest Line:eotg_discover
+    requires: eotgQL:eotg_discover
     logic: AND
     task: craft "any item from eotg" 1
     reward: item minecraft:book 1 "eotg Guide"
@@ -36,7 +37,7 @@
 >quest eotg_master
     title: Master eotg
     desc: Become proficient with advanced eotg mechanics
-    requires: eotg Quest Line:eotg_intro
+    requires: eotgQL:eotg_intro
     logic: AND
     task: collect "advanced items from eotg" 5
     reward: choice

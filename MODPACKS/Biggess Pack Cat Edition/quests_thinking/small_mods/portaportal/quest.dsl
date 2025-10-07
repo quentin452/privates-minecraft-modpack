@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # portaportal Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod portaportal
 @filename portaportal-0.0.2i.jar
 @size 0.44MB
 @category small_mods
-@quest_line portaportal Quest Line
+@quest_line portaportalQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest portaportal_intro
     title: Introduction to portaportal
     desc: Learn the basics of portaportal and craft your first item
-    requires: portaportal Quest Line:portaportal_discover
+    requires: portaportalQL:portaportal_discover
     logic: AND
     task: craft "any item from portaportal" 1
     reward: item minecraft:book 1 "portaportal Guide"
@@ -36,7 +37,7 @@
 >quest portaportal_master
     title: Master portaportal
     desc: Become proficient with advanced portaportal mechanics
-    requires: portaportal Quest Line:portaportal_intro
+    requires: portaportalQL:portaportal_intro
     logic: AND
     task: collect "advanced items from portaportal" 5
     reward: choice

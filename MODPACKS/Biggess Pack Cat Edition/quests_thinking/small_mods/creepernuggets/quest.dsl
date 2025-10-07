@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # creepernuggets Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod creepernuggets
 @filename creepernuggets-1.7.10-1.0.jar
 @size 0.01MB
 @category small_mods
-@quest_line creepernuggets Quest Line
+@quest_line creepernuggetsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest creepernuggets_intro
     title: Introduction to creepernuggets
     desc: Learn the basics of creepernuggets and craft your first item
-    requires: creepernuggets Quest Line:creepernuggets_discover
+    requires: creepernuggetsQL:creepernuggets_discover
     logic: AND
     task: craft "any item from creepernuggets" 1
     reward: item minecraft:book 1 "creepernuggets Guide"
@@ -36,7 +37,7 @@
 >quest creepernuggets_master
     title: Master creepernuggets
     desc: Become proficient with advanced creepernuggets mechanics
-    requires: creepernuggets Quest Line:creepernuggets_intro
+    requires: creepernuggetsQL:creepernuggets_intro
     logic: AND
     task: collect "advanced items from creepernuggets" 5
     reward: choice

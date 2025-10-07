@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # primitive-mobs-rozmirs-fork Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod primitive-mobs-rozmirs-fork
 @filename primitive-mobs-rozmirs-fork-1.0.jar
 @size 0.57MB
 @category small_mods
-@quest_line primitive-mobs-rozmirs-fork Quest Line
+@quest_line primitive-mobs-rozmirs-forkQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest primitive_mobs_rozmirs_fork_intro
     title: Introduction to primitive-mobs-rozmirs-fork
     desc: Learn the basics of primitive-mobs-rozmirs-fork and craft your first item
-    requires: primitive-mobs-rozmirs-fork Quest Line:primitive_mobs_rozmirs_fork_discover
+    requires: primitive-mobs-rozmirs-forkQL:primitive_mobs_rozmirs_fork_discover
     logic: AND
     task: craft "any item from primitive-mobs-rozmirs-fork" 1
     reward: item minecraft:book 1 "primitive-mobs-rozmirs-fork Guide"
@@ -36,7 +37,7 @@
 >quest primitive_mobs_rozmirs_fork_master
     title: Master primitive-mobs-rozmirs-fork
     desc: Become proficient with advanced primitive-mobs-rozmirs-fork mechanics
-    requires: primitive-mobs-rozmirs-fork Quest Line:primitive_mobs_rozmirs_fork_intro
+    requires: primitive-mobs-rozmirs-forkQL:primitive_mobs_rozmirs_fork_intro
     logic: AND
     task: collect "advanced items from primitive-mobs-rozmirs-fork" 5
     reward: choice

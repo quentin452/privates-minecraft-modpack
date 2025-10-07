@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # gemsnjewels Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod gemsnjewels
 @filename gemsnjewels-1.0.9-mc1.7.10.jar
 @size 3.71MB
 @category medium_mods
-@quest_line gemsnjewels Quest Line
+@quest_line gemsnjewelsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest gemsnjewels_intro
     title: Introduction to gemsnjewels
     desc: Learn the basics of gemsnjewels and craft your first item
-    requires: gemsnjewels Quest Line:gemsnjewels_discover
+    requires: gemsnjewelsQL:gemsnjewels_discover
     logic: AND
     task: craft "any item from gemsnjewels" 1
     reward: item minecraft:book 1 "gemsnjewels Guide"
@@ -36,7 +37,7 @@
 >quest gemsnjewels_master
     title: Master gemsnjewels
     desc: Become proficient with advanced gemsnjewels mechanics
-    requires: gemsnjewels Quest Line:gemsnjewels_intro
+    requires: gemsnjewelsQL:gemsnjewels_intro
     logic: AND
     task: collect "advanced items from gemsnjewels" 5
     reward: choice

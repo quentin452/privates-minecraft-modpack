@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # enderutilities Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod enderutilities
 @filename enderutilities-1.7.10-0.5.3.jar
 @size 0.77MB
 @category small_mods
-@quest_line enderutilities Quest Line
+@quest_line enderutilitiesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest enderutilities_intro
     title: Introduction to enderutilities
     desc: Learn the basics of enderutilities and craft your first item
-    requires: enderutilities Quest Line:enderutilities_discover
+    requires: enderutilitiesQL:enderutilities_discover
     logic: AND
     task: craft "any item from enderutilities" 1
     reward: item minecraft:book 1 "enderutilities Guide"
@@ -36,7 +37,7 @@
 >quest enderutilities_master
     title: Master enderutilities
     desc: Become proficient with advanced enderutilities mechanics
-    requires: enderutilities Quest Line:enderutilities_intro
+    requires: enderutilitiesQL:enderutilities_intro
     logic: AND
     task: collect "advanced items from enderutilities" 5
     reward: choice

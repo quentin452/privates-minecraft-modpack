@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ThaumicHorizons Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ThaumicHorizons
 @filename ThaumicHorizons-1.7.7-pre.jar
 @size 2.37MB
 @category medium_mods
-@quest_line ThaumicHorizons Quest Line
+@quest_line ThaumicHorizonsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest thaumichorizons_intro
     title: Introduction to ThaumicHorizons
     desc: Learn the basics of ThaumicHorizons and craft your first item
-    requires: ThaumicHorizons Quest Line:thaumichorizons_discover
+    requires: ThaumicHorizonsQL:thaumichorizons_discover
     logic: AND
     task: craft "any item from ThaumicHorizons" 1
     reward: item minecraft:book 1 "ThaumicHorizons Guide"
@@ -36,7 +37,7 @@
 >quest thaumichorizons_master
     title: Master ThaumicHorizons
     desc: Become proficient with advanced ThaumicHorizons mechanics
-    requires: ThaumicHorizons Quest Line:thaumichorizons_intro
+    requires: ThaumicHorizonsQL:thaumichorizons_intro
     logic: AND
     task: collect "advanced items from ThaumicHorizons" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # sodiumcraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod sodiumcraft
 @filename sodiumcraft-1.2.jar
 @size 0.01MB
 @category small_mods
-@quest_line sodiumcraft Quest Line
+@quest_line sodiumcraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest sodiumcraft_intro
     title: Introduction to sodiumcraft
     desc: Learn the basics of sodiumcraft and craft your first item
-    requires: sodiumcraft Quest Line:sodiumcraft_discover
+    requires: sodiumcraftQL:sodiumcraft_discover
     logic: AND
     task: craft "any item from sodiumcraft" 1
     reward: item minecraft:book 1 "sodiumcraft Guide"
@@ -36,7 +37,7 @@
 >quest sodiumcraft_master
     title: Master sodiumcraft
     desc: Become proficient with advanced sodiumcraft mechanics
-    requires: sodiumcraft Quest Line:sodiumcraft_intro
+    requires: sodiumcraftQL:sodiumcraft_intro
     logic: AND
     task: collect "advanced items from sodiumcraft" 5
     reward: choice

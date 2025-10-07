@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # CulinaireMod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CulinaireMod
 @filename CulinaireMod_1.0.jar
 @size 0.01MB
 @category small_mods
-@quest_line CulinaireMod Quest Line
+@quest_line CulinaireModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest culinairemod_intro
     title: Introduction to CulinaireMod
     desc: Learn the basics of CulinaireMod and craft your first item
-    requires: CulinaireMod Quest Line:culinairemod_discover
+    requires: CulinaireModQL:culinairemod_discover
     logic: AND
     task: craft "any item from CulinaireMod" 1
     reward: item minecraft:book 1 "CulinaireMod Guide"
@@ -36,7 +37,7 @@
 >quest culinairemod_master
     title: Master CulinaireMod
     desc: Become proficient with advanced CulinaireMod mechanics
-    requires: CulinaireMod Quest Line:culinairemod_intro
+    requires: CulinaireModQL:culinairemod_intro
     logic: AND
     task: collect "advanced items from CulinaireMod" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Small Stairs Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Small Stairs
 @filename Small Stairs-1.7.10-1.0.jar
 @size 0.02MB
 @category small_mods
-@quest_line Small Stairs Quest Line
+@quest_line Small StairsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest small_stairs_intro
     title: Introduction to Small Stairs
     desc: Learn the basics of Small Stairs and craft your first item
-    requires: Small Stairs Quest Line:small_stairs_discover
+    requires: Small StairsQL:small_stairs_discover
     logic: AND
     task: craft "any item from Small Stairs" 1
     reward: item minecraft:book 1 "Small Stairs Guide"
@@ -36,7 +37,7 @@
 >quest small_stairs_master
     title: Master Small Stairs
     desc: Become proficient with advanced Small Stairs mechanics
-    requires: Small Stairs Quest Line:small_stairs_intro
+    requires: Small StairsQL:small_stairs_intro
     logic: AND
     task: collect "advanced items from Small Stairs" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # majoramod v1.2.2 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod majoramod v1.2.2
 @filename majoramod v1.2.2.jar
 @size 0.44MB
 @category small_mods
-@quest_line majoramod v1.2.2 Quest Line
+@quest_line majoramod v1.2.2QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest majoramod_v1_2_2_intro
     title: Introduction to majoramod v1.2.2
     desc: Learn the basics of majoramod v1.2.2 and craft your first item
-    requires: majoramod v1.2.2 Quest Line:majoramod_v1_2_2_discover
+    requires: majoramod v1.2.2QL:majoramod_v1_2_2_discover
     logic: AND
     task: craft "any item from majoramod v1.2.2" 1
     reward: item minecraft:book 1 "majoramod v1.2.2 Guide"
@@ -36,7 +37,7 @@
 >quest majoramod_v1_2_2_master
     title: Master majoramod v1.2.2
     desc: Become proficient with advanced majoramod v1.2.2 mechanics
-    requires: majoramod v1.2.2 Quest Line:majoramod_v1_2_2_intro
+    requires: majoramod v1.2.2QL:majoramod_v1_2_2_intro
     logic: AND
     task: collect "advanced items from majoramod v1.2.2" 5
     reward: choice

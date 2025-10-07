@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # 3DManeuverGear Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod 3DManeuverGear
 @filename 3DManeuverGear-1.7.10-0.6.jar
 @size 2.84MB
 @category medium_mods
-@quest_line 3DManeuverGear Quest Line
+@quest_line 3DManeuverGearQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest 3dmaneuvergear_intro
     title: Introduction to 3DManeuverGear
     desc: Learn the basics of 3DManeuverGear and craft your first item
-    requires: 3DManeuverGear Quest Line:3dmaneuvergear_discover
+    requires: 3DManeuverGearQL:3dmaneuvergear_discover
     logic: AND
     task: craft "any item from 3DManeuverGear" 1
     reward: item minecraft:book 1 "3DManeuverGear Guide"
@@ -36,7 +37,7 @@
 >quest 3dmaneuvergear_master
     title: Master 3DManeuverGear
     desc: Become proficient with advanced 3DManeuverGear mechanics
-    requires: 3DManeuverGear Quest Line:3dmaneuvergear_intro
+    requires: 3DManeuverGearQL:3dmaneuvergear_intro
     logic: AND
     task: collect "advanced items from 3DManeuverGear" 5
     reward: choice

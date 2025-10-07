@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # RoundRobinHopper Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RoundRobinHopper
 @filename RoundRobinHopper-1.7.10-1.0.0.jar
 @size 0.04MB
 @category small_mods
-@quest_line RoundRobinHopper Quest Line
+@quest_line RoundRobinHopperQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest roundrobinhopper_intro
     title: Introduction to RoundRobinHopper
     desc: Learn the basics of RoundRobinHopper and craft your first item
-    requires: RoundRobinHopper Quest Line:roundrobinhopper_discover
+    requires: RoundRobinHopperQL:roundrobinhopper_discover
     logic: AND
     task: craft "any item from RoundRobinHopper" 1
     reward: item minecraft:book 1 "RoundRobinHopper Guide"
@@ -36,7 +37,7 @@
 >quest roundrobinhopper_master
     title: Master RoundRobinHopper
     desc: Become proficient with advanced RoundRobinHopper mechanics
-    requires: RoundRobinHopper Quest Line:roundrobinhopper_intro
+    requires: RoundRobinHopperQL:roundrobinhopper_intro
     logic: AND
     task: collect "advanced items from RoundRobinHopper" 5
     reward: choice

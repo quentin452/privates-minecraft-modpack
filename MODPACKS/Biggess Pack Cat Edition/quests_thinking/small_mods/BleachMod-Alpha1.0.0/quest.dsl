@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BleachMod-Alpha1.0.0 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BleachMod-Alpha1.0.0
 @filename BleachMod-Alpha1.0.0-MC1.7.10.jar
 @size 0.02MB
 @category small_mods
-@quest_line BleachMod-Alpha1.0.0 Quest Line
+@quest_line BleachMod-Alpha1.0.0QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest bleachmod_alpha1_0_0_intro
     title: Introduction to BleachMod-Alpha1.0.0
     desc: Learn the basics of BleachMod-Alpha1.0.0 and craft your first item
-    requires: BleachMod-Alpha1.0.0 Quest Line:bleachmod_alpha1_0_0_discover
+    requires: BleachMod-Alpha1.0.0QL:bleachmod_alpha1_0_0_discover
     logic: AND
     task: craft "any item from BleachMod-Alpha1.0.0" 1
     reward: item minecraft:book 1 "BleachMod-Alpha1.0.0 Guide"
@@ -36,7 +37,7 @@
 >quest bleachmod_alpha1_0_0_master
     title: Master BleachMod-Alpha1.0.0
     desc: Become proficient with advanced BleachMod-Alpha1.0.0 mechanics
-    requires: BleachMod-Alpha1.0.0 Quest Line:bleachmod_alpha1_0_0_intro
+    requires: BleachMod-Alpha1.0.0QL:bleachmod_alpha1_0_0_intro
     logic: AND
     task: collect "advanced items from BleachMod-Alpha1.0.0" 5
     reward: choice

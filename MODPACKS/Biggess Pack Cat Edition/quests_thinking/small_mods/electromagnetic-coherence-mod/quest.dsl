@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # electromagnetic-coherence-mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod electromagnetic-coherence-mod
 @filename electromagnetic-coherence-mod-1.7.10.jar
 @size 0.16MB
 @category small_mods
-@quest_line electromagnetic-coherence-mod Quest Line
+@quest_line electromagnetic-coherence-modQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest electromagnetic_coherence_mod_intro
     title: Introduction to electromagnetic-coherence-mod
     desc: Learn the basics of electromagnetic-coherence-mod and craft your first item
-    requires: electromagnetic-coherence-mod Quest Line:electromagnetic_coherence_mod_discover
+    requires: electromagnetic-coherence-modQL:electromagnetic_coherence_mod_discover
     logic: AND
     task: craft "any item from electromagnetic-coherence-mod" 1
     reward: item minecraft:book 1 "electromagnetic-coherence-mod Guide"
@@ -36,7 +37,7 @@
 >quest electromagnetic_coherence_mod_master
     title: Master electromagnetic-coherence-mod
     desc: Become proficient with advanced electromagnetic-coherence-mod mechanics
-    requires: electromagnetic-coherence-mod Quest Line:electromagnetic_coherence_mod_intro
+    requires: electromagnetic-coherence-modQL:electromagnetic_coherence_mod_intro
     logic: AND
     task: collect "advanced items from electromagnetic-coherence-mod" 5
     reward: choice

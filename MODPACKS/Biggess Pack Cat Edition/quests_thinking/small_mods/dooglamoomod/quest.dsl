@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # dooglamoomod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod dooglamoomod
 @filename dooglamoomod-1.7.10-1.3.jar
 @size 0.36MB
 @category small_mods
-@quest_line dooglamoomod Quest Line
+@quest_line dooglamoomodQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest dooglamoomod_intro
     title: Introduction to dooglamoomod
     desc: Learn the basics of dooglamoomod and craft your first item
-    requires: dooglamoomod Quest Line:dooglamoomod_discover
+    requires: dooglamoomodQL:dooglamoomod_discover
     logic: AND
     task: craft "any item from dooglamoomod" 1
     reward: item minecraft:book 1 "dooglamoomod Guide"
@@ -36,7 +37,7 @@
 >quest dooglamoomod_master
     title: Master dooglamoomod
     desc: Become proficient with advanced dooglamoomod mechanics
-    requires: dooglamoomod Quest Line:dooglamoomod_intro
+    requires: dooglamoomodQL:dooglamoomod_intro
     logic: AND
     task: collect "advanced items from dooglamoomod" 5
     reward: choice

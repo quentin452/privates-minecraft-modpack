@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # StylerCraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod StylerCraft
 @filename StylerCraft.jar
 @size 0.10MB
 @category small_mods
-@quest_line StylerCraft Quest Line
+@quest_line StylerCraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest stylercraft_intro
     title: Introduction to StylerCraft
     desc: Learn the basics of StylerCraft and craft your first item
-    requires: StylerCraft Quest Line:stylercraft_discover
+    requires: StylerCraftQL:stylercraft_discover
     logic: AND
     task: craft "any item from StylerCraft" 1
     reward: item minecraft:book 1 "StylerCraft Guide"
@@ -36,7 +37,7 @@
 >quest stylercraft_master
     title: Master StylerCraft
     desc: Become proficient with advanced StylerCraft mechanics
-    requires: StylerCraft Quest Line:stylercraft_intro
+    requires: StylerCraftQL:stylercraft_intro
     logic: AND
     task: collect "advanced items from StylerCraft" 5
     reward: choice

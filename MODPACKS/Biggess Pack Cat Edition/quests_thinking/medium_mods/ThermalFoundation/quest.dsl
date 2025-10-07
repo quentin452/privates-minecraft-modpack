@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ThermalFoundation Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ThermalFoundation
 @filename ThermalFoundation-[1.7.10]1.2.6-118.jar
 @size 2.21MB
 @category medium_mods
-@quest_line ThermalFoundation Quest Line
+@quest_line ThermalFoundationQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest thermalfoundation_1_7_101_2_6_118_intro
     title: Introduction to ThermalFoundation
     desc: Learn the basics of ThermalFoundation and craft your first item
-    requires: ThermalFoundation Quest Line:thermalfoundation_1_7_101_2_6_118_discover
+    requires: ThermalFoundationQL:thermalfoundation_1_7_101_2_6_118_discover
     logic: AND
     task: craft "any item from ThermalFoundation" 1
     reward: item minecraft:book 1 "ThermalFoundation Guide"
@@ -36,7 +37,7 @@
 >quest thermalfoundation_1_7_101_2_6_118_master
     title: Master ThermalFoundation
     desc: Become proficient with advanced ThermalFoundation mechanics
-    requires: ThermalFoundation Quest Line:thermalfoundation_1_7_101_2_6_118_intro
+    requires: ThermalFoundationQL:thermalfoundation_1_7_101_2_6_118_intro
     logic: AND
     task: collect "advanced items from ThermalFoundation" 5
     reward: choice

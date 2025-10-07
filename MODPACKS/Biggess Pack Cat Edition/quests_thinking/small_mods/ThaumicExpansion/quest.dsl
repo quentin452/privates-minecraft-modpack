@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ThaumicExpansion Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ThaumicExpansion
 @filename ThaumicExpansion-1.7.10-4.1.3.jar
 @size 1.78MB
 @category small_mods
-@quest_line ThaumicExpansion Quest Line
+@quest_line ThaumicExpansionQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest thaumicexpansion_intro
     title: Introduction to ThaumicExpansion
     desc: Learn the basics of ThaumicExpansion and craft your first item
-    requires: ThaumicExpansion Quest Line:thaumicexpansion_discover
+    requires: ThaumicExpansionQL:thaumicexpansion_discover
     logic: AND
     task: craft "any item from ThaumicExpansion" 1
     reward: item minecraft:book 1 "ThaumicExpansion Guide"
@@ -36,7 +37,7 @@
 >quest thaumicexpansion_master
     title: Master ThaumicExpansion
     desc: Become proficient with advanced ThaumicExpansion mechanics
-    requires: ThaumicExpansion Quest Line:thaumicexpansion_intro
+    requires: ThaumicExpansionQL:thaumicexpansion_intro
     logic: AND
     task: collect "advanced items from ThaumicExpansion" 5
     reward: choice

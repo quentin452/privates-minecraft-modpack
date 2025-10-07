@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # EliteBows_1.0.4_1.7.10_release Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod EliteBows_1.0.4_1.7.10_release
 @filename EliteBows_1.0.4_1.7.10_release.jar
 @size 1.91MB
 @category small_mods
-@quest_line EliteBows_1.0.4_1.7.10_release Quest Line
+@quest_line EliteBows_1.0.4_1.7.10_releaseQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest elitebows_1_0_4_1_7_10_release_intro
     title: Introduction to EliteBows_1.0.4_1.7.10_release
     desc: Learn the basics of EliteBows_1.0.4_1.7.10_release and craft your first item
-    requires: EliteBows_1.0.4_1.7.10_release Quest Line:elitebows_1_0_4_1_7_10_release_discover
+    requires: EliteBows_1.0.4_1.7.10_releaseQL:elitebows_1_0_4_1_7_10_release_discover
     logic: AND
     task: craft "any item from EliteBows_1.0.4_1.7.10_release" 1
     reward: item minecraft:book 1 "EliteBows_1.0.4_1.7.10_release Guide"
@@ -36,7 +37,7 @@
 >quest elitebows_1_0_4_1_7_10_release_master
     title: Master EliteBows_1.0.4_1.7.10_release
     desc: Become proficient with advanced EliteBows_1.0.4_1.7.10_release mechanics
-    requires: EliteBows_1.0.4_1.7.10_release Quest Line:elitebows_1_0_4_1_7_10_release_intro
+    requires: EliteBows_1.0.4_1.7.10_releaseQL:elitebows_1_0_4_1_7_10_release_intro
     logic: AND
     task: collect "advanced items from EliteBows_1.0.4_1.7.10_release" 5
     reward: choice

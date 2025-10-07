@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # rfwindmill Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod rfwindmill
 @filename rfwindmill-1.7.10-0.7c.jar
 @size 0.06MB
 @category small_mods
-@quest_line rfwindmill Quest Line
+@quest_line rfwindmillQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest rfwindmill_intro
     title: Introduction to rfwindmill
     desc: Learn the basics of rfwindmill and craft your first item
-    requires: rfwindmill Quest Line:rfwindmill_discover
+    requires: rfwindmillQL:rfwindmill_discover
     logic: AND
     task: craft "any item from rfwindmill" 1
     reward: item minecraft:book 1 "rfwindmill Guide"
@@ -36,7 +37,7 @@
 >quest rfwindmill_master
     title: Master rfwindmill
     desc: Become proficient with advanced rfwindmill mechanics
-    requires: rfwindmill Quest Line:rfwindmill_intro
+    requires: rfwindmillQL:rfwindmill_intro
     logic: AND
     task: collect "advanced items from rfwindmill" 5
     reward: choice

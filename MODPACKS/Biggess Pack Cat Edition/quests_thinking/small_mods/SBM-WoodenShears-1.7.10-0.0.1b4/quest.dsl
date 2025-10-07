@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # SBM-WoodenShears-1.7.10-0.0.1b4 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SBM-WoodenShears-1.7.10-0.0.1b4
 @filename SBM-WoodenShears-1.7.10-0.0.1b4-universal.jar
 @size 0.01MB
 @category small_mods
-@quest_line SBM-WoodenShears-1.7.10-0.0.1b4 Quest Line
+@quest_line SBM-WoodenShears-1.7.10-0.0.1b4QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest sbm_woodenshears_1_7_10_0_0_1b4_intro
     title: Introduction to SBM-WoodenShears-1.7.10-0.0.1b4
     desc: Learn the basics of SBM-WoodenShears-1.7.10-0.0.1b4 and craft your first item
-    requires: SBM-WoodenShears-1.7.10-0.0.1b4 Quest Line:sbm_woodenshears_1_7_10_0_0_1b4_discover
+    requires: SBM-WoodenShears-1.7.10-0.0.1b4QL:sbm_woodenshears_1_7_10_0_0_1b4_discover
     logic: AND
     task: craft "any item from SBM-WoodenShears-1.7.10-0.0.1b4" 1
     reward: item minecraft:book 1 "SBM-WoodenShears-1.7.10-0.0.1b4 Guide"
@@ -36,7 +37,7 @@
 >quest sbm_woodenshears_1_7_10_0_0_1b4_master
     title: Master SBM-WoodenShears-1.7.10-0.0.1b4
     desc: Become proficient with advanced SBM-WoodenShears-1.7.10-0.0.1b4 mechanics
-    requires: SBM-WoodenShears-1.7.10-0.0.1b4 Quest Line:sbm_woodenshears_1_7_10_0_0_1b4_intro
+    requires: SBM-WoodenShears-1.7.10-0.0.1b4QL:sbm_woodenshears_1_7_10_0_0_1b4_intro
     logic: AND
     task: collect "advanced items from SBM-WoodenShears-1.7.10-0.0.1b4" 5
     reward: choice

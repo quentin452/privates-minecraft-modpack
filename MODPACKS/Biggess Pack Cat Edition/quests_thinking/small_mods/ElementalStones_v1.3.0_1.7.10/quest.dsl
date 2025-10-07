@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ElementalStones_v1.3.0_1.7.10 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ElementalStones_v1.3.0_1.7.10
 @filename ElementalStones_v1.3.0_1.7.10_Forge10.13.2.1291.jar
 @size 0.01MB
 @category small_mods
-@quest_line ElementalStones_v1.3.0_1.7.10 Quest Line
+@quest_line ElementalStones_v1.3.0_1.7.10QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest elementalstones_v1_3_0_1_7_10_intro
     title: Introduction to ElementalStones_v1.3.0_1.7.10
     desc: Learn the basics of ElementalStones_v1.3.0_1.7.10 and craft your first item
-    requires: ElementalStones_v1.3.0_1.7.10 Quest Line:elementalstones_v1_3_0_1_7_10_discover
+    requires: ElementalStones_v1.3.0_1.7.10QL:elementalstones_v1_3_0_1_7_10_discover
     logic: AND
     task: craft "any item from ElementalStones_v1.3.0_1.7.10" 1
     reward: item minecraft:book 1 "ElementalStones_v1.3.0_1.7.10 Guide"
@@ -36,7 +37,7 @@
 >quest elementalstones_v1_3_0_1_7_10_master
     title: Master ElementalStones_v1.3.0_1.7.10
     desc: Become proficient with advanced ElementalStones_v1.3.0_1.7.10 mechanics
-    requires: ElementalStones_v1.3.0_1.7.10 Quest Line:elementalstones_v1_3_0_1_7_10_intro
+    requires: ElementalStones_v1.3.0_1.7.10QL:elementalstones_v1_3_0_1_7_10_intro
     logic: AND
     task: collect "advanced items from ElementalStones_v1.3.0_1.7.10" 5
     reward: choice

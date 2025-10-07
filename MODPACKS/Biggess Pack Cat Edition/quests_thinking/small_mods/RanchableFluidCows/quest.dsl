@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # RanchableFluidCows Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RanchableFluidCows
 @filename RanchableFluidCows-1.7.10-1.1.5.jar
 @size 0.06MB
 @category small_mods
-@quest_line RanchableFluidCows Quest Line
+@quest_line RanchableFluidCowsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ranchablefluidcows_intro
     title: Introduction to RanchableFluidCows
     desc: Learn the basics of RanchableFluidCows and craft your first item
-    requires: RanchableFluidCows Quest Line:ranchablefluidcows_discover
+    requires: RanchableFluidCowsQL:ranchablefluidcows_discover
     logic: AND
     task: craft "any item from RanchableFluidCows" 1
     reward: item minecraft:book 1 "RanchableFluidCows Guide"
@@ -36,7 +37,7 @@
 >quest ranchablefluidcows_master
     title: Master RanchableFluidCows
     desc: Become proficient with advanced RanchableFluidCows mechanics
-    requires: RanchableFluidCows Quest Line:ranchablefluidcows_intro
+    requires: RanchableFluidCowsQL:ranchablefluidcows_intro
     logic: AND
     task: collect "advanced items from RanchableFluidCows" 5
     reward: choice

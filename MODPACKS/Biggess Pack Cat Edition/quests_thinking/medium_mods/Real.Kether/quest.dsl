@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Real.Kether Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Real.Kether
 @filename Real.Kether-V1.9.5.2.jar
 @size 9.84MB
 @category medium_mods
-@quest_line Real.Kether Quest Line
+@quest_line Real.KetherQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest real_kether_intro
     title: Introduction to Real.Kether
     desc: Learn the basics of Real.Kether and craft your first item
-    requires: Real.Kether Quest Line:real_kether_discover
+    requires: Real.KetherQL:real_kether_discover
     logic: AND
     task: craft "any item from Real.Kether" 1
     reward: item minecraft:book 1 "Real.Kether Guide"
@@ -36,7 +37,7 @@
 >quest real_kether_master
     title: Master Real.Kether
     desc: Become proficient with advanced Real.Kether mechanics
-    requires: Real.Kether Quest Line:real_kether_intro
+    requires: Real.KetherQL:real_kether_intro
     logic: AND
     task: collect "advanced items from Real.Kether" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # RecurrentComplex Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RecurrentComplex
 @filename RecurrentComplex-0.9.7.1.9.jar
 @size 4.29MB
 @category medium_mods
-@quest_line RecurrentComplex Quest Line
+@quest_line RecurrentComplexQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest recurrentcomplex_intro
     title: Introduction to RecurrentComplex
     desc: Learn the basics of RecurrentComplex and craft your first item
-    requires: RecurrentComplex Quest Line:recurrentcomplex_discover
+    requires: RecurrentComplexQL:recurrentcomplex_discover
     logic: AND
     task: craft "any item from RecurrentComplex" 1
     reward: item minecraft:book 1 "RecurrentComplex Guide"
@@ -36,7 +37,7 @@
 >quest recurrentcomplex_master
     title: Master RecurrentComplex
     desc: Become proficient with advanced RecurrentComplex mechanics
-    requires: RecurrentComplex Quest Line:recurrentcomplex_intro
+    requires: RecurrentComplexQL:recurrentcomplex_intro
     logic: AND
     task: collect "advanced items from RecurrentComplex" 5
     reward: choice

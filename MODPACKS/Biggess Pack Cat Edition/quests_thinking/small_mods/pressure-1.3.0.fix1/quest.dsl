@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # pressure-1.3.0.fix1 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod pressure-1.3.0.fix1
 @filename pressure-1.3.0.fix1-mc1.7.10.jar
 @size 1.37MB
 @category small_mods
-@quest_line pressure-1.3.0.fix1 Quest Line
+@quest_line pressure-1.3.0.fix1QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest pressure_1_3_0_fix1_intro
     title: Introduction to pressure-1.3.0.fix1
     desc: Learn the basics of pressure-1.3.0.fix1 and craft your first item
-    requires: pressure-1.3.0.fix1 Quest Line:pressure_1_3_0_fix1_discover
+    requires: pressure-1.3.0.fix1QL:pressure_1_3_0_fix1_discover
     logic: AND
     task: craft "any item from pressure-1.3.0.fix1" 1
     reward: item minecraft:book 1 "pressure-1.3.0.fix1 Guide"
@@ -36,7 +37,7 @@
 >quest pressure_1_3_0_fix1_master
     title: Master pressure-1.3.0.fix1
     desc: Become proficient with advanced pressure-1.3.0.fix1 mechanics
-    requires: pressure-1.3.0.fix1 Quest Line:pressure_1_3_0_fix1_intro
+    requires: pressure-1.3.0.fix1QL:pressure_1_3_0_fix1_intro
     logic: AND
     task: collect "advanced items from pressure-1.3.0.fix1" 5
     reward: choice

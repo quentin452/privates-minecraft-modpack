@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ThermalSingularities Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ThermalSingularities
 @filename ThermalSingularities-1.7.10-1.2.jar
 @size 0.04MB
 @category small_mods
-@quest_line ThermalSingularities Quest Line
+@quest_line ThermalSingularitiesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest thermalsingularities_intro
     title: Introduction to ThermalSingularities
     desc: Learn the basics of ThermalSingularities and craft your first item
-    requires: ThermalSingularities Quest Line:thermalsingularities_discover
+    requires: ThermalSingularitiesQL:thermalsingularities_discover
     logic: AND
     task: craft "any item from ThermalSingularities" 1
     reward: item minecraft:book 1 "ThermalSingularities Guide"
@@ -36,7 +37,7 @@
 >quest thermalsingularities_master
     title: Master ThermalSingularities
     desc: Become proficient with advanced ThermalSingularities mechanics
-    requires: ThermalSingularities Quest Line:thermalsingularities_intro
+    requires: ThermalSingularitiesQL:thermalsingularities_intro
     logic: AND
     task: collect "advanced items from ThermalSingularities" 5
     reward: choice

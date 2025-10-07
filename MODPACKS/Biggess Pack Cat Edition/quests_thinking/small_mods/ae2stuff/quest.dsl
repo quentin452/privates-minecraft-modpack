@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ae2stuff Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ae2stuff
 @filename ae2stuff-0.9.7-GTNH.jar
 @size 0.63MB
 @category small_mods
-@quest_line ae2stuff Quest Line
+@quest_line ae2stuffQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ae2stuff_intro
     title: Introduction to ae2stuff
     desc: Learn the basics of ae2stuff and craft your first item
-    requires: ae2stuff Quest Line:ae2stuff_discover
+    requires: ae2stuffQL:ae2stuff_discover
     logic: AND
     task: craft "any item from ae2stuff" 1
     reward: item minecraft:book 1 "ae2stuff Guide"
@@ -36,7 +37,7 @@
 >quest ae2stuff_master
     title: Master ae2stuff
     desc: Become proficient with advanced ae2stuff mechanics
-    requires: ae2stuff Quest Line:ae2stuff_intro
+    requires: ae2stuffQL:ae2stuff_intro
     logic: AND
     task: collect "advanced items from ae2stuff" 5
     reward: choice

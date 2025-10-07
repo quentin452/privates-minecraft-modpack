@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Pantography Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Pantography
 @filename Pantography-1.7.10-1.0.1.jar
 @size 0.93MB
 @category small_mods
-@quest_line Pantography Quest Line
+@quest_line PantographyQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest pantography_intro
     title: Introduction to Pantography
     desc: Learn the basics of Pantography and craft your first item
-    requires: Pantography Quest Line:pantography_discover
+    requires: PantographyQL:pantography_discover
     logic: AND
     task: craft "any item from Pantography" 1
     reward: item minecraft:book 1 "Pantography Guide"
@@ -36,7 +37,7 @@
 >quest pantography_master
     title: Master Pantography
     desc: Become proficient with advanced Pantography mechanics
-    requires: Pantography Quest Line:pantography_intro
+    requires: PantographyQL:pantography_intro
     logic: AND
     task: collect "advanced items from Pantography" 5
     reward: choice

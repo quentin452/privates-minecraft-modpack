@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ore_cow_mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ore_cow_mod
 @filename ore_cow_mod_1.7.10.jar
 @size 0.04MB
 @category small_mods
-@quest_line ore_cow_mod Quest Line
+@quest_line ore_cow_modQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ore_cow_mod_intro
     title: Introduction to ore_cow_mod
     desc: Learn the basics of ore_cow_mod and craft your first item
-    requires: ore_cow_mod Quest Line:ore_cow_mod_discover
+    requires: ore_cow_modQL:ore_cow_mod_discover
     logic: AND
     task: craft "any item from ore_cow_mod" 1
     reward: item minecraft:book 1 "ore_cow_mod Guide"
@@ -36,7 +37,7 @@
 >quest ore_cow_mod_master
     title: Master ore_cow_mod
     desc: Become proficient with advanced ore_cow_mod mechanics
-    requires: ore_cow_mod Quest Line:ore_cow_mod_intro
+    requires: ore_cow_modQL:ore_cow_mod_intro
     logic: AND
     task: collect "advanced items from ore_cow_mod" 5
     reward: choice

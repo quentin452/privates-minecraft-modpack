@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # OresPlus-Mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod OresPlus-Mod
 @filename OresPlus-Mod-1.7.10.jar
 @size 0.45MB
 @category small_mods
-@quest_line OresPlus-Mod Quest Line
+@quest_line OresPlus-ModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest oresplus_mod_intro
     title: Introduction to OresPlus-Mod
     desc: Learn the basics of OresPlus-Mod and craft your first item
-    requires: OresPlus-Mod Quest Line:oresplus_mod_discover
+    requires: OresPlus-ModQL:oresplus_mod_discover
     logic: AND
     task: craft "any item from OresPlus-Mod" 1
     reward: item minecraft:book 1 "OresPlus-Mod Guide"
@@ -36,7 +37,7 @@
 >quest oresplus_mod_master
     title: Master OresPlus-Mod
     desc: Become proficient with advanced OresPlus-Mod mechanics
-    requires: OresPlus-Mod Quest Line:oresplus_mod_intro
+    requires: OresPlus-ModQL:oresplus_mod_intro
     logic: AND
     task: collect "advanced items from OresPlus-Mod" 5
     reward: choice

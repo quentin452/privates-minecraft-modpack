@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Automation Utilities Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Automation Utilities
 @filename Automation Utilities-1.7.10-1.0.1.jar
 @size 0.07MB
 @category small_mods
-@quest_line Automation Utilities Quest Line
+@quest_line Automation UtilitiesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest automation_utilities_intro
     title: Introduction to Automation Utilities
     desc: Learn the basics of Automation Utilities and craft your first item
-    requires: Automation Utilities Quest Line:automation_utilities_discover
+    requires: Automation UtilitiesQL:automation_utilities_discover
     logic: AND
     task: craft "any item from Automation Utilities" 1
     reward: item minecraft:book 1 "Automation Utilities Guide"
@@ -36,7 +37,7 @@
 >quest automation_utilities_master
     title: Master Automation Utilities
     desc: Become proficient with advanced Automation Utilities mechanics
-    requires: Automation Utilities Quest Line:automation_utilities_intro
+    requires: Automation UtilitiesQL:automation_utilities_intro
     logic: AND
     task: collect "advanced items from Automation Utilities" 5
     reward: choice

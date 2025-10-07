@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # PlutoBeta2For1.7.2 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod PlutoBeta2For1.7.2
 @filename PlutoBeta2For1.7.2.zip
 @size 0.01MB
 @category small_mods
-@quest_line PlutoBeta2For1.7.2 Quest Line
+@quest_line PlutoBeta2For1.7.2QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest plutobeta2for1_7_2_intro
     title: Introduction to PlutoBeta2For1.7.2
     desc: Learn the basics of PlutoBeta2For1.7.2 and craft your first item
-    requires: PlutoBeta2For1.7.2 Quest Line:plutobeta2for1_7_2_discover
+    requires: PlutoBeta2For1.7.2QL:plutobeta2for1_7_2_discover
     logic: AND
     task: craft "any item from PlutoBeta2For1.7.2" 1
     reward: item minecraft:book 1 "PlutoBeta2For1.7.2 Guide"
@@ -36,7 +37,7 @@
 >quest plutobeta2for1_7_2_master
     title: Master PlutoBeta2For1.7.2
     desc: Become proficient with advanced PlutoBeta2For1.7.2 mechanics
-    requires: PlutoBeta2For1.7.2 Quest Line:plutobeta2for1_7_2_intro
+    requires: PlutoBeta2For1.7.2QL:plutobeta2for1_7_2_intro
     logic: AND
     task: collect "advanced items from PlutoBeta2For1.7.2" 5
     reward: choice

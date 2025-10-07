@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # CookingForBlockheads Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CookingForBlockheads
 @filename CookingForBlockheads-1.4.4-GTNH.jar
 @size 0.35MB
 @category small_mods
-@quest_line CookingForBlockheads Quest Line
+@quest_line CookingForBlockheadsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest cookingforblockheads_intro
     title: Introduction to CookingForBlockheads
     desc: Learn the basics of CookingForBlockheads and craft your first item
-    requires: CookingForBlockheads Quest Line:cookingforblockheads_discover
+    requires: CookingForBlockheadsQL:cookingforblockheads_discover
     logic: AND
     task: craft "any item from CookingForBlockheads" 1
     reward: item minecraft:book 1 "CookingForBlockheads Guide"
@@ -36,7 +37,7 @@
 >quest cookingforblockheads_master
     title: Master CookingForBlockheads
     desc: Become proficient with advanced CookingForBlockheads mechanics
-    requires: CookingForBlockheads Quest Line:cookingforblockheads_intro
+    requires: CookingForBlockheadsQL:cookingforblockheads_intro
     logic: AND
     task: collect "advanced items from CookingForBlockheads" 5
     reward: choice

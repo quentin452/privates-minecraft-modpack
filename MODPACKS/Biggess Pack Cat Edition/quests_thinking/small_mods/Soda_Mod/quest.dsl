@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Soda_Mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Soda_Mod
 @filename Soda_Mod_1.7.10.jar
 @size 0.12MB
 @category small_mods
-@quest_line Soda_Mod Quest Line
+@quest_line Soda_ModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest soda_mod_intro
     title: Introduction to Soda_Mod
     desc: Learn the basics of Soda_Mod and craft your first item
-    requires: Soda_Mod Quest Line:soda_mod_discover
+    requires: Soda_ModQL:soda_mod_discover
     logic: AND
     task: craft "any item from Soda_Mod" 1
     reward: item minecraft:book 1 "Soda_Mod Guide"
@@ -36,7 +37,7 @@
 >quest soda_mod_master
     title: Master Soda_Mod
     desc: Become proficient with advanced Soda_Mod mechanics
-    requires: Soda_Mod Quest Line:soda_mod_intro
+    requires: Soda_ModQL:soda_mod_intro
     logic: AND
     task: collect "advanced items from Soda_Mod" 5
     reward: choice

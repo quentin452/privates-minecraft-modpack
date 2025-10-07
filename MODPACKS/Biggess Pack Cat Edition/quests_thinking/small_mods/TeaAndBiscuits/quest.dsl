@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # TeaAndBiscuits Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TeaAndBiscuits
 @filename TeaAndBiscuits-1.7.10-1.3.jar
 @size 0.13MB
 @category small_mods
-@quest_line TeaAndBiscuits Quest Line
+@quest_line TeaAndBiscuitsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest teaandbiscuits_intro
     title: Introduction to TeaAndBiscuits
     desc: Learn the basics of TeaAndBiscuits and craft your first item
-    requires: TeaAndBiscuits Quest Line:teaandbiscuits_discover
+    requires: TeaAndBiscuitsQL:teaandbiscuits_discover
     logic: AND
     task: craft "any item from TeaAndBiscuits" 1
     reward: item minecraft:book 1 "TeaAndBiscuits Guide"
@@ -36,7 +37,7 @@
 >quest teaandbiscuits_master
     title: Master TeaAndBiscuits
     desc: Become proficient with advanced TeaAndBiscuits mechanics
-    requires: TeaAndBiscuits Quest Line:teaandbiscuits_intro
+    requires: TeaAndBiscuitsQL:teaandbiscuits_intro
     logic: AND
     task: collect "advanced items from TeaAndBiscuits" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # WackyWeapons Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod WackyWeapons
 @filename WackyWeapons_1.3.jar
 @size 0.11MB
 @category small_mods
-@quest_line WackyWeapons Quest Line
+@quest_line WackyWeaponsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest wackyweapons_intro
     title: Introduction to WackyWeapons
     desc: Learn the basics of WackyWeapons and craft your first item
-    requires: WackyWeapons Quest Line:wackyweapons_discover
+    requires: WackyWeaponsQL:wackyweapons_discover
     logic: AND
     task: craft "any item from WackyWeapons" 1
     reward: item minecraft:book 1 "WackyWeapons Guide"
@@ -36,7 +37,7 @@
 >quest wackyweapons_master
     title: Master WackyWeapons
     desc: Become proficient with advanced WackyWeapons mechanics
-    requires: WackyWeapons Quest Line:wackyweapons_intro
+    requires: WackyWeaponsQL:wackyweapons_intro
     logic: AND
     task: collect "advanced items from WackyWeapons" 5
     reward: choice

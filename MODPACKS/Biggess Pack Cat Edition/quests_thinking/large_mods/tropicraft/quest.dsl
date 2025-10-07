@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # tropicraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod tropicraft
 @filename tropicraft-v6.1.3.jar
 @size 39.40MB
 @category large_mods
-@quest_line tropicraft Quest Line
+@quest_line tropicraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest tropicraft_intro
     title: Introduction to tropicraft
     desc: Learn the basics of tropicraft and craft your first item
-    requires: tropicraft Quest Line:tropicraft_discover
+    requires: tropicraftQL:tropicraft_discover
     logic: AND
     task: craft "any item from tropicraft" 1
     reward: item minecraft:book 1 "tropicraft Guide"
@@ -36,7 +37,7 @@
 >quest tropicraft_master
     title: Master tropicraft
     desc: Become proficient with advanced tropicraft mechanics
-    requires: tropicraft Quest Line:tropicraft_intro
+    requires: tropicraftQL:tropicraft_intro
     logic: AND
     task: collect "advanced items from tropicraft" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ThaumcraftMobAspects Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ThaumcraftMobAspects
 @filename ThaumcraftMobAspects-1.2.1-GTNH.jar
 @size 0.02MB
 @category small_mods
-@quest_line ThaumcraftMobAspects Quest Line
+@quest_line ThaumcraftMobAspectsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest thaumcraftmobaspects_intro
     title: Introduction to ThaumcraftMobAspects
     desc: Learn the basics of ThaumcraftMobAspects and craft your first item
-    requires: ThaumcraftMobAspects Quest Line:thaumcraftmobaspects_discover
+    requires: ThaumcraftMobAspectsQL:thaumcraftmobaspects_discover
     logic: AND
     task: craft "any item from ThaumcraftMobAspects" 1
     reward: item minecraft:book 1 "ThaumcraftMobAspects Guide"
@@ -36,7 +37,7 @@
 >quest thaumcraftmobaspects_master
     title: Master ThaumcraftMobAspects
     desc: Become proficient with advanced ThaumcraftMobAspects mechanics
-    requires: ThaumcraftMobAspects Quest Line:thaumcraftmobaspects_intro
+    requires: ThaumcraftMobAspectsQL:thaumcraftmobaspects_intro
     logic: AND
     task: collect "advanced items from ThaumcraftMobAspects" 5
     reward: choice

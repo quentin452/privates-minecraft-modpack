@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Forestry Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Forestry
 @filename Forestry-4.10.17.jar
 @size 3.24MB
 @category medium_mods
-@quest_line Forestry Quest Line
+@quest_line ForestryQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest forestry_intro
     title: Introduction to Forestry
     desc: Learn the basics of Forestry and craft your first item
-    requires: Forestry Quest Line:forestry_discover
+    requires: ForestryQL:forestry_discover
     logic: AND
     task: craft "any item from Forestry" 1
     reward: item minecraft:book 1 "Forestry Guide"
@@ -36,7 +37,7 @@
 >quest forestry_master
     title: Master Forestry
     desc: Become proficient with advanced Forestry mechanics
-    requires: Forestry Quest Line:forestry_intro
+    requires: ForestryQL:forestry_intro
     logic: AND
     task: collect "advanced items from Forestry" 5
     reward: choice

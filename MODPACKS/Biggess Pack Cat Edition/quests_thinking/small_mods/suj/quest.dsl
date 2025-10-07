@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # suj Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod suj
 @filename suj-1.7.x.jar
 @size 0.04MB
 @category small_mods
-@quest_line suj Quest Line
+@quest_line sujQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest suj_intro
     title: Introduction to suj
     desc: Learn the basics of suj and craft your first item
-    requires: suj Quest Line:suj_discover
+    requires: sujQL:suj_discover
     logic: AND
     task: craft "any item from suj" 1
     reward: item minecraft:book 1 "suj Guide"
@@ -36,7 +37,7 @@
 >quest suj_master
     title: Master suj
     desc: Become proficient with advanced suj mechanics
-    requires: suj Quest Line:suj_intro
+    requires: sujQL:suj_intro
     logic: AND
     task: collect "advanced items from suj" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # CarpentersBlocksCachedResources Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CarpentersBlocksCachedResources
 @filename CarpentersBlocksCachedResources.zip
 @size 0.03MB
 @category small_mods
-@quest_line CarpentersBlocksCachedResources Quest Line
+@quest_line CarpentersBlocksCachedResourcesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest carpentersblockscachedresources_intro
     title: Introduction to CarpentersBlocksCachedResources
     desc: Learn the basics of CarpentersBlocksCachedResources and craft your first item
-    requires: CarpentersBlocksCachedResources Quest Line:carpentersblockscachedresources_discover
+    requires: CarpentersBlocksCachedResourcesQL:carpentersblockscachedresources_discover
     logic: AND
     task: craft "any item from CarpentersBlocksCachedResources" 1
     reward: item minecraft:book 1 "CarpentersBlocksCachedResources Guide"
@@ -36,7 +37,7 @@
 >quest carpentersblockscachedresources_master
     title: Master CarpentersBlocksCachedResources
     desc: Become proficient with advanced CarpentersBlocksCachedResources mechanics
-    requires: CarpentersBlocksCachedResources Quest Line:carpentersblockscachedresources_intro
+    requires: CarpentersBlocksCachedResourcesQL:carpentersblockscachedresources_intro
     logic: AND
     task: collect "advanced items from CarpentersBlocksCachedResources" 5
     reward: choice

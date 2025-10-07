@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # CubicVillager Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CubicVillager
 @filename CubicVillager-0.28.jar
 @size 0.07MB
 @category small_mods
-@quest_line CubicVillager Quest Line
+@quest_line CubicVillagerQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest cubicvillager_intro
     title: Introduction to CubicVillager
     desc: Learn the basics of CubicVillager and craft your first item
-    requires: CubicVillager Quest Line:cubicvillager_discover
+    requires: CubicVillagerQL:cubicvillager_discover
     logic: AND
     task: craft "any item from CubicVillager" 1
     reward: item minecraft:book 1 "CubicVillager Guide"
@@ -36,7 +37,7 @@
 >quest cubicvillager_master
     title: Master CubicVillager
     desc: Become proficient with advanced CubicVillager mechanics
-    requires: CubicVillager Quest Line:cubicvillager_intro
+    requires: CubicVillagerQL:cubicvillager_intro
     logic: AND
     task: collect "advanced items from CubicVillager" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Ztones Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Ztones
 @filename Ztones-2.3.2-GTNH.jar
 @size 0.51MB
 @category small_mods
-@quest_line Ztones Quest Line
+@quest_line ZtonesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ztones_intro
     title: Introduction to Ztones
     desc: Learn the basics of Ztones and craft your first item
-    requires: Ztones Quest Line:ztones_discover
+    requires: ZtonesQL:ztones_discover
     logic: AND
     task: craft "any item from Ztones" 1
     reward: item minecraft:book 1 "Ztones Guide"
@@ -36,7 +37,7 @@
 >quest ztones_master
     title: Master Ztones
     desc: Become proficient with advanced Ztones mechanics
-    requires: Ztones Quest Line:ztones_intro
+    requires: ZtonesQL:ztones_intro
     logic: AND
     task: collect "advanced items from Ztones" 5
     reward: choice

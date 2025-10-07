@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Tainted-Magic Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Tainted-Magic
 @filename Tainted-Magic-7.6.26-GTNH.jar
 @size 3.15MB
 @category medium_mods
-@quest_line Tainted-Magic Quest Line
+@quest_line Tainted-MagicQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest tainted_magic_intro
     title: Introduction to Tainted-Magic
     desc: Learn the basics of Tainted-Magic and craft your first item
-    requires: Tainted-Magic Quest Line:tainted_magic_discover
+    requires: Tainted-MagicQL:tainted_magic_discover
     logic: AND
     task: craft "any item from Tainted-Magic" 1
     reward: item minecraft:book 1 "Tainted-Magic Guide"
@@ -36,7 +37,7 @@
 >quest tainted_magic_master
     title: Master Tainted-Magic
     desc: Become proficient with advanced Tainted-Magic mechanics
-    requires: Tainted-Magic Quest Line:tainted_magic_intro
+    requires: Tainted-MagicQL:tainted_magic_intro
     logic: AND
     task: collect "advanced items from Tainted-Magic" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # DaVincing Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod DaVincing
 @filename DaVincing-1710.1.8.jar
 @size 0.14MB
 @category small_mods
-@quest_line DaVincing Quest Line
+@quest_line DaVincingQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest davincing_intro
     title: Introduction to DaVincing
     desc: Learn the basics of DaVincing and craft your first item
-    requires: DaVincing Quest Line:davincing_discover
+    requires: DaVincingQL:davincing_discover
     logic: AND
     task: craft "any item from DaVincing" 1
     reward: item minecraft:book 1 "DaVincing Guide"
@@ -36,7 +37,7 @@
 >quest davincing_master
     title: Master DaVincing
     desc: Become proficient with advanced DaVincing mechanics
-    requires: DaVincing Quest Line:davincing_intro
+    requires: DaVincingQL:davincing_intro
     logic: AND
     task: collect "advanced items from DaVincing" 5
     reward: choice

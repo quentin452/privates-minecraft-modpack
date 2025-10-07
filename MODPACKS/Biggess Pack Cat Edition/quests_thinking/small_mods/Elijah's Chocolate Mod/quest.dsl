@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Elijah's Chocolate Mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Elijah's Chocolate Mod
 @filename Elijah's Chocolate Mod-1.1.jar
 @size 0.16MB
 @category small_mods
-@quest_line Elijah's Chocolate Mod Quest Line
+@quest_line Elijah's Chocolate ModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest elijahs_chocolate_mod_intro
     title: Introduction to Elijah's Chocolate Mod
     desc: Learn the basics of Elijah's Chocolate Mod and craft your first item
-    requires: Elijah's Chocolate Mod Quest Line:elijahs_chocolate_mod_discover
+    requires: Elijah's Chocolate ModQL:elijahs_chocolate_mod_discover
     logic: AND
     task: craft "any item from Elijah's Chocolate Mod" 1
     reward: item minecraft:book 1 "Elijah's Chocolate Mod Guide"
@@ -36,7 +37,7 @@
 >quest elijahs_chocolate_mod_master
     title: Master Elijah's Chocolate Mod
     desc: Become proficient with advanced Elijah's Chocolate Mod mechanics
-    requires: Elijah's Chocolate Mod Quest Line:elijahs_chocolate_mod_intro
+    requires: Elijah's Chocolate ModQL:elijahs_chocolate_mod_intro
     logic: AND
     task: collect "advanced items from Elijah's Chocolate Mod" 5
     reward: choice

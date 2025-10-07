@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # MoreToolsMod_1-16-5_0-1-0 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MoreToolsMod_1-16-5_0-1-0
 @filename MoreToolsMod_1-16-5_0-1-0.jar
 @size 0.43MB
 @category small_mods
-@quest_line MoreToolsMod_1-16-5_0-1-0 Quest Line
+@quest_line MoreToolsMod_1-16-5_0-1-0QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest moretoolsmod_1_16_5_0_1_0_intro
     title: Introduction to MoreToolsMod_1-16-5_0-1-0
     desc: Learn the basics of MoreToolsMod_1-16-5_0-1-0 and craft your first item
-    requires: MoreToolsMod_1-16-5_0-1-0 Quest Line:moretoolsmod_1_16_5_0_1_0_discover
+    requires: MoreToolsMod_1-16-5_0-1-0QL:moretoolsmod_1_16_5_0_1_0_discover
     logic: AND
     task: craft "any item from MoreToolsMod_1-16-5_0-1-0" 1
     reward: item minecraft:book 1 "MoreToolsMod_1-16-5_0-1-0 Guide"
@@ -36,7 +37,7 @@
 >quest moretoolsmod_1_16_5_0_1_0_master
     title: Master MoreToolsMod_1-16-5_0-1-0
     desc: Become proficient with advanced MoreToolsMod_1-16-5_0-1-0 mechanics
-    requires: MoreToolsMod_1-16-5_0-1-0 Quest Line:moretoolsmod_1_16_5_0_1_0_intro
+    requires: MoreToolsMod_1-16-5_0-1-0QL:moretoolsmod_1_16_5_0_1_0_intro
     logic: AND
     task: collect "advanced items from MoreToolsMod_1-16-5_0-1-0" 5
     reward: choice

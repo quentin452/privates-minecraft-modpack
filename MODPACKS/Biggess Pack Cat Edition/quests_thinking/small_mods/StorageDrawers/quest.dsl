@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # StorageDrawers Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod StorageDrawers
 @filename StorageDrawers-2.1.7-GTNH.jar
 @size 1.23MB
 @category small_mods
-@quest_line StorageDrawers Quest Line
+@quest_line StorageDrawersQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest storagedrawers_intro
     title: Introduction to StorageDrawers
     desc: Learn the basics of StorageDrawers and craft your first item
-    requires: StorageDrawers Quest Line:storagedrawers_discover
+    requires: StorageDrawersQL:storagedrawers_discover
     logic: AND
     task: craft "any item from StorageDrawers" 1
     reward: item minecraft:book 1 "StorageDrawers Guide"
@@ -36,7 +37,7 @@
 >quest storagedrawers_master
     title: Master StorageDrawers
     desc: Become proficient with advanced StorageDrawers mechanics
-    requires: StorageDrawers Quest Line:storagedrawers_intro
+    requires: StorageDrawersQL:storagedrawers_intro
     logic: AND
     task: collect "advanced items from StorageDrawers" 5
     reward: choice

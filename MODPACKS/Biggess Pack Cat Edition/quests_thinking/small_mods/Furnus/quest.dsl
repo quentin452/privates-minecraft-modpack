@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Furnus Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Furnus
 @filename Furnus-1.7.10-1.75-final.jar
 @size 0.15MB
 @category small_mods
-@quest_line Furnus Quest Line
+@quest_line FurnusQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest furnus_intro
     title: Introduction to Furnus
     desc: Learn the basics of Furnus and craft your first item
-    requires: Furnus Quest Line:furnus_discover
+    requires: FurnusQL:furnus_discover
     logic: AND
     task: craft "any item from Furnus" 1
     reward: item minecraft:book 1 "Furnus Guide"
@@ -36,7 +37,7 @@
 >quest furnus_master
     title: Master Furnus
     desc: Become proficient with advanced Furnus mechanics
-    requires: Furnus Quest Line:furnus_intro
+    requires: FurnusQL:furnus_intro
     logic: AND
     task: collect "advanced items from Furnus" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Snad Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Snad
 @filename Snad-1.7.10-1.6.01.31a.jar
 @size 0.01MB
 @category small_mods
-@quest_line Snad Quest Line
+@quest_line SnadQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest snad_intro
     title: Introduction to Snad
     desc: Learn the basics of Snad and craft your first item
-    requires: Snad Quest Line:snad_discover
+    requires: SnadQL:snad_discover
     logic: AND
     task: craft "any item from Snad" 1
     reward: item minecraft:book 1 "Snad Guide"
@@ -36,7 +37,7 @@
 >quest snad_master
     title: Master Snad
     desc: Become proficient with advanced Snad mechanics
-    requires: Snad Quest Line:snad_intro
+    requires: SnadQL:snad_intro
     logic: AND
     task: collect "advanced items from Snad" 5
     reward: choice

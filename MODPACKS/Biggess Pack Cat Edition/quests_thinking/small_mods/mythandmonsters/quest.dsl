@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # mythandmonsters Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod mythandmonsters
 @filename mythandmonsters_1.7.10_1.0.0.jar
 @size 0.64MB
 @category small_mods
-@quest_line mythandmonsters Quest Line
+@quest_line mythandmonstersQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest mythandmonsters_intro
     title: Introduction to mythandmonsters
     desc: Learn the basics of mythandmonsters and craft your first item
-    requires: mythandmonsters Quest Line:mythandmonsters_discover
+    requires: mythandmonstersQL:mythandmonsters_discover
     logic: AND
     task: craft "any item from mythandmonsters" 1
     reward: item minecraft:book 1 "mythandmonsters Guide"
@@ -36,7 +37,7 @@
 >quest mythandmonsters_master
     title: Master mythandmonsters
     desc: Become proficient with advanced mythandmonsters mechanics
-    requires: mythandmonsters Quest Line:mythandmonsters_intro
+    requires: mythandmonstersQL:mythandmonsters_intro
     logic: AND
     task: collect "advanced items from mythandmonsters" 5
     reward: choice

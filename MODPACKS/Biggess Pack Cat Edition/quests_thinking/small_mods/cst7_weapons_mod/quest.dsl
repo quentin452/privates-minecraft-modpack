@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # cst7_weapons_mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod cst7_weapons_mod
 @filename cst7_weapons_mod_1.7.10.jar
 @size 0.03MB
 @category small_mods
-@quest_line cst7_weapons_mod Quest Line
+@quest_line cst7_weapons_modQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest cst7_weapons_mod_intro
     title: Introduction to cst7_weapons_mod
     desc: Learn the basics of cst7_weapons_mod and craft your first item
-    requires: cst7_weapons_mod Quest Line:cst7_weapons_mod_discover
+    requires: cst7_weapons_modQL:cst7_weapons_mod_discover
     logic: AND
     task: craft "any item from cst7_weapons_mod" 1
     reward: item minecraft:book 1 "cst7_weapons_mod Guide"
@@ -36,7 +37,7 @@
 >quest cst7_weapons_mod_master
     title: Master cst7_weapons_mod
     desc: Become proficient with advanced cst7_weapons_mod mechanics
-    requires: cst7_weapons_mod Quest Line:cst7_weapons_mod_intro
+    requires: cst7_weapons_modQL:cst7_weapons_mod_intro
     logic: AND
     task: collect "advanced items from cst7_weapons_mod" 5
     reward: choice

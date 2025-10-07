@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # xprings Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod xprings
 @filename xprings-1.7.10-1.3.0.jar
 @size 0.02MB
 @category small_mods
-@quest_line xprings Quest Line
+@quest_line xpringsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest xprings_intro
     title: Introduction to xprings
     desc: Learn the basics of xprings and craft your first item
-    requires: xprings Quest Line:xprings_discover
+    requires: xpringsQL:xprings_discover
     logic: AND
     task: craft "any item from xprings" 1
     reward: item minecraft:book 1 "xprings Guide"
@@ -36,7 +37,7 @@
 >quest xprings_master
     title: Master xprings
     desc: Become proficient with advanced xprings mechanics
-    requires: xprings Quest Line:xprings_intro
+    requires: xpringsQL:xprings_intro
     logic: AND
     task: collect "advanced items from xprings" 5
     reward: choice

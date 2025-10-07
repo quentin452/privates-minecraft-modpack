@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # RedCow-1.7.10-0.0.1b2 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RedCow-1.7.10-0.0.1b2
 @filename RedCow-1.7.10-0.0.1b2-universal.jar
 @size 0.01MB
 @category small_mods
-@quest_line RedCow-1.7.10-0.0.1b2 Quest Line
+@quest_line RedCow-1.7.10-0.0.1b2QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest redcow_1_7_10_0_0_1b2_intro
     title: Introduction to RedCow-1.7.10-0.0.1b2
     desc: Learn the basics of RedCow-1.7.10-0.0.1b2 and craft your first item
-    requires: RedCow-1.7.10-0.0.1b2 Quest Line:redcow_1_7_10_0_0_1b2_discover
+    requires: RedCow-1.7.10-0.0.1b2QL:redcow_1_7_10_0_0_1b2_discover
     logic: AND
     task: craft "any item from RedCow-1.7.10-0.0.1b2" 1
     reward: item minecraft:book 1 "RedCow-1.7.10-0.0.1b2 Guide"
@@ -36,7 +37,7 @@
 >quest redcow_1_7_10_0_0_1b2_master
     title: Master RedCow-1.7.10-0.0.1b2
     desc: Become proficient with advanced RedCow-1.7.10-0.0.1b2 mechanics
-    requires: RedCow-1.7.10-0.0.1b2 Quest Line:redcow_1_7_10_0_0_1b2_intro
+    requires: RedCow-1.7.10-0.0.1b2QL:redcow_1_7_10_0_0_1b2_intro
     logic: AND
     task: collect "advanced items from RedCow-1.7.10-0.0.1b2" 5
     reward: choice

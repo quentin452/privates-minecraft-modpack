@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Cannibalism Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Cannibalism
 @filename Cannibalism-1.3.0-1.7.10.jar
 @size 0.19MB
 @category small_mods
-@quest_line Cannibalism Quest Line
+@quest_line CannibalismQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest cannibalism_intro
     title: Introduction to Cannibalism
     desc: Learn the basics of Cannibalism and craft your first item
-    requires: Cannibalism Quest Line:cannibalism_discover
+    requires: CannibalismQL:cannibalism_discover
     logic: AND
     task: craft "any item from Cannibalism" 1
     reward: item minecraft:book 1 "Cannibalism Guide"
@@ -36,7 +37,7 @@
 >quest cannibalism_master
     title: Master Cannibalism
     desc: Become proficient with advanced Cannibalism mechanics
-    requires: Cannibalism Quest Line:cannibalism_intro
+    requires: CannibalismQL:cannibalism_intro
     logic: AND
     task: collect "advanced items from Cannibalism" 5
     reward: choice

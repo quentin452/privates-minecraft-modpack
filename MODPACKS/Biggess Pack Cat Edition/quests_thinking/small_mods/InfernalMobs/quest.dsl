@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # InfernalMobs Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod InfernalMobs
 @filename InfernalMobs-1.10.3-GTNH.jar
 @size 0.14MB
 @category small_mods
-@quest_line InfernalMobs Quest Line
+@quest_line InfernalMobsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest infernalmobs_intro
     title: Introduction to InfernalMobs
     desc: Learn the basics of InfernalMobs and craft your first item
-    requires: InfernalMobs Quest Line:infernalmobs_discover
+    requires: InfernalMobsQL:infernalmobs_discover
     logic: AND
     task: craft "any item from InfernalMobs" 1
     reward: item minecraft:book 1 "InfernalMobs Guide"
@@ -36,7 +37,7 @@
 >quest infernalmobs_master
     title: Master InfernalMobs
     desc: Become proficient with advanced InfernalMobs mechanics
-    requires: InfernalMobs Quest Line:infernalmobs_intro
+    requires: InfernalMobsQL:infernalmobs_intro
     logic: AND
     task: collect "advanced items from InfernalMobs" 5
     reward: choice

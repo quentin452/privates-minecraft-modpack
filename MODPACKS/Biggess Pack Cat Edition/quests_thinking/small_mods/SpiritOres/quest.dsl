@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # SpiritOres Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SpiritOres
 @filename SpiritOres-1.7.10-2.0.jar
 @size 0.41MB
 @category small_mods
-@quest_line SpiritOres Quest Line
+@quest_line SpiritOresQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest spiritores_intro
     title: Introduction to SpiritOres
     desc: Learn the basics of SpiritOres and craft your first item
-    requires: SpiritOres Quest Line:spiritores_discover
+    requires: SpiritOresQL:spiritores_discover
     logic: AND
     task: craft "any item from SpiritOres" 1
     reward: item minecraft:book 1 "SpiritOres Guide"
@@ -36,7 +37,7 @@
 >quest spiritores_master
     title: Master SpiritOres
     desc: Become proficient with advanced SpiritOres mechanics
-    requires: SpiritOres Quest Line:spiritores_intro
+    requires: SpiritOresQL:spiritores_intro
     logic: AND
     task: collect "advanced items from SpiritOres" 5
     reward: choice

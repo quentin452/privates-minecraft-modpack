@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # steamcraft2 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod steamcraft2
 @filename steamcraft2-1.7.10-B5.0.2-universal.jar
 @size 5.61MB
 @category medium_mods
-@quest_line steamcraft2 Quest Line
+@quest_line steamcraft2QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest steamcraft2_1_7_10_intro
     title: Introduction to steamcraft2
     desc: Learn the basics of steamcraft2 and craft your first item
-    requires: steamcraft2 Quest Line:steamcraft2_1_7_10_discover
+    requires: steamcraft2QL:steamcraft2_1_7_10_discover
     logic: AND
     task: craft "any item from steamcraft2" 1
     reward: item minecraft:book 1 "steamcraft2 Guide"
@@ -36,7 +37,7 @@
 >quest steamcraft2_1_7_10_master
     title: Master steamcraft2
     desc: Become proficient with advanced steamcraft2 mechanics
-    requires: steamcraft2 Quest Line:steamcraft2_1_7_10_intro
+    requires: steamcraft2QL:steamcraft2_1_7_10_intro
     logic: AND
     task: collect "advanced items from steamcraft2" 5
     reward: choice

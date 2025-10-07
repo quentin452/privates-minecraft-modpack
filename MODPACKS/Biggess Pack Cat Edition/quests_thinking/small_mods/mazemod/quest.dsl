@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # mazemod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod mazemod
 @filename mazemod-1.2.5.jar
 @size 0.13MB
 @category small_mods
-@quest_line mazemod Quest Line
+@quest_line mazemodQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest mazemod_intro
     title: Introduction to mazemod
     desc: Learn the basics of mazemod and craft your first item
-    requires: mazemod Quest Line:mazemod_discover
+    requires: mazemodQL:mazemod_discover
     logic: AND
     task: craft "any item from mazemod" 1
     reward: item minecraft:book 1 "mazemod Guide"
@@ -36,7 +37,7 @@
 >quest mazemod_master
     title: Master mazemod
     desc: Become proficient with advanced mazemod mechanics
-    requires: mazemod Quest Line:mazemod_intro
+    requires: mazemodQL:mazemod_intro
     logic: AND
     task: collect "advanced items from mazemod" 5
     reward: choice

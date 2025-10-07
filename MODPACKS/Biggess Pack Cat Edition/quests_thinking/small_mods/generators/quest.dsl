@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # generators Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod generators
 @filename generators-0.9.20.123-mc1.7.10.jar
 @size 1.39MB
 @category small_mods
-@quest_line generators Quest Line
+@quest_line generatorsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest generators_intro
     title: Introduction to generators
     desc: Learn the basics of generators and craft your first item
-    requires: generators Quest Line:generators_discover
+    requires: generatorsQL:generators_discover
     logic: AND
     task: craft "any item from generators" 1
     reward: item minecraft:book 1 "generators Guide"
@@ -36,7 +37,7 @@
 >quest generators_master
     title: Master generators
     desc: Become proficient with advanced generators mechanics
-    requires: generators Quest Line:generators_intro
+    requires: generatorsQL:generators_intro
     logic: AND
     task: collect "advanced items from generators" 5
     reward: choice

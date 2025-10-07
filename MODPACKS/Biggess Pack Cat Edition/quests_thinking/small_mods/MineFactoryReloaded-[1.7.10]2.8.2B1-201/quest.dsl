@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # MineFactoryReloaded-[1.7.10]2.8.2B1-201 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MineFactoryReloaded-[1.7.10]2.8.2B1-201
 @filename MineFactoryReloaded-[1.7.10]2.8.2B1-201.jar
 @size 1.69MB
 @category small_mods
-@quest_line MineFactoryReloaded-[1.7.10]2.8.2B1-201 Quest Line
+@quest_line MineFactoryReloaded-[1.7.10]2.8.2B1-201QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest minefactoryreloaded_1_7_102_8_2b1_201_intro
     title: Introduction to MineFactoryReloaded-[1.7.10]2.8.2B1-201
     desc: Learn the basics of MineFactoryReloaded-[1.7.10]2.8.2B1-201 and craft your first item
-    requires: MineFactoryReloaded-[1.7.10]2.8.2B1-201 Quest Line:minefactoryreloaded_1_7_102_8_2b1_201_discover
+    requires: MineFactoryReloaded-[1.7.10]2.8.2B1-201QL:minefactoryreloaded_1_7_102_8_2b1_201_discover
     logic: AND
     task: craft "any item from MineFactoryReloaded-[1.7.10]2.8.2B1-201" 1
     reward: item minecraft:book 1 "MineFactoryReloaded-[1.7.10]2.8.2B1-201 Guide"
@@ -36,7 +37,7 @@
 >quest minefactoryreloaded_1_7_102_8_2b1_201_master
     title: Master MineFactoryReloaded-[1.7.10]2.8.2B1-201
     desc: Become proficient with advanced MineFactoryReloaded-[1.7.10]2.8.2B1-201 mechanics
-    requires: MineFactoryReloaded-[1.7.10]2.8.2B1-201 Quest Line:minefactoryreloaded_1_7_102_8_2b1_201_intro
+    requires: MineFactoryReloaded-[1.7.10]2.8.2B1-201QL:minefactoryreloaded_1_7_102_8_2b1_201_intro
     logic: AND
     task: collect "advanced items from MineFactoryReloaded-[1.7.10]2.8.2B1-201" 5
     reward: choice

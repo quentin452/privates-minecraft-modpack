@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Mankini Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Mankini
 @filename Mankini_1.7.10_1.2.1.jar
 @size 0.07MB
 @category small_mods
-@quest_line Mankini Quest Line
+@quest_line MankiniQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest mankini_intro
     title: Introduction to Mankini
     desc: Learn the basics of Mankini and craft your first item
-    requires: Mankini Quest Line:mankini_discover
+    requires: MankiniQL:mankini_discover
     logic: AND
     task: craft "any item from Mankini" 1
     reward: item minecraft:book 1 "Mankini Guide"
@@ -36,7 +37,7 @@
 >quest mankini_master
     title: Master Mankini
     desc: Become proficient with advanced Mankini mechanics
-    requires: Mankini Quest Line:mankini_intro
+    requires: MankiniQL:mankini_intro
     logic: AND
     task: collect "advanced items from Mankini" 5
     reward: choice

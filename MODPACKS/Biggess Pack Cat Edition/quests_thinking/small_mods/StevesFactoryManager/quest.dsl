@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # StevesFactoryManager Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod StevesFactoryManager
 @filename StevesFactoryManager-1.3.4-GTNH.jar
 @size 0.62MB
 @category small_mods
-@quest_line StevesFactoryManager Quest Line
+@quest_line StevesFactoryManagerQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest stevesfactorymanager_intro
     title: Introduction to StevesFactoryManager
     desc: Learn the basics of StevesFactoryManager and craft your first item
-    requires: StevesFactoryManager Quest Line:stevesfactorymanager_discover
+    requires: StevesFactoryManagerQL:stevesfactorymanager_discover
     logic: AND
     task: craft "any item from StevesFactoryManager" 1
     reward: item minecraft:book 1 "StevesFactoryManager Guide"
@@ -36,7 +37,7 @@
 >quest stevesfactorymanager_master
     title: Master StevesFactoryManager
     desc: Become proficient with advanced StevesFactoryManager mechanics
-    requires: StevesFactoryManager Quest Line:stevesfactorymanager_intro
+    requires: StevesFactoryManagerQL:stevesfactorymanager_intro
     logic: AND
     task: collect "advanced items from StevesFactoryManager" 5
     reward: choice

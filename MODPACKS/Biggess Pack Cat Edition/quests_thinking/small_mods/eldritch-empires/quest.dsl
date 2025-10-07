@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # eldritch-empires Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod eldritch-empires
 @filename eldritch-empires-091.1.jar
 @size 0.41MB
 @category small_mods
-@quest_line eldritch-empires Quest Line
+@quest_line eldritch-empiresQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest eldritch_empires_intro
     title: Introduction to eldritch-empires
     desc: Learn the basics of eldritch-empires and craft your first item
-    requires: eldritch-empires Quest Line:eldritch_empires_discover
+    requires: eldritch-empiresQL:eldritch_empires_discover
     logic: AND
     task: craft "any item from eldritch-empires" 1
     reward: item minecraft:book 1 "eldritch-empires Guide"
@@ -36,7 +37,7 @@
 >quest eldritch_empires_master
     title: Master eldritch-empires
     desc: Become proficient with advanced eldritch-empires mechanics
-    requires: eldritch-empires Quest Line:eldritch_empires_intro
+    requires: eldritch-empiresQL:eldritch_empires_intro
     logic: AND
     task: collect "advanced items from eldritch-empires" 5
     reward: choice

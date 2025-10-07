@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Floocraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Floocraft
 @filename Floocraft-1.7.10-1.7.jar
 @size 0.15MB
 @category small_mods
-@quest_line Floocraft Quest Line
+@quest_line FloocraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest floocraft_intro
     title: Introduction to Floocraft
     desc: Learn the basics of Floocraft and craft your first item
-    requires: Floocraft Quest Line:floocraft_discover
+    requires: FloocraftQL:floocraft_discover
     logic: AND
     task: craft "any item from Floocraft" 1
     reward: item minecraft:book 1 "Floocraft Guide"
@@ -36,7 +37,7 @@
 >quest floocraft_master
     title: Master Floocraft
     desc: Become proficient with advanced Floocraft mechanics
-    requires: Floocraft Quest Line:floocraft_intro
+    requires: FloocraftQL:floocraft_intro
     logic: AND
     task: collect "advanced items from Floocraft" 5
     reward: choice

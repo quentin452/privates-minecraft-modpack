@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ashenwheat Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ashenwheat
 @filename ashenwheat-1.7.10-1.2.4.1.jar
 @size 0.15MB
 @category small_mods
-@quest_line ashenwheat Quest Line
+@quest_line ashenwheatQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ashenwheat_intro
     title: Introduction to ashenwheat
     desc: Learn the basics of ashenwheat and craft your first item
-    requires: ashenwheat Quest Line:ashenwheat_discover
+    requires: ashenwheatQL:ashenwheat_discover
     logic: AND
     task: craft "any item from ashenwheat" 1
     reward: item minecraft:book 1 "ashenwheat Guide"
@@ -36,7 +37,7 @@
 >quest ashenwheat_master
     title: Master ashenwheat
     desc: Become proficient with advanced ashenwheat mechanics
-    requires: ashenwheat Quest Line:ashenwheat_intro
+    requires: ashenwheatQL:ashenwheat_intro
     logic: AND
     task: collect "advanced items from ashenwheat" 5
     reward: choice

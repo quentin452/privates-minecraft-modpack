@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # IntelligentEnergistics Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod IntelligentEnergistics
 @filename IntelligentEnergistics-1.7.10-2.2.1.610-universal.jar
 @size 0.62MB
 @category small_mods
-@quest_line IntelligentEnergistics Quest Line
+@quest_line IntelligentEnergisticsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest intelligentenergistics_intro
     title: Introduction to IntelligentEnergistics
     desc: Learn the basics of IntelligentEnergistics and craft your first item
-    requires: IntelligentEnergistics Quest Line:intelligentenergistics_discover
+    requires: IntelligentEnergisticsQL:intelligentenergistics_discover
     logic: AND
     task: craft "any item from IntelligentEnergistics" 1
     reward: item minecraft:book 1 "IntelligentEnergistics Guide"
@@ -36,7 +37,7 @@
 >quest intelligentenergistics_master
     title: Master IntelligentEnergistics
     desc: Become proficient with advanced IntelligentEnergistics mechanics
-    requires: IntelligentEnergistics Quest Line:intelligentenergistics_intro
+    requires: IntelligentEnergisticsQL:intelligentenergistics_intro
     logic: AND
     task: collect "advanced items from IntelligentEnergistics" 5
     reward: choice

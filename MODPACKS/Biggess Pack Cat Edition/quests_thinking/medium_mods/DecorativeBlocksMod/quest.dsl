@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # DecorativeBlocksMod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod DecorativeBlocksMod
 @filename DecorativeBlocksMod-1.0.0.2.jar
 @size 3.09MB
 @category medium_mods
-@quest_line DecorativeBlocksMod Quest Line
+@quest_line DecorativeBlocksModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest decorativeblocksmod_intro
     title: Introduction to DecorativeBlocksMod
     desc: Learn the basics of DecorativeBlocksMod and craft your first item
-    requires: DecorativeBlocksMod Quest Line:decorativeblocksmod_discover
+    requires: DecorativeBlocksModQL:decorativeblocksmod_discover
     logic: AND
     task: craft "any item from DecorativeBlocksMod" 1
     reward: item minecraft:book 1 "DecorativeBlocksMod Guide"
@@ -36,7 +37,7 @@
 >quest decorativeblocksmod_master
     title: Master DecorativeBlocksMod
     desc: Become proficient with advanced DecorativeBlocksMod mechanics
-    requires: DecorativeBlocksMod Quest Line:decorativeblocksmod_intro
+    requires: DecorativeBlocksModQL:decorativeblocksmod_intro
     logic: AND
     task: collect "advanced items from DecorativeBlocksMod" 5
     reward: choice

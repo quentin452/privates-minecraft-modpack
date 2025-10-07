@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # HungerOverhaul Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod HungerOverhaul
 @filename HungerOverhaul-1.1.0-GTNH.jar
 @size 0.11MB
 @category small_mods
-@quest_line HungerOverhaul Quest Line
+@quest_line HungerOverhaulQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest hungeroverhaul_intro
     title: Introduction to HungerOverhaul
     desc: Learn the basics of HungerOverhaul and craft your first item
-    requires: HungerOverhaul Quest Line:hungeroverhaul_discover
+    requires: HungerOverhaulQL:hungeroverhaul_discover
     logic: AND
     task: craft "any item from HungerOverhaul" 1
     reward: item minecraft:book 1 "HungerOverhaul Guide"
@@ -36,7 +37,7 @@
 >quest hungeroverhaul_master
     title: Master HungerOverhaul
     desc: Become proficient with advanced HungerOverhaul mechanics
-    requires: HungerOverhaul Quest Line:hungeroverhaul_intro
+    requires: HungerOverhaulQL:hungeroverhaul_intro
     logic: AND
     task: collect "advanced items from HungerOverhaul" 5
     reward: choice

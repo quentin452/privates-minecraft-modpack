@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # playertracking Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod playertracking
 @filename playertracking_1.7-1.0.jar
 @size 0.01MB
 @category small_mods
-@quest_line playertracking Quest Line
+@quest_line playertrackingQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest playertracking_intro
     title: Introduction to playertracking
     desc: Learn the basics of playertracking and craft your first item
-    requires: playertracking Quest Line:playertracking_discover
+    requires: playertrackingQL:playertracking_discover
     logic: AND
     task: craft "any item from playertracking" 1
     reward: item minecraft:book 1 "playertracking Guide"
@@ -36,7 +37,7 @@
 >quest playertracking_master
     title: Master playertracking
     desc: Become proficient with advanced playertracking mechanics
-    requires: playertracking Quest Line:playertracking_intro
+    requires: playertrackingQL:playertracking_intro
     logic: AND
     task: collect "advanced items from playertracking" 5
     reward: choice

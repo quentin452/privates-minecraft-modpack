@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # OreSpawnLegacy Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod OreSpawnLegacy
 @filename OreSpawnLegacy(1.7.10).jar
 @size 16.70MB
 @category large_mods
-@quest_line OreSpawnLegacy Quest Line
+@quest_line OreSpawnLegacyQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest orespawnlegacy_intro
     title: Introduction to OreSpawnLegacy
     desc: Learn the basics of OreSpawnLegacy and craft your first item
-    requires: OreSpawnLegacy Quest Line:orespawnlegacy_discover
+    requires: OreSpawnLegacyQL:orespawnlegacy_discover
     logic: AND
     task: craft "any item from OreSpawnLegacy" 1
     reward: item minecraft:book 1 "OreSpawnLegacy Guide"
@@ -36,7 +37,7 @@
 >quest orespawnlegacy_master
     title: Master OreSpawnLegacy
     desc: Become proficient with advanced OreSpawnLegacy mechanics
-    requires: OreSpawnLegacy Quest Line:orespawnlegacy_intro
+    requires: OreSpawnLegacyQL:orespawnlegacy_intro
     logic: AND
     task: collect "advanced items from OreSpawnLegacy" 5
     reward: choice

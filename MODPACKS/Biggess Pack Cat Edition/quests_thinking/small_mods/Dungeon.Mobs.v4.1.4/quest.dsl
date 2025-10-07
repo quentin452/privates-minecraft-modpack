@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Dungeon.Mobs.v4.1.4 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Dungeon.Mobs.v4.1.4
 @filename Dungeon.Mobs.v4.1.4.jar
 @size 1.69MB
 @category small_mods
-@quest_line Dungeon.Mobs.v4.1.4 Quest Line
+@quest_line Dungeon.Mobs.v4.1.4QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest dungeon_mobs_v4_1_4_intro
     title: Introduction to Dungeon.Mobs.v4.1.4
     desc: Learn the basics of Dungeon.Mobs.v4.1.4 and craft your first item
-    requires: Dungeon.Mobs.v4.1.4 Quest Line:dungeon_mobs_v4_1_4_discover
+    requires: Dungeon.Mobs.v4.1.4QL:dungeon_mobs_v4_1_4_discover
     logic: AND
     task: craft "any item from Dungeon.Mobs.v4.1.4" 1
     reward: item minecraft:book 1 "Dungeon.Mobs.v4.1.4 Guide"
@@ -36,7 +37,7 @@
 >quest dungeon_mobs_v4_1_4_master
     title: Master Dungeon.Mobs.v4.1.4
     desc: Become proficient with advanced Dungeon.Mobs.v4.1.4 mechanics
-    requires: Dungeon.Mobs.v4.1.4 Quest Line:dungeon_mobs_v4_1_4_intro
+    requires: Dungeon.Mobs.v4.1.4QL:dungeon_mobs_v4_1_4_intro
     logic: AND
     task: collect "advanced items from Dungeon.Mobs.v4.1.4" 5
     reward: choice

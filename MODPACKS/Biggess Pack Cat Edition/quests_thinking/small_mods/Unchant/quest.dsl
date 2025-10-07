@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Unchant Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Unchant
 @filename Unchant-1.0.1.jar
 @size 0.04MB
 @category small_mods
-@quest_line Unchant Quest Line
+@quest_line UnchantQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest unchant_intro
     title: Introduction to Unchant
     desc: Learn the basics of Unchant and craft your first item
-    requires: Unchant Quest Line:unchant_discover
+    requires: UnchantQL:unchant_discover
     logic: AND
     task: craft "any item from Unchant" 1
     reward: item minecraft:book 1 "Unchant Guide"
@@ -36,7 +37,7 @@
 >quest unchant_master
     title: Master Unchant
     desc: Become proficient with advanced Unchant mechanics
-    requires: Unchant Quest Line:unchant_intro
+    requires: UnchantQL:unchant_intro
     logic: AND
     task: collect "advanced items from Unchant" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # liquidenchanting Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod liquidenchanting
 @filename liquidenchanting-1.7.10_v1.jar
 @size 0.36MB
 @category small_mods
-@quest_line liquidenchanting Quest Line
+@quest_line liquidenchantingQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest liquidenchanting_intro
     title: Introduction to liquidenchanting
     desc: Learn the basics of liquidenchanting and craft your first item
-    requires: liquidenchanting Quest Line:liquidenchanting_discover
+    requires: liquidenchantingQL:liquidenchanting_discover
     logic: AND
     task: craft "any item from liquidenchanting" 1
     reward: item minecraft:book 1 "liquidenchanting Guide"
@@ -36,7 +37,7 @@
 >quest liquidenchanting_master
     title: Master liquidenchanting
     desc: Become proficient with advanced liquidenchanting mechanics
-    requires: liquidenchanting Quest Line:liquidenchanting_intro
+    requires: liquidenchantingQL:liquidenchanting_intro
     logic: AND
     task: collect "advanced items from liquidenchanting" 5
     reward: choice

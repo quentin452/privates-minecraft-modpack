@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Torcherino Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Torcherino
 @filename Torcherino-1.7.10-2.2s.jar
 @size 0.04MB
 @category small_mods
-@quest_line Torcherino Quest Line
+@quest_line TorcherinoQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest torcherino_intro
     title: Introduction to Torcherino
     desc: Learn the basics of Torcherino and craft your first item
-    requires: Torcherino Quest Line:torcherino_discover
+    requires: TorcherinoQL:torcherino_discover
     logic: AND
     task: craft "any item from Torcherino" 1
     reward: item minecraft:book 1 "Torcherino Guide"
@@ -36,7 +37,7 @@
 >quest torcherino_master
     title: Master Torcherino
     desc: Become proficient with advanced Torcherino mechanics
-    requires: Torcherino Quest Line:torcherino_intro
+    requires: TorcherinoQL:torcherino_intro
     logic: AND
     task: collect "advanced items from Torcherino" 5
     reward: choice

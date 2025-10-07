@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Elemental Creepers Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Elemental Creepers
 @filename Elemental Creepers-universal_1.7.10-4.3.0.jar
 @size 0.25MB
 @category small_mods
-@quest_line Elemental Creepers Quest Line
+@quest_line Elemental CreepersQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest elemental_creepers_intro
     title: Introduction to Elemental Creepers
     desc: Learn the basics of Elemental Creepers and craft your first item
-    requires: Elemental Creepers Quest Line:elemental_creepers_discover
+    requires: Elemental CreepersQL:elemental_creepers_discover
     logic: AND
     task: craft "any item from Elemental Creepers" 1
     reward: item minecraft:book 1 "Elemental Creepers Guide"
@@ -36,7 +37,7 @@
 >quest elemental_creepers_master
     title: Master Elemental Creepers
     desc: Become proficient with advanced Elemental Creepers mechanics
-    requires: Elemental Creepers Quest Line:elemental_creepers_intro
+    requires: Elemental CreepersQL:elemental_creepers_intro
     logic: AND
     task: collect "advanced items from Elemental Creepers" 5
     reward: choice

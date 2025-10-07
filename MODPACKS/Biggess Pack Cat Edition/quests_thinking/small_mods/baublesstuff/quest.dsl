@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # baublesstuff Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod baublesstuff
 @filename baublesstuff-2.1.2.jar
 @size 0.44MB
 @category small_mods
-@quest_line baublesstuff Quest Line
+@quest_line baublesstuffQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest baublesstuff_intro
     title: Introduction to baublesstuff
     desc: Learn the basics of baublesstuff and craft your first item
-    requires: baublesstuff Quest Line:baublesstuff_discover
+    requires: baublesstuffQL:baublesstuff_discover
     logic: AND
     task: craft "any item from baublesstuff" 1
     reward: item minecraft:book 1 "baublesstuff Guide"
@@ -36,7 +37,7 @@
 >quest baublesstuff_master
     title: Master baublesstuff
     desc: Become proficient with advanced baublesstuff mechanics
-    requires: baublesstuff Quest Line:baublesstuff_intro
+    requires: baublesstuffQL:baublesstuff_intro
     logic: AND
     task: collect "advanced items from baublesstuff" 5
     reward: choice

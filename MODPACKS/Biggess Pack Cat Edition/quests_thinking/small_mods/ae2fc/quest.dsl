@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ae2fc Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ae2fc
 @filename ae2fc-1.4.114-gtnh.jar
 @size 1.23MB
 @category small_mods
-@quest_line ae2fc Quest Line
+@quest_line ae2fcQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ae2fc_intro
     title: Introduction to ae2fc
     desc: Learn the basics of ae2fc and craft your first item
-    requires: ae2fc Quest Line:ae2fc_discover
+    requires: ae2fcQL:ae2fc_discover
     logic: AND
     task: craft "any item from ae2fc" 1
     reward: item minecraft:book 1 "ae2fc Guide"
@@ -36,7 +37,7 @@
 >quest ae2fc_master
     title: Master ae2fc
     desc: Become proficient with advanced ae2fc mechanics
-    requires: ae2fc Quest Line:ae2fc_intro
+    requires: ae2fcQL:ae2fc_intro
     logic: AND
     task: collect "advanced items from ae2fc" 5
     reward: choice

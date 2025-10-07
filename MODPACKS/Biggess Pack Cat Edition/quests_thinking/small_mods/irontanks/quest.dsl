@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # irontanks Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod irontanks
 @filename irontanks-1.4.2.jar
 @size 0.10MB
 @category small_mods
-@quest_line irontanks Quest Line
+@quest_line irontanksQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest irontanks_intro
     title: Introduction to irontanks
     desc: Learn the basics of irontanks and craft your first item
-    requires: irontanks Quest Line:irontanks_discover
+    requires: irontanksQL:irontanks_discover
     logic: AND
     task: craft "any item from irontanks" 1
     reward: item minecraft:book 1 "irontanks Guide"
@@ -36,7 +37,7 @@
 >quest irontanks_master
     title: Master irontanks
     desc: Become proficient with advanced irontanks mechanics
-    requires: irontanks Quest Line:irontanks_intro
+    requires: irontanksQL:irontanks_intro
     logic: AND
     task: collect "advanced items from irontanks" 5
     reward: choice

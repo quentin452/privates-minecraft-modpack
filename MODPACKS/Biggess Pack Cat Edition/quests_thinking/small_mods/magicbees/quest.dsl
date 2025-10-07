@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # magicbees Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod magicbees
 @filename magicbees-2.9.4-GTNH.jar
 @size 0.99MB
 @category small_mods
-@quest_line magicbees Quest Line
+@quest_line magicbeesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest magicbees_intro
     title: Introduction to magicbees
     desc: Learn the basics of magicbees and craft your first item
-    requires: magicbees Quest Line:magicbees_discover
+    requires: magicbeesQL:magicbees_discover
     logic: AND
     task: craft "any item from magicbees" 1
     reward: item minecraft:book 1 "magicbees Guide"
@@ -36,7 +37,7 @@
 >quest magicbees_master
     title: Master magicbees
     desc: Become proficient with advanced magicbees mechanics
-    requires: magicbees Quest Line:magicbees_intro
+    requires: magicbeesQL:magicbees_intro
     logic: AND
     task: collect "advanced items from magicbees" 5
     reward: choice

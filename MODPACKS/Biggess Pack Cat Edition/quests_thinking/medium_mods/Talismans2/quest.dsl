@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Talismans2 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Talismans2
 @filename Talismans2-1.7.10-1.1.6.jar
 @size 7.84MB
 @category medium_mods
-@quest_line Talismans2 Quest Line
+@quest_line Talismans2QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest talismans2_intro
     title: Introduction to Talismans2
     desc: Learn the basics of Talismans2 and craft your first item
-    requires: Talismans2 Quest Line:talismans2_discover
+    requires: Talismans2QL:talismans2_discover
     logic: AND
     task: craft "any item from Talismans2" 1
     reward: item minecraft:book 1 "Talismans2 Guide"
@@ -36,7 +37,7 @@
 >quest talismans2_master
     title: Master Talismans2
     desc: Become proficient with advanced Talismans2 mechanics
-    requires: Talismans2 Quest Line:talismans2_intro
+    requires: Talismans2QL:talismans2_intro
     logic: AND
     task: collect "advanced items from Talismans2" 5
     reward: choice

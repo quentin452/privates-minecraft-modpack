@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Gyth Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Gyth
 @filename Gyth-1.1.0-1.7.10.jar
 @size 0.14MB
 @category small_mods
-@quest_line Gyth Quest Line
+@quest_line GythQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest gyth_intro
     title: Introduction to Gyth
     desc: Learn the basics of Gyth and craft your first item
-    requires: Gyth Quest Line:gyth_discover
+    requires: GythQL:gyth_discover
     logic: AND
     task: craft "any item from Gyth" 1
     reward: item minecraft:book 1 "Gyth Guide"
@@ -36,7 +37,7 @@
 >quest gyth_master
     title: Master Gyth
     desc: Become proficient with advanced Gyth mechanics
-    requires: Gyth Quest Line:gyth_intro
+    requires: GythQL:gyth_intro
     logic: AND
     task: collect "advanced items from Gyth" 5
     reward: choice

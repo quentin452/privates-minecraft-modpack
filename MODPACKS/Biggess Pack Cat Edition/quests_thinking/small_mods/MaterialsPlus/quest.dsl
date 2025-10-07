@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # MaterialsPlus Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MaterialsPlus
 @filename MaterialsPlus-1.7.10-1.2.0.jar
 @size 0.11MB
 @category small_mods
-@quest_line MaterialsPlus Quest Line
+@quest_line MaterialsPlusQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest materialsplus_intro
     title: Introduction to MaterialsPlus
     desc: Learn the basics of MaterialsPlus and craft your first item
-    requires: MaterialsPlus Quest Line:materialsplus_discover
+    requires: MaterialsPlusQL:materialsplus_discover
     logic: AND
     task: craft "any item from MaterialsPlus" 1
     reward: item minecraft:book 1 "MaterialsPlus Guide"
@@ -36,7 +37,7 @@
 >quest materialsplus_master
     title: Master MaterialsPlus
     desc: Become proficient with advanced MaterialsPlus mechanics
-    requires: MaterialsPlus Quest Line:materialsplus_intro
+    requires: MaterialsPlusQL:materialsplus_intro
     logic: AND
     task: collect "advanced items from MaterialsPlus" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Coffee Spawner Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Coffee Spawner
 @filename Coffee Spawner-1.7.10-1.0.2.jar
 @size 0.03MB
 @category small_mods
-@quest_line Coffee Spawner Quest Line
+@quest_line Coffee SpawnerQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest coffee_spawner_intro
     title: Introduction to Coffee Spawner
     desc: Learn the basics of Coffee Spawner and craft your first item
-    requires: Coffee Spawner Quest Line:coffee_spawner_discover
+    requires: Coffee SpawnerQL:coffee_spawner_discover
     logic: AND
     task: craft "any item from Coffee Spawner" 1
     reward: item minecraft:book 1 "Coffee Spawner Guide"
@@ -36,7 +37,7 @@
 >quest coffee_spawner_master
     title: Master Coffee Spawner
     desc: Become proficient with advanced Coffee Spawner mechanics
-    requires: Coffee Spawner Quest Line:coffee_spawner_intro
+    requires: Coffee SpawnerQL:coffee_spawner_intro
     logic: AND
     task: collect "advanced items from Coffee Spawner" 5
     reward: choice

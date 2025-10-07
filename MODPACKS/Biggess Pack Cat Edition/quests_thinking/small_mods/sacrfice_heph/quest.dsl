@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # sacrfice_heph Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod sacrfice_heph
 @filename sacrfice_heph-1.0.1.jar
 @size 0.01MB
 @category small_mods
-@quest_line sacrfice_heph Quest Line
+@quest_line sacrfice_hephQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest sacrfice_heph_intro
     title: Introduction to sacrfice_heph
     desc: Learn the basics of sacrfice_heph and craft your first item
-    requires: sacrfice_heph Quest Line:sacrfice_heph_discover
+    requires: sacrfice_hephQL:sacrfice_heph_discover
     logic: AND
     task: craft "any item from sacrfice_heph" 1
     reward: item minecraft:book 1 "sacrfice_heph Guide"
@@ -36,7 +37,7 @@
 >quest sacrfice_heph_master
     title: Master sacrfice_heph
     desc: Become proficient with advanced sacrfice_heph mechanics
-    requires: sacrfice_heph Quest Line:sacrfice_heph_intro
+    requires: sacrfice_hephQL:sacrfice_heph_intro
     logic: AND
     task: collect "advanced items from sacrfice_heph" 5
     reward: choice

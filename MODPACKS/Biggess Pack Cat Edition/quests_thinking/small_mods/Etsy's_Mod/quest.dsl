@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Etsy's_Mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Etsy's_Mod
 @filename Etsy's_Mod-1.7.10-1.0.0.jar
 @size 0.22MB
 @category small_mods
-@quest_line Etsy's_Mod Quest Line
+@quest_line Etsy's_ModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest etsys_mod_intro
     title: Introduction to Etsy's_Mod
     desc: Learn the basics of Etsy's_Mod and craft your first item
-    requires: Etsy's_Mod Quest Line:etsys_mod_discover
+    requires: Etsy's_ModQL:etsys_mod_discover
     logic: AND
     task: craft "any item from Etsy's_Mod" 1
     reward: item minecraft:book 1 "Etsy's_Mod Guide"
@@ -36,7 +37,7 @@
 >quest etsys_mod_master
     title: Master Etsy's_Mod
     desc: Become proficient with advanced Etsy's_Mod mechanics
-    requires: Etsy's_Mod Quest Line:etsys_mod_intro
+    requires: Etsy's_ModQL:etsys_mod_intro
     logic: AND
     task: collect "advanced items from Etsy's_Mod" 5
     reward: choice

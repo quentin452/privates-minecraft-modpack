@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ThaumicRevelations Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ThaumicRevelations
 @filename ThaumicRevelations-1.2.2.1.jar
 @size 1.60MB
 @category small_mods
-@quest_line ThaumicRevelations Quest Line
+@quest_line ThaumicRevelationsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest thaumicrevelations_intro
     title: Introduction to ThaumicRevelations
     desc: Learn the basics of ThaumicRevelations and craft your first item
-    requires: ThaumicRevelations Quest Line:thaumicrevelations_discover
+    requires: ThaumicRevelationsQL:thaumicrevelations_discover
     logic: AND
     task: craft "any item from ThaumicRevelations" 1
     reward: item minecraft:book 1 "ThaumicRevelations Guide"
@@ -36,7 +37,7 @@
 >quest thaumicrevelations_master
     title: Master ThaumicRevelations
     desc: Become proficient with advanced ThaumicRevelations mechanics
-    requires: ThaumicRevelations Quest Line:thaumicrevelations_intro
+    requires: ThaumicRevelationsQL:thaumicrevelations_intro
     logic: AND
     task: collect "advanced items from ThaumicRevelations" 5
     reward: choice

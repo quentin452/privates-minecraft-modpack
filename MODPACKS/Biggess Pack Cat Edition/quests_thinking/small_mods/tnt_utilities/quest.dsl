@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # tnt_utilities Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod tnt_utilities
 @filename tnt_utilities-mc1.7.10-1.2.jar
 @size 0.02MB
 @category small_mods
-@quest_line tnt_utilities Quest Line
+@quest_line tnt_utilitiesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest tnt_utilities_intro
     title: Introduction to tnt_utilities
     desc: Learn the basics of tnt_utilities and craft your first item
-    requires: tnt_utilities Quest Line:tnt_utilities_discover
+    requires: tnt_utilitiesQL:tnt_utilities_discover
     logic: AND
     task: craft "any item from tnt_utilities" 1
     reward: item minecraft:book 1 "tnt_utilities Guide"
@@ -36,7 +37,7 @@
 >quest tnt_utilities_master
     title: Master tnt_utilities
     desc: Become proficient with advanced tnt_utilities mechanics
-    requires: tnt_utilities Quest Line:tnt_utilities_intro
+    requires: tnt_utilitiesQL:tnt_utilities_intro
     logic: AND
     task: collect "advanced items from tnt_utilities" 5
     reward: choice

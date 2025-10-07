@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Redstone Tools Mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Redstone Tools Mod
 @filename [1.7.10] Redstone Tools Mod.zip
 @size 0.04MB
 @category small_mods
-@quest_line Redstone Tools Mod Quest Line
+@quest_line Redstone Tools ModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest redstone_tools_mod_intro
     title: Introduction to Redstone Tools Mod
     desc: Learn the basics of Redstone Tools Mod and craft your first item
-    requires: Redstone Tools Mod Quest Line:redstone_tools_mod_discover
+    requires: Redstone Tools ModQL:redstone_tools_mod_discover
     logic: AND
     task: craft "any item from Redstone Tools Mod" 1
     reward: item minecraft:book 1 "Redstone Tools Mod Guide"
@@ -36,7 +37,7 @@
 >quest redstone_tools_mod_master
     title: Master Redstone Tools Mod
     desc: Become proficient with advanced Redstone Tools Mod mechanics
-    requires: Redstone Tools Mod Quest Line:redstone_tools_mod_intro
+    requires: Redstone Tools ModQL:redstone_tools_mod_intro
     logic: AND
     task: collect "advanced items from Redstone Tools Mod" 5
     reward: choice

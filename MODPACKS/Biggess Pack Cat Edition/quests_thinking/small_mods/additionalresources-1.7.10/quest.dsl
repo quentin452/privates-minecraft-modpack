@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # additionalresources-1.7.10 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod additionalresources-1.7.10
 @filename additionalresources-1.7.10_0.1.0.unknown.jar
 @size 0.01MB
 @category small_mods
-@quest_line additionalresources-1.7.10 Quest Line
+@quest_line additionalresources-1.7.10QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest additionalresources_1_7_10_intro
     title: Introduction to additionalresources-1.7.10
     desc: Learn the basics of additionalresources-1.7.10 and craft your first item
-    requires: additionalresources-1.7.10 Quest Line:additionalresources_1_7_10_discover
+    requires: additionalresources-1.7.10QL:additionalresources_1_7_10_discover
     logic: AND
     task: craft "any item from additionalresources-1.7.10" 1
     reward: item minecraft:book 1 "additionalresources-1.7.10 Guide"
@@ -36,7 +37,7 @@
 >quest additionalresources_1_7_10_master
     title: Master additionalresources-1.7.10
     desc: Become proficient with advanced additionalresources-1.7.10 mechanics
-    requires: additionalresources-1.7.10 Quest Line:additionalresources_1_7_10_intro
+    requires: additionalresources-1.7.10QL:additionalresources_1_7_10_intro
     logic: AND
     task: collect "advanced items from additionalresources-1.7.10" 5
     reward: choice

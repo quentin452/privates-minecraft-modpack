@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Slabify Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Slabify
 @filename Slabify-1.7.10-1.1.2.jar
 @size 0.03MB
 @category small_mods
-@quest_line Slabify Quest Line
+@quest_line SlabifyQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest slabify_intro
     title: Introduction to Slabify
     desc: Learn the basics of Slabify and craft your first item
-    requires: Slabify Quest Line:slabify_discover
+    requires: SlabifyQL:slabify_discover
     logic: AND
     task: craft "any item from Slabify" 1
     reward: item minecraft:book 1 "Slabify Guide"
@@ -36,7 +37,7 @@
 >quest slabify_master
     title: Master Slabify
     desc: Become proficient with advanced Slabify mechanics
-    requires: Slabify Quest Line:slabify_intro
+    requires: SlabifyQL:slabify_intro
     logic: AND
     task: collect "advanced items from Slabify" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Material_Creepers_Mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Material_Creepers_Mod
 @filename Material_Creepers_Mod_1.7.10.jar
 @size 0.06MB
 @category small_mods
-@quest_line Material_Creepers_Mod Quest Line
+@quest_line Material_Creepers_ModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest material_creepers_mod_intro
     title: Introduction to Material_Creepers_Mod
     desc: Learn the basics of Material_Creepers_Mod and craft your first item
-    requires: Material_Creepers_Mod Quest Line:material_creepers_mod_discover
+    requires: Material_Creepers_ModQL:material_creepers_mod_discover
     logic: AND
     task: craft "any item from Material_Creepers_Mod" 1
     reward: item minecraft:book 1 "Material_Creepers_Mod Guide"
@@ -36,7 +37,7 @@
 >quest material_creepers_mod_master
     title: Master Material_Creepers_Mod
     desc: Become proficient with advanced Material_Creepers_Mod mechanics
-    requires: Material_Creepers_Mod Quest Line:material_creepers_mod_intro
+    requires: Material_Creepers_ModQL:material_creepers_mod_intro
     logic: AND
     task: collect "advanced items from Material_Creepers_Mod" 5
     reward: choice

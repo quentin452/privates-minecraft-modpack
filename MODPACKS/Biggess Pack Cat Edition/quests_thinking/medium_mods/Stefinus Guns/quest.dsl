@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Stefinus Guns Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Stefinus Guns
 @filename Stefinus Guns-0.5.2.jar
 @size 2.21MB
 @category medium_mods
-@quest_line Stefinus Guns Quest Line
+@quest_line Stefinus GunsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest stefinus_guns_intro
     title: Introduction to Stefinus Guns
     desc: Learn the basics of Stefinus Guns and craft your first item
-    requires: Stefinus Guns Quest Line:stefinus_guns_discover
+    requires: Stefinus GunsQL:stefinus_guns_discover
     logic: AND
     task: craft "any item from Stefinus Guns" 1
     reward: item minecraft:book 1 "Stefinus Guns Guide"
@@ -36,7 +37,7 @@
 >quest stefinus_guns_master
     title: Master Stefinus Guns
     desc: Become proficient with advanced Stefinus Guns mechanics
-    requires: Stefinus Guns Quest Line:stefinus_guns_intro
+    requires: Stefinus GunsQL:stefinus_guns_intro
     logic: AND
     task: collect "advanced items from Stefinus Guns" 5
     reward: choice

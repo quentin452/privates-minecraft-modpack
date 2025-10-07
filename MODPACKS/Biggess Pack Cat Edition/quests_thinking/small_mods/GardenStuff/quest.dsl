@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # GardenStuff Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod GardenStuff
 @filename GardenStuff-1.7.10-1.7.0.jar
 @size 0.74MB
 @category small_mods
-@quest_line GardenStuff Quest Line
+@quest_line GardenStuffQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest gardenstuff_intro
     title: Introduction to GardenStuff
     desc: Learn the basics of GardenStuff and craft your first item
-    requires: GardenStuff Quest Line:gardenstuff_discover
+    requires: GardenStuffQL:gardenstuff_discover
     logic: AND
     task: craft "any item from GardenStuff" 1
     reward: item minecraft:book 1 "GardenStuff Guide"
@@ -36,7 +37,7 @@
 >quest gardenstuff_master
     title: Master GardenStuff
     desc: Become proficient with advanced GardenStuff mechanics
-    requires: GardenStuff Quest Line:gardenstuff_intro
+    requires: GardenStuffQL:gardenstuff_intro
     logic: AND
     task: collect "advanced items from GardenStuff" 5
     reward: choice

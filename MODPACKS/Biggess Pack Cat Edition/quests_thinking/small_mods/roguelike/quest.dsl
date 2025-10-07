@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # roguelike Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod roguelike
 @filename roguelike-1.5.5.jar
 @size 0.57MB
 @category small_mods
-@quest_line roguelike Quest Line
+@quest_line roguelikeQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest roguelike_intro
     title: Introduction to roguelike
     desc: Learn the basics of roguelike and craft your first item
-    requires: roguelike Quest Line:roguelike_discover
+    requires: roguelikeQL:roguelike_discover
     logic: AND
     task: craft "any item from roguelike" 1
     reward: item minecraft:book 1 "roguelike Guide"
@@ -36,7 +37,7 @@
 >quest roguelike_master
     title: Master roguelike
     desc: Become proficient with advanced roguelike mechanics
-    requires: roguelike Quest Line:roguelike_intro
+    requires: roguelikeQL:roguelike_intro
     logic: AND
     task: collect "advanced items from roguelike" 5
     reward: choice

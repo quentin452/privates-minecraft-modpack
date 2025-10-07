@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # custom_sword Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod custom_sword
 @filename custom_sword_1.7.10_V0.10.jar
 @size 1.51MB
 @category small_mods
-@quest_line custom_sword Quest Line
+@quest_line custom_swordQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest custom_sword_intro
     title: Introduction to custom_sword
     desc: Learn the basics of custom_sword and craft your first item
-    requires: custom_sword Quest Line:custom_sword_discover
+    requires: custom_swordQL:custom_sword_discover
     logic: AND
     task: craft "any item from custom_sword" 1
     reward: item minecraft:book 1 "custom_sword Guide"
@@ -36,7 +37,7 @@
 >quest custom_sword_master
     title: Master custom_sword
     desc: Become proficient with advanced custom_sword mechanics
-    requires: custom_sword Quest Line:custom_sword_intro
+    requires: custom_swordQL:custom_sword_intro
     logic: AND
     task: collect "advanced items from custom_sword" 5
     reward: choice

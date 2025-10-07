@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # FamiliarsExtendedFamPack Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod FamiliarsExtendedFamPack
 @filename FamiliarsExtendedFamPack-1.7.10.jar
 @size 0.22MB
 @category small_mods
-@quest_line FamiliarsExtendedFamPack Quest Line
+@quest_line FamiliarsExtendedFamPackQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest familiarsextendedfampack_intro
     title: Introduction to FamiliarsExtendedFamPack
     desc: Learn the basics of FamiliarsExtendedFamPack and craft your first item
-    requires: FamiliarsExtendedFamPack Quest Line:familiarsextendedfampack_discover
+    requires: FamiliarsExtendedFamPackQL:familiarsextendedfampack_discover
     logic: AND
     task: craft "any item from FamiliarsExtendedFamPack" 1
     reward: item minecraft:book 1 "FamiliarsExtendedFamPack Guide"
@@ -36,7 +37,7 @@
 >quest familiarsextendedfampack_master
     title: Master FamiliarsExtendedFamPack
     desc: Become proficient with advanced FamiliarsExtendedFamPack mechanics
-    requires: FamiliarsExtendedFamPack Quest Line:familiarsextendedfampack_intro
+    requires: FamiliarsExtendedFamPackQL:familiarsextendedfampack_intro
     logic: AND
     task: collect "advanced items from FamiliarsExtendedFamPack" 5
     reward: choice

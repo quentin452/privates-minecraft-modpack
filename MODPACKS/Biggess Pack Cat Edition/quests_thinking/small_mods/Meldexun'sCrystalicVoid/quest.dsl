@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Meldexun'sCrystalicVoid Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Meldexun'sCrystalicVoid
 @filename Meldexun'sCrystalicVoid-1.7.10-2.4.104.jar
 @size 0.08MB
 @category small_mods
-@quest_line Meldexun'sCrystalicVoid Quest Line
+@quest_line Meldexun'sCrystalicVoidQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest meldexunscrystalicvoid_intro
     title: Introduction to Meldexun'sCrystalicVoid
     desc: Learn the basics of Meldexun'sCrystalicVoid and craft your first item
-    requires: Meldexun'sCrystalicVoid Quest Line:meldexunscrystalicvoid_discover
+    requires: Meldexun'sCrystalicVoidQL:meldexunscrystalicvoid_discover
     logic: AND
     task: craft "any item from Meldexun'sCrystalicVoid" 1
     reward: item minecraft:book 1 "Meldexun'sCrystalicVoid Guide"
@@ -36,7 +37,7 @@
 >quest meldexunscrystalicvoid_master
     title: Master Meldexun'sCrystalicVoid
     desc: Become proficient with advanced Meldexun'sCrystalicVoid mechanics
-    requires: Meldexun'sCrystalicVoid Quest Line:meldexunscrystalicvoid_intro
+    requires: Meldexun'sCrystalicVoidQL:meldexunscrystalicvoid_intro
     logic: AND
     task: collect "advanced items from Meldexun'sCrystalicVoid" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Eraser Bomb Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Eraser Bomb
 @filename Eraser Bomb-1.7.10-1.0.jar
 @size 0.02MB
 @category small_mods
-@quest_line Eraser Bomb Quest Line
+@quest_line Eraser BombQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest eraser_bomb_intro
     title: Introduction to Eraser Bomb
     desc: Learn the basics of Eraser Bomb and craft your first item
-    requires: Eraser Bomb Quest Line:eraser_bomb_discover
+    requires: Eraser BombQL:eraser_bomb_discover
     logic: AND
     task: craft "any item from Eraser Bomb" 1
     reward: item minecraft:book 1 "Eraser Bomb Guide"
@@ -36,7 +37,7 @@
 >quest eraser_bomb_master
     title: Master Eraser Bomb
     desc: Become proficient with advanced Eraser Bomb mechanics
-    requires: Eraser Bomb Quest Line:eraser_bomb_intro
+    requires: Eraser BombQL:eraser_bomb_intro
     logic: AND
     task: collect "advanced items from Eraser Bomb" 5
     reward: choice

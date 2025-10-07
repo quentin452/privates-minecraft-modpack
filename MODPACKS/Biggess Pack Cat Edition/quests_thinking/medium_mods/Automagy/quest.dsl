@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Automagy Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Automagy
 @filename Automagy-1.7.10-0.28.2.jar
 @size 6.26MB
 @category medium_mods
-@quest_line Automagy Quest Line
+@quest_line AutomagyQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest automagy_intro
     title: Introduction to Automagy
     desc: Learn the basics of Automagy and craft your first item
-    requires: Automagy Quest Line:automagy_discover
+    requires: AutomagyQL:automagy_discover
     logic: AND
     task: craft "any item from Automagy" 1
     reward: item minecraft:book 1 "Automagy Guide"
@@ -36,7 +37,7 @@
 >quest automagy_master
     title: Master Automagy
     desc: Become proficient with advanced Automagy mechanics
-    requires: Automagy Quest Line:automagy_intro
+    requires: AutomagyQL:automagy_intro
     logic: AND
     task: collect "advanced items from Automagy" 5
     reward: choice

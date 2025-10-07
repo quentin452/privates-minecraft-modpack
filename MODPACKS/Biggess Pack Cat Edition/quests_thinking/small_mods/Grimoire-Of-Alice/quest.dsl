@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Grimoire-Of-Alice Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Grimoire-Of-Alice
 @filename Grimoire-Of-Alice-1.7.10-4.0.0.jar
 @size 0.37MB
 @category small_mods
-@quest_line Grimoire-Of-Alice Quest Line
+@quest_line Grimoire-Of-AliceQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest grimoire_of_alice_intro
     title: Introduction to Grimoire-Of-Alice
     desc: Learn the basics of Grimoire-Of-Alice and craft your first item
-    requires: Grimoire-Of-Alice Quest Line:grimoire_of_alice_discover
+    requires: Grimoire-Of-AliceQL:grimoire_of_alice_discover
     logic: AND
     task: craft "any item from Grimoire-Of-Alice" 1
     reward: item minecraft:book 1 "Grimoire-Of-Alice Guide"
@@ -36,7 +37,7 @@
 >quest grimoire_of_alice_master
     title: Master Grimoire-Of-Alice
     desc: Become proficient with advanced Grimoire-Of-Alice mechanics
-    requires: Grimoire-Of-Alice Quest Line:grimoire_of_alice_intro
+    requires: Grimoire-Of-AliceQL:grimoire_of_alice_intro
     logic: AND
     task: collect "advanced items from Grimoire-Of-Alice" 5
     reward: choice

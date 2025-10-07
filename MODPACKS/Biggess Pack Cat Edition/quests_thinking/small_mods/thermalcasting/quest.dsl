@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # thermalcasting Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod thermalcasting
 @filename thermalcasting-0.0.3.jar
 @size 0.01MB
 @category small_mods
-@quest_line thermalcasting Quest Line
+@quest_line thermalcastingQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest thermalcasting_intro
     title: Introduction to thermalcasting
     desc: Learn the basics of thermalcasting and craft your first item
-    requires: thermalcasting Quest Line:thermalcasting_discover
+    requires: thermalcastingQL:thermalcasting_discover
     logic: AND
     task: craft "any item from thermalcasting" 1
     reward: item minecraft:book 1 "thermalcasting Guide"
@@ -36,7 +37,7 @@
 >quest thermalcasting_master
     title: Master thermalcasting
     desc: Become proficient with advanced thermalcasting mechanics
-    requires: thermalcasting Quest Line:thermalcasting_intro
+    requires: thermalcastingQL:thermalcasting_intro
     logic: AND
     task: collect "advanced items from thermalcasting" 5
     reward: choice

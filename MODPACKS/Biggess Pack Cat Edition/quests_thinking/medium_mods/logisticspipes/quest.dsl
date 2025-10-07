@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # logisticspipes Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod logisticspipes
 @filename logisticspipes-1.4.23-GTNH-pre.jar
 @size 2.78MB
 @category medium_mods
-@quest_line logisticspipes Quest Line
+@quest_line logisticspipesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest logisticspipes_1_4_23_intro
     title: Introduction to logisticspipes
     desc: Learn the basics of logisticspipes and craft your first item
-    requires: logisticspipes Quest Line:logisticspipes_1_4_23_discover
+    requires: logisticspipesQL:logisticspipes_1_4_23_discover
     logic: AND
     task: craft "any item from logisticspipes" 1
     reward: item minecraft:book 1 "logisticspipes Guide"
@@ -36,7 +37,7 @@
 >quest logisticspipes_1_4_23_master
     title: Master logisticspipes
     desc: Become proficient with advanced logisticspipes mechanics
-    requires: logisticspipes Quest Line:logisticspipes_1_4_23_intro
+    requires: logisticspipesQL:logisticspipes_1_4_23_intro
     logic: AND
     task: collect "advanced items from logisticspipes" 5
     reward: choice

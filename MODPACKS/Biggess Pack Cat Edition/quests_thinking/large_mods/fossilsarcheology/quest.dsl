@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # fossilsarcheology Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod fossilsarcheology
 @filename fossilsarcheology-7.3.2.jar
 @size 51.27MB
 @category large_mods
-@quest_line fossilsarcheology Quest Line
+@quest_line fossilsarcheologyQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest fossilsarcheology_intro
     title: Introduction to fossilsarcheology
     desc: Learn the basics of fossilsarcheology and craft your first item
-    requires: fossilsarcheology Quest Line:fossilsarcheology_discover
+    requires: fossilsarcheologyQL:fossilsarcheology_discover
     logic: AND
     task: craft "any item from fossilsarcheology" 1
     reward: item minecraft:book 1 "fossilsarcheology Guide"
@@ -36,7 +37,7 @@
 >quest fossilsarcheology_master
     title: Master fossilsarcheology
     desc: Become proficient with advanced fossilsarcheology mechanics
-    requires: fossilsarcheology Quest Line:fossilsarcheology_intro
+    requires: fossilsarcheologyQL:fossilsarcheology_intro
     logic: AND
     task: collect "advanced items from fossilsarcheology" 5
     reward: choice

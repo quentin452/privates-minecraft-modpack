@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # GrumpysModV1.4 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod GrumpysModV1.4
 @filename GrumpysModV1.4(1.7.10).jar
 @size 0.06MB
 @category small_mods
-@quest_line GrumpysModV1.4 Quest Line
+@quest_line GrumpysModV1.4QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest grumpysmodv1_4_intro
     title: Introduction to GrumpysModV1.4
     desc: Learn the basics of GrumpysModV1.4 and craft your first item
-    requires: GrumpysModV1.4 Quest Line:grumpysmodv1_4_discover
+    requires: GrumpysModV1.4QL:grumpysmodv1_4_discover
     logic: AND
     task: craft "any item from GrumpysModV1.4" 1
     reward: item minecraft:book 1 "GrumpysModV1.4 Guide"
@@ -36,7 +37,7 @@
 >quest grumpysmodv1_4_master
     title: Master GrumpysModV1.4
     desc: Become proficient with advanced GrumpysModV1.4 mechanics
-    requires: GrumpysModV1.4 Quest Line:grumpysmodv1_4_intro
+    requires: GrumpysModV1.4QL:grumpysmodv1_4_intro
     logic: AND
     task: collect "advanced items from GrumpysModV1.4" 5
     reward: choice

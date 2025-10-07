@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ShinColle Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ShinColle
 @filename ShinColle-1.7.10.rv26.2.jar
 @size 5.09MB
 @category medium_mods
-@quest_line ShinColle Quest Line
+@quest_line ShinColleQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest shincolle_intro
     title: Introduction to ShinColle
     desc: Learn the basics of ShinColle and craft your first item
-    requires: ShinColle Quest Line:shincolle_discover
+    requires: ShinColleQL:shincolle_discover
     logic: AND
     task: craft "any item from ShinColle" 1
     reward: item minecraft:book 1 "ShinColle Guide"
@@ -36,7 +37,7 @@
 >quest shincolle_master
     title: Master ShinColle
     desc: Become proficient with advanced ShinColle mechanics
-    requires: ShinColle Quest Line:shincolle_intro
+    requires: ShinColleQL:shincolle_intro
     logic: AND
     task: collect "advanced items from ShinColle" 5
     reward: choice

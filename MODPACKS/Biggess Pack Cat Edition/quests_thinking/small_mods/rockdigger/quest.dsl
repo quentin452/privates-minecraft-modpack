@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # rockdigger Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod rockdigger
 @filename rockdigger-1.3.jar
 @size 0.02MB
 @category small_mods
-@quest_line rockdigger Quest Line
+@quest_line rockdiggerQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest rockdigger_intro
     title: Introduction to rockdigger
     desc: Learn the basics of rockdigger and craft your first item
-    requires: rockdigger Quest Line:rockdigger_discover
+    requires: rockdiggerQL:rockdigger_discover
     logic: AND
     task: craft "any item from rockdigger" 1
     reward: item minecraft:book 1 "rockdigger Guide"
@@ -36,7 +37,7 @@
 >quest rockdigger_master
     title: Master rockdigger
     desc: Become proficient with advanced rockdigger mechanics
-    requires: rockdigger Quest Line:rockdigger_intro
+    requires: rockdiggerQL:rockdigger_intro
     logic: AND
     task: collect "advanced items from rockdigger" 5
     reward: choice

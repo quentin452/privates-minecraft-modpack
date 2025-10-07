@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ClayBucket Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ClayBucket
 @filename ClayBucket-1.7.10-1.2.jar
 @size 0.01MB
 @category small_mods
-@quest_line ClayBucket Quest Line
+@quest_line ClayBucketQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest claybucket_intro
     title: Introduction to ClayBucket
     desc: Learn the basics of ClayBucket and craft your first item
-    requires: ClayBucket Quest Line:claybucket_discover
+    requires: ClayBucketQL:claybucket_discover
     logic: AND
     task: craft "any item from ClayBucket" 1
     reward: item minecraft:book 1 "ClayBucket Guide"
@@ -36,7 +37,7 @@
 >quest claybucket_master
     title: Master ClayBucket
     desc: Become proficient with advanced ClayBucket mechanics
-    requires: ClayBucket Quest Line:claybucket_intro
+    requires: ClayBucketQL:claybucket_intro
     logic: AND
     task: collect "advanced items from ClayBucket" 5
     reward: choice

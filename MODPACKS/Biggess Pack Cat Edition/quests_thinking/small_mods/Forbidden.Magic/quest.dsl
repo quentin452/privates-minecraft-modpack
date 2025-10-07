@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Forbidden.Magic Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Forbidden.Magic
 @filename Forbidden.Magic-0.8.3-GTNH.jar
 @size 0.60MB
 @category small_mods
-@quest_line Forbidden.Magic Quest Line
+@quest_line Forbidden.MagicQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest forbidden_magic_intro
     title: Introduction to Forbidden.Magic
     desc: Learn the basics of Forbidden.Magic and craft your first item
-    requires: Forbidden.Magic Quest Line:forbidden_magic_discover
+    requires: Forbidden.MagicQL:forbidden_magic_discover
     logic: AND
     task: craft "any item from Forbidden.Magic" 1
     reward: item minecraft:book 1 "Forbidden.Magic Guide"
@@ -36,7 +37,7 @@
 >quest forbidden_magic_master
     title: Master Forbidden.Magic
     desc: Become proficient with advanced Forbidden.Magic mechanics
-    requires: Forbidden.Magic Quest Line:forbidden_magic_intro
+    requires: Forbidden.MagicQL:forbidden_magic_intro
     logic: AND
     task: collect "advanced items from Forbidden.Magic" 5
     reward: choice

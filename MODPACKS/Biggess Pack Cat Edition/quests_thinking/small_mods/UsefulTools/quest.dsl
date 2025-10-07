@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # UsefulTools Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod UsefulTools
 @filename UsefulTools-v1.6-1.7.10.jar
 @size 0.09MB
 @category small_mods
-@quest_line UsefulTools Quest Line
+@quest_line UsefulToolsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest usefultools_intro
     title: Introduction to UsefulTools
     desc: Learn the basics of UsefulTools and craft your first item
-    requires: UsefulTools Quest Line:usefultools_discover
+    requires: UsefulToolsQL:usefultools_discover
     logic: AND
     task: craft "any item from UsefulTools" 1
     reward: item minecraft:book 1 "UsefulTools Guide"
@@ -36,7 +37,7 @@
 >quest usefultools_master
     title: Master UsefulTools
     desc: Become proficient with advanced UsefulTools mechanics
-    requires: UsefulTools Quest Line:usefultools_intro
+    requires: UsefulToolsQL:usefultools_intro
     logic: AND
     task: collect "advanced items from UsefulTools" 5
     reward: choice

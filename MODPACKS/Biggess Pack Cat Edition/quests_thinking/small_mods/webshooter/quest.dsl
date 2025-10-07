@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # webshooter Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod webshooter
 @filename webshooter-1.7.10-1.0.0.jar
 @size 0.01MB
 @category small_mods
-@quest_line webshooter Quest Line
+@quest_line webshooterQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest webshooter_intro
     title: Introduction to webshooter
     desc: Learn the basics of webshooter and craft your first item
-    requires: webshooter Quest Line:webshooter_discover
+    requires: webshooterQL:webshooter_discover
     logic: AND
     task: craft "any item from webshooter" 1
     reward: item minecraft:book 1 "webshooter Guide"
@@ -36,7 +37,7 @@
 >quest webshooter_master
     title: Master webshooter
     desc: Become proficient with advanced webshooter mechanics
-    requires: webshooter Quest Line:webshooter_intro
+    requires: webshooterQL:webshooter_intro
     logic: AND
     task: collect "advanced items from webshooter" 5
     reward: choice

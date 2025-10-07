@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # SRSM Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SRSM
 @filename SRSM-1.7.10-1.0.4.jar
 @size 0.71MB
 @category small_mods
-@quest_line SRSM Quest Line
+@quest_line SRSMQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest srsm_intro
     title: Introduction to SRSM
     desc: Learn the basics of SRSM and craft your first item
-    requires: SRSM Quest Line:srsm_discover
+    requires: SRSMQL:srsm_discover
     logic: AND
     task: craft "any item from SRSM" 1
     reward: item minecraft:book 1 "SRSM Guide"
@@ -36,7 +37,7 @@
 >quest srsm_master
     title: Master SRSM
     desc: Become proficient with advanced SRSM mechanics
-    requires: SRSM Quest Line:srsm_intro
+    requires: SRSMQL:srsm_intro
     logic: AND
     task: collect "advanced items from SRSM" 5
     reward: choice

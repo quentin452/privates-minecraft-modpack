@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # travellersgearneo Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod travellersgearneo
 @filename travellersgearneo-1.2.4.jar
 @size 0.01MB
 @category small_mods
-@quest_line travellersgearneo Quest Line
+@quest_line travellersgearneoQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest travellersgearneo_intro
     title: Introduction to travellersgearneo
     desc: Learn the basics of travellersgearneo and craft your first item
-    requires: travellersgearneo Quest Line:travellersgearneo_discover
+    requires: travellersgearneoQL:travellersgearneo_discover
     logic: AND
     task: craft "any item from travellersgearneo" 1
     reward: item minecraft:book 1 "travellersgearneo Guide"
@@ -36,7 +37,7 @@
 >quest travellersgearneo_master
     title: Master travellersgearneo
     desc: Become proficient with advanced travellersgearneo mechanics
-    requires: travellersgearneo Quest Line:travellersgearneo_intro
+    requires: travellersgearneoQL:travellersgearneo_intro
     logic: AND
     task: collect "advanced items from travellersgearneo" 5
     reward: choice

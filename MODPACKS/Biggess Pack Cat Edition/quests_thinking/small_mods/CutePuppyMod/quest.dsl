@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # CutePuppyMod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CutePuppyMod
 @filename CutePuppyMod-1.7.10-0.0.4.jar
 @size 0.18MB
 @category small_mods
-@quest_line CutePuppyMod Quest Line
+@quest_line CutePuppyModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest cutepuppymod_intro
     title: Introduction to CutePuppyMod
     desc: Learn the basics of CutePuppyMod and craft your first item
-    requires: CutePuppyMod Quest Line:cutepuppymod_discover
+    requires: CutePuppyModQL:cutepuppymod_discover
     logic: AND
     task: craft "any item from CutePuppyMod" 1
     reward: item minecraft:book 1 "CutePuppyMod Guide"
@@ -36,7 +37,7 @@
 >quest cutepuppymod_master
     title: Master CutePuppyMod
     desc: Become proficient with advanced CutePuppyMod mechanics
-    requires: CutePuppyMod Quest Line:cutepuppymod_intro
+    requires: CutePuppyModQL:cutepuppymod_intro
     logic: AND
     task: collect "advanced items from CutePuppyMod" 5
     reward: choice

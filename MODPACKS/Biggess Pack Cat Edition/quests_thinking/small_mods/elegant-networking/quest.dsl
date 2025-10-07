@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # elegant-networking Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod elegant-networking
 @filename elegant-networking-1.7.10-3.14.jar
 @size 0.05MB
 @category small_mods
-@quest_line elegant-networking Quest Line
+@quest_line elegant-networkingQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest elegant_networking_intro
     title: Introduction to elegant-networking
     desc: Learn the basics of elegant-networking and craft your first item
-    requires: elegant-networking Quest Line:elegant_networking_discover
+    requires: elegant-networkingQL:elegant_networking_discover
     logic: AND
     task: craft "any item from elegant-networking" 1
     reward: item minecraft:book 1 "elegant-networking Guide"
@@ -36,7 +37,7 @@
 >quest elegant_networking_master
     title: Master elegant-networking
     desc: Become proficient with advanced elegant-networking mechanics
-    requires: elegant-networking Quest Line:elegant_networking_intro
+    requires: elegant-networkingQL:elegant_networking_intro
     logic: AND
     task: collect "advanced items from elegant-networking" 5
     reward: choice

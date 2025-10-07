@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # strangevanillarecipes Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod strangevanillarecipes
 @filename strangevanillarecipes-1.7.10-0.1.2.jar
 @size 0.04MB
 @category small_mods
-@quest_line strangevanillarecipes Quest Line
+@quest_line strangevanillarecipesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest strangevanillarecipes_intro
     title: Introduction to strangevanillarecipes
     desc: Learn the basics of strangevanillarecipes and craft your first item
-    requires: strangevanillarecipes Quest Line:strangevanillarecipes_discover
+    requires: strangevanillarecipesQL:strangevanillarecipes_discover
     logic: AND
     task: craft "any item from strangevanillarecipes" 1
     reward: item minecraft:book 1 "strangevanillarecipes Guide"
@@ -36,7 +37,7 @@
 >quest strangevanillarecipes_master
     title: Master strangevanillarecipes
     desc: Become proficient with advanced strangevanillarecipes mechanics
-    requires: strangevanillarecipes Quest Line:strangevanillarecipes_intro
+    requires: strangevanillarecipesQL:strangevanillarecipes_intro
     logic: AND
     task: collect "advanced items from strangevanillarecipes" 5
     reward: choice

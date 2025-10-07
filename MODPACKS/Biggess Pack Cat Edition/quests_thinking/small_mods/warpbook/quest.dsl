@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # warpbook Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod warpbook
 @filename warpbook-1.7.10_2.0.37.jar
 @size 0.39MB
 @category small_mods
-@quest_line warpbook Quest Line
+@quest_line warpbookQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest warpbook_intro
     title: Introduction to warpbook
     desc: Learn the basics of warpbook and craft your first item
-    requires: warpbook Quest Line:warpbook_discover
+    requires: warpbookQL:warpbook_discover
     logic: AND
     task: craft "any item from warpbook" 1
     reward: item minecraft:book 1 "warpbook Guide"
@@ -36,7 +37,7 @@
 >quest warpbook_master
     title: Master warpbook
     desc: Become proficient with advanced warpbook mechanics
-    requires: warpbook Quest Line:warpbook_intro
+    requires: warpbookQL:warpbook_intro
     logic: AND
     task: collect "advanced items from warpbook" 5
     reward: choice

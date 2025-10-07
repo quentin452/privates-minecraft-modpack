@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # opensecurity Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod opensecurity
 @filename opensecurity-1.2.0-GTNH.jar
 @size 0.47MB
 @category small_mods
-@quest_line opensecurity Quest Line
+@quest_line opensecurityQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest opensecurity_intro
     title: Introduction to opensecurity
     desc: Learn the basics of opensecurity and craft your first item
-    requires: opensecurity Quest Line:opensecurity_discover
+    requires: opensecurityQL:opensecurity_discover
     logic: AND
     task: craft "any item from opensecurity" 1
     reward: item minecraft:book 1 "opensecurity Guide"
@@ -36,7 +37,7 @@
 >quest opensecurity_master
     title: Master opensecurity
     desc: Become proficient with advanced opensecurity mechanics
-    requires: opensecurity Quest Line:opensecurity_intro
+    requires: opensecurityQL:opensecurity_intro
     logic: AND
     task: collect "advanced items from opensecurity" 5
     reward: choice

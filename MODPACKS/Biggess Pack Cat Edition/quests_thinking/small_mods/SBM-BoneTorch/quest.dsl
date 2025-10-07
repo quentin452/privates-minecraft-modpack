@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # SBM-BoneTorch Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SBM-BoneTorch
 @filename SBM-BoneTorch-1.7.10-0.0.1b6.jar
 @size 0.01MB
 @category small_mods
-@quest_line SBM-BoneTorch Quest Line
+@quest_line SBM-BoneTorchQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest sbm_bonetorch_intro
     title: Introduction to SBM-BoneTorch
     desc: Learn the basics of SBM-BoneTorch and craft your first item
-    requires: SBM-BoneTorch Quest Line:sbm_bonetorch_discover
+    requires: SBM-BoneTorchQL:sbm_bonetorch_discover
     logic: AND
     task: craft "any item from SBM-BoneTorch" 1
     reward: item minecraft:book 1 "SBM-BoneTorch Guide"
@@ -36,7 +37,7 @@
 >quest sbm_bonetorch_master
     title: Master SBM-BoneTorch
     desc: Become proficient with advanced SBM-BoneTorch mechanics
-    requires: SBM-BoneTorch Quest Line:sbm_bonetorch_intro
+    requires: SBM-BoneTorchQL:sbm_bonetorch_intro
     logic: AND
     task: collect "advanced items from SBM-BoneTorch" 5
     reward: choice

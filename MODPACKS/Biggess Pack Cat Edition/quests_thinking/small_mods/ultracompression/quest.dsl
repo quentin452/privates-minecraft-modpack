@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ultracompression Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ultracompression
 @filename ultracompression-0.5.1.jar
 @size 0.28MB
 @category small_mods
-@quest_line ultracompression Quest Line
+@quest_line ultracompressionQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ultracompression_intro
     title: Introduction to ultracompression
     desc: Learn the basics of ultracompression and craft your first item
-    requires: ultracompression Quest Line:ultracompression_discover
+    requires: ultracompressionQL:ultracompression_discover
     logic: AND
     task: craft "any item from ultracompression" 1
     reward: item minecraft:book 1 "ultracompression Guide"
@@ -36,7 +37,7 @@
 >quest ultracompression_master
     title: Master ultracompression
     desc: Become proficient with advanced ultracompression mechanics
-    requires: ultracompression Quest Line:ultracompression_intro
+    requires: ultracompressionQL:ultracompression_intro
     logic: AND
     task: collect "advanced items from ultracompression" 5
     reward: choice

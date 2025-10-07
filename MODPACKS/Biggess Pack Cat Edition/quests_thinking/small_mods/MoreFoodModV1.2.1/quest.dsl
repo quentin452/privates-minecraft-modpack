@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # MoreFoodModV1.2.1 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MoreFoodModV1.2.1
 @filename MoreFoodModV1.2.1(1.7.10).jar
 @size 0.06MB
 @category small_mods
-@quest_line MoreFoodModV1.2.1 Quest Line
+@quest_line MoreFoodModV1.2.1QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest morefoodmodv1_2_1_intro
     title: Introduction to MoreFoodModV1.2.1
     desc: Learn the basics of MoreFoodModV1.2.1 and craft your first item
-    requires: MoreFoodModV1.2.1 Quest Line:morefoodmodv1_2_1_discover
+    requires: MoreFoodModV1.2.1QL:morefoodmodv1_2_1_discover
     logic: AND
     task: craft "any item from MoreFoodModV1.2.1" 1
     reward: item minecraft:book 1 "MoreFoodModV1.2.1 Guide"
@@ -36,7 +37,7 @@
 >quest morefoodmodv1_2_1_master
     title: Master MoreFoodModV1.2.1
     desc: Become proficient with advanced MoreFoodModV1.2.1 mechanics
-    requires: MoreFoodModV1.2.1 Quest Line:morefoodmodv1_2_1_intro
+    requires: MoreFoodModV1.2.1QL:morefoodmodv1_2_1_intro
     logic: AND
     task: collect "advanced items from MoreFoodModV1.2.1" 5
     reward: choice

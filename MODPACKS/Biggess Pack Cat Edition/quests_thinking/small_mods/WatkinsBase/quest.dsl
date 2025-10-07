@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # WatkinsBase Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod WatkinsBase
 @filename WatkinsBase-0.2.jar
 @size 0.01MB
 @category small_mods
-@quest_line WatkinsBase Quest Line
+@quest_line WatkinsBaseQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest watkinsbase_intro
     title: Introduction to WatkinsBase
     desc: Learn the basics of WatkinsBase and craft your first item
-    requires: WatkinsBase Quest Line:watkinsbase_discover
+    requires: WatkinsBaseQL:watkinsbase_discover
     logic: AND
     task: craft "any item from WatkinsBase" 1
     reward: item minecraft:book 1 "WatkinsBase Guide"
@@ -36,7 +37,7 @@
 >quest watkinsbase_master
     title: Master WatkinsBase
     desc: Become proficient with advanced WatkinsBase mechanics
-    requires: WatkinsBase Quest Line:watkinsbase_intro
+    requires: WatkinsBaseQL:watkinsbase_intro
     logic: AND
     task: collect "advanced items from WatkinsBase" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # VE-FluidHandling Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod VE-FluidHandling
 @filename VE-FluidHandling-1.7.10-0.1.1b25.jar
 @size 0.10MB
 @category small_mods
-@quest_line VE-FluidHandling Quest Line
+@quest_line VE-FluidHandlingQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ve_fluidhandling_intro
     title: Introduction to VE-FluidHandling
     desc: Learn the basics of VE-FluidHandling and craft your first item
-    requires: VE-FluidHandling Quest Line:ve_fluidhandling_discover
+    requires: VE-FluidHandlingQL:ve_fluidhandling_discover
     logic: AND
     task: craft "any item from VE-FluidHandling" 1
     reward: item minecraft:book 1 "VE-FluidHandling Guide"
@@ -36,7 +37,7 @@
 >quest ve_fluidhandling_master
     title: Master VE-FluidHandling
     desc: Become proficient with advanced VE-FluidHandling mechanics
-    requires: VE-FluidHandling Quest Line:ve_fluidhandling_intro
+    requires: VE-FluidHandlingQL:ve_fluidhandling_intro
     logic: AND
     task: collect "advanced items from VE-FluidHandling" 5
     reward: choice

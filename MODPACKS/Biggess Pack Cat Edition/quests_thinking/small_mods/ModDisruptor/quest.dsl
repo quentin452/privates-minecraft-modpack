@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ModDisruptor Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ModDisruptor
 @filename ModDisruptor-1.7.10_0.2.jar
 @size 0.01MB
 @category small_mods
-@quest_line ModDisruptor Quest Line
+@quest_line ModDisruptorQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest moddisruptor_intro
     title: Introduction to ModDisruptor
     desc: Learn the basics of ModDisruptor and craft your first item
-    requires: ModDisruptor Quest Line:moddisruptor_discover
+    requires: ModDisruptorQL:moddisruptor_discover
     logic: AND
     task: craft "any item from ModDisruptor" 1
     reward: item minecraft:book 1 "ModDisruptor Guide"
@@ -36,7 +37,7 @@
 >quest moddisruptor_master
     title: Master ModDisruptor
     desc: Become proficient with advanced ModDisruptor mechanics
-    requires: ModDisruptor Quest Line:moddisruptor_intro
+    requires: ModDisruptorQL:moddisruptor_intro
     logic: AND
     task: collect "advanced items from ModDisruptor" 5
     reward: choice

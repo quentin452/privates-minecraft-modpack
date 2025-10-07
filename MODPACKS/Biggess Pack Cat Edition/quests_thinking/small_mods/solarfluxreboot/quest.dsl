@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # solarfluxreboot Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod solarfluxreboot
 @filename solarfluxreboot-1.0.0.jar
 @size 0.56MB
 @category small_mods
-@quest_line solarfluxreboot Quest Line
+@quest_line solarfluxrebootQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest solarfluxreboot_intro
     title: Introduction to solarfluxreboot
     desc: Learn the basics of solarfluxreboot and craft your first item
-    requires: solarfluxreboot Quest Line:solarfluxreboot_discover
+    requires: solarfluxrebootQL:solarfluxreboot_discover
     logic: AND
     task: craft "any item from solarfluxreboot" 1
     reward: item minecraft:book 1 "solarfluxreboot Guide"
@@ -36,7 +37,7 @@
 >quest solarfluxreboot_master
     title: Master solarfluxreboot
     desc: Become proficient with advanced solarfluxreboot mechanics
-    requires: solarfluxreboot Quest Line:solarfluxreboot_intro
+    requires: solarfluxrebootQL:solarfluxreboot_intro
     logic: AND
     task: collect "advanced items from solarfluxreboot" 5
     reward: choice

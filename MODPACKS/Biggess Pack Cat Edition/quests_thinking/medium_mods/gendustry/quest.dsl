@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # gendustry Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod gendustry
 @filename gendustry-1.9.4-GTNH.jar
 @size 2.46MB
 @category medium_mods
-@quest_line gendustry Quest Line
+@quest_line gendustryQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest gendustry_intro
     title: Introduction to gendustry
     desc: Learn the basics of gendustry and craft your first item
-    requires: gendustry Quest Line:gendustry_discover
+    requires: gendustryQL:gendustry_discover
     logic: AND
     task: craft "any item from gendustry" 1
     reward: item minecraft:book 1 "gendustry Guide"
@@ -36,7 +37,7 @@
 >quest gendustry_master
     title: Master gendustry
     desc: Become proficient with advanced gendustry mechanics
-    requires: gendustry Quest Line:gendustry_intro
+    requires: gendustryQL:gendustry_intro
     logic: AND
     task: collect "advanced items from gendustry" 5
     reward: choice

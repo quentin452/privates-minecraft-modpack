@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # orecreepers1.7.10_v.1 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod orecreepers1.7.10_v.1
 @filename orecreepers1.7.10_v.1.jar
 @size 0.05MB
 @category small_mods
-@quest_line orecreepers1.7.10_v.1 Quest Line
+@quest_line orecreepers1.7.10_v.1QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest orecreepers1_7_10_v_1_intro
     title: Introduction to orecreepers1.7.10_v.1
     desc: Learn the basics of orecreepers1.7.10_v.1 and craft your first item
-    requires: orecreepers1.7.10_v.1 Quest Line:orecreepers1_7_10_v_1_discover
+    requires: orecreepers1.7.10_v.1QL:orecreepers1_7_10_v_1_discover
     logic: AND
     task: craft "any item from orecreepers1.7.10_v.1" 1
     reward: item minecraft:book 1 "orecreepers1.7.10_v.1 Guide"
@@ -36,7 +37,7 @@
 >quest orecreepers1_7_10_v_1_master
     title: Master orecreepers1.7.10_v.1
     desc: Become proficient with advanced orecreepers1.7.10_v.1 mechanics
-    requires: orecreepers1.7.10_v.1 Quest Line:orecreepers1_7_10_v_1_intro
+    requires: orecreepers1.7.10_v.1QL:orecreepers1_7_10_v_1_intro
     logic: AND
     task: collect "advanced items from orecreepers1.7.10_v.1" 5
     reward: choice

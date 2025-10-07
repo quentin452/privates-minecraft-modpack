@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ExtraTiC Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ExtraTiC
 @filename ExtraTiC-1.7.10-1.4.6.jar
 @size 11.02MB
 @category large_mods
-@quest_line ExtraTiC Quest Line
+@quest_line ExtraTiCQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest extratic_intro
     title: Introduction to ExtraTiC
     desc: Learn the basics of ExtraTiC and craft your first item
-    requires: ExtraTiC Quest Line:extratic_discover
+    requires: ExtraTiCQL:extratic_discover
     logic: AND
     task: craft "any item from ExtraTiC" 1
     reward: item minecraft:book 1 "ExtraTiC Guide"
@@ -36,7 +37,7 @@
 >quest extratic_master
     title: Master ExtraTiC
     desc: Become proficient with advanced ExtraTiC mechanics
-    requires: ExtraTiC Quest Line:extratic_intro
+    requires: ExtraTiCQL:extratic_intro
     logic: AND
     task: collect "advanced items from ExtraTiC" 5
     reward: choice

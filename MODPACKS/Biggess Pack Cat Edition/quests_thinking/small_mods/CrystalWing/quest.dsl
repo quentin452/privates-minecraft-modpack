@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # CrystalWing Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CrystalWing
 @filename [1.7.10]CrystalWing-universal-1.7.10.r02.jar
 @size 0.04MB
 @category small_mods
-@quest_line CrystalWing Quest Line
+@quest_line CrystalWingQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest crystalwing_intro
     title: Introduction to CrystalWing
     desc: Learn the basics of CrystalWing and craft your first item
-    requires: CrystalWing Quest Line:crystalwing_discover
+    requires: CrystalWingQL:crystalwing_discover
     logic: AND
     task: craft "any item from CrystalWing" 1
     reward: item minecraft:book 1 "CrystalWing Guide"
@@ -36,7 +37,7 @@
 >quest crystalwing_master
     title: Master CrystalWing
     desc: Become proficient with advanced CrystalWing mechanics
-    requires: CrystalWing Quest Line:crystalwing_intro
+    requires: CrystalWingQL:crystalwing_intro
     logic: AND
     task: collect "advanced items from CrystalWing" 5
     reward: choice

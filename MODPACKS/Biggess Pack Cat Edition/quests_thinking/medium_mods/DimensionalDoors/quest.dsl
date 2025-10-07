@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # DimensionalDoors Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod DimensionalDoors
 @filename DimensionalDoors-2.2.6-1.7.10.jar
 @size 3.84MB
 @category medium_mods
-@quest_line DimensionalDoors Quest Line
+@quest_line DimensionalDoorsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest dimensionaldoors_intro
     title: Introduction to DimensionalDoors
     desc: Learn the basics of DimensionalDoors and craft your first item
-    requires: DimensionalDoors Quest Line:dimensionaldoors_discover
+    requires: DimensionalDoorsQL:dimensionaldoors_discover
     logic: AND
     task: craft "any item from DimensionalDoors" 1
     reward: item minecraft:book 1 "DimensionalDoors Guide"
@@ -36,7 +37,7 @@
 >quest dimensionaldoors_master
     title: Master DimensionalDoors
     desc: Become proficient with advanced DimensionalDoors mechanics
-    requires: DimensionalDoors Quest Line:dimensionaldoors_intro
+    requires: DimensionalDoorsQL:dimensionaldoors_intro
     logic: AND
     task: collect "advanced items from DimensionalDoors" 5
     reward: choice

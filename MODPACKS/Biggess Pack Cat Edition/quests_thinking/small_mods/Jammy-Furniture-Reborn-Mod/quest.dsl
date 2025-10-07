@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Jammy-Furniture-Reborn-Mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Jammy-Furniture-Reborn-Mod
 @filename Jammy-Furniture-Reborn-Mod-1.7.10.jar
 @size 1.58MB
 @category small_mods
-@quest_line Jammy-Furniture-Reborn-Mod Quest Line
+@quest_line Jammy-Furniture-Reborn-ModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest jammy_furniture_reborn_mod_intro
     title: Introduction to Jammy-Furniture-Reborn-Mod
     desc: Learn the basics of Jammy-Furniture-Reborn-Mod and craft your first item
-    requires: Jammy-Furniture-Reborn-Mod Quest Line:jammy_furniture_reborn_mod_discover
+    requires: Jammy-Furniture-Reborn-ModQL:jammy_furniture_reborn_mod_discover
     logic: AND
     task: craft "any item from Jammy-Furniture-Reborn-Mod" 1
     reward: item minecraft:book 1 "Jammy-Furniture-Reborn-Mod Guide"
@@ -36,7 +37,7 @@
 >quest jammy_furniture_reborn_mod_master
     title: Master Jammy-Furniture-Reborn-Mod
     desc: Become proficient with advanced Jammy-Furniture-Reborn-Mod mechanics
-    requires: Jammy-Furniture-Reborn-Mod Quest Line:jammy_furniture_reborn_mod_intro
+    requires: Jammy-Furniture-Reborn-ModQL:jammy_furniture_reborn_mod_intro
     logic: AND
     task: collect "advanced items from Jammy-Furniture-Reborn-Mod" 5
     reward: choice

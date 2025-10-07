@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Thaumcraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Thaumcraft
 @filename Thaumcraft-1.7.10-4.2.3.5.jar
 @size 11.98MB
 @category large_mods
-@quest_line Thaumcraft Quest Line
+@quest_line ThaumcraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest thaumcraft_intro
     title: Introduction to Thaumcraft
     desc: Learn the basics of Thaumcraft and craft your first item
-    requires: Thaumcraft Quest Line:thaumcraft_discover
+    requires: ThaumcraftQL:thaumcraft_discover
     logic: AND
     task: craft "any item from Thaumcraft" 1
     reward: item minecraft:book 1 "Thaumcraft Guide"
@@ -36,7 +37,7 @@
 >quest thaumcraft_master
     title: Master Thaumcraft
     desc: Become proficient with advanced Thaumcraft mechanics
-    requires: Thaumcraft Quest Line:thaumcraft_intro
+    requires: ThaumcraftQL:thaumcraft_intro
     logic: AND
     task: collect "advanced items from Thaumcraft" 5
     reward: choice

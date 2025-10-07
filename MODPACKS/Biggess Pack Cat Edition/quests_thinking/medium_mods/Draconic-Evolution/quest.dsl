@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Draconic-Evolution Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Draconic-Evolution
 @filename Draconic-Evolution-1.4.27-GTNH.jar
 @size 6.52MB
 @category medium_mods
-@quest_line Draconic-Evolution Quest Line
+@quest_line Draconic-EvolutionQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest draconic_evolution_intro
     title: Introduction to Draconic-Evolution
     desc: Learn the basics of Draconic-Evolution and craft your first item
-    requires: Draconic-Evolution Quest Line:draconic_evolution_discover
+    requires: Draconic-EvolutionQL:draconic_evolution_discover
     logic: AND
     task: craft "any item from Draconic-Evolution" 1
     reward: item minecraft:book 1 "Draconic-Evolution Guide"
@@ -36,7 +37,7 @@
 >quest draconic_evolution_master
     title: Master Draconic-Evolution
     desc: Become proficient with advanced Draconic-Evolution mechanics
-    requires: Draconic-Evolution Quest Line:draconic_evolution_intro
+    requires: Draconic-EvolutionQL:draconic_evolution_intro
     logic: AND
     task: collect "advanced items from Draconic-Evolution" 5
     reward: choice

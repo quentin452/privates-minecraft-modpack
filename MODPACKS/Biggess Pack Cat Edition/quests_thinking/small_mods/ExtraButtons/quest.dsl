@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ExtraButtons Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ExtraButtons
 @filename ExtraButtons-1.7.10.1.jar
 @size 0.06MB
 @category small_mods
-@quest_line ExtraButtons Quest Line
+@quest_line ExtraButtonsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest extrabuttons_intro
     title: Introduction to ExtraButtons
     desc: Learn the basics of ExtraButtons and craft your first item
-    requires: ExtraButtons Quest Line:extrabuttons_discover
+    requires: ExtraButtonsQL:extrabuttons_discover
     logic: AND
     task: craft "any item from ExtraButtons" 1
     reward: item minecraft:book 1 "ExtraButtons Guide"
@@ -36,7 +37,7 @@
 >quest extrabuttons_master
     title: Master ExtraButtons
     desc: Become proficient with advanced ExtraButtons mechanics
-    requires: ExtraButtons Quest Line:extrabuttons_intro
+    requires: ExtraButtonsQL:extrabuttons_intro
     logic: AND
     task: collect "advanced items from ExtraButtons" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # FamiliarsDefaultMobPack Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod FamiliarsDefaultMobPack
 @filename FamiliarsDefaultMobPack-1.7.10.jar
 @size 0.04MB
 @category small_mods
-@quest_line FamiliarsDefaultMobPack Quest Line
+@quest_line FamiliarsDefaultMobPackQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest familiarsdefaultmobpack_intro
     title: Introduction to FamiliarsDefaultMobPack
     desc: Learn the basics of FamiliarsDefaultMobPack and craft your first item
-    requires: FamiliarsDefaultMobPack Quest Line:familiarsdefaultmobpack_discover
+    requires: FamiliarsDefaultMobPackQL:familiarsdefaultmobpack_discover
     logic: AND
     task: craft "any item from FamiliarsDefaultMobPack" 1
     reward: item minecraft:book 1 "FamiliarsDefaultMobPack Guide"
@@ -36,7 +37,7 @@
 >quest familiarsdefaultmobpack_master
     title: Master FamiliarsDefaultMobPack
     desc: Become proficient with advanced FamiliarsDefaultMobPack mechanics
-    requires: FamiliarsDefaultMobPack Quest Line:familiarsdefaultmobpack_intro
+    requires: FamiliarsDefaultMobPackQL:familiarsdefaultmobpack_intro
     logic: AND
     task: collect "advanced items from FamiliarsDefaultMobPack" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ExtraBlocksy Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ExtraBlocksy
 @filename ExtraBlocksy-1.7.10-1.0.1.jar
 @size 0.02MB
 @category small_mods
-@quest_line ExtraBlocksy Quest Line
+@quest_line ExtraBlocksyQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest extrablocksy_intro
     title: Introduction to ExtraBlocksy
     desc: Learn the basics of ExtraBlocksy and craft your first item
-    requires: ExtraBlocksy Quest Line:extrablocksy_discover
+    requires: ExtraBlocksyQL:extrablocksy_discover
     logic: AND
     task: craft "any item from ExtraBlocksy" 1
     reward: item minecraft:book 1 "ExtraBlocksy Guide"
@@ -36,7 +37,7 @@
 >quest extrablocksy_master
     title: Master ExtraBlocksy
     desc: Become proficient with advanced ExtraBlocksy mechanics
-    requires: ExtraBlocksy Quest Line:extrablocksy_intro
+    requires: ExtraBlocksyQL:extrablocksy_intro
     logic: AND
     task: collect "advanced items from ExtraBlocksy" 5
     reward: choice

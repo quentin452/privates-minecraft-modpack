@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # steelindustries Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod steelindustries
 @filename steelindustries-1.7.10-0.6.jar
 @size 0.09MB
 @category small_mods
-@quest_line steelindustries Quest Line
+@quest_line steelindustriesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest steelindustries_intro
     title: Introduction to steelindustries
     desc: Learn the basics of steelindustries and craft your first item
-    requires: steelindustries Quest Line:steelindustries_discover
+    requires: steelindustriesQL:steelindustries_discover
     logic: AND
     task: craft "any item from steelindustries" 1
     reward: item minecraft:book 1 "steelindustries Guide"
@@ -36,7 +37,7 @@
 >quest steelindustries_master
     title: Master steelindustries
     desc: Become proficient with advanced steelindustries mechanics
-    requires: steelindustries Quest Line:steelindustries_intro
+    requires: steelindustriesQL:steelindustries_intro
     logic: AND
     task: collect "advanced items from steelindustries" 5
     reward: choice

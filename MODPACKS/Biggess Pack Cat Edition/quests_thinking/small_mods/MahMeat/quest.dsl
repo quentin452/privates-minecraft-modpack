@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # MahMeat Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MahMeat
 @filename MahMeat-1.7.10-1.0.2-backport.jar
 @size 0.02MB
 @category small_mods
-@quest_line MahMeat Quest Line
+@quest_line MahMeatQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest mahmeat_intro
     title: Introduction to MahMeat
     desc: Learn the basics of MahMeat and craft your first item
-    requires: MahMeat Quest Line:mahmeat_discover
+    requires: MahMeatQL:mahmeat_discover
     logic: AND
     task: craft "any item from MahMeat" 1
     reward: item minecraft:book 1 "MahMeat Guide"
@@ -36,7 +37,7 @@
 >quest mahmeat_master
     title: Master MahMeat
     desc: Become proficient with advanced MahMeat mechanics
-    requires: MahMeat Quest Line:mahmeat_intro
+    requires: MahMeatQL:mahmeat_intro
     logic: AND
     task: collect "advanced items from MahMeat" 5
     reward: choice

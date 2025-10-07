@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # signposts Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod signposts
 @filename signposts-1.3.5-GTNH.jar
 @size 0.04MB
 @category small_mods
-@quest_line signposts Quest Line
+@quest_line signpostsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest signposts_intro
     title: Introduction to signposts
     desc: Learn the basics of signposts and craft your first item
-    requires: signposts Quest Line:signposts_discover
+    requires: signpostsQL:signposts_discover
     logic: AND
     task: craft "any item from signposts" 1
     reward: item minecraft:book 1 "signposts Guide"
@@ -36,7 +37,7 @@
 >quest signposts_master
     title: Master signposts
     desc: Become proficient with advanced signposts mechanics
-    requires: signposts Quest Line:signposts_intro
+    requires: signpostsQL:signposts_intro
     logic: AND
     task: collect "advanced items from signposts" 5
     reward: choice

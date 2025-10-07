@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BattleAxeMod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BattleAxeMod
 @filename BattleAxeMod.jar
 @size 0.13MB
 @category small_mods
-@quest_line BattleAxeMod Quest Line
+@quest_line BattleAxeModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest battleaxemod_intro
     title: Introduction to BattleAxeMod
     desc: Learn the basics of BattleAxeMod and craft your first item
-    requires: BattleAxeMod Quest Line:battleaxemod_discover
+    requires: BattleAxeModQL:battleaxemod_discover
     logic: AND
     task: craft "any item from BattleAxeMod" 1
     reward: item minecraft:book 1 "BattleAxeMod Guide"
@@ -36,7 +37,7 @@
 >quest battleaxemod_master
     title: Master BattleAxeMod
     desc: Become proficient with advanced BattleAxeMod mechanics
-    requires: BattleAxeMod Quest Line:battleaxemod_intro
+    requires: BattleAxeModQL:battleaxemod_intro
     logic: AND
     task: collect "advanced items from BattleAxeMod" 5
     reward: choice

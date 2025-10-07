@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # PowerApples Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod PowerApples
 @filename PowerApples-1.7.10-1.1.3.jar
 @size 0.02MB
 @category small_mods
-@quest_line PowerApples Quest Line
+@quest_line PowerApplesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest powerapples_intro
     title: Introduction to PowerApples
     desc: Learn the basics of PowerApples and craft your first item
-    requires: PowerApples Quest Line:powerapples_discover
+    requires: PowerApplesQL:powerapples_discover
     logic: AND
     task: craft "any item from PowerApples" 1
     reward: item minecraft:book 1 "PowerApples Guide"
@@ -36,7 +37,7 @@
 >quest powerapples_master
     title: Master PowerApples
     desc: Become proficient with advanced PowerApples mechanics
-    requires: PowerApples Quest Line:powerapples_intro
+    requires: PowerApplesQL:powerapples_intro
     logic: AND
     task: collect "advanced items from PowerApples" 5
     reward: choice

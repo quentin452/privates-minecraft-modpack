@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # M&Ms-Mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod M&Ms-Mod
 @filename M&Ms-Mod-1.7.10.jar
 @size 0.07MB
 @category small_mods
-@quest_line M&Ms-Mod Quest Line
+@quest_line M&Ms-ModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest mms_mod_intro
     title: Introduction to M&Ms-Mod
     desc: Learn the basics of M&Ms-Mod and craft your first item
-    requires: M&Ms-Mod Quest Line:mms_mod_discover
+    requires: M&Ms-ModQL:mms_mod_discover
     logic: AND
     task: craft "any item from M&Ms-Mod" 1
     reward: item minecraft:book 1 "M&Ms-Mod Guide"
@@ -36,7 +37,7 @@
 >quest mms_mod_master
     title: Master M&Ms-Mod
     desc: Become proficient with advanced M&Ms-Mod mechanics
-    requires: M&Ms-Mod Quest Line:mms_mod_intro
+    requires: M&Ms-ModQL:mms_mod_intro
     logic: AND
     task: collect "advanced items from M&Ms-Mod" 5
     reward: choice

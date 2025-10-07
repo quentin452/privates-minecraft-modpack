@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # terralizationcompat Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod terralizationcompat
 @filename terralizationcompat-1.7.10-1.0.5.jar
 @size 0.02MB
 @category small_mods
-@quest_line terralizationcompat Quest Line
+@quest_line terralizationcompatQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest terralizationcompat_intro
     title: Introduction to terralizationcompat
     desc: Learn the basics of terralizationcompat and craft your first item
-    requires: terralizationcompat Quest Line:terralizationcompat_discover
+    requires: terralizationcompatQL:terralizationcompat_discover
     logic: AND
     task: craft "any item from terralizationcompat" 1
     reward: item minecraft:book 1 "terralizationcompat Guide"
@@ -36,7 +37,7 @@
 >quest terralizationcompat_master
     title: Master terralizationcompat
     desc: Become proficient with advanced terralizationcompat mechanics
-    requires: terralizationcompat Quest Line:terralizationcompat_intro
+    requires: terralizationcompatQL:terralizationcompat_intro
     logic: AND
     task: collect "advanced items from terralizationcompat" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ExtraStonesMod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ExtraStonesMod
 @filename ExtraStonesMod_1.7.10_1.0.jar.zip
 @size 0.07MB
 @category small_mods
-@quest_line ExtraStonesMod Quest Line
+@quest_line ExtraStonesModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest extrastonesmod_intro
     title: Introduction to ExtraStonesMod
     desc: Learn the basics of ExtraStonesMod and craft your first item
-    requires: ExtraStonesMod Quest Line:extrastonesmod_discover
+    requires: ExtraStonesModQL:extrastonesmod_discover
     logic: AND
     task: craft "any item from ExtraStonesMod" 1
     reward: item minecraft:book 1 "ExtraStonesMod Guide"
@@ -36,7 +37,7 @@
 >quest extrastonesmod_master
     title: Master ExtraStonesMod
     desc: Become proficient with advanced ExtraStonesMod mechanics
-    requires: ExtraStonesMod Quest Line:extrastonesmod_intro
+    requires: ExtraStonesModQL:extrastonesmod_intro
     logic: AND
     task: collect "advanced items from ExtraStonesMod" 5
     reward: choice

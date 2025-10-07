@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # LoreExpansion Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod LoreExpansion
 @filename LoreExpansion-1.7.10-1.0.5.B11.jar
 @size 1.66MB
 @category small_mods
-@quest_line LoreExpansion Quest Line
+@quest_line LoreExpansionQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest loreexpansion_intro
     title: Introduction to LoreExpansion
     desc: Learn the basics of LoreExpansion and craft your first item
-    requires: LoreExpansion Quest Line:loreexpansion_discover
+    requires: LoreExpansionQL:loreexpansion_discover
     logic: AND
     task: craft "any item from LoreExpansion" 1
     reward: item minecraft:book 1 "LoreExpansion Guide"
@@ -36,7 +37,7 @@
 >quest loreexpansion_master
     title: Master LoreExpansion
     desc: Become proficient with advanced LoreExpansion mechanics
-    requires: LoreExpansion Quest Line:loreexpansion_intro
+    requires: LoreExpansionQL:loreexpansion_intro
     logic: AND
     task: collect "advanced items from LoreExpansion" 5
     reward: choice

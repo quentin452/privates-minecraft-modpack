@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Futucytakun Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Futucytakun
 @filename Futucytakun-1.7.10-15.1.0.jar
 @size 0.05MB
 @category small_mods
-@quest_line Futucytakun Quest Line
+@quest_line FutucytakunQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest futucytakun_intro
     title: Introduction to Futucytakun
     desc: Learn the basics of Futucytakun and craft your first item
-    requires: Futucytakun Quest Line:futucytakun_discover
+    requires: FutucytakunQL:futucytakun_discover
     logic: AND
     task: craft "any item from Futucytakun" 1
     reward: item minecraft:book 1 "Futucytakun Guide"
@@ -36,7 +37,7 @@
 >quest futucytakun_master
     title: Master Futucytakun
     desc: Become proficient with advanced Futucytakun mechanics
-    requires: Futucytakun Quest Line:futucytakun_intro
+    requires: FutucytakunQL:futucytakun_intro
     logic: AND
     task: collect "advanced items from Futucytakun" 5
     reward: choice

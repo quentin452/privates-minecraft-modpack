@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # baconators Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod baconators
 @filename baconators-1.7.10-2.0.3.jar
 @size 0.19MB
 @category small_mods
-@quest_line baconators Quest Line
+@quest_line baconatorsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest baconators_intro
     title: Introduction to baconators
     desc: Learn the basics of baconators and craft your first item
-    requires: baconators Quest Line:baconators_discover
+    requires: baconatorsQL:baconators_discover
     logic: AND
     task: craft "any item from baconators" 1
     reward: item minecraft:book 1 "baconators Guide"
@@ -36,7 +37,7 @@
 >quest baconators_master
     title: Master baconators
     desc: Become proficient with advanced baconators mechanics
-    requires: baconators Quest Line:baconators_intro
+    requires: baconatorsQL:baconators_intro
     logic: AND
     task: collect "advanced items from baconators" 5
     reward: choice

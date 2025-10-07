@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BowOverhaul Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BowOverhaul
 @filename BowOverhaul-1.7.10-0.0.0.jar
 @size 0.35MB
 @category small_mods
-@quest_line BowOverhaul Quest Line
+@quest_line BowOverhaulQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest bowoverhaul_intro
     title: Introduction to BowOverhaul
     desc: Learn the basics of BowOverhaul and craft your first item
-    requires: BowOverhaul Quest Line:bowoverhaul_discover
+    requires: BowOverhaulQL:bowoverhaul_discover
     logic: AND
     task: craft "any item from BowOverhaul" 1
     reward: item minecraft:book 1 "BowOverhaul Guide"
@@ -36,7 +37,7 @@
 >quest bowoverhaul_master
     title: Master BowOverhaul
     desc: Become proficient with advanced BowOverhaul mechanics
-    requires: BowOverhaul Quest Line:bowoverhaul_intro
+    requires: BowOverhaulQL:bowoverhaul_intro
     logic: AND
     task: collect "advanced items from BowOverhaul" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Ore+Spiders V1.2.1 For MC 1.7.10 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Ore+Spiders V1.2.1 For MC 1.7.10
 @filename Ore+Spiders V1.2.1 For MC 1.7.10.jar
 @size 0.13MB
 @category small_mods
-@quest_line Ore+Spiders V1.2.1 For MC 1.7.10 Quest Line
+@quest_line Ore+Spiders V1.2.1 For MC 1.7.10QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest orespiders_v1_2_1_for_mc_1_7_10_intro
     title: Introduction to Ore+Spiders V1.2.1 For MC 1.7.10
     desc: Learn the basics of Ore+Spiders V1.2.1 For MC 1.7.10 and craft your first item
-    requires: Ore+Spiders V1.2.1 For MC 1.7.10 Quest Line:orespiders_v1_2_1_for_mc_1_7_10_discover
+    requires: Ore+Spiders V1.2.1 For MC 1.7.10QL:orespiders_v1_2_1_for_mc_1_7_10_discover
     logic: AND
     task: craft "any item from Ore+Spiders V1.2.1 For MC 1.7.10" 1
     reward: item minecraft:book 1 "Ore+Spiders V1.2.1 For MC 1.7.10 Guide"
@@ -36,7 +37,7 @@
 >quest orespiders_v1_2_1_for_mc_1_7_10_master
     title: Master Ore+Spiders V1.2.1 For MC 1.7.10
     desc: Become proficient with advanced Ore+Spiders V1.2.1 For MC 1.7.10 mechanics
-    requires: Ore+Spiders V1.2.1 For MC 1.7.10 Quest Line:orespiders_v1_2_1_for_mc_1_7_10_intro
+    requires: Ore+Spiders V1.2.1 For MC 1.7.10QL:orespiders_v1_2_1_for_mc_1_7_10_intro
     logic: AND
     task: collect "advanced items from Ore+Spiders V1.2.1 For MC 1.7.10" 5
     reward: choice

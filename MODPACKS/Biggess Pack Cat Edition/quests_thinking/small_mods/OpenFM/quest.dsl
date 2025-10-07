@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # OpenFM Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod OpenFM
 @filename OpenFM-1.7.10-0.1.0-45.jar
 @size 1.35MB
 @category small_mods
-@quest_line OpenFM Quest Line
+@quest_line OpenFMQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest openfm_intro
     title: Introduction to OpenFM
     desc: Learn the basics of OpenFM and craft your first item
-    requires: OpenFM Quest Line:openfm_discover
+    requires: OpenFMQL:openfm_discover
     logic: AND
     task: craft "any item from OpenFM" 1
     reward: item minecraft:book 1 "OpenFM Guide"
@@ -36,7 +37,7 @@
 >quest openfm_master
     title: Master OpenFM
     desc: Become proficient with advanced OpenFM mechanics
-    requires: OpenFM Quest Line:openfm_intro
+    requires: OpenFMQL:openfm_intro
     logic: AND
     task: collect "advanced items from OpenFM" 5
     reward: choice

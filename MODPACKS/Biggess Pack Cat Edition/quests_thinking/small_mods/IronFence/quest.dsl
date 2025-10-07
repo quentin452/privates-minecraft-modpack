@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # IronFence Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod IronFence
 @filename IronFence-1.1.0.jar
 @size 0.02MB
 @category small_mods
-@quest_line IronFence Quest Line
+@quest_line IronFenceQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ironfence_intro
     title: Introduction to IronFence
     desc: Learn the basics of IronFence and craft your first item
-    requires: IronFence Quest Line:ironfence_discover
+    requires: IronFenceQL:ironfence_discover
     logic: AND
     task: craft "any item from IronFence" 1
     reward: item minecraft:book 1 "IronFence Guide"
@@ -36,7 +37,7 @@
 >quest ironfence_master
     title: Master IronFence
     desc: Become proficient with advanced IronFence mechanics
-    requires: IronFence Quest Line:ironfence_intro
+    requires: IronFenceQL:ironfence_intro
     logic: AND
     task: collect "advanced items from IronFence" 5
     reward: choice

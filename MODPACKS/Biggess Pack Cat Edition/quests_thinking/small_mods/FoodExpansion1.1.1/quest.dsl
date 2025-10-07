@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # FoodExpansion1.1.1 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod FoodExpansion1.1.1
 @filename FoodExpansion1.1.1-mc1.7.10.jar
 @size 0.04MB
 @category small_mods
-@quest_line FoodExpansion1.1.1 Quest Line
+@quest_line FoodExpansion1.1.1QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest foodexpansion1_1_1_intro
     title: Introduction to FoodExpansion1.1.1
     desc: Learn the basics of FoodExpansion1.1.1 and craft your first item
-    requires: FoodExpansion1.1.1 Quest Line:foodexpansion1_1_1_discover
+    requires: FoodExpansion1.1.1QL:foodexpansion1_1_1_discover
     logic: AND
     task: craft "any item from FoodExpansion1.1.1" 1
     reward: item minecraft:book 1 "FoodExpansion1.1.1 Guide"
@@ -36,7 +37,7 @@
 >quest foodexpansion1_1_1_master
     title: Master FoodExpansion1.1.1
     desc: Become proficient with advanced FoodExpansion1.1.1 mechanics
-    requires: FoodExpansion1.1.1 Quest Line:foodexpansion1_1_1_intro
+    requires: FoodExpansion1.1.1QL:foodexpansion1_1_1_intro
     logic: AND
     task: collect "advanced items from FoodExpansion1.1.1" 5
     reward: choice

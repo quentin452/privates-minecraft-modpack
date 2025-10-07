@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BiblioCraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BiblioCraft
 @filename BiblioCraft[v1.11.7][MC1.7.10].jar
 @size 5.20MB
 @category medium_mods
-@quest_line BiblioCraft Quest Line
+@quest_line BiblioCraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest bibliocraftv1_11_7mc1_7_10_intro
     title: Introduction to BiblioCraft
     desc: Learn the basics of BiblioCraft and craft your first item
-    requires: BiblioCraft Quest Line:bibliocraftv1_11_7mc1_7_10_discover
+    requires: BiblioCraftQL:bibliocraftv1_11_7mc1_7_10_discover
     logic: AND
     task: craft "any item from BiblioCraft" 1
     reward: item minecraft:book 1 "BiblioCraft Guide"
@@ -36,7 +37,7 @@
 >quest bibliocraftv1_11_7mc1_7_10_master
     title: Master BiblioCraft
     desc: Become proficient with advanced BiblioCraft mechanics
-    requires: BiblioCraft Quest Line:bibliocraftv1_11_7mc1_7_10_intro
+    requires: BiblioCraftQL:bibliocraftv1_11_7mc1_7_10_intro
     logic: AND
     task: collect "advanced items from BiblioCraft" 5
     reward: choice

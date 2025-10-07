@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # amazingtrophies Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod amazingtrophies
 @filename amazingtrophies-1.3.9-pre.jar
 @size 0.12MB
 @category small_mods
-@quest_line amazingtrophies Quest Line
+@quest_line amazingtrophiesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest amazingtrophies_intro
     title: Introduction to amazingtrophies
     desc: Learn the basics of amazingtrophies and craft your first item
-    requires: amazingtrophies Quest Line:amazingtrophies_discover
+    requires: amazingtrophiesQL:amazingtrophies_discover
     logic: AND
     task: craft "any item from amazingtrophies" 1
     reward: item minecraft:book 1 "amazingtrophies Guide"
@@ -36,7 +37,7 @@
 >quest amazingtrophies_master
     title: Master amazingtrophies
     desc: Become proficient with advanced amazingtrophies mechanics
-    requires: amazingtrophies Quest Line:amazingtrophies_intro
+    requires: amazingtrophiesQL:amazingtrophies_intro
     logic: AND
     task: collect "advanced items from amazingtrophies" 5
     reward: choice

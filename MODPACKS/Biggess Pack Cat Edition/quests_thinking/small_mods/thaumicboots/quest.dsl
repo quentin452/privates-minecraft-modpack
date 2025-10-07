@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # thaumicboots Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod thaumicboots
 @filename thaumicboots-1.4.14.jar
 @size 1.48MB
 @category small_mods
-@quest_line thaumicboots Quest Line
+@quest_line thaumicbootsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest thaumicboots_intro
     title: Introduction to thaumicboots
     desc: Learn the basics of thaumicboots and craft your first item
-    requires: thaumicboots Quest Line:thaumicboots_discover
+    requires: thaumicbootsQL:thaumicboots_discover
     logic: AND
     task: craft "any item from thaumicboots" 1
     reward: item minecraft:book 1 "thaumicboots Guide"
@@ -36,7 +37,7 @@
 >quest thaumicboots_master
     title: Master thaumicboots
     desc: Become proficient with advanced thaumicboots mechanics
-    requires: thaumicboots Quest Line:thaumicboots_intro
+    requires: thaumicbootsQL:thaumicboots_intro
     logic: AND
     task: collect "advanced items from thaumicboots" 5
     reward: choice

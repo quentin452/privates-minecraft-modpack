@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # FoodOverhaul Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod FoodOverhaul
 @filename FoodOverhaul-0.6.2.jar
 @size 0.06MB
 @category small_mods
-@quest_line FoodOverhaul Quest Line
+@quest_line FoodOverhaulQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest foodoverhaul_intro
     title: Introduction to FoodOverhaul
     desc: Learn the basics of FoodOverhaul and craft your first item
-    requires: FoodOverhaul Quest Line:foodoverhaul_discover
+    requires: FoodOverhaulQL:foodoverhaul_discover
     logic: AND
     task: craft "any item from FoodOverhaul" 1
     reward: item minecraft:book 1 "FoodOverhaul Guide"
@@ -36,7 +37,7 @@
 >quest foodoverhaul_master
     title: Master FoodOverhaul
     desc: Become proficient with advanced FoodOverhaul mechanics
-    requires: FoodOverhaul Quest Line:foodoverhaul_intro
+    requires: FoodOverhaulQL:foodoverhaul_intro
     logic: AND
     task: collect "advanced items from FoodOverhaul" 5
     reward: choice

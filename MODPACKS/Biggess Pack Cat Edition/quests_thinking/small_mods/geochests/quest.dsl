@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # geochests Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod geochests
 @filename geochests-1.7.10-v1.2.3.jar
 @size 0.22MB
 @category small_mods
-@quest_line geochests Quest Line
+@quest_line geochestsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest geochests_intro
     title: Introduction to geochests
     desc: Learn the basics of geochests and craft your first item
-    requires: geochests Quest Line:geochests_discover
+    requires: geochestsQL:geochests_discover
     logic: AND
     task: craft "any item from geochests" 1
     reward: item minecraft:book 1 "geochests Guide"
@@ -36,7 +37,7 @@
 >quest geochests_master
     title: Master geochests
     desc: Become proficient with advanced geochests mechanics
-    requires: geochests Quest Line:geochests_intro
+    requires: geochestsQL:geochests_intro
     logic: AND
     task: collect "advanced items from geochests" 5
     reward: choice

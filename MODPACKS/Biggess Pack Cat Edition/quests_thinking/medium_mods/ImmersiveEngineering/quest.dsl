@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ImmersiveEngineering Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ImmersiveEngineering
 @filename ImmersiveEngineering-mc1.7.10-0.7.11-fork2.jar
 @size 3.43MB
 @category medium_mods
-@quest_line ImmersiveEngineering Quest Line
+@quest_line ImmersiveEngineeringQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest immersiveengineering_intro
     title: Introduction to ImmersiveEngineering
     desc: Learn the basics of ImmersiveEngineering and craft your first item
-    requires: ImmersiveEngineering Quest Line:immersiveengineering_discover
+    requires: ImmersiveEngineeringQL:immersiveengineering_discover
     logic: AND
     task: craft "any item from ImmersiveEngineering" 1
     reward: item minecraft:book 1 "ImmersiveEngineering Guide"
@@ -36,7 +37,7 @@
 >quest immersiveengineering_master
     title: Master ImmersiveEngineering
     desc: Become proficient with advanced ImmersiveEngineering mechanics
-    requires: ImmersiveEngineering Quest Line:immersiveengineering_intro
+    requires: ImmersiveEngineeringQL:immersiveengineering_intro
     logic: AND
     task: collect "advanced items from ImmersiveEngineering" 5
     reward: choice

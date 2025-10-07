@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # WirelessCraftingTerminal Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod WirelessCraftingTerminal
 @filename WirelessCraftingTerminal-1.12.7.jar
 @size 0.28MB
 @category small_mods
-@quest_line WirelessCraftingTerminal Quest Line
+@quest_line WirelessCraftingTerminalQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest wirelesscraftingterminal_intro
     title: Introduction to WirelessCraftingTerminal
     desc: Learn the basics of WirelessCraftingTerminal and craft your first item
-    requires: WirelessCraftingTerminal Quest Line:wirelesscraftingterminal_discover
+    requires: WirelessCraftingTerminalQL:wirelesscraftingterminal_discover
     logic: AND
     task: craft "any item from WirelessCraftingTerminal" 1
     reward: item minecraft:book 1 "WirelessCraftingTerminal Guide"
@@ -36,7 +37,7 @@
 >quest wirelesscraftingterminal_master
     title: Master WirelessCraftingTerminal
     desc: Become proficient with advanced WirelessCraftingTerminal mechanics
-    requires: WirelessCraftingTerminal Quest Line:wirelesscraftingterminal_intro
+    requires: WirelessCraftingTerminalQL:wirelesscraftingterminal_intro
     logic: AND
     task: collect "advanced items from WirelessCraftingTerminal" 5
     reward: choice

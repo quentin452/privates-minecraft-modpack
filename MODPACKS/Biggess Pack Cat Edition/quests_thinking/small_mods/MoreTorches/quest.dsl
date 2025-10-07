@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # MoreTorches Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MoreTorches
 @filename MoreTorches.jar
 @size 0.15MB
 @category small_mods
-@quest_line MoreTorches Quest Line
+@quest_line MoreTorchesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest moretorches_intro
     title: Introduction to MoreTorches
     desc: Learn the basics of MoreTorches and craft your first item
-    requires: MoreTorches Quest Line:moretorches_discover
+    requires: MoreTorchesQL:moretorches_discover
     logic: AND
     task: craft "any item from MoreTorches" 1
     reward: item minecraft:book 1 "MoreTorches Guide"
@@ -36,7 +37,7 @@
 >quest moretorches_master
     title: Master MoreTorches
     desc: Become proficient with advanced MoreTorches mechanics
-    requires: MoreTorches Quest Line:moretorches_intro
+    requires: MoreTorchesQL:moretorches_intro
     logic: AND
     task: collect "advanced items from MoreTorches" 5
     reward: choice

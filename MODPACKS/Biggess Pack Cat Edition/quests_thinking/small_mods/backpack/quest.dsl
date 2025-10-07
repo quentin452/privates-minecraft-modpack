@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # backpack Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod backpack
 @filename backpack-2.5.9-GTNH.jar
 @size 0.27MB
 @category small_mods
-@quest_line backpack Quest Line
+@quest_line backpackQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest backpack_intro
     title: Introduction to backpack
     desc: Learn the basics of backpack and craft your first item
-    requires: backpack Quest Line:backpack_discover
+    requires: backpackQL:backpack_discover
     logic: AND
     task: craft "any item from backpack" 1
     reward: item minecraft:book 1 "backpack Guide"
@@ -36,7 +37,7 @@
 >quest backpack_master
     title: Master backpack
     desc: Become proficient with advanced backpack mechanics
-    requires: backpack Quest Line:backpack_intro
+    requires: backpackQL:backpack_intro
     logic: AND
     task: collect "advanced items from backpack" 5
     reward: choice

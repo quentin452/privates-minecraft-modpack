@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ExperienceApple Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ExperienceApple
 @filename ExperienceApple-2.5.1.jar
 @size 0.16MB
 @category small_mods
-@quest_line ExperienceApple Quest Line
+@quest_line ExperienceAppleQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest experienceapple_intro
     title: Introduction to ExperienceApple
     desc: Learn the basics of ExperienceApple and craft your first item
-    requires: ExperienceApple Quest Line:experienceapple_discover
+    requires: ExperienceAppleQL:experienceapple_discover
     logic: AND
     task: craft "any item from ExperienceApple" 1
     reward: item minecraft:book 1 "ExperienceApple Guide"
@@ -36,7 +37,7 @@
 >quest experienceapple_master
     title: Master ExperienceApple
     desc: Become proficient with advanced ExperienceApple mechanics
-    requires: ExperienceApple Quest Line:experienceapple_intro
+    requires: ExperienceAppleQL:experienceapple_intro
     logic: AND
     task: collect "advanced items from ExperienceApple" 5
     reward: choice

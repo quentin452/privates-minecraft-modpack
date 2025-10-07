@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # zeldaswordskills Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod zeldaswordskills
 @filename zeldaswordskills-1.7.10-v2.5.3.6.jar
 @size 7.12MB
 @category medium_mods
-@quest_line zeldaswordskills Quest Line
+@quest_line zeldaswordskillsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest zeldaswordskills_intro
     title: Introduction to zeldaswordskills
     desc: Learn the basics of zeldaswordskills and craft your first item
-    requires: zeldaswordskills Quest Line:zeldaswordskills_discover
+    requires: zeldaswordskillsQL:zeldaswordskills_discover
     logic: AND
     task: craft "any item from zeldaswordskills" 1
     reward: item minecraft:book 1 "zeldaswordskills Guide"
@@ -36,7 +37,7 @@
 >quest zeldaswordskills_master
     title: Master zeldaswordskills
     desc: Become proficient with advanced zeldaswordskills mechanics
-    requires: zeldaswordskills Quest Line:zeldaswordskills_intro
+    requires: zeldaswordskillsQL:zeldaswordskills_intro
     logic: AND
     task: collect "advanced items from zeldaswordskills" 5
     reward: choice

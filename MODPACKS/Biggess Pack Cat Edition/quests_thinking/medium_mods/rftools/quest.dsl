@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # rftools Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod rftools
 @filename rftools-4.24.jar
 @size 3.21MB
 @category medium_mods
-@quest_line rftools Quest Line
+@quest_line rftoolsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest rftools_intro
     title: Introduction to rftools
     desc: Learn the basics of rftools and craft your first item
-    requires: rftools Quest Line:rftools_discover
+    requires: rftoolsQL:rftools_discover
     logic: AND
     task: craft "any item from rftools" 1
     reward: item minecraft:book 1 "rftools Guide"
@@ -36,7 +37,7 @@
 >quest rftools_master
     title: Master rftools
     desc: Become proficient with advanced rftools mechanics
-    requires: rftools Quest Line:rftools_intro
+    requires: rftoolsQL:rftools_intro
     logic: AND
     task: collect "advanced items from rftools" 5
     reward: choice

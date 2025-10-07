@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BookStealer Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BookStealer
 @filename BookStealer-1.1.0.jar
 @size 0.08MB
 @category small_mods
-@quest_line BookStealer Quest Line
+@quest_line BookStealerQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest bookstealer_intro
     title: Introduction to BookStealer
     desc: Learn the basics of BookStealer and craft your first item
-    requires: BookStealer Quest Line:bookstealer_discover
+    requires: BookStealerQL:bookstealer_discover
     logic: AND
     task: craft "any item from BookStealer" 1
     reward: item minecraft:book 1 "BookStealer Guide"
@@ -36,7 +37,7 @@
 >quest bookstealer_master
     title: Master BookStealer
     desc: Become proficient with advanced BookStealer mechanics
-    requires: BookStealer Quest Line:bookstealer_intro
+    requires: BookStealerQL:bookstealer_intro
     logic: AND
     task: collect "advanced items from BookStealer" 5
     reward: choice

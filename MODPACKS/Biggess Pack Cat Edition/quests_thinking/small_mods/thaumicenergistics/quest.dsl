@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # thaumicenergistics Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod thaumicenergistics
 @filename thaumicenergistics-1.7.14-GTNH.jar
 @size 1.67MB
 @category small_mods
-@quest_line thaumicenergistics Quest Line
+@quest_line thaumicenergisticsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest thaumicenergistics_intro
     title: Introduction to thaumicenergistics
     desc: Learn the basics of thaumicenergistics and craft your first item
-    requires: thaumicenergistics Quest Line:thaumicenergistics_discover
+    requires: thaumicenergisticsQL:thaumicenergistics_discover
     logic: AND
     task: craft "any item from thaumicenergistics" 1
     reward: item minecraft:book 1 "thaumicenergistics Guide"
@@ -36,7 +37,7 @@
 >quest thaumicenergistics_master
     title: Master thaumicenergistics
     desc: Become proficient with advanced thaumicenergistics mechanics
-    requires: thaumicenergistics Quest Line:thaumicenergistics_intro
+    requires: thaumicenergisticsQL:thaumicenergistics_intro
     logic: AND
     task: collect "advanced items from thaumicenergistics" 5
     reward: choice

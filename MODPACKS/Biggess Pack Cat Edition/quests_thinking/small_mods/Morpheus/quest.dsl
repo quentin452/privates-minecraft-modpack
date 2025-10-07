@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Morpheus Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Morpheus
 @filename Morpheus-1.7.10-1.6.21.jar
 @size 0.02MB
 @category small_mods
-@quest_line Morpheus Quest Line
+@quest_line MorpheusQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest morpheus_intro
     title: Introduction to Morpheus
     desc: Learn the basics of Morpheus and craft your first item
-    requires: Morpheus Quest Line:morpheus_discover
+    requires: MorpheusQL:morpheus_discover
     logic: AND
     task: craft "any item from Morpheus" 1
     reward: item minecraft:book 1 "Morpheus Guide"
@@ -36,7 +37,7 @@
 >quest morpheus_master
     title: Master Morpheus
     desc: Become proficient with advanced Morpheus mechanics
-    requires: Morpheus Quest Line:morpheus_intro
+    requires: MorpheusQL:morpheus_intro
     logic: AND
     task: collect "advanced items from Morpheus" 5
     reward: choice

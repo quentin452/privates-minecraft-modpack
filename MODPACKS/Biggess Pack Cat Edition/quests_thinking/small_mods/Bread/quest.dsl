@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Bread Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Bread
 @filename Bread_1.7.2_1.0.jar
 @size 0.08MB
 @category small_mods
-@quest_line Bread Quest Line
+@quest_line BreadQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest bread_intro
     title: Introduction to Bread
     desc: Learn the basics of Bread and craft your first item
-    requires: Bread Quest Line:bread_discover
+    requires: BreadQL:bread_discover
     logic: AND
     task: craft "any item from Bread" 1
     reward: item minecraft:book 1 "Bread Guide"
@@ -36,7 +37,7 @@
 >quest bread_master
     title: Master Bread
     desc: Become proficient with advanced Bread mechanics
-    requires: Bread Quest Line:bread_intro
+    requires: BreadQL:bread_intro
     logic: AND
     task: collect "advanced items from Bread" 5
     reward: choice

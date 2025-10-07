@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ThermalExpansion Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ThermalExpansion
 @filename ThermalExpansion-[1.7.10]4.1.5-248.jar
 @size 2.49MB
 @category medium_mods
-@quest_line ThermalExpansion Quest Line
+@quest_line ThermalExpansionQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest thermalexpansion_1_7_104_1_5_248_intro
     title: Introduction to ThermalExpansion
     desc: Learn the basics of ThermalExpansion and craft your first item
-    requires: ThermalExpansion Quest Line:thermalexpansion_1_7_104_1_5_248_discover
+    requires: ThermalExpansionQL:thermalexpansion_1_7_104_1_5_248_discover
     logic: AND
     task: craft "any item from ThermalExpansion" 1
     reward: item minecraft:book 1 "ThermalExpansion Guide"
@@ -36,7 +37,7 @@
 >quest thermalexpansion_1_7_104_1_5_248_master
     title: Master ThermalExpansion
     desc: Become proficient with advanced ThermalExpansion mechanics
-    requires: ThermalExpansion Quest Line:thermalexpansion_1_7_104_1_5_248_intro
+    requires: ThermalExpansionQL:thermalexpansion_1_7_104_1_5_248_intro
     logic: AND
     task: collect "advanced items from ThermalExpansion" 5
     reward: choice

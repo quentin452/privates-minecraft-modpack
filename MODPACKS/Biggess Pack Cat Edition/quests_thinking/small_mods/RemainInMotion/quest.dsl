@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # RemainInMotion Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RemainInMotion
 @filename RemainInMotion-2.8.9.jar
 @size 0.58MB
 @category small_mods
-@quest_line RemainInMotion Quest Line
+@quest_line RemainInMotionQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest remaininmotion_intro
     title: Introduction to RemainInMotion
     desc: Learn the basics of RemainInMotion and craft your first item
-    requires: RemainInMotion Quest Line:remaininmotion_discover
+    requires: RemainInMotionQL:remaininmotion_discover
     logic: AND
     task: craft "any item from RemainInMotion" 1
     reward: item minecraft:book 1 "RemainInMotion Guide"
@@ -36,7 +37,7 @@
 >quest remaininmotion_master
     title: Master RemainInMotion
     desc: Become proficient with advanced RemainInMotion mechanics
-    requires: RemainInMotion Quest Line:remaininmotion_intro
+    requires: RemainInMotionQL:remaininmotion_intro
     logic: AND
     task: collect "advanced items from RemainInMotion" 5
     reward: choice

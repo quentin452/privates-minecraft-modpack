@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # buildcraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod buildcraft
 @filename buildcraft-7.1.38fork1.jar
 @size 2.55MB
 @category medium_mods
-@quest_line buildcraft Quest Line
+@quest_line buildcraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest buildcraft_intro
     title: Introduction to buildcraft
     desc: Learn the basics of buildcraft and craft your first item
-    requires: buildcraft Quest Line:buildcraft_discover
+    requires: buildcraftQL:buildcraft_discover
     logic: AND
     task: craft "any item from buildcraft" 1
     reward: item minecraft:book 1 "buildcraft Guide"
@@ -36,7 +37,7 @@
 >quest buildcraft_master
     title: Master buildcraft
     desc: Become proficient with advanced buildcraft mechanics
-    requires: buildcraft Quest Line:buildcraft_intro
+    requires: buildcraftQL:buildcraft_intro
     logic: AND
     task: collect "advanced items from buildcraft" 5
     reward: choice

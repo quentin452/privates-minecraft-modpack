@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # EnderTech Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod EnderTech
 @filename EnderTech-1.7.10-0.3.2.405.jar
 @size 0.69MB
 @category small_mods
-@quest_line EnderTech Quest Line
+@quest_line EnderTechQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest endertech_intro
     title: Introduction to EnderTech
     desc: Learn the basics of EnderTech and craft your first item
-    requires: EnderTech Quest Line:endertech_discover
+    requires: EnderTechQL:endertech_discover
     logic: AND
     task: craft "any item from EnderTech" 1
     reward: item minecraft:book 1 "EnderTech Guide"
@@ -36,7 +37,7 @@
 >quest endertech_master
     title: Master EnderTech
     desc: Become proficient with advanced EnderTech mechanics
-    requires: EnderTech Quest Line:endertech_intro
+    requires: EnderTechQL:endertech_intro
     logic: AND
     task: collect "advanced items from EnderTech" 5
     reward: choice

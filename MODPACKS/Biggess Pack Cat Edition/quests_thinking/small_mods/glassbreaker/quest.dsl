@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # glassbreaker Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod glassbreaker
 @filename glassbreaker-1.0.0.jar
 @size 0.00MB
 @category small_mods
-@quest_line glassbreaker Quest Line
+@quest_line glassbreakerQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest glassbreaker_intro
     title: Introduction to glassbreaker
     desc: Learn the basics of glassbreaker and craft your first item
-    requires: glassbreaker Quest Line:glassbreaker_discover
+    requires: glassbreakerQL:glassbreaker_discover
     logic: AND
     task: craft "any item from glassbreaker" 1
     reward: item minecraft:book 1 "glassbreaker Guide"
@@ -36,7 +37,7 @@
 >quest glassbreaker_master
     title: Master glassbreaker
     desc: Become proficient with advanced glassbreaker mechanics
-    requires: glassbreaker Quest Line:glassbreaker_intro
+    requires: glassbreakerQL:glassbreaker_intro
     logic: AND
     task: collect "advanced items from glassbreaker" 5
     reward: choice

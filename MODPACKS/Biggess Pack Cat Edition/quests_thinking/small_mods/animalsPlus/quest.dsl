@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # animalsPlus Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod animalsPlus
 @filename animalsPlus_1.2.jar
 @size 0.73MB
 @category small_mods
-@quest_line animalsPlus Quest Line
+@quest_line animalsPlusQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest animalsplus_intro
     title: Introduction to animalsPlus
     desc: Learn the basics of animalsPlus and craft your first item
-    requires: animalsPlus Quest Line:animalsplus_discover
+    requires: animalsPlusQL:animalsplus_discover
     logic: AND
     task: craft "any item from animalsPlus" 1
     reward: item minecraft:book 1 "animalsPlus Guide"
@@ -36,7 +37,7 @@
 >quest animalsplus_master
     title: Master animalsPlus
     desc: Become proficient with advanced animalsPlus mechanics
-    requires: animalsPlus Quest Line:animalsplus_intro
+    requires: animalsPlusQL:animalsplus_intro
     logic: AND
     task: collect "advanced items from animalsPlus" 5
     reward: choice

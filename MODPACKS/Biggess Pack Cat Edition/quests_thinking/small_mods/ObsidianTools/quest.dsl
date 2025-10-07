@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ObsidianTools Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ObsidianTools
 @filename ObsidianTools-1.7.10-2.3.3.jar
 @size 0.05MB
 @category small_mods
-@quest_line ObsidianTools Quest Line
+@quest_line ObsidianToolsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest obsidiantools_intro
     title: Introduction to ObsidianTools
     desc: Learn the basics of ObsidianTools and craft your first item
-    requires: ObsidianTools Quest Line:obsidiantools_discover
+    requires: ObsidianToolsQL:obsidiantools_discover
     logic: AND
     task: craft "any item from ObsidianTools" 1
     reward: item minecraft:book 1 "ObsidianTools Guide"
@@ -36,7 +37,7 @@
 >quest obsidiantools_master
     title: Master ObsidianTools
     desc: Become proficient with advanced ObsidianTools mechanics
-    requires: ObsidianTools Quest Line:obsidiantools_intro
+    requires: ObsidianToolsQL:obsidiantools_intro
     logic: AND
     task: collect "advanced items from ObsidianTools" 5
     reward: choice

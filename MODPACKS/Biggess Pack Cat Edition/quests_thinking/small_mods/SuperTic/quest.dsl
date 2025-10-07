@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # SuperTic Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SuperTic
 @filename SuperTic-1.5.0.jar
 @size 0.02MB
 @category small_mods
-@quest_line SuperTic Quest Line
+@quest_line SuperTicQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest supertic_intro
     title: Introduction to SuperTic
     desc: Learn the basics of SuperTic and craft your first item
-    requires: SuperTic Quest Line:supertic_discover
+    requires: SuperTicQL:supertic_discover
     logic: AND
     task: craft "any item from SuperTic" 1
     reward: item minecraft:book 1 "SuperTic Guide"
@@ -36,7 +37,7 @@
 >quest supertic_master
     title: Master SuperTic
     desc: Become proficient with advanced SuperTic mechanics
-    requires: SuperTic Quest Line:supertic_intro
+    requires: SuperTicQL:supertic_intro
     logic: AND
     task: collect "advanced items from SuperTic" 5
     reward: choice

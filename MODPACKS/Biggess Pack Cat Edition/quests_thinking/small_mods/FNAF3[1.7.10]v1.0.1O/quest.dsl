@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # FNAF3[1.7.10]v1.0.1O Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod FNAF3[1.7.10]v1.0.1O
 @filename FNAF3[1.7.10]v1.0.1O.jar
 @size 0.20MB
 @category small_mods
-@quest_line FNAF3[1.7.10]v1.0.1O Quest Line
+@quest_line FNAF3[1.7.10]v1.0.1OQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest fnaf31_7_10v1_0_1o_intro
     title: Introduction to FNAF3[1.7.10]v1.0.1O
     desc: Learn the basics of FNAF3[1.7.10]v1.0.1O and craft your first item
-    requires: FNAF3[1.7.10]v1.0.1O Quest Line:fnaf31_7_10v1_0_1o_discover
+    requires: FNAF3[1.7.10]v1.0.1OQL:fnaf31_7_10v1_0_1o_discover
     logic: AND
     task: craft "any item from FNAF3[1.7.10]v1.0.1O" 1
     reward: item minecraft:book 1 "FNAF3[1.7.10]v1.0.1O Guide"
@@ -36,7 +37,7 @@
 >quest fnaf31_7_10v1_0_1o_master
     title: Master FNAF3[1.7.10]v1.0.1O
     desc: Become proficient with advanced FNAF3[1.7.10]v1.0.1O mechanics
-    requires: FNAF3[1.7.10]v1.0.1O Quest Line:fnaf31_7_10v1_0_1o_intro
+    requires: FNAF3[1.7.10]v1.0.1OQL:fnaf31_7_10v1_0_1o_intro
     logic: AND
     task: collect "advanced items from FNAF3[1.7.10]v1.0.1O" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # openprinter Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod openprinter
 @filename openprinter-0.3.0-GTNH.jar
 @size 0.22MB
 @category small_mods
-@quest_line openprinter Quest Line
+@quest_line openprinterQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest openprinter_intro
     title: Introduction to openprinter
     desc: Learn the basics of openprinter and craft your first item
-    requires: openprinter Quest Line:openprinter_discover
+    requires: openprinterQL:openprinter_discover
     logic: AND
     task: craft "any item from openprinter" 1
     reward: item minecraft:book 1 "openprinter Guide"
@@ -36,7 +37,7 @@
 >quest openprinter_master
     title: Master openprinter
     desc: Become proficient with advanced openprinter mechanics
-    requires: openprinter Quest Line:openprinter_intro
+    requires: openprinterQL:openprinter_intro
     logic: AND
     task: collect "advanced items from openprinter" 5
     reward: choice

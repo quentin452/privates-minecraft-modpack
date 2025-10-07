@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # obsgreenery Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod obsgreenery
 @filename obsgreenery-1.3.0_mc1.7.10.jar
 @size 0.10MB
 @category small_mods
-@quest_line obsgreenery Quest Line
+@quest_line obsgreeneryQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest obsgreenery_intro
     title: Introduction to obsgreenery
     desc: Learn the basics of obsgreenery and craft your first item
-    requires: obsgreenery Quest Line:obsgreenery_discover
+    requires: obsgreeneryQL:obsgreenery_discover
     logic: AND
     task: craft "any item from obsgreenery" 1
     reward: item minecraft:book 1 "obsgreenery Guide"
@@ -36,7 +37,7 @@
 >quest obsgreenery_master
     title: Master obsgreenery
     desc: Become proficient with advanced obsgreenery mechanics
-    requires: obsgreenery Quest Line:obsgreenery_intro
+    requires: obsgreeneryQL:obsgreenery_intro
     logic: AND
     task: collect "advanced items from obsgreenery" 5
     reward: choice

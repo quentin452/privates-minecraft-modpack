@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Fancy.Fluid.Storage Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Fancy.Fluid.Storage
 @filename Fancy.Fluid.Storage-1.7.10-1.3.8.jar
 @size 0.36MB
 @category small_mods
-@quest_line Fancy.Fluid.Storage Quest Line
+@quest_line Fancy.Fluid.StorageQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest fancy_fluid_storage_intro
     title: Introduction to Fancy.Fluid.Storage
     desc: Learn the basics of Fancy.Fluid.Storage and craft your first item
-    requires: Fancy.Fluid.Storage Quest Line:fancy_fluid_storage_discover
+    requires: Fancy.Fluid.StorageQL:fancy_fluid_storage_discover
     logic: AND
     task: craft "any item from Fancy.Fluid.Storage" 1
     reward: item minecraft:book 1 "Fancy.Fluid.Storage Guide"
@@ -36,7 +37,7 @@
 >quest fancy_fluid_storage_master
     title: Master Fancy.Fluid.Storage
     desc: Become proficient with advanced Fancy.Fluid.Storage mechanics
-    requires: Fancy.Fluid.Storage Quest Line:fancy_fluid_storage_intro
+    requires: Fancy.Fluid.StorageQL:fancy_fluid_storage_intro
     logic: AND
     task: collect "advanced items from Fancy.Fluid.Storage" 5
     reward: choice

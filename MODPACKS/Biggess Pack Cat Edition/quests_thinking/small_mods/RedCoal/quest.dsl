@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # RedCoal Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RedCoal
 @filename RedCoal-1.7.10-1.4.jar
 @size 0.02MB
 @category small_mods
-@quest_line RedCoal Quest Line
+@quest_line RedCoalQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest redcoal_intro
     title: Introduction to RedCoal
     desc: Learn the basics of RedCoal and craft your first item
-    requires: RedCoal Quest Line:redcoal_discover
+    requires: RedCoalQL:redcoal_discover
     logic: AND
     task: craft "any item from RedCoal" 1
     reward: item minecraft:book 1 "RedCoal Guide"
@@ -36,7 +37,7 @@
 >quest redcoal_master
     title: Master RedCoal
     desc: Become proficient with advanced RedCoal mechanics
-    requires: RedCoal Quest Line:redcoal_intro
+    requires: RedCoalQL:redcoal_intro
     logic: AND
     task: collect "advanced items from RedCoal" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # shipwrecks Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod shipwrecks
 @filename shipwrecks-1.7.10-1.7.1.jar
 @size 0.22MB
 @category small_mods
-@quest_line shipwrecks Quest Line
+@quest_line shipwrecksQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest shipwrecks_intro
     title: Introduction to shipwrecks
     desc: Learn the basics of shipwrecks and craft your first item
-    requires: shipwrecks Quest Line:shipwrecks_discover
+    requires: shipwrecksQL:shipwrecks_discover
     logic: AND
     task: craft "any item from shipwrecks" 1
     reward: item minecraft:book 1 "shipwrecks Guide"
@@ -36,7 +37,7 @@
 >quest shipwrecks_master
     title: Master shipwrecks
     desc: Become proficient with advanced shipwrecks mechanics
-    requires: shipwrecks Quest Line:shipwrecks_intro
+    requires: shipwrecksQL:shipwrecks_intro
     logic: AND
     task: collect "advanced items from shipwrecks" 5
     reward: choice

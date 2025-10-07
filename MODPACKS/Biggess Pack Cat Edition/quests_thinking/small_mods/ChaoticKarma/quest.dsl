@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ChaoticKarma Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ChaoticKarma
 @filename ChaoticKarma-1.7.10-1.0.2.jar
 @size 0.04MB
 @category small_mods
-@quest_line ChaoticKarma Quest Line
+@quest_line ChaoticKarmaQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest chaotickarma_intro
     title: Introduction to ChaoticKarma
     desc: Learn the basics of ChaoticKarma and craft your first item
-    requires: ChaoticKarma Quest Line:chaotickarma_discover
+    requires: ChaoticKarmaQL:chaotickarma_discover
     logic: AND
     task: craft "any item from ChaoticKarma" 1
     reward: item minecraft:book 1 "ChaoticKarma Guide"
@@ -36,7 +37,7 @@
 >quest chaotickarma_master
     title: Master ChaoticKarma
     desc: Become proficient with advanced ChaoticKarma mechanics
-    requires: ChaoticKarma Quest Line:chaotickarma_intro
+    requires: ChaoticKarmaQL:chaotickarma_intro
     logic: AND
     task: collect "advanced items from ChaoticKarma" 5
     reward: choice

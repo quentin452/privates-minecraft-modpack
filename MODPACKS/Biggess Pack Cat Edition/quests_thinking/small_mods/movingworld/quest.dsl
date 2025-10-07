@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # movingworld Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod movingworld
 @filename movingworld-1.7.10-1.8.1.jar
 @size 0.15MB
 @category small_mods
-@quest_line movingworld Quest Line
+@quest_line movingworldQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest movingworld_intro
     title: Introduction to movingworld
     desc: Learn the basics of movingworld and craft your first item
-    requires: movingworld Quest Line:movingworld_discover
+    requires: movingworldQL:movingworld_discover
     logic: AND
     task: craft "any item from movingworld" 1
     reward: item minecraft:book 1 "movingworld Guide"
@@ -36,7 +37,7 @@
 >quest movingworld_master
     title: Master movingworld
     desc: Become proficient with advanced movingworld mechanics
-    requires: movingworld Quest Line:movingworld_intro
+    requires: movingworldQL:movingworld_intro
     logic: AND
     task: collect "advanced items from movingworld" 5
     reward: choice

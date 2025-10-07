@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # quidcraft_mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod quidcraft_mod
 @filename quidcraft_mod_1.7.10.jar
 @size 0.19MB
 @category small_mods
-@quest_line quidcraft_mod Quest Line
+@quest_line quidcraft_modQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest quidcraft_mod_intro
     title: Introduction to quidcraft_mod
     desc: Learn the basics of quidcraft_mod and craft your first item
-    requires: quidcraft_mod Quest Line:quidcraft_mod_discover
+    requires: quidcraft_modQL:quidcraft_mod_discover
     logic: AND
     task: craft "any item from quidcraft_mod" 1
     reward: item minecraft:book 1 "quidcraft_mod Guide"
@@ -36,7 +37,7 @@
 >quest quidcraft_mod_master
     title: Master quidcraft_mod
     desc: Become proficient with advanced quidcraft_mod mechanics
-    requires: quidcraft_mod Quest Line:quidcraft_mod_intro
+    requires: quidcraft_modQL:quidcraft_mod_intro
     logic: AND
     task: collect "advanced items from quidcraft_mod" 5
     reward: choice

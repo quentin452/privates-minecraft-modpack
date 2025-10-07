@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # bedcraftbeyond Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod bedcraftbeyond
 @filename bedcraftbeyond-1.7.10-1.1.5.jar
 @size 0.13MB
 @category small_mods
-@quest_line bedcraftbeyond Quest Line
+@quest_line bedcraftbeyondQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest bedcraftbeyond_intro
     title: Introduction to bedcraftbeyond
     desc: Learn the basics of bedcraftbeyond and craft your first item
-    requires: bedcraftbeyond Quest Line:bedcraftbeyond_discover
+    requires: bedcraftbeyondQL:bedcraftbeyond_discover
     logic: AND
     task: craft "any item from bedcraftbeyond" 1
     reward: item minecraft:book 1 "bedcraftbeyond Guide"
@@ -36,7 +37,7 @@
 >quest bedcraftbeyond_master
     title: Master bedcraftbeyond
     desc: Become proficient with advanced bedcraftbeyond mechanics
-    requires: bedcraftbeyond Quest Line:bedcraftbeyond_intro
+    requires: bedcraftbeyondQL:bedcraftbeyond_intro
     logic: AND
     task: collect "advanced items from bedcraftbeyond" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # dyetopia Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod dyetopia
 @filename dyetopia-1.7.10-1.2.1.jar
 @size 0.45MB
 @category small_mods
-@quest_line dyetopia Quest Line
+@quest_line dyetopiaQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest dyetopia_intro
     title: Introduction to dyetopia
     desc: Learn the basics of dyetopia and craft your first item
-    requires: dyetopia Quest Line:dyetopia_discover
+    requires: dyetopiaQL:dyetopia_discover
     logic: AND
     task: craft "any item from dyetopia" 1
     reward: item minecraft:book 1 "dyetopia Guide"
@@ -36,7 +37,7 @@
 >quest dyetopia_master
     title: Master dyetopia
     desc: Become proficient with advanced dyetopia mechanics
-    requires: dyetopia Quest Line:dyetopia_intro
+    requires: dyetopiaQL:dyetopia_intro
     logic: AND
     task: collect "advanced items from dyetopia" 5
     reward: choice

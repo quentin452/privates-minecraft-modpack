@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # csStaffOPower Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod csStaffOPower
 @filename csStaffOPower-1.0-1.7.10.jar
 @size 0.03MB
 @category small_mods
-@quest_line csStaffOPower Quest Line
+@quest_line csStaffOPowerQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest csstaffopower_intro
     title: Introduction to csStaffOPower
     desc: Learn the basics of csStaffOPower and craft your first item
-    requires: csStaffOPower Quest Line:csstaffopower_discover
+    requires: csStaffOPowerQL:csstaffopower_discover
     logic: AND
     task: craft "any item from csStaffOPower" 1
     reward: item minecraft:book 1 "csStaffOPower Guide"
@@ -36,7 +37,7 @@
 >quest csstaffopower_master
     title: Master csStaffOPower
     desc: Become proficient with advanced csStaffOPower mechanics
-    requires: csStaffOPower Quest Line:csstaffopower_intro
+    requires: csStaffOPowerQL:csstaffopower_intro
     logic: AND
     task: collect "advanced items from csStaffOPower" 5
     reward: choice

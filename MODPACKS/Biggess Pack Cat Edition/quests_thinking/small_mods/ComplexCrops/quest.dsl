@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ComplexCrops Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ComplexCrops
 @filename ComplexCrops-v3-1.7.10.jar
 @size 0.14MB
 @category small_mods
-@quest_line ComplexCrops Quest Line
+@quest_line ComplexCropsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest complexcrops_intro
     title: Introduction to ComplexCrops
     desc: Learn the basics of ComplexCrops and craft your first item
-    requires: ComplexCrops Quest Line:complexcrops_discover
+    requires: ComplexCropsQL:complexcrops_discover
     logic: AND
     task: craft "any item from ComplexCrops" 1
     reward: item minecraft:book 1 "ComplexCrops Guide"
@@ -36,7 +37,7 @@
 >quest complexcrops_master
     title: Master ComplexCrops
     desc: Become proficient with advanced ComplexCrops mechanics
-    requires: ComplexCrops Quest Line:complexcrops_intro
+    requires: ComplexCropsQL:complexcrops_intro
     logic: AND
     task: collect "advanced items from ComplexCrops" 5
     reward: choice

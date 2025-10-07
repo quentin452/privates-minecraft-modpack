@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # creeperchicks-v2.a Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod creeperchicks-v2.a
 @filename creeperchicks-v2.a.jar
 @size 0.15MB
 @category small_mods
-@quest_line creeperchicks-v2.a Quest Line
+@quest_line creeperchicks-v2.aQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest creeperchicks_v2_a_intro
     title: Introduction to creeperchicks-v2.a
     desc: Learn the basics of creeperchicks-v2.a and craft your first item
-    requires: creeperchicks-v2.a Quest Line:creeperchicks_v2_a_discover
+    requires: creeperchicks-v2.aQL:creeperchicks_v2_a_discover
     logic: AND
     task: craft "any item from creeperchicks-v2.a" 1
     reward: item minecraft:book 1 "creeperchicks-v2.a Guide"
@@ -36,7 +37,7 @@
 >quest creeperchicks_v2_a_master
     title: Master creeperchicks-v2.a
     desc: Become proficient with advanced creeperchicks-v2.a mechanics
-    requires: creeperchicks-v2.a Quest Line:creeperchicks_v2_a_intro
+    requires: creeperchicks-v2.aQL:creeperchicks_v2_a_intro
     logic: AND
     task: collect "advanced items from creeperchicks-v2.a" 5
     reward: choice

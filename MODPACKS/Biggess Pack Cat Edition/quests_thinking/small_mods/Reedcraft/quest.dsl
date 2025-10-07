@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Reedcraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Reedcraft
 @filename Reedcraft-1.1.0.jar
 @size 0.03MB
 @category small_mods
-@quest_line Reedcraft Quest Line
+@quest_line ReedcraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest reedcraft_intro
     title: Introduction to Reedcraft
     desc: Learn the basics of Reedcraft and craft your first item
-    requires: Reedcraft Quest Line:reedcraft_discover
+    requires: ReedcraftQL:reedcraft_discover
     logic: AND
     task: craft "any item from Reedcraft" 1
     reward: item minecraft:book 1 "Reedcraft Guide"
@@ -36,7 +37,7 @@
 >quest reedcraft_master
     title: Master Reedcraft
     desc: Become proficient with advanced Reedcraft mechanics
-    requires: Reedcraft Quest Line:reedcraft_intro
+    requires: ReedcraftQL:reedcraft_intro
     logic: AND
     task: collect "advanced items from Reedcraft" 5
     reward: choice

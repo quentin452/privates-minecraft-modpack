@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # additionalrecipes Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod additionalrecipes
 @filename [1.7.10] additionalrecipes-1.5.jar
 @size 0.02MB
 @category small_mods
-@quest_line additionalrecipes Quest Line
+@quest_line additionalrecipesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest additionalrecipes_intro
     title: Introduction to additionalrecipes
     desc: Learn the basics of additionalrecipes and craft your first item
-    requires: additionalrecipes Quest Line:additionalrecipes_discover
+    requires: additionalrecipesQL:additionalrecipes_discover
     logic: AND
     task: craft "any item from additionalrecipes" 1
     reward: item minecraft:book 1 "additionalrecipes Guide"
@@ -36,7 +37,7 @@
 >quest additionalrecipes_master
     title: Master additionalrecipes
     desc: Become proficient with advanced additionalrecipes mechanics
-    requires: additionalrecipes Quest Line:additionalrecipes_intro
+    requires: additionalrecipesQL:additionalrecipes_intro
     logic: AND
     task: collect "advanced items from additionalrecipes" 5
     reward: choice

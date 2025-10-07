@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # TragicMC Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TragicMC
 @filename TragicMC-V2.57.jar
 @size 39.15MB
 @category large_mods
-@quest_line TragicMC Quest Line
+@quest_line TragicMCQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest tragicmc_intro
     title: Introduction to TragicMC
     desc: Learn the basics of TragicMC and craft your first item
-    requires: TragicMC Quest Line:tragicmc_discover
+    requires: TragicMCQL:tragicmc_discover
     logic: AND
     task: craft "any item from TragicMC" 1
     reward: item minecraft:book 1 "TragicMC Guide"
@@ -36,7 +37,7 @@
 >quest tragicmc_master
     title: Master TragicMC
     desc: Become proficient with advanced TragicMC mechanics
-    requires: TragicMC Quest Line:tragicmc_intro
+    requires: TragicMCQL:tragicmc_intro
     logic: AND
     task: collect "advanced items from TragicMC" 5
     reward: choice

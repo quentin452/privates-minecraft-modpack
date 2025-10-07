@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # AllSushiModv1.3 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod AllSushiModv1.3
 @filename AllSushiModv1.3(1.7.10).jar
 @size 0.07MB
 @category small_mods
-@quest_line AllSushiModv1.3 Quest Line
+@quest_line AllSushiModv1.3QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest allsushimodv1_3_intro
     title: Introduction to AllSushiModv1.3
     desc: Learn the basics of AllSushiModv1.3 and craft your first item
-    requires: AllSushiModv1.3 Quest Line:allsushimodv1_3_discover
+    requires: AllSushiModv1.3QL:allsushimodv1_3_discover
     logic: AND
     task: craft "any item from AllSushiModv1.3" 1
     reward: item minecraft:book 1 "AllSushiModv1.3 Guide"
@@ -36,7 +37,7 @@
 >quest allsushimodv1_3_master
     title: Master AllSushiModv1.3
     desc: Become proficient with advanced AllSushiModv1.3 mechanics
-    requires: AllSushiModv1.3 Quest Line:allsushimodv1_3_intro
+    requires: AllSushiModv1.3QL:allsushimodv1_3_intro
     logic: AND
     task: collect "advanced items from AllSushiModv1.3" 5
     reward: choice

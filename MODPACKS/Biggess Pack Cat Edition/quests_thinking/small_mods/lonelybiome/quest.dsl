@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # lonelybiome Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod lonelybiome
 @filename lonelybiome-1.7.10-1.0.jar
 @size 0.02MB
 @category small_mods
-@quest_line lonelybiome Quest Line
+@quest_line lonelybiomeQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest lonelybiome_intro
     title: Introduction to lonelybiome
     desc: Learn the basics of lonelybiome and craft your first item
-    requires: lonelybiome Quest Line:lonelybiome_discover
+    requires: lonelybiomeQL:lonelybiome_discover
     logic: AND
     task: craft "any item from lonelybiome" 1
     reward: item minecraft:book 1 "lonelybiome Guide"
@@ -36,7 +37,7 @@
 >quest lonelybiome_master
     title: Master lonelybiome
     desc: Become proficient with advanced lonelybiome mechanics
-    requires: lonelybiome Quest Line:lonelybiome_intro
+    requires: lonelybiomeQL:lonelybiome_intro
     logic: AND
     task: collect "advanced items from lonelybiome" 5
     reward: choice

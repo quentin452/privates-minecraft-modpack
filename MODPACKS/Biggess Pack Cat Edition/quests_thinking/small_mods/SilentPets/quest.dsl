@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # SilentPets Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SilentPets
 @filename SilentPets-1.7.10-0.2.02-20.jar
 @size 0.12MB
 @category small_mods
-@quest_line SilentPets Quest Line
+@quest_line SilentPetsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest silentpets_intro
     title: Introduction to SilentPets
     desc: Learn the basics of SilentPets and craft your first item
-    requires: SilentPets Quest Line:silentpets_discover
+    requires: SilentPetsQL:silentpets_discover
     logic: AND
     task: craft "any item from SilentPets" 1
     reward: item minecraft:book 1 "SilentPets Guide"
@@ -36,7 +37,7 @@
 >quest silentpets_master
     title: Master SilentPets
     desc: Become proficient with advanced SilentPets mechanics
-    requires: SilentPets Quest Line:silentpets_intro
+    requires: SilentPetsQL:silentpets_intro
     logic: AND
     task: collect "advanced items from SilentPets" 5
     reward: choice

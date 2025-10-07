@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # SimplyProcessing Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SimplyProcessing
 @filename SimplyProcessing-V1.0-1.7.10.jar
 @size 0.02MB
 @category small_mods
-@quest_line SimplyProcessing Quest Line
+@quest_line SimplyProcessingQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest simplyprocessing_intro
     title: Introduction to SimplyProcessing
     desc: Learn the basics of SimplyProcessing and craft your first item
-    requires: SimplyProcessing Quest Line:simplyprocessing_discover
+    requires: SimplyProcessingQL:simplyprocessing_discover
     logic: AND
     task: craft "any item from SimplyProcessing" 1
     reward: item minecraft:book 1 "SimplyProcessing Guide"
@@ -36,7 +37,7 @@
 >quest simplyprocessing_master
     title: Master SimplyProcessing
     desc: Become proficient with advanced SimplyProcessing mechanics
-    requires: SimplyProcessing Quest Line:simplyprocessing_intro
+    requires: SimplyProcessingQL:simplyprocessing_intro
     logic: AND
     task: collect "advanced items from SimplyProcessing" 5
     reward: choice

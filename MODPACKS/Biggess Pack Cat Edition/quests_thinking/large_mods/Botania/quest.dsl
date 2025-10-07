@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Botania Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Botania
 @filename Botania-1.12.25-GTNH.jar
 @size 15.35MB
 @category large_mods
-@quest_line Botania Quest Line
+@quest_line BotaniaQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest botania_intro
     title: Introduction to Botania
     desc: Learn the basics of Botania and craft your first item
-    requires: Botania Quest Line:botania_discover
+    requires: BotaniaQL:botania_discover
     logic: AND
     task: craft "any item from Botania" 1
     reward: item minecraft:book 1 "Botania Guide"
@@ -36,7 +37,7 @@
 >quest botania_master
     title: Master Botania
     desc: Become proficient with advanced Botania mechanics
-    requires: Botania Quest Line:botania_intro
+    requires: BotaniaQL:botania_intro
     logic: AND
     task: collect "advanced items from Botania" 5
     reward: choice

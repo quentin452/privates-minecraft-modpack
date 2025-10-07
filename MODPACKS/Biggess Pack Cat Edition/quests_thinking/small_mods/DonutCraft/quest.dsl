@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # DonutCraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod DonutCraft
 @filename DonutCraft_1.7.10_2.0.4.jar
 @size 0.12MB
 @category small_mods
-@quest_line DonutCraft Quest Line
+@quest_line DonutCraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest donutcraft_intro
     title: Introduction to DonutCraft
     desc: Learn the basics of DonutCraft and craft your first item
-    requires: DonutCraft Quest Line:donutcraft_discover
+    requires: DonutCraftQL:donutcraft_discover
     logic: AND
     task: craft "any item from DonutCraft" 1
     reward: item minecraft:book 1 "DonutCraft Guide"
@@ -36,7 +37,7 @@
 >quest donutcraft_master
     title: Master DonutCraft
     desc: Become proficient with advanced DonutCraft mechanics
-    requires: DonutCraft Quest Line:donutcraft_intro
+    requires: DonutCraftQL:donutcraft_intro
     logic: AND
     task: collect "advanced items from DonutCraft" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # wildycraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod wildycraft
 @filename wildycraft-1.7.10-1.7.4.jar
 @size 3.99MB
 @category medium_mods
-@quest_line wildycraft Quest Line
+@quest_line wildycraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest wildycraft_intro
     title: Introduction to wildycraft
     desc: Learn the basics of wildycraft and craft your first item
-    requires: wildycraft Quest Line:wildycraft_discover
+    requires: wildycraftQL:wildycraft_discover
     logic: AND
     task: craft "any item from wildycraft" 1
     reward: item minecraft:book 1 "wildycraft Guide"
@@ -36,7 +37,7 @@
 >quest wildycraft_master
     title: Master wildycraft
     desc: Become proficient with advanced wildycraft mechanics
-    requires: wildycraft Quest Line:wildycraft_intro
+    requires: wildycraftQL:wildycraft_intro
     logic: AND
     task: collect "advanced items from wildycraft" 5
     reward: choice

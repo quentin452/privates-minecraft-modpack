@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # FireBallsForPlayers 3.0 1.7.10 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod FireBallsForPlayers 3.0 1.7.10
 @filename FireBallsForPlayers 3.0 1.7.10.jar
 @size 0.27MB
 @category small_mods
-@quest_line FireBallsForPlayers 3.0 1.7.10 Quest Line
+@quest_line FireBallsForPlayers 3.0 1.7.10QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest fireballsforplayers_3_0_1_7_10_intro
     title: Introduction to FireBallsForPlayers 3.0 1.7.10
     desc: Learn the basics of FireBallsForPlayers 3.0 1.7.10 and craft your first item
-    requires: FireBallsForPlayers 3.0 1.7.10 Quest Line:fireballsforplayers_3_0_1_7_10_discover
+    requires: FireBallsForPlayers 3.0 1.7.10QL:fireballsforplayers_3_0_1_7_10_discover
     logic: AND
     task: craft "any item from FireBallsForPlayers 3.0 1.7.10" 1
     reward: item minecraft:book 1 "FireBallsForPlayers 3.0 1.7.10 Guide"
@@ -36,7 +37,7 @@
 >quest fireballsforplayers_3_0_1_7_10_master
     title: Master FireBallsForPlayers 3.0 1.7.10
     desc: Become proficient with advanced FireBallsForPlayers 3.0 1.7.10 mechanics
-    requires: FireBallsForPlayers 3.0 1.7.10 Quest Line:fireballsforplayers_3_0_1_7_10_intro
+    requires: FireBallsForPlayers 3.0 1.7.10QL:fireballsforplayers_3_0_1_7_10_intro
     logic: AND
     task: collect "advanced items from FireBallsForPlayers 3.0 1.7.10" 5
     reward: choice

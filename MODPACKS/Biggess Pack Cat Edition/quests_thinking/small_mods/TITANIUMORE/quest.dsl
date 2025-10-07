@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # TITANIUMORE Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TITANIUMORE
 @filename TITANIUMORE.jar
 @size 0.06MB
 @category small_mods
-@quest_line TITANIUMORE Quest Line
+@quest_line TITANIUMOREQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest titaniumore_intro
     title: Introduction to TITANIUMORE
     desc: Learn the basics of TITANIUMORE and craft your first item
-    requires: TITANIUMORE Quest Line:titaniumore_discover
+    requires: TITANIUMOREQL:titaniumore_discover
     logic: AND
     task: craft "any item from TITANIUMORE" 1
     reward: item minecraft:book 1 "TITANIUMORE Guide"
@@ -36,7 +37,7 @@
 >quest titaniumore_master
     title: Master TITANIUMORE
     desc: Become proficient with advanced TITANIUMORE mechanics
-    requires: TITANIUMORE Quest Line:titaniumore_intro
+    requires: TITANIUMOREQL:titaniumore_intro
     logic: AND
     task: collect "advanced items from TITANIUMORE" 5
     reward: choice

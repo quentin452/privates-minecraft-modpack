@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # AlchemyRocks v1.2.5R Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod AlchemyRocks v1.2.5R
 @filename [1.7.10] AlchemyRocks v1.2.5R.jar
 @size 0.21MB
 @category small_mods
-@quest_line AlchemyRocks v1.2.5R Quest Line
+@quest_line AlchemyRocks v1.2.5RQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest alchemyrocks_v1_2_5r_intro
     title: Introduction to AlchemyRocks v1.2.5R
     desc: Learn the basics of AlchemyRocks v1.2.5R and craft your first item
-    requires: AlchemyRocks v1.2.5R Quest Line:alchemyrocks_v1_2_5r_discover
+    requires: AlchemyRocks v1.2.5RQL:alchemyrocks_v1_2_5r_discover
     logic: AND
     task: craft "any item from AlchemyRocks v1.2.5R" 1
     reward: item minecraft:book 1 "AlchemyRocks v1.2.5R Guide"
@@ -36,7 +37,7 @@
 >quest alchemyrocks_v1_2_5r_master
     title: Master AlchemyRocks v1.2.5R
     desc: Become proficient with advanced AlchemyRocks v1.2.5R mechanics
-    requires: AlchemyRocks v1.2.5R Quest Line:alchemyrocks_v1_2_5r_intro
+    requires: AlchemyRocks v1.2.5RQL:alchemyrocks_v1_2_5r_intro
     logic: AND
     task: collect "advanced items from AlchemyRocks v1.2.5R" 5
     reward: choice

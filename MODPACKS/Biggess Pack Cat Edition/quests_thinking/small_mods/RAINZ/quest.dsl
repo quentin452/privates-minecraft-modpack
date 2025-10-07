@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # RAINZ Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RAINZ
 @filename RAINZ.zip
 @size 0.02MB
 @category small_mods
-@quest_line RAINZ Quest Line
+@quest_line RAINZQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest rainz_intro
     title: Introduction to RAINZ
     desc: Learn the basics of RAINZ and craft your first item
-    requires: RAINZ Quest Line:rainz_discover
+    requires: RAINZQL:rainz_discover
     logic: AND
     task: craft "any item from RAINZ" 1
     reward: item minecraft:book 1 "RAINZ Guide"
@@ -36,7 +37,7 @@
 >quest rainz_master
     title: Master RAINZ
     desc: Become proficient with advanced RAINZ mechanics
-    requires: RAINZ Quest Line:rainz_intro
+    requires: RAINZQL:rainz_intro
     logic: AND
     task: collect "advanced items from RAINZ" 5
     reward: choice

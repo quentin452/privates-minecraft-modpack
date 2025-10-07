@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # AnimalBikes Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod AnimalBikes
 @filename AnimalBikes_1.7.10.jar
 @size 2.18MB
 @category medium_mods
-@quest_line AnimalBikes Quest Line
+@quest_line AnimalBikesQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest animalbikes_intro
     title: Introduction to AnimalBikes
     desc: Learn the basics of AnimalBikes and craft your first item
-    requires: AnimalBikes Quest Line:animalbikes_discover
+    requires: AnimalBikesQL:animalbikes_discover
     logic: AND
     task: craft "any item from AnimalBikes" 1
     reward: item minecraft:book 1 "AnimalBikes Guide"
@@ -36,7 +37,7 @@
 >quest animalbikes_master
     title: Master AnimalBikes
     desc: Become proficient with advanced AnimalBikes mechanics
-    requires: AnimalBikes Quest Line:animalbikes_intro
+    requires: AnimalBikesQL:animalbikes_intro
     logic: AND
     task: collect "advanced items from AnimalBikes" 5
     reward: choice

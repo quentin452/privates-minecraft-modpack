@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # LampsAndTrafficlights Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod LampsAndTrafficlights
 @filename LampsAndTrafficlights-1.2-Minecraft_1.7.10.jar
 @size 0.25MB
 @category small_mods
-@quest_line LampsAndTrafficlights Quest Line
+@quest_line LampsAndTrafficlightsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest lampsandtrafficlights_intro
     title: Introduction to LampsAndTrafficlights
     desc: Learn the basics of LampsAndTrafficlights and craft your first item
-    requires: LampsAndTrafficlights Quest Line:lampsandtrafficlights_discover
+    requires: LampsAndTrafficlightsQL:lampsandtrafficlights_discover
     logic: AND
     task: craft "any item from LampsAndTrafficlights" 1
     reward: item minecraft:book 1 "LampsAndTrafficlights Guide"
@@ -36,7 +37,7 @@
 >quest lampsandtrafficlights_master
     title: Master LampsAndTrafficlights
     desc: Become proficient with advanced LampsAndTrafficlights mechanics
-    requires: LampsAndTrafficlights Quest Line:lampsandtrafficlights_intro
+    requires: LampsAndTrafficlightsQL:lampsandtrafficlights_intro
     logic: AND
     task: collect "advanced items from LampsAndTrafficlights" 5
     reward: choice

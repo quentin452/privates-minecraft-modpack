@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BasaltWalker-Reborn Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BasaltWalker-Reborn
 @filename BasaltWalker-Reborn-Forge-1.7.10-1.0.0.jar
 @size 0.06MB
 @category small_mods
-@quest_line BasaltWalker-Reborn Quest Line
+@quest_line BasaltWalker-RebornQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest basaltwalker_reborn_intro
     title: Introduction to BasaltWalker-Reborn
     desc: Learn the basics of BasaltWalker-Reborn and craft your first item
-    requires: BasaltWalker-Reborn Quest Line:basaltwalker_reborn_discover
+    requires: BasaltWalker-RebornQL:basaltwalker_reborn_discover
     logic: AND
     task: craft "any item from BasaltWalker-Reborn" 1
     reward: item minecraft:book 1 "BasaltWalker-Reborn Guide"
@@ -36,7 +37,7 @@
 >quest basaltwalker_reborn_master
     title: Master BasaltWalker-Reborn
     desc: Become proficient with advanced BasaltWalker-Reborn mechanics
-    requires: BasaltWalker-Reborn Quest Line:basaltwalker_reborn_intro
+    requires: BasaltWalker-RebornQL:basaltwalker_reborn_intro
     logic: AND
     task: collect "advanced items from BasaltWalker-Reborn" 5
     reward: choice

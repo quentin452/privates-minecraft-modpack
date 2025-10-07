@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # HearthstoneMod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod HearthstoneMod
 @filename HearthstoneMod-1.7.10-0.3.4.jar
 @size 0.16MB
 @category small_mods
-@quest_line HearthstoneMod Quest Line
+@quest_line HearthstoneModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest hearthstonemod_intro
     title: Introduction to HearthstoneMod
     desc: Learn the basics of HearthstoneMod and craft your first item
-    requires: HearthstoneMod Quest Line:hearthstonemod_discover
+    requires: HearthstoneModQL:hearthstonemod_discover
     logic: AND
     task: craft "any item from HearthstoneMod" 1
     reward: item minecraft:book 1 "HearthstoneMod Guide"
@@ -36,7 +37,7 @@
 >quest hearthstonemod_master
     title: Master HearthstoneMod
     desc: Become proficient with advanced HearthstoneMod mechanics
-    requires: HearthstoneMod Quest Line:hearthstonemod_intro
+    requires: HearthstoneModQL:hearthstonemod_intro
     logic: AND
     task: collect "advanced items from HearthstoneMod" 5
     reward: choice

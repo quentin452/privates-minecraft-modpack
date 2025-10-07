@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Rail Plus Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Rail Plus
 @filename Rail Plus-1.7.10-1.6.jar
 @size 0.26MB
 @category small_mods
-@quest_line Rail Plus Quest Line
+@quest_line Rail PlusQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest rail_plus_intro
     title: Introduction to Rail Plus
     desc: Learn the basics of Rail Plus and craft your first item
-    requires: Rail Plus Quest Line:rail_plus_discover
+    requires: Rail PlusQL:rail_plus_discover
     logic: AND
     task: craft "any item from Rail Plus" 1
     reward: item minecraft:book 1 "Rail Plus Guide"
@@ -36,7 +37,7 @@
 >quest rail_plus_master
     title: Master Rail Plus
     desc: Become proficient with advanced Rail Plus mechanics
-    requires: Rail Plus Quest Line:rail_plus_intro
+    requires: Rail PlusQL:rail_plus_intro
     logic: AND
     task: collect "advanced items from Rail Plus" 5
     reward: choice

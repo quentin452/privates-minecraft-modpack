@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Ganys+End Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Ganys+End
 @filename Ganys+End-1.11.3.jar
 @size 0.45MB
 @category small_mods
-@quest_line Ganys+End Quest Line
+@quest_line Ganys+EndQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ganysend_intro
     title: Introduction to Ganys+End
     desc: Learn the basics of Ganys+End and craft your first item
-    requires: Ganys+End Quest Line:ganysend_discover
+    requires: Ganys+EndQL:ganysend_discover
     logic: AND
     task: craft "any item from Ganys+End" 1
     reward: item minecraft:book 1 "Ganys+End Guide"
@@ -36,7 +37,7 @@
 >quest ganysend_master
     title: Master Ganys+End
     desc: Become proficient with advanced Ganys+End mechanics
-    requires: Ganys+End Quest Line:ganysend_intro
+    requires: Ganys+EndQL:ganysend_intro
     logic: AND
     task: collect "advanced items from Ganys+End" 5
     reward: choice

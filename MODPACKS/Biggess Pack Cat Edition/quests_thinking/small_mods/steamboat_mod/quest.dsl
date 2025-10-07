@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # steamboat_mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod steamboat_mod
 @filename steamboat_mod_1.7.10.jar
 @size 0.16MB
 @category small_mods
-@quest_line steamboat_mod Quest Line
+@quest_line steamboat_modQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest steamboat_mod_intro
     title: Introduction to steamboat_mod
     desc: Learn the basics of steamboat_mod and craft your first item
-    requires: steamboat_mod Quest Line:steamboat_mod_discover
+    requires: steamboat_modQL:steamboat_mod_discover
     logic: AND
     task: craft "any item from steamboat_mod" 1
     reward: item minecraft:book 1 "steamboat_mod Guide"
@@ -36,7 +37,7 @@
 >quest steamboat_mod_master
     title: Master steamboat_mod
     desc: Become proficient with advanced steamboat_mod mechanics
-    requires: steamboat_mod Quest Line:steamboat_mod_intro
+    requires: steamboat_modQL:steamboat_mod_intro
     logic: AND
     task: collect "advanced items from steamboat_mod" 5
     reward: choice

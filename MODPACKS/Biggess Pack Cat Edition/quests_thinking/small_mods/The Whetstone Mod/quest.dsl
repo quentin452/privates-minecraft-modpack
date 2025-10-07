@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # The Whetstone Mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod The Whetstone Mod
 @filename [1.7.10] The Whetstone Mod-v1.0.1.jar
 @size 0.03MB
 @category small_mods
-@quest_line The Whetstone Mod Quest Line
+@quest_line The Whetstone ModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest the_whetstone_mod_intro
     title: Introduction to The Whetstone Mod
     desc: Learn the basics of The Whetstone Mod and craft your first item
-    requires: The Whetstone Mod Quest Line:the_whetstone_mod_discover
+    requires: The Whetstone ModQL:the_whetstone_mod_discover
     logic: AND
     task: craft "any item from The Whetstone Mod" 1
     reward: item minecraft:book 1 "The Whetstone Mod Guide"
@@ -36,7 +37,7 @@
 >quest the_whetstone_mod_master
     title: Master The Whetstone Mod
     desc: Become proficient with advanced The Whetstone Mod mechanics
-    requires: The Whetstone Mod Quest Line:the_whetstone_mod_intro
+    requires: The Whetstone ModQL:the_whetstone_mod_intro
     logic: AND
     task: collect "advanced items from The Whetstone Mod" 5
     reward: choice

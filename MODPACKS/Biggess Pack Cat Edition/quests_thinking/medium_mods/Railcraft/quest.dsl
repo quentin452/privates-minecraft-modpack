@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Railcraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Railcraft
 @filename Railcraft-9.16.33.jar
 @size 3.28MB
 @category medium_mods
-@quest_line Railcraft Quest Line
+@quest_line RailcraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest railcraft_intro
     title: Introduction to Railcraft
     desc: Learn the basics of Railcraft and craft your first item
-    requires: Railcraft Quest Line:railcraft_discover
+    requires: RailcraftQL:railcraft_discover
     logic: AND
     task: craft "any item from Railcraft" 1
     reward: item minecraft:book 1 "Railcraft Guide"
@@ -36,7 +37,7 @@
 >quest railcraft_master
     title: Master Railcraft
     desc: Become proficient with advanced Railcraft mechanics
-    requires: Railcraft Quest Line:railcraft_intro
+    requires: RailcraftQL:railcraft_intro
     logic: AND
     task: collect "advanced items from Railcraft" 5
     reward: choice

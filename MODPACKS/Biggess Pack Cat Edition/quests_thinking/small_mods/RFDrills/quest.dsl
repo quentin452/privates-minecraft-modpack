@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # RFDrills Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RFDrills
 @filename RFDrills-1.7.10-1.7.3.jar
 @size 0.11MB
 @category small_mods
-@quest_line RFDrills Quest Line
+@quest_line RFDrillsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest rfdrills_intro
     title: Introduction to RFDrills
     desc: Learn the basics of RFDrills and craft your first item
-    requires: RFDrills Quest Line:rfdrills_discover
+    requires: RFDrillsQL:rfdrills_discover
     logic: AND
     task: craft "any item from RFDrills" 1
     reward: item minecraft:book 1 "RFDrills Guide"
@@ -36,7 +37,7 @@
 >quest rfdrills_master
     title: Master RFDrills
     desc: Become proficient with advanced RFDrills mechanics
-    requires: RFDrills Quest Line:rfdrills_intro
+    requires: RFDrillsQL:rfdrills_intro
     logic: AND
     task: collect "advanced items from RFDrills" 5
     reward: choice

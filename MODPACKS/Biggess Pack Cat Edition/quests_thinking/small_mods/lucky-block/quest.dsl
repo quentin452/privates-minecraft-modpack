@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # lucky-block Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod lucky-block
 @filename lucky-block-forge-1.7.10-1.0.jar
 @size 0.08MB
 @category small_mods
-@quest_line lucky-block Quest Line
+@quest_line lucky-blockQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest lucky_block_intro
     title: Introduction to lucky-block
     desc: Learn the basics of lucky-block and craft your first item
-    requires: lucky-block Quest Line:lucky_block_discover
+    requires: lucky-blockQL:lucky_block_discover
     logic: AND
     task: craft "any item from lucky-block" 1
     reward: item minecraft:book 1 "lucky-block Guide"
@@ -36,7 +37,7 @@
 >quest lucky_block_master
     title: Master lucky-block
     desc: Become proficient with advanced lucky-block mechanics
-    requires: lucky-block Quest Line:lucky_block_intro
+    requires: lucky-blockQL:lucky_block_intro
     logic: AND
     task: collect "advanced items from lucky-block" 5
     reward: choice

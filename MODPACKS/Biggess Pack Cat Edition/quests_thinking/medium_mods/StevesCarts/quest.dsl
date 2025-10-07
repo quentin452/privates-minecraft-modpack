@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # StevesCarts Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod StevesCarts
 @filename StevesCarts-2.3.12.jar
 @size 2.47MB
 @category medium_mods
-@quest_line StevesCarts Quest Line
+@quest_line StevesCartsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest stevescarts_intro
     title: Introduction to StevesCarts
     desc: Learn the basics of StevesCarts and craft your first item
-    requires: StevesCarts Quest Line:stevescarts_discover
+    requires: StevesCartsQL:stevescarts_discover
     logic: AND
     task: craft "any item from StevesCarts" 1
     reward: item minecraft:book 1 "StevesCarts Guide"
@@ -36,7 +37,7 @@
 >quest stevescarts_master
     title: Master StevesCarts
     desc: Become proficient with advanced StevesCarts mechanics
-    requires: StevesCarts Quest Line:stevescarts_intro
+    requires: StevesCartsQL:stevescarts_intro
     logic: AND
     task: collect "advanced items from StevesCarts" 5
     reward: choice

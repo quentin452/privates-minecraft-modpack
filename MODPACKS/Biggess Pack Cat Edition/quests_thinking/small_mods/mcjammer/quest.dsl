@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # mcjammer Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod mcjammer
 @filename mcjammer-1.7.10-2017.01.29.jar
 @size 0.55MB
 @category small_mods
-@quest_line mcjammer Quest Line
+@quest_line mcjammerQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest mcjammer_intro
     title: Introduction to mcjammer
     desc: Learn the basics of mcjammer and craft your first item
-    requires: mcjammer Quest Line:mcjammer_discover
+    requires: mcjammerQL:mcjammer_discover
     logic: AND
     task: craft "any item from mcjammer" 1
     reward: item minecraft:book 1 "mcjammer Guide"
@@ -36,7 +37,7 @@
 >quest mcjammer_master
     title: Master mcjammer
     desc: Become proficient with advanced mcjammer mechanics
-    requires: mcjammer Quest Line:mcjammer_intro
+    requires: mcjammerQL:mcjammer_intro
     logic: AND
     task: collect "advanced items from mcjammer" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # geoactivity Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod geoactivity
 @filename geoactivity-1.6.jar
 @size 0.70MB
 @category small_mods
-@quest_line geoactivity Quest Line
+@quest_line geoactivityQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest geoactivity_intro
     title: Introduction to geoactivity
     desc: Learn the basics of geoactivity and craft your first item
-    requires: geoactivity Quest Line:geoactivity_discover
+    requires: geoactivityQL:geoactivity_discover
     logic: AND
     task: craft "any item from geoactivity" 1
     reward: item minecraft:book 1 "geoactivity Guide"
@@ -36,7 +37,7 @@
 >quest geoactivity_master
     title: Master geoactivity
     desc: Become proficient with advanced geoactivity mechanics
-    requires: geoactivity Quest Line:geoactivity_intro
+    requires: geoactivityQL:geoactivity_intro
     logic: AND
     task: collect "advanced items from geoactivity" 5
     reward: choice

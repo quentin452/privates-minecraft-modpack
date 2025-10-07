@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # GardenOfGlass Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod GardenOfGlass
 @filename GardenOfGlass.jar
 @size 0.01MB
 @category small_mods
-@quest_line GardenOfGlass Quest Line
+@quest_line GardenOfGlassQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest gardenofglass_intro
     title: Introduction to GardenOfGlass
     desc: Learn the basics of GardenOfGlass and craft your first item
-    requires: GardenOfGlass Quest Line:gardenofglass_discover
+    requires: GardenOfGlassQL:gardenofglass_discover
     logic: AND
     task: craft "any item from GardenOfGlass" 1
     reward: item minecraft:book 1 "GardenOfGlass Guide"
@@ -36,7 +37,7 @@
 >quest gardenofglass_master
     title: Master GardenOfGlass
     desc: Become proficient with advanced GardenOfGlass mechanics
-    requires: GardenOfGlass Quest Line:gardenofglass_intro
+    requires: GardenOfGlassQL:gardenofglass_intro
     logic: AND
     task: collect "advanced items from GardenOfGlass" 5
     reward: choice

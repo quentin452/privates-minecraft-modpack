@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # AE2TechAddOn Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod AE2TechAddOn
 @filename AE2TechAddOn-1.7.10-1.1.jar
 @size 0.14MB
 @category small_mods
-@quest_line AE2TechAddOn Quest Line
+@quest_line AE2TechAddOnQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ae2techaddon_intro
     title: Introduction to AE2TechAddOn
     desc: Learn the basics of AE2TechAddOn and craft your first item
-    requires: AE2TechAddOn Quest Line:ae2techaddon_discover
+    requires: AE2TechAddOnQL:ae2techaddon_discover
     logic: AND
     task: craft "any item from AE2TechAddOn" 1
     reward: item minecraft:book 1 "AE2TechAddOn Guide"
@@ -36,7 +37,7 @@
 >quest ae2techaddon_master
     title: Master AE2TechAddOn
     desc: Become proficient with advanced AE2TechAddOn mechanics
-    requires: AE2TechAddOn Quest Line:ae2techaddon_intro
+    requires: AE2TechAddOnQL:ae2techaddon_intro
     logic: AND
     task: collect "advanced items from AE2TechAddOn" 5
     reward: choice

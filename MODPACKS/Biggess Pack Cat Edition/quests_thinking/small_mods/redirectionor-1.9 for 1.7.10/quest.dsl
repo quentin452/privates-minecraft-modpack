@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # redirectionor-1.9 for 1.7.10 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod redirectionor-1.9 for 1.7.10
 @filename redirectionor-1.9 for 1.7.10.jar
 @size 0.12MB
 @category small_mods
-@quest_line redirectionor-1.9 for 1.7.10 Quest Line
+@quest_line redirectionor-1.9 for 1.7.10QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest redirectionor_1_9_for_1_7_10_intro
     title: Introduction to redirectionor-1.9 for 1.7.10
     desc: Learn the basics of redirectionor-1.9 for 1.7.10 and craft your first item
-    requires: redirectionor-1.9 for 1.7.10 Quest Line:redirectionor_1_9_for_1_7_10_discover
+    requires: redirectionor-1.9 for 1.7.10QL:redirectionor_1_9_for_1_7_10_discover
     logic: AND
     task: craft "any item from redirectionor-1.9 for 1.7.10" 1
     reward: item minecraft:book 1 "redirectionor-1.9 for 1.7.10 Guide"
@@ -36,7 +37,7 @@
 >quest redirectionor_1_9_for_1_7_10_master
     title: Master redirectionor-1.9 for 1.7.10
     desc: Become proficient with advanced redirectionor-1.9 for 1.7.10 mechanics
-    requires: redirectionor-1.9 for 1.7.10 Quest Line:redirectionor_1_9_for_1_7_10_intro
+    requires: redirectionor-1.9 for 1.7.10QL:redirectionor_1_9_for_1_7_10_intro
     logic: AND
     task: collect "advanced items from redirectionor-1.9 for 1.7.10" 5
     reward: choice

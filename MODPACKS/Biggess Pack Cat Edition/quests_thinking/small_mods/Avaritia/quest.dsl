@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Avaritia Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Avaritia
 @filename Avaritia-1.75.jar
 @size 0.88MB
 @category small_mods
-@quest_line Avaritia Quest Line
+@quest_line AvaritiaQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest avaritia_intro
     title: Introduction to Avaritia
     desc: Learn the basics of Avaritia and craft your first item
-    requires: Avaritia Quest Line:avaritia_discover
+    requires: AvaritiaQL:avaritia_discover
     logic: AND
     task: craft "any item from Avaritia" 1
     reward: item minecraft:book 1 "Avaritia Guide"
@@ -36,7 +37,7 @@
 >quest avaritia_master
     title: Master Avaritia
     desc: Become proficient with advanced Avaritia mechanics
-    requires: Avaritia Quest Line:avaritia_intro
+    requires: AvaritiaQL:avaritia_intro
     logic: AND
     task: collect "advanced items from Avaritia" 5
     reward: choice

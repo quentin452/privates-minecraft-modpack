@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # PeacefulToDyeFor-1.0.2 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod PeacefulToDyeFor-1.0.2
 @filename PeacefulToDyeFor-1.0.2[1.7.10].jar
 @size 0.01MB
 @category small_mods
-@quest_line PeacefulToDyeFor-1.0.2 Quest Line
+@quest_line PeacefulToDyeFor-1.0.2QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest peacefultodyefor_1_0_2_intro
     title: Introduction to PeacefulToDyeFor-1.0.2
     desc: Learn the basics of PeacefulToDyeFor-1.0.2 and craft your first item
-    requires: PeacefulToDyeFor-1.0.2 Quest Line:peacefultodyefor_1_0_2_discover
+    requires: PeacefulToDyeFor-1.0.2QL:peacefultodyefor_1_0_2_discover
     logic: AND
     task: craft "any item from PeacefulToDyeFor-1.0.2" 1
     reward: item minecraft:book 1 "PeacefulToDyeFor-1.0.2 Guide"
@@ -36,7 +37,7 @@
 >quest peacefultodyefor_1_0_2_master
     title: Master PeacefulToDyeFor-1.0.2
     desc: Become proficient with advanced PeacefulToDyeFor-1.0.2 mechanics
-    requires: PeacefulToDyeFor-1.0.2 Quest Line:peacefultodyefor_1_0_2_intro
+    requires: PeacefulToDyeFor-1.0.2QL:peacefultodyefor_1_0_2_intro
     logic: AND
     task: collect "advanced items from PeacefulToDyeFor-1.0.2" 5
     reward: choice

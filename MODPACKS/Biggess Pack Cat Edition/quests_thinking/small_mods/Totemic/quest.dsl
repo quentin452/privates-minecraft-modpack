@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Totemic Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Totemic
 @filename Totemic-1.7.10-0.6.2.jar
 @size 1.48MB
 @category small_mods
-@quest_line Totemic Quest Line
+@quest_line TotemicQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest totemic_intro
     title: Introduction to Totemic
     desc: Learn the basics of Totemic and craft your first item
-    requires: Totemic Quest Line:totemic_discover
+    requires: TotemicQL:totemic_discover
     logic: AND
     task: craft "any item from Totemic" 1
     reward: item minecraft:book 1 "Totemic Guide"
@@ -36,7 +37,7 @@
 >quest totemic_master
     title: Master Totemic
     desc: Become proficient with advanced Totemic mechanics
-    requires: Totemic Quest Line:totemic_intro
+    requires: TotemicQL:totemic_intro
     logic: AND
     task: collect "advanced items from Totemic" 5
     reward: choice

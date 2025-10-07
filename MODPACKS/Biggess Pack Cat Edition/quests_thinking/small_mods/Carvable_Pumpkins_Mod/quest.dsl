@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Carvable_Pumpkins_Mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Carvable_Pumpkins_Mod
 @filename Carvable_Pumpkins_Mod.jar
 @size 0.11MB
 @category small_mods
-@quest_line Carvable_Pumpkins_Mod Quest Line
+@quest_line Carvable_Pumpkins_ModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest carvable_pumpkins_mod_intro
     title: Introduction to Carvable_Pumpkins_Mod
     desc: Learn the basics of Carvable_Pumpkins_Mod and craft your first item
-    requires: Carvable_Pumpkins_Mod Quest Line:carvable_pumpkins_mod_discover
+    requires: Carvable_Pumpkins_ModQL:carvable_pumpkins_mod_discover
     logic: AND
     task: craft "any item from Carvable_Pumpkins_Mod" 1
     reward: item minecraft:book 1 "Carvable_Pumpkins_Mod Guide"
@@ -36,7 +37,7 @@
 >quest carvable_pumpkins_mod_master
     title: Master Carvable_Pumpkins_Mod
     desc: Become proficient with advanced Carvable_Pumpkins_Mod mechanics
-    requires: Carvable_Pumpkins_Mod Quest Line:carvable_pumpkins_mod_intro
+    requires: Carvable_Pumpkins_ModQL:carvable_pumpkins_mod_intro
     logic: AND
     task: collect "advanced items from Carvable_Pumpkins_Mod" 5
     reward: choice

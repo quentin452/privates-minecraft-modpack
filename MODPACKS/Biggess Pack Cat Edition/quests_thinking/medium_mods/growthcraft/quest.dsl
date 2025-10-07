@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # growthcraft Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod growthcraft
 @filename growthcraft-1.7.10-2.7.3-complete.jar
 @size 2.22MB
 @category medium_mods
-@quest_line growthcraft Quest Line
+@quest_line growthcraftQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest growthcraft_intro
     title: Introduction to growthcraft
     desc: Learn the basics of growthcraft and craft your first item
-    requires: growthcraft Quest Line:growthcraft_discover
+    requires: growthcraftQL:growthcraft_discover
     logic: AND
     task: craft "any item from growthcraft" 1
     reward: item minecraft:book 1 "growthcraft Guide"
@@ -36,7 +37,7 @@
 >quest growthcraft_master
     title: Master growthcraft
     desc: Become proficient with advanced growthcraft mechanics
-    requires: growthcraft Quest Line:growthcraft_intro
+    requires: growthcraftQL:growthcraft_intro
     logic: AND
     task: collect "advanced items from growthcraft" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BloodMagic Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BloodMagic
 @filename BloodMagic-1.7.51.jar
 @size 8.86MB
 @category medium_mods
-@quest_line BloodMagic Quest Line
+@quest_line BloodMagicQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest bloodmagic_intro
     title: Introduction to BloodMagic
     desc: Learn the basics of BloodMagic and craft your first item
-    requires: BloodMagic Quest Line:bloodmagic_discover
+    requires: BloodMagicQL:bloodmagic_discover
     logic: AND
     task: craft "any item from BloodMagic" 1
     reward: item minecraft:book 1 "BloodMagic Guide"
@@ -36,7 +37,7 @@
 >quest bloodmagic_master
     title: Master BloodMagic
     desc: Become proficient with advanced BloodMagic mechanics
-    requires: BloodMagic Quest Line:bloodmagic_intro
+    requires: BloodMagicQL:bloodmagic_intro
     logic: AND
     task: collect "advanced items from BloodMagic" 5
     reward: choice

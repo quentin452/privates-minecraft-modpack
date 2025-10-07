@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # tnkconduits Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod tnkconduits
 @filename tnkconduits-0.2.4.jar
 @size 0.13MB
 @category small_mods
-@quest_line tnkconduits Quest Line
+@quest_line tnkconduitsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest tnkconduits_intro
     title: Introduction to tnkconduits
     desc: Learn the basics of tnkconduits and craft your first item
-    requires: tnkconduits Quest Line:tnkconduits_discover
+    requires: tnkconduitsQL:tnkconduits_discover
     logic: AND
     task: craft "any item from tnkconduits" 1
     reward: item minecraft:book 1 "tnkconduits Guide"
@@ -36,7 +37,7 @@
 >quest tnkconduits_master
     title: Master tnkconduits
     desc: Become proficient with advanced tnkconduits mechanics
-    requires: tnkconduits Quest Line:tnkconduits_intro
+    requires: tnkconduitsQL:tnkconduits_intro
     logic: AND
     task: collect "advanced items from tnkconduits" 5
     reward: choice

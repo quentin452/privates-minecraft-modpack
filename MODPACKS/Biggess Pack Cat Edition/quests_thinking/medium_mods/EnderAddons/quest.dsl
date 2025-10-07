@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # EnderAddons Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod EnderAddons
 @filename EnderAddons-1.7.10-0.1R.jar
 @size 5.77MB
 @category medium_mods
-@quest_line EnderAddons Quest Line
+@quest_line EnderAddonsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest enderaddons_intro
     title: Introduction to EnderAddons
     desc: Learn the basics of EnderAddons and craft your first item
-    requires: EnderAddons Quest Line:enderaddons_discover
+    requires: EnderAddonsQL:enderaddons_discover
     logic: AND
     task: craft "any item from EnderAddons" 1
     reward: item minecraft:book 1 "EnderAddons Guide"
@@ -36,7 +37,7 @@
 >quest enderaddons_master
     title: Master EnderAddons
     desc: Become proficient with advanced EnderAddons mechanics
-    requires: EnderAddons Quest Line:enderaddons_intro
+    requires: EnderAddonsQL:enderaddons_intro
     logic: AND
     task: collect "advanced items from EnderAddons" 5
     reward: choice

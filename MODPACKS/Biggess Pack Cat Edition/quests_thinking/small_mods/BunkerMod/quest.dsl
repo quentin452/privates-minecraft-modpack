@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BunkerMod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BunkerMod
 @filename BunkerMod-1.1.jar
 @size 0.11MB
 @category small_mods
-@quest_line BunkerMod Quest Line
+@quest_line BunkerModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest bunkermod_intro
     title: Introduction to BunkerMod
     desc: Learn the basics of BunkerMod and craft your first item
-    requires: BunkerMod Quest Line:bunkermod_discover
+    requires: BunkerModQL:bunkermod_discover
     logic: AND
     task: craft "any item from BunkerMod" 1
     reward: item minecraft:book 1 "BunkerMod Guide"
@@ -36,7 +37,7 @@
 >quest bunkermod_master
     title: Master BunkerMod
     desc: Become proficient with advanced BunkerMod mechanics
-    requires: BunkerMod Quest Line:bunkermod_intro
+    requires: BunkerModQL:bunkermod_intro
     logic: AND
     task: collect "advanced items from BunkerMod" 5
     reward: choice

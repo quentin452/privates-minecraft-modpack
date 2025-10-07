@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # InvisibleArmor Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod InvisibleArmor
 @filename InvisibleArmor-1.0.0.jar
 @size 0.01MB
 @category small_mods
-@quest_line InvisibleArmor Quest Line
+@quest_line InvisibleArmorQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest invisiblearmor_intro
     title: Introduction to InvisibleArmor
     desc: Learn the basics of InvisibleArmor and craft your first item
-    requires: InvisibleArmor Quest Line:invisiblearmor_discover
+    requires: InvisibleArmorQL:invisiblearmor_discover
     logic: AND
     task: craft "any item from InvisibleArmor" 1
     reward: item minecraft:book 1 "InvisibleArmor Guide"
@@ -36,7 +37,7 @@
 >quest invisiblearmor_master
     title: Master InvisibleArmor
     desc: Become proficient with advanced InvisibleArmor mechanics
-    requires: InvisibleArmor Quest Line:invisiblearmor_intro
+    requires: InvisibleArmorQL:invisiblearmor_intro
     logic: AND
     task: collect "advanced items from InvisibleArmor" 5
     reward: choice

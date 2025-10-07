@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # eternalsingularity Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod eternalsingularity
 @filename eternalsingularity-1.2.0.jar
 @size 0.14MB
 @category small_mods
-@quest_line eternalsingularity Quest Line
+@quest_line eternalsingularityQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest eternalsingularity_intro
     title: Introduction to eternalsingularity
     desc: Learn the basics of eternalsingularity and craft your first item
-    requires: eternalsingularity Quest Line:eternalsingularity_discover
+    requires: eternalsingularityQL:eternalsingularity_discover
     logic: AND
     task: craft "any item from eternalsingularity" 1
     reward: item minecraft:book 1 "eternalsingularity Guide"
@@ -36,7 +37,7 @@
 >quest eternalsingularity_master
     title: Master eternalsingularity
     desc: Become proficient with advanced eternalsingularity mechanics
-    requires: eternalsingularity Quest Line:eternalsingularity_intro
+    requires: eternalsingularityQL:eternalsingularity_intro
     logic: AND
     task: collect "advanced items from eternalsingularity" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ExtraTools Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ExtraTools
 @filename ExtraTools-1.7.10-1.1.jar
 @size 0.04MB
 @category small_mods
-@quest_line ExtraTools Quest Line
+@quest_line ExtraToolsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest extratools_intro
     title: Introduction to ExtraTools
     desc: Learn the basics of ExtraTools and craft your first item
-    requires: ExtraTools Quest Line:extratools_discover
+    requires: ExtraToolsQL:extratools_discover
     logic: AND
     task: craft "any item from ExtraTools" 1
     reward: item minecraft:book 1 "ExtraTools Guide"
@@ -36,7 +37,7 @@
 >quest extratools_master
     title: Master ExtraTools
     desc: Become proficient with advanced ExtraTools mechanics
-    requires: ExtraTools Quest Line:extratools_intro
+    requires: ExtraToolsQL:extratools_intro
     logic: AND
     task: collect "advanced items from ExtraTools" 5
     reward: choice

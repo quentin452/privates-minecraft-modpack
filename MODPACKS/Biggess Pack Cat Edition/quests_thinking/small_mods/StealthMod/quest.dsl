@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # StealthMod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod StealthMod
 @filename StealthMod -v0.0.9.jar
 @size 0.13MB
 @category small_mods
-@quest_line StealthMod Quest Line
+@quest_line StealthModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest stealthmod_intro
     title: Introduction to StealthMod
     desc: Learn the basics of StealthMod and craft your first item
-    requires: StealthMod Quest Line:stealthmod_discover
+    requires: StealthModQL:stealthmod_discover
     logic: AND
     task: craft "any item from StealthMod" 1
     reward: item minecraft:book 1 "StealthMod Guide"
@@ -36,7 +37,7 @@
 >quest stealthmod_master
     title: Master StealthMod
     desc: Become proficient with advanced StealthMod mechanics
-    requires: StealthMod Quest Line:stealthmod_intro
+    requires: StealthModQL:stealthmod_intro
     logic: AND
     task: collect "advanced items from StealthMod" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # expanded_rails_mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod expanded_rails_mod
 @filename expanded_rails_mod_1.7.10.jar
 @size 0.78MB
 @category small_mods
-@quest_line expanded_rails_mod Quest Line
+@quest_line expanded_rails_modQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest expanded_rails_mod_intro
     title: Introduction to expanded_rails_mod
     desc: Learn the basics of expanded_rails_mod and craft your first item
-    requires: expanded_rails_mod Quest Line:expanded_rails_mod_discover
+    requires: expanded_rails_modQL:expanded_rails_mod_discover
     logic: AND
     task: craft "any item from expanded_rails_mod" 1
     reward: item minecraft:book 1 "expanded_rails_mod Guide"
@@ -36,7 +37,7 @@
 >quest expanded_rails_mod_master
     title: Master expanded_rails_mod
     desc: Become proficient with advanced expanded_rails_mod mechanics
-    requires: expanded_rails_mod Quest Line:expanded_rails_mod_intro
+    requires: expanded_rails_modQL:expanded_rails_mod_intro
     logic: AND
     task: collect "advanced items from expanded_rails_mod" 5
     reward: choice

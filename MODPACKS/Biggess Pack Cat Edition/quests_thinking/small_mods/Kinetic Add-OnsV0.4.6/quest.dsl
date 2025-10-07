@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Kinetic Add-OnsV0.4.6 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Kinetic Add-OnsV0.4.6
 @filename Kinetic Add-OnsV0.4.6.jar
 @size 1.87MB
 @category small_mods
-@quest_line Kinetic Add-OnsV0.4.6 Quest Line
+@quest_line Kinetic Add-OnsV0.4.6QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest kinetic_add_onsv0_4_6_intro
     title: Introduction to Kinetic Add-OnsV0.4.6
     desc: Learn the basics of Kinetic Add-OnsV0.4.6 and craft your first item
-    requires: Kinetic Add-OnsV0.4.6 Quest Line:kinetic_add_onsv0_4_6_discover
+    requires: Kinetic Add-OnsV0.4.6QL:kinetic_add_onsv0_4_6_discover
     logic: AND
     task: craft "any item from Kinetic Add-OnsV0.4.6" 1
     reward: item minecraft:book 1 "Kinetic Add-OnsV0.4.6 Guide"
@@ -36,7 +37,7 @@
 >quest kinetic_add_onsv0_4_6_master
     title: Master Kinetic Add-OnsV0.4.6
     desc: Become proficient with advanced Kinetic Add-OnsV0.4.6 mechanics
-    requires: Kinetic Add-OnsV0.4.6 Quest Line:kinetic_add_onsv0_4_6_intro
+    requires: Kinetic Add-OnsV0.4.6QL:kinetic_add_onsv0_4_6_intro
     logic: AND
     task: collect "advanced items from Kinetic Add-OnsV0.4.6" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # advancedgenetics Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod advancedgenetics
 @filename advancedgenetics-1.7.2-1.5.jar
 @size 0.93MB
 @category small_mods
-@quest_line advancedgenetics Quest Line
+@quest_line advancedgeneticsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest advancedgenetics_intro
     title: Introduction to advancedgenetics
     desc: Learn the basics of advancedgenetics and craft your first item
-    requires: advancedgenetics Quest Line:advancedgenetics_discover
+    requires: advancedgeneticsQL:advancedgenetics_discover
     logic: AND
     task: craft "any item from advancedgenetics" 1
     reward: item minecraft:book 1 "advancedgenetics Guide"
@@ -36,7 +37,7 @@
 >quest advancedgenetics_master
     title: Master advancedgenetics
     desc: Become proficient with advanced advancedgenetics mechanics
-    requires: advancedgenetics Quest Line:advancedgenetics_intro
+    requires: advancedgeneticsQL:advancedgenetics_intro
     logic: AND
     task: collect "advanced items from advancedgenetics" 5
     reward: choice

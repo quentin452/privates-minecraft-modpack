@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # ae2noultimatepatterns Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ae2noultimatepatterns
 @filename ae2noultimatepatterns-1.0.1.jar
 @size 0.01MB
 @category small_mods
-@quest_line ae2noultimatepatterns Quest Line
+@quest_line ae2noultimatepatternsQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest ae2noultimatepatterns_intro
     title: Introduction to ae2noultimatepatterns
     desc: Learn the basics of ae2noultimatepatterns and craft your first item
-    requires: ae2noultimatepatterns Quest Line:ae2noultimatepatterns_discover
+    requires: ae2noultimatepatternsQL:ae2noultimatepatterns_discover
     logic: AND
     task: craft "any item from ae2noultimatepatterns" 1
     reward: item minecraft:book 1 "ae2noultimatepatterns Guide"
@@ -36,7 +37,7 @@
 >quest ae2noultimatepatterns_master
     title: Master ae2noultimatepatterns
     desc: Become proficient with advanced ae2noultimatepatterns mechanics
-    requires: ae2noultimatepatterns Quest Line:ae2noultimatepatterns_intro
+    requires: ae2noultimatepatternsQL:ae2noultimatepatterns_intro
     logic: AND
     task: collect "advanced items from ae2noultimatepatterns" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BlockArmor Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BlockArmor
 @filename BlockArmor-1.7.10-1.1.jar
 @size 0.23MB
 @category small_mods
-@quest_line BlockArmor Quest Line
+@quest_line BlockArmorQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest blockarmor_intro
     title: Introduction to BlockArmor
     desc: Learn the basics of BlockArmor and craft your first item
-    requires: BlockArmor Quest Line:blockarmor_discover
+    requires: BlockArmorQL:blockarmor_discover
     logic: AND
     task: craft "any item from BlockArmor" 1
     reward: item minecraft:book 1 "BlockArmor Guide"
@@ -36,7 +37,7 @@
 >quest blockarmor_master
     title: Master BlockArmor
     desc: Become proficient with advanced BlockArmor mechanics
-    requires: BlockArmor Quest Line:blockarmor_intro
+    requires: BlockArmorQL:blockarmor_intro
     logic: AND
     task: collect "advanced items from BlockArmor" 5
     reward: choice

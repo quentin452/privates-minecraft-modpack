@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # HEGM 1.7.10 Update 1 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod HEGM 1.7.10 Update 1
 @filename HEGM 1.7.10 Update 1.jar
 @size 0.03MB
 @category small_mods
-@quest_line HEGM 1.7.10 Update 1 Quest Line
+@quest_line HEGM 1.7.10 Update 1QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest hegm_1_7_10_update_1_intro
     title: Introduction to HEGM 1.7.10 Update 1
     desc: Learn the basics of HEGM 1.7.10 Update 1 and craft your first item
-    requires: HEGM 1.7.10 Update 1 Quest Line:hegm_1_7_10_update_1_discover
+    requires: HEGM 1.7.10 Update 1QL:hegm_1_7_10_update_1_discover
     logic: AND
     task: craft "any item from HEGM 1.7.10 Update 1" 1
     reward: item minecraft:book 1 "HEGM 1.7.10 Update 1 Guide"
@@ -36,7 +37,7 @@
 >quest hegm_1_7_10_update_1_master
     title: Master HEGM 1.7.10 Update 1
     desc: Become proficient with advanced HEGM 1.7.10 Update 1 mechanics
-    requires: HEGM 1.7.10 Update 1 Quest Line:hegm_1_7_10_update_1_intro
+    requires: HEGM 1.7.10 Update 1QL:hegm_1_7_10_update_1_intro
     logic: AND
     task: collect "advanced items from HEGM 1.7.10 Update 1" 5
     reward: choice

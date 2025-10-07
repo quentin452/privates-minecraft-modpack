@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # Rail_Bridges_Mod Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Rail_Bridges_Mod
 @filename Rail_Bridges_Mod_1.7.10.jar
 @size 0.01MB
 @category small_mods
-@quest_line Rail_Bridges_Mod Quest Line
+@quest_line Rail_Bridges_ModQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest rail_bridges_mod_intro
     title: Introduction to Rail_Bridges_Mod
     desc: Learn the basics of Rail_Bridges_Mod and craft your first item
-    requires: Rail_Bridges_Mod Quest Line:rail_bridges_mod_discover
+    requires: Rail_Bridges_ModQL:rail_bridges_mod_discover
     logic: AND
     task: craft "any item from Rail_Bridges_Mod" 1
     reward: item minecraft:book 1 "Rail_Bridges_Mod Guide"
@@ -36,7 +37,7 @@
 >quest rail_bridges_mod_master
     title: Master Rail_Bridges_Mod
     desc: Become proficient with advanced Rail_Bridges_Mod mechanics
-    requires: Rail_Bridges_Mod Quest Line:rail_bridges_mod_intro
+    requires: Rail_Bridges_ModQL:rail_bridges_mod_intro
     logic: AND
     task: collect "advanced items from Rail_Bridges_Mod" 5
     reward: choice

@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # PaintEverything Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod PaintEverything
 @filename PaintEverything-1.7.10-B1.4.jar
 @size 0.35MB
 @category small_mods
-@quest_line PaintEverything Quest Line
+@quest_line PaintEverythingQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest painteverything_intro
     title: Introduction to PaintEverything
     desc: Learn the basics of PaintEverything and craft your first item
-    requires: PaintEverything Quest Line:painteverything_discover
+    requires: PaintEverythingQL:painteverything_discover
     logic: AND
     task: craft "any item from PaintEverything" 1
     reward: item minecraft:book 1 "PaintEverything Guide"
@@ -36,7 +37,7 @@
 >quest painteverything_master
     title: Master PaintEverything
     desc: Become proficient with advanced PaintEverything mechanics
-    requires: PaintEverything Quest Line:painteverything_intro
+    requires: PaintEverythingQL:painteverything_intro
     logic: AND
     task: collect "advanced items from PaintEverything" 5
     reward: choice

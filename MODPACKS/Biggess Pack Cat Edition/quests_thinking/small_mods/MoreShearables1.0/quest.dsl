@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # MoreShearables1.0 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MoreShearables1.0
 @filename MoreShearables1.0-1.7.10.jar
 @size 0.03MB
 @category small_mods
-@quest_line MoreShearables1.0 Quest Line
+@quest_line MoreShearables1.0QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest moreshearables1_0_intro
     title: Introduction to MoreShearables1.0
     desc: Learn the basics of MoreShearables1.0 and craft your first item
-    requires: MoreShearables1.0 Quest Line:moreshearables1_0_discover
+    requires: MoreShearables1.0QL:moreshearables1_0_discover
     logic: AND
     task: craft "any item from MoreShearables1.0" 1
     reward: item minecraft:book 1 "MoreShearables1.0 Guide"
@@ -36,7 +37,7 @@
 >quest moreshearables1_0_master
     title: Master MoreShearables1.0
     desc: Become proficient with advanced MoreShearables1.0 mechanics
-    requires: MoreShearables1.0 Quest Line:moreshearables1_0_intro
+    requires: MoreShearables1.0QL:moreshearables1_0_intro
     logic: AND
     task: collect "advanced items from MoreShearables1.0" 5
     reward: choice

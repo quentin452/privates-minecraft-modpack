@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # etfuturum Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod etfuturum
 @filename etfuturum-2.6.2.jar
 @size 4.62MB
 @category medium_mods
-@quest_line etfuturum Quest Line
+@quest_line etfuturumQL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest etfuturum_intro
     title: Introduction to etfuturum
     desc: Learn the basics of etfuturum and craft your first item
-    requires: etfuturum Quest Line:etfuturum_discover
+    requires: etfuturumQL:etfuturum_discover
     logic: AND
     task: craft "any item from etfuturum" 1
     reward: item minecraft:book 1 "etfuturum Guide"
@@ -36,7 +37,7 @@
 >quest etfuturum_master
     title: Master etfuturum
     desc: Become proficient with advanced etfuturum mechanics
-    requires: etfuturum Quest Line:etfuturum_intro
+    requires: etfuturumQL:etfuturum_intro
     logic: AND
     task: collect "advanced items from etfuturum" 5
     reward: choice

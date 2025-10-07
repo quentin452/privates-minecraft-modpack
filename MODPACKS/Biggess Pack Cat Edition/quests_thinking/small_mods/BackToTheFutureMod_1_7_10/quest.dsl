@@ -1,13 +1,14 @@
 ## See _dsl_reference.md for full syntax details   
      
 # BackToTheFutureMod_1_7_10 Quest Chain
-# ⚠️ Quests for this mod are NOT yet completed! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
+# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BackToTheFutureMod_1_7_10
 @filename BackToTheFutureMod_1_7_10.jar
 @size 0.22MB
 @category small_mods
-@quest_line BackToTheFutureMod_1_7_10 Quest Line
+@quest_line BackToTheFutureMod_1_7_10QL
 @status incomplete
 
 # Discovery Quest - First interaction with the mod
@@ -25,7 +26,7 @@
 >quest backtothefuturemod_1_7_10_intro
     title: Introduction to BackToTheFutureMod_1_7_10
     desc: Learn the basics of BackToTheFutureMod_1_7_10 and craft your first item
-    requires: BackToTheFutureMod_1_7_10 Quest Line:backtothefuturemod_1_7_10_discover
+    requires: BackToTheFutureMod_1_7_10QL:backtothefuturemod_1_7_10_discover
     logic: AND
     task: craft "any item from BackToTheFutureMod_1_7_10" 1
     reward: item minecraft:book 1 "BackToTheFutureMod_1_7_10 Guide"
@@ -36,7 +37,7 @@
 >quest backtothefuturemod_1_7_10_master
     title: Master BackToTheFutureMod_1_7_10
     desc: Become proficient with advanced BackToTheFutureMod_1_7_10 mechanics
-    requires: BackToTheFutureMod_1_7_10 Quest Line:backtothefuturemod_1_7_10_intro
+    requires: BackToTheFutureMod_1_7_10QL:backtothefuturemod_1_7_10_intro
     logic: AND
     task: collect "advanced items from BackToTheFutureMod_1_7_10" 5
     reward: choice
