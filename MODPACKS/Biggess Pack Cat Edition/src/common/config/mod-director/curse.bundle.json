@@ -1377,11 +1377,6 @@
 			"fileName": "Coffee Spawner-1.7.10-1.0.2.jar"
 		},
 		{
-			"addonId": 69162,
-			"fileId": 2388750,
-			"fileName": "CoFHCore-[1.7.10]3.1.4-329.jar"
-		},
-		{
 			"addonId": 368357,
 			"fileId": 3813339,
 			"fileName": "colorfulhealthbar-1.7.10-1.0.0.jar"
@@ -3580,12 +3575,6 @@
 			"addonId": 242677,
 			"fileId": 2292386,
 			"fileName": "fastcraft-1.23.jar",
-			"folder": "mods"
-		},
-		{
-			"addonId": 1050470,
-			"fileId": 6543345,
-			"fileName": "lumi-mc1.7.10-1.2.0.jar",
 			"folder": "mods"
 		},
 		{
