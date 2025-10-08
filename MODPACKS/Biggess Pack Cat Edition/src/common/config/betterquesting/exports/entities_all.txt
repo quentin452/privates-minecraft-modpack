@@ -197,6 +197,31 @@ CrystalArrow
 CustomFishHook
 Cyclops Man
 Cyrisus
+DMBeamos
+DMBeamosBeam
+DMBeholder
+DMBladeTrap
+DMCaveFisher
+DMCockatrice
+DMDestrachan
+DMEyeRay
+DMGhoul
+DMHellHound
+DMHookHorror
+DMIllithid
+DMLizalfos
+DMMagicMissile
+DMManticore
+DMPetrified
+DMRakshasa
+DMRakshasaImage
+DMRustMonster
+DMShrieker
+DMSonicBoom
+DMThoqqua
+DMTroll
+DMUmberHulk
+DMVescavor
 Dagannoth
 Dagannoth Mother
 Dark Archer
