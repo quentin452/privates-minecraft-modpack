@@ -1,0 +1,355 @@
+# BetterQuesting Biome Export
+# Format: biome_id biome_name
+# Use these IDs in DSL quest files for visit tasks: visit dimension_id biome biome_id
+
+0     # Ocean
+1     # Plains
+10    # FrozenOcean
+100   # Kelp Forest
+101   # Tropics
+10100 # Painted Clearing
+102   # Volcano
+103   # Mangrove
+104   # Alps Forest
+105   # Canyon Ravine
+106   # Glacier
+107   # Land of Lakes Marsh
+108   # Meadow Forest
+109   # Oasis
+11    # FrozenRiver
+110   # Quagmire
+1100  # Tainted Spikes
+111   # Scrubland
+1119  # Tainted Lowlands
+112   # Seasonal Forest Clearing
+113   # Silkglades
+114   # Spruce Woods
+115   # Corrupted Sands
+116   # Phantasmagoric Inferno
+117   # Boneyard
+118   # Visceral Heap
+119   # Undergarden
+12    # Ice Plains
+120   # Polar Chasm
+1200  # Utopia
+1201  # Islands
+1202  # Crystal
+1203  # Villages
+1204  # Chaos
+121   # Spectral Garden
+122   # Lush River
+123   # Dry River
+1237  # Tainted Rises
+1249  # Tainted Scarlands
+12841 # Land of Darkness
+129   # Sunflower Plains
+13    # Ice Mountains
+130   # Desert M
+131   # Extreme Hills M
+132   # Flower Forest
+133   # Taiga M
+134   # Swampland M
+14    # MushroomIsland
+140   # Ice Plains Spikes
+1404  # Bedrock Maze
+149   # Jungle M
+15    # MushroomIslandShore
+151   # JungleEdge M
+155   # Birch Forest M
+156   # Birch Forest Hills M
+157   # Roofed Forest M
+158   # Cold Taiga M
+15944 # Lucky Maze
+16    # Beach
+160   # Mega Spruce Taiga
+1607  # Aether
+161   # Mega Spruce Taiga
+162   # Extreme Hills+ M
+163   # Savanna M
+164   # Savanna Plateau M
+165   # Mesa (Bryce)
+166   # Mesa Plateau F M
+167   # Mesa Plateau M
+17    # DesertHills
+17041 # BambooForest
+18    # ForestHills
+1879  # OreSpawn Cave Maze
+1884  # Tainted Isles
+1893  # Synapse
+19    # TaigaHills
+1905  # Hallowed Hills
+1914  # Hallowed Forest
+1921  # Tainted Land
+1929  # Hallowed Prarie
+1932  # Hallowed Cliffs
+1939  # Magical Forest
+1947  # Scorched Wastelands
+1958  # Scorched Valley
+1959  # Eldritch
+1966  # Scorched Scarlands
+2     # Desert
+20    # Extreme Hills Edge
+2025  # Corroded Steppe
+21    # Jungle
+21144 # WyvernBiome
+2129  # Underworld
+2139  # Arcadia
+2159  # Corroded Heights
+2163  # Corroded Veld
+2176  # Corroded Runoff
+22    # JungleHills
+2297  # Dark Marshland
+23    # JungleEdge
+2309  # Dead Sector
+2316  # Corrupted Chunk
+2320  # Twilight Clearing
+2330  # Dark Forest
+2348  # Dark Forest Center
+2353  # Deep Mushroom Forest
+2369  # Enchanted Forest
+2376  # Fire Swamp
+2387  # Twilight Glacier
+2398  # Twilight Highlands
+24    # Deep Ocean
+2400  # Dungeon Maze
+2409  # Highlands Center
+2410  # Stronghold Maze
+2411  # Twilight Lake
+2420  # Cave Maze
+2422  # Firefly Forest
+2430  # Flooded Maze
+2433  # Mushroom Forest
+2440  # Peaceful Maze
+24485 # Oak Savanna
+2450  # Rainbow Maze
+24500 # Inner Earth
+2457  # Snowy Forest
+24604 # Forested Inner Earth
+2469  # Twilight Stream
+2470  # Ice Maze
+24700 # Mountainous Inner Earth
+2473  # Twilight Swamp
+24800 # Withering Maze
+2484  # Thornlands
+24900 # Ender Maze
+24901 # Infested Inner Earth
+2498  # Twilight Forest
+25    # Stone Beach
+25000 # Precious Maze
+25001 # Scalding Springs
+25015 # Sunset Biome
+2509  # Dense Twilight Forest
+2510  # Scorched Lands
+25185 # Crystallium Spikes
+2520  # Swampy Forest
+25212 # Montane Biome
+2530  # Towering Forest
+25345 # Crystallium Plains
+2540  # Towering Forest
+25463 # Midight
+26    # Cold Beach
+27    # Birch Forest
+2785  # Atum's Desert
+28    # Birch Forest Hills
+28102 # moon
+28103 # marsFlat
+28104 # asteroids
+29    # Roofed Forest
+3     # Extreme Hills
+30    # Cold Taiga
+31    # Cold Taiga Hills
+3170  # Burning Desert
+3171  # Tainted Shroom Cave
+3175  # Basalt Deltas
+3176  # Crimson Forest
+3177  # Soul Sand Valley
+3178  # Warped Forest
+3179  # Foxfire Swamp
+3180  # Crystalline Crag
+3181  # Abyssal Shadowland
+3182  # Ruptured Chasm
+32    # Mega Taiga
+3200  # Infested Forest
+3201  # Burning Mountains
+3202  # Enchanted Island
+3210  # Monochrome Desert
+33    # Mega Taiga Hills
+34    # Extreme Hills+
+35    # Savanna
+36    # Savanna Plateau
+37    # Mesa
+38    # Mesa Plateau F
+39    # Mesa Plateau
+4     # Forest
+40    # Space
+4000  # Storage Cell
+4004  # Common Forest
+41    # SpaceShallowWaters
+4150  # Common Desert
+42    # SpaceOceans
+4274  # Wilderness
+43    # Bayou
+43663 # SpaceDeepOceans
+4368  # Fremennik icelands
+44    # SpaceLowPlains
+4443  # Morytania
+45    # SpaceMidPlains
+4565  # Volcanic Lands
+46    # SpaceLowHills
+47    # Canyon
+4793  # Freezer
+48    # Chaparral
+4862  # Freezer Jungle
+49    # Cherry Blossom Grove
+4941  # Eternal Mountain
+5     # Taiga
+50    # Coniferous Forest
+5084  # Frozen Plain
+51    # Snowy Coniferous Forest
+5174  # Eternal Desert
+52    # Crag
+5247  # Tundra
+53    # Dead Forest
+5364  # Glacier
+54    # SpaceHighPlateaus
+55    # SpaceMidHills
+56    # SpaceRockyWaters
+57    # SpaceLowIslands
+58    # SpacePartiallySubmerged
+59    # SpaceBeach
+6     # Swampland
+60    # Frost Forest
+6001  # Tropical Ocean
+6035  # Euca
+61    # Fungi Forest
+6100  # Ashen Mountains
+6101  # Ashen Hills
+6102  # Ashen Badlands
+6103  # Starlit Prairie
+6104  # Starlit Cliffs
+6105  # Starlit Lowlands
+6144  # The Depths
+62    # Garden
+6207  # Rainforest Plains
+6270  # Tropical River
+6275  # Boiling Point
+63    # Grassland
+6300  # Rainforest Hills
+6347  # Frozen Lands
+64    # Grove
+6400  # Rainforest Mountains
+65    # Heathland
+65471 # Mushroom Forested Inner Earth
+66    # Highland
+6600  # Tropical Beach
+67    # Jade Cliffs
+6700  # Tropical Lake
+6704  # Tropics
+6742  # biome.treasure.name
+68    # -=|WorldEngine|=-
+6800  # Extreme Rainforest Mountains
+69    # Lavender Fields
+7     # River
+70    # Lush Desert
+71    # Lush Swamp
+7184  # Desert Maze
+72    # Maple Woods
+7200  # Alps
+7201  # Autumn Forest
+7202  # Badlands
+7203  # Birch Hills
+7204  # Bog
+7205  # Cliffs
+7206  # Desert Mountains
+7207  # Dunes
+7208  # Estuary
+7209  # Flying Mountains
+7210  # Glacier
+7211  # Highlands
+7212  # Lowlands
+7213  # Meadow
+7214  # Outback
+7215  # Pinelands
+7216  # Rainforest
+7217  # Redwood Forest
+7218  # Rock Mountains
+7219  # Sahel
+7220  # Savannah
+7221  # Steppe
+7222  # Snow Mountains
+7223  # Tall Pine Forest
+7224  # Tropics
+7225  # Tropical Islands
+7226  # Tundra
+7227  # Woodlands
+7228  # Woodland Mountains
+7230  # Desert Island
+7231  # Forest Island
+7232  # Jungle Island
+7233  # Volcano Island
+7234  # Snow Island
+7235  # Rock Island
+7236  # Windy Island
+7237  # Lake
+7238  # Bald Hill
+7239  # Mesa
+7240  # Valley
+7241  # Oasis
+7242  # Canyon
+7243  # Shrubland
+7245  # Firey Maze
+73    # Marsh
+7386  # Forest Maze
+74    # Meadow
+7400  # Mining Biome
+75    # Moor
+7577  # Swampy Maze
+76    # Mountain
+7685  # Cake Maze
+77    # Mystic Grove
+7741  # Village Maze
+78    # Ominous Woods
+787   # Quartz Maze
+79    # Orchard
+8     # Hell
+80    # Origin Valley
+801   # Kether Biome
+8022  # Frozen Hills
+803   # Decaying Valley
+8040  # Corroded Fallout
+8041  # Frozen Tundra
+8043  # Frozen Depths
+8044  # Crystal
+8045  # Dark Forest
+8046  # Dark Forest Hills
+81    # Outback
+82    # Prairie
+83    # Rainforest
+84    # Redwood Forest
+85    # Sacred Springs
+86    # Seasonal Forest
+8676  # Mesa Maze
+87    # Shield
+88    # Shrubland
+89    # Sludgepit
+9     # Sky
+90    # Steppe
+9086  # Decaying Hills
+91    # Temperate Rainforest
+92    # Thicket
+9200  # Limbo
+9201  # Pocket Dimension
+93    # Tropical Rainforest
+94    # Tundra
+95    # Wasteland
+957   # Decaying Wasteland
+96    # Wetland
+966   # Decaying Mountains
+97    # Woodland
+978   # Painted Forest
+98    # Xeric Shrubland
+984   # Painted Plains
+988   # Starlit Plateaus
+99    # Coral Reef
+993   # Painted Hills
+999   # Eerie

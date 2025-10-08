@@ -1,0 +1,83 @@
+# BetterQuesting Dimension Export
+# Format: dimension_id dimension_name
+# Use these IDs in DSL quest files for visit tasks: visit dimension_id
+
+# Standard Minecraft dimensions:
+#  0 = Overworld
+# -1 = Nether
+#  1 = The End
+# Modded dimensions typically use IDs starting from 400+
+
+-1    # Nether
+-100  # Underdark
+-1005 # Mercury
+-1006 # Venus
+-1007 # Ceres
+-1008 # Pluto
+-1009 # Kuiper Belt
+-1014 # Io
+-1015 # Europa
+-1016 # Ganymede
+-1017 # Enceladus
+-1018 # Titan
+-1021 # Triton
+-1022 # Callisto
+-1024 # Miranda
+-1025 # Proxima B
+-105041 # Barnarda C
+-105042 # Barnarda E
+-112  # The Last Millenium
+-127  # Tropics
+-15   # Sunset Dimension
+-1500 # Asteroids
+-1501 # Mars
+-17   # Wyvern Lair
+-19   # Bedrock
+-20   # Crystalium Dimension
+-21   # Sunset Dimension
+-22   # Crystallium Plains
+-23   # Midnight
+-2374 # Land of Darkness
+-2388 # Limbo
+-28   # Moon
+-30   # Caveworld
+-31   # Cavern
+-32   # Aqua Cavern
+-33   # Caveland
+-34   # Cavenia
+-3400 # the Ancient Treasure Room
+-37   # Spirit World
+-38   # Torment
+-39   # Mirror
+-42   # The Outer Lands
+-73   # Outer Lands
+-78   # Dungeon
+-8000 # Mining World
+-83   # SpectreWorld
+-90   # Arcadia
+-91   # Underworld
+0     # Overworld
+1     # The End
+1033  # Geilinor
+15000 # Dimension-Utopia
+15001 # Dimension-Extreme
+15002 # Dimension-VillageMania
+15003 # Dimension-Islands
+15004 # Dimension-Crystal
+15005 # Dimension-Chaos
+1700  # Atum
+2     # The Collision
+2074  # Euca
+2175  # Depths
+2257  # Boiling Point
+2378  # Frozen Lands
+28100 # MiddleEarth
+3     # apeWorld
+300   # Synapse
+4     # Eternal Frost
+400   # the_aether
+46    # The Maze
+61017 # Utumno
+69    # Pocket Plane
+7     # Twilight Forest
+8     # Kether

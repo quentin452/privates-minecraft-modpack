@@ -1,0 +1,709 @@
+# BetterQuesting Fluid Export
+# Format: fluid_name
+# Use these IDs in DSL quest files for fluid tasks
+
+adamantine.molten              # Molten Adamantine
+aerotheum                      # Zephyrean Aerotheum
+alduorite.molten               # Molten Alduorite
+alkahest                       # fluid.Alkahest
+aluminum.molten                # Molten Aluminium
+aluminumbrass.molten           # Molten Aluminum Brass
+alumite.molten                 # Molten Alumite
+amordrine.molten               # Molten Amordrine
+angmallen.molten               # Molten Angmallen
+ardite.molten                  # Molten Ardite
+argon                          # Argon Gas
+astral.silver.molten           # Molten Astral Silver
+atlarus.molten                 # Molten Atlarus
+atmosphericgases               # Atmospheric Gases
+bacterialsludge                # Bacterial Sludge
+bedrockium.molten              # Molten Bedrockium
+betterquesting.placeholder     # Placeholder
+biodiesel                      # Biodiesel
+bioethanol                     # Ethanol
+biofuel                        # BioFuel
+biomass                        # Biomatter
+black.steel.molten             # Molten Black Steel
+blockfilteredwater             # fluid.tile.blockFilteredWater
+blockslackedlime               # fluid.tile.blockSlackedLime
+blocksmoke                     # fluid.tile.blockSmoke
+blocktannin                    # fluid.tile.blockTannin
+blood                          # Blood
+boilingmud                     # Boiling Mud
+boilingwater                   # Boiling Water
+brass.molten                   # Molten Brass
+brine                          # Brine
+bronze.molten                  # Molten Bronze
+canolaoil                      # Canola Oil
+carbondioxide                  # CO2 Gas
+carmot.molten                  # Molten Carmot
+celenegil.molten               # Molten Celenegil
+cement.liquid                  # Wet Cement
+ceruclase.molten               # Molten Ceruclase
+chlorine                       # Liquid Chlorine
+chlorophyll                    # Chlorophyll
+chocolatemilk                  # Chocolate Milk
+cloud_seed                     # Cloud Seed
+cloud_seed_concentrated        # Concentrated Cloud Seed
+coal                           # Liquifacted Coal
+cobalt.molten                  # Molten Cobalt
+conductive.iron.molten         # Molten Conductive Iron
+conductiveiron                 # Molten Conductive Iron
+constantan.molten              # Molten Constantan
+copper.molten                  # Molten Copper
+creosote                       # Creosote Oil
+cryotheum                      # Gelid Cryotheum
+custard                        # Custard
+damascus.steel.molten          # Molten Damascus Steel
+dark.steel.molten              # Molten Dark Steel
+darksteel                      # Molten Dark Steel
+deep.iron.molten               # Molten Deep Iron
+desh.molten                    # Molten Desh
+desichalkos.molten             # Molten Desichalkos
+deuterium                      # Liquid Deuterium
+diesel                         # Diesel
+dirt                           # Molten Dirt
+drulloy.molten                 # Molten Drulloy
+dyeblue                        # Blue Liquid Dye
+dyepure                        # Pure Liquid Dye
+dyered                         # Red Liquid Dye
+dyewhite                       # White Liquid Dye
+dyeyellow                      # Yellow Liquid Dye
+ec.internal.bioethanol         # Ethanol Vapor
+ec.internal.biomass            # BioGas
+ec.internal.brine              # Gaseous Brine
+ec.internal.chlorine           # Chlorine
+ec.internal.cleancopper        # Clean Copper Slurry
+ec.internal.cleangold          # Clean Gold Slurry
+ec.internal.cleaniron          # Clean Iron Slurry
+ec.internal.cleanlead          # Clean Lead Slurry
+ec.internal.cleanosmium        # Clean Osmium Slurry
+ec.internal.cleansilver        # Clean Silver Slurry
+ec.internal.cleantin           # Clean Tin Slurry
+ec.internal.copper             # Copper Slurry
+ec.internal.deuterium          # Deuterium
+ec.internal.ethene             # Ethylene
+ec.internal.fusionfueldt       # D-T Fuel
+ec.internal.gold               # Gold Slurry
+ec.internal.hydrogen           # Hydrogen
+ec.internal.hydrogenchloride   # Hydrogen Chloride
+ec.internal.iron               # Iron Slurry
+ec.internal.lead               # Lead Slurry
+ec.internal.liquidosmium       # Liquid Osmium
+ec.internal.liquidplatinum     # Liquid Platinum
+ec.internal.liquidstone        # Liquid Stone
+ec.internal.lithium            # Lithium
+ec.internal.methane            # Methane
+ec.internal.molasse            # Molasse
+ec.internal.osmium             # Osmium Slurry
+ec.internal.oxygen             # Oxygen
+ec.internal.silver             # Silver Slurry
+ec.internal.sodium             # Sodium
+ec.internal.sulfurdioxidegas   # Sulfur Dioxide
+ec.internal.sulfuricacid       # Sulfuric Acid
+ec.internal.sulfurtrioxidegas  # Sulfur Trioxide
+ec.internal.tin                # Tin Slurry
+ec.internal.tritium            # Tritium
+ec.internal.water              # Water Vapor
+electrical.steel.molten        # Molten Electrical Steel
+electrum.molten                # Molten Electrum
+elementium.molten              # Molten Elementium
+eletrons                       # fluid.Eletrons
+emerald.liquid                 # Liquified Emerald
+ender                          # Resonant Ender
+ender_distillation             # Dew of the Void
+endergoo                       # Ender Goo
+enderium.molten                # Molten Enderium
+endium                         # Molten Endium
+energetic.alloy.molten         # Molten Energetic Alloy
+energeticalloy                 # Molten Energetic Alloy
+etchacid                       # Etching Acid
+ethanol                        # Ethanol
+ethene                         # Liquid Ethylene
+eximite.molten                 # Molten Eximite
+fairy.molten                   # Molten Fairy
+fastwater                      # Pressurised Water
+fiery_essence                  # Fiery Essence
+fierymetal.molten              # Molten Fiery Metal
+fire_water                     # Fire Water
+fishfood                       # Fish Food
+fishoil                        # Fish Oil
+fluiddeath                     # Liquid Death
+fluidmilk                      # Milk
+fluidmushroom                  # Mushroom Soup
+fluidpure                      # Purifying Fluid
+fluidvishroom                  # Vishroom Soup
+flux                           # Electrified Goo
+fluxgoo                        # Flux Goo
+for.honey                      # Honey
+fuel                           # Fuel
+fuelgc                         # fluid.fuelgc
+fusionfueldt                   # Liquid D-T Fuel
+gas.natural                    # Natural Gas
+gas_ethanol                    # fluid.gas_ethanol
+gas_oil                        # fluid.gas_oil
+gaseousabonnenessentia         # Abonnen Super Critical Fluid
+gaseousaeressentia             # Aer Super Critical Fluid
+gaseousalfirinessentia         # Alfirin Super Critical Fluid
+gaseousalienisessentia         # Alienis Super Critical Fluid
+gaseousangdolessentia          # Angdol Super Critical Fluid
+gaseousangmaressentia          # Angmar Super Critical Fluid
+gaseousaquaessentia            # Aqua Super Critical Fluid
+gaseousarboressentia           # Arbor Super Critical Fluid
+gaseousauramessentia           # Auram Super Critical Fluid
+gaseousbestiaessentia          # Bestia Super Critical Fluid
+gaseousbreeessentia            # Bree Super Critical Fluid
+gaseouscaelumessentia          # Caelum Super Critical Fluid
+gaseouscognitioessentia        # Cognitio Super Critical Fluid
+gaseouscorpusessentia          # Corpus Super Critical Fluid
+gaseousdaleessentia            # Dale Super Critical Fluid
+gaseousdesidiaessentia         # Desidia Super Critical Fluid
+gaseousdolgulduressentia       # Dolguldur Super Critical Fluid
+gaseousdorwinionessentia       # Dorwinion Super Critical Fluid
+gaseousdraugolessentia         # Draugol Super Critical Fluid
+gaseousdruardhessentia         # Druardh Super Critical Fluid
+gaseousdunedainessentia        # Dunedain Super Critical Fluid
+gaseousdunlandessentia         # Dunland Super Critical Fluid
+gaseousedhelessentia           # Edhel Super Critical Fluid
+gaseouseredluinessentia        # Eredluin Super Critical Fluid
+gaseousexanimisessentia        # Exanimis Super Critical Fluid
+gaseousexcubitoressentia       # Excubitor Super Critical Fluid
+gaseousfabricoessentia         # Fabrico Super Critical Fluid
+gaseousfamesessentia           # Fames Super Critical Fluid
+gaseousfangornessentia         # Fangorn Super Critical Fluid
+gaseousgelumessentia           # Gelum Super Critical Fluid
+gaseousgondoressentia          # Gondor Super Critical Fluid
+gaseousgulaessentia            # Gula Super Critical Fluid
+gaseousgundabadessentia        # Gundabad Super Critical Fluid
+gaseousharadessentia           # Harad Super Critical Fluid
+gaseousherbaessentia           # Herba Super Critical Fluid
+gaseoushumanusessentia         # Humanus Super Critical Fluid
+gaseousignisessentia           # Ignis Super Critical Fluid
+gaseousinfernusessentia        # Infernus Super Critical Fluid
+gaseousinstrumentumessentia    # Instrumentum Super Critical Fluid
+gaseousinvidiaessentia         # Invidia Super Critical Fluid
+gaseousiraessentia             # Ira Super Critical Fluid
+gaseousisengardessentia        # Isengard Super Critical Fluid
+gaseousiteressentia            # Iter Super Critical Fluid
+gaseousithrynessentia          # Ithryn Super Critical Fluid
+gaseouslimusessentia           # Limus Super Critical Fluid
+gaseouslindonessentia          # Lindon Super Critical Fluid
+gaseouslothlorienessentia      # Lothlorien Super Critical Fluid
+gaseouslucrumessentia          # Lucrum Super Critical Fluid
+gaseousluxessentia             # Lux Super Critical Fluid
+gaseousluxuriaessentia         # Luxuria Super Critical Fluid
+gaseousmachinaessentia         # Machina Super Critical Fluid
+gaseousmessisessentia          # Messis Super Critical Fluid
+gaseousmetallumessentia        # Metallum Super Critical Fluid
+gaseousmetoessentia            # Meto Super Critical Fluid
+gaseousmordoressentia          # Mordor Super Critical Fluid
+gaseousmornogolessentia        # Mornogol Super Critical Fluid
+gaseousmortuusessentia         # Mortuus Super Critical Fluid
+gaseousmorwaithessentia        # Morwaith Super Critical Fluid
+gaseousmotusessentia           # Motus Super Critical Fluid
+gaseousnauglinessentia         # Nauglin Super Critical Fluid
+gaseousnazgulessentia          # Nazgul Super Critical Fluid
+gaseousonodrimessentia         # Onodrim Super Critical Fluid
+gaseousorchothessentia         # Orchoth Super Critical Fluid
+gaseousordoessentia            # Ordo Super Critical Fluid
+gaseouspannusessentia          # Pannus Super Critical Fluid
+gaseousperditioessentia        # Perditio Super Critical Fluid
+gaseousperfodioessentia        # Perfodio Super Critical Fluid
+gaseousperianessentia          # Perian Super Critical Fluid
+gaseouspermutatioessentia      # Permutatio Super Critical Fluid
+gaseouspertorogessentia        # Pertorog Super Critical Fluid
+gaseouspotentiaessentia        # Potentia Super Critical Fluid
+gaseouspraecantatioessentia    # Praecantatio Super Critical Fluid
+gaseousrhudelessentia          # Rhudel Super Critical Fluid
+gaseousrohanessentia           # Rohan Super Critical Fluid
+gaseousrubusessentia           # Rubus Super Critical Fluid
+gaseoussanoessentia            # Sano Super Critical Fluid
+gaseoussensusessentia          # Sensus Super Critical Fluid
+gaseousshireessentia           # Shire Super Critical Fluid
+gaseousspiritusessentia        # Spiritus Super Critical Fluid
+gaseoussuperbiaessentia        # Superbia Super Critical Fluid
+gaseoustabernusessentia        # Tabernus Super Critical Fluid
+gaseoustaurethrimessentia      # Taurethrim Super Critical Fluid
+gaseoustelumessentia           # Telum Super Critical Fluid
+gaseoustempestasessentia       # Tempestas Super Critical Fluid
+gaseoustempusessentia          # Tempus Super Critical Fluid
+gaseoustenebraeessentia        # Tenebrae Super Critical Fluid
+gaseousterminusessentia        # Terminus Super Critical Fluid
+gaseousterraessentia           # Terra Super Critical Fluid
+gaseoustorogessentia           # Torog Super Critical Fluid
+gaseoustutamenessentia         # Tutamen Super Critical Fluid
+gaseousuhormessentia           # Uhorm Super Critical Fluid
+gaseousutumnoessentia          # Utumno Super Critical Fluid
+gaseousvacuosessentia          # Vacuos Super Critical Fluid
+gaseousvalaraukaressentia      # Valaraukar Super Critical Fluid
+gaseousvenenumessentia         # Venenum Super Critical Fluid
+gaseousvictusessentia          # Victus Super Critical Fluid
+gaseousvinculumessentia        # Vinculum Super Critical Fluid
+gaseousvitiumessentia          # Vitium Super Critical Fluid
+gaseousvitreusessentia         # Vitreus Super Critical Fluid
+gaseousvolatusessentia         # Volatus Super Critical Fluid
+gasoline                       # fluid.gasoline
+glass                          # Liquid Glass
+glass.molten                   # Molten Glass
+glowstone                      # Energized Glowstone
+glue                           # Glue
+gold.molten                    # Molten Gold
+grc.applecider0                # Apple Juice
+grc.applecider1                # Apple Cider
+grc.applecider2                # Apple Cider
+grc.applecider3                # Apple Cider
+grc.applecider4                # Silken Nectar
+grc.applecider5                # Apple Cider
+grc.applecider6                # Apple Cider
+grc.grapewine0                 # Grape Juice
+grc.grapewine1                 # Grape Wine
+grc.grapewine2                 # Grape Wine
+grc.grapewine3                 # Grape Wine
+grc.grapewine4                 # Ambrosia
+grc.grapewine5                 # Port Wine
+grc.grapewine6                 # Grape Wine
+grc.grapewine7                 # Grape Wine
+grc.honey                      # Honey
+grc.honeymead0                 # Mead Must
+grc.honeymead1                 # Mead
+grc.honeymead2                 # Mead
+grc.honeymead3                 # Mead
+grc.honeymead4                 # Mead
+grc.honeymead5                 # Mead
+grc.honeymead6                 # Mead
+grc.hopale0                    # Ale Wort
+grc.hopale1                    # Ale
+grc.hopale2                    # Ale
+grc.hopale3                    # Ale
+grc.hopale4                    # Ale Wort
+grc.hopale5                    # Ale
+grc.hopale6                    # Ale
+grc.hopale7                    # Ale
+grc.hopale8                    # Ale
+grc.lager0                     # Lager Wort
+grc.lager1                     # Lager
+grc.lager2                     # Lager
+grc.lager3                     # Lager
+grc.lager4                     # Lager
+grc.lager5                     # Lager
+grc.lager6                     # Lager
+grc.ricesake0                  # Sake Moromi
+grc.ricesake1                  # Sake
+grc.ricesake2                  # Sake
+grc.ricesake3                  # Sake
+grc.ricesake4                  # Divine Sake
+grc.ricesake5                  # Sake
+grc.ricesake6                  # Sake
+grccore.saltwater              # Salt Water
+grcmilk.buttermilk             # Butter Milk
+grcmilk.cheeseappenzeller      # Appenzeller Cheese
+grcmilk.cheeseasiago           # Asiago Cheese
+grcmilk.cheesecheddar          # Cheddar Cheese
+grcmilk.cheeseemmentaler       # Swiss Cheese
+grcmilk.cheesegorgonzola       # Gorgonzola Cheese
+grcmilk.cheesemonterey         # Monterey Cheese
+grcmilk.cheeseparmesan         # Parmesan Cheese
+grcmilk.cheesericotta          # Ricotta Cheese
+grcmilk.cream                  # Cream
+grcmilk.curds                  # Milk Curds
+grcmilk.kumis0                 # Kumis
+grcmilk.kumis1                 # Kumis
+grcmilk.kumis2                 # Kumis
+grcmilk.kumis3                 # Kumis
+grcmilk.kumis4                 # Kumis
+grcmilk.kumis5                 # Vile Milk
+grcmilk.milk                   # Milk
+grcmilk.pasteurizedmilk        # Pasteurized Milk
+grcmilk.rennet                 # Rennet
+grcmilk.skimmilk               # Skim Milk
+grcmilk.whey                   # Whey
+gunpowder                      # Exploding Concentrate
+haderoth.molten                # Molten Haderoth
+heavywater                     # Heavy Water
+helium                         # Helium Gas
+helium3                        # Helium-3
+heliumhydrogen                 # Helium-Hydrogen Fluid
+hell_blood                     # Blood
+hepatizon.molten               # Molten Hepatizon
+honey                          # Honey
+hootch                         # Hootch
+hydrogen                       # Liquid Hydrogen
+hydrogen2                      # Heavy Water
+hydrogenchloride               # Liquid Hydrogen Chloride
+ice                            # Molten Ice
+ignatius.molten                # Molten Ignatius
+infuscolium.molten             # Molten Infuscolium
+inolashite.molten              # Molten Inolashite
+invar.molten                   # Molten Invar
+iron.molten                    # Molten Iron
+juice                          # Fruit Juice
+kalendrite.molten              # Molten Kalendrite
+kerosene                       # Kerosene
+knightmetal.molten             # Molten Knightmetal
+lava                           # Lava
+lead.molten                    # Molten Lead
+lemurite.molten                # Molten Lemurite
+lifeessence                    # Life Essence
+limestone.molten               # Molten Limestone
+liquid_sunshine                # Liquid Sunshine
+liquidadamantine               # Liquid Adamantine
+liquidaer                      # Air Infused Liquid
+liquidalduorite                # Liquid Alduorite
+liquidaluminum                 # Liquid Aluminum
+liquidamordrine                # Liquid Amordrine
+liquidangmallen                # Liquid Angmallen
+liquidaqua                     # Water Infused Liquid
+liquidargon                    # Liquid Argon
+liquidastralsilver             # Liquid Astral Silver
+liquidatlarus                  # Liquid Atlarus
+liquidblacksteel               # Liquid BlackSteel
+liquidbrass                    # Liquid Brass
+liquidbronze                   # Liquid Bronze
+liquidcarmot                   # Liquid Carmot
+liquidcelenegil                # Liquid Celenegil
+liquidceruclase                # Liquid Ceruclase
+liquidchromium                 # Liquid Chromium
+liquidcopper                   # Liquid Copper
+liquidcupronickel              # Liquid Cupronickel
+liquiddamascussteel            # Liquid Damascus Steel
+liquiddarksteel                # Liquid Dark Steel
+liquiddeepiron                 # Liquid Deep Iron
+liquiddesichalkos              # Liquid Desichalkos
+liquiddna                      # Liquid DNA
+liquidelectricalsteel          # Liquid Electrical Steel
+liquidelectrum                 # Liquid Electrum
+liquidelectrumflux             # Fluxed Liquid Electrum
+liquidelementium               # Liquid Elementium
+liquidenderium                 # Liquid Enderium
+liquidenergeticalloy           # Liquid Energetic Alloy
+liquidethanemethane            # Ethane-Methane Fluid
+liquideximite                  # Liquid Eximite
+liquidglass                    # Liquid Glass
+liquidglass.black              # Liquid Glass (Black)
+liquidglass.blue               # Liquid Glass (Blue)
+liquidglass.brown              # Liquid Glass (Brown)
+liquidglass.cyan               # Liquid Glass (Cyan)
+liquidglass.gray               # Liquid Glass (Gray)
+liquidglass.green              # Liquid Glass (Green)
+liquidglass.light_blue         # Liquid Glass (Light Blue)
+liquidglass.lime               # Liquid Glass (Lime)
+liquidglass.magenta            # Liquid Glass (Magenta)
+liquidglass.orange             # Liquid Glass (Orange)
+liquidglass.pink               # Liquid Glass (Pink)
+liquidglass.purple             # Liquid Glass (Purple)
+liquidglass.red                # Liquid Glass (Red)
+liquidglass.silver             # Liquid Glass (Light Gray)
+liquidglass.white              # Liquid Glass (White)
+liquidglass.yellow             # Liquid Glass (Yellow)
+liquidgold                     # Liquid Gold
+liquidhaderoth                 # Liquid Haderoth
+liquidhepatizon                # Liquid Hepatizon
+liquidignatius                 # Liquid Ignatius
+liquidignis                    # Fire Infused Liquid
+liquidinfuscolium              # Liquid Infuscolium
+liquidinolashite               # Liquid Inolashite
+liquidinvar                    # Liquid Invar
+liquidiron                     # Liquid Iron
+liquidironwood                 # Liquid Ironwood
+liquidkalendrite               # Liquid Kalendrite
+liquidkanthal                  # Liquid Kanthal
+liquidknightmetal              # Liquid Knightmetal
+liquidlead                     # Liquid Lead
+liquidlemurite                 # Liquid Lemurite
+liquidlumium                   # Liquid Lumium
+liquidmanasteel                # Liquid Manasteel
+liquidmanganese                # Liquid Manganese
+liquidmethane                  # Liquid Methane
+liquidmeutoite                 # Liquid Meutoite
+liquidmidasium                 # Liquid Midasium
+liquidmithril                  # Liquid Mithril
+liquidnichrome                 # Liquid Nichrome
+liquidnickel                   # Liquid Nickel
+liquidnitrogen                 # Liquid Nitrogen
+liquidordo                     # Order Infused Liquid
+liquidorichalcum               # Liquid Orichalcum
+liquidosmium                   # Liquid Osmium
+liquidoureclase                # Liquid Oureclase
+liquidoxygen                   # Liquid Oxygen
+liquidperditio                 # Entropy Infused Liquid
+liquidphasediron               # Liquid Pulsating Iron
+liquidplatinum                 # Liquid Platinum
+liquidpotentia                 # Energy Infused Liquid
+liquidprimal                   # Primal Liquid
+liquidprometheum               # Liquid Prometheum
+liquidquicksilver              # Liquid Quicksilver
+liquidredalloy                 # Liquid Red Alloy
+liquidredstone                 # Liquid Redstone
+liquidredstonealloy            # Liquid Redstone Alloy
+liquidrefinedglowstone         # Liquid Refined Glowstone
+liquidrubber                   # Liquid Rubber
+liquidrubracium                # Liquid Rubracium
+liquidsanguinite               # Liquid Sanguinite
+liquidshadowiron               # Liquid Shadow Iron
+liquidshadowsteel              # Liquid Shadow Steel
+liquidsignalum                 # Liquid Signalum
+liquidsilver                   # Liquid Silver
+liquidsoularium                # Liquid Soularium
+liquidstainlesssteel           # Liquid Stainless Steel
+liquidsteel                    # Liquid Steel
+liquidsteeleaf                 # Liquid Steeleaf
+liquidtartarite                # Liquid Tartarite
+liquidterra                    # Earth Infused Liquid
+liquidterrasteel               # Liquid Terrasteel
+liquidthaumium                 # Liquid Thaumium
+liquidtin                      # Liquid Tin
+liquidtitanium                 # Liquid Titanium
+liquidtritanium                # Liquid Tritanium
+liquidvacous                   # Void Infused Liquid
+liquidvibrantalloy             # Liquid Vibrant Alloy
+liquidvictus                   # Life Infused Liquid
+liquidvoid                     # Liquid Void Metal
+liquidvulcanite                # Liquid Vulcanite
+liquidvyroxeres                # Liquid Vyroxeres
+liquidzinc                     # Liquid Zinc
+lithium                        # Liquid Lithium
+lpg                            # LPG
+lubricant                      # Lubricant
+lumium.molten                  # Molten Lumium
+magnesium.molten               # Molten Magnesium
+mana                           # Primal Mana
+manasteel.molten               # Molten Manasteel
+manganese.molten               # Molten Manganese
+manyullyn.molten               # Molten Manyullyn
+maplesap                       # Maple Sap
+mead                           # Mead
+meat                           # Meat
+melonjuice                     # Melon Juice
+methane                        # Methane Gas
+meutoite.molten                # Molten Meutoite
+midasium.molten                # Molten Midasium
+milk                           # Milk
+mithril.molten                 # Molten Mithril
+mobessence                     # Essence
+molten.bedrockiumingots        # Molten Bedrockium Ingots
+molten.blood_infused_iron      # Molten Blood Infused Iron
+molten.unstableingots          # Molten Unstable Ingots
+moltenaeonsteel                # fluid.moltenAeonsteel
+moltenbrass                    # Molten Brass
+moltendogbearium               # fluid.moltenDogbearium
+moltenqueensgold               # fluid.moltenQueensGold
+moltenzinc                     # Molten Zinc
+mushroomsoup                   # Mushroom Soup
+mushroomstew                   # fluid.mushroomStew
+mutagen                        # Mutagen
+nickel.molten                  # Molten Nickel
+nitrogen                       # Nitrogen Gas
+nutrient_distillation          # Nutrient Distillation
+obsidian.molten                # Molten Obsidian
+oil                            # Oil
+oilgc                          # fluid.oilgc
+orichalcum.molten              # Molten Orichalcum
+osmium.molten                  # Molten Osmium
+oureclase.molten               # Molten Oureclase
+oxygen                         # Liquid Oxygen
+petrotheum                     # Tectonic Petrotheum
+phased.gold.molten             # Molten Phased Gold
+phased.iron.molten             # Molten Phased Iron
+phasedgold                     # Molten Vibrant Alloy
+phasediron                     # Molten Pulsating Iron
+pigiron.molten                 # Pig Iron
+pinkslime                      # Pink Slime
+plantoil                       # Plant Oil
+plastic                        # Liquid Plastic
+platinum.molten                # Molten Platinum
+poison                         # Poison
+pokefennium.molten             # Molten Pokefennium
+potato.soup                    # Potato Soup
+potionabsorption               # Potion of Absorption (1:00)
+potionabsorptionii             # Potion of Absorption II (0:30)
+potionabsorptioniii            # Potion of Absorption III (0:15)
+potionabsorptionlong           # Potion of Absorption (2:00)
+potionabsorptionverylong       # Potion of Absorption (4:00)
+potionantidote                 # Potion of Remedy (1:00)
+potionantidoteii               # Potion of Remedy II (0:45)
+potionantidoteiii              # Potion of Remedy III (0:30)
+potionantidoteiiii             # Potion of Remedy IV (0:20)
+potionantidotelong             # Potion of Remedy (2:00)
+potionantidoteverylong         # Potion of Remedy (4:00)
+potionawkward                  # Awkward Potion
+potionblindness                # Potion of Blindness (0:30)
+potionblindnesslong            # Potion of Blindness (1:00)
+potionblindnessverylong        # Potion of Blindness (2:00)
+potionboom                     # Potion of Combustion (0:08)
+potionboomii                   # Potion of Combustion II (0:04)
+potionboomiii                  # Potion of Combustion III (0:04)
+potionboomlong                 # Potion of Combustion (0:16)
+potionboomverylong             # Potion of Combustion (0:32)
+potioncryo                     # Potion of Cryogenics (0:08)
+potioncryolong                 # Potion of Cryogenics (0:16)
+potioncryoverylong             # Potion of Cryogenics (0:30)
+potioneternalflame             # Potion of Eternal Flame (0:30)
+potioneternalflamelong         # Potion of Eternal Flame (1:00)
+potioneternalflameverylong     # Potion of Eternal Flame (2:00)
+potionfast                     # Potion of Swiftness (3:00)
+potionfastii                   # Potion of Swiftness II (1:30)
+potionfastiii                  # Potion of Swiftness III (0:08)
+potionfastlong                 # Potion of Swiftness (8:00)
+potionfastverylong             # Potion of Swiftness (16:00)
+potionfatigue                  # Potion of Dullness (1:30)
+potionfatigueii                # Potion of Dullness II (0:45)
+potionfatigueiii               # Potion of Dullness III (0:25)
+potionfatiguelong              # Potion of Dullness (3:00)
+potionfatigueverylong          # Potion of Dullness (6:00)
+potionfireeater                # Potion of Fire Eaters (0:45)
+potionfireeaterii              # Potion of Fire Eaters II (0:30)
+potionfireeateriii             # Potion of Fire Eaters III (0:15)
+potionfireeaterlong            # Potion of Fire Eaters (1:30)
+potionfireeaterverylong        # Potion of Fire Eaters (3:00)
+potionfireimmunity             # Potion of Fire Immunity (0:35)
+potionfireimmunityii           # Potion of Fire Immunity II (0:15)
+potionfireimmunityiii          # Potion of Fire Immunity III (0:10)
+potionfireimmunityiiii         # Potion of Fire Immunity IV (0:05)
+potionfireimmunitylong         # Potion of Fire Immunity (1:10)
+potionfireimmunityverylong     # Potion of Fire Immunity (2:20)
+potionfireresist               # Potion of Fire Resistance (3:00)
+potionfireresistlong           # Potion of Fire Resistance (8:00)
+potionfireresistverylong       # Potion of Fire Resistance (16:00)
+potionflight                   # Potion of Ascension (0:15)
+potionflightlong               # Potion of Ascension (0:30)
+potionflightverylong           # Potion of Ascension (1:00)
+potionharm                     # Potion of Harming
+potionharmii                   # Potion of Harming II
+potionharmiii                  # Potion of Harming III (0:01)
+potionhaste                    # Potion of Haste (1:30)
+potionhasteii                  # Potion of Haste II (0:45)
+potionhasteiii                 # Potion of Haste III (0:25)
+potionhastelong                # Potion of Haste (3:00)
+potionhasteverylong            # Potion of Haste (6:00)
+potionheal                     # Potion of Healing
+potionhealii                   # Potion of Healing II
+potionhealiii                  # Potion of Healing III (0:01)
+potionhealthboost              # Potion of Health Boost (2:00)
+potionhealthboostii            # Potion of Health Boost II (1:00)
+potionhealthboostiii           # Potion of Health Boost III (0:30)
+potionhealthboostlong          # Potion of Health Boost (4:00)
+potionhealthboostverylong      # Potion of Health Boost (8:00)
+potionholywater                # Potion of Holy Water (0:10)
+potionholywaterii              # Potion of Holy Water II (0:05)
+potionholywateriii             # Potion of Holy Water III (0:03)
+potionholywaterlong            # Potion of Holy Water (0:20)
+potionholywaterverylong        # Potion of Holy Water (0:40)
+potionhunger                   # Potion of Hunger (1:00)
+potionhungerii                 # Potion of Hunger II (0:30)
+potionhungeriii                # Potion of Hunger III (0:15)
+potionhungerlong               # Potion of Hunger (2:00)
+potionhungerverylong           # Potion of Hunger (4:00)
+potioninvisible                # Potion of Invisibility (3:00)
+potioninvisiblelong            # Potion of Invisibility (8:00)
+potionjump                     # Potion of Leaping (1:00)
+potionjumpii                   # Potion of Leaping II (0:30)
+potionjumpiii                  # Potion of Leaping III (0:15)
+potionjumplong                 # Potion of Leaping (2:00)
+potionjumpverylong             # Potion of Leaping (4:00)
+potionnausea                   # Potion of Nausea (0:30)
+potionnausealong               # Potion of Nausea (1:00)
+potionnauseaverylong           # Potion of Nausea (2:00)
+potionpoison                   # Potion of Poison (0:45)
+potionpoisonii                 # Potion of Poison II (0:22)
+potionpoisoniii                # Potion of Poison III (0:08)
+potionpoisonlong               # Potion of Poison (2:00)
+potionpoisonverylong           # Potion of Poison (4:00)
+potionregen                    # Potion of Regeneration (0:45)
+potionregenii                  # Potion of Regeneration II (2:00)
+potionregeniii                 # Potion of Regeneration III (0:08)
+potionregenlong                # Potion of Regeneration (2:00)
+potionregenverylong            # Potion of Regeneration (3:00)
+potionresistance               # Potion of Resistance (1:30)
+potionresistanceii             # Potion of Resistance II (0:45)
+potionresistanceiii            # Potion of Resistance III (0:20)
+potionresistancelong           # Potion of Resistance (3:00)
+potionresistanceverylong       # Potion of Resistance (6:00)
+potionsaturation               # Potion of Saturation (0:01)
+potionsaturationii             # Potion of Saturation II (0:01)
+potionsaturationiii            # Potion of Saturation III (0:01)
+potionslowness                 # Potion of Slowness (1:30)
+potionslownesslong             # Potion of Slowness (4:00)
+potionslownessverylong         # Potion of Slowness (8:00)
+potionstrength                 # Potion of Strength (3:00)
+potionstrengthii               # Potion of Strength II (1:30)
+potionstrengthiii              # Potion of Strength III (0:40)
+potionstrengthlong             # Potion of Strength (8:00)
+potionstrengthverylong         # Potion of Strength (16:00)
+potionvision                   # Potion of Night Vision (3:00)
+potionvisionlong               # Potion of Night Vision (8:00)
+potionvisionverylong           # Potion of Night Vision (16:00)
+potionwaterbreathe             # Potion of Water Breathing (3:00)
+potionwaterbreathelong         # Potion of Water Breathing (8:00)
+potionwaterbreatheverylong     # Potion of Water Breathing (16:00)
+potionweakness                 # Potion of Weakness (1:30)
+potionweaknesslong             # Potion of Weakness (4:00)
+potionweaknessverylong         # Potion of Weakness (8:00)
+potionwither                   # Potion of Decay (0:20)
+potionwitherii                 # Potion of Decay II (0:10)
+potionwitheriii                # Potion of Decay III (0:05)
+potionwitherlong               # Potion of Decay (0:40)
+potionwitherverylong           # Potion of Decay (1:20)
+prometheum.molten              # Molten Prometheum
+protein                        # Protein
+protons                        # fluid.Protons
+pyrotheum                      # Blazing Pyrotheum
+quartz.molten                  # Molten Nether Quartz
+quicklime                      # Quicklime
+quicksilver.molten             # Molten Quicksilver
+red.aurum.molten               # Molten RedAurum
+redplasma                      # fluid.redplasma
+redstone                       # Destabilized Redstone
+redstone.alloy.molten          # Molten Redstone Alloy
+refined.glowstone.molten       # Molten Refined Glowstone
+rocket_fuel                    # Rocket Fuel
+rubbersap                      # Rubber Sap
+rubracium.molten               # Molten Rubracium
+rutile.molten                  # Impure Molten Titanium
+salt.molten                    # Molten Salt
+sanguinite.molten              # Molten Sanguinite
+seedoil                        # Seed Oil
+sewage                         # Sewage
+shadow.iron.molten             # Molten Shadow Iron
+shadow.steel.molten            # Molten Shadow Steel
+short.mead                     # Short Mead
+signalum.molten                # Molten Signalum
+silicon.liquid                 # Liquid Silicon
+silver.molten                  # Molten Silver
+slime.blue                     # Liquid Blueslime
+sludge                         # Sludge
+sodium                         # Liquid Sodium
+soularium.molten               # Molten Soularium
+spectral_dew                   # fluid.spectral_dew
+steam                          # Steam
+steel.molten                   # Molten Steel
+stone.seared                   # Seared Stone
+sulfurdioxidegas               # Liquid Sulfur Dioxide
+sulfuric_acid                  # fluid.sulfuric_acid
+sulfuricacid                   # Liquid Sulfuric Acid
+sulfurousacid                  # fluid.sulfurousacid
+sulfurtrioxidegas              # Liquid Sulfur Trioxide
+syngas                         # Syngas
+tar                            # fluid.tar
+tartarite.molten               # Molten Tartarite
+terrasteel.molten              # Molten Terrasteel
+tin.molten                     # Molten Tin
+titanium.molten                # Molten Titanium
+tritium                        # Liquid Tritium
+tropicsportal                  # fluid.tile.tropicraft:portal
+tropicswater                   # fluid.tile.tropicsWater
+vapor_of_levity                # Vapor of Levity
+voidmetal.molten               # Molten Voidmetal
+vulcanite.molten               # Molten Vulcanite
+vyroxeres.molten               # Molten Vyroxeres
+water                          # Water
+whaleoil                       # Whale Oil
+wind                           # Contained Wind
+witchery:brew                  # fluid.witchery:brew
+witchery:brewgas               # fluid.witchery:brewgas
+witchery:brewliquid            # fluid.witchery:brewliquid
+witchery:fluiddisease          # fluid.witchery:fluiddisease
+witchery:fluidspirit           # fluid.witchery:fluidspirit
+witchery:hollowtears           # Hollow Tears
+xp                             # Molten Experience
+xpjuice                        # Liquid XP
+zinc.molten                    # Molten Zinc

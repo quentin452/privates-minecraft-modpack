@@ -117,10 +117,4 @@ with ZipFile(client_zip_name, "w", compression=zipfile.ZIP_DEFLATED) as zipf:
         "manifest.json", "modlist.html"
     ]:
         zipf.write(os.path.join(CLIENT_DIR if "manifest" in file or "modlist" in file else COMMON_DIR, file), file)
-        
-    # === UPDATE MODS LIST ===
-    subprocess.run(
-        ["python3", os.path.join(SCRIPT_DIR, "update_mods_list.py")],
-        check=True
-    )
 print(f"\n✅ Generated:\n- {server_zip_name}\n- {client_zip_name}")

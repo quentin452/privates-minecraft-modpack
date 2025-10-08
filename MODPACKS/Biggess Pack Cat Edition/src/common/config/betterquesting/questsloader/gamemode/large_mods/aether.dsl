@@ -10,11 +10,14 @@
 @category large_mods
 @quest_line aetherQL
 @status incomplete
+@layout CIRCLE
+@spacing_x 30
+@spacing_y 30
+@base_x 0
+@base_y 0
 
 # Discovery Quest
 >quest aether_discover
-    x: 0
-    y: 0
     title: Skyward Bound
     desc: Discover the mysterious Aether portal formation
     requires: none
@@ -26,67 +29,57 @@
     
 # First Entry Quest
 >quest aether_enter
-    x: 0
-    y: -1
     title: First Steps in the Aether
     desc: Enter the Aether dimension for the first time
     requires: aetherQL:aether_discover
     logic: AND
-    task: visit aether
+    task: visit 400
     reward: item "minecraft:diamond" 1
     repeatable: no
     auto_claim: no
 
 # Basic Tools Quest
 >quest aether_tools
-    x: 0
-    y: -2
     title: Skyforge Crafting
     desc: Craft your first set of Aether tools
     requires: aetherQL:aether_enter
     logic: AND
-    task: craft "aether:zanite_pickaxe" 1
-    reward: item "aether:zanite_ore" 3
+    task: craft "aether_legacy:zanite_pickaxe" 1
+    reward: item "aether_legacy:zanite_ore" 3
     repeatable: no
     auto_claim: no
 
 # Aether Resources Quest
 >quest aether_resources
-    x: 0
-    y: -3
     title: Heavenly Resources
     desc: Collect essential Aether materials
     requires: aetherQL:aether_enter
     logic: AND
-    task: collect "aether:zanite_gem" 8
+    task: collect "aether_legacy:zanite_gemstone" 8
     reward: xp 200
     repeatable: no
     auto_claim: no
 
 # Mob Hunting Quest
 >quest aether_mobs
-    x: 0
-    y: -4
     title: Skyborne Threats
     desc: Defeat the hostile creatures of the Aether
     requires: aetherQL:aether_enter
     logic: AND
-    task: kill "aether:zephyr" 3
+    task: kill "aether_legacy:zephyr" 3
     reward: choice
-        "aether:skyroot_sword" 1
-        "aether:skyroot_battle_axe" 1
+        "aether_legacy:skyroot_sword" 1
+        "aether_legacy:skyroot_axe" 1
     repeatable: no
     auto_claim: no
 
 # Meet Quest
 >quest aether_meat_moa
-    x: 0
-    y: -5
     title: Winged Companion
     desc: Tame and ride a Moa
     requires: aetherQL:aether_enter
     logic: AND
-    task: meeting "aether:moa"
+    task: meeting "aether_legacy.moa"
     reward: item "minecraft:feather" 8
     repeatable: no
     auto_claim: no
