@@ -3,8 +3,8 @@
 	[
 		{
 			"addonId": 855466,
-			"fileId": 7072775, 
-			"fileName": "optimizationsandtweaks-V1.15.9.jar",
+			"fileId": 7101509, 
+			"fileName": "optimizationsandtweaks-V1.16.4.jar",
 			"folder": "mods"
 		},
 		{
@@ -3545,7 +3545,10 @@
 			"addonId": 1065808,
 			"fileId": 7040654,
 			"fileName": "beddium-mc1.7.10-1.0.4-j21.jar",
-			"folder": "mods"
+			"folder": "mods",
+			"metadata": {
+				"side": "CLIENT"
+			}
 		},
 		{
 			"addonId": 907559,
@@ -3609,6 +3612,24 @@
 			"fileId": 3806537,
 			"fileName": "GalaxySpace-1.7.10-1.2.15.jar",
 			"folder": "mods"
+		},
+		{
+			"addonId":1336558,
+			"fileId": 6937877,
+			"fileName": "Salutation-1.7.10-1.0.0.jar",
+			"folder": "mods",
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId":898104,
+			"fileId": 4952979,
+			"fileName": "CarbonConfig-1.7.10-1.1.5.jar",
+			"folder": "mods",
+			"metadata": {
+				"side": "CLIENT"
+			}
 		}
 	]
 }
