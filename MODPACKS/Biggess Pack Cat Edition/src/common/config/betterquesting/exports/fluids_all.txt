@@ -128,10 +128,41 @@ fierymetal.molten              # Molten Fiery Metal
 fire_water                     # Fire Water
 fishfood                       # Fish Food
 fishoil                        # Fish Oil
+fluidadamantine                # Molten Fine Gold
+fluidancientthulium            # Molten Ancient Thulium
+fluidbedrock                   # Molten Bedrock
+fluidbloodmetal                # Molten Dark Blood
+fluidcrimson                   # Molten Crimson Metal
+fluiddark                      # Molten Dark Metal
 fluiddeath                     # Liquid Death
+fluidendless                   # Molten Infinite Steel
+fluidholycopper                # Molten Holy Copper
+fluidlife                      # fluid.FluidLife
+fluidmana                      # Molten Mana
+fluidmana_acid                 # fluid.FluidMana_acid
+fluidmana_blood                # fluid.FluidMana_blood
+fluidmana_fluidoldj            # fluid.FluidMana_fluidOldJ
+fluidmana_guildspa             # fluid.FluidMana_GuildSpa
+fluidmana_hellblood            # fluid.FluidMana_HellBlood
+fluidmana_honey                # fluid.FluidMana_honey
+fluidmana_manasacred           # fluid.FluidMana_ManaSacred
+fluidmana_oil                  # Oil
+fluidmana_poison               # fluid.FluidMana_poison
+fluidmanas                     # Molten Manametal
+fluidmanaspring                # fluid.FluidManaSpring
 fluidmilk                      # Milk
+fluidmithril                   # Molten Mysterious Silver
 fluidmushroom                  # Mushroom Soup
+fluidmysteriousiron            # Molten Mysterious Iron
+fluidneutronenergy             # Molten O'Halloran Steel
+fluidpalladium                 # Molten Palladium
 fluidpure                      # Purifying Fluid
+fluidrunesteel                 # Molten Rune Steel
+fluidsacredmana                # fluid.FluidSacredMana
+fluidsoulsteel                 # Molten Soul Steel
+fluidthulium                   # Molten Thulium
+fluidtrueancientthulium        # fluid.FluidTrueAncientThulium
+fluiduniverseenergy            # Molten Cosmic Energy
 fluidvishroom                  # Vishroom Soup
 flux                           # Electrified Goo
 fluxgoo                        # Flux Goo
@@ -143,40 +174,57 @@ gas.natural                    # Natural Gas
 gas_ethanol                    # fluid.gas_ethanol
 gas_oil                        # fluid.gas_oil
 gaseousabonnenessentia         # Abonnen Super Critical Fluid
+gaseousaccessoriesessentia     # Accessories Super Critical Fluid
 gaseousaeressentia             # Aer Super Critical Fluid
 gaseousalfirinessentia         # Alfirin Super Critical Fluid
 gaseousalienisessentia         # Alienis Super Critical Fluid
+gaseousalloyessentia           # Alloy Super Critical Fluid
 gaseousangdolessentia          # Angdol Super Critical Fluid
 gaseousangmaressentia          # Angmar Super Critical Fluid
+gaseousantimatteressentia      # Antimatter Super Critical Fluid
 gaseousaquaessentia            # Aqua Super Critical Fluid
 gaseousarboressentia           # Arbor Super Critical Fluid
 gaseousauramessentia           # Auram Super Critical Fluid
 gaseousbestiaessentia          # Bestia Super Critical Fluid
 gaseousbreeessentia            # Bree Super Critical Fluid
 gaseouscaelumessentia          # Caelum Super Critical Fluid
+gaseouscaveessentia            # Cave Super Critical Fluid
 gaseouscognitioessentia        # Cognitio Super Critical Fluid
 gaseouscorpusessentia          # Corpus Super Critical Fluid
+gaseousdackmagicessentia       # Dackmagic Super Critical Fluid
 gaseousdaleessentia            # Dale Super Critical Fluid
+gaseousdarkenergyessentia      # Darkenergy Super Critical Fluid
 gaseousdesidiaessentia         # Desidia Super Critical Fluid
+gaseousdestroyessentia         # Destroy Super Critical Fluid
 gaseousdolgulduressentia       # Dolguldur Super Critical Fluid
 gaseousdorwinionessentia       # Dorwinion Super Critical Fluid
+gaseousdragonessentia          # Dragon Super Critical Fluid
 gaseousdraugolessentia         # Draugol Super Critical Fluid
+gaseousdreamessentia           # Dream Super Critical Fluid
 gaseousdruardhessentia         # Druardh Super Critical Fluid
 gaseousdunedainessentia        # Dunedain Super Critical Fluid
 gaseousdunlandessentia         # Dunland Super Critical Fluid
 gaseousedhelessentia           # Edhel Super Critical Fluid
+gaseouselectricityessentia     # Electricity Super Critical Fluid
+gaseouselementessentia         # Element Super Critical Fluid
+gaseousempireessentia          # Empire Super Critical Fluid
+gaseousenchantessentia         # Enchant Super Critical Fluid
 gaseouseredluinessentia        # Eredluin Super Critical Fluid
+gaseousevilessentia            # Evil Super Critical Fluid
 gaseousexanimisessentia        # Exanimis Super Critical Fluid
 gaseousexcubitoressentia       # Excubitor Super Critical Fluid
 gaseousfabricoessentia         # Fabrico Super Critical Fluid
 gaseousfamesessentia           # Fames Super Critical Fluid
 gaseousfangornessentia         # Fangorn Super Critical Fluid
+gaseousfossilessentia          # Fossil Super Critical Fluid
 gaseousgelumessentia           # Gelum Super Critical Fluid
 gaseousgondoressentia          # Gondor Super Critical Fluid
+gaseousgravityessentia         # Gravity Super Critical Fluid
 gaseousgulaessentia            # Gula Super Critical Fluid
 gaseousgundabadessentia        # Gundabad Super Critical Fluid
 gaseousharadessentia           # Harad Super Critical Fluid
 gaseousherbaessentia           # Herba Super Critical Fluid
+gaseoushistoryessentia         # History Super Critical Fluid
 gaseoushumanusessentia         # Humanus Super Critical Fluid
 gaseousignisessentia           # Ignis Super Critical Fluid
 gaseousinfernusessentia        # Infernus Super Critical Fluid
@@ -186,6 +234,8 @@ gaseousiraessentia             # Ira Super Critical Fluid
 gaseousisengardessentia        # Isengard Super Critical Fluid
 gaseousiteressentia            # Iter Super Critical Fluid
 gaseousithrynessentia          # Ithryn Super Critical Fluid
+gaseouslaputaessentia          # Laputa Super Critical Fluid
+gaseouslavaessentia            # Lava Super Critical Fluid
 gaseouslimusessentia           # Limus Super Critical Fluid
 gaseouslindonessentia          # Lindon Super Critical Fluid
 gaseouslothlorienessentia      # Lothlorien Super Critical Fluid
@@ -193,6 +243,8 @@ gaseouslucrumessentia          # Lucrum Super Critical Fluid
 gaseousluxessentia             # Lux Super Critical Fluid
 gaseousluxuriaessentia         # Luxuria Super Critical Fluid
 gaseousmachinaessentia         # Machina Super Critical Fluid
+gaseousmagneticessentia        # Magnetic Super Critical Fluid
+gaseousmanaessentia            # Mana Super Critical Fluid
 gaseousmessisessentia          # Messis Super Critical Fluid
 gaseousmetallumessentia        # Metallum Super Critical Fluid
 gaseousmetoessentia            # Meto Super Critical Fluid
@@ -207,6 +259,7 @@ gaseousonodrimessentia         # Onodrim Super Critical Fluid
 gaseousorchothessentia         # Orchoth Super Critical Fluid
 gaseousordoessentia            # Ordo Super Critical Fluid
 gaseouspannusessentia          # Pannus Super Critical Fluid
+gaseouspaperessentia           # Paper Super Critical Fluid
 gaseousperditioessentia        # Perditio Super Critical Fluid
 gaseousperfodioessentia        # Perfodio Super Critical Fluid
 gaseousperianessentia          # Perian Super Critical Fluid
@@ -214,13 +267,17 @@ gaseouspermutatioessentia      # Permutatio Super Critical Fluid
 gaseouspertorogessentia        # Pertorog Super Critical Fluid
 gaseouspotentiaessentia        # Potentia Super Critical Fluid
 gaseouspraecantatioessentia    # Praecantatio Super Critical Fluid
+gaseousrelicessentia           # Relic Super Critical Fluid
 gaseousrhudelessentia          # Rhudel Super Critical Fluid
+gaseousrockessentia            # Rock Super Critical Fluid
 gaseousrohanessentia           # Rohan Super Critical Fluid
 gaseousrubusessentia           # Rubus Super Critical Fluid
 gaseoussanoessentia            # Sano Super Critical Fluid
 gaseoussensusessentia          # Sensus Super Critical Fluid
 gaseousshireessentia           # Shire Super Critical Fluid
+gaseousspaceessentia           # Space Super Critical Fluid
 gaseousspiritusessentia        # Spiritus Super Critical Fluid
+gaseoussubstanceessentia       # Substance Super Critical Fluid
 gaseoussuperbiaessentia        # Superbia Super Critical Fluid
 gaseoustabernusessentia        # Tabernus Super Critical Fluid
 gaseoustaurethrimessentia      # Taurethrim Super Critical Fluid
@@ -230,12 +287,16 @@ gaseoustempusessentia          # Tempus Super Critical Fluid
 gaseoustenebraeessentia        # Tenebrae Super Critical Fluid
 gaseousterminusessentia        # Terminus Super Critical Fluid
 gaseousterraessentia           # Terra Super Critical Fluid
+gaseoustimeessentia            # Time Super Critical Fluid
 gaseoustorogessentia           # Torog Super Critical Fluid
+gaseoustreasureessentia        # Treasure Super Critical Fluid
 gaseoustutamenessentia         # Tutamen Super Critical Fluid
 gaseousuhormessentia           # Uhorm Super Critical Fluid
+gaseousuniverseessentia        # Universe Super Critical Fluid
 gaseousutumnoessentia          # Utumno Super Critical Fluid
 gaseousvacuosessentia          # Vacuos Super Critical Fluid
 gaseousvalaraukaressentia      # Valaraukar Super Critical Fluid
+gaseousvegetationessentia      # Vegetation Super Critical Fluid
 gaseousvenenumessentia         # Venenum Super Critical Fluid
 gaseousvictusessentia          # Victus Super Critical Fluid
 gaseousvinculumessentia        # Vinculum Super Critical Fluid

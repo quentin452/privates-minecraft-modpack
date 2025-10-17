@@ -41,7 +41,6 @@
 123   # Dry River
 1237  # Tainted Rises
 1249  # Tainted Scarlands
-12841 # Land of Darkness
 129   # Sunflower Plains
 13    # Ice Mountains
 130   # Desert M
@@ -72,9 +71,24 @@
 167   # Mesa Plateau M
 17    # DesertHills
 17041 # BambooForest
+176   # Warped Forest
+177   # Crimson Forest
+178   # Hell Forest
+179   # Glow Forest
 18    # ForestHills
+180   # Ash Plain
+181   # Glow Plain
+182   # Meat Plain
+1821  # Land of Darkness
+183   # Soul Plain
+184   # Maple Forest
+185   # Ender Forest
+186   # Deep Ocean
+187   # Ancient Jungle
 1879  # OreSpawn Cave Maze
+188   # Future
 1884  # Tainted Isles
+189   # Garden world
 1893  # Synapse
 19    # TaigaHills
 1905  # Hallowed Hills
@@ -86,7 +100,10 @@
 1947  # Scorched Wastelands
 1958  # Scorched Valley
 1959  # Eldritch
+196   # Rainbow Forest
 1966  # Scorched Scarlands
+197   # Bamboo Forest
+198   # Floodpalin
 2     # Desert
 20    # Extreme Hills Edge
 2025  # Corroded Steppe
@@ -175,14 +192,35 @@
 3210  # Monochrome Desert
 33    # Mega Taiga Hills
 34    # Extreme Hills+
+3420  # Thulium Remains
+3430  # Heaven
+3440  # Cave
+3450  # Cherry Forest
+3460  # Dead Plain
+3470  # Lavender Plain
+3490  # Sea of Flowers
 35    # Savanna
+3500  # Dense Forest
+3510  # Apple Forest
+3520  # Pine Forest
+3540  # Canyon
+3550  # Rich Forest
+3560  # Reed Marsh
+3570  # Barley Plains
+3580  # Fertile Forest
 36    # Savanna Plateau
+3610  # Badlands
+3620  # Snowmountain
+3630  # Oasis
+3640  # Volcanic
+3650  # Magic Forest
+3660  # Cedar Forest
 37    # Mesa
 38    # Mesa Plateau F
 39    # Mesa Plateau
 4     # Forest
 40    # Space
-4000  # Storage Cell
+4000  # Ancient
 4004  # Common Forest
 41    # SpaceShallowWaters
 4150  # Common Desert
