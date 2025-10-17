@@ -2,9 +2,21 @@
 	"curse":
 	[
 		{
+			"addonId": 530214,
+			"fileId": 4364097, 
+			"fileName": "Muya_1.11.1.jar",
+			"folder": "mods"
+		},
+		{
+			"addonId": 531708,
+			"fileId": 6943759, 
+			"fileName": "manametalmod-7.4.5.jar",
+			"folder": "mods"
+		},
+		{
 			"addonId": 855466,
-			"fileId": 7110514, 
-			"fileName": "optimizationsandtweaks-V1.16.7.jar",
+			"fileId": 7115976, 
+			"fileName": "optimizationsandtweaks-V1.17.0.jar",
 			"folder": "mods"
 		},
 		{
@@ -1110,11 +1122,6 @@
 			"metadata": {
 				"side": "CLIENT"
 			}
-		},
-		{
-			"addonId": 228027,
-			"fileId": 2423369,
-			"fileName": "BiblioCraft[v1.11.7][MC1.7.10].jar"
 		},
 		{
 			"addonId": 252907,
