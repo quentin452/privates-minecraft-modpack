@@ -2,7 +2,6 @@
      
 # TConstruct Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TConstruct
 @filename TConstruct-1.13.54-GTNH.jar

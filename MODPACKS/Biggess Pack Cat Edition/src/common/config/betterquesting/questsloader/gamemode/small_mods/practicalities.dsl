@@ -2,7 +2,6 @@
      
 # practicalities Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod practicalities
 @filename practicalities-2.0.0-b2.jar

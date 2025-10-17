@@ -2,7 +2,6 @@
      
 # buildcraft Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod buildcraft
 @filename buildcraft-7.1.38fork1.jar

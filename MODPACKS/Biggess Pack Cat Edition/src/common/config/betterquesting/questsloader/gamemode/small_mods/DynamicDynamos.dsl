@@ -2,7 +2,6 @@
      
 # DynamicDynamos Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod DynamicDynamos
 @filename DynamicDynamos-0.2.2.jar

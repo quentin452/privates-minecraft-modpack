@@ -2,7 +2,6 @@
      
 # GraveStone Mod 0.7.10.3 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod GraveStone Mod 0.7.10.3
 @filename GraveStone Mod 0.7.10.3.jar

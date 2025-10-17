@@ -2,7 +2,6 @@
      
 # MoreRealGlass-v.0.0.5 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MoreRealGlass-v.0.0.5
 @filename MoreRealGlass-v.0.0.5-mc1.7.10.jar

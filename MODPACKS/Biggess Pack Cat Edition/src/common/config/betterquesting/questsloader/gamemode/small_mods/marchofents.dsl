@@ -2,7 +2,6 @@
      
 # marchofents Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod marchofents
 @filename marchofents-1.3.jar

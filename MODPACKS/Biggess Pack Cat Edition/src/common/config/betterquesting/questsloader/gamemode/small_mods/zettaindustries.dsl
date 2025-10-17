@@ -2,7 +2,6 @@
      
 # zettaindustries Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod zettaindustries
 @filename zettaindustries-1.1-120.jar

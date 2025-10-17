@@ -2,7 +2,6 @@
      
 # DraconicMinus Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod DraconicMinus
 @filename DraconicMinus-1.3.jar

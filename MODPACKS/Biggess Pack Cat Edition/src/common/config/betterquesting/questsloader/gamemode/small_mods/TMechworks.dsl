@@ -2,7 +2,6 @@
      
 # TMechworks Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TMechworks
 @filename TMechworks-0.4.1.jar

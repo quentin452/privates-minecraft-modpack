@@ -2,7 +2,6 @@
      
 # AncientTrees Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod AncientTrees
 @filename AncientTrees-1.7.10-1.6.4.jar

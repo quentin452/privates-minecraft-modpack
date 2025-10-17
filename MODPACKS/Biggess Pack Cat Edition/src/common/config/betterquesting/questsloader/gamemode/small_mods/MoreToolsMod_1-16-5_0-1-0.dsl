@@ -2,7 +2,6 @@
      
 # MoreToolsMod_1-16-5_0-1-0 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MoreToolsMod_1-16-5_0-1-0
 @filename MoreToolsMod_1-16-5_0-1-0.jar

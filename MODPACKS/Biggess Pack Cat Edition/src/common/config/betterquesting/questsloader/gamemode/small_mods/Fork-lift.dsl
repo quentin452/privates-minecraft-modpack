@@ -2,7 +2,6 @@
      
 # Fork-lift truck Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Fork-lift truck
 @filename Fork-lift truck.jar

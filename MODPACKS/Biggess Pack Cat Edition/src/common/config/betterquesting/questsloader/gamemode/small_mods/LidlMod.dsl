@@ -2,7 +2,6 @@
      
 # LidlMod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod LidlMod
 @filename LidlMod_1.16.5.jar

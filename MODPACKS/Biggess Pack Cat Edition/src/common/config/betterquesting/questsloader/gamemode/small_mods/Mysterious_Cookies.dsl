@@ -2,7 +2,6 @@
      
 # Mysterious_Cookies Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Mysterious_Cookies
 @filename Mysterious_Cookies_1.7.10-1.0-1.0.jar

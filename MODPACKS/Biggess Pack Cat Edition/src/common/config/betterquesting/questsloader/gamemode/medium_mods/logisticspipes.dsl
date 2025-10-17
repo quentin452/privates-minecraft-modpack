@@ -2,7 +2,6 @@
      
 # logisticspipes Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod logisticspipes
 @filename logisticspipes-1.4.23-GTNH-pre.jar

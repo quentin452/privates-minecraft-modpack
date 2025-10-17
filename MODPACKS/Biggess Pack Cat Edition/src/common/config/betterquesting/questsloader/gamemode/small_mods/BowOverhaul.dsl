@@ -2,7 +2,6 @@
      
 # BowOverhaul Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BowOverhaul
 @filename BowOverhaul-1.7.10-0.0.0.jar

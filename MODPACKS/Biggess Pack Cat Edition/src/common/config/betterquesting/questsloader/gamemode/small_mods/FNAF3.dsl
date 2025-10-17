@@ -2,7 +2,6 @@
      
 # FNAF3[1.7.10]v1.0.1O Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod FNAF3[1.7.10]v1.0.1O
 @filename FNAF3[1.7.10]v1.0.1O.jar

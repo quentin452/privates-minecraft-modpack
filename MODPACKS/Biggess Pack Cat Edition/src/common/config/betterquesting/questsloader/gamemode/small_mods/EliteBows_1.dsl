@@ -2,7 +2,6 @@
      
 # EliteBows_1.0.4_1.7.10_release Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod EliteBows_1.0.4_1.7.10_release
 @filename EliteBows_1.0.4_1.7.10_release.jar

@@ -2,7 +2,6 @@
      
 # SoulShards-TOW Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SoulShards-TOW
 @filename SoulShards-TOW-1.7.10-0.1-RC9-7.jar

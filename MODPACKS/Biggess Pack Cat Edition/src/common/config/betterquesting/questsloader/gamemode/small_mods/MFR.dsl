@@ -2,7 +2,6 @@
      
 # MFR Compat - Magical Crops v1-2-4 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MFR Compat - Magical Crops v1-2-4
 @filename MFR Compat - Magical Crops v1-2-4.jar

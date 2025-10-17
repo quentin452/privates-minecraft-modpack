@@ -2,7 +2,6 @@
      
 # backpack Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod backpack
 @filename backpack-2.5.9-GTNH.jar

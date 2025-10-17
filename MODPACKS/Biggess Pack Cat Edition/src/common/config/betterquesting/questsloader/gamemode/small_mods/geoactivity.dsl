@@ -2,7 +2,6 @@
      
 # geoactivity Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod geoactivity
 @filename geoactivity-1.6.jar

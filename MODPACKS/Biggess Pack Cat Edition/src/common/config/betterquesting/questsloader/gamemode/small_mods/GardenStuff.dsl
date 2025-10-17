@@ -2,7 +2,6 @@
      
 # GardenStuff Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod GardenStuff
 @filename GardenStuff-1.7.10-1.7.0.jar

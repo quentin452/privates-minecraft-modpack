@@ -2,7 +2,6 @@
      
 # morefuelsmod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod morefuelsmod
 @filename morefuelsmod-1.7.10-v1.3.2.jar

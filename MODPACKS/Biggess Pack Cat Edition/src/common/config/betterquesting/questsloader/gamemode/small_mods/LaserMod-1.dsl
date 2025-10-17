@@ -2,7 +2,6 @@
      
 # LaserMod-1.7.10-v1.2.0a Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod LaserMod-1.7.10-v1.2.0a
 @filename LaserMod-1.7.10-v1.2.0a-universal.jar

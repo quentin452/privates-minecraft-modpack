@@ -2,7 +2,6 @@
      
 # FireBallsForPlayers 3.0 1.7.10 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod FireBallsForPlayers 3.0 1.7.10
 @filename FireBallsForPlayers 3.0 1.7.10.jar

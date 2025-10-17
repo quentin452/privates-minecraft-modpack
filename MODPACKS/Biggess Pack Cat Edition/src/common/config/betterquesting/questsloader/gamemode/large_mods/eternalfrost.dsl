@@ -2,7 +2,6 @@
      
 # eternalfrost Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod eternalfrost
 @filename eternalfrost-2.0b6.jar

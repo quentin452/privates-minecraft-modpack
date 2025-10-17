@@ -2,7 +2,6 @@
      
 # Botania Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Botania
 @filename Botania-1.12.25-GTNH.jar

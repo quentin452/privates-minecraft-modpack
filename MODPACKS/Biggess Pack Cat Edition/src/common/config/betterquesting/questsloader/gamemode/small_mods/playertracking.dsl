@@ -2,7 +2,6 @@
      
 # playertracking Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod playertracking
 @filename playertracking_1.7-1.0.jar

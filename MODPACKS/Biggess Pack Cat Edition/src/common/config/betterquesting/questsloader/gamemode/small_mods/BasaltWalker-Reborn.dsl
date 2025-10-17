@@ -2,7 +2,6 @@
      
 # BasaltWalker-Reborn Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BasaltWalker-Reborn
 @filename BasaltWalker-Reborn-Forge-1.7.10-1.0.0.jar

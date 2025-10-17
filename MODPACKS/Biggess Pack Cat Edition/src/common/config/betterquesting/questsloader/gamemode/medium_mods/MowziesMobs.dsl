@@ -2,7 +2,6 @@
      
 # MowziesMobs Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MowziesMobs
 @filename MowziesMobs-1.2.99.jar

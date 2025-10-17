@@ -2,7 +2,6 @@
      
 # Back In Slime Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Back In Slime
 @filename Back In Slime-1.7.10-3.1.6.jar

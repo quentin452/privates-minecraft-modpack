@@ -2,7 +2,6 @@
      
 # Hardcore Wither-1.7.10-1.1.3-21 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Hardcore Wither-1.7.10-1.1.3-21
 @filename Hardcore Wither-1.7.10-1.1.3-21-universal.jar

@@ -2,7 +2,6 @@
      
 # wildycraft Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod wildycraft
 @filename wildycraft-1.7.10-1.7.4.jar

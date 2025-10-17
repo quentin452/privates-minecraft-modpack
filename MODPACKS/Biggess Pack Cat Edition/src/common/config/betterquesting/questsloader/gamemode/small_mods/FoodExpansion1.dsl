@@ -2,7 +2,6 @@
      
 # FoodExpansion1.1.1 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod FoodExpansion1.1.1
 @filename FoodExpansion1.1.1-mc1.7.10.jar

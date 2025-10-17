@@ -2,7 +2,6 @@
      
 # GekosLasers Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod GekosLasers
 @filename GekosLasers-1.7.10-0.8.jar

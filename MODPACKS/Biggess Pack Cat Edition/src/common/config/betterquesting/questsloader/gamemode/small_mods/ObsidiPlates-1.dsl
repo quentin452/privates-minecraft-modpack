@@ -2,7 +2,6 @@
      
 # ObsidiPlates-1.7.10 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ObsidiPlates-1.7.10
 @filename ObsidiPlates-1.7.10-universal-3.0.0.18.jar

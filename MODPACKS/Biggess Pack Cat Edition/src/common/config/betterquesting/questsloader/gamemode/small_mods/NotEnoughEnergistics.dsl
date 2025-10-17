@@ -2,7 +2,6 @@
      
 # NotEnoughEnergistics Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod NotEnoughEnergistics
 @filename NotEnoughEnergistics-1.7.14.jar

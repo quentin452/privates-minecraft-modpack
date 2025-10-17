@@ -2,7 +2,6 @@
      
 # generators Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod generators
 @filename generators-0.9.20.123-mc1.7.10.jar

@@ -2,7 +2,6 @@
      
 # majoramod v1.2.2 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod majoramod v1.2.2
 @filename majoramod v1.2.2.jar

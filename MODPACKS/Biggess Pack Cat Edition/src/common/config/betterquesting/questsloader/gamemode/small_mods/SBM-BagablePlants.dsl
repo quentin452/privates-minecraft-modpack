@@ -2,7 +2,6 @@
      
 # SBM-BagablePlants Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SBM-BagablePlants
 @filename SBM-BagablePlants-1.7.10-0.0.1b12.jar

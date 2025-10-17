@@ -2,7 +2,6 @@
      
 # landmines Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod landmines
 @filename landmines_1.1.jar

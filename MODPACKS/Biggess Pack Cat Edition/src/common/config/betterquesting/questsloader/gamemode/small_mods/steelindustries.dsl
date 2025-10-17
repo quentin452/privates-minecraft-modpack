@@ -2,7 +2,6 @@
      
 # steelindustries Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod steelindustries
 @filename steelindustries-1.7.10-0.6.jar

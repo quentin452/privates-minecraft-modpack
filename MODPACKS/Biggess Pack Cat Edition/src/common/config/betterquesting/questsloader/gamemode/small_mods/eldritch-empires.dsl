@@ -2,7 +2,6 @@
      
 # eldritch-empires Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod eldritch-empires
 @filename eldritch-empires-091.1.jar

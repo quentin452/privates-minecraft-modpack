@@ -2,7 +2,6 @@
      
 # mariculture Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod mariculture
 @filename mariculture-1.3.0-6fork7.jar

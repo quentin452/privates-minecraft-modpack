@@ -2,7 +2,6 @@
      
 # BloodMagic Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BloodMagic
 @filename BloodMagic-1.7.51.jar

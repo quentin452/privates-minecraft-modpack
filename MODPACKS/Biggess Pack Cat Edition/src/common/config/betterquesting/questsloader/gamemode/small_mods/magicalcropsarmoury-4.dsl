@@ -2,7 +2,6 @@
      
 # magicalcropsarmoury-4.0.0_PUBLIC_BETA_4 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod magicalcropsarmoury-4.0.0_PUBLIC_BETA_4
 @filename magicalcropsarmoury-4.0.0_PUBLIC_BETA_4.jar

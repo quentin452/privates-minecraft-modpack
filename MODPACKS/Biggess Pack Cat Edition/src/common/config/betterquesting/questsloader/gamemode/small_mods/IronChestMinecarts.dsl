@@ -2,7 +2,6 @@
      
 # IronChestMinecarts Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod IronChestMinecarts
 @filename IronChestMinecarts-1.2.0.jar

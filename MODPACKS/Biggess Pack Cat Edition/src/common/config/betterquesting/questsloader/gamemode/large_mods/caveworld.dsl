@@ -2,7 +2,6 @@
      
 # caveworld Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod caveworld
 @filename caveworld-V2.3.5.jar

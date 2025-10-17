@@ -2,7 +2,6 @@
      
 # quidcraft_mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod quidcraft_mod
 @filename quidcraft_mod_1.7.10.jar

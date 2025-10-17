@@ -2,7 +2,6 @@
      
 # VE-FluidHandling Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod VE-FluidHandling
 @filename VE-FluidHandling-1.7.10-0.1.1b25.jar

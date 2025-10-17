@@ -2,7 +2,6 @@
      
 # doritos Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod doritos
 @filename doritos-1.0.0.0.jar

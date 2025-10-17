@@ -2,7 +2,6 @@
      
 # rfwindmill Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod rfwindmill
 @filename rfwindmill-1.7.10-0.7c.jar

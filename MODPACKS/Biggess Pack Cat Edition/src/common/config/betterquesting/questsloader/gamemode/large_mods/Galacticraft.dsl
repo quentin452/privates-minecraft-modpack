@@ -2,7 +2,6 @@
      
 # Galacticraft Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Galacticraft
 @filename Galacticraft-V4.1.8.jar

@@ -2,7 +2,6 @@
      
 # geochests Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod geochests
 @filename geochests-1.7.10-v1.2.3.jar

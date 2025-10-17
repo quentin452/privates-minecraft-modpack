@@ -2,7 +2,6 @@
      
 # elegant-networking Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod elegant-networking
 @filename elegant-networking-1.7.10-3.14.jar

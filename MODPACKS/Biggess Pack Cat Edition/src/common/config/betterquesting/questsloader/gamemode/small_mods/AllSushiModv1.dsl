@@ -2,7 +2,6 @@
      
 # AllSushiModv1.3 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod AllSushiModv1.3
 @filename AllSushiModv1.3(1.7.10).jar

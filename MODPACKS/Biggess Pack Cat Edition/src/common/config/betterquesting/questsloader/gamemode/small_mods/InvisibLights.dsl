@@ -2,7 +2,6 @@
      
 # InvisibLights Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod InvisibLights
 @filename InvisibLights-2.3-7.jar

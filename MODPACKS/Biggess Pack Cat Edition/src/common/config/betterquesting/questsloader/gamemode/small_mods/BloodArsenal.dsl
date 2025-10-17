@@ -2,7 +2,6 @@
      
 # BloodArsenal Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BloodArsenal
 @filename BloodArsenal-1.4.10.jar

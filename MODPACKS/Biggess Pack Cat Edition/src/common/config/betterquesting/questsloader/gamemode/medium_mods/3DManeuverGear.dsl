@@ -2,7 +2,6 @@
      
 # 3DManeuverGear Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod 3DManeuverGear
 @filename 3DManeuverGear-1.7.10-0.6.jar

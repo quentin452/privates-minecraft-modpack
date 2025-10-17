@@ -2,7 +2,6 @@
      
 # creepernuggets Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod creepernuggets
 @filename creepernuggets-1.7.10-1.0.jar

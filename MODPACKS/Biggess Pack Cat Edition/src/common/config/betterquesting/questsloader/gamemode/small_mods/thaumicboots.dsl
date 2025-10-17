@@ -2,7 +2,6 @@
      
 # thaumicboots Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod thaumicboots
 @filename thaumicboots-1.4.14.jar

@@ -2,7 +2,6 @@
      
 # Mekanism-Community-Edition Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Mekanism-Community-Edition
 @filename Mekanism-Community-Edition-1.7.10-9.10.46-Core.jar

@@ -2,7 +2,6 @@
      
 # ChaoticKarma Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ChaoticKarma
 @filename ChaoticKarma-1.7.10-1.0.2.jar

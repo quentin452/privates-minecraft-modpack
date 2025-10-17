@@ -2,7 +2,6 @@
      
 # StevesFactoryManager Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod StevesFactoryManager
 @filename StevesFactoryManager-1.3.4-GTNH.jar

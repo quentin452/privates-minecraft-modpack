@@ -2,7 +2,6 @@
      
 # ComplexCrops Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ComplexCrops
 @filename ComplexCrops-v3-1.7.10.jar

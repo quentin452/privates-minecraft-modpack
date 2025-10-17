@@ -2,7 +2,6 @@
      
 # EnderOres_1.7.10_Alpha0.8 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod EnderOres_1.7.10_Alpha0.8
 @filename EnderOres_1.7.10_Alpha0.8.jar

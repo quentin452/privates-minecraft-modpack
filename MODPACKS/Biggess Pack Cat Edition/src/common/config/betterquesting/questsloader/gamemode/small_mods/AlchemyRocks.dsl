@@ -2,7 +2,6 @@
      
 # AlchemyRocks v1.2.5R Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod AlchemyRocks v1.2.5R
 @filename [1.7.10] AlchemyRocks v1.2.5R.jar

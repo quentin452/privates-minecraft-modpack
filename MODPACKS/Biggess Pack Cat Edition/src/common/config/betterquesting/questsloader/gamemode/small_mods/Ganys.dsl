@@ -2,7 +2,6 @@
      
 # Ganys+End Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Ganys+End
 @filename Ganys+End-1.11.3.jar

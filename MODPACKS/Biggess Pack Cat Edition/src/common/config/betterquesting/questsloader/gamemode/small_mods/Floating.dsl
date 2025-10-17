@@ -2,7 +2,6 @@
      
 # Floating Rails Beta v1.0 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Floating Rails Beta v1.0
 @filename Floating Rails Beta v1.0.jar

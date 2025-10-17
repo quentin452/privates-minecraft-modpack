@@ -2,7 +2,6 @@
      
 # Stefinus Guns Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Stefinus Guns
 @filename Stefinus Guns-0.5.2.jar

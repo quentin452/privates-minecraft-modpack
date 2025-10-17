@@ -2,7 +2,6 @@
      
 # adventurebackpack Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod adventurebackpack
 @filename adventurebackpack-1.3.11-GTNH.jar

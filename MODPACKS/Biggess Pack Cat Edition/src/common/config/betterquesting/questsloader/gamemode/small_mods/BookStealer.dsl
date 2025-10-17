@@ -2,7 +2,6 @@
      
 # BookStealer Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BookStealer
 @filename BookStealer-1.1.0.jar

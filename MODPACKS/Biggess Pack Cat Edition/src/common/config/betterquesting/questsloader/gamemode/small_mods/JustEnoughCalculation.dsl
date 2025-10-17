@@ -2,7 +2,6 @@
      
 # JustEnoughCalculation Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod JustEnoughCalculation
 @filename JustEnoughCalculation-1.7.10-4.9.jar

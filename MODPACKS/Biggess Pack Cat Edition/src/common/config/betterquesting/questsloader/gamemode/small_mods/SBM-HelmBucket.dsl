@@ -2,7 +2,6 @@
      
 # SBM-HelmBucket Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SBM-HelmBucket
 @filename SBM-HelmBucket-1.7.10-0.0.1b10.jar

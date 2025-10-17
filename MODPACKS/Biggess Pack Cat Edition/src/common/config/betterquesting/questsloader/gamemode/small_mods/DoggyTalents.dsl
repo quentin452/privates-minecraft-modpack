@@ -2,7 +2,6 @@
      
 # DoggyTalents Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod DoggyTalents
 @filename DoggyTalents-1.7.10-1.14.2.325.jar

@@ -2,7 +2,6 @@
      
 # dawn_of_the_planet_of_the_apes_mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod dawn_of_the_planet_of_the_apes_mod
 @filename dawn_of_the_planet_of_the_apes_mod_1.7.10.zip

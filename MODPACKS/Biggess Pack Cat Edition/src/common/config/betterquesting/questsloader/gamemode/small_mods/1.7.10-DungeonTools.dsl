@@ -2,7 +2,6 @@
      
 # 1.7.10-DungeonTools Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod 1.7.10-DungeonTools
 @filename 1.7.10-DungeonTools-v2.1.1.jar

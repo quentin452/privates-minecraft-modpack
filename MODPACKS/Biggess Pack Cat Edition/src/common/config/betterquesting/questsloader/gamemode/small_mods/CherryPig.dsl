@@ -2,7 +2,6 @@
      
 # CherryPig Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CherryPig
 @filename CherryPig-1.5.jar

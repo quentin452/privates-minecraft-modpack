@@ -2,7 +2,6 @@
      
 # Carvable_Pumpkins_Mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Carvable_Pumpkins_Mod
 @filename Carvable_Pumpkins_Mod.jar

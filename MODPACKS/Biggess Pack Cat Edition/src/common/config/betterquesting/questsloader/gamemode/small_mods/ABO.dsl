@@ -2,7 +2,6 @@
      
 # ABO Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ABO
 @filename ABO-MC1.7.10-BC7.1release4.0.14.jar

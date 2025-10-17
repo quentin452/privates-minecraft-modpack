@@ -2,7 +2,6 @@
      
 # MegaBlueMod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MegaBlueMod
 @filename MegaBlueMod-2.0.1.jar

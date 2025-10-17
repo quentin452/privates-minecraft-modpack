@@ -2,7 +2,6 @@
      
 # MrCrayfishFurnitureModv3.4.7 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MrCrayfishFurnitureModv3.4.7
 @filename MrCrayfishFurnitureModv3.4.7(1.7.10).jar

@@ -2,7 +2,6 @@
      
 # thermalcasting Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod thermalcasting
 @filename thermalcasting-0.0.3.jar

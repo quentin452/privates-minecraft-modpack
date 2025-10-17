@@ -2,7 +2,6 @@
      
 # chinacraft-Beta Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod chinacraft-Beta
 @filename chinacraft-Beta-0.5.jar

@@ -2,7 +2,6 @@
      
 # sodiumcraft Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod sodiumcraft
 @filename sodiumcraft-1.2.jar

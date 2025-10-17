@@ -2,7 +2,6 @@
      
 # ThaumicExpansion Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ThaumicExpansion
 @filename ThaumicExpansion-1.7.10-4.1.3.jar

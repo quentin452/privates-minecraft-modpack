@@ -2,7 +2,6 @@
      
 # tidepod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod tidepod
 @filename tidepod-1.0.jar

@@ -2,7 +2,6 @@
      
 # CookingForBlockheads Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CookingForBlockheads
 @filename CookingForBlockheads-1.4.4-GTNH.jar

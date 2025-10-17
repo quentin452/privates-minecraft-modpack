@@ -2,7 +2,6 @@
      
 # witchery Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod witchery
 @filename witchery-1.7.10-0.25.1.jar

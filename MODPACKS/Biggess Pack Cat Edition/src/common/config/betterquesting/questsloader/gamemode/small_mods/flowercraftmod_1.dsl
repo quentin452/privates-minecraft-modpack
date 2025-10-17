@@ -2,7 +2,6 @@
      
 # flowercraftmod_1.8_1.7.10 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod flowercraftmod_1.8_1.7.10
 @filename flowercraftmod_1.8_1.7.10_forge.jar

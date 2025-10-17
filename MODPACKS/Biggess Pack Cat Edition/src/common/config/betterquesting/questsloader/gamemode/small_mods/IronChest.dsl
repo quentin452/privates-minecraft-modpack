@@ -2,7 +2,6 @@
      
 # IronChest Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod IronChest
 @filename IronChest-6.1.6.jar

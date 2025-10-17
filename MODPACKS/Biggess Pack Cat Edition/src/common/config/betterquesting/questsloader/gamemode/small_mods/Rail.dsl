@@ -2,7 +2,6 @@
      
 # Rail Plus Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Rail Plus
 @filename Rail Plus-1.7.10-1.6.jar

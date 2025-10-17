@@ -2,7 +2,6 @@
      
 # tnt_utilities Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod tnt_utilities
 @filename tnt_utilities-mc1.7.10-1.2.jar

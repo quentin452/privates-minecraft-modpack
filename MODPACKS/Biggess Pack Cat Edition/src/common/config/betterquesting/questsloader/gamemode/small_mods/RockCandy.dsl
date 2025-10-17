@@ -2,7 +2,6 @@
      
 # RockCandy Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RockCandy
 @filename RockCandy-1.7.2-0.0.1b.jar

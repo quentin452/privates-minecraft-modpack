@@ -2,7 +2,6 @@
      
 # PeacefulToDyeFor-1.0.2 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod PeacefulToDyeFor-1.0.2
 @filename PeacefulToDyeFor-1.0.2[1.7.10].jar

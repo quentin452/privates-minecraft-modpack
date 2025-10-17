@@ -2,7 +2,6 @@
      
 # mythandmonsters Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod mythandmonsters
 @filename mythandmonsters_1.7.10_1.0.0.jar

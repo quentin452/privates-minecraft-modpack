@@ -2,7 +2,6 @@
      
 # PortalGun-4.0.0-beta-6-fix-1 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod PortalGun-4.0.0-beta-6-fix-1
 @filename PortalGun-4.0.0-beta-6-fix-1.jar

@@ -2,7 +2,6 @@
      
 # SBM-CactiBucket Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SBM-CactiBucket
 @filename SBM-CactiBucket-1.7.10-0.0.1b20170105151347-dev-universal.jar

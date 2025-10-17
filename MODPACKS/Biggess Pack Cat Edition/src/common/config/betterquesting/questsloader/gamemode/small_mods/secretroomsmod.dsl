@@ -2,7 +2,6 @@
      
 # secretroomsmod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod secretroomsmod
 @filename secretroomsmod-1.7.10-4.7.1.413.jar

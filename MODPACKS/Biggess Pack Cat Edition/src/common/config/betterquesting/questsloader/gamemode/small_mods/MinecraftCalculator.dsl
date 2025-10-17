@@ -2,7 +2,6 @@
      
 # MinecraftCalculator Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MinecraftCalculator
 @filename MinecraftCalculator_v1.10.jar

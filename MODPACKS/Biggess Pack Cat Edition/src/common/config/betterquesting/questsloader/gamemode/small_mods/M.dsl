@@ -2,7 +2,6 @@
      
 # M&Ms-Mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod M&Ms-Mod
 @filename M&Ms-Mod-1.7.10.jar

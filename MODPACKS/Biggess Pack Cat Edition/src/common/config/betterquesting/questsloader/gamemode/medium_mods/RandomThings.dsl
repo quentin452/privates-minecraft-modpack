@@ -2,7 +2,6 @@
      
 # RandomThings Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RandomThings
 @filename RandomThings-2.6.6.jar

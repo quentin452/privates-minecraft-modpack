@@ -2,7 +2,6 @@
      
 # POLVOLUMINOSO LINGOTE Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod POLVOLUMINOSO LINGOTE
 @filename POLVOLUMINOSO LINGOTE.jar

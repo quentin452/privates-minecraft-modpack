@@ -2,7 +2,6 @@
      
 # middleearththaumaturgy Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod middleearththaumaturgy
 @filename middleearththaumaturgy-0.7.3.1_a for v36.x.jar

@@ -2,7 +2,6 @@
      
 # Elijah's Chocolate Mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Elijah's Chocolate Mod
 @filename Elijah's Chocolate Mod-1.1.jar

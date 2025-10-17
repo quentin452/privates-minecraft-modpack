@@ -2,7 +2,6 @@
      
 # etfuturum Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod etfuturum
 @filename etfuturum-2.6.2.jar

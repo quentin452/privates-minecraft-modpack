@@ -2,7 +2,6 @@
      
 # MutantCreatures Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MutantCreatures
 @filename MutantCreatures-1.7.10-1.4.9.jar

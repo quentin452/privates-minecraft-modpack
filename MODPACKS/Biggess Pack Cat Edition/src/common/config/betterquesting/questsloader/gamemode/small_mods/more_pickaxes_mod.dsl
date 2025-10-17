@@ -2,7 +2,6 @@
      
 # more_pickaxes_mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod more_pickaxes_mod
 @filename more_pickaxes_mod_1.7.10.jar

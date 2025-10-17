@@ -2,7 +2,6 @@
      
 # PlumePack_Vietnam Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod PlumePack_Vietnam
 @filename PlumePack_Vietnam_0_0_2.jar

@@ -2,7 +2,6 @@
      
 # JustRoadStuff Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod JustRoadStuff
 @filename JustRoadStuff-0.1.jar

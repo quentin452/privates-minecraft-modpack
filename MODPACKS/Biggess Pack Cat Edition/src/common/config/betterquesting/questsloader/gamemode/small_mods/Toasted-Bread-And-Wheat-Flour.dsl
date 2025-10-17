@@ -2,7 +2,6 @@
      
 # Toasted-Bread-And-Wheat-Flour Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Toasted-Bread-And-Wheat-Flour
 @filename Toasted-Bread-And-Wheat-Flour_RP112.jar

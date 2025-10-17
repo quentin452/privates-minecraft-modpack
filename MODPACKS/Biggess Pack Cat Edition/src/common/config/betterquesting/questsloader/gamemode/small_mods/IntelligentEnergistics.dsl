@@ -2,7 +2,6 @@
      
 # IntelligentEnergistics Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod IntelligentEnergistics
 @filename IntelligentEnergistics-1.7.10-2.2.1.610-universal.jar

@@ -2,7 +2,6 @@
      
 # quantum-utilities Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod quantum-utilities
 @filename quantum-utilities-1.0.zip

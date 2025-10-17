@@ -2,7 +2,6 @@
      
 # Bagginses Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Bagginses
 @filename Bagginses-2.1.1.jar

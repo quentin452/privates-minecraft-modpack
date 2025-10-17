@@ -2,7 +2,6 @@
      
 # GrumpysModV1.4 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod GrumpysModV1.4
 @filename GrumpysModV1.4(1.7.10).jar

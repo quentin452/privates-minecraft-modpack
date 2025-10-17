@@ -2,7 +2,6 @@
      
 # PlutoBeta2For1.7.2 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod PlutoBeta2For1.7.2
 @filename PlutoBeta2For1.7.2.zip

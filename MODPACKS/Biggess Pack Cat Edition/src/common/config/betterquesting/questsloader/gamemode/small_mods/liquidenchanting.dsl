@@ -2,7 +2,6 @@
      
 # liquidenchanting Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod liquidenchanting
 @filename liquidenchanting-1.7.10_v1.jar

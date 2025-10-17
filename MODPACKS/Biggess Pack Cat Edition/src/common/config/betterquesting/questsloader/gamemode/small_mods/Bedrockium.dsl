@@ -2,7 +2,6 @@
      
 # Bedrockium Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Bedrockium
 @filename Bedrockium-0.1.1.jar

@@ -2,7 +2,6 @@
      
 # Practical-Logistics Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Practical-Logistics
 @filename Practical-Logistics-1.7.10-0.2.4.jar

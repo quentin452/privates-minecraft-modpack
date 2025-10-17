@@ -2,7 +2,6 @@
      
 # Totemic Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Totemic
 @filename Totemic-1.7.10-0.6.2.jar

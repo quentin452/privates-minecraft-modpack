@@ -2,7 +2,6 @@
      
 # EnderAddons Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod EnderAddons
 @filename EnderAddons-1.7.10-0.1R.jar

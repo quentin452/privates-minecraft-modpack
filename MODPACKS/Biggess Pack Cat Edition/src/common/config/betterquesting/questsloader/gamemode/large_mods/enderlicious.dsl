@@ -2,7 +2,6 @@
      
 # enderlicious Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod enderlicious
 @filename enderlicious-1.1.2.jar

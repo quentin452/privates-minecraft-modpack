@@ -2,7 +2,6 @@
      
 # CubicVillager Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CubicVillager
 @filename CubicVillager-0.28.jar

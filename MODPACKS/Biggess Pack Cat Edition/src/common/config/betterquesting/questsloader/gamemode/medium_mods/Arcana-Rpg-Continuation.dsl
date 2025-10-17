@@ -2,7 +2,6 @@
      
 # Arcana-Rpg-Continuation Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Arcana-Rpg-Continuation
 @filename Arcana-Rpg-Continuation-1.7.10-1.4.8.5.jar

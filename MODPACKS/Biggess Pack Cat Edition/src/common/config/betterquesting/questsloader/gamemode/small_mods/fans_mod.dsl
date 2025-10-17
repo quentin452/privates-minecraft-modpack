@@ -2,7 +2,6 @@
      
 # fans_mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod fans_mod
 @filename fans_mod_1.7.10.jar

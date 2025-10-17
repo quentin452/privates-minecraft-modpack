@@ -2,7 +2,6 @@
      
 # BackToTheFutureMod_1_7_10 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BackToTheFutureMod_1_7_10
 @filename BackToTheFutureMod_1_7_10.jar

@@ -2,7 +2,6 @@
      
 # ExtraMobs Mod v1.01 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ExtraMobs Mod v1.01
 @filename ExtraMobs Mod v1.01.zip

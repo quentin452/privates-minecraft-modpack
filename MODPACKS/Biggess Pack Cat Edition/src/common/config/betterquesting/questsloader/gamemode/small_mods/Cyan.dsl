@@ -2,7 +2,6 @@
      
 # Cyan Warrior Swords Mod 2.1.2-fix Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Cyan Warrior Swords Mod 2.1.2-fix
 @filename Cyan Warrior Swords Mod 2.1.2-fix.jar

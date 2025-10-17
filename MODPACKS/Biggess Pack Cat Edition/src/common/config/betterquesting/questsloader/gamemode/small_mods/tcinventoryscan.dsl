@@ -2,7 +2,6 @@
      
 # tcinventoryscan Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod tcinventoryscan
 @filename tcinventoryscan-1.7.10-1.0.12-GTNH.jar

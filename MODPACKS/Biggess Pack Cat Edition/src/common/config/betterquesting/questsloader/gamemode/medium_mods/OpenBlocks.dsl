@@ -2,7 +2,6 @@
      
 # OpenBlocks Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod OpenBlocks
 @filename OpenBlocks-1.11.7-GTNH.jar

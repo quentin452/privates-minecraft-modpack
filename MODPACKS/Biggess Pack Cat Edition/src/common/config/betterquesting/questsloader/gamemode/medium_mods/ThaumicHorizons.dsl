@@ -2,7 +2,6 @@
      
 # ThaumicHorizons Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ThaumicHorizons
 @filename ThaumicHorizons-1.7.7-pre.jar

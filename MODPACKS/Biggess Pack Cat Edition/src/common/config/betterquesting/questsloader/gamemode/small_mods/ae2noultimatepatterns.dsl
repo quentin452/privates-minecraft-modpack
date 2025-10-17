@@ -2,7 +2,6 @@
      
 # ae2noultimatepatterns Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ae2noultimatepatterns
 @filename ae2noultimatepatterns-1.0.1.jar

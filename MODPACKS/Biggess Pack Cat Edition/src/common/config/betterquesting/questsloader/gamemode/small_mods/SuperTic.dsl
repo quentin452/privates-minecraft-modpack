@@ -2,7 +2,6 @@
      
 # SuperTic Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SuperTic
 @filename SuperTic-1.5.0.jar

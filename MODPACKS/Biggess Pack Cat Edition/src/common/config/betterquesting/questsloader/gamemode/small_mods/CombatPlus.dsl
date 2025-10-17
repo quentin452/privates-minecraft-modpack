@@ -2,7 +2,6 @@
      
 # CombatPlus Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CombatPlus
 @filename CombatPlus-1.0.3.jar

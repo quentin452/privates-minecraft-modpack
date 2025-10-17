@@ -2,7 +2,6 @@
      
 # Ladders Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Ladders
 @filename Ladders-0.5.0-MC1.7.10.jar

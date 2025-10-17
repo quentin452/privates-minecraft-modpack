@@ -2,7 +2,6 @@
      
 # naturescompass Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod naturescompass
 @filename naturescompass-1.5.0-GTNH.jar

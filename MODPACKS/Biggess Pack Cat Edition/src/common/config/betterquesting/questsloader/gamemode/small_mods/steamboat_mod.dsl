@@ -2,7 +2,6 @@
      
 # steamboat_mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod steamboat_mod
 @filename steamboat_mod_1.7.10.jar

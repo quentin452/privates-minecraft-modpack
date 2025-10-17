@@ -2,7 +2,6 @@
      
 # Avaritia Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Avaritia
 @filename Avaritia-1.75.jar

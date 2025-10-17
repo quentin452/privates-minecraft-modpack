@@ -2,7 +2,6 @@
      
 # PandorasBox Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod PandorasBox
 @filename PandorasBox-2.1.jar

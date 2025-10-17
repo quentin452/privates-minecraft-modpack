@@ -2,7 +2,6 @@
      
 # ExperienceApple Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ExperienceApple
 @filename ExperienceApple-2.5.1.jar

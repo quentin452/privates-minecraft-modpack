@@ -2,7 +2,6 @@
      
 # EvenMoreFood1.1 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod EvenMoreFood1.1
 @filename EvenMoreFood1.1.jar

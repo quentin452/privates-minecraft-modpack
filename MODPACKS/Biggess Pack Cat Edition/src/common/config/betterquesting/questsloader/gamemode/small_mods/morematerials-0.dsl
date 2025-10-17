@@ -2,7 +2,6 @@
      
 # morematerials-0.9.20150615.0 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod morematerials-0.9.20150615.0
 @filename morematerials-0.9.20150615.0-MC1.7-20150621.jar

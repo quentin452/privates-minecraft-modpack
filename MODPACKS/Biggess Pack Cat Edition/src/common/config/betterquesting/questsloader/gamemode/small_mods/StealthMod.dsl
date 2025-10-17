@@ -2,7 +2,6 @@
      
 # StealthMod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod StealthMod
 @filename StealthMod -v0.0.9.jar

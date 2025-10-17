@@ -2,7 +2,6 @@
      
 # Tainted-Magic Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Tainted-Magic
 @filename Tainted-Magic-7.6.26-GTNH.jar

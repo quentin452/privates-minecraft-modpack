@@ -2,7 +2,6 @@
      
 # MagnificentTrinkets Beta 0.1b Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MagnificentTrinkets Beta 0.1b
 @filename MagnificentTrinkets Beta 0.1b.jar

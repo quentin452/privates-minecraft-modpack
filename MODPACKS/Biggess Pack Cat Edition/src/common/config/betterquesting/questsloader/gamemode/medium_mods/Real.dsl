@@ -2,7 +2,6 @@
      
 # Real.Kether Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Real.Kether
 @filename Real.Kether-V1.9.5.2.jar

@@ -2,7 +2,6 @@
      
 # SAO Crystals Mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SAO Crystals Mod
 @filename SAO Crystals Mod 1.3 Reborn.jar

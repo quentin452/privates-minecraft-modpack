@@ -2,7 +2,6 @@
      
 # beddium Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod beddium
 @filename beddium-mc1.7.10-1.0.4-j21.jar

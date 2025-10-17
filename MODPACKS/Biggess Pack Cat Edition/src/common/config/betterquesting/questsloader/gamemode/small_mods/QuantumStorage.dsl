@@ -2,7 +2,6 @@
      
 # QuantumStorage Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod QuantumStorage
 @filename QuantumStorage-1.7.10-1.4.2.jar

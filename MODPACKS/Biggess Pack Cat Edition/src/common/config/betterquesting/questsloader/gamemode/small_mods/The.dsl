@@ -2,7 +2,6 @@
      
 # The Whetstone Mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod The Whetstone Mod
 @filename [1.7.10] The Whetstone Mod-v1.0.1.jar

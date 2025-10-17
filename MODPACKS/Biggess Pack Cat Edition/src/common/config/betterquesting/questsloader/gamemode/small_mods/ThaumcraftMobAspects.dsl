@@ -2,7 +2,6 @@
      
 # ThaumcraftMobAspects Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ThaumcraftMobAspects
 @filename ThaumcraftMobAspects-1.2.1-GTNH.jar

@@ -2,7 +2,6 @@
      
 # RemainInMotion Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RemainInMotion
 @filename RemainInMotion-2.8.9.jar

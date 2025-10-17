@@ -2,7 +2,6 @@
      
 # manametalmod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod manametalmod
 @filename manametalmod-7.4.5.jar

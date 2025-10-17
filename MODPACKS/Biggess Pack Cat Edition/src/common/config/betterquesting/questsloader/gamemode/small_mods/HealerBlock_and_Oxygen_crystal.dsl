@@ -2,7 +2,6 @@
      
 # HealerBlock_and_Oxygen_crystal Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod HealerBlock_and_Oxygen_crystal
 @filename HealerBlock_and_Oxygen_crystal_v1.jar

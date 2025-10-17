@@ -2,7 +2,6 @@
      
 # goblins_mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod goblins_mod
 @filename goblins_mod_6.0.jar

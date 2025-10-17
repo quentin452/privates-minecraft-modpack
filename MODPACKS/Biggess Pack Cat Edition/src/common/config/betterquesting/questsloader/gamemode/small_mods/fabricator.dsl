@@ -2,7 +2,6 @@
      
 # fabricator Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod fabricator
 @filename fabricator-1.7.10-1.2.64-universal.jar

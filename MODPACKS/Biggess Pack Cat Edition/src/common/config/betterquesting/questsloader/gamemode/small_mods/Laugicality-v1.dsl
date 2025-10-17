@@ -2,7 +2,6 @@
      
 # Laugicality-v1.0 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Laugicality-v1.0
 @filename Laugicality-v1.0[1.7.10].jar

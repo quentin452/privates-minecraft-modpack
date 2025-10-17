@@ -2,7 +2,6 @@
      
 # Pumpkifiction Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Pumpkifiction
 @filename Pumpkifiction-1.0.4.jar

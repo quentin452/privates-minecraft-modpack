@@ -2,7 +2,6 @@
      
 # ironfurnaces Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ironfurnaces
 @filename ironfurnaces-1.2.4R.jar

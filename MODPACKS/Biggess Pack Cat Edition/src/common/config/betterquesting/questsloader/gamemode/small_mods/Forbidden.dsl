@@ -2,7 +2,6 @@
      
 # Forbidden.Magic Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Forbidden.Magic
 @filename Forbidden.Magic-0.8.3-GTNH.jar

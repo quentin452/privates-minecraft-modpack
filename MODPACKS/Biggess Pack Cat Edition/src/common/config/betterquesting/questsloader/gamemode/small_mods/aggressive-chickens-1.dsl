@@ -2,7 +2,6 @@
      
 # aggressive-chickens-1.7-mc Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod aggressive-chickens-1.7-mc
 @filename aggressive-chickens-1.7-mc-1.7.jar

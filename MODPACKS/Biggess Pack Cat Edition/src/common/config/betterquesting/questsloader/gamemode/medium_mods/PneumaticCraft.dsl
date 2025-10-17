@@ -2,7 +2,6 @@
      
 # PneumaticCraft Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod PneumaticCraft
 @filename PneumaticCraft-1.7.10-1.12.7-152-universal.jar

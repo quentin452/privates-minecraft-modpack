@@ -2,7 +2,6 @@
      
 # FlenixRoads Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod FlenixRoads
 @filename FlenixRoads_[1.7.10]-0.11.0-b43.jar

@@ -2,7 +2,6 @@
      
 # Railcraft Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Railcraft
 @filename Railcraft-9.16.33.jar

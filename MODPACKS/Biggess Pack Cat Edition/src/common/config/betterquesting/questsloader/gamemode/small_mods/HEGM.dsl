@@ -2,7 +2,6 @@
      
 # HEGM 1.7.10 Update 1 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod HEGM 1.7.10 Update 1
 @filename HEGM 1.7.10 Update 1.jar

@@ -2,7 +2,6 @@
      
 # Forestry Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Forestry
 @filename Forestry-4.10.17.jar

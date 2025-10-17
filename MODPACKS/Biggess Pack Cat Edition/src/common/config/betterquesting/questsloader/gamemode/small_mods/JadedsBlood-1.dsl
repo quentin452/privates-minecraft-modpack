@@ -2,7 +2,6 @@
      
 # JadedsBlood-1.7.10-Beta Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod JadedsBlood-1.7.10-Beta
 @filename JadedsBlood-1.7.10-Beta-1.0.5.jar

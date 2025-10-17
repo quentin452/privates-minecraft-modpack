@@ -2,7 +2,6 @@
      
 # unbreaken Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod unbreaken
 @filename unbreaken-1.0.2.jar

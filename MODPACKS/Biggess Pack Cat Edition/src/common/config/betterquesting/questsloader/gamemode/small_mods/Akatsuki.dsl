@@ -2,7 +2,6 @@
      
 # Akatsuki Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Akatsuki
 @filename Akatsuki-0.1.1.jar

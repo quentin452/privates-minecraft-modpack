@@ -2,7 +2,6 @@
      
 # biomereactors Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod biomereactors
 @filename biomereactors-1.0.2.jar

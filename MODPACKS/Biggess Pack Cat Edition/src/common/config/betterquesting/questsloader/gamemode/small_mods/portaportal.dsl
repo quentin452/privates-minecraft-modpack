@@ -2,7 +2,6 @@
      
 # portaportal Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod portaportal
 @filename portaportal-0.0.2i.jar

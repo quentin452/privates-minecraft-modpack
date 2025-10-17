@@ -2,7 +2,6 @@
      
 # Magical Stick 1.3 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Magical Stick 1.3
 @filename Magical Stick 1.3.zip

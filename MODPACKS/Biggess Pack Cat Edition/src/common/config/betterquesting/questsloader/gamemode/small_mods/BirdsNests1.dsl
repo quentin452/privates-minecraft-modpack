@@ -2,7 +2,6 @@
      
 # BirdsNests1.7.10 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BirdsNests1.7.10
 @filename BirdsNests1.7.10-1.4.jar

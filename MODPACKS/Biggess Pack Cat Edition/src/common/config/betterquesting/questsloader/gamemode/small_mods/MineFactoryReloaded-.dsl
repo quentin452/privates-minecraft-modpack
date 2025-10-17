@@ -2,7 +2,6 @@
      
 # MineFactoryReloaded-[1.7.10]2.8.2B1-201 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MineFactoryReloaded-[1.7.10]2.8.2B1-201
 @filename MineFactoryReloaded-[1.7.10]2.8.2B1-201.jar

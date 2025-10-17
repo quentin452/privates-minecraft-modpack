@@ -2,7 +2,6 @@
      
 # stairs_plusplus Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod stairs_plusplus
 @filename stairs_plusplus_1.0.jar

@@ -2,7 +2,6 @@
      
 # Cubics Mod 1.7.10 BETA Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Cubics Mod 1.7.10 BETA
 @filename Cubics Mod 1.7.10 BETA.jar

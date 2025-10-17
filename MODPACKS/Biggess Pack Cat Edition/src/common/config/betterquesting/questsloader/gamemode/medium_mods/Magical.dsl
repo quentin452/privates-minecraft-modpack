@@ -2,7 +2,6 @@
      
 # Magical Instruments Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Magical Instruments
 @filename Magical Instruments-0.9.1.jar

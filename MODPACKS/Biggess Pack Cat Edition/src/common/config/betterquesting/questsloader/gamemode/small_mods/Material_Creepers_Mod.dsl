@@ -2,7 +2,6 @@
      
 # Material_Creepers_Mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Material_Creepers_Mod
 @filename Material_Creepers_Mod_1.7.10.jar

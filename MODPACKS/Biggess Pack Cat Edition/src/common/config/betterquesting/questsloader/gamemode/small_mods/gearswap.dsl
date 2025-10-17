@@ -2,7 +2,6 @@
      
 # gearswap Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod gearswap
 @filename gearswap-1.2.3.jar

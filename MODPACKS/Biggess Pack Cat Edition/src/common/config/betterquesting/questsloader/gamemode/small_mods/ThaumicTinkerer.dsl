@@ -2,7 +2,6 @@
      
 # ThaumicTinkerer Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ThaumicTinkerer
 @filename ThaumicTinkerer-2.10.2.jar

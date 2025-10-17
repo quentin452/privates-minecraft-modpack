@@ -2,7 +2,6 @@
      
 # SidedBuffer Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SidedBuffer
 @filename [1.7.10]SidedBuffer-0.4.jar

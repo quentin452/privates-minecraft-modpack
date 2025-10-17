@@ -2,7 +2,6 @@
      
 # battlegear2 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod battlegear2
 @filename battlegear2-1.4.3.jar

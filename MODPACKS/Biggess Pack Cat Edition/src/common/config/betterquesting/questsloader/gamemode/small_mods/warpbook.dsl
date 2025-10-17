@@ -2,7 +2,6 @@
      
 # warpbook Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod warpbook
 @filename warpbook-1.7.10_2.0.37.jar

@@ -2,7 +2,6 @@
      
 # OpenGlasses Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod OpenGlasses
 @filename OpenGlasses-1.6.1-GTNH.jar

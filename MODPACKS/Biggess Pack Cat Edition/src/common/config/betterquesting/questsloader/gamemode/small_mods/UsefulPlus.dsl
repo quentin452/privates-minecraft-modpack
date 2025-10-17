@@ -2,7 +2,6 @@
      
 # UsefulPlus Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod UsefulPlus
 @filename UsefulPlus-1.7.10-18.jar

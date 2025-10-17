@@ -2,7 +2,6 @@
      
 # creeperchicks-v2.a Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod creeperchicks-v2.a
 @filename creeperchicks-v2.a.jar

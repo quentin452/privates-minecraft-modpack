@@ -2,7 +2,6 @@
      
 # ImmersiveEngineering Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ImmersiveEngineering
 @filename ImmersiveEngineering-mc1.7.10-0.7.11-fork2.jar

@@ -2,7 +2,6 @@
      
 # Kinetic Add-OnsV0.4.6 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Kinetic Add-OnsV0.4.6
 @filename Kinetic Add-OnsV0.4.6.jar

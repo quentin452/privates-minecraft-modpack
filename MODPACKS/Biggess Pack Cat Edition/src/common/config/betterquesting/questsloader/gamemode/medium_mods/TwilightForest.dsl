@@ -2,7 +2,6 @@
      
 # TwilightForest Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TwilightForest
 @filename TwilightForest-2.7.13.jar

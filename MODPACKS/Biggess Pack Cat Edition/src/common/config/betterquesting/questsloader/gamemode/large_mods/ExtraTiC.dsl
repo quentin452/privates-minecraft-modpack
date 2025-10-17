@@ -2,7 +2,6 @@
      
 # ExtraTiC Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ExtraTiC
 @filename ExtraTiC-1.7.10-1.4.6.jar

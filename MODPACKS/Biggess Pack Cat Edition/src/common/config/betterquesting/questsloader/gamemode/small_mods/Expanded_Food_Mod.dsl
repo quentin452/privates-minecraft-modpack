@@ -2,7 +2,6 @@
      
 # Expanded_Food_Mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Expanded_Food_Mod
 @filename Expanded_Food_Mod_1.7.10.jar

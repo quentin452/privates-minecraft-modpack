@@ -2,7 +2,6 @@
      
 # WitcheryExtras Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod WitcheryExtras
 @filename WitcheryExtras-1.3.6.jar

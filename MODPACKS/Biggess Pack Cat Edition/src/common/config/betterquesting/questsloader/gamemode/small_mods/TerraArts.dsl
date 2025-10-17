@@ -2,7 +2,6 @@
      
 # TerraArts Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TerraArts
 @filename TerraArts-1.1.1710.27.jar

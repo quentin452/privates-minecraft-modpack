@@ -2,7 +2,6 @@
      
 # ThaumicUpholstery Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ThaumicUpholstery
 @filename ThaumicUpholstery-1.2.1.jar

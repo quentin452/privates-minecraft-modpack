@@ -2,7 +2,6 @@
      
 # Draconic-Evolution Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Draconic-Evolution
 @filename Draconic-Evolution-1.4.27-GTNH.jar

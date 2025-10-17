@@ -2,7 +2,6 @@
      
 # am2.0.90 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod am2.0.90
 @filename am2.0.90.jar

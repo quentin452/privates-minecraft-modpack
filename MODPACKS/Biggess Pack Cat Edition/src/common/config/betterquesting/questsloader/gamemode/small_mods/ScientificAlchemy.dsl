@@ -2,7 +2,6 @@
      
 # ScientificAlchemy Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ScientificAlchemy
 @filename ScientificAlchemy-1.7.10-1.3.jar

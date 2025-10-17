@@ -2,7 +2,6 @@
      
 # WeirdForce Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod WeirdForce
 @filename WeirdForce-1.1.3.2.jar

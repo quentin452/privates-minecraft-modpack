@@ -2,7 +2,6 @@
      
 # roguelike Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod roguelike
 @filename roguelike-1.5.5.jar

@@ -2,7 +2,6 @@
      
 # netherlicious Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod netherlicious
 @filename netherlicious-3.2.8.jar

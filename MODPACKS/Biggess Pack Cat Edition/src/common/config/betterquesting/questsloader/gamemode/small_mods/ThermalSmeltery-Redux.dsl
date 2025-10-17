@@ -2,7 +2,6 @@
      
 # ThermalSmeltery-Redux Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ThermalSmeltery-Redux
 @filename ThermalSmeltery-Redux-v1.1.jar

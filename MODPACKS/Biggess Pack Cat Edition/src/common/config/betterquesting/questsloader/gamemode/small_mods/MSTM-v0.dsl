@@ -2,7 +2,6 @@
      
 # MSTM-v0.2 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MSTM-v0.2
 @filename MSTM-v0.2(1.7.10).jar

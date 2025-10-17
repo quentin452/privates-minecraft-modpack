@@ -2,7 +2,6 @@
      
 # TragicMC Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TragicMC
 @filename TragicMC-V2.57.jar

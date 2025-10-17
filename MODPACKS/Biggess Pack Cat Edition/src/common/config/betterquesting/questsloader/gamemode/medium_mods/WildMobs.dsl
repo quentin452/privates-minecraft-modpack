@@ -2,7 +2,6 @@
      
 # WildMobs Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod WildMobs
 @filename WildMobs-1.7.10-1.5.6.7.jar

@@ -2,7 +2,6 @@
      
 # pressure Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod pressure
 @filename pressure-1.3.0.fix1-mc1.7.10.jar

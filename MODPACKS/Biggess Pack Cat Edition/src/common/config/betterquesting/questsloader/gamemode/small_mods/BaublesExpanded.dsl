@@ -2,7 +2,6 @@
      
 # BaublesExpanded Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BaublesExpanded
 @filename BaublesExpanded-2.1.15-GTNH.jar

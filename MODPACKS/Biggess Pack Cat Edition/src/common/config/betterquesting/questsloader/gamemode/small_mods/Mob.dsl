@@ -2,7 +2,6 @@
      
 # Mob Battle Mod-2.0.0[1.7.10]final Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Mob Battle Mod-2.0.0[1.7.10]final
 @filename Mob Battle Mod-2.0.0[1.7.10]final.jar

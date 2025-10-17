@@ -2,7 +2,6 @@
      
 # birds of a feather 5 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod birds of a feather 5
 @filename birds of a feather 5.jar

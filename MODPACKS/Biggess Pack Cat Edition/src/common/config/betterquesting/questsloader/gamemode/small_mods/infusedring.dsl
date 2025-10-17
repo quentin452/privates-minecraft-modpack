@@ -2,7 +2,6 @@
      
 # infusedring Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod infusedring
 @filename infusedring-1.7.10-1.0.4.jar

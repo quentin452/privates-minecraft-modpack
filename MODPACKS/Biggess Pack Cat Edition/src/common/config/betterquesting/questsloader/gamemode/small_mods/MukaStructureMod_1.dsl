@@ -2,7 +2,6 @@
      
 # MukaStructureMod_1.0.2 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MukaStructureMod_1.0.2
 @filename MukaStructureMod_1.0.2_mc1.7.10.jar

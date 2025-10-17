@@ -2,7 +2,6 @@
      
 # Pumpkin Tools Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Pumpkin Tools
 @filename Pumpkin Tools[1.7.10-V1].jar

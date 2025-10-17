@@ -2,7 +2,6 @@
      
 # immersiveintegration Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod immersiveintegration
 @filename immersiveintegration-0.6.8.jar

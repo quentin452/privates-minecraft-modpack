@@ -2,7 +2,6 @@
      
 # hamsterrific Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod hamsterrific
 @filename hamsterrific-0.2.2.jar

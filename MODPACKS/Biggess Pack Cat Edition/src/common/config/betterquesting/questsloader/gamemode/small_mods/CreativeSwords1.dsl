@@ -2,7 +2,6 @@
      
 # CreativeSwords1.7.10 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CreativeSwords1.7.10
 @filename CreativeSwords1.7.10.jar

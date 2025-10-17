@@ -2,7 +2,6 @@
      
 # AE2TechAddOn Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod AE2TechAddOn
 @filename AE2TechAddOn-1.7.10-1.1.jar

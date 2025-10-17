@@ -2,7 +2,6 @@
      
 # Mimicry 11.0 beta Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Mimicry 11.0 beta
 @filename Mimicry 11.0 beta.jar

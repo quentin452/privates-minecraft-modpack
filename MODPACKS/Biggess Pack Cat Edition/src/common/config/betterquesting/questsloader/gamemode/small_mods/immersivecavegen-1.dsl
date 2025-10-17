@@ -2,7 +2,6 @@
      
 # immersivecavegen-1.2g-hotfix5 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod immersivecavegen-1.2g-hotfix5
 @filename immersivecavegen-1.2g-hotfix5.jar

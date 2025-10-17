@@ -2,7 +2,6 @@
      
 # PPAP_Mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod PPAP_Mod
 @filename PPAP_Mod_1.7.10_1.5.0.jar

@@ -2,7 +2,6 @@
      
 # Deep Sea Diving 1.1 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Deep Sea Diving 1.1
 @filename Deep Sea Diving 1.1.zip

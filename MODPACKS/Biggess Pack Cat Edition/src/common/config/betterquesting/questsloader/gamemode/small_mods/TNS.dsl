@@ -2,7 +2,6 @@
      
 # TNS Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TNS
 @filename TNS-1.0.1.jar

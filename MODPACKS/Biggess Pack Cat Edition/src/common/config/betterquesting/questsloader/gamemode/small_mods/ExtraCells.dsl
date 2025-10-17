@@ -2,7 +2,6 @@
      
 # ExtraCells Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ExtraCells
 @filename ExtraCells-2.5.35.jar

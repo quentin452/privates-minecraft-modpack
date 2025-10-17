@@ -2,7 +2,6 @@
      
 # paniclecraft Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod paniclecraft
 @filename paniclecraft-1.7.10-2.7.2.0.jar

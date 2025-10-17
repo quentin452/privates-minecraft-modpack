@@ -2,7 +2,6 @@
      
 # Automation Utilities Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Automation Utilities
 @filename Automation Utilities-1.7.10-1.0.1.jar

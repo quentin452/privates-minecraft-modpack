@@ -2,7 +2,6 @@
      
 # Fuel Canister Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Fuel Canister
 @filename Fuel Canister[1.7.10]-1.2.1.jar

@@ -2,7 +2,6 @@
      
 # Pebbles-Begone-v1.0 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Pebbles-Begone-v1.0
 @filename Pebbles-Begone-v1.0-mc1.7.10.jar

@@ -2,7 +2,6 @@
      
 # ToolUpgrades Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ToolUpgrades
 @filename ToolUpgrades 1.7.10 (v.1.2.3).jar

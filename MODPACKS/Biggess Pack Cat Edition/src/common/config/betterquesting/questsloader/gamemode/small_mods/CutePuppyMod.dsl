@@ -2,7 +2,6 @@
      
 # CutePuppyMod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CutePuppyMod
 @filename CutePuppyMod-1.7.10-0.0.4.jar

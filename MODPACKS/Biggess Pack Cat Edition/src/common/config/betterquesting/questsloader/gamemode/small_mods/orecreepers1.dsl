@@ -2,7 +2,6 @@
      
 # orecreepers1.7.10_v.1 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod orecreepers1.7.10_v.1
 @filename orecreepers1.7.10_v.1.jar

@@ -2,7 +2,6 @@
      
 # HardcoreEnderExpansion Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod HardcoreEnderExpansion
 @filename HardcoreEnderExpansion-1.12.13-GTNH.jar

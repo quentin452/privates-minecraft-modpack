@@ -2,7 +2,6 @@
      
 # ElytraBombing Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ElytraBombing
 @filename ElytraBombing-Forge-1.7.10-1.0.1.jar

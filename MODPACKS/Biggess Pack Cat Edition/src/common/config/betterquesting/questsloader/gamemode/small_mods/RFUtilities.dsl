@@ -2,7 +2,6 @@
      
 # RFUtilities Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RFUtilities
 @filename RFUtilities-MC1.7.10-0.5-hotfix4.jar

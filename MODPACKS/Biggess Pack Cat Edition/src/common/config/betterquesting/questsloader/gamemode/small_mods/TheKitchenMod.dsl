@@ -2,7 +2,6 @@
      
 # TheKitchenMod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TheKitchenMod
 @filename TheKitchenMod-1.3.23-1.7.2-10.jar

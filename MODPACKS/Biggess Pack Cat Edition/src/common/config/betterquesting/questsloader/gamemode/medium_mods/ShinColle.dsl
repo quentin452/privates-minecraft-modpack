@@ -2,7 +2,6 @@
      
 # ShinColle Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ShinColle
 @filename ShinColle-1.7.10.rv26.2.jar

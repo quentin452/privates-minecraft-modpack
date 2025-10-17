@@ -2,7 +2,6 @@
      
 # OresPlus-Mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod OresPlus-Mod
 @filename OresPlus-Mod-1.7.10.jar

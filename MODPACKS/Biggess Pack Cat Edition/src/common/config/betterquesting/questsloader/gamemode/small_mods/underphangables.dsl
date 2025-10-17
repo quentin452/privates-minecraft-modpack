@@ -2,7 +2,6 @@
      
 # underphangables Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod underphangables
 @filename underphangables-1.7.10-1.0.1.jar

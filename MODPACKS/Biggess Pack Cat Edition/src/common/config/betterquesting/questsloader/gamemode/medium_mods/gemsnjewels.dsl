@@ -2,7 +2,6 @@
      
 # gemsnjewels Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod gemsnjewels
 @filename gemsnjewels-1.0.9-mc1.7.10.jar

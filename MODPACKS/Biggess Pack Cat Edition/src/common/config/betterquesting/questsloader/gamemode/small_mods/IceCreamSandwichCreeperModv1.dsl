@@ -2,7 +2,6 @@
      
 # IceCreamSandwichCreeperModv1.1.0a 1.7.10 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod IceCreamSandwichCreeperModv1.1.0a 1.7.10
 @filename IceCreamSandwichCreeperModv1.1.0a 1.7.10.jar

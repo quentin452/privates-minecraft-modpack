@@ -2,7 +2,6 @@
      
 # DaVincing Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod DaVincing
 @filename DaVincing-1710.1.8.jar

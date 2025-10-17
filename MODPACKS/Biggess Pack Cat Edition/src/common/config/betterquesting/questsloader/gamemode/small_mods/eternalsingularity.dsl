@@ -2,7 +2,6 @@
      
 # eternalsingularity Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod eternalsingularity
 @filename eternalsingularity-1.2.0.jar

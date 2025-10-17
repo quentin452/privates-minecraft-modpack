@@ -2,7 +2,6 @@
      
 # wizardry Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod wizardry
 @filename wizardry-1.7.10-1.1.6fork7.jar

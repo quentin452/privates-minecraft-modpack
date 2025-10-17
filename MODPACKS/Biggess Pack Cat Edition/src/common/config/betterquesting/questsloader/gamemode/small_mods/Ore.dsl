@@ -2,7 +2,6 @@
      
 # Ore+Spiders V1.2.1 For MC 1.7.10 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Ore+Spiders V1.2.1 For MC 1.7.10
 @filename Ore+Spiders V1.2.1 For MC 1.7.10.jar

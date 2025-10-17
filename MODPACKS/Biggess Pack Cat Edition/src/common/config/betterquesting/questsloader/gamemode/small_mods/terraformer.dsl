@@ -2,7 +2,6 @@
      
 # terraformer Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod terraformer
 @filename terraformer-0.1.1.jar

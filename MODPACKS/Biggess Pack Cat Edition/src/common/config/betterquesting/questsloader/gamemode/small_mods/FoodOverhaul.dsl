@@ -2,7 +2,6 @@
      
 # FoodOverhaul Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod FoodOverhaul
 @filename FoodOverhaul-0.6.2.jar

@@ -2,7 +2,6 @@
      
 # StevesCarts Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod StevesCarts
 @filename StevesCarts-2.3.12.jar

@@ -2,7 +2,6 @@
      
 # MahMeat Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MahMeat
 @filename MahMeat-1.7.10-1.0.2-backport.jar

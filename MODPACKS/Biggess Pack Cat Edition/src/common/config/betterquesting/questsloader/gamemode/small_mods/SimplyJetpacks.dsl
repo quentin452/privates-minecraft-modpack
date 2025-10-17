@@ -2,7 +2,6 @@
      
 # SimplyJetpacks Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SimplyJetpacks
 @filename SimplyJetpacks-MC1.7.10-1.5.3.jar

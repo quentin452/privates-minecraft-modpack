@@ -2,7 +2,6 @@
      
 # eotg Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod eotg
 @filename eotg-V1.5.6.jar

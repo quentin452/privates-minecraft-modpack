@@ -2,7 +2,6 @@
      
 # SBM-GrapplingHook Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SBM-GrapplingHook
 @filename SBM-GrapplingHook-1.7.10-0.1.0b20170514023901.jar

@@ -2,7 +2,6 @@
      
 # HearthstoneMod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod HearthstoneMod
 @filename HearthstoneMod-1.7.10-0.3.4.jar

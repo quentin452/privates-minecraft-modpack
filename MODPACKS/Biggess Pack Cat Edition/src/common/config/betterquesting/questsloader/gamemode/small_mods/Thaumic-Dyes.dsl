@@ -2,7 +2,6 @@
      
 # Thaumic-Dyes Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Thaumic-Dyes
 @filename Thaumic-Dyes-[1.7.10] 1.10.5-0.jar

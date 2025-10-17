@@ -2,7 +2,6 @@
      
 # worldexplorer Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod worldexplorer
 @filename worldexplorer-1.2.15 Dev.jar

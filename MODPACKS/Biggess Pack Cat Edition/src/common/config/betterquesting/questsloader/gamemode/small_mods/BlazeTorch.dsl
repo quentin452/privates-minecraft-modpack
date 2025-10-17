@@ -2,7 +2,6 @@
      
 # BlazeTorch Utilities 0.4 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BlazeTorch Utilities 0.4
 @filename BlazeTorch Utilities 0.4.jar

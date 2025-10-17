@@ -2,7 +2,6 @@
      
 # RemoteIO Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod RemoteIO
 @filename RemoteIO-2.7.6.jar

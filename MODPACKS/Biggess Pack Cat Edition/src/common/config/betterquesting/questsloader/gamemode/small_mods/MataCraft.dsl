@@ -2,7 +2,6 @@
      
 # MataCraft Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MataCraft
 @filename 1.7.10_10.13.2.1230MataCraft_1.7.10_1.3.jar

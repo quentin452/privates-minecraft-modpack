@@ -2,7 +2,6 @@
      
 # ChickenChunks Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ChickenChunks
 @filename ChickenChunks-1.3.4.27.jar

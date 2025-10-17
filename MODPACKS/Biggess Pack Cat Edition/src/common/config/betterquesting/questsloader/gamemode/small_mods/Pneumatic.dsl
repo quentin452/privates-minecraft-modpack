@@ -2,7 +2,6 @@
      
 # Pneumatic Cooking Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Pneumatic Cooking
 @filename Pneumatic Cooking-1.7.10-1.1.jar

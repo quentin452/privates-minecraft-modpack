@@ -2,7 +2,6 @@
      
 # GrimoireOfGaia3 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod GrimoireOfGaia3
 @filename GrimoireOfGaia3-1.7.10-1.2.7.jar

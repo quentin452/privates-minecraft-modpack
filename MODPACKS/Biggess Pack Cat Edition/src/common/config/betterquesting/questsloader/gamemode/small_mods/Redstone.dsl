@@ -2,7 +2,6 @@
      
 # Redstone Tools Mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Redstone Tools Mod
 @filename [1.7.10] Redstone Tools Mod.zip

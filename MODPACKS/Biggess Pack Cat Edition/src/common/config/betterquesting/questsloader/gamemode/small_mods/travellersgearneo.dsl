@@ -2,7 +2,6 @@
      
 # travellersgearneo Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod travellersgearneo
 @filename travellersgearneo-1.2.4.jar

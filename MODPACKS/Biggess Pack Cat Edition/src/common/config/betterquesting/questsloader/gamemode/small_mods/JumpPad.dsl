@@ -2,7 +2,6 @@
      
 # JumpPad++ 2.3.8 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod JumpPad++ 2.3.8
 @filename JumpPad++ 2.3.8.jar

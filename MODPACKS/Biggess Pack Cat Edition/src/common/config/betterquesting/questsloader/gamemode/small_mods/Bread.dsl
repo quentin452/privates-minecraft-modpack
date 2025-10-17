@@ -2,7 +2,6 @@
      
 # Bread Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Bread
 @filename Bread_1.7.2_1.0.jar

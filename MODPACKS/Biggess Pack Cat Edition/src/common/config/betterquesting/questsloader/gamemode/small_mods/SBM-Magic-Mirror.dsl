@@ -2,7 +2,6 @@
      
 # SBM-Magic-Mirror Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod SBM-Magic-Mirror
 @filename SBM-Magic-Mirror-1.7.10-0.0.1b13-universal.jar

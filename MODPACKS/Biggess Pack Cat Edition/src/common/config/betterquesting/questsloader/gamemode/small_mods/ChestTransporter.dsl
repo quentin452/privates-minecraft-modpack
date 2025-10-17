@@ -2,7 +2,6 @@
      
 # ChestTransporter Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ChestTransporter
 @filename ChestTransporter-1.7.10-2.0.6.jar

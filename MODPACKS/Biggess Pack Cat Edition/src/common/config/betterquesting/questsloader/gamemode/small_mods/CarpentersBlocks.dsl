@@ -2,7 +2,6 @@
      
 # CarpentersBlocks Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CarpentersBlocks
 @filename CarpentersBlocks-3.7.0-GTNH.jar

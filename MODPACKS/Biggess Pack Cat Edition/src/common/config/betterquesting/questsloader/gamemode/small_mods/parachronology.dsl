@@ -2,7 +2,6 @@
      
 # parachronology Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod parachronology
 @filename parachronology-0.1.6-universal.jar

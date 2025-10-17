@@ -2,7 +2,6 @@
 
 # aether Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod aether
 @filename aether-1.7.10-1.1.2.3.jar

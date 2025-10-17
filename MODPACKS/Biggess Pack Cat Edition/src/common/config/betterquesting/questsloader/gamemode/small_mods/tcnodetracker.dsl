@@ -2,7 +2,6 @@
      
 # tcnodetracker Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod tcnodetracker
 @filename tcnodetracker-1.4.0.jar

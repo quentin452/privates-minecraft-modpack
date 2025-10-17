@@ -2,7 +2,6 @@
      
 # StuffForMC Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod StuffForMC
 @filename StuffForMC1.0.1_for_Minecarft_1.7.10.jar

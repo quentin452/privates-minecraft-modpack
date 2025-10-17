@@ -2,7 +2,6 @@
      
 # CraftHeraldry Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CraftHeraldry
 @filename CraftHeraldry 1.1.3.jar

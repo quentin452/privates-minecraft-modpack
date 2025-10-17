@@ -2,7 +2,6 @@
      
 # CraftRock 0.2 MC17 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CraftRock 0.2 MC17
 @filename CraftRock 0.2 MC17.jar

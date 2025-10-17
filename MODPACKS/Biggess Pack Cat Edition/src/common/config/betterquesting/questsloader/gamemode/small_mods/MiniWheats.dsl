@@ -2,7 +2,6 @@
      
 # MiniWheats 0.9.4.1(MC 1.7.10) Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MiniWheats 0.9.4.1(MC 1.7.10)
 @filename MiniWheats 0.9.4.1(MC 1.7.10).jar

@@ -2,7 +2,6 @@
      
 # ArchitectureCraft Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ArchitectureCraft
 @filename ArchitectureCraft-1.11.5.jar

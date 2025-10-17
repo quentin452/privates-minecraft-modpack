@@ -2,7 +2,6 @@
      
 # BrickslandPrideFlags-for-mc Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BrickslandPrideFlags-for-mc
 @filename BrickslandPrideFlags-for-mc-1.7.10-001.jar

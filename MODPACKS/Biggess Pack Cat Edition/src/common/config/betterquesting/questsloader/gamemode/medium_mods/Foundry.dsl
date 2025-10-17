@@ -2,7 +2,6 @@
      
 # Foundry Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Foundry
 @filename Foundry-1.7.10-1.2.2.0.jar

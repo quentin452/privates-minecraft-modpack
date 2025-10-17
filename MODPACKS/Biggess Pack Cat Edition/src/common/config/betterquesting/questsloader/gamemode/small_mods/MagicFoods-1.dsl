@@ -2,7 +2,6 @@
      
 # MagicFoods-1.12.2-1.7.10 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MagicFoods-1.12.2-1.7.10
 @filename MagicFoods-1.12.2-1.7.10-1.15.2-1.10.2-realese.jar

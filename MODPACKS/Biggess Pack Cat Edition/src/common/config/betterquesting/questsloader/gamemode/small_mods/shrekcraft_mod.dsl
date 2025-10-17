@@ -2,7 +2,6 @@
      
 # shrekcraft_mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod shrekcraft_mod
 @filename shrekcraft_mod_1.7.10.zip

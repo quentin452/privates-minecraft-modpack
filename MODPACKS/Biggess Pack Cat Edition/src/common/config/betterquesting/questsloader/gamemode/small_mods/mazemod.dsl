@@ -2,7 +2,6 @@
      
 # mazemod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod mazemod
 @filename mazemod-1.2.5.jar

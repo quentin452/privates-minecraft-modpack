@@ -2,7 +2,6 @@
      
 # TougherTools-SPELLS Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TougherTools-SPELLS
 @filename TougherTools-SPELLS.jar

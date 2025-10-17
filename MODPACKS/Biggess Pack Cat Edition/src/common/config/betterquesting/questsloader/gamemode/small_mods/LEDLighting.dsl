@@ -2,7 +2,6 @@
      
 # LEDLighting Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod LEDLighting
 @filename LEDLighting-1.0.0.jar

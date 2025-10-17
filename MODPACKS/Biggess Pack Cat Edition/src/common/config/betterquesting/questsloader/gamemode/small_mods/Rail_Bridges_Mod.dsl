@@ -2,7 +2,6 @@
      
 # Rail_Bridges_Mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Rail_Bridges_Mod
 @filename Rail_Bridges_Mod_1.7.10.jar

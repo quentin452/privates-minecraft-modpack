@@ -2,7 +2,6 @@
      
 # CraftableItems1.0.0 NEWMOD Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CraftableItems1.0.0 NEWMOD
 @filename CraftableItems1.0.0 NEWMOD.jar

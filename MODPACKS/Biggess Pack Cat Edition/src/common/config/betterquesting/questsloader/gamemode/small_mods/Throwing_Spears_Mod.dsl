@@ -2,7 +2,6 @@
      
 # Throwing_Spears_Mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Throwing_Spears_Mod
 @filename Throwing_Spears_Mod_1.7.10.jar

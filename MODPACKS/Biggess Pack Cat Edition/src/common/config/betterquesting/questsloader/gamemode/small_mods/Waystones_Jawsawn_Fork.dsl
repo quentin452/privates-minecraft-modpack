@@ -2,7 +2,6 @@
      
 # Waystones_Jawsawn_Fork Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Waystones_Jawsawn_Fork
 @filename Waystones_Jawsawn_Fork-mc1.7.10-1.0.0.jar

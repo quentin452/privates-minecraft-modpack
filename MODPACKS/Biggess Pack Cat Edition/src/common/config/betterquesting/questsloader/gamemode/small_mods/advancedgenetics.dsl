@@ -2,7 +2,6 @@
      
 # advancedgenetics Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod advancedgenetics
 @filename advancedgenetics-1.7.2-1.5.jar

@@ -2,7 +2,6 @@
      
 # Thaumaturgical Knowledge-0.1.5.2 - 1.7.10 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Thaumaturgical Knowledge-0.1.5.2 - 1.7.10
 @filename Thaumaturgical Knowledge-0.1.5.2 - 1.7.10.jar

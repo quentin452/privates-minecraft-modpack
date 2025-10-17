@@ -2,7 +2,6 @@
      
 # CastleProtectvBeta1.0 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod CastleProtectvBeta1.0
 @filename CastleProtectvBeta1.0(1.7.10).jar

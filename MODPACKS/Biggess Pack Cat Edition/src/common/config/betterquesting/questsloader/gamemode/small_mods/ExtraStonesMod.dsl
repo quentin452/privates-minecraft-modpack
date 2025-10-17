@@ -2,7 +2,6 @@
      
 # ExtraStonesMod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ExtraStonesMod
 @filename ExtraStonesMod_1.7.10_1.0.jar.zip

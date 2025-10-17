@@ -2,7 +2,6 @@
      
 # compacter Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod compacter
 @filename compacter-1.2.1.15-mc1.7.10.jar

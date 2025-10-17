@@ -2,7 +2,6 @@
      
 # BetterBuildersWands Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod BetterBuildersWands
 @filename BetterBuildersWands-0.13.3-GTNH.jar

@@ -2,7 +2,6 @@
      
 # sacrfice_heph Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod sacrfice_heph
 @filename sacrfice_heph-1.0.1.jar

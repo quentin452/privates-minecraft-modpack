@@ -2,7 +2,6 @@
      
 # ashenwheat Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ashenwheat
 @filename ashenwheat-1.7.10-1.2.4.1.jar

@@ -2,7 +2,6 @@
      
 # FOrgeCraft Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod FOrgeCraft
 @filename FOrgeCraft-2.4.2.jar

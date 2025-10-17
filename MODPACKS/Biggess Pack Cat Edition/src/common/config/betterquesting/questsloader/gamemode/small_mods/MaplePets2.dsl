@@ -2,7 +2,6 @@
      
 # MaplePets2.5a Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MaplePets2.5a
 @filename MaplePets2.5a[1.7.10].jar

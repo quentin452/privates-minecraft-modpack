@@ -2,7 +2,6 @@
      
 # MaterialsPlus Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MaterialsPlus
 @filename MaterialsPlus-1.7.10-1.2.0.jar

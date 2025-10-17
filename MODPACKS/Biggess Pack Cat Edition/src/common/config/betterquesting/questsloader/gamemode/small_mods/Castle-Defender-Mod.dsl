@@ -2,7 +2,6 @@
      
 # Castle-Defender-Mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Castle-Defender-Mod
 @filename Castle-Defender-Mod-1.7.10.jar

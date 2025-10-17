@@ -2,7 +2,6 @@
      
 # TSteelworks Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod TSteelworks
 @filename TSteelworks-1.7.10-1.1.2-20.jar

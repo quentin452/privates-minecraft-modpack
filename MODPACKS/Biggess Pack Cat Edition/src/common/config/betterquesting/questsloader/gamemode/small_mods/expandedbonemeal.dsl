@@ -2,7 +2,6 @@
      
 # expandedbonemeal Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod expandedbonemeal
 @filename expandedbonemeal-1.7.10-1.0.0.jar

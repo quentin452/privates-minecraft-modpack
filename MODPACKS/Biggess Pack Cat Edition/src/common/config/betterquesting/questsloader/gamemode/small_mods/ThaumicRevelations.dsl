@@ -2,7 +2,6 @@
      
 # ThaumicRevelations Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ThaumicRevelations
 @filename ThaumicRevelations-1.2.2.1.jar

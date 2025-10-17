@@ -2,7 +2,6 @@
      
 # fossilsarcheology Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod fossilsarcheology
 @filename fossilsarcheology-7.3.2.jar

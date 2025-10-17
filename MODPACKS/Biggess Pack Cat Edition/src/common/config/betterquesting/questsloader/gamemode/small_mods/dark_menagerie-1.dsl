@@ -2,7 +2,6 @@
      
 # dark_menagerie-1.7.10-beta Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod dark_menagerie-1.7.10-beta
 @filename dark_menagerie-1.7.10-beta-3.1a.jar

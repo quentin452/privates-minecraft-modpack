@@ -2,7 +2,6 @@
      
 # wall_clock_mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod wall_clock_mod
 @filename wall_clock_mod_1.7.10.jar

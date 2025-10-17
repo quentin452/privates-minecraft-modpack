@@ -2,7 +2,6 @@
      
 # AdventurersAmulets Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod AdventurersAmulets
 @filename AdventurersAmulets-1.7.10-1.6.0-pre1.jar

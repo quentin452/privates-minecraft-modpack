@@ -2,7 +2,6 @@
      
 # Ewy's Workshop Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Ewy's Workshop
 @filename Ewy's Workshop-1.1.6.jar

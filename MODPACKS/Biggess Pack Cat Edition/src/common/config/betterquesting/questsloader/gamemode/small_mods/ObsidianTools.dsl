@@ -2,7 +2,6 @@
      
 # ObsidianTools Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ObsidianTools
 @filename ObsidianTools-1.7.10-2.3.3.jar

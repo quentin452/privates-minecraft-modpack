@@ -2,7 +2,6 @@
      
 # AdHooks Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod AdHooks
 @filename AdHooks-1.7.10-2.1.1.0-build.0061.jar

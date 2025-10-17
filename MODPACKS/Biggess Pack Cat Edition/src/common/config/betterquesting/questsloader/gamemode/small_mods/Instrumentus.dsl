@@ -2,7 +2,6 @@
      
 # Instrumentus Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Instrumentus
 @filename Instrumentus-1.4.1.jar

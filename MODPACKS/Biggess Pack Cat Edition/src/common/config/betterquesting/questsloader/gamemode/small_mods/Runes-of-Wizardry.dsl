@@ -2,7 +2,6 @@
      
 # Runes-of-Wizardry Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Runes-of-Wizardry
 @filename Runes-of-Wizardry-1.7.10-0.3.1.jar

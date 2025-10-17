@@ -2,7 +2,6 @@
      
 # magicalcrops-4.0.0_PUBLIC_BETA_5 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod magicalcrops-4.0.0_PUBLIC_BETA_5
 @filename magicalcrops-4.0.0_PUBLIC_BETA_5.jar

@@ -2,7 +2,6 @@
      
 # gendustry Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod gendustry
 @filename gendustry-1.9.4-GTNH.jar

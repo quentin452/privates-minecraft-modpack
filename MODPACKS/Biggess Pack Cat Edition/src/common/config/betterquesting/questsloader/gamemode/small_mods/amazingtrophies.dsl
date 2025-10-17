@@ -2,7 +2,6 @@
      
 # amazingtrophies Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod amazingtrophies
 @filename amazingtrophies-1.3.9-pre.jar

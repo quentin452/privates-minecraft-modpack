@@ -2,7 +2,6 @@
      
 # alchemycraft2.v1.2.0.2 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod alchemycraft2.v1.2.0.2
 @filename alchemycraft2.v1.2.0.2.jar

@@ -2,7 +2,6 @@
      
 # signposts Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod signposts
 @filename signposts-1.3.5-GTNH.jar

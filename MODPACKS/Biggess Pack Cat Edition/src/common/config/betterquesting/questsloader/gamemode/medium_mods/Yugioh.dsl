@@ -2,7 +2,6 @@
      
 # Yugioh Plus Beta Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Yugioh Plus Beta
 @filename Yugioh Plus Beta 0.2 Forge 1.7.10.jar

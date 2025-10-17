@@ -2,7 +2,6 @@
      
 # MoCreatures-Legacy-Final Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod MoCreatures-Legacy-Final
 @filename MoCreatures-Legacy-Final-1.2.jar

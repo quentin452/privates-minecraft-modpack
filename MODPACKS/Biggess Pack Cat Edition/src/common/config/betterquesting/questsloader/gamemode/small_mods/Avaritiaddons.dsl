@@ -2,7 +2,6 @@
      
 # Avaritiaddons Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Avaritiaddons
 @filename Avaritiaddons-1.9.1-GTNH.jar

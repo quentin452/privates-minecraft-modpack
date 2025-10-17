@@ -2,7 +2,6 @@
      
 # ModDisruptor Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod ModDisruptor
 @filename ModDisruptor-1.7.10_0.2.jar

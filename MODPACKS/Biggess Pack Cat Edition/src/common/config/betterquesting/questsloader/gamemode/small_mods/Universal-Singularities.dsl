@@ -2,7 +2,6 @@
      
 # Universal-Singularities Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Universal-Singularities
 @filename Universal-Singularities-8.10.0.jar

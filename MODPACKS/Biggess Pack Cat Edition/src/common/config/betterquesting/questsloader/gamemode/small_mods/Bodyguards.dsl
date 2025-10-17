@@ -2,7 +2,6 @@
      
 # Bodyguards 1.0.2 Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Bodyguards 1.0.2
 @filename Bodyguards 1.0.2.jar

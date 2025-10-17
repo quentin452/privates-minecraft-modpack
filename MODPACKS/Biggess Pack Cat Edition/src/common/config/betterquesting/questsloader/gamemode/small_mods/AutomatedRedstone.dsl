@@ -2,7 +2,6 @@
      
 # AutomatedRedstone Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod AutomatedRedstone
 @filename AutomatedRedstone-1.7.10-2.2.1.jar

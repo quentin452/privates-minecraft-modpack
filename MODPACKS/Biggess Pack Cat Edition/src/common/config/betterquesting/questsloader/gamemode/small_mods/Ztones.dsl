@@ -2,7 +2,6 @@
      
 # Ztones Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Ztones
 @filename Ztones-2.3.2-GTNH.jar

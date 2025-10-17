@@ -2,7 +2,6 @@
      
 # DiseaseCraft Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod DiseaseCraft
 @filename DiseaseCraft-1.7.10-2.3.1-QUICKFIX.jar

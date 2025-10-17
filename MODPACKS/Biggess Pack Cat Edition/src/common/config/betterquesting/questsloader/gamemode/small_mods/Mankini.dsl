@@ -2,7 +2,6 @@
      
 # Mankini Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Mankini
 @filename Mankini_1.7.10_1.2.1.jar

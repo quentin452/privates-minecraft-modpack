@@ -2,7 +2,6 @@
      
 # Classlessrook32's-Coins-Mod Quest Chain
 # ⚠️ Quests for this mod are NOT yet completed in dsl! ⚠️
-# ⚠️ Quests for this mod are NOT yet completed in game! ⚠️
 
 @mod Classlessrook32's-Coins-Mod
 @filename Classlessrook32's-Coins-Mod-v1.2.jar
