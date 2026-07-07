@@ -15,3 +15,11 @@ Linux :
 2 : download jars by executing script 2downloadjars.sh
 
 3 : start the server by executing script 3startserver.sh
+UPDATING an existing server to a new ServerPack version:
+
+  Windows : update-server.bat <new ServerPack zip>
+  Linux   : ./update-server.sh <new ServerPack zip>
+
+  Keeps your world, server.properties, eula, whitelist/ops and extra mods;
+  replaces the pack-managed config/scripts/launch files (a stale config after
+  an update is the #1 crash cause) and backs up everything it replaces.
