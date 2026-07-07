@@ -67,8 +67,9 @@ def get_version():
     if not v:
         sys.exit("❌ Invalid version: cannot be empty.")
     if not re.fullmatch(r"[0-9]+(\.[0-9]+)*", v):
-        # Not fatal — old packs may differ — but the convention is dotted numbers.
-        print(f"⚠️  Version {v!r} is not a plain dotted number (expected e.g. 1.1.8).")
+        # FATAL: a non-version argv (e.g. "--help") once bumped the manifests to "--help"
+        # and built garbage zips. A wrong version poisons manifest.json + modpack.json.
+        sys.exit(f"❌ Version {v!r} is not a plain dotted number (expected e.g. 1.1.8) — aborting.")
     return v
 
 
