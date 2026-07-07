@@ -1,47 +1,49 @@
 #!/usr/bin/env python3
 """
-changelog_publish.py — turn the annotated rolling changelog into a publish-ready block.
+changelog_publish.py — turn a DERIVED pack changelog into the publish-ready block.
 
-The team keeps a rich, internal changelog at Mod-Sandbox/memory/changelog-pending.md:
-reasons, CurseForge ids, [BUG-x]/[QUEUE-x] refs and internal-only sections. Players never
-see that. This tool strips it down to the exact format used in the published pack changelog
-(CHANGELOGS/SUPPORTED/1.7.10 Bigges Pack Cat Edition.md).
+Since 2026-07-07 there is no hand-maintained pending file. The pack changelog is derived
+from the pack repo's git history by Cat-Pack-Utilities/changelog_from_bundles.py:
+bundle fileID diffs (= what actually ships to players) + src/common/config diffs,
+between the last published ref and HEAD. This tool converts that derive output into the
+exact format of the published changelog (CHANGELOGS/SUPPORTED/1.7.10 Bigges Pack Cat
+Edition.md) and can prepend it.
 
-Convention in the pending file (pack section only):
-  ## Pack "..." — next version **V1.1.8**
-  **mods updated**
-  * <published text> — <internal: reason, CF ids, [BUG-x]>
-  **mods intentionally NOT updated (internal)**   <- dropped (name not a published section)
-  ...
-Rules applied:
-  - version taken from the "**VX.Y.Z**" in the pack header -> plain "VX.Y.Z"
-  - only published section names are kept ("fixes"->"fixe"); everything else is internal, dropped
-  - each bullet: the internal tail after the em-dash " — " is cut, and any [..] tags removed
-  - blank sections (all bullets became internal-only) are omitted
+Flow:
+  1. python3 ~/Documents/GitHub/Cat-Pack-Utilities/changelog_from_bundles.py <last-published>..HEAD \
+         --markdown > /tmp/derive.md
+  2. curate /tmp/derive.md by hand (player-friendly wording; anything after " — " on a
+     bullet is treated as internal and stripped, as are [BUG-x]-style tags)
+  3. changelog_publish.py --from-derive /tmp/derive.md --version V1.1.9            # preview
+     changelog_publish.py --from-derive /tmp/derive.md --version V1.1.9 --prepend  # publish
 
-Usage:
-  changelog_publish.py                 # print the publish-ready block to stdout (review first)
-  changelog_publish.py --prepend       # also insert it into the published pack changelog
-  changelog_publish.py --pending PATH --changelog PATH
+Or one-shot (runs the derive itself, no curation step — fine for a preview):
+  changelog_publish.py --derive <last-published-ref> --version V1.1.9
+
+Section mapping: derive names are published names, except "config changed" -> "config updated".
+Unknown/"(internal)" sections are dropped. Empty sections are omitted.
 """
 
 import argparse
 import re
+import subprocess
 import sys
 from pathlib import Path
 
-DEFAULT_PENDING = Path.home() / "Documents/GitHub/Mod-Sandbox/memory/changelog-pending.md"
 DEFAULT_CHANGELOG = (
     Path(__file__).resolve().parent
     / "CHANGELOGS/SUPPORTED/1.7.10 Bigges Pack Cat Edition.md"
 )
+DERIVE_SCRIPT = Path.home() / "Documents/GitHub/Cat-Pack-Utilities/changelog_from_bundles.py"
 
-# Published section name -> canonical published spelling. Anything not here is internal.
+# Section name (lowercased, qualifier stripped) -> canonical published spelling.
+# Anything not here is internal and dropped.
 SECTION_MAP = {
     "mods added": "mods added",
     "mods updated": "mods updated",
     "mods deleted": "mods deleted",
     "mods downgraded": "mods downgraded",
+    "config changed": "config updated",   # derive name -> published name
     "config updated": "config updated",
     "fixe": "fixe",
     "fixes": "fixe",
@@ -54,21 +56,6 @@ SECTION_MAP = {
 EMDASH_SPLIT = re.compile(r"\s+—\s+")   # " — " separates published text from internal tail
 TAG = re.compile(r"\s*\[[^\]]*\]")            # [BUG-006], [QUEUE item 1-0], ...
 SECTION_HDR = re.compile(r"^\*\*(.+?)\*\*")   # "**name**" at line start (trailing qualifier ok)
-VERSION = re.compile(r"\*\*(V\d[\w.]*)\*\*")
-
-
-def extract_pack_section(text):
-    """Return the lines of the '## Pack ...' block (until the next '## ' or '---')."""
-    lines = text.splitlines()
-    start = next((i for i, l in enumerate(lines) if l.startswith("## Pack")), None)
-    if start is None:
-        sys.exit("No '## Pack' section found in the pending changelog.")
-    out = []
-    for l in lines[start + 1 :]:
-        if l.startswith("## ") or l.strip() == "---":
-            break
-        out.append(l)
-    return lines[start], out
 
 
 def clean_bullet(text):
@@ -78,15 +65,8 @@ def clean_bullet(text):
     return re.sub(r"\s+", " ", text).strip()
 
 
-def build_block(pending_path):
-    text = pending_path.read_text(encoding="utf-8")
-    header, body = extract_pack_section(text)
-
-    m = VERSION.search(header)
-    if not m:
-        sys.exit(f"No **VX.Y.Z** version in pack header: {header!r}")
-    version = m.group(1)
-
+def build_block(version, body_lines):
+    """Convert derive-markdown lines into the published block for `version`."""
     sections = []          # list of (published_name, [bullets])
     current = None         # published name or None (inside an internal section)
     pending_bullet = None
@@ -99,8 +79,10 @@ def build_block(pending_path):
                 sections[-1][1].append(cleaned)
         pending_bullet = None
 
-    for raw in body:
+    for raw in body_lines:
         line = raw.rstrip()
+        if line.startswith("# "):
+            continue  # derive title line
         hdr = SECTION_HDR.match(line.strip())
         if hdr:
             flush_bullet()
@@ -123,16 +105,30 @@ def build_block(pending_path):
             pending_bullet += " " + line.strip()   # continuation of a multi-line bullet
     flush_bullet()
 
-    # Emit
     parts = [version, ""]
+    emitted = False
     for name, bullets in sections:
         if not bullets:
             continue
+        emitted = True
         parts.append(f"**{name}**")
         parts.append("")
         parts.extend(f"* {b}" for b in bullets)
         parts.append("")
-    return version, "\n".join(parts).rstrip() + "\n"
+    if not emitted:
+        sys.exit("Derive output contained no publishable section/bullet — nothing to publish.")
+    return "\n".join(parts).rstrip() + "\n"
+
+
+def run_derive(ref_range):
+    """Run changelog_from_bundles.py --markdown for the given ref (or ref..ref) range."""
+    if not DERIVE_SCRIPT.exists():
+        sys.exit(f"Derive script not found: {DERIVE_SCRIPT}")
+    cmd = [sys.executable, str(DERIVE_SCRIPT), ref_range, "--markdown"]
+    proc = subprocess.run(cmd, capture_output=True, text=True)
+    if proc.returncode != 0:
+        sys.exit(f"Derive failed:\n{proc.stderr}")
+    return proc.stdout.splitlines()
 
 
 def prepend_to_changelog(changelog_path, block):
@@ -147,16 +143,32 @@ def prepend_to_changelog(changelog_path, block):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Publish the rolling changelog's pack section.")
-    ap.add_argument("--pending", type=Path, default=DEFAULT_PENDING)
+    ap = argparse.ArgumentParser(description="Publish a derived pack changelog block.")
+    src = ap.add_mutually_exclusive_group(required=True)
+    src.add_argument("--from-derive", metavar="PATH",
+                     help="derive-markdown file to publish ('-' = stdin); curate it first")
+    src.add_argument("--derive", metavar="REFRANGE",
+                     help="run changelog_from_bundles.py <REFRANGE> --markdown directly (no curation)")
+    ap.add_argument("--version", required=True, help="published version header, e.g. V1.1.9")
     ap.add_argument("--changelog", type=Path, default=DEFAULT_CHANGELOG)
     ap.add_argument("--prepend", action="store_true", help="insert the block into the pack changelog")
     args = ap.parse_args()
 
-    version, block = build_block(args.pending)
+    if not re.match(r"^V\d", args.version):
+        sys.exit(f"--version must look like V1.2.3 (got {args.version!r})")
+
+    if args.from_derive:
+        if args.from_derive == "-":
+            body = sys.stdin.read().splitlines()
+        else:
+            body = Path(args.from_derive).read_text(encoding="utf-8").splitlines()
+    else:
+        body = run_derive(args.derive)
+
+    block = build_block(args.version, body)
     if args.prepend:
         prepend_to_changelog(args.changelog, block)
-        print(f"Prepended {version} to {args.changelog}", file=sys.stderr)
+        print(f"Prepended {args.version} to {args.changelog}", file=sys.stderr)
     else:
         sys.stdout.write(block)
 
