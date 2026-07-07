@@ -296,7 +296,7 @@
 			"url": "https://github.com/GTNewHorizons/bdlib/releases/download/1.11.0-GTNH/bdlib-1.11.0-GTNH.jar"
 		},
 		{
-			"url": "https://github.com/quentin452/LootBeamsBackport/releases/download/1.0.3/BeamingDrops-1.0.3-clientside.jar",
+			"url": "https://github.com/quentin452/LootBeamsBackport/releases/download/1.0.4/BeamingDrops-1.0.4-clientside.jar",
 			"metadata": {
 				"side": "CLIENT"
 			}
