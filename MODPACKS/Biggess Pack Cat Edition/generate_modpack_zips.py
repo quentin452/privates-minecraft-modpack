@@ -1,10 +1,33 @@
-from asyncio import subprocess
+#!/usr/bin/env python3
+"""Build the CurseForge client zip + server pack zip for Biggess Pack Cat Edition.
+
+Layout (must match what players already have installed):
+  CLIENT  BiggessPackCatEdition<version>.zip
+    manifest.json, modlist.html, AdvancedBackups.properties, betterfps.txt,
+    optionsGraphics.cfg            (root)
+    overrides/{config,scripts,resourcepacks}
+  SERVER  BiggessPackCatEditionServerPack<version>.zip
+    <server launch files + lwjgl3ify forgePatches + mods/ mod-director bootstrapper>  (root)
+    config/, scripts/             (from src/common)
+
+The ~900 mods are NOT bundled: mod-director (config/mod-director/*.bundle.json) fetches
+them at first launch. Only FileDirector is a CurseForge manifest file. So bumping the
+version + re-zipping the current src/ ships the already-synced bundles.
+
+Usage:
+  python3 generate_modpack_zips.py 1.1.8      # non-interactive (scriptable)
+  python3 generate_modpack_zips.py            # prompts for the version
+
+Version convention: dotted number, NO "V" prefix (pack uses "1.1.7", not "V1.1.7").
+A leading V/v is stripped defensively.
+"""
 import os
+import re
+import sys
 import json
 import shutil
-from zipfile import ZipFile
 import zipfile
-import subprocess
+from zipfile import ZipFile
 
 # === CONFIG ===
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -14,107 +37,142 @@ COMMON_DIR = os.path.join(SRC_DIR, "common")
 SERVER_DIR = os.path.join(SRC_DIR, "server")
 MODDIRECTOR_DIR = os.path.join(COMMON_DIR, "config", "mod-director")
 DIST_DIR = os.path.join(SCRIPT_DIR, "dist")
-# Clear dist folder
-if os.path.exists(DIST_DIR):
-    for filename in os.listdir(DIST_DIR):
-        file_path = os.path.join(DIST_DIR, filename)
-        try:
-            if os.path.isfile(file_path) or os.path.islink(file_path):
-                os.remove(file_path)
-            elif os.path.isdir(file_path):
-                shutil.rmtree(file_path)
-        except Exception as e:
-            print(f"⚠️ Failed to delete {file_path}: {e}")
 
-os.makedirs(DIST_DIR, exist_ok=True)
+MANIFEST_PATH = os.path.join(CLIENT_DIR, "manifest.json")
+MODPACK_PATH = os.path.join(MODDIRECTOR_DIR, "modpack.json")
 
-# === INPUT ===
-version = input("Enter the modpack version (e.g. V1.0): ").strip()
+# Loose (non-overrides) files, resolved from the dir that owns them.
+SERVER_ROOT_FILES = [
+    ("AdvancedBackups.properties", SERVER_DIR), ("betterfps.txt", SERVER_DIR),
+    ("eula.txt", SERVER_DIR), ("server.properties", SERVER_DIR),
+    ("1downloadlibs.bat", SERVER_DIR), ("2downloadjars.bat", SERVER_DIR),
+    ("3startserver.bat", SERVER_DIR), ("1downloadlibs.sh", SERVER_DIR),
+    ("2downloadjars.sh", SERVER_DIR), ("3startserver.sh", SERVER_DIR),
+    ("!readme.txt", SERVER_DIR), ("java9args.txt", SERVER_DIR),
+    ("lwjgl3ify-2.1.15-forgePatches.jar", SERVER_DIR),
+]
+CLIENT_ROOT_FILES = [
+    ("AdvancedBackups.properties", COMMON_DIR), ("betterfps.txt", COMMON_DIR),
+    ("optionsGraphics.cfg", COMMON_DIR),
+    ("manifest.json", CLIENT_DIR), ("modlist.html", CLIENT_DIR),
+]
 
-# Sanitize and validate version
-version = version.strip().replace(" ", "")
-if not version:
-    print("❌ Invalid version: cannot be emptversiony or just spaces.")
-    exit(1)
 
-# === UPDATE manifest.json ===
-manifest_path = os.path.join(CLIENT_DIR, "manifest.json")
-with open(manifest_path, "r+", encoding="utf-8") as f:
-    manifest = json.load(f)
-    manifest["version"] = version
-    f.seek(0)
-    json.dump(manifest, f, indent=2)
-    f.truncate()
+def get_version():
+    raw = sys.argv[1] if len(sys.argv) > 1 else input("Enter the modpack version (e.g. 1.1.8): ")
+    v = raw.strip().replace(" ", "")
+    if v[:1] in ("V", "v"):
+        v = v[1:]
+        print(f"ℹ️  Stripped leading 'V' — pack version convention has no prefix -> {v!r}")
+    if not v:
+        sys.exit("❌ Invalid version: cannot be empty.")
+    if not re.fullmatch(r"[0-9]+(\.[0-9]+)*", v):
+        # Not fatal — old packs may differ — but the convention is dotted numbers.
+        print(f"⚠️  Version {v!r} is not a plain dotted number (expected e.g. 1.1.8).")
+    return v
 
-# === UPDATE modpack.json ===
-modpack_path = os.path.join(MODDIRECTOR_DIR, "modpack.json")
-with open(modpack_path, "r+", encoding="utf-8") as f:
-    modpack = json.load(f)
-    modpack["localVersion"] = version
-    f.seek(0)
-    json.dump(modpack, f, indent=2)
-    f.truncate()
 
-# === BUILD SERVER ZIP ===
-server_zip_name = os.path.join(DIST_DIR, f"BiggessPackCatEditionServerPack{version}.zip")
-with ZipFile(server_zip_name, "w", compression=zipfile.ZIP_DEFLATED) as zipf:
-    # Add config/
-    for root, _, files in os.walk(os.path.join(COMMON_DIR, "config")):
+def bump_version_field(path, key, version):
+    """Rewrite the TOP-LEVEL `"<key>": "..."` value, byte-preserving everything else
+    (no json round-trip -> no reformat / line-ending flip; CLAUDE.md rule).
+
+    Disambiguated by the current value, so a nested same-named key (e.g.
+    manifest.minecraft.version = "1.7.10" vs top-level version = "1.1.7") is NOT touched.
+    """
+    with open(path, "r", encoding="utf-8", newline="") as f:
+        text = f.read()
+    current = json.loads(text).get(key)
+    if current is None:
+        sys.exit(f"❌ Top-level key {key!r} not found in {path}")
+    if current == version:
+        return  # already at target -> idempotent
+    pattern = re.compile(r'("' + re.escape(key) + r'"\s*:\s*")' + re.escape(current) + r'(")')
+    new_text, n = pattern.subn(lambda m: m.group(1) + version + m.group(2), text, count=1)
+    if n != 1:
+        sys.exit(f'❌ Expected exactly one "{key}": "{current}" in {path}, found {n}')
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.write(new_text)
+
+
+def clear_dist():
+    if os.path.exists(DIST_DIR):
+        for name in os.listdir(DIST_DIR):
+            p = os.path.join(DIST_DIR, name)
+            try:
+                os.remove(p) if os.path.isfile(p) or os.path.islink(p) else shutil.rmtree(p)
+            except OSError as e:
+                print(f"⚠️  Failed to delete {p}: {e}")
+    os.makedirs(DIST_DIR, exist_ok=True)
+
+
+def add_tree(zipf, src_root, arc_prefix):
+    """Add every file under src_root into the zip at arc_prefix/<relpath>."""
+    count = 0
+    for root, _, files in os.walk(src_root):
         for file in files:
-            full_path = os.path.join(root, file)
-            arcname = os.path.relpath(full_path, COMMON_DIR)
-            zipf.write(full_path, arcname)
+            full = os.path.join(root, file)
+            arc = os.path.join(arc_prefix, os.path.relpath(full, src_root))
+            zipf.write(full, arc.replace(os.sep, "/"))
+            count += 1
+    return count
 
-    # Add scripts/
-    for root, _, files in os.walk(os.path.join(COMMON_DIR, "scripts")):
-        for file in files:
-            full_path = os.path.join(root, file)
-            arcname = os.path.relpath(full_path, COMMON_DIR)
-            zipf.write(full_path, arcname)
 
-    # Add server files
-    for file in [
-        "AdvancedBackups.properties", "betterfps.txt", "eula.txt", "server.properties",
-        "1downloadlibs.bat", "2downloadjars.bat", "3startserver.bat",
-        "1downloadlibs.sh", "2downloadjars.sh", "3startserver.sh", "!readme.txt", "java9args.txt", "lwjgl3ify-2.1.15-forgePatches.jar"
-    ]:
-        zipf.write(os.path.join(SERVER_DIR, file), file)
+def build_server_zip(version):
+    path = os.path.join(DIST_DIR, f"BiggessPackCatEditionServerPack{version}.zip")
+    with ZipFile(path, "w", compression=zipfile.ZIP_DEFLATED) as z:
+        add_tree(z, os.path.join(COMMON_DIR, "config"), "config")
+        add_tree(z, os.path.join(COMMON_DIR, "scripts"), "scripts")
+        for name, base in SERVER_ROOT_FILES:
+            z.write(os.path.join(base, name), name)
+        add_tree(z, os.path.join(SERVER_DIR, "mods"), "mods")
+    return path
 
-    # Add mods/
-    for root, _, files in os.walk(os.path.join(SERVER_DIR, "mods")):
-        for file in files:
-            full_path = os.path.join(root, file)
-            arcname = os.path.join("mods", file)
-            zipf.write(full_path, arcname)
 
-# === BUILD CLIENT ZIP ===
-client_zip_name = os.path.join(DIST_DIR, f"BiggessPackCatEdition{version}.zip")
-with ZipFile(client_zip_name, "w", compression=zipfile.ZIP_DEFLATED) as zipf:
-    # Add overrides/config/
-    for root, _, files in os.walk(os.path.join(COMMON_DIR, "config")):
-        for file in files:
-            full_path = os.path.join(root, file)
-            arcname = os.path.join("overrides", os.path.relpath(full_path, COMMON_DIR))
-            zipf.write(full_path, arcname)
+def build_client_zip(version):
+    path = os.path.join(DIST_DIR, f"BiggessPackCatEdition{version}.zip")
+    with ZipFile(path, "w", compression=zipfile.ZIP_DEFLATED) as z:
+        add_tree(z, os.path.join(COMMON_DIR, "config"), "overrides/config")
+        add_tree(z, os.path.join(COMMON_DIR, "scripts"), "overrides/scripts")
+        add_tree(z, os.path.join(CLIENT_DIR, "resourcepacks"), "overrides/resourcepacks")
+        for name, base in CLIENT_ROOT_FILES:
+            z.write(os.path.join(base, name), name)
+    return path
 
-    # Add overrides/scripts/
-    for root, _, files in os.walk(os.path.join(COMMON_DIR, "scripts")):
-        for file in files:
-            full_path = os.path.join(root, file)
-            arcname = os.path.join("overrides", os.path.relpath(full_path, COMMON_DIR))
-            zipf.write(full_path, arcname)
 
-    # Add overrides/resourcepacks/
-    for root, _, files in os.walk(os.path.join(CLIENT_DIR, "resourcepacks")):
-        for file in files:
-            full_path = os.path.join(root, file)
-            arcname = os.path.join("overrides", "resourcepacks", file)
-            zipf.write(full_path, arcname)
+def verify(path, expect_top):
+    """Sanity: report entry count + size, assert the expected root entries are present."""
+    with ZipFile(path) as z:
+        names = z.namelist()
+    top = {n.split("/")[0] + ("/" if "/" in n else "") for n in names if n}
+    missing = expect_top - top
+    size_mb = os.path.getsize(path) / (1024 * 1024)
+    flag = "❌ MISSING " + ", ".join(sorted(missing)) if missing else "ok"
+    print(f"   {os.path.basename(path):48s} {len(names):>5d} entries  {size_mb:6.1f} MB  [{flag}]")
+    return not missing
 
-    # Add client files
-    for file in [
-        "AdvancedBackups.properties", "betterfps.txt", "optionsGraphics.cfg",
-        "manifest.json", "modlist.html"
-    ]:
-        zipf.write(os.path.join(CLIENT_DIR if "manifest" in file or "modlist" in file else COMMON_DIR, file), file)
-print(f"\n✅ Generated:\n- {server_zip_name}\n- {client_zip_name}")
+
+def main():
+    version = get_version()
+    print(f"\n▶ Building Biggess Pack Cat Edition {version} zips\n")
+    clear_dist()
+    bump_version_field(MANIFEST_PATH, "version", version)
+    bump_version_field(MODPACK_PATH, "localVersion", version)
+
+    server = build_server_zip(version)
+    client = build_client_zip(version)
+
+    print("✅ Generated (dist/):")
+    ok = True
+    # Expected root entries mirror the shipped V1.1.7 layout.
+    ok &= verify(client, {"manifest.json", "modlist.html", "AdvancedBackups.properties",
+                          "betterfps.txt", "optionsGraphics.cfg", "overrides/"})
+    ok &= verify(server, {"mods/", "config/", "scripts/", "server.properties",
+                          "3startserver.sh", "lwjgl3ify-2.1.15-forgePatches.jar"})
+    print(f"\n  manifest.json + modpack.json bumped to {version}.")
+    if not ok:
+        sys.exit("\n❌ Structural check failed — see MISSING above; do NOT upload.")
+    print("  Next: bundle_check preflight -> upload both zips to the CurseForge modpack project.")
+
+
+if __name__ == "__main__":
+    main()
