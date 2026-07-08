@@ -1,0 +1,25 @@
+{
+	"format_version": 1,
+	"id": "serpent_long",
+	"name": "Serpent Skeleton",
+	"model": "serpent_long",
+	"texture": "serpent_long",
+	"idle_animation": "animation.serpent_long.idle",
+	"walk_animation": "animation.serpent_long.walk",
+	"attack_animation": "animation.serpent_long.attack",
+	"stats": {
+		"max_health": 30,
+		"move_speed": 0.25
+	},
+	"size": {
+		"width": 0.9,
+		"height": 0.6,
+		"scale": 1
+	},
+	"behaviors": [
+		{
+			"type": "wander",
+			"speed": 1
+		}
+	]
+}

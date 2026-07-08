@@ -1,0 +1,25 @@
+{
+	"format_version": 1,
+	"id": "quadruped_medium",
+	"name": "Quadruped Skeleton",
+	"model": "quadruped_medium",
+	"texture": "quadruped_medium",
+	"idle_animation": "animation.quadruped_medium.idle",
+	"walk_animation": "animation.quadruped_medium.walk",
+	"attack_animation": "animation.quadruped_medium.attack",
+	"stats": {
+		"max_health": 20,
+		"move_speed": 0.28
+	},
+	"size": {
+		"width": 1.2,
+		"height": 1.1,
+		"scale": 1
+	},
+	"behaviors": [
+		{
+			"type": "wander",
+			"speed": 1
+		}
+	]
+}

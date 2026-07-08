@@ -1,0 +1,14 @@
+{
+	"format_version": 1,
+	"id": "spitter",
+	"name": "Spitter",
+	"model": "test_mob",
+	"texture": "test_mob",
+	"idle_animation": "animation.test_mob.idle",
+	"stats": { "max_health": 24, "move_speed": 0.28 },
+	"size": { "width": 1.0, "height": 1.3, "scale": 1.2 },
+	"behaviors": [
+		{ "type": "projectile", "moveSpeed": 1.0, "damage": 3, "range": 12, "interval": 30 },
+		{ "type": "wander", "speed": 1.0 }
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": 1,
+	"id": "spider_wide",
+	"name": "Spider Skeleton",
+	"model": "spider_wide",
+	"texture": "spider_wide",
+	"idle_animation": "animation.spider_wide.idle",
+	"walk_animation": "animation.spider_wide.walk",
+	"attack_animation": "animation.spider_wide.attack",
+	"stats": {
+		"max_health": 18,
+		"move_speed": 0.3
+	},
+	"size": {
+		"width": 1.4,
+		"height": 0.6,
+		"scale": 1
+	},
+	"behaviors": [
+		{
+			"type": "wander",
+			"speed": 1
+		}
+	]
+}

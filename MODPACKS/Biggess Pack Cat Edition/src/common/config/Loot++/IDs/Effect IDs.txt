@@ -176,10 +176,10 @@
 
 
 24
-	- Name: potion.nutrition:toughness
-	- Color: 0
+	- Name: potion.paralysis
+	- Color: 16767262
 	- Is Instant? false
-	- Is Bad? false
+	- Is Bad? true
 
 
 25
@@ -190,31 +190,31 @@
 
 
 26
-	- Name: potion.nutrition:nourished
+	- Name: potion.nutrition:toughness
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? false
 
 
 27
+	- Name: potion.nutrition:nourished
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+28
 	- Name: potion.nutrition:malnourished
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? true
 
 
-28
-	- Name: potion.wellfedPotion
-	- Color: 0
-	- Is Instant? false
-	- Is Bad? false
-
-
 29
-	- Name: potion.sunsBlessing
-	- Color: 16768834
+	- Name: potion.radiation
+	- Color: -4502242
 	- Is Instant? false
-	- Is Bad? false
+	- Is Bad? true
 
 
 30
@@ -225,34 +225,48 @@
 
 
 31
+	- Name: potion.wellfedPotion
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+32
+	- Name: potion.sunsBlessing
+	- Color: 16768834
+	- Is Instant? false
+	- Is Bad? false
+
+
+33
 	- Name: potion.visboost
 	- Color: 6697847
 	- Is Instant? false
 	- Is Bad? false
 
 
-32
+34
 	- Name: potion.visregen
 	- Color: 5701759
 	- Is Instant? false
 	- Is Bad? false
 
 
-33
+35
 	- Name: potion.vacuum
 	- Color: 4210752
 	- Is Instant? false
 	- Is Bad? false
 
 
-34
+36
 	- Name: potion.shock
 	- Color: 11513861
 	- Is Instant? false
 	- Is Bad? false
 
 
-35
+37
 	- Name: potion.synthesis
 	- Color: 3253280
 	- Is Instant? false
@@ -1225,6 +1239,20 @@
 	- Is Bad? false
 
 
+2223
+	- Name: wg.potionDissolve
+	- Color: 4524869
+	- Is Instant? false
+	- Is Bad? true
+
+
+2224
+	- Name: wg.potionKnockbackRes
+	- Color: 7237230
+	- Is Instant? false
+	- Is Bad? false
+
+
 2400
 	- Name: immersiveengineering.potion.flammable
 	- Color: 9387807
@@ -1295,9 +1323,9 @@
 	- Is Bad? true
 
 
-3107
-	- Name: Curse
-	- Color: 0
+3075
+	- Name: potion.antiradiation
+	- Color: -16096246
 	- Is Instant? false
 	- Is Bad? true
 
@@ -1316,6 +1344,13 @@
 	- Is Bad? true
 
 
+3200
+	- Name: wg.potionCinderCoat
+	- Color: 9387807
+	- Is Instant? false
+	- Is Bad? true
+
+
 3204
 	- Name: potion.flight
 	- Color: 16637033
@@ -1330,30 +1365,9 @@
 	- Is Bad? true
 
 
-3299
-	- Name: wg.potionKnockbackRes
-	- Color: 7237230
-	- Is Instant? false
-	- Is Bad? false
-
-
 3341
 	- Name: potion.aquaSuperiority
 	- Color: 6928893
-	- Is Instant? false
-	- Is Bad? true
-
-
-3388
-	- Name: wg.potionDissolve
-	- Color: 4524869
-	- Is Instant? false
-	- Is Bad? true
-
-
-3477
-	- Name: wg.potionCinderCoat
-	- Color: 9387807
 	- Is Instant? false
 	- Is Bad? true
 

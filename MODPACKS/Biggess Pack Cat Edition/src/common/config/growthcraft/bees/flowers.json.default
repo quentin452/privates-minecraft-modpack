@@ -20,6 +20,26 @@
         "name": "yellow_flower",
         "meta": 32767
       }
+    },
+    {
+      "comment": "BiomesOPlenty flowers require a forced entry, in order for it to be placed by the bee box spawning.",
+      "entry_type": "forced",
+      "block": {
+        "comment": "",
+        "mod_id": "BiomesOPlenty",
+        "name": "flowers",
+        "meta": 32767
+      }
+    },
+    {
+      "comment": "BiomesOPlenty flowers require a forced entry, in order for it to be placed by the bee box spawning.",
+      "entry_type": "forced",
+      "block": {
+        "comment": "",
+        "mod_id": "BiomesOPlenty",
+        "name": "flowers2",
+        "meta": 32767
+      }
     }
   ]
 }

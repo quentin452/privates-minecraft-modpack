@@ -238,13 +238,6 @@
 	- Max Level: 5
 
 
-65
-	- Name: enchantment.wg.gemstonePotency
-	- Weight: 4
-	- Min Level: 1
-	- Max Level: 3
-
-
 66
 	- Name: enchantment.cluster
 	- Weight: 1
@@ -350,20 +343,6 @@
 	- Max Level: 1
 
 
-81
-	- Name: enchantment.wg.gemstoneBrittle
-	- Weight: 1
-	- Min Level: 1
-	- Max Level: 3
-
-
-82
-	- Name: enchantment.wg.invisibleGear
-	- Weight: 0
-	- Min Level: 1
-	- Max Level: 2
-
-
 83
 	- Name: enchantment.damageBoost.runeBreak
 	- Weight: 5
@@ -378,25 +357,11 @@
 	- Max Level: 5
 
 
-85
-	- Name: enchantment.wg.unveiling
-	- Weight: 0
-	- Min Level: 1
-	- Max Level: 1
-
-
 86
 	- Name: enchantment.weaponExtra.rust
 	- Weight: 1
 	- Min Level: 1
 	- Max Level: 3
-
-
-87
-	- Name: enchantment.wg.stealth
-	- Weight: 0
-	- Min Level: 1
-	- Max Level: 5
 
 
 88
@@ -407,29 +372,29 @@
 
 
 89
-	- Name: enchantment.wg.backstab
-	- Weight: 0
+	- Name: manametal.enchantment.damage.MagicAttack
+	- Weight: 5
 	- Min Level: 1
-	- Max Level: 3
+	- Max Level: 5
 
 
 90
-	- Name: enchantment.paleontology
-	- Weight: 2
+	- Name: manametal.enchantment.damage.WandAttack
+	- Weight: 5
 	- Min Level: 1
-	- Max Level: 3
+	- Max Level: 5
 
 
 91
-	- Name: enchantment.archeology
-	- Weight: 2
+	- Name: manametal.enchantment.damage.money
+	- Weight: 5
 	- Min Level: 1
-	- Max Level: 3
+	- Max Level: 5
 
 
 92
-	- Name: enchantment.wg.rideProtect
-	- Weight: 0
+	- Name: manametal.enchantment.damage.perspective
+	- Weight: 5
 	- Min Level: 1
 	- Max Level: 1
 
@@ -472,13 +437,6 @@
 98
 	- Name: enchantment.luminescence
 	- Weight: 1
-	- Min Level: 1
-	- Max Level: 1
-
-
-99
-	- Name: enchantment.wg.soulbound
-	- Weight: 0
 	- Min Level: 1
 	- Max Level: 1
 
@@ -775,20 +733,6 @@
 	- Weight: 1
 	- Min Level: 1
 	- Max Level: 3
-
-
-196
-	- Name: Reading
-	- Weight: 1
-	- Min Level: 1
-	- Max Level: 1
-
-
-197
-	- Name: Eternal Compass
-	- Weight: 1
-	- Min Level: 1
-	- Max Level: 1
 
 
 200
@@ -1134,9 +1078,79 @@
 	- Max Level: 3
 
 
+2464
+	- Name: enchantment.paleontology
+	- Weight: 2
+	- Min Level: 1
+	- Max Level: 3
+
+
 2718
 	- Name: enchantment.unbreakable
 	- Weight: 1
+	- Min Level: 1
+	- Max Level: 1
+
+
+2788
+	- Name: enchantment.archeology
+	- Weight: 2
+	- Min Level: 1
+	- Max Level: 3
+
+
+6600
+	- Name: enchantment.wg.backstab
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 3
+
+
+6601
+	- Name: enchantment.wg.gemstoneBrittle
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 3
+
+
+6602
+	- Name: enchantment.wg.gemstonePotency
+	- Weight: 4
+	- Min Level: 1
+	- Max Level: 3
+
+
+6603
+	- Name: enchantment.wg.invisibleGear
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 2
+
+
+6604
+	- Name: enchantment.wg.rideProtect
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 1
+
+
+6605
+	- Name: enchantment.wg.soulbound
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 1
+
+
+6606
+	- Name: enchantment.wg.stealth
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 5
+
+
+6607
+	- Name: enchantment.wg.unveiling
+	- Weight: 0
 	- Min Level: 1
 	- Max Level: 1
 

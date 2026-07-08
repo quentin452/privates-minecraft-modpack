@@ -1,0 +1,43 @@
+{
+	"format_version": 1,
+	"id": "gigaboss",
+	"name": "The Gigaboss",
+	"model": "test_mob",
+	"texture": "gigapig",
+	"idle_animation": "animation.test_mob.idle",
+	"stats": { "max_health": 200, "move_speed": 0.28 },
+	"size": { "width": 2.4, "height": 3.0, "scale": 3.5 },
+	"boss": true,
+	"phases": [
+		{
+			"health_below": 1.0,
+			"name": "guard",
+			"behaviors": [
+				{ "type": "wander", "speed": 0.7 },
+				{ "type": "melee", "damage": 8, "moveSpeed": 1.0, "callHelp": true }
+			]
+		},
+		{
+			"health_below": 0.66,
+			"name": "ranged",
+			"behaviors": [
+				{ "type": "melee", "damage": 8, "moveSpeed": 1.1 },
+				{ "type": "projectile", "damage": 6, "interval": 30, "range": 16, "velocity": 1.8 }
+			]
+		},
+		{
+			"health_below": 0.33,
+			"name": "enrage",
+			"move_speed": 0.5,
+			"scale": 4.5,
+			"behaviors": [
+				{ "type": "melee", "damage": 14, "moveSpeed": 1.5, "callHelp": true }
+			]
+		}
+	],
+	"parts": [
+		{ "name": "head", "x": 0, "y": 3.0, "z": 1.6, "width": 1.6, "height": 1.6, "damage_multiplier": 1.5 },
+		{ "name": "leg_left", "x": 1.2, "y": 0, "z": 0, "width": 1.0, "height": 2.0, "damage_multiplier": 0.5 },
+		{ "name": "leg_right", "x": -1.2, "y": 0, "z": 0, "width": 1.0, "height": 2.0, "damage_multiplier": 0.5 }
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": 1,
+	"id": "biped_medium",
+	"name": "Biped Skeleton",
+	"model": "biped_medium",
+	"texture": "biped_medium",
+	"idle_animation": "animation.biped_medium.idle",
+	"walk_animation": "animation.biped_medium.walk",
+	"attack_animation": "animation.biped_medium.attack",
+	"stats": {
+		"max_health": 20,
+		"move_speed": 0.3
+	},
+	"size": {
+		"width": 0.7,
+		"height": 1.9,
+		"scale": 1
+	},
+	"behaviors": [
+		{
+			"type": "wander",
+			"speed": 1
+		}
+	]
+}
