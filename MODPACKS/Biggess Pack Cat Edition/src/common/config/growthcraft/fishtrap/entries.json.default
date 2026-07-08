@@ -82,7 +82,7 @@
       "weight": 2,
       "item": {
         "ore": null,
-        "comment": "Wooden Fishing Rod",
+        "comment": "Vanilla Fishing Rod",
         "mod_id": "minecraft",
         "name": "fishing_rod",
         "amount": 1,
@@ -202,7 +202,7 @@
       "weight": 1,
       "item": {
         "ore": null,
-        "comment": "Shortbow",
+        "comment": "Bow",
         "mod_id": "minecraft",
         "name": "bow",
         "amount": 1,
@@ -217,7 +217,7 @@
       "weight": 1,
       "item": {
         "ore": null,
-        "comment": "Wooden Fishing Rod",
+        "comment": "Vanilla Fishing Rod",
         "mod_id": "minecraft",
         "name": "fishing_rod",
         "amount": 1,

@@ -52,7 +52,7 @@ Akazuki.ayesasori
 Akazuki.plevok
 Alien
 Alosaurus
-AnglerP
+Angler
 Ant
 Apple Cow
 Archer
@@ -83,11 +83,19 @@ Battletower Golem
 Beaver
 Bee
 BerthaHit
-BiblioCraft.SeatEntity
 Big Ear
 Big Fish
+BiomesOPlenty.Bird
+BiomesOPlenty.Glob
+BiomesOPlenty.JungleSpider
+BiomesOPlenty.Phantom
+BiomesOPlenty.Pixie
+BiomesOPlenty.Rosester
+BiomesOPlenty.Wasp
+BiomesOPlenty.dart
+BiomesOPlenty.mudball
 Bird
-BirdP
+Bird_6
 Black Demon
 Black Knight
 Blaze
@@ -128,7 +136,7 @@ BuildCraft|Silicon.bcPackageThrowable
 BunnyBike
 Butter Monger
 Butterfly
-ButterflyP
+Butterfly_2
 CCreeper
 Calculator.BabyGrenade
 Calculator.Grenade
@@ -141,7 +149,7 @@ CaterKiller
 Cave Guardian
 CaveFisher
 CaveSpider
-CentipedeP
+Centipede
 Cephadrome
 Chicken
 ChickenBike
@@ -172,11 +180,12 @@ Creeper
 Creeper Doll
 Creeper-Spider
 CreeperBike
+CreeperChick
 CreeperChicks.CreeperChick
 CreeperChicks.Entity_creep_Egg
 Creeping Horror
 Cricket
-CricketP
+Cricket_1
 Criminal
 Cryolophosaurus
 Crystal Apple Cow
@@ -185,6 +194,31 @@ CrystalArrow
 CustomFishHook
 Cyclops Man
 Cyrisus
+DMBeamos
+DMBeamosBeam
+DMBeholder
+DMBladeTrap
+DMCaveFisher
+DMCockatrice
+DMDestrachan
+DMEyeRay
+DMGhoul
+DMHellHound
+DMHookHorror
+DMIllithid
+DMLizalfos
+DMMagicMissile
+DMManticore
+DMPetrified
+DMRakshasa
+DMRakshasaImage
+DMRustMonster
+DMShrieker
+DMSonicBoom
+DMThoqqua
+DMTroll
+DMUmberHulk
+DMVescavor
 Dagannoth
 Dagannoth Mother
 Dark Archer
@@ -227,7 +261,7 @@ Drago
 Dragon
 DragonBike
 Dragonfly
-DuckP
+Duck
 Dungeon Beast
 DynamicCraft.Aqua Ball
 DynamicCraft.Fire Ball
@@ -300,7 +334,7 @@ Fire Bolt
 Fireball
 Firefly
 FireworksRocketEntity
-FishP
+Fish
 Flounder
 FlowerBike
 Forestry.butterflyGE
@@ -313,18 +347,31 @@ FrozenSand
 FuryBoar
 GalacticraftCore.AlienVillager
 GalacticraftCore.Buggy
+GalacticraftCore.Cargo Fluid Spaceship
 GalacticraftCore.CelestialScreen
+GalacticraftCore.EvolvedBlaze
+GalacticraftCore.EvolvedBossBlaze
+GalacticraftCore.EvolvedBossGhast
+GalacticraftCore.EvolvedColdBlaze
 GalacticraftCore.EvolvedCreeper
+GalacticraftCore.EvolvedFireCreeper
+GalacticraftCore.EvolvedFireSkeleton
+GalacticraftCore.EvolvedFireSpider
 GalacticraftCore.EvolvedSkeleton
 GalacticraftCore.EvolvedSkeletonBoss
 GalacticraftCore.EvolvedSpider
 GalacticraftCore.EvolvedZombie
+GalacticraftCore.FlameEntryPod
 GalacticraftCore.GCFlag
+GalacticraftCore.IceSpike
 GalacticraftCore.Lander
 GalacticraftCore.Meteor
 GalacticraftCore.MeteorChunk
 GalacticraftCore.ParaChest
 GalacticraftCore.Spaceship
+GalacticraftCore.SpaceshipT4
+GalacticraftCore.SpaceshipT5
+GalacticraftCore.SpaceshipT6
 GalacticraftMars.AstroMiner
 GalacticraftMars.CargoRocket
 GalacticraftMars.CreeperBoss
@@ -372,13 +419,6 @@ Gold Fish
 GoldSpider
 Golden Apple Cow
 Gooftile
-GraveStone.GSSkeletonCat
-GraveStone.GSSkeletonDog
-GraveStone.GSSkullCrawler
-GraveStone.GSWitherSkullCrawler
-GraveStone.GSZombieCat
-GraveStone.GSZombieDog
-GraveStone.GSZombieSkullCrawler
 Gravel Creeper
 Greater Demon
 GreenDragon
@@ -560,7 +600,7 @@ LeashKnot
 Leonopteryx
 Lesser Demon
 Lizard
-LizardP
+Lizard_5
 LookingGlass.lookingglass.portal
 Losty Ghost
 LunarVillager
@@ -568,7 +608,7 @@ Lurking Terror
 Mage
 Mankini Creeper
 Mankini.MankiniCapsule
-MantaRayP
+MantaRay
 Mantis
 Mariculture.BassBomb
 Mariculture.EntityItemImmune
@@ -612,14 +652,13 @@ MoCreatures.BigGolem
 MoCreatures.Bird
 MoCreatures.Boar
 MoCreatures.Bunny
-MoCreatures.ButterFly
+MoCreatures.Butterfly
 MoCreatures.Crab
-MoCreatures.CreeperExtension
 MoCreatures.Cricket
 MoCreatures.Crocodile
 MoCreatures.Deer
 MoCreatures.Dolphin
-MoCreatures.DragonFly
+MoCreatures.Dragonfly
 MoCreatures.Duck
 MoCreatures.Egg
 MoCreatures.Elephant
@@ -631,6 +670,7 @@ MoCreatures.Fly
 MoCreatures.Fox
 MoCreatures.Goat
 MoCreatures.HellRat
+MoCreatures.Horse
 MoCreatures.HorseMob
 MoCreatures.JellyFish
 MoCreatures.Kitty
@@ -664,7 +704,6 @@ MoCreatures.WWolf
 MoCreatures.Werewolf
 MoCreatures.WerewolfVillagerWitchery
 MoCreatures.WerewolfWitchery
-MoCreatures.WildHorse
 MoCreatures.Wraith
 MoCreatures.Wyvern
 Mob
@@ -677,9 +716,9 @@ MoreBows.CustomArrow
 Morf
 Mosquito
 Moth
-MothP
+Moth_3
 Mothra
-MouseP
+Mouse
 MushroomCow
 MutantCreatures.Chemical X
 MutantCreatures.CreeperMinion
@@ -698,6 +737,7 @@ MutantCreatures.SkullSpirit
 MutantCreatures.SnowGolemBlock
 MutantCreatures.SpiderPig
 MutantCreatures.ZombieMinion
+Muya.EntityRyanSlime
 Nastysaurus
 Natura.FlameSpider
 Natura.FlameSpiderBaby
@@ -733,8 +773,8 @@ Peacock
 Pig
 PigBike
 PigZombie
-PinguinP
-PiranhaP
+Pinguin
+Piranha
 Pistronics2.EntityPetrifyArrow
 Player Killer
 PneumaticCraft.Chopper Plant Seeds Entity
@@ -870,7 +910,7 @@ ScarabSwarm
 Scorpion
 Sea Monster
 Sea Viper
-SharkP
+Shark
 Sheep
 SheepBike
 Shoes
@@ -918,7 +958,7 @@ SlimeCarnage.VillagerSlime
 SlimeCarnage.YellowSlime
 Small Worm
 SmallFireball
-SnakeP
+Snake
 Snow Creeper
 SnowMan
 SnowOwl
@@ -1269,7 +1309,7 @@ TragicMC.Wisp
 TragicMC.Yeti
 Triffid
 Trinitope
-TropicalFishP
+TropicalFish
 Turtle
 TwilightForest.Adherent
 TwilightForest.Armored Giant
@@ -1369,7 +1409,7 @@ Water Dragon
 WaterBall
 Werewolf
 Whale
-WhaleP
+Whale_4
 White Knight
 Witch
 WitchingGadgets.reformingItem
@@ -1442,6 +1482,7 @@ aether_legacy.valkyrie_queen
 aether_legacy.whirlwind
 aether_legacy.zephyr
 aether_legacy.zephyr_snowball
+antiquities.EntitySeatAntiquities
 ape
 appliedenergistics2.EntityChargedQuartz
 appliedenergistics2.EntityGrowingCrystal
@@ -1619,11 +1660,9 @@ emeraldSlime
 enderutilities.enderarrow
 enderutilities.endermanfighter
 enderutilities.enderpearlreusable
-entityArmoredPigMan
 entityDemonCat
 entityEagle
 entityFairyPixie
-entitySpeedyPigMan
 entity_blockling
 eotg.Ash Hoarder
 eotg.Beast of the Nether
@@ -1928,6 +1967,7 @@ gibby_dungeons.EntityWitherSkeletonMinion
 gibby_dungeons.EntityWitherSpawner
 gibby_dungeons.EntityYeti
 gibby_dungeons.EntityZombieWarlord
+gigafauna.mob
 gingy
 goblin.Arcaneball
 goblin.Bomb
@@ -2546,6 +2586,314 @@ mam.stick
 mam.ursablack
 mam.ursawhite
 mam.wolpertinger
+manametalmod.BossAstrid
+manametalmod.BossDarkKnight
+manametalmod.BossDeadAngel
+manametalmod.BossDragonEvil
+manametalmod.BossDragonShadowTame
+manametalmod.BossHydraM3
+manametalmod.BossLavaGiant
+manametalmod.BossOmicron
+manametalmod.BossRuneGiantM3
+manametalmod.BossTimeHard
+manametalmod.BossWitheredDevil
+manametalmod.EntityAbsorbCrystal
+manametalmod.EntityAmcientDoor
+manametalmod.EntityArrowMagicMana
+manametalmod.EntityArrowMana
+manametalmod.EntityArrowMana2
+manametalmod.EntityAstridWeapon
+manametalmod.EntityAttackHelicopter
+manametalmod.EntityBadwolf
+manametalmod.EntityBattleship
+manametalmod.EntityBattleshipAdvanced
+manametalmod.EntityBigSpider
+manametalmod.EntityBlossCrystal
+manametalmod.EntityBlossCrystal10
+manametalmod.EntityBlossCrystal11
+manametalmod.EntityBlossCrystal12
+manametalmod.EntityBlossCrystal13
+manametalmod.EntityBlossCrystal14
+manametalmod.EntityBlossCrystal15
+manametalmod.EntityBlossCrystal2
+manametalmod.EntityBlossCrystal4
+manametalmod.EntityBlossCrystal5
+manametalmod.EntityBlossCrystal6
+manametalmod.EntityBlossCrystal7
+manametalmod.EntityBlossCrystal8
+manametalmod.EntityBlossCrystal9_Heal
+manametalmod.EntityBlossCrystalDungeon11
+manametalmod.EntityBlossCrystalOmicron
+manametalmod.EntityBlossDoomsMeteorite
+manametalmod.EntityBlossDoomsMeteorite2
+manametalmod.EntityBlossDoomsMeteoriteUltimate
+manametalmod.EntityBlossInvincibleTower
+manametalmod.EntityBlossInvincibleTower2
+manametalmod.EntityBlossInvincibleTower3
+manametalmod.EntityBlossRune
+manametalmod.EntityBlossTornado
+manametalmod.EntityBlossWaterItem
+manametalmod.EntityBoatM3
+manametalmod.EntityBossBloodDragon
+manametalmod.EntityBossCrystalTower
+manametalmod.EntityBossDarkDragon
+manametalmod.EntityBossDarkKnightAbyss
+manametalmod.EntityBossDeadAngelAbyss
+manametalmod.EntityBossDestroyerAbyss
+manametalmod.EntityBossDoomsDragon
+manametalmod.EntityBossDragonEvilAbyss
+manametalmod.EntityBossDragonShadowAbyss
+manametalmod.EntityBossEnderDragon
+manametalmod.EntityBossHydraItem
+manametalmod.EntityBossHydraItemCore
+manametalmod.EntityBossLavaGiantAbyss
+manametalmod.EntityBossMasadabah
+manametalmod.EntityBossMasadabahHard
+manametalmod.EntityBossMirror
+manametalmod.EntityBossMirrorDuplicate
+manametalmod.EntityBossOmicronTower
+manametalmod.EntityBossPhoenix
+manametalmod.EntityBossRescuresAbyss
+manametalmod.EntityBossRoseDragon
+manametalmod.EntityBossSkyDragon
+manametalmod.EntityBossSkyDragonFake
+manametalmod.EntityBossSnakeWhite
+manametalmod.EntityBossSnakeWind
+manametalmod.EntityBossSnakeWindAbyss
+manametalmod.EntityBossStartDragon
+manametalmod.EntityBossTime
+manametalmod.EntityBossWitheredDevilAbyss
+manametalmod.EntityBulletMana
+manametalmod.EntityBulletMissile
+manametalmod.EntityCeilingTurret
+manametalmod.EntityCeilingTurretGreen
+manametalmod.EntityChocolateCow
+manametalmod.EntityCrossbowTest
+manametalmod.EntityCrystalTower
+manametalmod.EntityDeerBase
+manametalmod.EntityDefensiveRelicCore
+manametalmod.EntityDestroyer
+manametalmod.EntityDestroyerCopy
+manametalmod.EntityDragonEgg
+manametalmod.EntityDragonSummon
+manametalmod.EntityDragonSummonLight
+manametalmod.EntityEliteSkeleton
+manametalmod.EntityEntityBlossMirror
+manametalmod.EntityFinalHourglass
+manametalmod.EntityFishHookFake
+manametalmod.EntityFishHookMana
+manametalmod.EntityFoxBase
+manametalmod.EntityGhostMana
+manametalmod.EntityGhostWarrior
+manametalmod.EntityGoldChickenManaMetalMod
+manametalmod.EntityGrassMan
+manametalmod.EntityGrenade
+manametalmod.EntityItemFrameM3
+manametalmod.EntityItemHolyDevice
+manametalmod.EntityJavelinM3
+manametalmod.EntityLapudaShip
+manametalmod.EntityLightningRaytrace
+manametalmod.EntityM3Golem
+manametalmod.EntityMagicBallBlackHole
+manametalmod.EntityMagicBallBlackHoleRed
+manametalmod.EntityMagicBallGravity
+manametalmod.EntityMagicBallNew
+manametalmod.EntityMagicBallTrackTileEntity
+manametalmod.EntityMagicObject
+manametalmod.EntityMagicPotion
+manametalmod.EntityMagicScrollM3
+manametalmod.EntityMagicShield
+manametalmod.EntityMagicStorm
+manametalmod.EntityMagicSword
+manametalmod.EntityMagicSwordMissile
+manametalmod.EntityManaNPC
+manametalmod.EntityManaSkeleton
+manametalmod.EntityMetalSkeleton
+manametalmod.EntityMinecartEmptyM3
+manametalmod.EntityMirrorReaper
+manametalmod.EntityMirrorSeed
+manametalmod.EntityMobBigSpiderAncient
+manametalmod.EntityMobBreakHourglass
+manametalmod.EntityMobCamelBase
+manametalmod.EntityMobChest
+manametalmod.EntityMobChestMoon
+manametalmod.EntityMobDefCreeper
+manametalmod.EntityMobDefCrossbow
+manametalmod.EntityMobDefGhast
+manametalmod.EntityMobDefSkeleton
+manametalmod.EntityMobDefZombie
+manametalmod.EntityMobDefZombieBig
+manametalmod.EntityMobDefZombieFat
+manametalmod.EntityMobDemonLow
+manametalmod.EntityMobDrowned
+manametalmod.EntityMobDuckBase
+manametalmod.EntityMobFireWolf
+manametalmod.EntityMobFlyingSnake
+manametalmod.EntityMobGrimReaper
+manametalmod.EntityMobHerobrineMana
+manametalmod.EntityMobHoglin
+manametalmod.EntityMobHusk
+manametalmod.EntityMobIceMonster
+manametalmod.EntityMobKnight
+manametalmod.EntityMobLizardBase
+manametalmod.EntityMobLizardMonster
+manametalmod.EntityMobMoonKnight
+manametalmod.EntityMobMouseBase
+manametalmod.EntityMobNightmareBase
+manametalmod.EntityMobPaganCaptain
+manametalmod.EntityMobPaganCrossbow
+manametalmod.EntityMobPaganCrossbowAdvanced
+manametalmod.EntityMobPaganCrossbowArrow
+manametalmod.EntityMobPaganCrossbowArrowAdvanced
+manametalmod.EntityMobPaganKnightAdvanced
+manametalmod.EntityMobPaganKnightDark
+manametalmod.EntityMobPaganMajor
+manametalmod.EntityMobPaganProtector
+manametalmod.EntityMobPaganPuppet
+manametalmod.EntityMobPaganPuppetBoss
+manametalmod.EntityMobPaganPuppetSameLife
+manametalmod.EntityMobPaganRanger
+manametalmod.EntityMobPaganWizard
+manametalmod.EntityMobPenguinBase
+manametalmod.EntityMobPiglin
+manametalmod.EntityMobPirate
+manametalmod.EntityMobPirateRanger
+manametalmod.EntityMobPrisoner
+manametalmod.EntityMobPyramidMummy
+manametalmod.EntityMobRabbitBase
+manametalmod.EntityMobRhinoceros
+manametalmod.EntityMobRobber
+manametalmod.EntityMobRuneProtector
+manametalmod.EntityMobSakuraDeer
+manametalmod.EntityMobScorchedCorpse
+manametalmod.EntityMobScorpionAncient
+manametalmod.EntityMobScorpionFire
+manametalmod.EntityMobSculkMonster
+manametalmod.EntityMobShadow
+manametalmod.EntityMobShadowKnight
+manametalmod.EntityMobSkullUndeadgrave
+manametalmod.EntityMobSpecialSummon
+manametalmod.EntityMobSquirrelBase
+manametalmod.EntityMobSwan
+manametalmod.EntityMobTimeMonster
+manametalmod.EntityMobTimeMonsterTrue
+manametalmod.EntityMobWarden
+manametalmod.EntityMobWolfAncient
+manametalmod.EntityMobZombieFat
+manametalmod.EntityMobZombieFatFire
+manametalmod.EntityMobZombieMiner
+manametalmod.EntityMobZombitEvent
+manametalmod.EntityModelPaganSkyRock
+manametalmod.EntityMummy
+manametalmod.EntityPaganKnight
+manametalmod.EntityPaganKnightLV2
+manametalmod.EntityPaintingM3
+manametalmod.EntityPetMana
+manametalmod.EntityPhoenixSummon
+manametalmod.EntityPinkChocolateCow
+manametalmod.EntityPlantTinyFX
+manametalmod.EntityPlayerAttackFX
+manametalmod.EntityPlayerClone
+manametalmod.EntityProjectileItem
+manametalmod.EntityProjectileItemDestroy
+manametalmod.EntityProtector
+manametalmod.EntityRaytraceBeam
+manametalmod.EntityRaytraceM3
+manametalmod.EntityRescures
+manametalmod.EntityRibbonsFX
+manametalmod.EntityRoseBomb
+manametalmod.EntityRoseEye
+manametalmod.EntityRosePoisonCrystal
+manametalmod.EntityRune
+manametalmod.EntityRuneSpell
+manametalmod.EntitySandPuppet
+manametalmod.EntitySandSpider
+manametalmod.EntityScorpion
+manametalmod.EntityShurikenMana
+manametalmod.EntitySilverfishMana
+manametalmod.EntitySittableBlockFurniture
+manametalmod.EntitySkill2DObj
+manametalmod.EntitySkySworld
+manametalmod.EntitySmokeCrystal
+manametalmod.EntitySpearArrow
+manametalmod.EntitySteelWolf
+manametalmod.EntityStonePuppet
+manametalmod.EntitySummonCrossbow
+manametalmod.EntitySummonTotem
+manametalmod.EntitySummoner
+manametalmod.EntitySwordMissile
+manametalmod.EntityTNTPrimedNuclearM3
+manametalmod.EntityTrap
+manametalmod.EntityTreasureBOX
+manametalmod.EntityUndeadSkeleton
+manametalmod.EntityWhiteSpider
+manametalmod.EntityWolfSnowSummon
+manametalmod.EntityZombitBow
+manametalmod.EntityZombitWand
+manametalmod.Entitydarkwolf
+manametalmod.EnttiyMobDoomsdayDragonTame
+manametalmod.EnttiyMobSnakeTame
+manametalmod.MobAlcis
+manametalmod.MobAxolotl
+manametalmod.MobBear
+manametalmod.MobBearSnow
+manametalmod.MobBigBee
+manametalmod.MobBigDuck
+manametalmod.MobBigSpiderOldJ
+manametalmod.MobBlazeTrue
+manametalmod.MobDragonElements
+manametalmod.MobDragonShadow
+manametalmod.MobDunageonDark
+manametalmod.MobDunageonDuck
+manametalmod.MobDunageonEarth
+manametalmod.MobDunageonFeatherSnakeLibrary
+manametalmod.MobDunageonFeatherSnakeTemple
+manametalmod.MobDunageonFire
+manametalmod.MobDunageonFourSeasonsTemple
+manametalmod.MobDunageonGiantMaze
+manametalmod.MobDunageonGrass
+manametalmod.MobDunageonHeroTemple
+manametalmod.MobDunageonIce
+manametalmod.MobDunageonMars
+manametalmod.MobDunageonMechanism
+manametalmod.MobDunageonPyramid
+manametalmod.MobDunageonSand
+manametalmod.MobDunageonSkeleton
+manametalmod.MobDunageonStronghold
+manametalmod.MobDunageonTheLostTemple
+manametalmod.MobDunageonWater
+manametalmod.MobDunageonWhiteDragonTemple
+manametalmod.MobDunageonWhiteStonePalace
+manametalmod.MobDunageonWolf
+manametalmod.MobFireWolfLow
+manametalmod.MobFishM3
+manametalmod.MobForesty
+manametalmod.MobFoxSnow
+manametalmod.MobFumuriel
+manametalmod.MobGiraffe
+manametalmod.MobGoat
+manametalmod.MobHalloween
+manametalmod.MobKangaroo
+manametalmod.MobLion
+manametalmod.MobLlama
+manametalmod.MobMink
+manametalmod.MobOstrich
+manametalmod.MobOtter
+manametalmod.MobPanda
+manametalmod.MobPeacock
+manametalmod.MobPureDragon
+manametalmod.MobRabbitVanilla
+manametalmod.MobRaccoon
+manametalmod.MobSummonFlyingSnake
+manametalmod.MobTiger
+manametalmod.MobTreeman
+manametalmod.MobTurkey
+manametalmod.MobUnicorn
+manametalmod.MobWoodmonster
+manametalmod.MobYak
+manametalmod.MobZombieFElite
+manametalmod.MobZombieFPlague
+manametalmod.MobZombieFStrong
 mazemod.MiniEnderDragon
 mazemod.MiniWither
 menagerie.ant
@@ -3186,81 +3534,86 @@ zoblinWarrior
 249 - MimicrideM
 250 - MimicrideC
 251 - MimicrideP
-252 - entitySpeedyPigMan
-253 - entityArmoredPigMan
-254 - ironCow
-255 - diamondCow
-256 - coalCow
-257 - emeraldCow
-258 - redstoneCow
+252 - ironCow
+253 - diamondCow
+254 - coalCow
+255 - emeraldCow
+256 - redstoneCow
 301 - Big Ear
-302 - fossil.Failuresaurus
+302 - BiomesOPlenty.JungleSpider
 303 - Big Fish
-304 - fossil.Bones
+304 - BiomesOPlenty.Rosester
 305 - BUDR Bot
-306 - fossil.Anubite
+306 - BiomesOPlenty.Glob
 307 - Butter Monger
-308 - fossil.TarSlime
+308 - BiomesOPlenty.Phantom
 309 - Cooh Bird
-310 - fossil.PigBoss
+310 - BiomesOPlenty.Wasp
 311 - Crazy Bird
-312 - fossil.SentryPigman
+312 - BiomesOPlenty.Bird
 313 - Cyclops Man
-314 - fossil.Nautilus
+314 - BiomesOPlenty.Pixie
 315 - Distorted Man
-316 - fossil.Coelacanth
+316 - fossil.Failuresaurus
 317 - Fat Fish
-318 - fossil.Alligator_Gar
+318 - fossil.Bones
 319 - Fat Man
-320 - fossil.Sturgeon
+320 - fossil.Anubite
 321 - Gooftile
-322 - fossil.Triceratops
+322 - fossil.TarSlime
 323 - Knife Man
-324 - fossil.Velociraptor
+324 - fossil.PigBoss
 325 - Potion Stick
-326 - fossil.Tyrannosaurus
+326 - fossil.SentryPigman
 327 - Spider Creeper
-328 - fossil.Pterosaur
+328 - fossil.Nautilus
 329 - Spinning Feets
-330 - fossil.Plesiosaur
+330 - fossil.Coelacanth
 331 - Stick Man
-332 - fossil.Mosasaurus
+332 - fossil.Alligator_Gar
 333 - Tall Man
-334 - fossil.Stegosaurus
+334 - fossil.Sturgeon
 335 - Terror Trickster
-336 - fossil.Dilophosaurus
+336 - fossil.Triceratops
 337 - Trinitope
-338 - fossil.Brachiosaurus
+338 - fossil.Velociraptor
 339 - Vest Creeper
-340 - fossil.Spinosaurus
+340 - fossil.Tyrannosaurus
 341 - Villager Head
-342 - fossil.Compsognathus
+342 - fossil.Pterosaur
 343 - Walking Painting
-344 - fossil.Ankylosaurus
+344 - fossil.Plesiosaur
 345 - Walking Radio
-346 - fossil.Pachycephalosaurus
+346 - fossil.Mosasaurus
 347 - Wither Creeper
-348 - fossil.Deinonychus
-349 - fossil.Gallimimus
-350 - fossil.Liopleurodon
-351 - fossil.Allosaurus
-352 - fossil.Sarcosuchus
-353 - fossil.Ceratosaurus
-354 - fossil.Dryosaurus
-355 - fossil.Therizinosaurus
-356 - fossil.Icthyosaurus
-357 - fossil.Henodus
-358 - fossil.Parasaurolophus
-359 - fossil.Confuciusornis
-360 - fossil.Dodo
-361 - fossil.Gastornis
-362 - fossil.Kelenken
-363 - fossil.Phorusrhacos
-364 - fossil.Titanis
-365 - fossil.Mammoth
-366 - fossil.Smilodon
-367 - fossil.Quagga
-368 - fossil.Elasmotherium
+348 - fossil.Stegosaurus
+349 - fossil.Dilophosaurus
+350 - fossil.Brachiosaurus
+351 - fossil.Spinosaurus
+352 - fossil.Compsognathus
+353 - fossil.Ankylosaurus
+354 - fossil.Pachycephalosaurus
+355 - fossil.Deinonychus
+356 - fossil.Gallimimus
+357 - fossil.Liopleurodon
+358 - fossil.Allosaurus
+359 - fossil.Sarcosuchus
+360 - fossil.Ceratosaurus
+361 - fossil.Dryosaurus
+362 - fossil.Therizinosaurus
+363 - fossil.Icthyosaurus
+364 - fossil.Henodus
+365 - fossil.Parasaurolophus
+366 - fossil.Confuciusornis
+367 - fossil.Dodo
+368 - fossil.Gastornis
+369 - fossil.Kelenken
+370 - fossil.Phorusrhacos
+371 - fossil.Titanis
+372 - fossil.Mammoth
+373 - fossil.Smilodon
+374 - fossil.Quagga
+375 - fossil.Elasmotherium
 400 - mam.fairy
 401 - mam.cetus
 402 - mam.hillgiant
@@ -3280,46 +3633,41 @@ zoblinWarrior
 417 - mam.kitsune
 418 - mam.dropbear
 419 - mam.claygolem
-444 - Rock
-461 - Dementor
-462 - Stone Devourer
-463 - Kether Slime
-464 - Kether Boar
-465 - Eye Bright
-466 - Demon Eye
-467 - Morf
-468 - Lame
-469 - Losty Ghost
-470 - Kether Crocodile
-471 - Cave Guardian
-472 - Kether Butterfly
-473 - Kether Flying Boar
-474 - Kether Cow
-475 - Drago
-476 - shrek
-477 - donkey
-478 - fiona
-479 - lordFarquaad
-480 - gingy
-481 - pinocchio
-482 - skull
-483 - CentipedeP
-484 - CricketP
-485 - ButterflyP
-486 - MothP
-487 - FishP
-488 - TropicalFishP
-489 - AnglerP
-490 - MantaRayP
-491 - WhaleP
-492 - SnakeP
-493 - LizardP
-494 - MouseP
-495 - BirdP
-496 - DuckP
-497 - PinguinP
-498 - PiranhaP
-499 - SharkP
+449 - Rock
+466 - Dementor
+467 - Stone Devourer
+468 - Kether Slime
+469 - Kether Boar
+470 - Eye Bright
+471 - Demon Eye
+472 - Morf
+473 - Lame
+474 - Losty Ghost
+475 - Kether Crocodile
+476 - Cave Guardian
+477 - Kether Butterfly
+478 - Kether Flying Boar
+479 - Kether Cow
+480 - Drago
+481 - shrek
+482 - donkey
+483 - fiona
+484 - lordFarquaad
+485 - gingy
+486 - pinocchio
+487 - skull
+488 - Centipede
+489 - Cricket_1
+490 - Butterfly_2
+491 - Moth_3
+492 - Fish
+493 - TropicalFish
+494 - Angler
+495 - MantaRay
+496 - Whale_4
+497 - Snake
+498 - Lizard_5
+499 - Mouse
 500 - etfuturum.rabbit
 501 - DiseaseCraft.rat
 502 - etfuturum.endermite
@@ -3328,68 +3676,81 @@ zoblinWarrior
 505 - etfuturum.villager_zombie
 506 - etfuturum.shulker
 507 - etfuturum.bee
-510 - Knight
-511 - Knight2
-512 - Archer
-513 - Archer2
-514 - Mage
-515 - EnemyKnight
-516 - EnemyArcher
-517 - EnemyMage
-518 - Merc
-519 - MercArcher
-520 - Healer
-521 - black_dog
-522 - chinazombie
-523 - witherSkeleton
-524 - Creeper-Spider
-526 - samurai_skeleton
-528 - Showgun_skeleton
-529 - IceCube
-530 - Glace
-531 - IcePigZombie
-532 - FuryBoar
-533 - FrostbiteSpider
-534 - EFQueenSpider
-535 - ColdCreeper
-536 - Scarab
-537 - SnowOwl
-538 - ColdKnightMinion
-539 - ColdKnight
-540 - Goat
-541 - HornedGoat
-542 - WoollyMammoth
-543 - EFYeti
-546 - SaberTiger
-547 - EFVillager
-549 - arcticFox
-550 - polarBear
-556 - GalacticraftCore.EvolvedSpider
-557 - GalacticraftCore.EvolvedZombie
-558 - GalacticraftCore.EvolvedCreeper
-559 - GalacticraftCore.EvolvedSkeleton
-560 - GalacticraftCore.EvolvedSkeletonBoss
-561 - GalacticraftCore.AlienVillager
-562 - GalacticraftMars.Sludgeling
-563 - GalacticraftMars.Slimeling
-564 - GalacticraftMars.CreeperBoss
-565 - EntityHamster
-566 - Ice Cream Sandwich Creeper
-569 - CoalSpider
-570 - DiamondSpider
-571 - ObsidianSpider
-572 - EmeraldSpider
-573 - IronSpider
-574 - EnderSpider
-575 - GoldSpider
-576 - NetherQuartzSpider
-577 - LapisSpider
-578 - RedstoneSpider
-579 - QueenSpider
-580 - Guardian
-581 - Blizz
-582 - Blitz
-583 - Basalz
+508 - Bird_6
+509 - Duck
+510 - Pinguin
+511 - Piranha
+512 - Shark
+515 - Knight
+516 - Knight2
+517 - Archer
+518 - Archer2
+519 - Mage
+520 - EnemyKnight
+521 - EnemyArcher
+522 - EnemyMage
+523 - Merc
+524 - MercArcher
+525 - Healer
+526 - black_dog
+527 - chinazombie
+528 - witherSkeleton
+529 - Creeper-Spider
+530 - CreeperChick
+532 - samurai_skeleton
+534 - Showgun_skeleton
+535 - IceCube
+536 - Glace
+537 - IcePigZombie
+538 - FuryBoar
+539 - FrostbiteSpider
+540 - EFQueenSpider
+541 - ColdCreeper
+542 - Scarab
+543 - SnowOwl
+544 - ColdKnightMinion
+545 - ColdKnight
+546 - Goat
+547 - HornedGoat
+548 - WoollyMammoth
+549 - EFYeti
+552 - SaberTiger
+553 - EFVillager
+555 - arcticFox
+556 - polarBear
+562 - GalacticraftCore.EvolvedSpider
+563 - GalacticraftCore.EvolvedZombie
+564 - GalacticraftCore.EvolvedCreeper
+565 - GalacticraftCore.EvolvedSkeleton
+566 - GalacticraftCore.EvolvedSkeletonBoss
+567 - GalacticraftCore.AlienVillager
+568 - GalacticraftMars.Sludgeling
+569 - GalacticraftMars.Slimeling
+570 - GalacticraftMars.CreeperBoss
+571 - GalacticraftCore.EvolvedBossBlaze
+572 - GalacticraftCore.EvolvedFireCreeper
+573 - GalacticraftCore.EvolvedFireSkeleton
+574 - GalacticraftCore.EvolvedFireSpider
+575 - GalacticraftCore.EvolvedBlaze
+576 - GalacticraftCore.EvolvedColdBlaze
+577 - GalacticraftCore.EvolvedBossGhast
+578 - EntityHamster
+579 - Ice Cream Sandwich Creeper
+582 - CoalSpider
+583 - DiamondSpider
+584 - ObsidianSpider
+585 - EmeraldSpider
+586 - IronSpider
+587 - EnderSpider
+588 - GoldSpider
+589 - NetherQuartzSpider
+590 - LapisSpider
+591 - RedstoneSpider
+592 - QueenSpider
+593 - Guardian
+594 - Blizz
+595 - Blitz
+596 - Basalz
 901 - primitivemobs.RocketCreeper
 902 - primitivemobs.FestiveCreeper
 903 - primitivemobs.SupportCreeper
@@ -3495,56 +3856,3 @@ zoblinWarrior
 6425 - witchery.lilith
 6426 - witchery.wingedmonkey
 6427 - witchery.reflection
-7256 - MoCreatures.Bunny
-7257 - MoCreatures.Snake
-7258 - MoCreatures.Turtle
-7259 - MoCreatures.Bird
-7260 - MoCreatures.Mouse
-7261 - MoCreatures.Turkey
-7262 - MoCreatures.WildHorse
-7263 - MoCreatures.HorseMob
-7264 - MoCreatures.Ogre
-7265 - MoCreatures.Boar
-7266 - MoCreatures.Bear
-7267 - MoCreatures.Duck
-7268 - MoCreatures.BigCat
-7269 - MoCreatures.Deer
-7270 - MoCreatures.WWolf
-7271 - MoCreatures.Wraith
-7272 - MoCreatures.FlameWraith
-7273 - MoCreatures.Fox
-7274 - MoCreatures.Werewolf
-7275 - MoCreatures.Shark
-7276 - MoCreatures.Dolphin
-7277 - MoCreatures.Fishy
-7278 - MoCreatures.Kitty
-7281 - MoCreatures.Rat
-7282 - MoCreatures.HellRat
-7283 - MoCreatures.Scorpion
-7284 - MoCreatures.Crocodile
-7285 - MoCreatures.Ray
-7286 - MoCreatures.JellyFish
-7287 - MoCreatures.Goat
-7290 - MoCreatures.Ostrich
-7291 - MoCreatures.Bee
-7292 - MoCreatures.Fly
-7293 - MoCreatures.DragonFly
-7294 - MoCreatures.Firefly
-7295 - MoCreatures.Cricket
-7296 - MoCreatures.Snail
-7297 - MoCreatures.ButterFly
-7299 - MoCreatures.BigGolem
-7302 - MoCreatures.Elephant
-7303 - MoCreatures.KomodoDragon
-7304 - MoCreatures.Wyvern
-7305 - MoCreatures.Roach
-7306 - MoCreatures.Maggot
-7307 - MoCreatures.Crab
-7308 - MoCreatures.Raccoon
-7309 - MoCreatures.MiniGolem
-7310 - MoCreatures.SilverSkeleton
-7311 - MoCreatures.Ant
-7312 - MoCreatures.MediumFish
-7313 - MoCreatures.SmallFish
-7314 - MoCreatures.Piranha
-7315 - MoCreatures.Mole

@@ -102,13 +102,230 @@ netherlicious:Nether_Gravel - 0
 IC2:itemRTGPellet
 
 
+LegendaryWeapon1
+manametalmod:Dungeon_Sword1 - 0
+manametalmod:Dungeon_Bow1 - 0
+manametalmod:Dungeon_Dagger1 - 0
+manametalmod:Dungeon_Hammer1 - 0
+manametalmod:Dungeon_MagicBook1 - 0
+manametalmod:Dungeon_WandMagic1 - 0
+manametalmod:Dungeon_Sickle1 - 0
+manametalmod:Dungeon_BlowingArrows1 - 0
+manametalmod:Dungeon_Fan1 - 0
+manametalmod:Dungeon_Javelin1 - 0
+manametalmod:Dungeon_Shocrtcane1 - 0
+manametalmod:Dungeon_Katana1 - 0
+
+
+LegendaryWeapon2
+manametalmod:Dungeon_Sword2 - 0
+manametalmod:Dungeon_Bow2 - 0
+manametalmod:Dungeon_Dagger2 - 0
+manametalmod:Dungeon_Hammer2 - 0
+manametalmod:Dungeon_MagicBook2 - 0
+manametalmod:Dungeon_WandMagic2 - 0
+manametalmod:Dungeon_Sickle2 - 0
+manametalmod:Dungeon_BlowingArrows2 - 0
+manametalmod:Dungeon_Fan2 - 0
+manametalmod:Dungeon_Javelin2 - 0
+manametalmod:Dungeon_Shocrtcane2 - 0
+manametalmod:Dungeon_Katana2 - 0
+
+
+LegendaryWeapon3
+manametalmod:Dungeon_Sword3 - 0
+manametalmod:Dungeon_Bow3 - 0
+manametalmod:Dungeon_Dagger3 - 0
+manametalmod:Dungeon_Hammer3 - 0
+manametalmod:Dungeon_MagicBook3 - 0
+manametalmod:Dungeon_WandMagic3 - 0
+manametalmod:Dungeon_Sickle3 - 0
+manametalmod:Dungeon_BlowingArrows3 - 0
+manametalmod:Dungeon_Fan3 - 0
+manametalmod:Dungeon_Javelin3 - 0
+manametalmod:Dungeon_Shocrtcane3 - 0
+manametalmod:Dungeon_Katana3 - 0
+
+
 LightGray
+
+
+MMMCoil
+manametalmod:copperCoil - 0
+manametalmod:ironCoil - 0
+manametalmod:leadCoil - 0
+manametalmod:goldCoil - 0
+manametalmod:ManaSCoil - 0
+
+
+MMMDoublePlate
+manametalmod:brassDoublePlate - 0
+manametalmod:bronzeDoublePlate - 0
+manametalmod:ironDoublePlate - 0
+manametalmod:wroughIronDoublePlate - 0
+manametalmod:steelDoublePlate - 0
+manametalmod:ManaSDoublePlate - 0
+
+
+MMMFish
+minecraft:fish - 0
+manametalmod:Sashimi - 0
+minecraft:cooked_fished - 0
+minecraft:fish - 1
+minecraft:fish - 2
+minecraft:fish - 3
+
+
+MMMGear
+manametalmod:copperGear - 0
+manametalmod:ironGear - 0
+manametalmod:brassGear - 0
+manametalmod:steelGear - 0
+manametalmod:ManaSGear - 0
+
+
+MMMPlate
+manametalmod:brassPlate - 0
+manametalmod:bronzePlate - 0
+manametalmod:ironPlate - 0
+manametalmod:wroughtIronPlate - 0
+manametalmod:steelPlate - 0
+manametalmod:ManaSPlate - 0
+
+
+MMMfruit
+minecraft:apple - 0
+minecraft:melon - 0
+manametalmod:Cactusfruit - 0
+manametalmod:cookapple - 0
+BiomesOPlenty:food - 0
+
+
+MMMgear
+
+
+MMMgem
+manametalmod:FakeDiamond - 0
+manametalmod:gemBlackDiamond - 0
+minecraft:diamond - 0
+minecraft:emerald - 0
+manametalmod:gemAmber - 0
+manametalmod:gemAmethyst - 0
+manametalmod:gemAquamarine - 0
+manametalmod:gemCitrine - 0
+manametalmod:gemCordierite - 0
+manametalmod:gemGarnet - 0
+manametalmod:gemJade - 0
+manametalmod:gemMoonstone - 0
+manametalmod:gemOpal - 0
+manametalmod:gemRuby - 0
+manametalmod:gemSapphire - 0
+manametalmod:gemSpinel - 0
+manametalmod:gemSunstone - 0
+manametalmod:gemTanzanite - 0
+manametalmod:gemTourmaline - 0
+manametalmod:gemZircon - 0
+BiomesOPlenty:gems - 0
+BiomesOPlenty:gems - 1
+BiomesOPlenty:gems - 2
+BiomesOPlenty:gems - 3
+BiomesOPlenty:gems - 4
+BiomesOPlenty:gems - 5
+BiomesOPlenty:gems - 6
+BiomesOPlenty:gems - 7
+Thaumcraft:ItemResource - 3
+Thaumcraft:ItemResource - 6
+
+
+MMMmeat
+minecraft:beef - 0
+minecraft:cooked_beef - 0
+minecraft:porkchop - 0
+minecraft:cooked_porkchop - 0
+minecraft:chicken - 0
+minecraft:cooked_chicken - 0
+manametalmod:Ham - 0
+manametalmod:BeefShank - 0
+
+
+MMMmushroom
+minecraft:red_mushroom_block - 0
+minecraft:brown_mushroom - 0
+minecraft:brown_mushroom_block - 0
+minecraft:red_mushroom - 0
+BiomesOPlenty:mushrooms - 0
+BiomesOPlenty:mushrooms - 1
+BiomesOPlenty:mushrooms - 2
+BiomesOPlenty:mushrooms - 3
+BiomesOPlenty:mushrooms - 4
+BiomesOPlenty:mushrooms - 5
+BiomesOPlenty:food - 1
+
+
+MMMseed
+minecraft:melon_seeds - 0
+minecraft:pumpkin_seeds - 0
+minecraft:wheat_seeds - 0
+
+
+MMMvegetables
+minecraft:carrot - 0
+minecraft:potato - 0
+manametalmod:cookcarrots - 0
+manametalmod:Lotus - 0
+manametalmod:cookLotus - 0
+minecraft:pumpkin - 0
+BiomesOPlenty:food - 2
 
 
 MainInfusionMaterial
 minecraft:diamond - 0
 minecraft:emerald - 0
 minecraft:gold_block - 0
+
+
+ManaSCoil
+manametalmod:ManaSCoil - 0
+
+
+ManaSDoublePlate
+manametalmod:ManaSDoublePlate - 0
+
+
+ManaSGear
+manametalmod:ManaSGear - 0
+
+
+ManaSPlate
+manametalmod:ManaSPlate - 0
+
+
+MetalEnergy01
+manametalmod:MetalEnergy01 - 0
+
+
+MetalEnergy02
+manametalmod:MetalEnergy02 - 0
+
+
+MetalEnergy03
+manametalmod:MetalEnergy03 - 0
+
+
+MetalEnergy04
+manametalmod:MetalEnergy04 - 0
+
+
+MetalEnergy05
+manametalmod:MetalEnergy05 - 0
+
+
+MetalEnergy06
+manametalmod:MetalEnergy06 - 0
+
+
+MetalEnergy07
+manametalmod:MetalEnergy07 - 0
 
 
 MonazitOre
@@ -128,7 +345,15 @@ steamcraft2:ItemIronParts - 4
 steamcraft2:ItemSteelParts - 4
 
 
+Peat
+manametalmod:peat - 0
+
+
 QueensGoldIngot
+
+
+Salt
+manametalmod:salt - 0
 
 
 Screw
@@ -146,6 +371,11 @@ steamcraft2:ItemIronParts - 1
 steamcraft2:ItemSteelParts - 1
 
 
+TESTFOR
+BiomesOPlenty:flowers2 - 7
+BiomesOPlenty:flowers2 - 8
+
+
 Thread
 steamcraft2:ItemIronParts - 3
 steamcraft2:ItemSteelParts - 3
@@ -154,6 +384,10 @@ steamcraft2:ItemSteelParts - 3
 Washer
 steamcraft2:ItemIronParts - 6
 steamcraft2:ItemSteelParts - 6
+
+
+abundantOreCoal
+manametalmod:abundantCoal - 0
 
 
 accioMaterial
@@ -247,6 +481,10 @@ lotr:item.horn - 0
 
 artifact
 fossil:relicScrap - 0
+
+
+artificialDiamond
+manametalmod:FakeDiamond - 0
 
 
 ash
@@ -454,8 +692,13 @@ kitsumedievalcraft:workBlade - 0
 blazePowder
 
 
+blockAcanoy
+manametalmod:blockAcanoy - 0
+
+
 blockAdamantine
 Metallurgy:fantasy.block - 13
+manametalmod:blockAdamantine - 0
 
 
 blockAer
@@ -487,6 +730,7 @@ ImmersiveEngineering:storage - 1
 foundry:blockFoundryMetal - 11
 GalacticraftCore:tile.gcBlockCore - 11
 Mariculture:metals - 1
+manametalmod:blockAluminum - 0
 SpiritOresMod:aluminumBlock - 0
 steamcraft2:BlockMetal - 0
 
@@ -499,12 +743,22 @@ blockAlumite
 TConstruct:MetalBlock - 8
 
 
+blockAmber
+BiomesOPlenty:gemOre - 15
+manametalmod:blockAmber - 0
+
+
 blockAmethyst
+manametalmod:blockAmethyst - 0
 SpiritOresMod:amethystBlock - 0
 
 
 blockAmordrine
 Metallurgy:nether.block - 12
+
+
+blockAncientThulium
+manametalmod:blockAncientThulium - 0
 
 
 blockAndesite
@@ -518,6 +772,7 @@ blockAnthracite
 
 
 blockAntimony
+manametalmod:blockAntimony - 0
 
 
 blockApatite
@@ -529,6 +784,7 @@ blockAqua
 
 blockAquamarine
 caveworld:gem_ore - 1
+manametalmod:blockAquamarine - 0
 
 
 blockArcadian
@@ -560,6 +816,10 @@ blockAzurite
 blockAzuriteGem
 
 
+blockBadyala
+manametalmod:blockBadyala - 0
+
+
 blockBam
 
 
@@ -572,10 +832,19 @@ blockBasalt
 blockBasaltBrick
 
 
+blockBedrock
+manametalmod:blockBedrock - 0
+
+
 blockBeryllium
 
 
+blockBiliha
+manametalmod:blockBiliha - 0
+
+
 blockBismuth
+manametalmod:blockBismuth - 0
 
 
 blockBismutite
@@ -589,6 +858,10 @@ roadstuff:bitumenBlock - 0
 blockBituminous
 
 
+blockBlackDiamond
+manametalmod:blockBlackDiamond - 0
+
+
 blockBlackSteel
 Metallurgy:fantasy.block - 3
 
@@ -598,6 +871,10 @@ blockBlackcoal
 
 blockBlaze
 Botania:blazeBlock - 0
+
+
+blockBloodMetal
+manametalmod:blockBloodMetal - 0
 
 
 blockBluestone
@@ -632,6 +909,7 @@ blockBrass
 Metallurgy:precious.block - 3
 foundry:blockFoundryMetal - 7
 Steamcraft:blockBrass - 0
+manametalmod:blockBrass - 0
 steamcraft2:BlockMetal - 4
 
 
@@ -656,6 +934,7 @@ Forestry:resourceStorage - 3
 Metallurgy:base.block - 3
 foundry:blockFoundryMetal - 2
 chinacraft:BronzeBlock - 0
+manametalmod:blockBronze - 0
 steamcraft2:BlockMetal - 5
 
 
@@ -666,6 +945,10 @@ blockCaementium
 
 
 blockCalaverite
+
+
+blockCalcium
+manametalmod:blockCalcium - 0
 
 
 blockCarbide
@@ -694,6 +977,10 @@ caveworld:cavenium_ore - 2
 
 blockCelenegil
 Metallurgy:fantasy.block - 12
+
+
+blockCerium
+manametalmod:blockCerium - 0
 
 
 blockCeruclase
@@ -743,17 +1030,23 @@ blockChest
 minecraft:chest - 0
 
 
+blockChocolate
+manametalmod:blockChocolate - 0
+
+
 blockChrome
 
 
 blockChromium
 foundry:blockFoundryMetal - 12
+manametalmod:blockChromium - 0
 
 
 blockCinnabar
 
 
 blockCitrine
+manametalmod:blockCitrine - 0
 
 
 blockClay
@@ -857,12 +1150,17 @@ ExtraUtilities:color_blockCoal - 11
 
 blockCobalt
 TConstruct:MetalBlock - 0
+manametalmod:blockCobalt - 0
 
 
 blockCobaltite
 
 
 blockCobble
+
+
+blockCompressionSteel
+manametalmod:blockCompressionSteel - 0
 
 
 blockConductiveIron
@@ -886,6 +1184,7 @@ Steamcraft:blockCopper - 0
 GalacticraftCore:tile.gcBlockCore - 9
 Mariculture:metals - 0
 chinacraft:CopperBlock - 0
+manametalmod:blockCopper - 0
 SpiritOresMod:copperBlock - 0
 steamcraft2:BlockMetal - 1
 etfuturum:copper_block - 0
@@ -898,8 +1197,16 @@ etfuturum:copper_block - 4
 blockCopperGloss
 
 
+blockCordierite
+manametalmod:blockCordierite - 0
+
+
 blockCosmicNeutronium
 Avaritia:Resource_Block - 0
+
+
+blockCrimson
+manametalmod:blockCrimson - 0
 
 
 blockCrudeSteel
@@ -945,12 +1252,20 @@ blockDamascusSteel
 Metallurgy:base.block - 5
 
 
+blockDark
+manametalmod:blockDark - 0
+
+
 blockDarkSteel
 EnderIO:blockIngotStorage - 6
 
 
 blockDeepIron
 Metallurgy:fantasy.block - 1
+
+
+blockDeepiron
+manametalmod:blockDeepiron - 0
 
 
 blockDesichalkos
@@ -1010,6 +1325,7 @@ ThermalFoundation:Storage - 7
 ImmersiveEngineering:storage - 6
 Metallurgy:precious.block - 4
 foundry:blockFoundryMetal - 3
+manametalmod:blockElectrum - 0
 
 
 blockElectrumFlux
@@ -1062,6 +1378,10 @@ blockEndium
 ganysend:endiumBlock - 0
 
 
+blockEndless
+manametalmod:blockEndless - 0
+
+
 blockEndstone
 chisel:end_Stone - 0
 
@@ -1074,12 +1394,24 @@ blockEnergeticSilver
 EnderIO:blockIngotStorageEndergy - 5
 
 
+blockEnergyCrystal
+manametalmod:blockEnergyCrystal - 0
+
+
 blockEximite
 Metallurgy:ender.block - 0
 
 
 blockFairy
 ExtraTiC:blockFunStuff - 0
+
+
+blockFakeDiamond
+manametalmod:blockFakeDiamond - 0
+
+
+blockFantasygold
+manametalmod:blockFantasygold - 0
 
 
 blockFeliron
@@ -1095,6 +1427,10 @@ cherrypig:Flint Block - 0
 blockFluorite
 
 
+blockFlyGem
+manametalmod:blockFlyGem - 0
+
+
 blockFuelCoke
 ImmersiveEngineering:stoneDevice - 3
 ImmersiveEngineering:stoneDecoration - 3
@@ -1105,6 +1441,7 @@ blockGalena
 
 
 blockGarnet
+manametalmod:blockGarnet - 0
 
 
 blockGarnierite
@@ -1126,11 +1463,20 @@ atum:tile.crystalStainedGlass - any
 EnderIO:blockFusedQuartz - 1
 fossil:strongGlass - 0
 fossil:ancientGlass - 0
+GalaxySpace:futureglass - 0
+GalaxySpace:futureglasses - 0
 Natura:NetherGlass - 0
 Natura:NetherGlass - 1
 runicdungeons:tile.runicGlass - 0
 Calculator:StableGlass - 0
 Calculator:ClearStableGlass - 0
+manametalmod:Iridium_glass - 0
+manametalmod:Lithium_glass - 0
+manametalmod:GemGlass - 0
+manametalmod:RuneGlass - 0
+manametalmod:gold_glass - 0
+manametalmod:Platinum_glass - 0
+manametalmod:LunaStoneGlass - 0
 ZoocraftDiscoveries:crystal_glass - 0
 ZoocraftDiscoveries:grid_glass - 0
 TConstruct:GlassBlock.StainedClear - any
@@ -1281,6 +1627,10 @@ blockGold
 minecraft:gold_block - 0
 
 
+blockGoslarda
+manametalmod:blockGoslarda - 0
+
+
 blockGranite
 
 
@@ -1337,6 +1687,14 @@ Metallurgy:base.block - 4
 
 blockHexcite
 caveworld:gem_ore - 6
+
+
+blockHighlycrystal
+manametalmod:blockHighlycrystal - 0
+
+
+blockHolyCopper
+manametalmod:blockHolyCopper - 0
 
 
 blockHopper
@@ -1396,6 +1754,7 @@ SpiritOresMod:iriditeBlock - 0
 
 
 blockIridium
+manametalmod:blockIridium - 0
 
 
 blockIron
@@ -1421,6 +1780,7 @@ mett:Storage - 2
 
 
 blockJade
+manametalmod:blockJade - 0
 
 
 blockJadeBrick
@@ -1533,13 +1893,19 @@ ThermalFoundation:Storage - 3
 Railcraft:cube - 11
 ImmersiveEngineering:storage - 2
 foundry:blockFoundryMetal - 10
+manametalmod:blockLead - 0
 
 
 blockLemurite
 Metallurgy:nether.block - 2
 
 
+blockLightScrap
+manametalmod:blockLightScrap - 0
+
+
 blockLignite
+manametalmod:blocklignite - 0
 
 
 blockLilithite
@@ -1565,6 +1931,7 @@ blockLimestoneBrick
 
 
 blockLithium
+manametalmod:blockLithium - 0
 
 
 blockLudicrite
@@ -1572,6 +1939,10 @@ blockLudicrite
 
 blockLumium
 ThermalFoundation:Storage - 11
+
+
+blockLunaStone
+manametalmod:blockLunaStone - 0
 
 
 blockMagic
@@ -1592,6 +1963,7 @@ SpiritOresMod:magmaSpiritBlock - 0
 blockMagnesium
 Metallurgy:utility.block - 3
 Mariculture:metals - 3
+manametalmod:blockMagnesium - 0
 
 
 blockMagnetite
@@ -1603,9 +1975,38 @@ caveworld:gem_ore - 4
 
 
 blockMalachite
+BiomesOPlenty:gemOre - 11
 
 
 blockMalachiteGem
+
+
+blockMana
+manametalmod:blockMana - 0
+
+
+blockManaCoal
+manametalmod:blockManaCoal - 0
+
+
+blockManaDragonCrystal
+manametalmod:blockManaDragonCrystal - 0
+
+
+blockManaEnderCrystal
+manametalmod:blockManaEnderCrystal - 0
+
+
+blockManaPureS
+manametalmod:blockManaPureS - 0
+
+
+blockManaS
+manametalmod:blockManaS - 0
+
+
+blockManaSpiritSteel
+manametalmod:blockManaSpiritSteel - 0
 
 
 blockManasteel
@@ -1615,6 +2016,7 @@ Botania:storage - 0
 blockManganese
 Metallurgy:base.block - 2
 foundry:blockFoundryMetal - 14
+manametalmod:blockManganese - 0
 
 
 blockManganeseSteel
@@ -1637,6 +2039,7 @@ MineFactoryReloaded:brick - 13
 
 blockMeatRaw
 MineFactoryReloaded:brick - 12
+BiomesOPlenty:flesh - 0
 
 
 blockMelodicAlloy
@@ -1657,12 +2060,30 @@ blockMischmetal
 blockMithril
 ThermalFoundation:Storage - 6
 Metallurgy:fantasy.block - 7
+manametalmod:blockMithril - 0
+
+
+blockMoltenGold
+manametalmod:blockMoltenGold - 0
 
 
 blockMolybdenum
+manametalmod:blockMolybdenum - 0
+
+
+blockMoonstone
+manametalmod:blockMoonstone - 0
 
 
 blockMorion
+
+
+blockMysteriousIron
+manametalmod:blockMysteriousIron - 0
+
+
+blockMysteriousSoul
+manametalmod:blockMysteriousSoul - 0
 
 
 blockMystic
@@ -1685,10 +2106,15 @@ ForbiddenMagic:StarBlock - 0
 
 
 blockNetherite
+manametalmod:blockNetherite - 0
 etfuturum:netherite_block - 0
 
 
 blockNetherrack
+
+
+blockNeutronEnergy
+manametalmod:blockNeutronEnergy - 0
 
 
 blockNichrome
@@ -1698,6 +2124,7 @@ blockNickel
 ThermalFoundation:Storage - 4
 ImmersiveEngineering:storage - 4
 foundry:blockFoundryMetal - 5
+manametalmod:blockNickel - 0
 
 
 blockNickeline
@@ -1726,6 +2153,7 @@ blockOnyx
 
 
 blockOpal
+manametalmod:blockOpal - 0
 
 
 blockOrdo
@@ -1733,10 +2161,12 @@ blockOrdo
 
 blockOrichalcum
 Metallurgy:fantasy.block - 11
+manametalmod:blockOrichalcum - 0
 
 
 blockOsmium
 Mekanism:BasicBlock - 0
+manametalmod:blockOsmium - 0
 
 
 blockOureclase
@@ -1747,13 +2177,19 @@ blockPackedIce
 minecraft:packed_ice - 0
 
 
+blockPalladium
+manametalmod:blockPalladium - 0
+
+
 blockPeat
+manametalmod:blockPeat - 0
 
 
 blockPerditio
 
 
 blockPeridot
+BiomesOPlenty:gemOre - 5
 
 
 blockPhasedGold
@@ -1777,6 +2213,7 @@ blockPlatinum
 ThermalFoundation:Storage - 5
 Metallurgy:precious.block - 2
 foundry:blockFoundryMetal - 13
+manametalmod:blockPlatinum - 0
 
 
 blockPokefennium
@@ -1790,7 +2227,15 @@ blockPotash
 Metallurgy:utility.block - 5
 
 
+blockPotassium
+manametalmod:blockPotassium - 0
+
+
 blockPotentia
+
+
+blockPreciousIron
+manametalmod:blockPreciousIron - 0
 
 
 blockPrimal
@@ -1843,6 +2288,18 @@ blockQuicksilver
 Metallurgy:fantasy.block - 9
 
 
+blockRainbowDiamond
+manametalmod:blockRainbowDiamond - 0
+
+
+blockRainbowOpal
+manametalmod:blockRainbowOpal - 0
+
+
+blockRainbowSteel
+manametalmod:blockRainbowSteel - 0
+
+
 blockRawAluminum
 etfuturum:modded_raw_ore_block - 0
 
@@ -1889,6 +2346,10 @@ etfuturum:modded_raw_ore_block - 2
 
 blockRawTin
 etfuturum:modded_raw_ore_block - 1
+
+
+blockRawTitanium
+etfuturum:modded_raw_ore_block - 10
 
 
 blockRawTungsten
@@ -2010,7 +2471,16 @@ blockRefinedObsidian
 Mekanism:BasicBlock - 2
 
 
+blockRhodium
+manametalmod:blockRhodium - 0
+
+
 blockRoseGold
+manametalmod:blockRoseGold - 0
+
+
+blockRosite
+manametalmod:blockRosite - 0
 
 
 blockRubber
@@ -2022,6 +2492,12 @@ Metallurgy:fantasy.block - 8
 
 
 blockRuby
+BiomesOPlenty:gemOre - 3
+manametalmod:blockRuby - 0
+
+
+blockRuneSteel
+manametalmod:blockRuneSteel - 0
 
 
 blockRunicSteel
@@ -2035,6 +2511,7 @@ Mariculture:metals - 2
 blockSalt
 Mekanism:SaltBlock - 0
 Growthcraft:grccore.salt_block - 0
+manametalmod:blockSalt - 0
 
 
 blockSaltCrystal
@@ -2062,9 +2539,15 @@ blockSaphire
 
 
 blockSapphire
+BiomesOPlenty:gemOre - 13
+manametalmod:blockSapphire - 0
 
 
 blockScal
+
+
+blockScandium
+manametalmod:blockScandium - 0
 
 
 blockScarletEmerald
@@ -2076,6 +2559,10 @@ TaintedMagic:BlockShadowmetal - 0
 
 blockShadowIron
 Metallurgy:nether.block - 1
+
+
+blockShadowSecretGold
+manametalmod:blockShadowSecretGold - 0
 
 
 blockShadowSteel
@@ -2095,6 +2582,7 @@ ImmersiveEngineering:storage - 3
 Metallurgy:precious.block - 1
 foundry:blockFoundryMetal - 8
 chinacraft:SilverBlock - 0
+manametalmod:blockSilver - 0
 
 
 blockSilverGloss
@@ -2122,16 +2610,36 @@ blockSlimePink
 MineFactoryReloaded:pinkslime.block - 0
 
 
+blockSodium
+manametalmod:blockSodium - 0
+
+
 blockSoul
 minecraft:soul_sand - 0
 netherlicious:SoulSoil - any
+
+
+blockSoulGold
+manametalmod:blockSoulGold - 0
+
+
+blockSoulSteel
+manametalmod:blockSoulSteel - 0
 
 
 blockSoularium
 EnderIO:blockIngotStorage - 7
 
 
+blockSoulstone
+manametalmod:blockSoulstone - 0
+
+
 blockSphalerite
+
+
+blockSpinel
+manametalmod:blockSpinel - 0
 
 
 blockSpiritStone
@@ -2147,6 +2655,7 @@ minecraft:stained_hardened_clay - any
 
 
 blockStainlessSteel
+manametalmod:blockStainlessSteel - 0
 
 
 blockStannite
@@ -2155,17 +2664,26 @@ blockStannite
 blockStarGarnet
 
 
+blockStarSilver
+manametalmod:blockStarSilver - 0
+
+
 blockStaredMithril
 mett:Storage - 5
 
 
+blockStartleSilver
+manametalmod:blockStartleSilver - 0
+
+
 blockSteel
+TConstruct:MetalBlock - 9
+Mekanism:BasicBlock - 5
 Railcraft:cube - 2
 ImmersiveEngineering:storage - 7
-TConstruct:MetalBlock - 9
 Metallurgy:base.block - 7
 foundry:blockFoundryMetal - 9
-Mekanism:BasicBlock - 5
+manametalmod:blockSteel - 0
 SpiritOresMod:steelBlock - 0
 steamcraft2:BlockMetal - 6
 SteelIndustries:blockSteel - 0
@@ -2189,6 +2707,7 @@ blockStromeyerite
 
 blockSugar
 TSteelworks:dustStorage - 1
+manametalmod:blockSugar - 0
 
 
 blockSulfur
@@ -2196,7 +2715,20 @@ Metallurgy:utility.block - 0
 zettaindustries:sulfurblock - 0
 
 
+blockSunstone
+manametalmod:blockSunstone - 0
+
+
+blockSuperAlloy
+manametalmod:blockSuperAlloy - 0
+
+
 blockTantalum
+
+
+blockTanzanite
+BiomesOPlenty:gemOre - 9
+manametalmod:blockTanzanite - 0
 
 
 blockTar
@@ -2227,16 +2759,25 @@ Thaumcraft:blockCosmeticSolid - 4
 blockThorium
 
 
+blockThulium
+manametalmod:blockThulium - 0
+
+
 blockTin
 ThermalFoundation:Storage - 1
-TConstruct:MetalBlock - 5
-Mekanism:BasicBlock - 13
 Railcraft:cube - 10
+TConstruct:MetalBlock - 5
 Forestry:resourceStorage - 2
 Metallurgy:base.block - 1
 foundry:blockFoundryMetal - 1
 GalacticraftCore:tile.gcBlockCore - 10
+Mekanism:BasicBlock - 13
+manametalmod:blockTin - 0
 steamcraft2:BlockMetal - 2
+
+
+blockTitan
+manametalmod:blockTitan - 0
 
 
 blockTitandia
@@ -2246,10 +2787,16 @@ thorfusion:titandia - 0
 blockTitanium
 foundry:blockFoundryMetal - 15
 Mariculture:metals - 4
+manametalmod:blockTitanium - 0
 SteelIndustries:blockTitanium - 0
 
 
+blockTitaniumAlloy
+manametalmod:blockTitaniumAlloy - 0
+
+
 blockTopaz
+BiomesOPlenty:gemOre - 7
 
 
 blockTorch
@@ -2275,7 +2822,15 @@ harvestcraft:pamcandleDeco16 - 0
 blockToslotrium
 
 
+blockTourmaline
+manametalmod:blockTourmaline - 0
+
+
 blockTritanium
+
+
+blockTrueAncientThulium
+manametalmod:MetalBlock1 - 3
 
 
 blockTuff
@@ -2293,11 +2848,16 @@ blockTungstenSteel
 blockTurquoise
 
 
+blockUniverseEnergy
+manametalmod:blockUniverseEnergy - 0
+
+
 blockUnstable
 ExtraUtilities:decorativeBlock1 - 5
 
 
 blockUranium
+manametalmod:blockUranium - 0
 steamcraft2:BlockUranium - 0
 
 
@@ -2305,6 +2865,7 @@ blockVacous
 
 
 blockVanadium
+manametalmod:blockVanadium - 0
 
 
 blockVanadiumSteel
@@ -2349,6 +2910,10 @@ netherlicious:Wartblock - any
 
 blockWaterstone
 chisel:waterstone - 0
+
+
+blockWolfram
+manametalmod:blockWolfram - 0
 
 
 blockWolframite
@@ -2430,18 +2995,32 @@ minecraft:wool - 4
 
 blockWroughtIron
 GardenStuff:metal_block - 0
+manametalmod:blockWroughtIron - 0
+
+
+blockYadras
+manametalmod:blockYadras - 0
 
 
 blockYag
 
 
+blockYamagata
+manametalmod:blockYamagata - 0
+
+
 blockYellorium
+
+
+blockYttrium
+manametalmod:blockYttrium - 0
 
 
 blockZinc
 Metallurgy:precious.block - 0
 foundry:blockFoundryMetal - 6
 Steamcraft:blockZinc - 0
+manametalmod:blockZinc - 0
 steamcraft2:BlockMetal - 3
 
 
@@ -2452,6 +3031,7 @@ blockZincite
 
 
 blockZircon
+manametalmod:blockZircon - 0
 
 
 blockmolten.bedrockiumingots
@@ -2547,6 +3127,21 @@ woodstuff:bookshelf_tile.for.planks_25 - 0
 woodstuff:bookshelf_tile.for.planks_26 - 0
 woodstuff:bookshelf_tile.for.planks_27 - 0
 woodstuff:bookshelf_tile.for.planks_28 - 0
+woodstuff:bookshelf_tile.planks_0 - 0
+woodstuff:bookshelf_tile.planks_1 - 0
+woodstuff:bookshelf_tile.planks_2 - 0
+woodstuff:bookshelf_tile.planks_3 - 0
+woodstuff:bookshelf_tile.planks_4 - 0
+woodstuff:bookshelf_tile.planks_5 - 0
+woodstuff:bookshelf_tile.planks_6 - 0
+woodstuff:bookshelf_tile.planks_7 - 0
+woodstuff:bookshelf_tile.planks_8 - 0
+woodstuff:bookshelf_tile.planks_9 - 0
+woodstuff:bookshelf_tile.planks_10 - 0
+woodstuff:bookshelf_tile.planks_11 - 0
+woodstuff:bookshelf_tile.planks_12 - 0
+woodstuff:bookshelf_tile.planks_13 - 0
+woodstuff:bookshelf_tile.planks_14 - 0
 woodstuff:bookshelf_tile.hl_woodPlanks_0 - 0
 woodstuff:bookshelf_tile.hl_woodPlanks_1 - 0
 woodstuff:bookshelf_tile.hl_woodPlanks_2 - 0
@@ -2655,6 +3250,18 @@ MoreBows:IronBow - any
 bowlWood
 minecraft:bowl - 0
 Natura:natura.emptybowl - 0
+
+
+brassDoublePlate
+manametalmod:brassDoublePlate - 0
+
+
+brassGear
+manametalmod:brassGear - 0
+
+
+brassPlate
+manametalmod:brassPlate - 0
 
 
 breederUranium
@@ -3032,6 +3639,14 @@ bricksStoneYellow
 ExtraUtilities:colorStoneBrick - 11
 
 
+bronzeDoublePlate
+manametalmod:bronzeDoublePlate - 0
+
+
+bronzePlate
+manametalmod:bronzePlate - 0
+
+
 bronzeRod
 TConstruct:toolRod - 14
 
@@ -3179,6 +3794,21 @@ woodstuff:button_tile.for.planks_25 - 0
 woodstuff:button_tile.for.planks_26 - 0
 woodstuff:button_tile.for.planks_27 - 0
 woodstuff:button_tile.for.planks_28 - 0
+woodstuff:button_tile.planks_0 - 0
+woodstuff:button_tile.planks_1 - 0
+woodstuff:button_tile.planks_2 - 0
+woodstuff:button_tile.planks_3 - 0
+woodstuff:button_tile.planks_4 - 0
+woodstuff:button_tile.planks_5 - 0
+woodstuff:button_tile.planks_6 - 0
+woodstuff:button_tile.planks_7 - 0
+woodstuff:button_tile.planks_8 - 0
+woodstuff:button_tile.planks_9 - 0
+woodstuff:button_tile.planks_10 - 0
+woodstuff:button_tile.planks_11 - 0
+woodstuff:button_tile.planks_12 - 0
+woodstuff:button_tile.planks_13 - 0
+woodstuff:button_tile.planks_14 - 0
 woodstuff:button_tile.hl_woodPlanks_0 - 0
 woodstuff:button_tile.hl_woodPlanks_1 - 0
 woodstuff:button_tile.hl_woodPlanks_2 - 0
@@ -3419,6 +4049,21 @@ woodstuff:chest_tile.for.planks_25 - 0
 woodstuff:chest_tile.for.planks_26 - 0
 woodstuff:chest_tile.for.planks_27 - 0
 woodstuff:chest_tile.for.planks_28 - 0
+woodstuff:chest_tile.planks_0 - 0
+woodstuff:chest_tile.planks_1 - 0
+woodstuff:chest_tile.planks_2 - 0
+woodstuff:chest_tile.planks_3 - 0
+woodstuff:chest_tile.planks_4 - 0
+woodstuff:chest_tile.planks_5 - 0
+woodstuff:chest_tile.planks_6 - 0
+woodstuff:chest_tile.planks_7 - 0
+woodstuff:chest_tile.planks_8 - 0
+woodstuff:chest_tile.planks_9 - 0
+woodstuff:chest_tile.planks_10 - 0
+woodstuff:chest_tile.planks_11 - 0
+woodstuff:chest_tile.planks_12 - 0
+woodstuff:chest_tile.planks_13 - 0
+woodstuff:chest_tile.planks_14 - 0
 woodstuff:chest_tile.hl_woodplanks_0 - 0
 woodstuff:chest_tile.hl_woodplanks_1 - 0
 woodstuff:chest_tile.hl_woodplanks_2 - 0
@@ -7632,6 +8277,21 @@ woodstuff:chest_tile.for.planks_25 - 0
 woodstuff:chest_tile.for.planks_26 - 0
 woodstuff:chest_tile.for.planks_27 - 0
 woodstuff:chest_tile.for.planks_28 - 0
+woodstuff:chest_tile.planks_0 - 0
+woodstuff:chest_tile.planks_1 - 0
+woodstuff:chest_tile.planks_2 - 0
+woodstuff:chest_tile.planks_3 - 0
+woodstuff:chest_tile.planks_4 - 0
+woodstuff:chest_tile.planks_5 - 0
+woodstuff:chest_tile.planks_6 - 0
+woodstuff:chest_tile.planks_7 - 0
+woodstuff:chest_tile.planks_8 - 0
+woodstuff:chest_tile.planks_9 - 0
+woodstuff:chest_tile.planks_10 - 0
+woodstuff:chest_tile.planks_11 - 0
+woodstuff:chest_tile.planks_12 - 0
+woodstuff:chest_tile.planks_13 - 0
+woodstuff:chest_tile.planks_14 - 0
 woodstuff:chest_tile.hl_woodplanks_0 - 0
 woodstuff:chest_tile.hl_woodplanks_1 - 0
 woodstuff:chest_tile.hl_woodplanks_2 - 0
@@ -8093,6 +8753,9 @@ clumpWood
 clumpZinc
 
 
+clusterAcanoy
+
+
 clusterActivatedCarbon
 
 
@@ -8106,13 +8769,25 @@ clusterAdamantite
 clusterAdamantium
 
 
+clusterAdamman
+
+
 clusterAer
 
 
 clusterAerotheum
 
 
+clusterAether
+
+
+clusterAgate
+
+
 clusterAlabaster
+
+
+clusterAlchemyMana
 
 
 clusterAlduorite
@@ -8148,6 +8823,12 @@ clusterAmmonium
 
 
 clusterAmordrine
+
+
+clusterAmpulos
+
+
+clusterAncientThulium
 
 
 clusterAngmallen
@@ -8193,12 +8874,18 @@ clusterAshual
 clusterAstral Silver
 
 
+clusterAstral.silver
+
+
 clusterAstralSilver
 WitchingGadgets:item.WG_Cluster - 22
 
 
 clusterAtlarus
 WitchingGadgets:item.WG_Cluster - 28
+
+
+clusterBadyala
 
 
 clusterBam
@@ -8237,6 +8924,12 @@ clusterBasalz
 clusterBauxite
 
 
+clusterBedrock
+
+
+clusterBedrockium
+
+
 clusterBerryAluminium
 
 
@@ -8265,6 +8958,9 @@ clusterBeryllium
 WitchingGadgets:item.WG_Cluster - 31
 
 
+clusterBiliha
+
+
 clusterBismuth
 
 
@@ -8275,6 +8971,9 @@ clusterBituminous
 
 
 clusterBituminousCoal
+
+
+clusterBlackDiamond
 
 
 clusterBlackOpal
@@ -8304,6 +9003,9 @@ clusterBlackgraniteSilver
 clusterBlackgraniteTin
 
 
+clusterBlackhole
+
+
 clusterBlazium
 
 
@@ -8311,6 +9013,12 @@ clusterBlitz
 
 
 clusterBlizz
+
+
+clusterBloodItron
+
+
+clusterBloodMetal
 
 
 clusterBloodstone
@@ -8514,6 +9222,9 @@ WitchingGadgets:item.WG_Cluster - 32
 clusterCobaltite
 
 
+clusterCobaltum
+
+
 clusterCobblestone
 
 
@@ -8521,6 +9232,9 @@ clusterCoke
 
 
 clusterCompass
+
+
+clusterCompressionSteel
 
 
 clusterConductiveIron
@@ -8539,10 +9253,19 @@ Thaumcraft:ItemNugget - 17
 clusterCopperMixedTin
 
 
+clusterCopyA
+
+
+clusterCordierite
+
+
 clusterCorundum
 
 
 clusterCosmicNeutronium
+
+
+clusterCrimson
 
 
 clusterCrocoite
@@ -8587,6 +9310,9 @@ clusterDaedelosMorgul
 clusterDamascusSteel
 
 
+clusterDark
+
+
 clusterDarkSoularium
 
 
@@ -8601,6 +9327,9 @@ clusterDebris
 
 clusterDeepIron
 WitchingGadgets:item.WG_Cluster - 19
+
+
+clusterDeepiron
 
 
 clusterDeepslateAluminum
@@ -8666,6 +9395,9 @@ clusterDeepslateLead
 clusterDeepslateMagnesium
 
 
+clusterDeepslateMalachite
+
+
 clusterDeepslateMithril
 
 
@@ -8675,16 +9407,34 @@ clusterDeepslateNickel
 clusterDeepslateOsmium
 
 
+clusterDeepslatePeridot
+
+
 clusterDeepslatePlatinum
 
 
 clusterDeepslateRedstone
 
 
+clusterDeepslateRuby
+
+
+clusterDeepslateSapphire
+
+
 clusterDeepslateSilver
 
 
+clusterDeepslateTanzanite
+
+
 clusterDeepslateTin
+
+
+clusterDeepslateTitanium
+
+
+clusterDeepslateTopaz
 
 
 clusterDeepslateTungsten
@@ -8712,6 +9462,9 @@ clusterDimensionForged
 
 
 clusterDirt
+
+
+clusterDirt3000
 
 
 clusterDirtyAdamantine
@@ -9008,7 +9761,22 @@ clusterDraconium
 clusterDraconiumAwakened
 
 
+clusterDragonGold
+
+
+clusterDragonPalladium
+
+
+clusterDragonPlatinum
+
+
+clusterDragonSilver
+
+
 clusterDrulloy
+
+
+clusterDungeonGold
 
 
 clusterDuralumin
@@ -9068,6 +9836,9 @@ clusterEndSteel
 clusterEnder
 
 
+clusterEnderGold
+
+
 clusterEnderPearl
 
 
@@ -9084,6 +9855,9 @@ clusterEnderiumBase
 
 
 clusterEndium
+
+
+clusterEndless
 
 
 clusterEndstone
@@ -9116,6 +9890,9 @@ clusterEnergeticAlloy
 clusterEnergeticSilver
 
 
+clusterEnergyCrystal
+
+
 clusterEnrichedGold
 
 
@@ -9137,6 +9914,12 @@ WitchingGadgets:item.WG_Cluster - 4
 
 
 clusterFairy
+
+
+clusterFantasygold
+
+
+clusterFarm
 
 
 clusterFeliron
@@ -9163,6 +9946,9 @@ clusterFluix
 clusterFluorite
 
 
+clusterFlyGem
+
+
 clusterFoolsGold
 
 
@@ -9176,6 +9962,12 @@ clusterFzDarkIron
 
 
 clusterGadolinium
+
+
+clusterGaia
+
+
+clusterGalaxy
 
 
 clusterGalena
@@ -9254,6 +10046,12 @@ clusterGold
 Thaumcraft:ItemNugget - 31
 
 
+clusterGoldSteeleafIngot
+
+
+clusterGoslarda
+
+
 clusterGraphite
 
 
@@ -9308,7 +10106,16 @@ clusterHepatizon
 clusterHexcite
 
 
+clusterHighlycrystal
+
+
 clusterHolmium
+
+
+clusterHolyCopper
+
+
+clusterHolySoul
 
 
 clusterHydratedCoal
@@ -9358,6 +10165,9 @@ clusterInfusedOrder
 clusterInfusedWater
 
 
+clusterInitial
+
+
 clusterInolashite
 
 
@@ -9384,6 +10194,9 @@ clusterIronCompressed
 clusterIronwood
 
 
+clusterIte
+
+
 clusterIthildinBlueDwarven
 
 
@@ -9394,6 +10207,9 @@ clusterJade
 
 
 clusterJasper
+
+
+clusterJet
 
 
 clusterKalendrite
@@ -9418,6 +10234,9 @@ clusterLanthanum
 clusterLapis
 
 
+clusterLapuda
+
+
 clusterLaserite
 
 
@@ -9430,6 +10249,9 @@ Thaumcraft:ItemNugget - 20
 
 clusterLemurite
 WitchingGadgets:item.WG_Cluster - 10
+
+
+clusterLightScrap
 
 
 clusterLignite
@@ -9457,6 +10279,9 @@ clusterLudicrite
 
 
 clusterLumium
+
+
+clusterLunaStone
 
 
 clusterLunium
@@ -9487,6 +10312,24 @@ clusterMagnite
 
 
 clusterMalachite
+
+
+clusterMana
+
+
+clusterManaDragonCrystal
+
+
+clusterManaEnderCrystal
+
+
+clusterManaPureS
+
+
+clusterManaS
+
+
+clusterManaSpiritSteel
 
 
 clusterManasteel
@@ -9583,11 +10426,17 @@ clusterMolten.bedrockiumingots
 clusterMolten.unstableingots
 
 
+clusterMoltenGold
+
+
 clusterMolybdenite
 
 
 clusterMolybdenum
 WitchingGadgets:item.WG_Cluster - 34
+
+
+clusterMonahide
 
 
 clusterMonazite
@@ -9600,6 +10449,12 @@ clusterMortium
 
 
 clusterMysterious
+
+
+clusterMysteriousIron
+
+
+clusterMysteriousSoul
 
 
 clusterMystic
@@ -9869,6 +10724,9 @@ clusterNetherrackSilver
 
 
 clusterNetherrackTin
+
+
+clusterNeutronEnergy
 
 
 clusterNichrome
@@ -10328,10 +11186,19 @@ clusterPotash
 clusterPotashAlum
 
 
+clusterPotassium
+
+
 clusterPotentia
 
 
+clusterPowerIronwoodIngot
+
+
 clusterPraseodymium
+
+
+clusterPreciousIron
 
 
 clusterPrimal
@@ -10348,6 +11215,9 @@ clusterPulsatingIron
 
 
 clusterPumice
+
+
+clusterPurgatoryIron
 
 
 clusterPyrite
@@ -10378,6 +11248,15 @@ clusterRadioactiveLead
 
 
 clusterRadionite
+
+
+clusterRainbowDiamond
+
+
+clusterRainbowOpal
+
+
+clusterRainbowSteel
 
 
 clusterRedAlloy
@@ -10428,10 +11307,16 @@ clusterRefinedLapis
 clusterRefinedObsidian
 
 
+clusterRhodium
+
+
 clusterRoseGold
 
 
 clusterRoseQuartz
+
+
+clusterRosite
 
 
 clusterRubber
@@ -10442,6 +11327,9 @@ WitchingGadgets:item.WG_Cluster - 25
 
 
 clusterRuby
+
+
+clusterRuneSteel
 
 
 clusterRunicSteel
@@ -10495,6 +11383,9 @@ clusterShadow
 
 clusterShadowIron
 WitchingGadgets:item.WG_Cluster - 9
+
+
+clusterShadowSecretGold
 
 
 clusterShadowSteel
@@ -10849,10 +11740,19 @@ clusterSodiumChloride
 clusterSoul
 
 
+clusterSoulGold
+
+
+clusterSoulSteel
+
+
 clusterSoularium
 
 
 clusterSoulium
+
+
+clusterSoulstone
 
 
 clusterSphalerite
@@ -10870,10 +11770,19 @@ clusterSpirited
 clusterStainlessSteel
 
 
+clusterStar
+
+
 clusterStarGarnet
 
 
+clusterStarSilver
+
+
 clusterStaredMithril
+
+
+clusterStartleSilver
 
 
 clusterSteel
@@ -10904,6 +11813,9 @@ clusterSulphur
 
 
 clusterSunstone
+
+
+clusterSuperAlloy
 
 
 clusterTaconite
@@ -10950,6 +11862,9 @@ WitchingGadgets:item.WG_Cluster - 40
 
 
 clusterThulium
+
+
+clusterTigerite
 
 
 clusterTin
@@ -11274,7 +12189,13 @@ clusterTinyZinc
 clusterTinyZincAlloy
 
 
+clusterTitan
+
+
 clusterTitanium
+
+
+clusterTitaniumAlloy
 
 
 clusterTofu
@@ -11301,6 +12222,9 @@ clusterTravertine
 clusterTritanium
 
 
+clusterTrueAncientThulium
+
+
 clusterTungstate
 
 
@@ -11308,6 +12232,15 @@ clusterTungsten
 
 
 clusterTurquoise
+
+
+clusterTwilight
+
+
+clusterUltimateTerrasteel
+
+
+clusterUniverseEnergy
 
 
 clusterUnstable
@@ -11374,13 +12307,22 @@ WitchingGadgets:item.WG_Cluster - 12
 clusterWheat
 
 
+clusterWolfram
+
+
 clusterWood
 
 
 clusterWroughtIron
 
 
+clusterYadras
+
+
 clusterYag
+
+
+clusterYamagata
 
 
 clusterYeast
@@ -11420,6 +12362,9 @@ clusterZircon
 
 coal
 minecraft:coal - 0
+minecraft:coal - 1
+manametalmod:lignite - 0
+manametalmod:ManaCoal - 0
 
 
 cobaltRod
@@ -11446,6 +12391,8 @@ ExtraUtilities:color_stonebrick - 14
 ExtraUtilities:color_stonebrick - 15
 MineFactoryReloaded:stone - 2
 MineFactoryReloaded:stone - 3
+GalacticraftMars:tile.mars - 4
+GalaxySpace:barnardacblocks - 2
 Parachronology:petrifiedwood - 0
 TragicMC:lightCobblestone - 0
 TragicMC:lightCobblestone - 1
@@ -11456,6 +12403,7 @@ TragicMC:darkCobblestone - 2
 TragicMC:darkCobblestone - 3
 enderlicious:EndCobble - 0
 enderlicious:EndCobble - 2
+manametalmod:ManaStone - 0
 netherlicious:Blackstone - 0
 steamcraft2:BlockSlate - 3
 steamcraft2:BlockSlate - 4
@@ -11529,6 +12477,26 @@ ExtraUtilities:color_stonebrick - 15
 
 cobblestoneYellow
 ExtraUtilities:color_stonebrick - 11
+
+
+coilCopper
+manametalmod:copperCoil - 0
+
+
+coilGold
+manametalmod:goldCoil - 0
+
+
+coilIron
+manametalmod:ironCoil - 0
+
+
+coilLead
+manametalmod:leadCoil - 0
+
+
+coilManaS
+manametalmod:ManaSCoil - 0
 
 
 coloredBed
@@ -11695,6 +12663,14 @@ Growthcraft|Hops:grc.hops - 0
 cookingClam
 
 
+copperCoil
+manametalmod:copperCoil - 0
+
+
+copperGear
+manametalmod:copperGear - 0
+
+
 copperOre
 
 
@@ -11804,6 +12780,21 @@ woodstuff:crafting_table_tile.for.planks_25 - 0
 woodstuff:crafting_table_tile.for.planks_26 - 0
 woodstuff:crafting_table_tile.for.planks_27 - 0
 woodstuff:crafting_table_tile.for.planks_28 - 0
+woodstuff:crafting_table_tile.planks_0 - 0
+woodstuff:crafting_table_tile.planks_1 - 0
+woodstuff:crafting_table_tile.planks_2 - 0
+woodstuff:crafting_table_tile.planks_3 - 0
+woodstuff:crafting_table_tile.planks_4 - 0
+woodstuff:crafting_table_tile.planks_5 - 0
+woodstuff:crafting_table_tile.planks_6 - 0
+woodstuff:crafting_table_tile.planks_7 - 0
+woodstuff:crafting_table_tile.planks_8 - 0
+woodstuff:crafting_table_tile.planks_9 - 0
+woodstuff:crafting_table_tile.planks_10 - 0
+woodstuff:crafting_table_tile.planks_11 - 0
+woodstuff:crafting_table_tile.planks_12 - 0
+woodstuff:crafting_table_tile.planks_13 - 0
+woodstuff:crafting_table_tile.planks_14 - 0
 woodstuff:crafting_table_tile.hl_woodPlanks_0 - 0
 woodstuff:crafting_table_tile.hl_woodPlanks_1 - 0
 woodstuff:crafting_table_tile.hl_woodPlanks_2 - 0
@@ -11869,6 +12860,21 @@ woodstuff:crafting_table_tile.for.planks_25 - 0
 woodstuff:crafting_table_tile.for.planks_26 - 0
 woodstuff:crafting_table_tile.for.planks_27 - 0
 woodstuff:crafting_table_tile.for.planks_28 - 0
+woodstuff:crafting_table_tile.planks_0 - 0
+woodstuff:crafting_table_tile.planks_1 - 0
+woodstuff:crafting_table_tile.planks_2 - 0
+woodstuff:crafting_table_tile.planks_3 - 0
+woodstuff:crafting_table_tile.planks_4 - 0
+woodstuff:crafting_table_tile.planks_5 - 0
+woodstuff:crafting_table_tile.planks_6 - 0
+woodstuff:crafting_table_tile.planks_7 - 0
+woodstuff:crafting_table_tile.planks_8 - 0
+woodstuff:crafting_table_tile.planks_9 - 0
+woodstuff:crafting_table_tile.planks_10 - 0
+woodstuff:crafting_table_tile.planks_11 - 0
+woodstuff:crafting_table_tile.planks_12 - 0
+woodstuff:crafting_table_tile.planks_13 - 0
+woodstuff:crafting_table_tile.planks_14 - 0
 woodstuff:crafting_table_tile.hl_woodPlanks_0 - 0
 woodstuff:crafting_table_tile.hl_woodPlanks_1 - 0
 woodstuff:crafting_table_tile.hl_woodPlanks_2 - 0
@@ -11912,12 +12918,20 @@ cropASparagus
 cropAcorn
 
 
+cropAgaricusBisporus
+manametalmod:AgaricusBisporus_crop - 0
+
+
 cropAllium
 minecraft:dye - 13
 
 
 cropAlmond
 harvestcraft:almondItem - 0
+
+
+cropAloe
+manametalmod:Aloe_crop - 0
 
 
 cropApple
@@ -11965,6 +12979,7 @@ harvestcraft:bananaItem - 0
 cropBarley
 Natura:barleyFood - 0
 harvestcraft:barleyItem - 0
+manametalmod:Barley_crop - 0
 
 
 cropBean
@@ -11976,6 +12991,7 @@ cropBeechnut
 
 cropBeet
 harvestcraft:beetItem - 0
+manametalmod:Beet_crop - 0
 
 
 cropBeetRoot
@@ -12008,6 +13024,14 @@ Natura:berry.nether - 0
 
 
 cropBloodleaf
+
+
+cropBlueBerry
+manametalmod:BlueBerry_crop - 0
+
+
+cropBlueMushroom
+manametalmod:BlueMushroom_crop - 0
 
 
 cropBlueberry
@@ -12106,6 +13130,7 @@ minecraft:cactus - 0
 cropCactusfruit
 Natura:saguaro.fruit - 0
 harvestcraft:cactusfruitItem - 0
+manametalmod:Cactusfruit - 0
 
 
 cropCamellia
@@ -12129,6 +13154,7 @@ harvestcraft:cantaloupeItem - 0
 
 cropCarrot
 minecraft:carrot - 0
+manametalmod:cookcarrots - 0
 
 
 cropCashew
@@ -12185,6 +13211,11 @@ harvestcraft:coconutItem - 0
 cropCoffee
 harvestcraft:coffeebeanItem - 0
 ActuallyAdditions:itemCoffeeBeans - 0
+FoodCraft:ItemKafei - 0
+
+
+cropCoffeebeans
+manametalmod:Coffeebeans_crop - 0
 
 
 cropCorn
@@ -12198,10 +13229,16 @@ harvestcraft:cottonItem - 0
 
 cropCranberry
 harvestcraft:cranberryItem - 0
+manametalmod:Cranberry_crop - 0
+
+
+cropCron
+manametalmod:Cron_crop - 0
 
 
 cropCucumber
 harvestcraft:cucumberItem - 0
+manametalmod:Cucumber_crop - 0
 
 
 cropCuprosia
@@ -12231,6 +13268,10 @@ netherlicious:DevilishMaizeItem - 0
 
 cropDiamahlia
 MagicBees:beeNugget - 5
+
+
+cropDiamondBerrie
+manametalmod:DiamondBerrie_crop - 0
 
 
 cropDragonfruit
@@ -12275,6 +13316,10 @@ minecraft:string - 0
 cropFleshroot
 
 
+cropGanoderma
+manametalmod:Ganoderma_crop - 0
+
+
 cropGarlic
 witchery:garlic - any
 harvestcraft:garlicItem - 0
@@ -12297,6 +13342,10 @@ harvestcraft:gingerItem - 0
 
 
 cropGinkgoNut
+
+
+cropGinseng
+manametalmod:Ginseng_crop - 0
 
 
 cropGooseberry
@@ -12365,6 +13414,11 @@ harvestcraft:lemonItem - 0
 
 cropLettuce
 harvestcraft:lettuceItem - 0
+manametalmod:Lettuce_crop - 0
+
+
+cropLily
+manametalmod:Lily_crop - 0
 
 
 cropLime
@@ -12377,6 +13431,10 @@ Natura:berry - 3
 
 cropMandrake
 witchery:ingredient - 22
+
+
+cropMandrakes
+manametalmod:Mandrakes_crop - 0
 
 
 cropMango
@@ -12394,6 +13452,14 @@ cropMelon
 minecraft:melon - 0
 
 
+cropMilkweed
+manametalmod:Milkweed_crop - 0
+
+
+cropMint
+manametalmod:Mint_crop - 0
+
+
 cropMushroomBrown
 minecraft:brown_mushroom - 0
 
@@ -12406,6 +13472,10 @@ cropMustard
 harvestcraft:mustardseedsItem - 0
 
 
+cropNettle
+manametalmod:Nettle_crop - 0
+
+
 cropNiccissus
 ThermalFoundation:material - 100
 
@@ -12416,6 +13486,10 @@ minecraft:glowstone_dust - 0
 
 cropNutmeg
 harvestcraft:nutmegItem - 0
+
+
+cropOat
+manametalmod:Oat_crop - 0
 
 
 cropOats
@@ -12432,6 +13506,7 @@ harvestcraft:oliveItem - 0
 
 cropOnion
 harvestcraft:onionItem - 0
+manametalmod:Onion_crop - 0
 
 
 cropOrange
@@ -12446,7 +13521,7 @@ cropOsangeOrange
 
 
 cropOsmonium
-AgriCraft:nuggetOsmium - 0
+manametalmod:nuggetOsmium - 0
 
 
 cropOssidroot
@@ -12463,6 +13538,7 @@ harvestcraft:parsnipItem - 0
 
 
 cropPeach
+BiomesOPlenty:food - 3
 harvestcraft:peachItem - 0
 
 
@@ -12471,6 +13547,7 @@ harvestcraft:peanutItem - 0
 
 
 cropPear
+BiomesOPlenty:food - 12
 harvestcraft:pearItem - 0
 
 
@@ -12487,6 +13564,7 @@ harvestcraft:peppercornItem - 0
 
 
 cropPersimmon
+BiomesOPlenty:food - 8
 harvestcraft:persimmonItem - 0
 
 
@@ -12497,6 +13575,7 @@ ThermalFoundation:material - 97
 cropPineapple
 harvestcraft:pineappleItem - 0
 ppapmod:pineapple - 0
+manametalmod:Pineapple_crop - 0
 
 
 cropPistachio
@@ -12517,6 +13596,10 @@ ThermalFoundation:material - 99
 cropPlum
 Forestry:fruits - 4
 harvestcraft:plumItem - 0
+
+
+cropPoisonMushroom
+manametalmod:PoisonMushroom_crop - 0
 
 
 cropPomegranate
@@ -12552,7 +13635,12 @@ Natura:berry - 0
 harvestcraft:raspberryItem - 0
 
 
+cropRedBerry
+manametalmod:RedBerry_crop - 0
+
+
 cropRedMushroom
+manametalmod:RedMushroom_crop - 0
 
 
 cropRedstodendron
@@ -12568,6 +13656,7 @@ harvestcraft:riceItem - 0
 Growthcraft|Rice:grc.rice - 0
 TragicMC:rice - 0
 ActuallyAdditions:itemFood - 16
+manametalmod:Rice_crop - 0
 
 
 cropRutabaga
@@ -12630,9 +13719,17 @@ cropSkyberry
 Natura:berry.nether - 2
 
 
+cropSnowFruit
+manametalmod:SnowFruit_crop - 0
+
+
 cropSnowbell
 witchery:ingredient - 78
 minecraft:snowball - 0
+
+
+cropSoy
+manametalmod:Soy_crop - 0
 
 
 cropSoybean
@@ -12672,6 +13769,7 @@ Natura:berry.nether - 3
 
 cropStrawberry
 harvestcraft:strawberryItem - 0
+manametalmod:Strawberry_crop - 0
 
 
 cropSugarcane
@@ -12680,6 +13778,10 @@ minecraft:reeds - 0
 
 cropSunflower
 harvestcraft:sunflowerseedsItem - 0
+
+
+cropSweetBerrie
+manametalmod:SweetBerrie_crop - 0
 
 
 cropSweetPotato
@@ -12700,11 +13802,21 @@ cropTea
 harvestcraft:tealeafItem - 0
 
 
+cropTealeaf
+manametalmod:Tealeaf_crop - 0
+
+
 cropThundergrass
+
+
+cropTobacco
+manametalmod:Tobacco_crop - 0
 
 
 cropTomato
 harvestcraft:tomatoItem - 0
+FoodCraft:ItemFanqie - 0
+manametalmod:Tomato_crop - 0
 
 
 cropTruffle
@@ -12727,11 +13839,21 @@ minecraft:dye - 7
 
 
 cropTurnip
+BiomesOPlenty:food - 11
 harvestcraft:turnipItem - 0
+manametalmod:Turnip_crop - 0
+
+
+cropVanilla
+manametalmod:Vanilla_crop - 0
 
 
 cropVanillabean
 harvestcraft:vanillabeanItem - 0
+
+
+cropVelutipes
+manametalmod:Velutipes_crop - 0
 
 
 cropVine
@@ -12769,6 +13891,10 @@ cropWheat
 minecraft:wheat - 0
 
 
+cropWhiteRadish
+manametalmod:WhiteRadish_crop - 0
+
+
 cropWhitemushroom
 harvestcraft:whitemushroomItem - 0
 
@@ -12777,6 +13903,7 @@ cropWildRice
 
 
 cropWildcarrots
+BiomesOPlenty:food - 2
 
 
 cropWintersquash
@@ -12793,6 +13920,10 @@ witchery:ingredient - 156
 
 cropWormwood
 witchery:ingredient - 111
+
+
+cropYellowMushroom
+manametalmod:YellowMushroom_crop - 0
 
 
 cropYuzu
@@ -13820,12 +14951,8 @@ crystallinemolten.unstableingots
 dayGemMaterial
 minecraft:yellow_flower - 0
 minecraft:red_flower - 0
-minecraft:red_flower - 4
-minecraft:red_flower - 5
-minecraft:red_flower - 6
-minecraft:red_flower - 7
-minecraft:red_flower - 3
-minecraft:red_flower - 8
+BiomesOPlenty:flowers - 9
+BiomesOPlenty:flowers - 0
 TragicMC:tragicFlower - 0
 TragicMC:tragicFlower - 1
 TragicMC:tragicFlower - 2
@@ -13834,10 +14961,27 @@ TragicMC:tragicFlower - 9
 TragicMC:tragicFlower - 10
 TragicMC:tragicFlower - 11
 TragicMC:tragicFlower - 14
+BiomesOPlenty:flowers - 8
+BiomesOPlenty:flowers - 4
+BiomesOPlenty:flowers - 1
+BiomesOPlenty:flowers2 - 2
+BiomesOPlenty:flowers - 5
+BiomesOPlenty:flowers - 7
+minecraft:red_flower - 2
+BiomesOPlenty:flowers - 6
+BiomesOPlenty:flowers2 - 5
+minecraft:red_flower - 6
+minecraft:red_flower - 7
+minecraft:red_flower - 5
+minecraft:red_flower - 4
+BiomesOPlenty:flowers2 - 7
 minecraft:red_flower - 1
-TragicMC:tragicFlower - 4
-TragicMC:tragicFlower - 5
-TragicMC:tragicFlower - 12
+minecraft:red_flower - 3
+BiomesOPlenty:flowers - 3
+BiomesOPlenty:flowers - 2
+BiomesOPlenty:flowers2 - 8
+BiomesOPlenty:flowers2 - 4
+BiomesOPlenty:flowers2 - 0
 
 
 daylightDetector
@@ -13847,7 +14991,12 @@ denseSand
 fossil:denseSand - 0
 
 
+denseoreAdamantine
+manametalmod:legend4 - 0
+
+
 denseoreAluminum
+manametalmod:abundantOreAluminum - 0
 
 
 denseoreAluminumBrass
@@ -13859,6 +15008,10 @@ denseoreAlumite
 denseoreArdite
 
 
+denseoreBiliha
+manametalmod:epicore3 - 0
+
+
 denseoreBronze
 
 
@@ -13866,12 +15019,15 @@ denseoreCoal
 
 
 denseoreCobalt
+manametalmod:deepOre7 - 0
 
 
 denseoreConductiveIron
 
 
 denseoreCopper
+manametalmod:abundantOreCopper - 0
+manametalmod:deepOre1 - 0
 
 
 denseoreDarkSteel
@@ -13896,18 +15052,29 @@ denseoreGlue
 
 
 denseoreGold
+manametalmod:abundantOreGold - 0
+manametalmod:oreEnderGold - 0
+
+
+denseoreHolyCopper
+manametalmod:legend5 - 0
 
 
 denseoreInvar
 
 
 denseoreIron
+manametalmod:abundantOreIron - 0
+manametalmod:orePurgatoryIron - 0
+manametalmod:deepOre2 - 0
 
 
 denseoreLapis
 
 
 denseoreLead
+manametalmod:abundantOreLead - 0
+manametalmod:deepOre3 - 0
 
 
 denseoreLimestone
@@ -13920,12 +15087,25 @@ denseoreManyullyn
 
 
 denseoreMithril
+manametalmod:legend1 - 0
+
+
+denseoreMysteriousIron
+manametalmod:legend3 - 0
 
 
 denseoreNaturalAluminum
 
 
 denseoreNickel
+
+
+denseoreOrichalcum
+manametalmod:epicore5 - 0
+
+
+denseorePalladium
+manametalmod:deepOre8 - 0
 
 
 denseorePhasedGold
@@ -13943,19 +15123,50 @@ denseorePlatinum
 denseoreQuartz
 
 
+denseoreRainbowSteel
+manametalmod:epicore6 - 0
+
+
 denseoreRedstone
+
+
+denseoreRosite
+manametalmod:epicore4 - 0
 
 
 denseoreSignalum
 
 
 denseoreSilver
+manametalmod:abundantOreSilver - 0
+manametalmod:deepOre4 - 0
+
+
+denseoreSoulSteel
+manametalmod:legend2 - 0
 
 
 denseoreSteel
 
 
 denseoreTin
+
+
+denseoreTitan
+manametalmod:epicore1 - 0
+
+
+denseoreWolfram
+manametalmod:deepOre5 - 0
+
+
+denseoreYamagata
+manametalmod:epicore2 - 0
+
+
+denseoreZinc
+manametalmod:abundantOreZinc - 0
+manametalmod:deepOre6 - 0
 
 
 denseoremolten.bedrockiumingots
@@ -14027,6 +15238,11 @@ dendrology:fullDrawers2 - any
 dendrology:fullDrawers4 - any
 dendrology:halfDrawers2 - any
 dendrology:halfDrawers4 - any
+StorageDrawersBop:fullDrawers1 - any
+StorageDrawersBop:fullDrawers2 - any
+StorageDrawersBop:fullDrawers4 - any
+StorageDrawersBop:halfDrawers2 - any
+StorageDrawersBop:halfDrawers4 - any
 StorageDrawersNatura:fullDrawers1 - any
 StorageDrawersNatura:fullDrawers2 - any
 StorageDrawersNatura:fullDrawers4 - any
@@ -14057,6 +15273,7 @@ Forestry:honeyDrop - 0
 harvestcraft:honeyItem - 0
 Growthcraft|Bees:grc.honeyJar - 0
 Growthcraft|Bees:grc.BucketFluidHoney - 0
+manametalmod:honey - 0
 gendustry:HoneyDrop - any
 
 
@@ -14066,9 +15283,14 @@ Forestry:honeydew - 0
 
 dropRoyalJelly
 Forestry:royalJelly - 0
+manametalmod:Royaljelly - 0
 
 
 dropper
+
+
+dustAcanoy
+manametalmod:dustAcanoy - 0
 
 
 dustActivatedCarbon
@@ -14076,12 +15298,16 @@ dustActivatedCarbon
 
 dustAdamantine
 Metallurgy:fantasy.dust - 13
+manametalmod:dustAdamantine - 0
 
 
 dustAdamantite
 
 
 dustAdamantium
+
+
+dustAdamman
 
 
 dustAer
@@ -14091,7 +15317,17 @@ dustAerotheum
 ThermalFoundation:material - 514
 
 
+dustAether
+
+
+dustAgate
+
+
 dustAlabaster
+
+
+dustAlchemyMana
+manametalmod:dustAlchemyMana - 0
 
 
 dustAlduorite
@@ -14116,6 +15352,7 @@ TConstruct:materials - 42
 dustAluminum
 TConstruct:materials - 40
 ImmersiveEngineering:metal - 11
+manametalmod:dustAluminum - 0
 steamcraft2:ItemMetalPowder - 0
 UltraTech:Dust_UT - 0
 Steamcraft:smashedOre - 8
@@ -14141,6 +15378,12 @@ dustAmordrine
 Metallurgy:nether.dust - 12
 
 
+dustAmpulos
+
+
+dustAncientThulium
+
+
 dustAngmallen
 Metallurgy:base.dust - 6
 
@@ -14152,6 +15395,7 @@ dustAnthraciteCoal
 
 
 dustAntimony
+manametalmod:dustAntimony - 0
 
 
 dustApatite
@@ -14190,12 +15434,19 @@ dustAshual
 dustAstral Silver
 
 
+dustAstral.silver
+
+
 dustAstralSilver
 Metallurgy:fantasy.dust - 5
 
 
 dustAtlarus
 Metallurgy:fantasy.dust - 14
+
+
+dustBadyala
+manametalmod:dustBadyala - 0
 
 
 dustBam
@@ -14235,6 +15486,12 @@ ThermalFoundation:material - 1029
 dustBauxite
 
 
+dustBedrock
+
+
+dustBedrockium
+
+
 dustBerryAluminium
 
 
@@ -14262,7 +15519,12 @@ dustBeryl
 dustBeryllium
 
 
+dustBiliha
+manametalmod:dustBiliha - 0
+
+
 dustBismuth
+manametalmod:dustBismuth - 0
 
 
 dustBitumen
@@ -14274,6 +15536,9 @@ dustBituminous
 
 
 dustBituminousCoal
+
+
+dustBlackDiamond
 
 
 dustBlackOpal
@@ -14304,6 +15569,9 @@ dustBlackgraniteSilver
 dustBlackgraniteTin
 
 
+dustBlackhole
+
+
 dustBlazium
 
 
@@ -14313,6 +15581,12 @@ ThermalFoundation:material - 1027
 
 dustBlizz
 ThermalFoundation:material - 1025
+
+
+dustBloodItron
+
+
+dustBloodMetal
 
 
 dustBloodstone
@@ -14353,6 +15627,7 @@ dustBrasa
 dustBrass
 Metallurgy:precious.dust - 3
 foundry:foundryComponent - 19
+manametalmod:dustBrass - 0
 steamcraft2:ItemMetalPowder - 4
 
 
@@ -14380,6 +15655,7 @@ dustBrimstone
 dustBronze
 ThermalFoundation:material - 41
 Metallurgy:base.dust - 3
+manametalmod:dustBronze - 0
 steamcraft2:ItemMetalPowder - 5
 
 
@@ -14415,6 +15691,7 @@ dustCalcite
 
 
 dustCalcium
+manametalmod:ingotCalcium - 0
 
 
 dustCalciumChloride
@@ -14457,6 +15734,7 @@ dustCelestium
 
 
 dustCerium
+manametalmod:dustCerium - 0
 
 
 dustCertusQuartz
@@ -14500,6 +15778,7 @@ dustChromite
 
 
 dustChromium
+manametalmod:dustChromium - 0
 
 
 dustChrysoberyl
@@ -14526,10 +15805,14 @@ EnderIO:itemPowderIngot - 0
 
 dustCobalt
 TConstruct:materials - 39
+manametalmod:dustCobalt - 0
 Steamcraft:smashedOre - 10
 
 
 dustCobaltite
+
+
+dustCobaltum
 
 
 dustCobblestone
@@ -14540,6 +15823,9 @@ ImmersiveEngineering:metal - 17
 
 
 dustCompass
+
+
+dustCompressionSteel
 
 
 dustConductiveIron
@@ -14561,6 +15847,7 @@ Metallurgy:base.dust - 0
 cientificalchemy:Dust_Coper - 0
 cientificalchemy:DirtDust_Coper - 0
 chinacraft:CopperPowder - 0
+manametalmod:dustCopper - 0
 steamcraft2:ItemMetalPowder - 1
 UltraTech:Dust_UT - 1
 Steamcraft:smashedOre - 2
@@ -14570,10 +15857,19 @@ dustCopperMixedTin
 chinacraft:CopperTinMixedPowder - 0
 
 
+dustCopyA
+
+
+dustCordierite
+
+
 dustCorundum
 
 
 dustCosmicNeutronium
+
+
+dustCrimson
 
 
 dustCrocoite
@@ -14622,6 +15918,9 @@ dustDamascusSteel
 Metallurgy:base.dust - 5
 
 
+dustDark
+
+
 dustDarkSoularium
 
 
@@ -14636,6 +15935,10 @@ dustDebris
 
 dustDeepIron
 Metallurgy:fantasy.dust - 1
+
+
+dustDeepiron
+manametalmod:dustDeepiron - 0
 
 
 dustDeepslateAluminum
@@ -14701,6 +16004,9 @@ dustDeepslateLead
 dustDeepslateMagnesium
 
 
+dustDeepslateMalachite
+
+
 dustDeepslateMithril
 
 
@@ -14710,16 +16016,34 @@ dustDeepslateNickel
 dustDeepslateOsmium
 
 
+dustDeepslatePeridot
+
+
 dustDeepslatePlatinum
 
 
 dustDeepslateRedstone
 
 
+dustDeepslateRuby
+
+
+dustDeepslateSapphire
+
+
 dustDeepslateSilver
 
 
+dustDeepslateTanzanite
+
+
 dustDeepslateTin
+
+
+dustDeepslateTitanium
+
+
+dustDeepslateTopaz
 
 
 dustDeepslateTungsten
@@ -14741,6 +16065,7 @@ Metallurgy:ender.dust - 2
 dustDiamond
 Mekanism:OtherDust - 0
 ActuallyAdditions:itemDust - 2
+manametalmod:dustDiamond - 0
 UltraTech:Dust_UT - 8
 
 
@@ -14752,6 +16077,9 @@ dustDimensionForged
 
 dustDirt
 Calculator:Soil - 0
+
+
+dustDirt3000
 
 
 dustDirtyAdamantine
@@ -15056,7 +16384,22 @@ DraconicEvolution:draconiumDust - 0
 dustDraconiumAwakened
 
 
+dustDragonGold
+
+
+dustDragonPalladium
+
+
+dustDragonPlatinum
+
+
+dustDragonSilver
+
+
 dustDrulloy
+
+
+dustDungeonGold
 
 
 dustDuralumin
@@ -15099,6 +16442,7 @@ dustElectrum
 ThermalFoundation:material - 39
 ImmersiveEngineering:metal - 16
 Metallurgy:precious.dust - 4
+manametalmod:dustElectrum - 0
 
 
 dustElectrumFlux
@@ -15122,6 +16466,9 @@ dustEnder
 rail plus:R_Items - 3
 
 
+dustEnderGold
+
+
 dustEnderPearl
 EnderIO:itemPowderIngot - 5
 
@@ -15140,6 +16487,9 @@ dustEnderiumBase
 
 
 dustEndium
+
+
+dustEndless
 
 
 dustEndstone
@@ -15172,6 +16522,10 @@ dustEnergeticAlloy
 dustEnergeticSilver
 
 
+dustEnergyCrystal
+manametalmod:dustEnergyCrystal - 0
+
+
 dustEnrichedGold
 Calculator:EnrichedGold - 0
 
@@ -15193,6 +16547,13 @@ dustFZDarkIron
 
 
 dustFairy
+
+
+dustFantasygold
+manametalmod:dustFantasygold - 0
+
+
+dustFarm
 
 
 dustFeliron
@@ -15220,6 +16581,10 @@ appliedenergistics2:item.ItemMultiMaterial - 8
 dustFluorite
 
 
+dustFlyGem
+manametalmod:dustFlyGem - 0
+
+
 dustFoolsGold
 Calculator:EnrichedGold - 0
 
@@ -15234,6 +16599,12 @@ dustFzDarkIron
 
 
 dustGadolinium
+
+
+dustGaia
+
+
+dustGalaxy
 
 
 dustGalena
@@ -15264,17 +16635,25 @@ dustGoethite
 
 dustGold
 ThermalFoundation:material - 1
-Mekanism:Dust - 1
 ImmersiveEngineering:metal - 9
 Metallurgy:vanilla.dust - 0
 cientificalchemy:Dust_Gold - 0
 cientificalchemy:DirtDust_Gold - 0
+Mekanism:Dust - 1
 ActuallyAdditions:itemDust - 1
 EnderIO:itemPowderIngot - 2
 furnus:dust - 1
+manametalmod:dustGold - 0
 steamcraft2:ItemVanillaMetalPowder - 1
 UltraTech:Dust_UT - 7
 Steamcraft:smashedOre - 1
+
+
+dustGoldSteeleafIngot
+
+
+dustGoslarda
+manametalmod:dustGoslarda - 0
 
 
 dustGraphite
@@ -15311,6 +16690,7 @@ dustHastelloy
 
 
 dustHeeEndPowder
+HardcoreEnderExpansion:end_powder - 0
 
 
 dustHeeEndium
@@ -15323,6 +16703,7 @@ dustHeeInstabilityOrb
 
 
 dustHeeStardust
+HardcoreEnderExpansion:stardust - 0
 
 
 dustHematite
@@ -15335,7 +16716,18 @@ Metallurgy:base.dust - 4
 dustHexcite
 
 
+dustHighlycrystal
+manametalmod:dustHighlycrystal - 0
+
+
 dustHolmium
+
+
+dustHolyCopper
+manametalmod:dustHolyCopper - 0
+
+
+dustHolySoul
 
 
 dustHydratedCoal
@@ -15385,6 +16777,9 @@ dustInfusedOrder
 dustInfusedWater
 
 
+dustInitial
+
+
 dustInolashite
 Metallurgy:nether.dust - 11
 
@@ -15400,18 +16795,20 @@ dustIridite
 
 
 dustIridium
+manametalmod:dustIridium - 0
 
 
 dustIron
 ThermalFoundation:material - 0
-Mekanism:Dust - 0
 ImmersiveEngineering:metal - 8
 Metallurgy:vanilla.dust - 1
 cientificalchemy:Dust_Irom - 0
 cientificalchemy:DirtDust_Irom - 0
+Mekanism:Dust - 0
 ActuallyAdditions:itemDust - 0
 EnderIO:itemPowderIngot - 1
 furnus:dust - 0
+manametalmod:dustIron - 0
 steamcraft2:ItemVanillaMetalPowder - 0
 UltraTech:Dust_UT - 6
 Steamcraft:smashedOre - 0
@@ -15421,6 +16818,9 @@ dustIronCompressed
 
 
 dustIronwood
+
+
+dustIte
 
 
 dustIthildinBlueDwarven
@@ -15433,6 +16833,9 @@ dustJade
 
 
 dustJasper
+
+
+dustJet
 
 
 dustKalendrite
@@ -15458,6 +16861,9 @@ dustLapis
 ActuallyAdditions:itemDust - 4
 
 
+dustLapuda
+
+
 dustLaserite
 
 
@@ -15470,12 +16876,17 @@ Mekanism:Dust - 6
 ImmersiveEngineering:metal - 12
 cientificalchemy:Dust_Lead - 0
 cientificalchemy:DirtDust_Lead - 0
+manametalmod:dustLead - 0
 UltraTech:Dust_UT - 3
 Steamcraft:smashedOre - 7
 
 
 dustLemurite
 Metallurgy:nether.dust - 2
+
+
+dustLightScrap
+manametalmod:dustLightScrap - 0
 
 
 dustLignite
@@ -15498,6 +16909,7 @@ dustLimonite
 
 dustLithium
 Mekanism:OtherDust - 4
+manametalmod:dustLithium - 0
 
 
 dustLudicrite
@@ -15505,6 +16917,10 @@ dustLudicrite
 
 dustLumium
 ThermalFoundation:material - 43
+
+
+dustLunaStone
+manametalmod:dustLunaStone - 0
 
 
 dustLunium
@@ -15525,6 +16941,7 @@ dustMagmaSpirited
 dustMagnesium
 Metallurgy:utility.item - 3
 Mariculture:materials - 13
+manametalmod:ingotMagnesium - 0
 
 
 dustMagnet
@@ -15540,6 +16957,28 @@ caveworld:gem - 2
 dustMalachite
 
 
+dustMana
+ThermalFoundation:material - 516
+
+
+dustManaDragonCrystal
+manametalmod:dustManaDragonCrystal - 0
+
+
+dustManaEnderCrystal
+manametalmod:dustManaEnderCrystal - 0
+
+
+dustManaPureS
+
+
+dustManaS
+
+
+dustManaSpiritSteel
+manametalmod:dustManaSpiritSteel - 0
+
+
 dustManasteel
 
 
@@ -15548,6 +16987,7 @@ dustMangalloy
 
 dustManganese
 Metallurgy:base.dust - 2
+manametalmod:dustManganese - 0
 
 
 dustManganeseSteel
@@ -15594,6 +17034,7 @@ dustMeteoricIron
 
 
 dustMeteorite
+appliedenergistics2:item.ItemMultiMaterial - 45
 
 
 dustMeurodite
@@ -15622,6 +17063,7 @@ dustMischmetal
 dustMithril
 ThermalFoundation:material - 38
 Metallurgy:fantasy.dust - 7
+manametalmod:dustMithril - 0
 
 
 dustMixed
@@ -15636,10 +17078,18 @@ dustMolten.bedrockiumingots
 dustMolten.unstableingots
 
 
+dustMoltenGold
+manametalmod:dustMoltenGold - 0
+
+
 dustMolybdenite
 
 
 dustMolybdenum
+manametalmod:dustMolybdenum - 0
+
+
+dustMonahide
 
 
 dustMonazite
@@ -15652,6 +17102,14 @@ dustMortium
 
 
 dustMysterious
+
+
+dustMysteriousIron
+manametalmod:dustMysteriousIron - 0
+
+
+dustMysteriousSoul
+manametalmod:dustMysteriousSoul - 0
 
 
 dustMystic
@@ -15887,6 +17345,7 @@ dustNetherYellorite
 
 
 dustNetherite
+manametalmod:dustNetherite - 0
 
 
 dustNethermolten.bedrockiumingots
@@ -15922,12 +17381,16 @@ dustNetherrackSilver
 dustNetherrackTin
 
 
+dustNeutronEnergy
+
+
 dustNichrome
 
 
 dustNickel
 ThermalFoundation:material - 36
 ImmersiveEngineering:metal - 14
+manametalmod:dustNickel - 0
 Steamcraft:smashedOre - 5
 
 
@@ -15981,10 +17444,12 @@ dustOreDark
 
 dustOrichalcum
 Metallurgy:fantasy.dust - 11
+manametalmod:dustOrichalcum - 0
 
 
 dustOsmium
 Mekanism:Dust - 2
+manametalmod:dustOsmium - 0
 Steamcraft:smashedOre - 9
 
 
@@ -15993,6 +17458,7 @@ Metallurgy:fantasy.dust - 4
 
 
 dustPalladium
+manametalmod:dustPalladium - 0
 
 
 dustPeat
@@ -16025,6 +17491,7 @@ dustPhosphorite
 
 dustPhosphorus
 Metallurgy:utility.item - 1
+manametalmod:ItemPhosphorus - 0
 
 
 dustPigIron
@@ -16040,6 +17507,7 @@ MineFactoryReloaded:plastic.raw - 0
 dustPlatinum
 ThermalFoundation:material - 37
 Metallurgy:precious.dust - 2
+manametalmod:dustPlatinum - 0
 
 
 dustPlutonium
@@ -16386,15 +17854,27 @@ dustPorphyry
 
 dustPotash
 Metallurgy:utility.item - 5
+manametalmod:ingotPotassium - 0
 
 
 dustPotashAlum
 
 
+dustPotassium
+manametalmod:ingotPotassium - 0
+
+
 dustPotentia
 
 
+dustPowerIronwoodIngot
+
+
 dustPraseodymium
+
+
+dustPreciousIron
+manametalmod:dustPreciousIron - 0
 
 
 dustPrimal
@@ -16411,6 +17891,9 @@ dustPulsatingIron
 
 
 dustPumice
+
+
+dustPurgatoryIron
 
 
 dustPyrite
@@ -16446,6 +17929,18 @@ dustRadioactiveLead
 
 
 dustRadionite
+
+
+dustRainbowDiamond
+manametalmod:dustRainbowDiamond - 0
+
+
+dustRainbowOpal
+manametalmod:dustRainbowOpal - 0
+
+
+dustRainbowSteel
+manametalmod:dustRainbowSteel - 0
 
 
 dustRedAlloy
@@ -16498,10 +17993,19 @@ dustRefinedObsidian
 Mekanism:OtherDust - 5
 
 
+dustRhodium
+manametalmod:dustRhodium - 0
+
+
 dustRoseGold
+manametalmod:dustRoseGold - 0
 
 
 dustRoseQuartz
+
+
+dustRosite
+manametalmod:dustRosite - 0
 
 
 dustRubber
@@ -16512,6 +18016,9 @@ Metallurgy:fantasy.dust - 8
 
 
 dustRuby
+
+
+dustRuneSteel
 
 
 dustRunicSteel
@@ -16527,12 +18034,14 @@ dustSalt
 harvestcraft:saltItem - 0
 Mekanism:Salt - 0
 Growthcraft:grccore.salt - 0
+manametalmod:salt - 0
 
 
 dustSaltpeter
 ThermalFoundation:material - 17
 Railcraft:dust - 2
 Metallurgy:utility.item - 2
+manametalmod:ItemSaltpeter - 0
 sodiumcraft:itemSodium - 6
 
 
@@ -16554,6 +18063,7 @@ dustScal
 
 
 dustScandium
+manametalmod:dustScandium - 0
 
 
 dustScarab
@@ -16573,6 +18083,10 @@ dustShadow
 
 dustShadowIron
 Metallurgy:nether.dust - 1
+
+
+dustShadowSecretGold
+manametalmod:dustShadowSecretGold - 0
 
 
 dustShadowSteel
@@ -16602,6 +18116,7 @@ ImmersiveEngineering:metal - 13
 Metallurgy:precious.dust - 1
 cientificalchemy:Dust_Silver - 0
 cientificalchemy:DirtDust_Silver - 0
+manametalmod:dustSilver - 0
 UltraTech:Dust_UT - 4
 Steamcraft:smashedOre - 6
 
@@ -16931,6 +18446,7 @@ dustSodalite
 
 
 dustSodium
+manametalmod:ingotSodium - 0
 
 
 dustSodiumChloride
@@ -16939,10 +18455,22 @@ dustSodiumChloride
 dustSoul
 
 
+dustSoulGold
+manametalmod:dustSoulGold - 0
+
+
+dustSoulSteel
+manametalmod:dustSoulSteel - 0
+
+
 dustSoularium
 
 
 dustSoulium
+
+
+dustSoulstone
+manametalmod:dustSoulstone - 0
 
 
 dustSphalerite
@@ -16958,17 +18486,30 @@ dustSpirited
 
 
 dustStainlessSteel
+manametalmod:dustStainlessSteel - 0
+
+
+dustStar
 
 
 dustStarGarnet
 
 
+dustStarSilver
+manametalmod:dustStarSilver - 0
+
+
 dustStaredMithril
+
+
+dustStartleSilver
+manametalmod:dustStartleSilver - 0
 
 
 dustSteel
 Mekanism:OtherDust - 1
 Metallurgy:base.dust - 7
+manametalmod:dustSteel - 0
 steamcraft2:ItemMetalPowder - 6
 
 
@@ -16997,7 +18538,9 @@ ThermalFoundation:material - 16
 Railcraft:dust - 1
 Natura:barleyFood - 4
 Metallurgy:utility.item - 0
+GalaxySpace:item.BasicItems - 9
 Mekanism:OtherDust - 3
+manametalmod:ItemSulfur - 0
 steamcraft2:ItemResource - 0
 UltraTech:Sulfur_UT - 0
 
@@ -17007,6 +18550,9 @@ Natura:barleyFood - 4
 
 
 dustSunstone
+
+
+dustSuperAlloy
 
 
 dustTaconite
@@ -17053,6 +18599,10 @@ dustThorium
 
 
 dustThulium
+manametalmod:dustThulium - 0
+
+
+dustTigerite
 
 
 dustTin
@@ -17063,6 +18613,7 @@ Metallurgy:base.dust - 1
 cientificalchemy:Dust_Tin - 0
 cientificalchemy:DirtDust_Tin - 0
 chinacraft:TinPowder - 0
+manametalmod:dustTin - 0
 steamcraft2:ItemMetalPowder - 2
 UltraTech:Dust_UT - 2
 Steamcraft:smashedOre - 4
@@ -17391,7 +18942,15 @@ Steamcraft:smashedOre - 16
 dustTinyZincAlloy
 
 
+dustTitan
+manametalmod:dustTitan - 0
+
+
 dustTitanium
+manametalmod:dustTitanium - 0
+
+
+dustTitaniumAlloy
 
 
 dustTofu
@@ -17418,6 +18977,9 @@ dustTravertine
 dustTritanium
 
 
+dustTrueAncientThulium
+
+
 dustTungstate
 
 
@@ -17425,6 +18987,15 @@ dustTungsten
 
 
 dustTurquoise
+
+
+dustTwilight
+
+
+dustUltimateTerrasteel
+
+
+dustUniverseEnergy
 
 
 dustUnstable
@@ -17435,6 +19006,7 @@ ashenwheat:unstableSoot - 0
 
 
 dustUranium
+manametalmod:dustUranium - 0
 
 
 dustUranium235
@@ -17447,6 +19019,7 @@ dustVacous
 
 
 dustVanadium
+manametalmod:dustVanadium - 0
 
 
 dustVanadiumSteel
@@ -17493,6 +19066,10 @@ appliedenergistics2:item.ItemMultiMaterial - 4
 EnderIO:itemPowderIngot - 8
 
 
+dustWolfram
+manametalmod:dustWolfram - 0
+
+
 dustWood
 ThermalExpansion:material - 512
 Mekanism:Sawdust - 0
@@ -17501,7 +19078,15 @@ Mekanism:Sawdust - 0
 dustWroughtIron
 
 
+dustYadras
+manametalmod:dustYadras - 0
+
+
 dustYag
+
+
+dustYamagata
+manametalmod:dustYamagata - 0
 
 
 dustYeast
@@ -17524,6 +19109,7 @@ dustYtterbium
 
 
 dustYttrium
+manametalmod:dustYttrium - 0
 
 
 dustZephyrean
@@ -17532,6 +19118,7 @@ dustZephyrean
 dustZinc
 Metallurgy:precious.dust - 0
 foundry:foundryComponent - 18
+manametalmod:dustZinc - 0
 steamcraft2:ItemMetalPowder - 3
 Steamcraft:smashedOre - 3
 
@@ -17584,10 +19171,19 @@ dustbushIron
 dustbushTin
 
 
+dustgoldSteeleafIngot
+
+
+dustite
+
+
 dustmolten.bedrockiumingots
 
 
 dustmolten.unstableingots
+
+
+dustpowerIronwoodIngot
 
 
 dustrack
@@ -17619,6 +19215,7 @@ minecraft:dye - 0
 ThermalFoundation:material - 2
 ThermalFoundation:material - 3
 Botania:dye - 15
+BiomesOPlenty:misc - 9
 ForbiddenMagic:FMResource - 1
 dyetopia:itemdyeChunk - 15
 ThaumicHorizons:inkEgg - 0
@@ -17634,6 +19231,7 @@ dyeBlue
 minecraft:dye - 4
 Botania:dye - 11
 Natura:barleyFood - 8
+BiomesOPlenty:misc - 5
 dyetopia:itemdyeChunk - 11
 Mariculture:materials - 28
 lotr:item.dye - 2
@@ -17647,6 +19245,7 @@ dyeBrown
 minecraft:dye - 3
 Botania:dye - 12
 MineFactoryReloaded:fertilizer - 0
+BiomesOPlenty:misc - 6
 dyetopia:itemdyeChunk - 12
 Mariculture:materials - 32
 lotr:item.dye - 5
@@ -17738,6 +19337,7 @@ gendustry:HoneyDrop - 18
 dyeGreen
 minecraft:dye - 2
 Botania:dye - 13
+BiomesOPlenty:misc - 7
 dyetopia:itemdyeChunk - 13
 Mariculture:materials - 29
 lotr:item.dye - 3
@@ -17813,12 +19413,12 @@ gendustry:HoneyDrop - 11
 dyeWhite
 minecraft:dye - 15
 Botania:dye - 0
+BiomesOPlenty:misc - 8
 dyetopia:itemdyeChunk - 0
 Mariculture:materials - 27
 lotr:item.dye - 1
 ExperienceApple:superDye - 0
 netherlicious:dye - 2
-weatherManMod:boneMeal - 0
 etfuturum:dye - 0
 gendustry:HoneyDrop - 25
 
@@ -17858,6 +19458,10 @@ eyeOfEnder
 
 fabricHemp
 ImmersiveEngineering:material - 4
+
+
+fakeDiamond
+manametalmod:FakeDiamond - 0
 
 
 feather
@@ -17917,6 +19521,21 @@ woodstuff:fence_tile.wood_2 - 0
 woodstuff:fence_tile.wood_3 - 0
 woodstuff:fence_tile.wood_4 - 0
 woodstuff:fence_tile.wood_5 - 0
+woodstuff:fence_tile.planks_0 - 0
+woodstuff:fence_tile.planks_1 - 0
+woodstuff:fence_tile.planks_2 - 0
+woodstuff:fence_tile.planks_3 - 0
+woodstuff:fence_tile.planks_4 - 0
+woodstuff:fence_tile.planks_5 - 0
+woodstuff:fence_tile.planks_6 - 0
+woodstuff:fence_tile.planks_7 - 0
+woodstuff:fence_tile.planks_8 - 0
+woodstuff:fence_tile.planks_9 - 0
+woodstuff:fence_tile.planks_10 - 0
+woodstuff:fence_tile.planks_11 - 0
+woodstuff:fence_tile.planks_12 - 0
+woodstuff:fence_tile.planks_13 - 0
+woodstuff:fence_tile.planks_14 - 0
 woodstuff:fence_tile.hl_woodPlanks_0 - 0
 woodstuff:fence_tile.hl_woodPlanks_1 - 0
 woodstuff:fence_tile.hl_woodPlanks_2 - 0
@@ -17988,6 +19607,21 @@ woodstuff:fence_gate_tile.for.planks_25 - 0
 woodstuff:fence_gate_tile.for.planks_26 - 0
 woodstuff:fence_gate_tile.for.planks_27 - 0
 woodstuff:fence_gate_tile.for.planks_28 - 0
+woodstuff:fence_gate_tile.planks_0 - 0
+woodstuff:fence_gate_tile.planks_1 - 0
+woodstuff:fence_gate_tile.planks_2 - 0
+woodstuff:fence_gate_tile.planks_3 - 0
+woodstuff:fence_gate_tile.planks_4 - 0
+woodstuff:fence_gate_tile.planks_5 - 0
+woodstuff:fence_gate_tile.planks_6 - 0
+woodstuff:fence_gate_tile.planks_7 - 0
+woodstuff:fence_gate_tile.planks_8 - 0
+woodstuff:fence_gate_tile.planks_9 - 0
+woodstuff:fence_gate_tile.planks_10 - 0
+woodstuff:fence_gate_tile.planks_11 - 0
+woodstuff:fence_gate_tile.planks_12 - 0
+woodstuff:fence_gate_tile.planks_13 - 0
+woodstuff:fence_gate_tile.planks_14 - 0
 woodstuff:fence_gate_tile.hl_woodPlanks_0 - 0
 woodstuff:fence_gate_tile.hl_woodPlanks_1 - 0
 woodstuff:fence_gate_tile.hl_woodPlanks_2 - 0
@@ -18166,6 +19800,10 @@ TConstruct:toolRod - 3
 floatingDuckweed
 
 
+flour
+manametalmod:Itemflour - 0
+
+
 flourEqualswheat
 minecraft:wheat - 0
 harvestcraft:flourItem - 0
@@ -18242,8 +19880,20 @@ minecraft:yellow_flower - 0
 netherlicious:NetherFlowerShrub - 1
 
 
+foodAgaricusBisporus
+manametalmod:AgaricusBisporus_crop - 0
+
+
 foodAlmondbutter
 harvestcraft:almondbutterItem - 0
+
+
+foodAloe
+manametalmod:Aloe_crop - 0
+
+
+foodAmbrosia
+BiomesOPlenty:food - 10
 
 
 foodAnchovyraw
@@ -18269,6 +19919,7 @@ harvestcraft:applejellysandwichItem - 0
 foodApplejuice
 harvestcraft:applejuiceItem - 0
 Growthcraft|Apples:grc.appleCider - 0
+FoodCraft:ItemPingguozhi - 0
 
 
 foodApplepie
@@ -18363,6 +20014,13 @@ foodBaklava
 harvestcraft:baklavaItem - 0
 
 
+foodBamboo
+manametalmod:Bamboo_crop - 0
+manametalmod:Bambusa_crop - 0
+manametalmod:Latiflorus_crop - 0
+manametalmod:SilverBamboo_crop - 0
+
+
 foodBambooshoot
 Growthcraft|Bamboo:grc.bambooShoot - 0
 Growthcraft|Bamboo:grc.bambooShootFood - 0
@@ -18404,6 +20062,10 @@ foodBangersandmash
 harvestcraft:bangersandmashItem - 0
 
 
+foodBarley
+manametalmod:Barley_crop - 0
+
+
 foodBassraw
 harvestcraft:bassrawItem - 0
 
@@ -18438,6 +20100,10 @@ harvestcraft:beefjerkyItem - 0
 
 foodBeefwellington
 harvestcraft:beefwellingtonItem - 0
+
+
+foodBeet
+manametalmod:Beet_crop - 0
 
 
 foodBeetburger
@@ -18488,6 +20154,14 @@ foodBlt
 harvestcraft:bltItem - 0
 
 
+foodBlueBerry
+manametalmod:BlueBerry_crop - 0
+
+
+foodBlueMushroom
+manametalmod:BlueMushroom_crop - 0
+
+
 foodBlueberryjelly
 harvestcraft:blueberryjellyItem - 0
 
@@ -18524,6 +20198,10 @@ foodBoiledegg
 harvestcraft:boiledeggItem - 0
 
 
+foodBowlofrice
+BiomesOPlenty:food - 13
+
+
 foodBraisedonions
 harvestcraft:braisedonionsItem - 0
 
@@ -18556,6 +20234,8 @@ foodButter
 harvestcraft:butterItem - 0
 Growthcraft|Milk:grcmilk.Butter - 0
 Growthcraft|Milk:grcmilk.Butter - 1
+manametalmod:Butter - 0
+kitchen:butter - 0
 
 
 foodButteredpotato
@@ -18602,6 +20282,7 @@ harvestcraft:candiedwalnutsItem - 0
 
 foodCaramel
 harvestcraft:caramelItem - 0
+manametalmod:caramel - 0
 
 
 foodCaramelapple
@@ -18789,10 +20470,12 @@ harvestcraft:chilipoppersItem - 0
 
 foodChocolate
 MCP_Cocoa:chocolate_bar - 0
+manametalmod:chocolate - 0
 
 
 foodChocolatebar
 harvestcraft:chocolatebarItem - 0
+manametalmod:chocolate - 0
 
 
 foodChocolatecaramelfudge
@@ -18837,6 +20520,10 @@ harvestcraft:chocolatestrawberryItem - 0
 
 foodChocolateyogurt
 harvestcraft:chocolateyogurtItem - 0
+
+
+foodCiba
+FoodCraft:ItemCiba - 0
 
 
 foodCinnamonappleoatmeal
@@ -18889,6 +20576,10 @@ harvestcraft:coconutyogurtItem - 0
 
 foodCoffee
 harvestcraft:coffeeItem - 0
+
+
+foodCoffeebeans
+manametalmod:Coffeebeans_crop - 0
 
 
 foodCoffeeconleche
@@ -18946,6 +20637,10 @@ foodCracker
 harvestcraft:crackerItem - 0
 
 
+foodCranberry
+manametalmod:Cranberry_crop - 0
+
+
 foodCranberrybar
 harvestcraft:cranberrybarItem - 0
 
@@ -18982,6 +20677,10 @@ foodCrayfishraw
 harvestcraft:crayfishrawItem - 0
 
 
+foodCream
+manametalmod:Butter - 0
+
+
 foodCreamcookie
 harvestcraft:creamcookieItem - 0
 
@@ -19000,6 +20699,14 @@ harvestcraft:creamofavocadosoupItem - 0
 
 foodCroissant
 harvestcraft:croissantItem - 0
+
+
+foodCron
+manametalmod:Cron_crop - 0
+
+
+foodCucumber
+manametalmod:Cucumber_crop - 0
 
 
 foodCucumbersalad
@@ -19040,6 +20747,10 @@ harvestcraft:deluxecheeseburgerItem - 0
 
 foodDeluxechickencurry
 harvestcraft:deluxechickencurryItem - 0
+
+
+foodDiamondBerrie
+manametalmod:DiamondBerrie_crop - 0
 
 
 foodDimsum
@@ -19121,6 +20832,10 @@ foodFigyogurt
 harvestcraft:figyogurtItem - 0
 
 
+foodFilledhoneycomb
+BiomesOPlenty:food - 9
+
+
 foodFirmtofu
 harvestcraft:firmtofuItem - 0
 
@@ -19153,6 +20868,7 @@ foodFlour
 Natura:barleyFood - 1
 Natura:barleyFood - 2
 harvestcraft:flourItem - 0
+FoodCraft:ItemMianfen - 0
 
 
 foodFootlong
@@ -19214,11 +20930,16 @@ harvestcraft:fruitpunchItem - 0
 
 
 foodFruitsalad
+BiomesOPlenty:food - 4
 harvestcraft:fruitsaladItem - 0
 
 
 foodFutomaki
 harvestcraft:futomakiItem - 0
+
+
+foodGanoderma
+manametalmod:Ganoderma_crop - 0
 
 
 foodGarammasala
@@ -19267,6 +20988,10 @@ harvestcraft:gingersnapsItem - 0
 
 foodGingersoda
 harvestcraft:gingersodaItem - 0
+
+
+foodGinseng
+manametalmod:Ginseng_crop - 0
 
 
 foodGlazedcarrots
@@ -19328,6 +21053,7 @@ harvestcraft:grapejellyItem - 0
 foodGrapejuice
 harvestcraft:grapejuiceItem - 0
 Growthcraft|Grapes:grc.grapeWine - 0
+FoodCraft:ItemPutaozhi - 0
 
 
 foodGrapes
@@ -19356,6 +21082,10 @@ harvestcraft:gravyItem - 0
 
 foodGreenheartfish
 harvestcraft:greenheartfishItem - 0
+
+
+foodGreenonion
+FoodCraft:ItemCong - 0
 
 
 foodGrilledasparagus
@@ -19596,6 +21326,14 @@ foodLemonyogurt
 harvestcraft:lemonyogurtItem - 0
 
 
+foodLettuce
+manametalmod:Lettuce_crop - 0
+
+
+foodLily
+manametalmod:Lily_crop - 0
+
+
 foodLimejelly
 harvestcraft:limejellyItem - 0
 
@@ -19618,6 +21356,10 @@ harvestcraft:limeyogurtItem - 0
 
 foodLoadedbakedpotato
 harvestcraft:loadedbakedpotatoItem - 0
+
+
+foodMandrakes
+manametalmod:Mandrakes_crop - 0
 
 
 foodMangochutney
@@ -19724,8 +21466,16 @@ foodMelonyogurt
 harvestcraft:melonyogurtItem - 0
 
 
+foodMilkweed
+manametalmod:Milkweed_crop - 0
+
+
 foodMincepie
 harvestcraft:mincepieItem - 0
+
+
+foodMint
+manametalmod:Mint_crop - 0
 
 
 foodMintchocolatechipicecream
@@ -19753,10 +21503,15 @@ harvestcraft:museliItem - 0
 
 
 foodMushroompowder
+BiomesOPlenty:food - 1
 
 
 foodMushroomrisotto
 harvestcraft:mushroomrisottoItem - 0
+
+
+foodMushroomsalad
+BiomesOPlenty:food - 6
 
 
 foodMustard
@@ -19783,8 +21538,16 @@ foodNeapolitanicecream
 harvestcraft:neapolitanicecreamItem - 0
 
 
+foodNettle
+manametalmod:Nettle_crop - 0
+
+
 foodNutella
 harvestcraft:nutellaItem - 0
+
+
+foodOat
+manametalmod:Oat_crop - 0
 
 
 foodOctopuscooked
@@ -19817,6 +21580,10 @@ harvestcraft:oliveoilItem - 0
 
 foodOmelet
 harvestcraft:omeletItem - 0
+
+
+foodOnion
+manametalmod:Onion_crop - 0
 
 
 foodOnionhamburger
@@ -20019,6 +21786,10 @@ foodPinacolada
 harvestcraft:pinacoladaItem - 0
 
 
+foodPineapple
+manametalmod:Pineapple_crop - 0
+
+
 foodPineappleham
 harvestcraft:pineapplehamItem - 0
 
@@ -20077,6 +21848,10 @@ harvestcraft:plumyogurtItem - 0
 
 foodPoachedpear
 harvestcraft:poachedpearItem - 0
+
+
+foodPoisonMushroom
+manametalmod:PoisonMushroom_crop - 0
 
 
 foodPomegranatejelly
@@ -20216,6 +21991,14 @@ harvestcraft:raspberryyogurtItem - 0
 foodRawshrimp
 
 
+foodRedBerry
+manametalmod:RedBerry_crop - 0
+
+
+foodRedMushroom
+manametalmod:RedMushroom_crop - 0
+
+
 foodRedvelvetcake
 harvestcraft:redvelvetcakeItem - 0
 
@@ -20224,12 +22007,19 @@ foodRefriedbeans
 harvestcraft:refriedbeansItem - 0
 
 
+foodRice
+FoodCraft:Itemfan - 0
+manametalmod:Rice_crop - 0
+
+
 foodRicecake
 harvestcraft:ricecakeItem - 0
+FoodCraft:ItemAici - 0
 
 
 foodRicesoup
 harvestcraft:ricesoupItem - 0
+FoodCraft:ItemXifan - 0
 
 
 foodRoastchicken
@@ -20279,6 +22069,7 @@ foodSalt
 harvestcraft:saltItem - 0
 Mariculture:materials - 12
 Growthcraft:grccore.salt - 0
+manametalmod:salt - 0
 kitsumedievalcraft:salt - 0
 
 
@@ -20370,12 +22161,20 @@ foodSnickersbar
 harvestcraft:snickersbarItem - 0
 
 
+foodSnowFruit
+manametalmod:SnowFruit_crop - 0
+
+
 foodSoftpretzel
 harvestcraft:softpretzelItem - 0
 
 
 foodSoftpretzelandmustard
 harvestcraft:softpretzelandmustardItem - 0
+
+
+foodSoy
+manametalmod:Soy_crop - 0
 
 
 foodSoymilk
@@ -20463,6 +22262,10 @@ harvestcraft:stockItem - 0
 Growthcraft|Milk:grcmilk.BottleFluidWhey - 0
 
 
+foodStrawberry
+manametalmod:Strawberry_crop - 0
+
+
 foodStrawberryicecream
 harvestcraft:strawberryicecreamItem - 0
 
@@ -20516,6 +22319,7 @@ harvestcraft:stuffedpepperItem - 0
 
 
 foodSugar
+minecraft:sugar - 0
 
 
 foodSummerradishsalad
@@ -20545,6 +22349,10 @@ harvestcraft:supremepizzaItem - 0
 foodSushi
 harvestcraft:sushiItem - 0
 TragicMC:sushi - 0
+
+
+foodSweetBerrie
+manametalmod:SweetBerrie_crop - 0
 
 
 foodSweetpickle
@@ -20580,6 +22388,10 @@ steamcraft2:ItemTeacup - 8
 steamcraft2:ItemTeacup - 9
 
 
+foodTealeaf
+manametalmod:Tealeaf_crop - 0
+
+
 foodTilapiaraw
 harvestcraft:tilapiarawItem - 0
 
@@ -20604,12 +22416,23 @@ foodToastsandwich
 harvestcraft:toastsandwichItem - 0
 
 
+foodTobacco
+manametalmod:Tobacco_crop - 0
+
+
+foodTomato
+manametalmod:Tomato_crop - 0
+
+
 foodTomatosoup
 harvestcraft:tomatosoupItem - 0
 
 
 foodTortilla
 harvestcraft:tortillaItem - 0
+
+
+foodToufu
 
 
 foodTrailmix
@@ -20636,6 +22459,10 @@ foodTurkeyraw
 harvestcraft:turkeyrawItem - 0
 
 
+foodTurnip
+manametalmod:Turnip_crop - 0
+
+
 foodTurnipsoup
 harvestcraft:turnipsoupItem - 0
 
@@ -20650,6 +22477,7 @@ harvestcraft:turtlerawItem - 0
 
 foodVanilla
 harvestcraft:vanillaItem - 0
+manametalmod:Vanilla_crop - 0
 
 
 foodVanillaicecream
@@ -20676,12 +22504,20 @@ foodVegetarianlettucewrap
 harvestcraft:vegetarianlettucewrapItem - 0
 
 
+foodVeggiesalad
+BiomesOPlenty:food - 5
+
+
 foodVeggiestirfry
 harvestcraft:veggiestirfryItem - 0
 
 
 foodVeggiestrips
 harvestcraft:veggiestripsItem - 0
+
+
+foodVelutipes
+manametalmod:Velutipes_crop - 0
 
 
 foodVenisoncooked
@@ -20718,6 +22554,14 @@ harvestcraft:watermelonjellyItem - 0
 
 foodWatermelonjellysandwich
 harvestcraft:watermelonjellysandwichItem - 0
+
+
+foodWhiteRadish
+manametalmod:WhiteRadish_crop - 0
+
+
+foodYellowMushroom
+manametalmod:YellowMushroom_crop - 0
 
 
 foodYogurt
@@ -20830,6 +22674,7 @@ gearBlackSteel
 
 
 gearBrass
+manametalmod:brassGear - 0
 
 
 gearBronze
@@ -20861,6 +22706,7 @@ gearCobaltite
 gearCopper
 ThermalFoundation:material - 128
 Forestry:gearCopper - 0
+manametalmod:copperGear - 0
 
 
 gearCupronickel
@@ -21003,6 +22849,7 @@ ThermalFoundation:material - 12
 BuildCraft|Core:ironGearItem - 0
 Railcraft:part.gear - 1
 thaumicenergistics:material - 2
+manametalmod:ironGear - 0
 steamcraft2:ItemIronParts - 0
 
 
@@ -21027,6 +22874,10 @@ gearLemurite
 
 gearLumium
 ThermalFoundation:material - 139
+
+
+gearManaS
+manametalmod:ManaSGear - 0
 
 
 gearManasteel
@@ -21143,6 +22994,7 @@ gearStainlessSteel
 
 
 gearSteel
+manametalmod:steelGear - 0
 steamcraft2:ItemSteelParts - 0
 Railcraft:part.gear - 2
 
@@ -21214,6 +23066,9 @@ BuildCraft|Core:woodenGearItem - 0
 gearZinc
 
 
+gemAcanoy
+
+
 gemAdamantine
 
 
@@ -21221,6 +23076,10 @@ gemAdamantite
 
 
 gemAdamantium
+
+
+gemAgate
+manametalmod:gemAgate - 0
 
 
 gemAlabaster
@@ -21247,13 +23106,16 @@ gemAmazonite
 
 gemAmber
 Thaumcraft:ItemResource - 6
+BiomesOPlenty:gems - 7
 fossil:amber - 0
 gemsnjewels:amber - 0
+manametalmod:gemAmber - 0
 
 
 gemAmethyst
 gemsnjewels:amethyst - 0
 Calculator:Small Amethyst - 0
+manametalmod:gemAmethyst - 0
 SpiritOresMod:amethystGem - 0
 etfuturum:amethyst_shard - 0
 
@@ -21287,6 +23149,7 @@ Forestry:apatite - 0
 gemAquamarine
 caveworld:gem - 0
 gemsnjewels:aquamarine - 0
+manametalmod:gemAquamarine - 0
 
 
 gemAragonite
@@ -21301,6 +23164,9 @@ gemArsenic
 gemAshual
 
 
+gemAstral.silver
+
+
 gemAstralSilver
 
 
@@ -21308,6 +23174,9 @@ gemAtlarus
 
 
 gemAzurite
+
+
+gemBadyala
 
 
 gemBandedIron
@@ -21323,6 +23192,9 @@ gemBeryl
 
 
 gemBeryllium
+
+
+gemBiliha
 
 
 gemBismuth
@@ -21345,6 +23217,10 @@ gemBlackAventurine
 
 
 gemBlackBeryl
+
+
+gemBlackDiamond
+manametalmod:gemBlackDiamond - 0
 
 
 gemBlackFluorite
@@ -21399,6 +23275,9 @@ gemBronze
 gemBrownAventurine
 
 
+gemCalcium
+
+
 gemCarbon
 
 
@@ -21422,6 +23301,9 @@ gemCelenegil
 
 
 gemCelestium
+
+
+gemCerium
 
 
 gemCertusQuartz
@@ -21474,6 +23356,7 @@ gemCinnabar
 
 gemCitrine
 gemsnjewels:citrine - 0
+manametalmod:gemCitrine - 0
 
 
 gemClinohumite
@@ -21488,6 +23371,9 @@ gemCobalt
 gemCobaltite
 
 
+gemCobaltum
+
+
 gemCompass
 
 
@@ -21498,6 +23384,10 @@ gemCopper
 
 
 gemCoral
+
+
+gemCordierite
+manametalmod:gemCordierite - 0
 
 
 gemCorundum
@@ -21530,6 +23420,9 @@ gemDebris
 
 
 gemDeepIron
+
+
+gemDeepiron
 
 
 gemDeepslateAluminum
@@ -21595,6 +23488,9 @@ gemDeepslateLead
 gemDeepslateMagnesium
 
 
+gemDeepslateMalachite
+
+
 gemDeepslateMithril
 
 
@@ -21604,16 +23500,34 @@ gemDeepslateNickel
 gemDeepslateOsmium
 
 
+gemDeepslatePeridot
+
+
 gemDeepslatePlatinum
 
 
 gemDeepslateRedstone
 
 
+gemDeepslateRuby
+
+
+gemDeepslateSapphire
+
+
 gemDeepslateSilver
 
 
+gemDeepslateTanzanite
+
+
 gemDeepslateTin
+
+
+gemDeepslateTitanium
+
+
+gemDeepslateTopaz
 
 
 gemDeepslateTungsten
@@ -21633,10 +23547,14 @@ gemDesichalkos
 
 gemDiamond
 minecraft:diamond - 0
+manametalmod:FakeDiamond - 0
 
 
 gemDiamondFake
 Calculator:WeakenedDiamond - 0
+
+
+gemDolomite
 
 
 gemDominicanAmber
@@ -21680,6 +23598,9 @@ gemEmerald
 minecraft:emerald - 0
 
 
+gemEnderGold
+
+
 gemEnderSpirit
 
 
@@ -21695,6 +23616,10 @@ gemEndstone
 gemEnergeticAlloy
 
 
+gemEnergyCrystal
+manametalmod:ingotEnergyCrystal - 0
+
+
 gemEssence
 
 
@@ -21702,6 +23627,9 @@ gemEximite
 
 
 gemFZDarkIron
+
+
+gemFantasygold
 
 
 gemFeliron
@@ -21716,11 +23644,16 @@ gemFlairium
 gemFluorite
 
 
+gemFlyGem
+manametalmod:gemFlyGem - 0
+
+
 gemFossil
 
 
 gemGarnet
 gemsnjewels:garnet - 0
+manametalmod:gemGarnet - 0
 
 
 gemGlowstone
@@ -21736,6 +23669,10 @@ gemGold
 
 
 gemGoshenite
+
+
+gemGoslarda
+manametalmod:ingotGoslarda - 0
 
 
 gemGraphite
@@ -21773,9 +23710,11 @@ gemHeeEndium
 
 
 gemHeeIgneousRock
+HardcoreEnderExpansion:igneous_rock - 0
 
 
 gemHeeInstabilityOrb
+HardcoreEnderExpansion:instability_orb - 0
 
 
 gemHeeStardust
@@ -21792,6 +23731,12 @@ gemHepatizon
 
 gemHexcite
 caveworld:gem - 3
+
+
+gemHighlycrystal
+
+
+gemHolyCopper
 
 
 gemIgnatius
@@ -21845,6 +23790,7 @@ gemIronwood
 
 gemJade
 gemsnjewels:jade - 0
+manametalmod:gemJade - 0
 
 
 gemJasper
@@ -21852,6 +23798,7 @@ gemsnjewels:jasper - 0
 
 
 gemJet
+manametalmod:gemJet - 0
 
 
 gemKalendrite
@@ -21901,6 +23848,10 @@ gemLead
 gemLemurite
 
 
+gemLightScrap
+manametalmod:gemLightScrap - 0
+
+
 gemLignite
 
 
@@ -21918,7 +23869,14 @@ gemLimestone
 gemLimonite
 
 
+gemLithium
+
+
 gemLumium
+
+
+gemLunaStone
+manametalmod:ingotLunaStone - 0
 
 
 gemLunium
@@ -21940,7 +23898,20 @@ gemMagnite
 
 
 gemMalachite
+BiomesOPlenty:gems - 5
 gemsnjewels:malachite - 0
+
+
+gemMana
+
+
+gemManaDragonCrystal
+
+
+gemManaEnderCrystal
+
+
+gemManaSpiritSteel
 
 
 gemManasteel
@@ -21982,6 +23953,9 @@ gemMithril
 gemMoissanite
 
 
+gemMoltenGold
+
+
 gemMolybdenite
 
 
@@ -21995,12 +23969,19 @@ gemMookaite
 
 
 gemMoonstone
+manametalmod:gemMoonstone - 0
 
 
 gemMorganite
 
 
 gemMortium
+
+
+gemMysteriousIron
+
+
+gemMysteriousSoul
 
 
 gemMythril
@@ -22165,6 +24146,9 @@ gemNetherTungsten
 gemNetherUranium
 
 
+gemNetherite
+
+
 gemNethermolten.bedrockiumingots
 
 
@@ -22197,6 +24181,7 @@ gemOilsands
 
 
 gemOlivine
+manametalmod:gemOlivine - 0
 
 
 gemOnyx
@@ -22205,6 +24190,7 @@ gemsnjewels:onyx - 0
 
 gemOpal
 gemsnjewels:opal - 0
+manametalmod:gemOpal - 0
 
 
 gemOrichalcum
@@ -22223,6 +24209,7 @@ gemPeat
 
 
 gemPeridot
+BiomesOPlenty:gems - 2
 gemsnjewels:peridot - 0
 
 
@@ -22592,6 +24579,12 @@ gemPorphyry
 gemPotash
 
 
+gemPotassium
+
+
+gemPreciousIron
+
+
 gemPrometheum
 
 
@@ -22599,6 +24592,9 @@ gemPromethium
 
 
 gemPumice
+
+
+gemPurgatoryIron
 
 
 gemPyrite
@@ -22620,6 +24616,16 @@ gemRadiantQuartz
 
 
 gemRadionite
+
+
+gemRainbowDiamond
+manametalmod:gemRainbowDiamond - 0
+
+
+gemRainbowOpal
+
+
+gemRainbowSteel
 
 
 gemRainforestJasper
@@ -22653,11 +24659,17 @@ caveworld:cavenium - 1
 gemRefinedGlowstone
 
 
+gemRhodium
+
+
 gemRhodonite
 
 
 gemRoseQuartz
 gemsnjewels:rose quartz - 0
+
+
+gemRosite
 
 
 gemRubber
@@ -22667,8 +24679,10 @@ gemRubracium
 
 
 gemRuby
+BiomesOPlenty:gems - 1
 gemsnjewels:ruby - 0
 TragicMC:ruby - 0
+manametalmod:gemRuby - 0
 nolpfij_wildycraft:RubyRS - 0
 
 
@@ -22688,11 +24702,16 @@ gemSanguinite
 
 
 gemSapphire
+BiomesOPlenty:gems - 6
 eotg:sapphire - 0
 gemsnjewels:sapphire - 0
 TragicMC:sapphire - 0
+manametalmod:gemSapphire - 0
 PracticalLogistics:Sapphire - 0
 nolpfij_wildycraft:SapphireRS - 0
+
+
+gemScandium
 
 
 gemScapolite
@@ -22719,6 +24738,9 @@ gemShadow
 
 
 gemShadowIron
+
+
+gemShadowSecretGold
 
 
 gemShadowSteel
@@ -22748,14 +24770,27 @@ gemSnowflakeObsidian
 gemSodalite
 
 
+gemSodium
+
+
 gemSoul
+
+
+gemSoulGold
+
+
+gemSoulSteel
 
 
 gemSoularium
 
 
+gemSoulstone
+
+
 gemSpinel
 gemsnjewels:spinel - 0
+manametalmod:gemSpinel - 0
 
 
 gemSpirit
@@ -22764,7 +24799,16 @@ gemSpirit
 gemStainlessSteel
 
 
+gemStar
+
+
 gemStarGarnet
+
+
+gemStarSilver
+
+
+gemStartleSilver
 
 
 gemSteel
@@ -22788,6 +24832,7 @@ gemSulphur
 
 
 gemSunstone
+manametalmod:gemSunstone - 0
 
 
 gemTaconite
@@ -22800,8 +24845,10 @@ gemTantalum
 
 
 gemTanzanite
+BiomesOPlenty:gems - 4
 gemsnjewels:tanzanite - 0
 Calculator:SmallTanzanite - 0
+manametalmod:gemTanzanite - 0
 
 
 gemTartarite
@@ -22822,10 +24869,20 @@ gemThaumium
 gemThorium
 
 
+gemThulium
+
+
 gemTigerIron
 
 
+gemTigerite
+manametalmod:gemTigerite - 0
+
+
 gemTin
+
+
+gemTitan
 
 
 gemTitanium
@@ -22838,6 +24895,7 @@ gemTofuDiamond
 
 
 gemTopaz
+BiomesOPlenty:gems - 3
 gemsnjewels:topaz - 0
 
 
@@ -22846,6 +24904,7 @@ gemToslotrium
 
 gemTourmaline
 gemsnjewels:tourmaline - 0
+manametalmod:gemTourmaline - 0
 
 
 gemTravertine
@@ -22859,6 +24918,11 @@ gemTungsten
 
 gemTurquoise
 gemsnjewels:turquoise - 0
+manametalmod:gemTurquoise - 0
+
+
+gemTwilight
+manametalmod:gemTwilight - 0
 
 
 gemUnakite
@@ -22900,13 +24964,22 @@ gemVyroxeres
 gemWhiteFluorite
 
 
+gemWolfram
+
+
 gemWonderstone
 
 
 gemWood
 
 
+gemYadras
+
+
 gemYag
+
+
+gemYamagata
 
 
 gemYellorite
@@ -22924,11 +24997,15 @@ gemYellowJasper
 gemYellowTigerEye
 
 
+gemYttrium
+
+
 gemZinc
 
 
 gemZircon
 gemsnjewels:zircon - 0
+manametalmod:gemZircon - 0
 
 
 gemberryAluminium
@@ -22971,6 +25048,9 @@ gembushIron
 
 
 gembushTin
+
+
+gemite
 
 
 gemmolten.bedrockiumingots
@@ -23087,6 +25167,8 @@ ExtraUtilities:color_lightgem - 12
 ExtraUtilities:color_lightgem - 13
 ExtraUtilities:color_lightgem - 14
 ExtraUtilities:color_lightgem - 15
+GalaxySpace:dungeonglowstone - 0
+GalaxySpace:dungeonglowstone - 1
 
 
 glowstoneBlack
@@ -23153,6 +25235,10 @@ glowstoneYellow
 ExtraUtilities:color_lightgem - 11
 
 
+goldCoil
+manametalmod:goldCoil - 0
+
+
 grainBait
 harvestcraft:grainbaitItem - 0
 
@@ -23212,6 +25298,10 @@ groundcoverIvy
 
 grubBee
 harvestcraft:grubItem - 0
+
+
+gunpowder
+minecraft:gunpowder - 0
 
 
 hambone
@@ -23385,11 +25475,19 @@ infitite
 caveworld:gem - 4
 
 
+ingotAcanoy
+manametalmod:ingotAcanoy - 0
+
+
+ingotActinium
+
+
 ingotActivatedCarbon
 
 
 ingotAdamantine
 Metallurgy:adamantine.ingot - 0
+manametalmod:ingotAdamantine - 0
 
 
 ingotAdamantite
@@ -23398,13 +25496,27 @@ ingotAdamantite
 ingotAdamantium
 
 
+ingotAdamman
+manametalmod:ingotAdamman - 0
+
+
 ingotAer
 
 
 ingotAerotheum
 
 
+ingotAether
+manametalmod:ingotAether - 0
+
+
+ingotAgate
+
+
 ingotAlabaster
+
+
+ingotAlchemyMana
 
 
 ingotAlduorite
@@ -23431,6 +25543,7 @@ ImmersiveEngineering:metal - 1
 foundry:foundryIngot - 11
 GalacticraftCore:item.basicItem - 5
 Mariculture:materials - 0
+manametalmod:ingotAluminum - 0
 SpiritOresMod:aluminumIngot - 0
 steamcraft2:ItemIngot - 0
 UltraTech:Ingot_UT - 0
@@ -23448,6 +25561,9 @@ TConstruct:materials - 15
 ingotAmber
 
 
+ingotAmericium
+
+
 ingotAmethyst
 
 
@@ -23456,6 +25572,14 @@ ingotAmmonium
 
 ingotAmordrine
 Metallurgy:amordrine.ingot - 0
+
+
+ingotAmpulos
+manametalmod:ingotSkyPower - 0
+
+
+ingotAncientThulium
+manametalmod:ingotAncientThulium - 0
 
 
 ingotAngmallen
@@ -23469,6 +25593,7 @@ ingotAnthraciteCoal
 
 
 ingotAntimony
+manametalmod:ingotAntimony - 0
 
 
 ingotApatite
@@ -23503,12 +25628,19 @@ ingotAshual
 ingotAstral Silver
 
 
+ingotAstral.silver
+
+
 ingotAstralSilver
 Metallurgy:astral.silver.ingot - 0
 
 
 ingotAtlarus
 Metallurgy:atlarus.ingot - 0
+
+
+ingotBadyala
+manametalmod:ingotBadyala - 0
 
 
 ingotBam
@@ -23547,6 +25679,17 @@ ingotBasalz
 ingotBauxite
 
 
+ingotBedrock
+manametalmod:ingotBedrock - 0
+
+
+ingotBedrockium
+manametalmod:ingotBedrock - 0
+
+
+ingotBerkelium
+
+
 ingotBerryAluminium
 
 
@@ -23574,7 +25717,12 @@ ingotBeryl
 ingotBeryllium
 
 
+ingotBiliha
+manametalmod:ingotBiliha - 0
+
+
 ingotBismuth
+manametalmod:ingotBismuth - 0
 
 
 ingotBitumen
@@ -23584,6 +25732,9 @@ ingotBituminous
 
 
 ingotBituminousCoal
+
+
+ingotBlackDiamond
 
 
 ingotBlackOpal
@@ -23614,6 +25765,10 @@ ingotBlackgraniteSilver
 ingotBlackgraniteTin
 
 
+ingotBlackhole
+manametalmod:ingotBlackhole - 0
+
+
 ingotBlazium
 
 
@@ -23621,6 +25776,14 @@ ingotBlitz
 
 
 ingotBlizz
+
+
+ingotBloodItron
+manametalmod:ingotBloodItron - 0
+
+
+ingotBloodMetal
+manametalmod:ingotBloodMetal - 0
 
 
 ingotBloodstone
@@ -23644,6 +25807,9 @@ ingotBlutonium
 ingotBogIron
 
 
+ingotBohrium
+
+
 ingotBone
 
 
@@ -23660,6 +25826,7 @@ ingotBrass
 Metallurgy:brass.ingot - 0
 foundry:foundryIngot - 7
 Steamcraft:steamcraftIngot - 2
+manametalmod:ingotBrass - 0
 steamcraft2:ItemIngot - 4
 
 
@@ -23697,6 +25864,7 @@ Metallurgy:bronze.ingot - 0
 foundry:foundryIngot - 2
 lotr:item.bronze - 0
 chinacraft:BronzeIngot - 0
+manametalmod:ingotBronze - 0
 steamcraft2:ItemIngot - 5
 
 
@@ -23734,6 +25902,9 @@ ingotCalcium
 
 
 ingotCalciumChloride
+
+
+ingotCalifornium
 
 
 ingotCarbide
@@ -23774,6 +25945,7 @@ eotg:celestiumIngot - 0
 
 
 ingotCerium
+manametalmod:ingotCerium - 0
 
 
 ingotCertusQuartz
@@ -23781,6 +25953,9 @@ ingotCertusQuartz
 
 ingotCeruclase
 Metallurgy:ceruclase.ingot - 0
+
+
+ingotCesium
 
 
 ingotChalcedony
@@ -23816,6 +25991,7 @@ ingotChromite
 
 ingotChromium
 foundry:foundryIngot - 12
+manametalmod:ingotChromium - 0
 
 
 ingotChrysoberyl
@@ -23838,9 +26014,14 @@ ingotCoal
 
 ingotCobalt
 TConstruct:materials - 3
+GalaxySpace:item.Ingots - 0
+manametalmod:ingotCobalt - 0
 
 
 ingotCobaltite
+
+
+ingotCobaltum
 
 
 ingotCobblestone
@@ -23850,6 +26031,10 @@ ingotCoke
 
 
 ingotCompass
+
+
+ingotCompressionSteel
+manametalmod:ingotCompressionSteel - 0
 
 
 ingotConductiveIron
@@ -23863,12 +26048,14 @@ ImmersiveEngineering:metal - 5
 ingotCooperite
 
 
+ingotCopernicium
+
+
 ingotCopper
 ThermalFoundation:material - 64
-TConstruct:materials - 9
-Mekanism:Ingot - 5
 Railcraft:ingot - 1
 ImmersiveEngineering:metal - 0
+TConstruct:materials - 9
 Forestry:ingotCopper - 0
 ac2:item.ingotCopper - 0
 Metallurgy:copper.ingot - 0
@@ -23877,9 +26064,10 @@ Steamcraft:steamcraftIngot - 0
 GalacticraftCore:item.basicItem - 3
 Mariculture:materials - 4
 cientificalchemy:Ingot_Coper - 0
-so:copper - 0
 lotr:item.copper - 0
+Mekanism:Ingot - 5
 chinacraft:CopperIngot - 0
+manametalmod:ingotCopper - 0
 SpiritOresMod:copperIngot - 0
 steamcraft2:ItemIngot - 1
 UltraTech:Ingot_UT - 1
@@ -23889,11 +26077,22 @@ etfuturum:copper_ingot - 0
 ingotCopperMixedTin
 
 
+ingotCopyA
+manametalmod:ingotCopyA - 0
+
+
+ingotCordierite
+
+
 ingotCorundum
 
 
 ingotCosmicNeutronium
 Avaritia:Resource - 4
+
+
+ingotCrimson
+manametalmod:ingotCrimson - 0
 
 
 ingotCrocoite
@@ -23932,6 +26131,9 @@ ImmersiveEngineering:metal - 5
 foundry:foundryIngot - 16
 
 
+ingotCurium
+
+
 ingotCyanite
 
 
@@ -23947,12 +26149,19 @@ ingotDamascusSteel
 Metallurgy:damascus.steel.ingot - 0
 
 
+ingotDark
+manametalmod:ingotDark - 0
+
+
 ingotDarkSoularium
 rfdrills:sj_replacement - 0
 
 
 ingotDarkSteel
 EnderIO:itemAlloy - 6
+
+
+ingotDarmstadtium
 
 
 ingotDay
@@ -23963,6 +26172,10 @@ ingotDebris
 
 ingotDeepIron
 Metallurgy:deep.iron.ingot - 0
+
+
+ingotDeepiron
+manametalmod:ingotDeepiron - 0
 
 
 ingotDeepslateAluminum
@@ -24028,6 +26241,9 @@ ingotDeepslateLead
 ingotDeepslateMagnesium
 
 
+ingotDeepslateMalachite
+
+
 ingotDeepslateMithril
 
 
@@ -24037,16 +26253,34 @@ ingotDeepslateNickel
 ingotDeepslateOsmium
 
 
+ingotDeepslatePeridot
+
+
 ingotDeepslatePlatinum
 
 
 ingotDeepslateRedstone
 
 
+ingotDeepslateRuby
+
+
+ingotDeepslateSapphire
+
+
 ingotDeepslateSilver
 
 
+ingotDeepslateTanzanite
+
+
 ingotDeepslateTin
+
+
+ingotDeepslateTitanium
+
+
+ingotDeepslateTopaz
 
 
 ingotDeepslateTungsten
@@ -24077,6 +26311,9 @@ SpiritOresMod:dimensionForgedIngot - 0
 
 
 ingotDirt
+
+
+ingotDirt3000
 
 
 ingotDirtyAdamantine
@@ -24375,8 +26612,31 @@ ingotDraconiumAwakened
 DraconicEvolution:draconicIngot - 0
 
 
+ingotDragonGold
+manametalmod:ingotDragonGold - 0
+
+
+ingotDragonPalladium
+manametalmod:ingotDragonPalladium - 0
+
+
+ingotDragonPlatinum
+manametalmod:ingotDragonPlatinum - 0
+
+
+ingotDragonSilver
+manametalmod:ingotDragonSilver - 0
+
+
 ingotDrulloy
 ExtraTiC:drulloyIngot - 0
+
+
+ingotDubnium
+
+
+ingotDungeonGold
+manametalmod:ingotDungeonGold - 0
 
 
 ingotDuralumin
@@ -24412,6 +26672,9 @@ ingotEfrine
 netherlicious:Ingot - 0
 
 
+ingotEinsteinium
+
+
 ingotElectricalSteel
 EnderIO:itemAlloy - 0
 
@@ -24425,6 +26688,7 @@ ThermalFoundation:material - 71
 ImmersiveEngineering:metal - 6
 Metallurgy:electrum.ingot - 0
 foundry:foundryIngot - 3
+manametalmod:ingotElectrum - 0
 
 
 ingotElectrumFlux
@@ -24448,6 +26712,10 @@ EnderIO:itemAlloy - 8
 ingotEnder
 
 
+ingotEnderGold
+manametalmod:ingotEnderGold - 0
+
+
 ingotEnderPearl
 
 
@@ -24468,6 +26736,10 @@ EnderIO:itemPowderIngot - 6
 
 ingotEndium
 ganysend:endiumIngot - 0
+
+
+ingotEndless
+manametalmod:ingotEndless - 0
 
 
 ingotEndstone
@@ -24502,6 +26774,9 @@ ingotEnergeticSilver
 EnderIO:itemAlloyEndergy - 5
 
 
+ingotEnergyCrystal
+
+
 ingotEnrichedGold
 Calculator:EnrichedGoldIngot - 0
 
@@ -24526,7 +26801,18 @@ ingotFairy
 ExtraTiC:funStuffIngot - 0
 
 
+ingotFantasygold
+manametalmod:ingotFantasygold - 0
+
+
+ingotFarm
+manametalmod:ingotFarmcore - 0
+
+
 ingotFeliron
+
+
+ingotFermium
 
 
 ingotFerricyanide
@@ -24546,10 +26832,16 @@ ingotFlairium
 eotg:flairiumIngot - 0
 
 
+ingotFlerovium
+
+
 ingotFluix
 
 
 ingotFluorite
+
+
+ingotFlyGem
 
 
 ingotFoolsGold
@@ -24562,16 +26854,33 @@ ingotForce
 ingotFossil
 
 
+ingotFrancium
+
+
 ingotFzDarkIron
 
 
 ingotGadolinium
 
 
+ingotGaia
+manametalmod:ingotGaia - 0
+
+
+ingotGalaxy
+manametalmod:ingotGalaxy - 0
+
+
 ingotGalena
 
 
+ingotGallium
+
+
 ingotGarnet
+
+
+ingotGermanium
 
 
 ingotGildedIron
@@ -24643,6 +26952,13 @@ ingotGoethite
 
 ingotGold
 minecraft:gold_ingot - 0
+manametalmod:ingotEnderGold - 0
+
+
+ingotGoldSteeleafIngot
+
+
+ingotGoslarda
 
 
 ingotGraphite
@@ -24677,6 +26993,12 @@ ingotHaderoth
 Metallurgy:haderoth.ingot - 0
 
 
+ingotHafnium
+
+
+ingotHassium
+
+
 ingotHastelloy
 
 
@@ -24706,7 +27028,19 @@ Metallurgy:hepatizon.ingot - 0
 ingotHexcite
 
 
+ingotHighlycrystal
+manametalmod:ingotHighlycrystal - 0
+
+
 ingotHolmium
+
+
+ingotHolyCopper
+manametalmod:ingotHolyCopper - 0
+
+
+ingotHolySoul
+manametalmod:ingotHolySoul - 0
 
 
 ingotHydratedCoal
@@ -24757,6 +27091,9 @@ ingotInfusedOrder
 ingotInfusedWater
 
 
+ingotInitial
+
+
 ingotInolashite
 Metallurgy:inolashite.ingot - 0
 
@@ -24773,10 +27110,12 @@ ingotIridite
 
 
 ingotIridium
+manametalmod:ingotIridium - 0
 
 
 ingotIron
 minecraft:iron_ingot - 0
+manametalmod:ingotPurgatoryIron - 0
 kitsumedievalcraft:refinedIron - 0
 
 
@@ -24786,6 +27125,9 @@ PneumaticCraft:ingotIronCompressed - 0
 
 ingotIronwood
 TwilightForest:item.ironwoodIngot - 0
+
+
+ingotIte
 
 
 ingotIthildinBlueDwarven
@@ -24800,6 +27142,9 @@ ingotJade
 
 
 ingotJasper
+
+
+ingotJet
 
 
 ingotKalendrite
@@ -24825,10 +27170,17 @@ ingotLanthanum
 ingotLapis
 
 
+ingotLapuda
+manametalmod:ingotLapuda - 0
+
+
 ingotLaserite
 
 
 ingotLaterite
+
+
+ingotLawrencium
 
 
 ingotLead
@@ -24838,12 +27190,15 @@ ImmersiveEngineering:metal - 2
 ac2:item.ingotLead - 0
 foundry:foundryIngot - 10
 cientificalchemy:Ingot_Lead - 0
-so:lead - 0
+manametalmod:ingotLead - 0
 UltraTech:Ingot_UT - 3
 
 
 ingotLemurite
 Metallurgy:lemurite.ingot - 0
+
+
+ingotLightScrap
 
 
 ingotLignite
@@ -24865,6 +27220,10 @@ ingotLimonite
 
 
 ingotLithium
+manametalmod:ingotLithium - 0
+
+
+ingotLivermorium
 
 
 ingotLudicrite
@@ -24872,6 +27231,9 @@ ingotLudicrite
 
 ingotLumium
 ThermalFoundation:material - 75
+
+
+ingotLunaStone
 
 
 ingotLunium
@@ -24892,6 +27254,7 @@ SpiritOresMod:magmaSpiritIngot - 0
 
 
 ingotMagnesium
+GalaxySpace:item.Ingots - 1
 Mariculture:materials - 1
 
 
@@ -24909,6 +27272,30 @@ caveworld:gem - 1
 ingotMalachite
 
 
+ingotMana
+manametalmod:ingotMana - 0
+
+
+ingotManaDragonCrystal
+manametalmod:ingotManaDragonCrystal - 0
+
+
+ingotManaEnderCrystal
+manametalmod:ingotManaEnderCrystal - 0
+
+
+ingotManaPureS
+manametalmod:ingotManaPureS - 0
+
+
+ingotManaS
+manametalmod:ingotManaS - 0
+
+
+ingotManaSpiritSteel
+manametalmod:ingotManaSpiritSteel - 0
+
+
 ingotManasteel
 Botania:manaResource - 0
 
@@ -24919,6 +27306,7 @@ ingotMangalloy
 ingotManganese
 Metallurgy:manganese.ingot - 0
 foundry:foundryIngot - 14
+manametalmod:ingotManganese - 0
 
 
 ingotManganeseSteel
@@ -24957,8 +27345,14 @@ ingotMeatRaw
 MineFactoryReloaded:meat.ingot.raw - 0
 
 
+ingotMeitnerium
+
+
 ingotMelodicAlloy
 EnderIO:itemAlloyEndergy - 2
+
+
+ingotMendelevium
 
 
 ingotMercury
@@ -24995,9 +27389,14 @@ ingotMinicio
 ingotMischmetal
 
 
+ingotMisriru
+manametalmod:ingotMisriru - 0
+
+
 ingotMithril
 ThermalFoundation:material - 70
 Metallurgy:mithril.ingot - 0
+manametalmod:ingotMithril - 0
 lotr:item.mithril - 0
 
 
@@ -25013,10 +27412,19 @@ ingotMolten.bedrockiumingots
 ingotMolten.unstableingots
 
 
+ingotMoltenGold
+manametalmod:ingotMoltenGold - 0
+
+
 ingotMolybdenite
 
 
 ingotMolybdenum
+manametalmod:ingotMolybdenum - 0
+
+
+ingotMonahide
+manametalmod:ingotCreation - 0
 
 
 ingotMonazite
@@ -25028,7 +27436,18 @@ ingotMoonstone
 ingotMortium
 
 
+ingotMoscovium
+
+
 ingotMysterious
+
+
+ingotMysteriousIron
+manametalmod:ingotMysteriousIron - 0
+
+
+ingotMysteriousSoul
+manametalmod:ingotMysteriousSoul - 0
 
 
 ingotMystic
@@ -25264,6 +27683,7 @@ ingotNetherYellorite
 
 
 ingotNetherite
+manametalmod:ingotNetherite - 0
 etfuturum:netherite_ingot - 0
 
 
@@ -25300,6 +27720,10 @@ ingotNetherrackSilver
 ingotNetherrackTin
 
 
+ingotNeutronEnergy
+manametalmod:ingotNeutronEnergy - 0
+
+
 ingotNichrome
 
 
@@ -25307,9 +27731,14 @@ ingotNickel
 ThermalFoundation:material - 68
 ImmersiveEngineering:metal - 4
 foundry:foundryIngot - 5
+GalaxySpace:item.Ingots - 2
+manametalmod:ingotNickel - 0
 
 
 ingotNight
+
+
+ingotNihonium
 
 
 ingotNikolite
@@ -25322,6 +27751,9 @@ ingotNinja
 
 
 ingotNiobium
+
+
+ingotNobelium
 
 
 ingotObalti
@@ -25354,10 +27786,12 @@ ingotOreDark
 
 ingotOrichalcum
 Metallurgy:orichalcum.ingot - 0
+manametalmod:ingotOrichalcum - 0
 
 
 ingotOsmium
 Mekanism:Ingot - 1
+manametalmod:ingotOsmium - 0
 
 
 ingotOureclase
@@ -25365,6 +27799,7 @@ Metallurgy:oureclase.ingot - 0
 
 
 ingotPalladium
+manametalmod:ingotPalladium - 0
 
 
 ingotPeat
@@ -25412,6 +27847,7 @@ ThermalFoundation:material - 69
 Metallurgy:platinum.ingot - 0
 foundry:foundryIngot - 13
 gemsnjewels:platinum ingot - 0
+manametalmod:ingotPlatinum - 0
 
 
 ingotPlutonium
@@ -25419,6 +27855,9 @@ ingotPlutonium
 
 ingotPokefennium
 ExtraTiC:funStuffIngot - 1
+
+
+ingotPolonium
 
 
 ingotPolyacrylate
@@ -25763,10 +28202,20 @@ ingotPotash
 ingotPotashAlum
 
 
+ingotPotassium
+
+
 ingotPotentia
 
 
+ingotPowerIronwoodIngot
+
+
 ingotPraseodymium
+
+
+ingotPreciousIron
+manametalmod:ingotPreciousIron - 0
 
 
 ingotPrimal
@@ -25779,11 +28228,18 @@ Metallurgy:prometheum.ingot - 0
 ingotPromethium
 
 
+ingotProtactinium
+
+
 ingotPulsatingIron
 EnderIO:itemAlloy - 5
 
 
 ingotPumice
+
+
+ingotPurgatoryIron
+manametalmod:ingotPurgatoryIron - 0
 
 
 ingotPyrite
@@ -25815,6 +28271,20 @@ ingotRadioactiveLead
 
 
 ingotRadionite
+
+
+ingotRadium
+
+
+ingotRainbowDiamond
+
+
+ingotRainbowOpal
+manametalmod:ingotRainbowOpal - 0
+
+
+ingotRainbowSteel
+manametalmod:ingotRainbowSteel - 0
 
 
 ingotRedAlloy
@@ -25870,13 +28340,31 @@ ingotRefinedObsidian
 Mekanism:Ingot - 0
 
 
+ingotRhenium
+
+
+ingotRhodium
+manametalmod:ingotRhodium - 0
+
+
+ingotRoentgenium
+
+
 ingotRoseGold
+manametalmod:ingotRoseGold - 0
 
 
 ingotRoseQuartz
 
 
+ingotRosite
+manametalmod:ingotRosite - 0
+
+
 ingotRubber
+
+
+ingotRubidium
 
 
 ingotRubracium
@@ -25886,6 +28374,10 @@ Metallurgy:rubracium.ingot - 0
 ingotRuby
 
 
+ingotRuneSteel
+manametalmod:ingotRuneSteel - 0
+
+
 ingotRunicSteel
 runicdungeons:item.runicSteel - 0
 
@@ -25893,11 +28385,18 @@ runicdungeons:item.runicSteel - 0
 ingotRunite
 
 
+ingotRuthenium
+
+
+ingotRutherfordium
+
+
 ingotRutile
 Mariculture:materials - 3
 
 
 ingotSalt
+manametalmod:saltingot - 0
 
 
 ingotSaltpeter
@@ -25920,6 +28419,7 @@ ingotScal
 
 
 ingotScandium
+manametalmod:ingotScandium - 0
 
 
 ingotScarab
@@ -25929,6 +28429,9 @@ ingotScarabBlue
 
 
 ingotScarletEmerald
+
+
+ingotSeaborgium
 
 
 ingotShadium
@@ -25941,6 +28444,10 @@ TaintedMagic:ItemMaterial - 0
 
 ingotShadowIron
 Metallurgy:shadow.iron.ingot - 0
+
+
+ingotShadowSecretGold
+manametalmod:ingotShadowSecretGold - 0
 
 
 ingotShadowSteel
@@ -25971,9 +28478,9 @@ Metallurgy:silver.ingot - 0
 foundry:foundryIngot - 8
 gemsnjewels:silver ingot - 0
 cientificalchemy:Ingot_Silver - 0
-so:silver - 0
 lotr:item.silver - 0
 chinacraft:SilverIngot - 0
+manametalmod:ingotSilver - 0
 UltraTech:Ingot_UT - 4
 
 
@@ -26308,12 +28815,24 @@ ingotSodiumChloride
 ingotSoul
 
 
+ingotSoulGold
+manametalmod:ingotSoulGold - 0
+
+
+ingotSoulSteel
+manametalmod:ingotSoulSteel - 0
+
+
 ingotSoularium
 EnderIO:itemAlloy - 7
 
 
 ingotSoulium
 SSTOW:sstow_materials - 2
+
+
+ingotSoulstone
+manametalmod:ingotSoulstone - 0
 
 
 ingotSphalerite
@@ -26330,13 +28849,25 @@ SpiritOresMod:spiritedIngot - 0
 
 
 ingotStainlessSteel
+manametalmod:ingotStainlessSteel - 0
+
+
+ingotStar
 
 
 ingotStarGarnet
 
 
+ingotStarSilver
+manametalmod:ingotStarSilver - 0
+
+
 ingotStaredMithril
 mett:Materials - 5
+
+
+ingotStartleSilver
+manametalmod:ingotStartleSilver - 0
 
 
 ingotSteel
@@ -26346,6 +28877,7 @@ Railcraft:ingot - 0
 ImmersiveEngineering:metal - 7
 Metallurgy:steel.ingot - 0
 foundry:foundryIngot - 9
+manametalmod:ingotSteel - 0
 SpiritOresMod:steelIngot - 0
 steamcraft2:ItemIngot - 6
 SteelIndustries:ingotSteel - 0
@@ -26363,7 +28895,11 @@ EnderIO:itemAlloyEndergy - 3
 ingotStone
 
 
+ingotStrontium
+
+
 ingotSugar
+manametalmod:sugaringot - 0
 
 
 ingotSugilite
@@ -26381,6 +28917,10 @@ ingotSulphur
 ingotSunstone
 
 
+ingotSuperAlloy
+manametalmod:ingotSuperAlloy - 0
+
+
 ingotTaconite
 
 
@@ -26395,6 +28935,9 @@ ingotTanzanite
 
 ingotTartarite
 Metallurgy:tartarite.ingot - 0
+
+
+ingotTechnetium
 
 
 ingotTelenium
@@ -26419,6 +28962,9 @@ ingotTerrium
 ingotTetrahedrite
 
 
+ingotThallium
+
+
 ingotThaumium
 Thaumcraft:ItemResource - 2
 
@@ -26427,6 +28973,10 @@ ingotThorium
 
 
 ingotThulium
+manametalmod:ingotThulium - 0
+
+
+ingotTigerite
 
 
 ingotTin
@@ -26439,9 +28989,9 @@ Metallurgy:tin.ingot - 0
 foundry:foundryIngot - 1
 GalacticraftCore:item.basicItem - 4
 cientificalchemy:Ingot_Tin - 0
-so:tin - 0
 lotr:item.tin - 0
 chinacraft:TinIngot - 0
+manametalmod:ingotTin - 0
 steamcraft2:ItemIngot - 2
 UltraTech:Ingot_UT - 2
 
@@ -26764,11 +29314,20 @@ ingotTinyZinc
 ingotTinyZincAlloy
 
 
+ingotTitan
+manametalmod:ingotTitan - 0
+
+
 ingotTitanium
 foundry:foundryIngot - 15
 GalacticraftMars:item.itemBasicAsteroids - 5
 Mariculture:materials - 2
+manametalmod:ingotTitanium - 0
 SteelIndustries:ingotTitanium - 0
+
+
+ingotTitaniumAlloy
+manametalmod:ingotTitaniumAlloy - 0
 
 
 ingotTofu
@@ -26795,6 +29354,10 @@ ingotTravertine
 ingotTritanium
 
 
+ingotTrueAncientThulium
+manametalmod:ingotTrueAncientThulium - 0
+
+
 ingotTungstate
 
 
@@ -26803,6 +29366,17 @@ TragicMC:tungsten - 0
 
 
 ingotTurquoise
+
+
+ingotTwilight
+
+
+ingotUltimateTerrasteel
+manametalmod:ultimateTerrasteel - 0
+
+
+ingotUniverseEnergy
+manametalmod:ingotUniverseEnergy - 0
 
 
 ingotUnstable
@@ -26814,6 +29388,7 @@ ingotUnstableSoot
 
 
 ingotUranium
+manametalmod:ingotUranium - 0
 steamcraft2:ItemResource - 3
 
 
@@ -26827,6 +29402,7 @@ ingotVacous
 
 
 ingotVanadium
+manametalmod:ingotVanadium - 0
 
 
 ingotVanadiumSteel
@@ -26873,14 +29449,27 @@ Metallurgy:vyroxeres.ingot - 0
 ingotWheat
 
 
+ingotWolfram
+manametalmod:ingotWolfram - 0
+
+
 ingotWood
 
 
 ingotWroughtIron
 GardenStuff:wrought_iron_ingot - 0
+manametalmod:ingotWroughtIron - 0
+
+
+ingotYadras
+manametalmod:ingotYadras - 0
 
 
 ingotYag
+
+
+ingotYamagata
+manametalmod:ingotYamagata - 0
 
 
 ingotYeast
@@ -26902,6 +29491,7 @@ ingotYtterbium
 
 
 ingotYttrium
+manametalmod:ingotYttrium - 0
 
 
 ingotZephyrean
@@ -26911,6 +29501,7 @@ ingotZinc
 Metallurgy:zinc.ingot - 0
 foundry:foundryIngot - 6
 Steamcraft:steamcraftIngot - 1
+manametalmod:ingotZinc - 0
 steamcraft2:ItemIngot - 3
 
 
@@ -26959,10 +29550,34 @@ ingotbushIron
 ingotbushTin
 
 
+ingotgoldSteeleafIngot
+manametalmod:goldSteeleafIngot - 0
+
+
 ingotmolten.bedrockiumingots
 
 
 ingotmolten.unstableingots
+
+
+ingotpowerIronwoodIngot
+manametalmod:powerIronwoodIngot - 0
+
+
+ironCoil
+manametalmod:ironCoil - 0
+
+
+ironDoublePlate
+manametalmod:ironDoublePlate - 0
+
+
+ironGear
+manametalmod:ironGear - 0
+
+
+ironPlate
+manametalmod:ironPlate - 0
 
 
 ironRod
@@ -26981,6 +29596,27 @@ itemBacon
 
 itemBasicGear
 EnderIO:itemMachinePart - 1
+
+
+itemBed
+manametalmod:ItemBed_Black - 0
+manametalmod:ItemBed_Red - 0
+manametalmod:ItemBed_Green - 0
+manametalmod:ItemBed_Brown - 0
+manametalmod:ItemBed_Blue - 0
+manametalmod:ItemBed_Purple - 0
+manametalmod:ItemBed_Cyan - 0
+manametalmod:ItemBed_LightGray - 0
+manametalmod:ItemBed_Gray - 0
+manametalmod:ItemBed_Pink - 0
+manametalmod:ItemBed_Lime - 0
+manametalmod:ItemBed_Yellow - 0
+manametalmod:ItemBed_LightBlue - 0
+manametalmod:ItemBed_Magenta - 0
+manametalmod:ItemBed_Orange - 0
+minecraft:bed - 0
+manametalmod:ItemBed_Gold - 0
+manametalmod:Itembed_color - 0
 
 
 itemBeeswax
@@ -27129,6 +29765,7 @@ UltraTech:Rubber_vulcanized_UT - 0
 itemSalt
 harvestcraft:saltItem - 0
 Mekanism:Salt - 0
+manametalmod:salt - 0
 
 
 itemSilicon
@@ -27203,6 +29840,10 @@ chisel:lavastone - 0
 lead
 
 
+leadCoil
+manametalmod:leadCoil - 0
+
+
 leadOre
 
 
@@ -27237,6 +29878,10 @@ lever
 
 lexicaBotania
 Botania:lexicon - 0
+
+
+lignite
+manametalmod:lignite - 0
 
 
 limestone
@@ -27326,6 +29971,17 @@ fossil:eggTherizinosaurus - 0
 fossil:eggIcthyosaurus - 0
 fossil:eggHenodus - 0
 fossil:eggParasaurolophus - 0
+manametalmod:Poachedeggs - 0
+manametalmod:GoldEgg - 0
+MoCreatures:omelet - 0
+FoodExpansion:ItemFriedEgg - 0
+FoodExpansion:ItemBaconAndEgg - 0
+manametalmod:PerfectUniversalFood - 0
+manametalmod:ItemEggDuck - 0
+manametalmod:ItemEggPenguin - 0
+manametalmod:ItemEggSwan - 0
+manametalmod:ItemFoodEggSpa - 0
+FoodCraft:ItemJianjidan - 0
 
 
 listAllfishcooked
@@ -27365,11 +30021,144 @@ harvestcraft:troutrawItem - 0
 harvestcraft:tunarawItem - 0
 harvestcraft:walleyerawItem - 0
 harvestcraft:greenheartfishItem - 0
+manametalmod:Sashimi - 0
+minecraft:cooked_fished - 0
+minecraft:cooked_fished - 1
+manametalmod:fish_M3_Dead - 0
+manametalmod:fish_M3_Dead - 1
+manametalmod:fish_M3_Dead - 2
+manametalmod:fish_M3_Dead - 3
+manametalmod:fish_M3_Dead - 4
+manametalmod:fish_M3_Dead - 5
+manametalmod:fish_M3_Dead - 6
+manametalmod:fish_M3_Dead - 7
+manametalmod:fish_M3_Dead - 8
+manametalmod:fish_M3_Dead - 9
+manametalmod:fish_M3_Dead - 10
+manametalmod:fish_M3_Dead - 11
+manametalmod:fish_M3_Dead - 12
+manametalmod:fish_M3_Dead - 13
+manametalmod:fish_M3_Dead - 14
+manametalmod:fish_M3_Dead - 15
+manametalmod:fish_M3_Dead - 16
+manametalmod:fish_M3_Dead - 17
+manametalmod:fish_M3_Dead - 18
+manametalmod:fish_M3_Dead - 19
+manametalmod:fish_M3_Dead - 20
+manametalmod:fish_M3_Dead - 21
+manametalmod:fish_M3_Dead - 22
+manametalmod:fish_M3_Dead - 23
+manametalmod:fish_M3_Dead - 24
+manametalmod:fish_M3_Dead - 25
+manametalmod:fish_M3_Dead - 26
+manametalmod:fish_M3_Dead - 27
+manametalmod:fish_M3_Dead - 28
+manametalmod:fish_M3_Dead - 29
+manametalmod:fish_M3_Dead - 30
+manametalmod:fish_M3_Dead - 31
+manametalmod:fish_M3_Dead - 32
+manametalmod:fish_M3_Dead - 33
+manametalmod:fish_M3_Dead - 34
+manametalmod:fish_M3_Dead - 35
+manametalmod:fish_M3_Dead - 36
+manametalmod:fish_M3_Dead - 37
+manametalmod:fish_M3_Dead - 38
+manametalmod:fish_M3_Dead - 39
+manametalmod:fish_M3_Dead - 40
+manametalmod:fish_M3_Dead - 41
+manametalmod:fish_M3_Dead - 42
+manametalmod:fish_M3_Dead - 43
+manametalmod:fish_M3_Dead - 44
+manametalmod:fish_M3_Dead - 45
+manametalmod:fish_M3_Dead - 46
+manametalmod:fish_M3_Dead - 47
+manametalmod:fish_M3_Dead - 48
+manametalmod:fish_M3_Dead - 49
+manametalmod:fish_M3_Dead - 50
+manametalmod:fish_M3_Dead - 51
+manametalmod:fish_M3_Dead - 52
+manametalmod:fish_M3_Dead - 53
+manametalmod:fish_M3_Dead - 54
+manametalmod:fish_M3_Dead - 55
+manametalmod:fish_M3_Dead - 56
+manametalmod:fish_M3_Dead - 57
+manametalmod:fish_M3_Dead - 58
+manametalmod:fish_M3_Dead - 59
+manametalmod:fish_M3_Dead - 60
+manametalmod:fish_M3_Dead - 61
+manametalmod:fish_M3_Dead - 62
+manametalmod:fish_M3_Dead - 63
+manametalmod:fish_M3_Dead - 64
+manametalmod:fish_M3_Dead - 65
+manametalmod:fish_M3_Dead - 66
+manametalmod:fish_M3_Dead - 67
+manametalmod:fish_M3_Dead - 68
+manametalmod:fish_M3_Dead - 69
+manametalmod:fish_M3_Dead - 70
+manametalmod:fish_M3_Dead - 71
+manametalmod:fish_M3_Dead - 72
+manametalmod:fish_M3_Dead - 73
+manametalmod:fish_M3_Dead - 74
+manametalmod:fish_M3_Dead - 75
+manametalmod:fish_M3_Dead - 76
+manametalmod:fish_M3_Dead - 77
+manametalmod:fish_M3_Dead - 78
+manametalmod:fish_M3_Dead - 79
+manametalmod:fish_M3_Dead - 80
+manametalmod:fish_M3_Dead - 81
+manametalmod:fish_M3_Dead - 82
+manametalmod:fish_M3_Dead - 83
+manametalmod:fish_M3_Dead - 84
+manametalmod:fish_M3_Dead - 85
+manametalmod:fish_M3_Dead - 86
+manametalmod:fish_M3_Dead - 87
+manametalmod:fish_M3_Dead - 88
+manametalmod:fish_M3_Dead - 89
+manametalmod:fish_M3_Dead - 90
+manametalmod:fish_M3_Dead - 91
+manametalmod:fish_M3_Dead - 92
+manametalmod:fish_M3_Dead - 93
+manametalmod:fish_M3_Dead - 94
+manametalmod:fish_M3_Dead - 95
+manametalmod:fish_M3_Dead - 96
+manametalmod:fish_M3_Dead - 97
+manametalmod:fish_M3_Dead - 98
+manametalmod:fish_M3_Dead - 99
+manametalmod:fish_M3_Dead - 100
+manametalmod:fish_M3_Dead - 101
+manametalmod:fish_M3_Dead - 102
+manametalmod:fish_M3_Dead - 103
+manametalmod:fish_M3_Dead - 104
+manametalmod:fish_M3_Dead - 105
+manametalmod:fish_M3_Dead - 106
+manametalmod:fish_M3_Dead - 107
+manametalmod:fish_M3_Dead - 108
+manametalmod:fish_M3_Dead - 109
+manametalmod:fish_M3_Dead - 110
+manametalmod:fish_M3_Dead - 111
+manametalmod:fish_M3_Dead - 112
+manametalmod:fish_M3_Dead - 113
+manametalmod:fish_M3_Dead - 114
+manametalmod:fish_M3_Dead - 115
+manametalmod:fish_M3_Dead - 116
+manametalmod:fish_M3_Dead - 117
+manametalmod:fish_M3_Dead - 118
+manametalmod:fish_M3_Dead - 119
+manametalmod:fish_M3_Dead - 120
+manametalmod:fish_M3_Dead - 121
+manametalmod:fish_M3_Dead - 122
+manametalmod:fish_M3_Dead - 123
+manametalmod:fish_M3_Dead - 124
+manametalmod:fish_M3_Dead - 125
+manametalmod:PerfectUniversalFood - 0
 
 
 listAllfruit
 Natura:berry - any
 Natura:berry.nether - any
+BiomesOPlenty:food - 3
+BiomesOPlenty:food - 8
+BiomesOPlenty:food - 12
 cherrypig:cherryFruit - 0
 minecraft:apple - 0
 harvestcraft:cranberryItem - 0
@@ -27402,7 +30191,53 @@ harvestcraft:figItem - 0
 harvestcraft:grapefruitItem - 0
 harvestcraft:persimmonItem - 0
 Growthcraft|Grapes:grc.grapes - 0
+manametalmod:cookapple - 0
+manametalmod:Cactusfruit - 0
+manametalmod:AnkayaBerry - 0
+minecraft:melon - 0
+manametalmod:fruitTree1greenapple - 0
+manametalmod:fruitTree2orange - 0
+manametalmod:fruitTree3peach - 0
+manametalmod:fruitTree4pear - 0
+manametalmod:fruitTree5persimmon - 0
+manametalmod:Pineapple_crop - 0
+manametalmod:Strawberry_crop - 0
+manametalmod:RedBerry_crop - 0
+manametalmod:BlueBerry_crop - 0
+manametalmod:Cranberry_crop - 0
+manametalmod:SweetBerrie_crop - 0
+manametalmod:SnowFruit_crop - 0
+manametalmod:ItemFoodSugarmelon - 0
+manametalmod:GrapeGold - 0
+manametalmod:Grape - 0
+manametalmod:DiamondBerrie_crop - 0
+TwilightForest:item.torchberries - 0
+BiomesOPlenty:food - 0
+FoodExpansion:ItemCactusFruit - 0
+manametalmod:PerfectUniversalFood - 0
+manametalmod:foodPurpleFruit - 0
 netherlicious:HellderBerryItem - 0
+FoodCraft:ItemPutao - 0
+FoodCraft:ItemJinputao - 0
+FoodCraft:ItemLi - 0
+FoodCraft:ItemLizhi - 0
+FoodCraft:ItemTaozi - 0
+FoodCraft:ItemJuzi - 0
+FoodCraft:ItemPipa - 0
+FoodCraft:ItemMangguo - 0
+FoodCraft:ItemNingmeng - 0
+FoodCraft:ItemYouzi - 0
+FoodCraft:ItemShizi - 0
+FoodCraft:ItemMugua - 0
+FoodCraft:ItemShanzha - 0
+FoodCraft:ItemLongyan - 0
+FoodCraft:ItemShiliu - 0
+FoodCraft:ItemHongzao - 0
+FoodCraft:ItemCaomei - 0
+FoodCraft:ItemYezi - 0
+FoodCraft:ItemYingtao - 0
+FoodCraft:ItemXiangjiao - 0
+kitchen:strawberry - 0
 
 
 listAllgrain
@@ -27411,6 +30246,11 @@ minecraft:wheat - 0
 harvestcraft:barleyItem - 0
 harvestcraft:oatsItem - 0
 harvestcraft:ryeItem - 0
+manametalmod:Cron_crop - 0
+manametalmod:Rice_crop - 0
+manametalmod:Barley_crop - 0
+manametalmod:Oat_crop - 0
+manametalmod:PerfectUniversalFood - 0
 netherlicious:AbyssalOatItem - 0
 
 
@@ -27570,8 +30410,115 @@ fossil:rawMammoth - 0
 fossil:rawSmilodon - 0
 fossil:rawQuagga - 0
 fossil:rawElasmotherium - 0
+manametalmod:BeefShank - 0
+manametalmod:Ham - 0
+minecraft:cooked_beef - 0
+minecraft:cooked_porkchop - 0
+minecraft:cooked_chicken - 0
+manametalmod:raw_meat - 0
+manametalmod:cook_meat - 0
+manametalmod:Soy_crop - 0
+TwilightForest:item.hydraChop - 0
+TwilightForest:item.venisonCooked - 0
+TwilightForest:item.venisonRaw - 0
+TwilightForest:item.meefRaw - 0
+MoCreatures:turtleraw - 0
+MoCreatures:ostrichraw - 0
+MoCreatures:ostrichcooked - 0
+MoCreatures:ratraw - 0
+MoCreatures:ratcooked - 0
+MoCreatures:crabraw - 0
+MoCreatures:crabcooked - 0
+MoCreatures:turkeycooked - 0
+FoodExpansion:ItemBaconAndEgg - 0
+FoodExpansion:ItemMutton - 0
+FoodExpansion:ItemHorseMeat - 0
+FoodExpansion:ItemBacon - 0
+FoodExpansion:ItemCookedHorseMeat - 0
+FoodExpansion:ItemCookedBacon - 0
+FoodExpansion:ItemSquid - 0
+FoodExpansion:ItemCookedSquid - 0
+FoodExpansion:ItemBatWing - 0
+FoodExpansion:ItemCookedBatWing - 0
+FoodExpansion:ItemCookedMutton - 0
+manametalmod:PerfectUniversalFood - 0
+manametalmod:itemmeats_cook - 0
+manametalmod:itemmeats - 0
+manametalmod:itemmeats_cook - 1
+manametalmod:itemmeats - 1
+manametalmod:itemmeats_cook - 2
+manametalmod:itemmeats - 2
+manametalmod:itemmeats_cook - 3
+manametalmod:itemmeats - 3
+manametalmod:itemmeats_cook - 4
+manametalmod:itemmeats - 4
+manametalmod:itemmeats_cook - 5
+manametalmod:itemmeats - 5
+manametalmod:itemmeats_cook - 6
+manametalmod:itemmeats - 6
+manametalmod:itemmeats_cook - 7
+manametalmod:itemmeats - 7
+manametalmod:itemmeats_cook - 8
+manametalmod:itemmeats - 8
+manametalmod:itemmeats_cook - 9
+manametalmod:itemmeats - 9
+manametalmod:itemmeats_cook - 10
+manametalmod:itemmeats - 10
+manametalmod:itemmeats_cook - 11
+manametalmod:itemmeats - 11
+manametalmod:itemmeats_cook - 12
+manametalmod:itemmeats - 12
+manametalmod:itemmeats_cook - 13
+manametalmod:itemmeats - 13
+manametalmod:itemmeats_cook - 14
+manametalmod:itemmeats - 14
+manametalmod:itemmeats_cook - 15
+manametalmod:itemmeats - 15
+manametalmod:itemmeats_cook - 16
+manametalmod:itemmeats - 16
+manametalmod:itemmeats_cook - 17
+manametalmod:itemmeats - 17
+manametalmod:itemmeats_cook - 18
+manametalmod:itemmeats - 18
+manametalmod:itemmeats_cook - 19
+manametalmod:itemmeats - 19
+manametalmod:itemmeats_cook - 20
+manametalmod:itemmeats - 20
+manametalmod:itemmeats_cook - 21
+manametalmod:itemmeats - 21
+manametalmod:itemmeats_cook - 22
+manametalmod:itemmeats - 22
+manametalmod:itemmeats_cook - 23
+manametalmod:itemmeats - 23
+manametalmod:itemmeats_cook - 24
+manametalmod:itemmeats - 24
+manametalmod:itemmeats_cook - 25
+manametalmod:itemmeats - 25
+manametalmod:itemmeats_cook - 26
+manametalmod:itemmeats - 26
+manametalmod:itemmeats_cook - 27
+manametalmod:itemmeats - 27
+manametalmod:itemmeats_cook - 28
+manametalmod:itemmeats - 28
+TConstruct:jerky - 0
 netherlicious:StriderFlankRaw - 0
 etfuturum:rabbit_raw - 0
+FoodCraft:ItemHuashen - 0
+FoodCraft:ItemJitui - 0
+FoodCraft:ItemJichi - 0
+FoodCraft:ItemDajirou - 0
+FoodCraft:ItemZhongjirou - 0
+FoodCraft:ItemXiaojirou - 0
+FoodCraft:ItemYangrou - 0
+FoodCraft:ItemShuyangrou - 0
+FoodCraft:ItemYouyurou - 0
+kitchen:chicken_leg - 0
+kitchen:bacon_cooked - 0
+kitchen:bacon_raw - 0
+kitchen:raw_roast_beef - 0
+kitchen:roast_beef - 0
+kitchen:chicken_fillet_cooked - 0
+kitchen:chicken_fillet_raw - 0
 
 
 listAllmilk
@@ -27579,12 +30526,52 @@ MineFactoryReloaded:milkbottle - 0
 minecraft:milk_bucket - 0
 harvestcraft:freshmilkItem - 0
 harvestcraft:soymilkItem - 0
+manametalmod:bigMilkCow - 0
+manametalmod:bigMilkSheep - 0
+manametalmod:Cheese - 0
+manametalmod:Cheese - 1
+manametalmod:Cheese - 2
+manametalmod:PerfectUniversalFood - 0
+kitchen:cheese - 0
 
 
 listAllmushroom
 minecraft:red_mushroom - 0
 minecraft:brown_mushroom - 0
 harvestcraft:whitemushroomItem - 0
+manametalmod:Ganoderma_crop - 0
+manametalmod:ItemItemMushroom2 - 0
+manametalmod:ItemItemMushroom2 - 1
+manametalmod:ItemItemMushroom2 - 2
+manametalmod:ItemItemMushroom2 - 3
+manametalmod:ItemItemMushroom2 - 4
+manametalmod:ItemItemMushroom2 - 5
+manametalmod:ItemItemMushroom2 - 6
+manametalmod:ItemItemMushroom2 - 7
+manametalmod:ItemItemMushroom2 - 8
+manametalmod:ItemItemMushroom2 - 9
+manametalmod:ItemItemMushroom2 - 10
+manametalmod:ItemItemMushroom2 - 11
+manametalmod:ItemItemMushroom2 - 12
+manametalmod:ItemItemMushroom2 - 13
+manametalmod:ItemItemMushroom2 - 14
+manametalmod:ItemItemMushroom2 - 15
+manametalmod:RedMushroom_crop - 0
+manametalmod:BlueMushroom_crop - 0
+manametalmod:Velutipes_crop - 0
+manametalmod:AgaricusBisporus_crop - 0
+manametalmod:YellowMushroom_crop - 0
+manametalmod:PoisonMushroom_crop - 0
+TwilightForest:tile.TFPlant - 9
+BiomesOPlenty:mushrooms - 0
+BiomesOPlenty:mushrooms - 1
+BiomesOPlenty:mushrooms - 2
+BiomesOPlenty:mushrooms - 3
+BiomesOPlenty:mushrooms - 4
+BiomesOPlenty:mushrooms - 5
+BiomesOPlenty:food - 1
+FoodExpansion:ItemCookedMushroom - 0
+manametalmod:PerfectUniversalFood - 0
 netherlicious:Fungus - any
 
 
@@ -27644,6 +30631,7 @@ etfuturum:rabbit_raw - 0
 
 
 listAllrootveggie
+BiomesOPlenty:food - 11
 harvestcraft:parsnipItem - 0
 harvestcraft:radishItem - 0
 harvestcraft:rutabagaItem - 0
@@ -27654,6 +30642,7 @@ harvestcraft:turnipItem - 0
 listAllseed
 Natura:barley.seed - 0
 Natura:barley.seed - 1
+BiomesOPlenty:turnipSeeds - 0
 AgriCraft:seedPotato - 0
 AgriCraft:seedCarrot - 0
 AgriCraft:seedSugarcane - 0
@@ -27747,6 +30736,48 @@ witchery:seedswolfsbane - 0
 witchery:garlic - 0
 witchery:seedswormwood - 0
 Growthcraft|Milk:grcmilk.SeedThistle - 0
+manametalmod:Cron_seed - 0
+manametalmod:WhiteRadish_seed - 0
+manametalmod:Pineapple_seed - 0
+manametalmod:Turnip_seed - 0
+manametalmod:Cucumber_seed - 0
+manametalmod:Lettuce_seed - 0
+manametalmod:Beet_seed - 0
+manametalmod:Onion_seed - 0
+manametalmod:Tomato_seed - 0
+manametalmod:Strawberry_seed - 0
+manametalmod:Soy_seed - 0
+manametalmod:Tealeaf_seed - 0
+manametalmod:Ginseng_seed - 0
+manametalmod:Vanilla_seed - 0
+manametalmod:Nettle_seed - 0
+manametalmod:Tobacco_seed - 0
+manametalmod:Coffeebeans_seed - 0
+manametalmod:Aloe_seed - 0
+manametalmod:Mandrakes_seed - 0
+manametalmod:Mint_seed - 0
+manametalmod:Ganoderma_seed - 0
+manametalmod:Milkweed_seed - 0
+manametalmod:Lily_seed - 0
+manametalmod:RedBerry_seed - 0
+manametalmod:BlueBerry_seed - 0
+manametalmod:Cranberry_seed - 0
+manametalmod:RedMushroom_seed - 0
+manametalmod:BlueMushroom_seed - 0
+manametalmod:Velutipes_seed - 0
+manametalmod:AgaricusBisporus_seed - 0
+manametalmod:YellowMushroom_seed - 0
+manametalmod:PoisonMushroom_seed - 0
+manametalmod:Bamboo_seed - 0
+manametalmod:Bambusa_seed - 0
+manametalmod:Latiflorus_seed - 0
+manametalmod:SweetBerrie_seed - 0
+manametalmod:SnowFruit_seed - 0
+manametalmod:Rice_seed - 0
+manametalmod:Barley_seed - 0
+manametalmod:Oat_seed - 0
+manametalmod:DiamondBerrie_seed - 0
+manametalmod:SilverBamboo_seed - 0
 netherlicious:GhastlyGourdSeeds - any
 netherlicious:DevilishMaizeSeeds - any
 netherlicious:HellderBerrySeeds - any
@@ -27857,6 +30888,7 @@ harvestcraft:firmtofuItem - 0
 
 
 listAllveggie
+BiomesOPlenty:food - 11
 minecraft:carrot - 0
 minecraft:potato - 0
 minecraft:pumpkin - 0
@@ -27896,8 +30928,51 @@ harvestcraft:spinachItem - 0
 harvestcraft:waterchestnutItem - 0
 Growthcraft|Bamboo:grc.bambooShoot - 0
 Growthcraft|Bamboo:grc.bambooShootFood - 0
+manametalmod:Lotus - 0
+manametalmod:cookLotus - 0
+manametalmod:cookcarrots - 0
+manametalmod:WhiteRadish_crop - 0
+manametalmod:Turnip_crop - 0
+manametalmod:Cucumber_crop - 0
+manametalmod:Lettuce_crop - 0
+manametalmod:Beet_crop - 0
+manametalmod:Onion_crop - 0
+manametalmod:Tomato_crop - 0
+manametalmod:Tealeaf_crop - 0
+manametalmod:Ginseng_crop - 0
+manametalmod:Vanilla_crop - 0
+manametalmod:Nettle_crop - 0
+manametalmod:Tobacco_crop - 0
+manametalmod:Coffeebeans_crop - 0
+manametalmod:Aloe_crop - 0
+manametalmod:Mandrakes_crop - 0
+manametalmod:Mint_crop - 0
+manametalmod:Milkweed_crop - 0
+manametalmod:Lily_crop - 0
+manametalmod:Bamboo_crop - 0
+manametalmod:Bambusa_crop - 0
+manametalmod:Latiflorus_crop - 0
+manametalmod:SilverBamboo_crop - 0
+TwilightForest:tile.HugeStalk - 0
+BiomesOPlenty:food - 2
+manametalmod:PerfectUniversalFood - 0
 netherlicious:GhastlyGourd - 0
 netherlicious:DevilishMaizeItem - 0
+FoodCraft:ItemBailuobo - 0
+FoodCraft:ItemShucai - 0
+FoodCraft:ItemLajiao - 0
+FoodCraft:ItemQingjiao - 0
+FoodCraft:ItemFanqie - 0
+FoodCraft:ItemQiezi - 0
+FoodCraft:ItemCong - 0
+FoodCraft:ItemDoujiao - 0
+FoodCraft:ItemHuanggua - 0
+FoodCraft:ItemYumi - 0
+FoodCraft:ItemHongshu - 0
+FoodCraft:ItemZongye - 0
+kitchen:tomato - 0
+kitchen:lettuce - 0
+kitchen:peanut - 0
 
 
 listAllvenisoncooked
@@ -27947,6 +31022,10 @@ Natura:bloodwood - 0
 Natura:bloodwood - 15
 Natura:Rare Tree - any
 Natura:Dark Tree - any
+BiomesOPlenty:logs1 - any
+BiomesOPlenty:logs2 - any
+BiomesOPlenty:logs3 - any
+BiomesOPlenty:logs4 - any
 Forestry:logs - any
 Forestry:logsFireproof - any
 atum:tile.palmLog - 0
@@ -27959,6 +31038,7 @@ harvestcraft:pamMaple - 0
 harvestcraft:pamPaperbark - 0
 harvestcraft:pamCinnamon - 0
 fossil:palaeorapheLog - 0
+GalaxySpace:barnardaclog - 0
 Highlands:tile.hl_firWood - any
 Highlands:tile.hl_acaciaWood - any
 Highlands:tile.hl_poplarWood - any
@@ -27982,6 +31062,8 @@ TragicMC:ashenWood - 0
 TragicMC:bleachedWood - 0
 TragicMC:hallowedWood - 0
 TragicMC:darkwood - 0
+MoCreatures:MoCLog - 0
+MoCreatures:MoCLog - 1
 lotr:tile.wood - any
 lotr:tile.fruitWood - any
 lotr:tile.wood2 - any
@@ -28005,6 +31087,33 @@ Calculator:PearLog - 0
 Calculator:DiamondLog - 0
 chinacraft:MulberryLog - 0
 insane_IlluminatedBows:illuminatedWood - 0
+manametalmod:ManaTreeLog - 0
+manametalmod:SkyLog - 0
+manametalmod:dragonTreeLog - 0
+manametalmod:goldTreeLog - 0
+manametalmod:ancientTreeLog - 0
+manametalmod:wood_log_pinetree - 0
+manametalmod:wood_log_spruce - 0
+manametalmod:wood_log_maple - 0
+manametalmod:wood_log_cherry - 0
+manametalmod:wood_log_hickory - 0
+manametalmod:wood_log_whitecedar - 0
+manametalmod:wood_log_sequoia - 0
+manametalmod:wood_log_chestnut - 0
+manametalmod:wood_log_lauraceae - 0
+manametalmod:wood_log_appleoak - 0
+manametalmod:wood_log_greenappleoak - 0
+manametalmod:wood_log_orangetree - 0
+manametalmod:wood_log_peachtree - 0
+manametalmod:wood_log_peartree - 0
+manametalmod:wood_log_persimmontree - 0
+manametalmod:wood_log_palmtree - 0
+manametalmod:wood_log_redtree - 0
+manametalmod:wood_log_vanillasakura - 0
+manametalmod:wood_log_NetherBlue - 0
+manametalmod:wood_log_NetherRed - 0
+manametalmod:wood_log_glowtree - 0
+manametalmod:wood_log_violet - 0
 netherlicious:Stem - any
 netherlicious:FullWood - any
 netherlicious:Stem2 - any
@@ -28043,6 +31152,7 @@ etfuturum:bark - 3
 etfuturum:bark2 - 3
 etfuturum:cherry_log - 3
 Thaumcraft:blockMagicalLog - any
+manametalmod:wood_log_magictree - 0
 
 
 logWoodPerverted
@@ -28168,7 +31278,61 @@ harvestcraft:hardenedleatherItem - 0
 materialHoneycomb
 harvestcraft:honeycombItem - 0
 Growthcraft|Bees:grc.honeyCombFilled - 0
+manametalmod:honeycomb - 1
+manametalmod:honeycomb - 3
+manametalmod:honeycomb - 5
+manametalmod:honeycomb - 7
+manametalmod:honeycomb - 9
+manametalmod:honeycomb - 11
+manametalmod:honeycomb - 13
+manametalmod:honeycomb - 15
+manametalmod:honeycomb - 17
+manametalmod:honeycomb - 19
+manametalmod:honeycomb - 21
+manametalmod:honeycomb - 23
+manametalmod:honeycomb - 25
+manametalmod:honeycomb - 27
+manametalmod:honeycomb - 29
+manametalmod:honeycomb - 31
+manametalmod:honeycomb - 33
+manametalmod:honeycomb - 35
+manametalmod:honeycomb - 37
+manametalmod:honeycomb - 39
+manametalmod:honeycomb - 41
+manametalmod:honeycomb - 43
+manametalmod:honeycomb - 45
+manametalmod:honeycomb - 47
+manametalmod:honeycomb - 49
+manametalmod:honeycomb - 51
+manametalmod:honeycomb - 53
+manametalmod:honeycomb - 55
+manametalmod:honeycomb - 57
+manametalmod:honeycomb - 59
+manametalmod:honeycomb - 61
+manametalmod:honeycomb - 63
+manametalmod:honeycomb - 65
+manametalmod:honeycomb - 67
+manametalmod:honeycomb - 69
+manametalmod:honeycomb - 71
+manametalmod:honeycomb - 73
 etfuturum:honeycomb - 0
+BiomesOPlenty:food - 9
+Forestry:beeCombs - 0
+Forestry:beeCombs - 1
+Forestry:beeCombs - 2
+Forestry:beeCombs - 3
+Forestry:beeCombs - 4
+Forestry:beeCombs - 5
+Forestry:beeCombs - 6
+Forestry:beeCombs - 7
+Forestry:beeCombs - 8
+Forestry:beeCombs - 9
+Forestry:beeCombs - 10
+Forestry:beeCombs - 11
+Forestry:beeCombs - 12
+Forestry:beeCombs - 13
+Forestry:beeCombs - 14
+Forestry:beeCombs - 15
 
 
 materialHops
@@ -28228,7 +31392,45 @@ etfuturum:honeycomb - 0
 materialWaxcomb
 harvestcraft:waxcombItem - 0
 Growthcraft|Bees:grc.honeyCombEmpty - 0
+manametalmod:honeycomb - 0
+manametalmod:honeycomb - 2
+manametalmod:honeycomb - 4
+manametalmod:honeycomb - 6
+manametalmod:honeycomb - 8
+manametalmod:honeycomb - 10
+manametalmod:honeycomb - 12
+manametalmod:honeycomb - 14
+manametalmod:honeycomb - 16
+manametalmod:honeycomb - 18
+manametalmod:honeycomb - 20
+manametalmod:honeycomb - 22
+manametalmod:honeycomb - 24
+manametalmod:honeycomb - 26
+manametalmod:honeycomb - 28
+manametalmod:honeycomb - 30
+manametalmod:honeycomb - 32
+manametalmod:honeycomb - 34
+manametalmod:honeycomb - 36
+manametalmod:honeycomb - 38
+manametalmod:honeycomb - 40
+manametalmod:honeycomb - 42
+manametalmod:honeycomb - 44
+manametalmod:honeycomb - 46
+manametalmod:honeycomb - 48
+manametalmod:honeycomb - 50
+manametalmod:honeycomb - 52
+manametalmod:honeycomb - 54
+manametalmod:honeycomb - 56
+manametalmod:honeycomb - 58
+manametalmod:honeycomb - 60
+manametalmod:honeycomb - 62
+manametalmod:honeycomb - 64
+manametalmod:honeycomb - 66
+manametalmod:honeycomb - 68
+manametalmod:honeycomb - 70
+manametalmod:honeycomb - 72
 etfuturum:honeycomb - 0
+BiomesOPlenty:misc - 2
 
 
 materialYeast
@@ -28610,8 +31812,16 @@ minecraft:red_mushroom - 0
 minecraft:rotten_flesh - 0
 
 
+nugget
+
+
+nuggetAcanoy
+manametalmod:nuggetAcanoy - 0
+
+
 nuggetAdamantine
 Metallurgy:fantasy.nugget - 13
+manametalmod:nuggetAdamantine - 0
 
 
 nuggetAlduorite
@@ -28631,6 +31841,7 @@ nuggetAluminum
 TConstruct:materials - 22
 ImmersiveEngineering:metal - 23
 Mariculture:materials - 34
+manametalmod:nuggetAluminum - 0
 steamcraft2:ItemMetalNugget - 0
 
 
@@ -28642,6 +31853,9 @@ nuggetAlumite
 TConstruct:materials - 32
 
 
+nuggetAmber
+
+
 nuggetAmethyst
 
 
@@ -28649,15 +31863,23 @@ nuggetAmordrine
 Metallurgy:nether.nugget - 12
 
 
+nuggetAncientThulium
+manametalmod:nuggetAncientThulium - 0
+
+
 nuggetAngmallen
 Metallurgy:base.nugget - 6
 
 
 nuggetAntimony
+manametalmod:nuggetAntimony - 0
 
 
 nuggetApatite
 MagicBees:beeNugget - 7
+
+
+nuggetAquamarine
 
 
 nuggetArdite
@@ -28672,17 +31894,38 @@ nuggetAtlarus
 Metallurgy:fantasy.nugget - 14
 
 
+nuggetBadyala
+manametalmod:nuggetBadyala - 0
+
+
 nuggetBam
 
 
 nuggetBarium
 
 
+nuggetBedrock
+manametalmod:nuggetBedrock - 0
+
+
+nuggetBiliha
+manametalmod:nuggetBiliha - 0
+
+
 nuggetBismuth
+manametalmod:nuggetBismuth - 0
+
+
+nuggetBlackDiamond
+manametalmod:nuggetBlackDiamond - 0
 
 
 nuggetBlackSteel
 Metallurgy:fantasy.nugget - 3
+
+
+nuggetBloodMetal
+manametalmod:nuggetBloodMetal - 0
 
 
 nuggetBoron
@@ -28691,6 +31934,7 @@ nuggetBoron
 nuggetBrass
 Metallurgy:precious.nugget - 3
 Steamcraft:steamcraftNugget - 3
+manametalmod:nuggetBrass - 0
 steamcraft2:ItemMetalNugget - 4
 
 
@@ -28702,7 +31946,11 @@ nuggetBronze
 ThermalFoundation:material - 105
 TConstruct:materials - 31
 Metallurgy:base.nugget - 3
+manametalmod:nuggetBronze - 0
 steamcraft2:ItemMetalNugget - 5
+
+
+nuggetCalcium
 
 
 nuggetCarbon
@@ -28720,6 +31968,10 @@ nuggetCelenegil
 Metallurgy:fantasy.nugget - 12
 
 
+nuggetCerium
+manametalmod:nuggetCerium - 0
+
+
 nuggetCeruclase
 Metallurgy:nether.nugget - 5
 
@@ -28728,13 +31980,22 @@ nuggetChrome
 
 
 nuggetChromium
+manametalmod:nuggetChromium - 0
+
+
+nuggetCitrine
 
 
 nuggetCobalt
 TConstruct:materials - 28
+manametalmod:nuggetCobalt - 0
 
 
 nuggetCobaltite
+
+
+nuggetCompressionSteel
+manametalmod:nuggetCompressionSteel - 0
 
 
 nuggetConductiveIron
@@ -28754,7 +32015,15 @@ Metallurgy:base.nugget - 0
 Steamcraft:steamcraftNugget - 0
 MagicBees:beeNugget - 1
 Mariculture:materials - 38
+manametalmod:nuggetCopper - 0
 steamcraft2:ItemMetalNugget - 1
+
+
+nuggetCordierite
+
+
+nuggetCrimson
+manametalmod:nuggetCrimson - 0
 
 
 nuggetCube
@@ -28776,6 +32045,10 @@ nuggetDamascusSteel
 Metallurgy:base.nugget - 5
 
 
+nuggetDark
+manametalmod:nuggetDark - 0
+
+
 nuggetDarkSoularium
 rfdrills:motor_eio - 4
 
@@ -28785,6 +32058,10 @@ nuggetDarkSteel
 
 nuggetDeepIron
 Metallurgy:fantasy.nugget - 1
+
+
+nuggetDeepiron
+manametalmod:nuggetDeepiron - 0
 
 
 nuggetDesichalkos
@@ -28822,6 +32099,7 @@ nuggetElectrum
 ThermalFoundation:material - 103
 ImmersiveEngineering:metal - 28
 Metallurgy:precious.nugget - 4
+manametalmod:nuggetElectrum - 0
 
 
 nuggetElectrumFlux
@@ -28853,18 +32131,37 @@ nuggetEndium
 ganysend:endiumIngot - 1
 
 
+nuggetEndless
+manametalmod:nuggetEndless - 0
+
+
 nuggetEndstone
 
 
 nuggetEnergeticAlloy
 
 
+nuggetEnergyCrystal
+manametalmod:nuggetEnergyCrystal - 0
+
+
 nuggetEximite
 Metallurgy:ender.nugget - 0
 
 
+nuggetFantasygold
+manametalmod:nuggetFantasygold - 0
+
+
 nuggetFiery
 TwilightForest:materials - 0
+
+
+nuggetFlyGem
+manametalmod:nuggetFlyGem - 0
+
+
+nuggetGarnet
 
 
 nuggetGlowstone
@@ -28876,6 +32173,10 @@ nuggetGlue
 nuggetGold
 minecraft:gold_nugget - 0
 Thaumcraft:ItemResource - 18
+
+
+nuggetGoslarda
+manametalmod:nuggetGoslarda - 0
 
 
 nuggetGreenSapphire
@@ -28901,6 +32202,14 @@ nuggetHastelloy
 
 nuggetHepatizon
 Metallurgy:base.nugget - 4
+
+
+nuggetHighlycrystal
+manametalmod:nuggetHighlycrystal - 0
+
+
+nuggetHolyCopper
+manametalmod:nuggetHolyCopper - 0
 
 
 nuggetIgnatius
@@ -28929,6 +32238,7 @@ ThermalFoundation:material - 104
 
 
 nuggetIridium
+manametalmod:nuggetIridium - 0
 
 
 nuggetIron
@@ -28942,6 +32252,7 @@ GardenStuff:iron_nugget - 0
 MagicBees:beeNugget - 0
 Mariculture:materials - 33
 lotr:item.ironNugget - 0
+manametalmod:nuggetIron - 0
 netherlicious:Nugget - 0
 SSTOW:sstow_materials - 0
 steamcraft2:ItemIronNugget - 0
@@ -28961,6 +32272,9 @@ nuggetIthildinDwarven
 mett:MaterialNuggets - 2
 
 
+nuggetJade
+
+
 nuggetKalendrite
 Metallurgy:nether.nugget - 7
 
@@ -28978,20 +32292,30 @@ Thaumcraft:ItemNugget - 4
 Railcraft:nugget - 4
 ImmersiveEngineering:metal - 24
 MagicBees:beeNugget - 4
+manametalmod:nuggetLead - 0
 
 
 nuggetLemurite
 Metallurgy:nether.nugget - 2
 
 
+nuggetLightScrap
+manametalmod:nuggetLightScrap - 0
+
+
 nuggetLimestone
 
 
 nuggetLithium
+manametalmod:nuggetLithium - 0
 
 
 nuggetLumium
 ThermalFoundation:material - 107
+
+
+nuggetLunaStone
+manametalmod:nuggetLunaStone - 0
 
 
 nuggetMagnesium
@@ -29001,6 +32325,34 @@ Mariculture:materials - 35
 nuggetMagnetite
 
 
+nuggetMana
+manametalmod:dustMana - 0
+
+
+nuggetManaCoal
+manametalmod:nuggetManaCoal - 0
+
+
+nuggetManaDragonCrystal
+manametalmod:nuggetManaDragonCrystal - 0
+
+
+nuggetManaEnderCrystal
+manametalmod:nuggetManaEnderCrystal - 0
+
+
+nuggetManaPureS
+manametalmod:nuggetManaPureS - 0
+
+
+nuggetManaS
+manametalmod:nuggetManaS - 0
+
+
+nuggetManaSpiritSteel
+manametalmod:nuggetManaSpiritSteel - 0
+
+
 nuggetManasteel
 Botania:manaResource - 17
 ForbiddenMagic:FMResource - 2
@@ -29008,6 +32360,7 @@ ForbiddenMagic:FMResource - 2
 
 nuggetManganese
 Metallurgy:base.nugget - 2
+manametalmod:nuggetManganese - 0
 
 
 nuggetManganeseSteel
@@ -29039,9 +32392,26 @@ nuggetMischmetal
 nuggetMithril
 ThermalFoundation:material - 102
 Metallurgy:fantasy.nugget - 7
+manametalmod:nuggetMithril - 0
+
+
+nuggetMoltenGold
+manametalmod:nuggetMoltenGold - 0
 
 
 nuggetMolybdenum
+manametalmod:nuggetMolybdenum - 0
+
+
+nuggetMoonstone
+
+
+nuggetMysteriousIron
+manametalmod:nuggetMysteriousIron - 0
+
+
+nuggetMysteriousSoul
+manametalmod:nuggetMysteriousSoul - 0
 
 
 nuggetNaturalAluminum
@@ -29056,7 +32426,15 @@ nuggetNeodymium
 nuggetNeodymiumMagnet
 
 
+nuggetNetherite
+manametalmod:nuggetNetherite - 0
+
+
 nuggetNetherrack
+
+
+nuggetNeutronEnergy
+manametalmod:nuggetNeutronEnergy - 0
 
 
 nuggetNichrome
@@ -29065,6 +32443,7 @@ nuggetNichrome
 nuggetNickel
 ThermalFoundation:material - 100
 ImmersiveEngineering:metal - 26
+manametalmod:nuggetNickel - 0
 
 
 nuggetNimonic
@@ -29083,16 +32462,24 @@ TConstruct:materials - 27
 nuggetOlivine
 
 
+nuggetOpal
+
+
 nuggetOrichalcum
 Metallurgy:fantasy.nugget - 11
+manametalmod:nuggetOrichalcum - 0
 
 
 nuggetOsmium
-AgriCraft:nuggetOsmium - 0
+manametalmod:nuggetOsmium - 0
 
 
 nuggetOureclase
 Metallurgy:fantasy.nugget - 4
+
+
+nuggetPalladium
+manametalmod:nuggetPalladium - 0
 
 
 nuggetPhasedGold
@@ -29109,6 +32496,14 @@ nuggetPlatinum
 ThermalFoundation:material - 101
 Metallurgy:precious.nugget - 2
 gemsnjewels:platinum nugget - 0
+manametalmod:nuggetPlatinum - 0
+
+
+nuggetPotassium
+
+
+nuggetPreciousIron
+manametalmod:nuggetPreciousIron - 0
 
 
 nuggetPrometheum
@@ -29128,6 +32523,18 @@ Thaumcraft:ItemResource - 3
 Metallurgy:fantasy.nugget - 9
 
 
+nuggetRainbowDiamond
+manametalmod:nuggetRainbowDiamond - 0
+
+
+nuggetRainbowOpal
+manametalmod:nuggetRainbowOpal - 0
+
+
+nuggetRainbowSteel
+manametalmod:nuggetRainbowSteel - 0
+
+
 nuggetRedAlloy
 
 
@@ -29140,7 +32547,16 @@ nuggetRedstoneAlloy
 nuggetRefinedGlowstone
 
 
+nuggetRhodium
+manametalmod:nuggetRhodium - 0
+
+
 nuggetRoseGold
+manametalmod:nuggetRoseGold - 0
+
+
+nuggetRosite
+manametalmod:nuggetRosite - 0
 
 
 nuggetRubber
@@ -29151,6 +32567,10 @@ Metallurgy:fantasy.nugget - 8
 
 
 nuggetRuby
+
+
+nuggetRuneSteel
+manametalmod:nuggetRuneSteel - 0
 
 
 nuggetRutile
@@ -29167,8 +32587,16 @@ nuggetSapphire
 nuggetScal
 
 
+nuggetScandium
+manametalmod:nuggetScandium - 0
+
+
 nuggetShadowIron
 Metallurgy:nether.nugget - 1
+
+
+nuggetShadowSecretGold
+manametalmod:nuggetShadowSecretGold - 0
 
 
 nuggetShadowSteel
@@ -29187,6 +32615,18 @@ Metallurgy:precious.nugget - 1
 gemsnjewels:silver nugget - 0
 MagicBees:beeNugget - 3
 lotr:item.silverNugget - 0
+manametalmod:nuggetSilver - 0
+
+
+nuggetSodium
+
+
+nuggetSoulGold
+manametalmod:nuggetSoulGold - 0
+
+
+nuggetSoulSteel
+manametalmod:nuggetSoulSteel - 0
 
 
 nuggetSoularium
@@ -29197,11 +32637,27 @@ nuggetSoulium
 SSTOW:sstow_materials - 1
 
 
+nuggetSoulstone
+manametalmod:nuggetSoulstone - 0
+
+
+nuggetSpinel
+
+
 nuggetStainlessSteel
+manametalmod:nuggetStainlessSteel - 0
+
+
+nuggetStarSilver
+manametalmod:nuggetStarSilver - 0
 
 
 nuggetStaredMithril
 mett:MaterialNuggets - 5
+
+
+nuggetStartleSilver
+manametalmod:nuggetStartleSilver - 0
 
 
 nuggetSteel
@@ -29209,6 +32665,7 @@ TConstruct:materials - 33
 Railcraft:nugget - 1
 ImmersiveEngineering:metal - 29
 Metallurgy:base.nugget - 7
+manametalmod:nuggetSteel - 0
 steamcraft2:ItemMetalNugget - 6
 SteelIndustries:nuggetSteel - 0
 
@@ -29219,7 +32676,17 @@ nuggetSteeleaf
 nuggetStone
 
 
+nuggetSunstone
+
+
+nuggetSuperAlloy
+manametalmod:nuggetSuperAlloy - 0
+
+
 nuggetTantalum
+
+
+nuggetTanzanite
 
 
 nuggetTartarite
@@ -29237,6 +32704,10 @@ Thaumcraft:ItemNugget - 6
 nuggetThorium
 
 
+nuggetThulium
+manametalmod:nuggetThulium - 0
+
+
 nuggetTin
 ThermalFoundation:material - 97
 TConstruct:materials - 21
@@ -29244,15 +32715,28 @@ Thaumcraft:ItemNugget - 2
 Railcraft:nugget - 3
 Metallurgy:base.nugget - 1
 MagicBees:beeNugget - 2
+manametalmod:nuggetTin - 0
 steamcraft2:ItemMetalNugget - 2
+
+
+nuggetTitan
+manametalmod:nuggetTitan - 0
 
 
 nuggetTitanium
 Mariculture:materials - 36
+manametalmod:nuggetTitanium - 0
 SteelIndustries:nuggetTitanium - 0
 
 
+nuggetTitaniumAlloy
+manametalmod:nuggetTitaniumAlloy - 0
+
+
 nuggetTopaz
+
+
+nuggetTourmaline
 
 
 nuggetTritanium
@@ -29261,14 +32745,20 @@ nuggetTritanium
 nuggetTungsten
 
 
+nuggetUniverseEnergy
+manametalmod:nuggetUniverseEnergy - 0
+
+
 nuggetUnstable
 ExtraUtilities:unstableingot - 1
 
 
 nuggetUranium
+manametalmod:nuggetUranium - 0
 
 
 nuggetVanadium
+manametalmod:nuggetVanadium - 0
 
 
 nuggetVanadiumSteel
@@ -29296,23 +32786,44 @@ nuggetVyroxeres
 Metallurgy:nether.nugget - 4
 
 
+nuggetWolfram
+manametalmod:nuggetWolfram - 0
+
+
 nuggetWood
 
 
 nuggetWroughtIron
 GardenStuff:wrought_iron_nugget - 0
+manametalmod:nuggetWroughtIron - 0
+
+
+nuggetYadras
+manametalmod:nuggetYadras - 0
 
 
 nuggetYag
 
 
+nuggetYamagata
+manametalmod:nuggetYamagata - 0
+
+
+nuggetYttrium
+manametalmod:nuggetYttrium - 0
+
+
 nuggetZinc
 Metallurgy:precious.nugget - 0
 Steamcraft:steamcraftNugget - 1
+manametalmod:nuggetZinc - 0
 steamcraft2:ItemMetalNugget - 3
 
 
 nuggetZincAlloy
+
+
+nuggetZircon
 
 
 nuggetmolten.bedrockiumingots
@@ -30025,11 +33536,16 @@ OpenComputers:wrench - 0
 onyxOre
 
 
+oreAcanoy
+manametalmod:oreAcanoy - 0
+
+
 oreActivatedCarbon
 
 
 oreAdamantine
 Metallurgy:fantasy.ore - 13
+manametalmod:oreAdamantine - 0
 
 
 oreAdamantite
@@ -30039,13 +33555,25 @@ nolpfij_wildycraft:Wildycraft_addyOre - 0
 oreAdamantium
 
 
+oreAdamman
+
+
 oreAer
 
 
 oreAerotheum
 
 
+oreAether
+
+
+oreAgate
+
+
 oreAlabaster
+
+
+oreAlchemyMana
 
 
 oreAlduorite
@@ -30075,7 +33603,11 @@ TConstruct:GravelOre - 4
 ImmersiveEngineering:ore - 1
 GalacticraftCore:tile.gcBlockCore - 7
 GalacticraftMars:tile.asteroidsBlock - 3
+GalaxySpace:marsoresblocks - 5
+GalaxySpace:europablocks - 5
+GalaxySpace:barnardacores - 9
 Mariculture:rocks - 2
+manametalmod:oreAluminum - 0
 SpiritOresMod:aluminumOre - 0
 steamcraft2:BlockSteamcraftOre - 0
 UltraTech:Ores_UT - 1
@@ -30091,15 +33623,19 @@ oreAlumite
 
 oreAmber
 Thaumcraft:blockCustomOre - 7
+BiomesOPlenty:gemOre - 14
 fossil:amberOre - 0
 gemsnjewels:oreNetherAmber - 0
 gemsnjewels:oreAmber - 0
+manametalmod:oreAmber - 0
 etfuturum:deepslate_thaumcraft_ore - 7
+etfuturum:deepslate_bop_ore - 6
 
 
 oreAmethyst
 gemsnjewels:oreAmethyst - 0
 gemsnjewels:oreNetherAmethyst - 0
+manametalmod:oreAmethyst - 0
 SpiritOresMod:amethystOre - 0
 
 
@@ -30107,6 +33643,12 @@ oreAmmonium
 
 
 oreAmordrine
+
+
+oreAmpulos
+
+
+oreAncientThulium
 
 
 oreAngmallen
@@ -30119,6 +33661,7 @@ oreAnthraciteCoal
 
 
 oreAntimony
+manametalmod:oreAntimony - 0
 
 
 oreApatite
@@ -30132,6 +33675,7 @@ oreAquamarine
 caveworld:gem_ore - 0
 gemsnjewels:oreNetherAquamarine - 0
 gemsnjewels:oreAquamarine - 0
+manametalmod:oreAquamarine - 0
 
 
 oreArcadian
@@ -30157,12 +33701,19 @@ eotg:ashual - 0
 oreAstral Silver
 
 
+oreAstral.silver
+
+
 oreAstralSilver
 Metallurgy:fantasy.ore - 5
 
 
 oreAtlarus
 Metallurgy:fantasy.ore - 14
+
+
+oreBadyala
+manametalmod:oreBadyala - 0
 
 
 oreBam
@@ -30201,6 +33752,12 @@ oreBasalz
 oreBauxite
 
 
+oreBedrock
+
+
+oreBedrockium
+
+
 oreBerryAluminium
 
 
@@ -30228,7 +33785,12 @@ oreBeryl
 oreBeryllium
 
 
+oreBiliha
+manametalmod:oreBiliha - 0
+
+
 oreBismuth
+manametalmod:oreBismuth - 0
 
 
 oreBitumen
@@ -30240,6 +33802,10 @@ oreBituminous
 
 
 oreBituminousCoal
+
+
+oreBlackDiamond
+manametalmod:oreBlackDiamond - 0
 
 
 oreBlackOpal
@@ -30271,6 +33837,9 @@ oreBlackgraniteSilver
 oreBlackgraniteTin
 
 
+oreBlackhole
+
+
 oreBlazium
 
 
@@ -30278,6 +33847,12 @@ oreBlitz
 
 
 oreBlizz
+
+
+oreBloodItron
+
+
+oreBloodMetal
 
 
 oreBloodstone
@@ -30376,6 +33951,7 @@ oreCalcite
 
 
 oreCalcium
+manametalmod:oreCalcium - 0
 
 
 oreCalciumChloride
@@ -30418,6 +33994,7 @@ eotg:celestiumOre - 0
 
 
 oreCerium
+manametalmod:oreCerium - 0
 
 
 oreCertusQuartz
@@ -30468,6 +34045,7 @@ oreChromite
 
 
 oreChromium
+manametalmod:oreChromium - 0
 
 
 oreChrysoberyl
@@ -30481,6 +34059,7 @@ etfuturum:deepslate_thaumcraft_ore - 0
 oreCitrine
 gemsnjewels:oreNetherCitrine - 0
 gemsnjewels:oreCitrine - 0
+manametalmod:oreCitrine - 0
 
 
 oreClay
@@ -30492,15 +34071,26 @@ oreClinohumite
 oreCoal
 minecraft:coal_ore - 0
 atum:tile.coalOre - 0
+GalaxySpace:marsoresblocks - 2
+GalaxySpace:enceladusblocks - 2
+GalaxySpace:proximabblocks - 8
+GalaxySpace:barnardacores - 0
 etfuturum:deepslate_coal_ore - 0
 
 
 oreCobalt
 TConstruct:SearedBrick - 1
 TConstruct:GravelOre - 5
+GalaxySpace:ores - 0
+GalaxySpace:barnardacores - 11
+manametalmod:oreCobalt - 0
 
 
 oreCobaltite
+
+
+oreCobaltum
+GalaxySpace:barnardacores - 11
 
 
 oreCobblestone
@@ -30511,6 +34101,9 @@ oreCoke
 
 oreCompass
 caveworld:ore_compass - 0
+
+
+oreCompressionSteel
 
 
 oreConductiveIron
@@ -30536,9 +34129,13 @@ Steamcraft:steamcraftOre - 0
 GalacticraftCore:tile.gcBlockCore - 5
 GalacticraftCore:tile.moonBlock - 0
 GalacticraftMars:tile.mars - 0
+GalaxySpace:ioblocks - 3
+GalaxySpace:proximabblocks - 7
+GalaxySpace:barnardacores - 7
 Mariculture:rocks - 1
 lotr:tile.oreCopper - 0
 chinacraft:CopperOre - 0
+manametalmod:oreCopper - 0
 SpiritOresMod:copperOre - 0
 steamcraft2:BlockSteamcraftOre - 1
 UltraTech:Ores_UT - 2
@@ -30550,10 +34147,20 @@ etfuturum:deepslate_copper_ore - 0
 oreCopperMixedTin
 
 
+oreCopyA
+
+
+oreCordierite
+manametalmod:oreCordierite - 0
+
+
 oreCorundum
 
 
 oreCosmicNeutronium
+
+
+oreCrimson
 
 
 oreCrocoite
@@ -30598,6 +34205,9 @@ oreDaedelosMorgul
 oreDamascusSteel
 
 
+oreDark
+
+
 oreDarkSoularium
 
 
@@ -30615,12 +34225,17 @@ oreDeepIron
 Metallurgy:fantasy.ore - 1
 
 
+oreDeepiron
+manametalmod:oreDeepiron - 0
+
+
 oreDeepslateAluminum
 etfuturum:modded_deepslate_ore - 0
 
 
 oreDeepslateAmber
 etfuturum:deepslate_thaumcraft_ore - 7
+etfuturum:deepslate_bop_ore - 6
 
 
 oreDeepslateCertusQuartz
@@ -30700,6 +34315,10 @@ oreDeepslateMagnesium
 etfuturum:modded_deepslate_ore - 12
 
 
+oreDeepslateMalachite
+etfuturum:deepslate_bop_ore - 4
+
+
 oreDeepslateMithril
 etfuturum:modded_deepslate_ore - 6
 
@@ -30712,6 +34331,10 @@ oreDeepslateOsmium
 Mekanism:DeepslateOreBlock - 0
 
 
+oreDeepslatePeridot
+etfuturum:deepslate_bop_ore - 1
+
+
 oreDeepslatePlatinum
 etfuturum:modded_deepslate_ore - 5
 
@@ -30720,13 +34343,33 @@ oreDeepslateRedstone
 etfuturum:deepslate_redstone_ore - 0
 
 
+oreDeepslateRuby
+etfuturum:deepslate_bop_ore - 0
+
+
+oreDeepslateSapphire
+etfuturum:deepslate_bop_ore - 5
+
+
 oreDeepslateSilver
 etfuturum:modded_deepslate_ore - 2
+
+
+oreDeepslateTanzanite
+etfuturum:deepslate_bop_ore - 3
 
 
 oreDeepslateTin
 Mekanism:DeepslateOreBlock - 2
 etfuturum:modded_deepslate_ore - 1
+
+
+oreDeepslateTitanium
+etfuturum:modded_deepslate_ore - 10
+
+
+oreDeepslateTopaz
+etfuturum:deepslate_bop_ore - 2
 
 
 oreDeepslateTungsten
@@ -30752,6 +34395,9 @@ oreDiamond
 minecraft:diamond_ore - 0
 Railcraft:ore - 2
 atum:tile.diamondOre - 0
+GalaxySpace:venusblocks - 3
+GalaxySpace:marsoresblocks - 0
+GalaxySpace:barnardacores - 5
 gemsnjewels:oreNetherDiamond - 0
 lightningcraft:tile.underworldOre - 2
 etfuturum:deepslate_diamond_ore - 0
@@ -30764,6 +34410,9 @@ oreDimensionForged
 
 
 oreDirt
+
+
+oreDirt3000
 
 
 oreDirtyAdamantine
@@ -31049,6 +34698,8 @@ oreDirtyZinc
 
 
 oreDolomite
+GalaxySpace:ceresblocks - 2
+GalaxySpace:mirandablocks - 4
 
 
 oreDominicanAmber
@@ -31062,7 +34713,22 @@ etfuturum:deepslate_draconium_ore - 0
 oreDraconiumAwakened
 
 
+oreDragonGold
+
+
+oreDragonPalladium
+
+
+oreDragonPlatinum
+
+
+oreDragonSilver
+
+
 oreDrulloy
+
+
+oreDungeonGold
 
 
 oreDuralumin
@@ -31117,6 +34783,8 @@ oreElvenElementium
 oreEmerald
 minecraft:emerald_ore - 0
 Railcraft:ore - 3
+GalaxySpace:europablocks - 3
+GalaxySpace:proximabblocks - 10
 gemsnjewels:oreNetherEmerald - 0
 etfuturum:deepslate_emerald_ore - 0
 
@@ -31125,6 +34793,10 @@ oreEndSteel
 
 
 oreEnder
+
+
+oreEnderGold
+manametalmod:oreEnderGold - 0
 
 
 oreEnderPearl
@@ -31145,6 +34817,9 @@ oreEnderiumBase
 
 oreEndium
 ganysend:rawEndium - 0
+
+
+oreEndless
 
 
 oreEndstone
@@ -31177,6 +34852,10 @@ oreEnergeticAlloy
 oreEnergeticSilver
 
 
+oreEnergyCrystal
+manametalmod:oreEnergyCrystal - 0
+
+
 oreEnrichedGold
 
 
@@ -31197,6 +34876,13 @@ oreFZDarkIron
 
 
 oreFairy
+
+
+oreFantasygold
+manametalmod:oreFantasygold - 0
+
+
+oreFarm
 
 
 oreFeliron
@@ -31225,6 +34911,10 @@ oreFluix
 oreFluorite
 
 
+oreFlyGem
+manametalmod:oreFlyGem - 0
+
+
 oreFoolsGold
 
 
@@ -31241,12 +34931,19 @@ oreFzDarkIron
 oreGadolinium
 
 
+oreGaia
+
+
+oreGalaxy
+
+
 oreGalena
 
 
 oreGarnet
 gemsnjewels:oreGarnet - 0
 gemsnjewels:oreNetherGarnet - 0
+manametalmod:oreGarnet - 0
 
 
 oreGildedIron
@@ -31271,10 +34968,22 @@ oreGold
 minecraft:gold_ore - 0
 TConstruct:GravelOre - 1
 atum:tile.goldOre - 0
+GalaxySpace:marsoresblocks - 1
+GalaxySpace:proximabblocks - 5
+GalaxySpace:barnardacores - 2
 lightningcraft:tile.underworldOre - 1
+manametalmod:blockAncientStoneOreGold - 0
+manametalmod:blockHellGold - 0
 netherlicious:NetherGoldOre - 0
 etfuturum:raw_ore - 2
 etfuturum:deepslate_gold_ore - 0
+
+
+oreGoldSteeleafIngot
+
+
+oreGoslarda
+manametalmod:oreGoslarda - 0
 
 
 oreGraphite
@@ -31353,7 +35062,18 @@ oreHexcite
 caveworld:gem_ore - 5
 
 
+oreHighlycrystal
+manametalmod:oreHighlycrystal - 0
+
+
 oreHolmium
+
+
+oreHolyCopper
+manametalmod:oreHolyCopper - 0
+
+
+oreHolySoul
 
 
 oreHydratedCoal
@@ -31368,6 +35088,7 @@ oreIgnis
 
 oreIlmenite
 GalacticraftMars:tile.asteroidsBlock - 4
+GalaxySpace:ganymedeblocks - 3
 
 
 oreIndium
@@ -31417,6 +35138,9 @@ Thaumcraft:blockCustomOre - 3
 etfuturum:deepslate_thaumcraft_ore - 3
 
 
+oreInitial
+
+
 oreInolashite
 
 
@@ -31431,6 +35155,7 @@ SpiritOresMod:iriditeOre - 0
 
 
 oreIridium
+manametalmod:oreIridium - 0
 
 
 oreIron
@@ -31439,6 +35164,9 @@ TConstruct:GravelOre - 0
 atum:tile.ironOre - 0
 GalacticraftMars:tile.asteroidsBlock - 5
 GalacticraftMars:tile.mars - 3
+GalaxySpace:mercuryblocks - 3
+GalaxySpace:mirandablocks - 3
+GalaxySpace:barnardacores - 1
 lightningcraft:tile.underworldOre - 0
 netherlicious:NetherIronOre - 0
 etfuturum:raw_ore - 1
@@ -31452,6 +35180,9 @@ oreIronwood
 TwilightForest:item.ironwoodRaw - 0
 
 
+oreIte
+
+
 oreIthildinBlueDwarven
 
 
@@ -31462,11 +35193,15 @@ oreJade
 gemsnjewels:oreJade - 0
 gemsnjewels:oreNetherJade - 0
 chinacraft:JadeOre - 0
+manametalmod:oreJade - 0
 
 
 oreJasper
 gemsnjewels:oreJasper - 0
 gemsnjewels:oreNetherJasper - 0
+
+
+oreJet
 
 
 oreKalendrite
@@ -31493,8 +35228,12 @@ oreLapis
 minecraft:lapis_ore - 0
 Railcraft:ore - 4
 atum:tile.lapisOre - 0
+GalaxySpace:barnardacores - 4
 gemsnjewels:oreNetherLapis - 0
 etfuturum:deepslate_lapis_ore - 0
+
+
+oreLapuda
 
 
 oreLaserite
@@ -31508,6 +35247,7 @@ oreLead
 ThermalFoundation:Ore - 3
 ImmersiveEngineering:ore - 2
 foundry:blockFoundryOre - 5
+manametalmod:oreLead - 0
 UltraTech:Ores_UT - 4
 etfuturum:modded_deepslate_ore - 3
 etfuturum:modded_raw_ore - 3
@@ -31517,7 +35257,12 @@ oreLemurite
 Metallurgy:nether.ore - 2
 
 
+oreLightScrap
+manametalmod:oreLightScrap - 0
+
+
 oreLignite
+manametalmod:oreLignite - 0
 
 
 oreLigniteCoal
@@ -31537,12 +35282,17 @@ oreLimonite
 
 
 oreLithium
+manametalmod:oreLithium - 0
 
 
 oreLudicrite
 
 
 oreLumium
+
+
+oreLunaStone
+manametalmod:oreLunaStone - 0
 
 
 oreLunium
@@ -31564,6 +35314,8 @@ oreMagmaSpirited
 
 oreMagnesium
 Metallurgy:utility.ore - 3
+GalaxySpace:ganymedeblocks - 2
+manametalmod:oreMagnesium - 0
 etfuturum:modded_deepslate_ore - 12
 etfuturum:modded_raw_ore - 12
 
@@ -31580,8 +35332,39 @@ caveworld:gem_ore - 3
 
 
 oreMalachite
+BiomesOPlenty:gemOre - 10
 gemsnjewels:oreNetherMalachite - 0
 gemsnjewels:oreMalachite - 0
+etfuturum:deepslate_bop_ore - 4
+
+
+oreMana
+manametalmod:oreMana - 0
+manametalmod:oreManaLV1 - 0
+manametalmod:oreManaLV2 - 0
+manametalmod:oreManaLV3 - 0
+manametalmod:oreManaDirt - 0
+manametalmod:oreManaEnder - 0
+manametalmod:oreManaHell - 0
+manametalmod:oreManaAether - 0
+
+
+oreManaDragonCrystal
+manametalmod:oreManaDragonCrystal - 0
+
+
+oreManaEnderCrystal
+manametalmod:oreManaEnderCrystal - 0
+
+
+oreManaPureS
+
+
+oreManaS
+
+
+oreManaSpiritSteel
+manametalmod:oreManaSpiritSteel - 0
 
 
 oreManasteel
@@ -31592,6 +35375,7 @@ oreMangalloy
 
 oreManganese
 Metallurgy:base.ore - 2
+manametalmod:oreManganese - 0
 
 
 oreManganeseSteel
@@ -31667,6 +35451,7 @@ oreMischmetal
 oreMithril
 ThermalFoundation:Ore - 6
 Metallurgy:fantasy.ore - 7
+manametalmod:oreMithril - 0
 nolpfij_wildycraft:Wildycraft_mithrilOre - 0
 lotr:tile.oreMithril - 0
 etfuturum:modded_deepslate_ore - 6
@@ -31685,22 +35470,39 @@ oreMolten.bedrockiumingots
 oreMolten.unstableingots
 
 
+oreMoltenGold
+manametalmod:oreMoltenGold - 0
+
+
 oreMolybdenite
 
 
 oreMolybdenum
+manametalmod:oreMolybdenum - 0
+
+
+oreMonahide
 
 
 oreMonazite
 
 
 oreMoonstone
+manametalmod:oreMoonstone - 0
 
 
 oreMortium
 
 
 oreMysterious
+
+
+oreMysteriousIron
+manametalmod:oreMysteriousIron - 0
+
+
+oreMysteriousSoul
+manametalmod:oreMysteriousSoul - 0
 
 
 oreMystic
@@ -31938,6 +35740,7 @@ oreNetherYellorite
 
 
 oreNetherite
+manametalmod:oreNetherite - 0
 
 
 oreNethermolten.bedrockiumingots
@@ -31973,6 +35776,9 @@ oreNetherrackSilver
 oreNetherrackTin
 
 
+oreNeutronEnergy
+
+
 oreNichrome
 
 
@@ -31980,6 +35786,10 @@ oreNickel
 ThermalFoundation:Ore - 4
 ImmersiveEngineering:ore - 4
 foundry:blockFoundryOre - 2
+GalaxySpace:mercuryblocks - 4
+GalaxySpace:ores - 1
+GalaxySpace:barnardacores - 12
+manametalmod:oreNickel - 0
 etfuturum:modded_deepslate_ore - 4
 etfuturum:modded_raw_ore - 4
 
@@ -32022,6 +35832,7 @@ gemsnjewels:oreOnyx - 0
 oreOpal
 gemsnjewels:oreNetherOpal - 0
 gemsnjewels:oreOpal - 0
+manametalmod:oreOpal - 0
 
 
 oreOrdo
@@ -32032,12 +35843,14 @@ oreOreDark
 
 oreOrichalcum
 Metallurgy:fantasy.ore - 11
+manametalmod:oreOrichalcum - 0
 
 
 oreOsmium
 Mekanism:RawOsmiumOre - 0
 Mekanism:OreBlock - 0
 Mekanism:DeepslateOreBlock - 0
+manametalmod:oreOsmium - 0
 
 
 oreOureclase
@@ -32045,17 +35858,21 @@ Metallurgy:fantasy.ore - 4
 
 
 orePalladium
+manametalmod:orePalladium - 0
 
 
 orePeat
+manametalmod:dirtCoal - 0
 
 
 orePerditio
 
 
 orePeridot
+BiomesOPlenty:gemOre - 4
 gemsnjewels:oreNetherPeridot - 0
 gemsnjewels:orePeridot - 0
+etfuturum:deepslate_bop_ore - 1
 
 
 orePetroleum
@@ -32094,6 +35911,7 @@ orePlatinum
 ThermalFoundation:Ore - 5
 Metallurgy:precious.ore - 2
 gemsnjewels:orePlatinum - 0
+manametalmod:orePlatinum - 0
 etfuturum:modded_deepslate_ore - 5
 etfuturum:modded_raw_ore - 5
 
@@ -32175,6 +35993,7 @@ orePoorConductiveIron
 
 orePoorCopper
 Railcraft:ore - 9
+manametalmod:orePoorCopper - 0
 
 
 orePoorCupronickel
@@ -32252,6 +36071,7 @@ orePoorInvar
 
 orePoorIron
 Railcraft:ore - 7
+manametalmod:orePoorIron - 0
 
 
 orePoorIronwood
@@ -32268,6 +36088,7 @@ orePoorKnightmetal
 
 orePoorLead
 Railcraft:ore - 11
+manametalmod:orePoorLead - 0
 
 
 orePoorLemurite
@@ -32401,6 +36222,7 @@ orePoorThaumium
 
 orePoorTin
 Railcraft:ore - 10
+manametalmod:orePoorTin - 0
 
 
 orePoorTitanium
@@ -32453,10 +36275,21 @@ Metallurgy:utility.ore - 5
 orePotashAlum
 
 
+orePotassium
+manametalmod:orePotassium - 0
+
+
 orePotentia
 
 
+orePowerIronwoodIngot
+
+
 orePraseodymium
+
+
+orePreciousIron
+manametalmod:orePreciousIron - 0
 
 
 orePrimal
@@ -32475,6 +36308,10 @@ orePulsatingIron
 orePumice
 
 
+orePurgatoryIron
+manametalmod:orePurgatoryIron - 0
+
+
 orePyrite
 
 
@@ -32483,6 +36320,7 @@ orePyrotheum
 
 oreQuartz
 minecraft:quartz_ore - 0
+GalaxySpace:barnardacores - 10
 
 
 oreQuartzBlack
@@ -32506,6 +36344,18 @@ oreRadioactiveLead
 
 oreRadionite
 UltraTech:Ores_UT - 0
+
+
+oreRainbowDiamond
+manametalmod:oreRainbowDiamond - 0
+
+
+oreRainbowOpal
+manametalmod:oreRainbowOpal - 0
+
+
+oreRainbowSteel
+manametalmod:oreRainbowSteel - 0
 
 
 oreRedAlloy
@@ -32538,6 +36388,8 @@ oreRedgraniteTin
 oreRedstone
 minecraft:redstone_ore - 0
 atum:tile.redstoneOre - 0
+GalaxySpace:marsoresblocks - 3
+GalaxySpace:barnardacores - 3
 etfuturum:deepslate_redstone_ore - 0
 
 
@@ -32560,12 +36412,20 @@ oreRefinedLapis
 oreRefinedObsidian
 
 
+oreRhodium
+manametalmod:oreRhodium - 0
+
+
 oreRoseGold
 
 
 oreRoseQuartz
 gemsnjewels:oreNetherRoseQuartz - 0
 gemsnjewels:oreRoseQuartz - 0
+
+
+oreRosite
+manametalmod:oreRosite - 0
 
 
 oreRubber
@@ -32576,9 +36436,15 @@ Metallurgy:fantasy.ore - 8
 
 
 oreRuby
+BiomesOPlenty:gemOre - 2
 gemsnjewels:oreRuby - 0
 gemsnjewels:oreNetherRuby - 0
 TragicMC:rubyOre - 0
+manametalmod:oreRuby - 0
+etfuturum:deepslate_bop_ore - 0
+
+
+oreRuneSteel
 
 
 oreRunicSteel
@@ -32615,17 +36481,21 @@ Metallurgy:nether.ore - 9
 
 
 oreSapphire
+BiomesOPlenty:gemOre - 12
 eotg:sapphireOre - 0
 gemsnjewels:oreNetherSapphire - 0
 gemsnjewels:oreSapphire - 0
 TragicMC:sapphireOre - 0
+manametalmod:oreSapphire - 0
 PracticalLogistics:SapphireOre - 0
+etfuturum:deepslate_bop_ore - 5
 
 
 oreScal
 
 
 oreScandium
+manametalmod:oreScandium - 0
 
 
 oreScarab
@@ -32649,6 +36519,10 @@ oreShadowIron
 Metallurgy:nether.ore - 1
 
 
+oreShadowSecretGold
+manametalmod:oreShadowSecretGold - 0
+
+
 oreShadowSteel
 
 
@@ -32660,6 +36534,10 @@ oreSignalum
 
 oreSilicon
 GalacticraftCore:tile.gcBlockCore - 8
+GalaxySpace:marsoresblocks - 4
+GalaxySpace:europablocks - 4
+GalaxySpace:proximabblocks - 9
+GalaxySpace:barnardacores - 6
 SteelIndustries:oreSilicon - 0
 
 
@@ -32677,6 +36555,7 @@ foundry:blockFoundryOre - 4
 gemsnjewels:oreSilver - 0
 lotr:tile.oreSilver - 0
 chinacraft:SilverOre - 0
+manametalmod:oreSilver - 0
 UltraTech:Ores_UT - 5
 etfuturum:modded_deepslate_ore - 2
 etfuturum:modded_raw_ore - 2
@@ -33004,6 +36883,7 @@ oreSodalite
 
 
 oreSodium
+manametalmod:oreSodium - 0
 
 
 oreSodiumChloride
@@ -33012,10 +36892,22 @@ oreSodiumChloride
 oreSoul
 
 
+oreSoulGold
+manametalmod:oreSoulGold - 0
+
+
+oreSoulSteel
+manametalmod:oreSoulSteel - 0
+
+
 oreSoularium
 
 
 oreSoulium
+
+
+oreSoulstone
+manametalmod:oreSoulstone - 0
 
 
 oreSphalerite
@@ -33024,6 +36916,7 @@ oreSphalerite
 oreSpinel
 gemsnjewels:oreNetherSpinel - 0
 gemsnjewels:oreSpinel - 0
+manametalmod:oreSpinel - 0
 
 
 oreSpirit
@@ -33036,10 +36929,22 @@ oreSpirited
 oreStainlessSteel
 
 
+oreStar
+manametalmod:oreStar - 0
+
+
 oreStarGarnet
 
 
+oreStarSilver
+manametalmod:oreStarSilver - 0
+
+
 oreStaredMithril
+
+
+oreStartleSilver
+manametalmod:oreStartleSilver - 0
 
 
 oreSteel
@@ -33069,6 +36974,8 @@ oreSulfate
 oreSulfur
 Railcraft:ore - 0
 Metallurgy:utility.ore - 0
+GalaxySpace:venusblocks - 2
+GalaxySpace:ioblocks - 4
 lotr:tile.oreSulfur - 0
 
 
@@ -33076,6 +36983,10 @@ oreSulphur
 
 
 oreSunstone
+manametalmod:oreSunstone - 0
+
+
+oreSuperAlloy
 
 
 oreTaconite
@@ -33088,8 +36999,11 @@ oreTantalum
 
 
 oreTanzanite
+BiomesOPlenty:gemOre - 8
 gemsnjewels:oreNetherTanzanite - 0
 gemsnjewels:oreTanzanite - 0
+manametalmod:oreTanzanite - 0
+etfuturum:deepslate_bop_ore - 3
 
 
 oreTartarite
@@ -33124,6 +37038,10 @@ oreThorium
 
 
 oreThulium
+manametalmod:oreThulium - 0
+
+
+oreTigerite
 
 
 oreTin
@@ -33138,8 +37056,11 @@ foundry:blockFoundryOre - 1
 GalacticraftCore:tile.gcBlockCore - 6
 GalacticraftCore:tile.moonBlock - 1
 GalacticraftMars:tile.mars - 1
+GalaxySpace:proximabblocks - 6
+GalaxySpace:barnardacores - 8
 lotr:tile.oreTin - 0
 chinacraft:TinOre - 0
+manametalmod:oreTin - 0
 steamcraft2:BlockSteamcraftOre - 2
 UltraTech:Ores_UT - 3
 etfuturum:modded_deepslate_ore - 1
@@ -33464,7 +37385,17 @@ oreTinyZinc
 oreTinyZincAlloy
 
 
+oreTitan
+manametalmod:oreTitan - 0
+
+
 oreTitanium
+manametalmod:oreTitanium - 0
+etfuturum:modded_deepslate_ore - 10
+etfuturum:modded_raw_ore - 10
+
+
+oreTitaniumAlloy
 
 
 oreTofu
@@ -33474,8 +37405,10 @@ oreTofuDiamond
 
 
 oreTopaz
+BiomesOPlenty:gemOre - 6
 gemsnjewels:oreNetherTopaz - 0
 gemsnjewels:oreTopaz - 0
+etfuturum:deepslate_bop_ore - 2
 
 
 oreTorite
@@ -33487,12 +37420,16 @@ oreToslotrium
 oreTourmaline
 gemsnjewels:oreTourmaline - 0
 gemsnjewels:oreNetherTourmaline - 0
+manametalmod:oreTourmaline - 0
 
 
 oreTravertine
 
 
 oreTritanium
+
+
+oreTrueAncientThulium
 
 
 oreTungstate
@@ -33509,6 +37446,16 @@ gemsnjewels:oreNetherTurquoise - 0
 gemsnjewels:oreTurquoise - 0
 
 
+oreTwilight
+manametalmod:oreTwilight - 0
+
+
+oreUltimateTerrasteel
+
+
+oreUniverseEnergy
+
+
 oreUnstable
 
 
@@ -33516,6 +37463,9 @@ oreUnstableSoot
 
 
 oreUranium
+GalaxySpace:ores - 3
+GalaxySpace:tritonblocks - 5
+manametalmod:oreUranium - 0
 steamcraft2:BlockSteamcraftOre - 4
 etfuturum:modded_deepslate_ore - 7
 etfuturum:modded_raw_ore - 7
@@ -33531,6 +37481,7 @@ oreVacous
 
 
 oreVanadium
+manametalmod:oreVanadium - 0
 
 
 oreVanadiumSteel
@@ -33575,13 +37526,25 @@ Metallurgy:nether.ore - 4
 oreWheat
 
 
+oreWolfram
+manametalmod:oreWolfram - 0
+
+
 oreWood
 
 
 oreWroughtIron
 
 
+oreYadras
+manametalmod:oreYadras - 0
+
+
 oreYag
+
+
+oreYamagata
+manametalmod:oreYamagata - 0
 
 
 oreYeast
@@ -33603,6 +37566,7 @@ oreYtterbium
 
 
 oreYttrium
+manametalmod:oreYttrium - 0
 
 
 oreZephyrean
@@ -33612,6 +37576,7 @@ oreZinc
 Metallurgy:precious.ore - 0
 foundry:blockFoundryOre - 3
 Steamcraft:steamcraftOre - 1
+manametalmod:oreZinc - 0
 steamcraft2:BlockSteamcraftOre - 3
 etfuturum:modded_deepslate_ore - 11
 etfuturum:modded_raw_ore - 11
@@ -33623,6 +37588,7 @@ oreZincAlloy
 oreZircon
 gemsnjewels:oreNetherZircon - 0
 gemsnjewels:oreZircon - 0
+manametalmod:oreZircon - 0
 
 
 oreberryAluminium
@@ -33697,6 +37663,13 @@ atum:tile.thinCrystalGlass - 0
 atum:tile.framedStainedGlass - any
 hgp:hgpColoredPane - any
 hgp:hgpPane - any
+manametalmod:Iridium_glass_pane - 0
+manametalmod:Lithium_glass_pane - 0
+manametalmod:GemGlassPane - 0
+manametalmod:RuneGlassPane - 0
+manametalmod:gold_glass_pane - 0
+manametalmod:Platinum_glass_pane - 0
+manametalmod:LunaStoneGlass_pane - 0
 TConstruct:GlassPaneClearStained - any
 
 
@@ -34116,6 +38089,7 @@ Natura:planks - 7
 Natura:planks - 8
 Natura:planks - 9
 Natura:planks - 10
+BiomesOPlenty:planks - any
 Forestry:planks - any
 Forestry:planksFireproof - any
 dendrology:acemus_planks - any
@@ -34136,6 +38110,7 @@ witchery:witchwood - any
 cherrypig:cherryplank - 0
 fossil:palaeoraphePlanks - 0
 fossil:ancientWood - 0
+GalaxySpace:barnardacblocks - 4
 Growthcraft|Bamboo:grc.bambooBlock - 0
 Highlands:hl_woodPlanks - any
 lightningcraft:tile.woodPlank - any
@@ -34175,6 +38150,8 @@ TragicMC:ashenPlanks - 0
 TragicMC:bleachedPlanks - 0
 TragicMC:hallowedPlanks - 0
 TragicMC:darkwoodPlanks - 0
+MoCreatures:MoCWoodPlank - 0
+MoCreatures:MoCWoodPlank - 1
 lotr:tile.planks - any
 lotr:tile.planks2 - any
 lotr:tile.planksRotten - any
@@ -34189,6 +38166,36 @@ Calculator:DiamondPlanks - 0
 chinacraft:MulberryWood - 0
 insane_IlluminatedBows:illuminatedPlanks - 0
 magnanimoustools:MagPlank - 0
+manametalmod:ManaPlanks - 0
+manametalmod:dragonTreePlanks - 0
+manametalmod:goldTreePlanks - 0
+manametalmod:ancientTreePlanks - 0
+manametalmod:wood_plank_pinetree - 0
+manametalmod:wood_plank_spruce - 0
+manametalmod:wood_plank_maple - 0
+manametalmod:wood_plank_cherry - 0
+manametalmod:wood_plank_hickory - 0
+manametalmod:wood_plank_whitecedar - 0
+manametalmod:wood_plank_sequoia - 0
+manametalmod:wood_plank_chestnut - 0
+manametalmod:wood_plank_lauraceae - 0
+manametalmod:wood_plank_appleoak - 0
+manametalmod:wood_plank_greenappleoak - 0
+manametalmod:wood_plank_orangetree - 0
+manametalmod:wood_plank_peachtree - 0
+manametalmod:wood_plank_peartree - 0
+manametalmod:wood_plank_persimmontree - 0
+manametalmod:wood_plank_palmtree - 0
+manametalmod:wood_plank_redtree - 0
+manametalmod:wood_plank_vanillasakura - 0
+manametalmod:wood_plank_NetherBlue - 0
+manametalmod:wood_plank_NetherRed - 0
+manametalmod:bamboo_plank_Bamboo - 0
+manametalmod:bamboo_plank_Bambusa - 0
+manametalmod:bamboo_plank_Latiflorus - 0
+manametalmod:bamboo_plank_SilverBamboo - 0
+manametalmod:wood_plank_glowtree - 0
+manametalmod:wood_plank_violet - 0
 netherlicious:Planks - any
 steamcraft2:BlockRedwoodPlanks - 0
 steamcraft2:BlockWillowPlanks - 0
@@ -34198,6 +38205,7 @@ totemic:redCedarPlank - 0
 ZoocraftDiscoveries:arcticpine_planks - 0
 etfuturum:wood_planks - 3
 etfuturum:wood_planks - 4
+manametalmod:wood_plank_magictree - 0
 
 
 plankWoodBlack
@@ -34617,6 +38625,7 @@ UltraTech:MetalPlate_UT - 0
 
 plateAluminum
 ImmersiveEngineering:metal - 32
+GalacticraftCore:item.basicItem - 8
 steamcraft2:ItemMetalSheet - 0
 UltraTech:MetalPlate_UT - 0
 
@@ -34644,10 +38653,13 @@ thorfusion:item.bluplate - 0
 
 
 plateBrass
+manametalmod:brassPlate - 0
 steamcraft2:ItemMetalSheet - 4
 
 
 plateBronze
+GalacticraftCore:item.basicItem - 10
+manametalmod:bronzePlate - 0
 steamcraft2:ItemMetalSheet - 5
 
 
@@ -34670,7 +38682,12 @@ plateCeruclase
 plateChromium
 
 
+plateCoal
+GalaxySpace:item.CompressedPlates - 3
+
+
 plateCobalt
+GalaxySpace:item.CompressedPlates - 0
 
 
 plateCobaltite
@@ -34682,6 +38699,7 @@ ImmersiveEngineering:metal - 36
 
 plateCopper
 ImmersiveEngineering:metal - 31
+GalacticraftCore:item.basicItem - 6
 steamcraft2:ItemMetalSheet - 1
 UltraTech:MetalPlate_UT - 1
 Railcraft:part.plate - 3
@@ -34981,6 +38999,10 @@ plateDenseWood
 plateDenseZinc
 
 
+plateDesh
+GalacticraftMars:item.null - 5
+
+
 plateDesichalkos
 
 
@@ -35081,6 +39103,9 @@ plateInvar
 
 plateIron
 ImmersiveEngineering:metal - 30
+GalacticraftCore:item.basicItem - 11
+FoodCraft:ItemTiepian - 0
+manametalmod:ironPlate - 0
 roadstuff:itemIronPart - 1
 steamcraft2:ItemVanillaMetalSheet - 0
 UltraTech:MetalPlate_UT - 5
@@ -35107,6 +39132,14 @@ UltraTech:MetalPlate_UT - 3
 plateLemurite
 
 
+plateMagnesium
+GalaxySpace:item.CompressedPlates - 1
+
+
+plateManaS
+manametalmod:ManaSPlate - 0
+
+
 plateManganese
 
 
@@ -35124,6 +39157,7 @@ plateNichrome
 
 plateNickel
 ImmersiveEngineering:metal - 35
+GalaxySpace:item.CompressedPlates - 2
 
 
 plateObalti
@@ -35213,12 +39247,14 @@ plateStainlessSteel
 
 plateSteamcraftBrass
 Steamcraft:steamcraftPlate - 4
+manametalmod:brassPlate - 0
 steamcraft2:ItemMetalSheet - 4
 
 
 plateSteamcraftCopper
 Steamcraft:steamcraftPlate - 0
 ImmersiveEngineering:metal - 31
+GalacticraftCore:item.basicItem - 6
 steamcraft2:ItemMetalSheet - 1
 UltraTech:MetalPlate_UT - 1
 Railcraft:part.plate - 3
@@ -35249,6 +39285,9 @@ UltraTech:MetalPlate_UT - 6
 plateSteamcraftIron
 Steamcraft:steamcraftPlate - 2
 ImmersiveEngineering:metal - 30
+GalacticraftCore:item.basicItem - 11
+FoodCraft:ItemTiepian - 0
+manametalmod:ironPlate - 0
 roadstuff:itemIronPart - 1
 steamcraft2:ItemVanillaMetalSheet - 0
 UltraTech:MetalPlate_UT - 5
@@ -35283,6 +39322,8 @@ steamcraft2:ItemMetalSheet - 3
 
 plateSteel
 ImmersiveEngineering:metal - 38
+GalacticraftCore:item.basicItem - 9
+manametalmod:steelPlate - 0
 steamcraft2:ItemMetalSheet - 6
 Railcraft:part.plate - 1
 
@@ -35303,11 +39344,13 @@ plateThaumium
 
 
 plateTin
+GalacticraftCore:item.basicItem - 7
 steamcraft2:ItemMetalSheet - 2
 UltraTech:MetalPlate_UT - 2
 
 
 plateTitanium
+GalacticraftMars:item.itemBasicAsteroids - 6
 
 
 plateTopaz
@@ -35343,6 +39386,10 @@ plateVyroxeres
 plateWood
 
 
+plateWroughtIron
+manametalmod:wroughtIronPlate - 0
+
+
 plateZinc
 steamcraft2:ItemMetalSheet - 3
 
@@ -35367,6 +39414,7 @@ minecraft:blaze_powder - 0
 
 powderMana
 Botania:manaResource - 23
+manametalmod:dustMana - 0
 
 
 powderPhosphorus
@@ -35450,6 +39498,21 @@ woodstuff:pressure_plate_tile.for.planks_25 - 0
 woodstuff:pressure_plate_tile.for.planks_26 - 0
 woodstuff:pressure_plate_tile.for.planks_27 - 0
 woodstuff:pressure_plate_tile.for.planks_28 - 0
+woodstuff:pressure_plate_tile.planks_0 - 0
+woodstuff:pressure_plate_tile.planks_1 - 0
+woodstuff:pressure_plate_tile.planks_2 - 0
+woodstuff:pressure_plate_tile.planks_3 - 0
+woodstuff:pressure_plate_tile.planks_4 - 0
+woodstuff:pressure_plate_tile.planks_5 - 0
+woodstuff:pressure_plate_tile.planks_6 - 0
+woodstuff:pressure_plate_tile.planks_7 - 0
+woodstuff:pressure_plate_tile.planks_8 - 0
+woodstuff:pressure_plate_tile.planks_9 - 0
+woodstuff:pressure_plate_tile.planks_10 - 0
+woodstuff:pressure_plate_tile.planks_11 - 0
+woodstuff:pressure_plate_tile.planks_12 - 0
+woodstuff:pressure_plate_tile.planks_13 - 0
+woodstuff:pressure_plate_tile.planks_14 - 0
 woodstuff:pressure_plate_tile.hl_woodPlanks_0 - 0
 woodstuff:pressure_plate_tile.hl_woodPlanks_1 - 0
 woodstuff:pressure_plate_tile.hl_woodPlanks_2 - 0
@@ -35631,6 +39694,10 @@ rawTin
 etfuturum:modded_raw_ore - 1
 
 
+rawTitanium
+etfuturum:modded_raw_ore - 10
+
+
 rawTungsten
 etfuturum:modded_raw_ore - 9
 
@@ -35660,6 +39727,7 @@ fossil:record_bones - 0
 fossil:record_bones_disc - 0
 fossil:record_scarab - 0
 fossil:record_discovery - 0
+MoCreatures:recordshuffle - 0
 ppapmod:record_ppapSong - 0
 ppapmod:record_ppapSongExtended - 0
 netherlicious:Pigstep - 0
@@ -35947,6 +40015,7 @@ minecraft:fish - 0
 
 salt
 lotr:item.salt - 0
+manametalmod:salt - 0
 
 
 saltOre
@@ -35962,6 +40031,7 @@ saltpeterOre
 sand
 minecraft:sand - any
 minecraft:sand - 0
+GalaxySpace:barnardacfalling - 0
 lotr:tile.whiteSand - any
 
 
@@ -35981,7 +40051,14 @@ saplingTree
 Growthcraft|Apples:grc.appleSapling - 0
 
 
+sapphire
+GalaxySpace:item.BasicItems - 6
+
+
 sapphireOre
+
+
+sawTool
 
 
 scrapDebris
@@ -36025,8 +40102,16 @@ Thaumcraft:ItemInkwell - any
 WitchingGadgets:item.WG_AdvancedScribingTools - any
 
 
+seedAgaricusBisporus
+manametalmod:AgaricusBisporus_seed - 0
+
+
 seedAllium
 AgriCraft:seedAllium - 0
+
+
+seedAloe
+manametalmod:Aloe_seed - 0
 
 
 seedApple
@@ -36056,6 +40141,7 @@ harvestcraft:bambooshootseedItem - 0
 seedBarley
 Natura:barley.seed - 0
 harvestcraft:barleyseedItem - 0
+manametalmod:Barley_seed - 0
 
 
 seedBean
@@ -36064,6 +40150,7 @@ harvestcraft:beanseedItem - 0
 
 seedBeet
 harvestcraft:beetseedItem - 0
+manametalmod:Beet_seed - 0
 
 
 seedBeetRoot
@@ -36084,6 +40171,10 @@ harvestcraft:bellpepperseedItem - 0
 
 seedBlackberry
 harvestcraft:blackberryseedItem - 0
+
+
+seedBlueMushroom
+manametalmod:BlueMushroom_seed - 0
 
 
 seedBlueberry
@@ -36210,6 +40301,11 @@ AgriCraft:seedCinderpearl - 0
 seedCoffee
 harvestcraft:coffeeseedItem - 0
 ActuallyAdditions:itemCoffeeSeed - 0
+FoodCraft:ItemKafei - 0
+
+
+seedCoffeebeans
+manametalmod:Coffeebeans_seed - 0
 
 
 seedCorn
@@ -36225,8 +40321,13 @@ seedCranberry
 harvestcraft:cranberryseedItem - 0
 
 
+seedCron
+manametalmod:Cron_seed - 0
+
+
 seedCucumber
 harvestcraft:cucumberseedItem - 0
+manametalmod:Cucumber_seed - 0
 
 
 seedCuprosia
@@ -36265,12 +40366,20 @@ seedFlax
 ActuallyAdditions:itemFlaxSeed - 0
 
 
+seedGanoderma
+manametalmod:Ganoderma_seed - 0
+
+
 seedGarlic
 harvestcraft:garlicseedItem - 0
 
 
 seedGinger
 harvestcraft:gingerseedItem - 0
+
+
+seedGinseng
+manametalmod:Ginseng_seed - 0
 
 
 seedGrape
@@ -36308,18 +40417,39 @@ harvestcraft:leekseedItem - 0
 
 seedLettuce
 harvestcraft:lettuceseedItem - 0
+manametalmod:Lettuce_seed - 0
+
+
+seedLily
+manametalmod:Lily_seed - 0
 
 
 seedMandrake
 witchery:seedsmandrake - 0
 
 
+seedMandrakes
+manametalmod:Mandrakes_seed - 0
+
+
 seedMelon
 minecraft:melon_seeds - 0
 
 
+seedMilkweed
+manametalmod:Milkweed_seed - 0
+
+
+seedMint
+manametalmod:Mint_seed - 0
+
+
 seedMustard
 harvestcraft:mustardseedItem - 0
+
+
+seedNettle
+manametalmod:Nettle_seed - 0
 
 
 seedNiccissus
@@ -36328,6 +40458,10 @@ AgriCraft:seedNiccissus - 0
 
 seedNitorWart
 AgriCraft:seedNitorWart - 0
+
+
+seedOat
+manametalmod:Oat_seed - 0
 
 
 seedOats
@@ -36340,6 +40474,7 @@ harvestcraft:okraseedItem - 0
 
 seedOnion
 harvestcraft:onionseedItem - 0
+manametalmod:Onion_seed - 0
 
 
 seedOrchid
@@ -36372,6 +40507,7 @@ AgriCraft:seedPetinia - 0
 
 seedPineapple
 harvestcraft:pineappleseedItem - 0
+manametalmod:Pineapple_seed - 0
 
 
 seedPlatiolus
@@ -36380,6 +40516,10 @@ AgriCraft:seedPlatiolus - 0
 
 seedPlombean
 AgriCraft:seedPlombean - 0
+
+
+seedPoisonMushroom
+manametalmod:PoisonMushroom_seed - 0
 
 
 seedPoppy
@@ -36406,6 +40546,10 @@ seedRaspberry
 harvestcraft:raspberryseedItem - 0
 
 
+seedRedMushroom
+manametalmod:RedMushroom_seed - 0
+
+
 seedRedstodendron
 AgriCraft:seedRedstodendron - 0
 
@@ -36418,6 +40562,7 @@ seedRice
 harvestcraft:riceseedItem - 0
 Growthcraft|Rice:grc.rice - 0
 ActuallyAdditions:itemRiceSeed - 0
+manametalmod:Rice_seed - 0
 
 
 seedRutabaga
@@ -36467,6 +40612,10 @@ seedSnowbell
 witchery:seedssnowbell - 0
 
 
+seedSoy
+manametalmod:Soy_seed - 0
+
+
 seedSoybean
 harvestcraft:soybeanseedItem - 0
 
@@ -36481,6 +40630,7 @@ harvestcraft:spinachseedItem - 0
 
 seedStrawberry
 harvestcraft:strawberryseedItem - 0
+manametalmod:Strawberry_seed - 0
 
 
 seedSugarcane
@@ -36499,12 +40649,21 @@ seedTea
 harvestcraft:teaseedItem - 0
 
 
+seedTealeaf
+manametalmod:Tealeaf_seed - 0
+
+
 seedThundergrass
 ashenwheat:thunderSeeds - 0
 
 
+seedTobacco
+manametalmod:Tobacco_seed - 0
+
+
 seedTomato
 harvestcraft:tomatoseedItem - 0
+manametalmod:Tomato_seed - 0
 
 
 seedTulipOrange
@@ -36524,7 +40683,17 @@ AgriCraft:seedTulipWhite - 0
 
 
 seedTurnip
+BiomesOPlenty:turnipSeeds - 0
 harvestcraft:turnipseedItem - 0
+manametalmod:Turnip_seed - 0
+
+
+seedVanilla
+manametalmod:Vanilla_seed - 0
+
+
+seedVelutipes
+manametalmod:Velutipes_seed - 0
 
 
 seedVishroom
@@ -36537,6 +40706,10 @@ witchery:seedsartichoke - 0
 
 seedWaterchestnut
 harvestcraft:waterchestnutseedItem - 0
+
+
+seedWhiteRadish
+manametalmod:WhiteRadish_seed - 0
 
 
 seedWhitemushroom
@@ -36557,6 +40730,10 @@ witchery:seedswolfsbane - 0
 
 seedWormwood
 witchery:seedswormwood - 0
+
+
+seedYellowMushroom
+manametalmod:YellowMushroom_seed - 0
 
 
 seedZucchini
@@ -37060,6 +41237,8 @@ Thaumcraft:blockCosmeticSlabWood - 0
 Thaumcraft:blockCosmeticSlabWood - 1
 Natura:plankSlab1 - any
 Natura:plankSlab2 - any
+BiomesOPlenty:woodenSingleSlab1 - any
+BiomesOPlenty:woodenSingleSlab2 - any
 Forestry:slabs - any
 Forestry:slabsFireproof - any
 cherrypig:cherrySingleSlab - 0
@@ -37082,9 +41261,28 @@ lotr:tile.woodSlabDouble5 - any
 dendrology:sslab0 - any
 dendrology:sslab1 - any
 insane_IlluminatedBows:illuminatedSlab - 0
+manametalmod:wood_salb_pinetree - 0
+manametalmod:wood_salb_spruce - 0
+manametalmod:wood_salb_hickory - 0
+manametalmod:wood_salb_whitecedar - 0
+manametalmod:wood_salb_sequoia - 0
+manametalmod:wood_salb_chestnut - 0
+manametalmod:wood_salb_lauraceae - 0
+manametalmod:wood_salb_appleoak - 0
+manametalmod:wood_salb_greenappleoak - 0
+manametalmod:wood_salb_orangetree - 0
+manametalmod:wood_salb_peachtree - 0
+manametalmod:wood_salb_peartree - 0
+manametalmod:wood_salb_persimmontree - 0
+manametalmod:wood_salb_palmtree - 0
+manametalmod:wood_salb_redtree - 0
+manametalmod:wood_salb_vanillasakura - 0
+manametalmod:wood_salb_glowtree - 0
+manametalmod:wood_salb_violet - 0
 etfuturum:wood_slab - 3
 etfuturum:wood_slab - 4
 witchery:witchwoodslab - any
+manametalmod:wood_salb_magictree - 0
 
 
 slabWoodAcacia
@@ -37126,6 +41324,7 @@ fossil:tardrop - 0
 ActuallyAdditions:itemMisc - 12
 Calculator:RottenPear - 0
 Metallurgy:tar - 0
+manametalmod:Propolis - 0
 
 
 slimeballPink
@@ -37483,6 +41682,20 @@ Natura:stair.tiger - 0
 Natura:stair.willow - 0
 Natura:stair.darkwood - 0
 Natura:stair.fusewood - 0
+BiomesOPlenty:redwoodStairs - 0
+BiomesOPlenty:willowStairs - 0
+BiomesOPlenty:sacredoakStairs - 0
+BiomesOPlenty:firStairs - 0
+BiomesOPlenty:cherryStairs - 0
+BiomesOPlenty:darkStairs - 0
+BiomesOPlenty:magicStairs - 0
+BiomesOPlenty:palmStairs - 0
+BiomesOPlenty:mangroveStairs - 0
+BiomesOPlenty:etherealStairs - 0
+BiomesOPlenty:pineStairs - 0
+BiomesOPlenty:hellBarkStairs - 0
+BiomesOPlenty:jacarandaStairs - 0
+BiomesOPlenty:mahoganyStairs - 0
 Forestry:stairs - any
 Forestry:stairsFireproof - any
 witchery:stairswoodalder - any
@@ -37561,6 +41774,18 @@ Thaumcraft:blockStairsGreatwood - 0
 stairsWood
 
 
+steelDoublePlate
+manametalmod:steelDoublePlate - 0
+
+
+steelGear
+manametalmod:steelGear - 0
+
+
+steelPlate
+manametalmod:steelPlate - 0
+
+
 steelRod
 TConstruct:toolRod - 16
 
@@ -37583,11 +41808,27 @@ stickAluminum
 ImmersiveEngineering:material - 16
 
 
+stickBamboo
+manametalmod:Bamboo_stick - 0
+manametalmod:Bambusa_stick - 0
+manametalmod:Latiflorus_stick - 0
+manametalmod:SilverBamboo_stick - 0
+
+
+stickBedrock
+manametalmod:stickBedrock - 0
+
+
 stickDarkSteel
+
+
+stickGold
+manametalmod:stickGold - 0
 
 
 stickIron
 ImmersiveEngineering:material - 14
+manametalmod:stickIron - 0
 roadstuff:itemIronPart - 0
 
 
@@ -37596,8 +41837,20 @@ RandomThings:ingredient - 1
 TConstruct:toolRod - 6
 
 
+stickQuartz
+manametalmod:stickQuartz - 0
+
+
 stickSteel
 ImmersiveEngineering:material - 15
+
+
+stickThulium
+manametalmod:stickThulium - 0
+
+
+stickUniverseEnergy
+manametalmod:stickUniverseEnergy - 0
 
 
 stickWood
@@ -37611,12 +41864,19 @@ Natura:natura.stick - 7
 Natura:natura.stick - 8
 Natura:natura.stick - 9
 Natura:natura.stick - 10
+BiomesOPlenty:bamboo - 0
+BiomesOPlenty:plants - 8
 Growthcraft|Bamboo:grc.bamboo - 0
 lotr:item.mallornStick - 0
 lotr:item.blackrootStick - 0
 aether_legacy:skyroot_stick - 0
 insane_IlluminatedBows:illuminatedStick - 0
 magnanimoustools:MagStick - 0
+manametalmod:ItemTreeStick - 0
+manametalmod:Bamboo_stick - 0
+manametalmod:Bambusa_stick - 0
+manametalmod:Latiflorus_stick - 0
+manametalmod:SilverBamboo_stick - 0
 
 
 stone
@@ -37640,6 +41900,7 @@ ExtraUtilities:color_stone - 15
 MineFactoryReloaded:stone - 0
 MineFactoryReloaded:stone - 1
 fossil:ancientStone - 0
+GalaxySpace:barnardacblocks - 1
 TragicMC:darkStone - 0
 TragicMC:darkStone - 1
 TragicMC:darkStone - 2
@@ -37650,6 +41911,8 @@ TragicMC:darkStone - 6
 TragicMC:darkStone - 7
 TragicMC:lightStone - 0
 TragicMC:erodedStone - 0
+MoCreatures:MoCStone - 0
+MoCreatures:MoCStone - 1
 steamcraft2:BlockSlate - 0
 steamcraft2:BlockSlate - 1
 steamcraft2:BlockSlate - 2
@@ -37996,6 +42259,11 @@ tofuDiamondOre
 tofuOre
 
 
+tool
+minecraft:stick - any
+minecraft:arrow - any
+
+
 toolBakeware
 harvestcraft:bakewareItem - 0
 
@@ -38141,6 +42409,14 @@ Natura:floraleaves - any
 Natura:floraleavesnocolor - any
 Natura:Rare Leaves - any
 Natura:Dark Leaves - any
+BiomesOPlenty:colorizedLeaves1 - any
+BiomesOPlenty:colorizedLeaves2 - any
+BiomesOPlenty:leaves1 - any
+BiomesOPlenty:leaves2 - any
+BiomesOPlenty:leaves3 - any
+BiomesOPlenty:leaves4 - any
+BiomesOPlenty:appleLeaves - any
+BiomesOPlenty:persimmonLeaves - any
 Forestry:leaves - any
 atum:tile.palmLeaves - 0
 witchery:witchleaves - any
@@ -38158,6 +42434,8 @@ obsgreenery:blockleavesa - 2
 obsgreenery:blockleavesa - 3
 obsgreenery:blockleavesb - 0
 obsgreenery:blockleavesc - 0
+MoCreatures:MoCLeaves - 0
+MoCreatures:MoCLeaves - 1
 minecraft:leaves - any
 minecraft:leaves2 - any
 lotr:tile.leaves - any
@@ -38178,6 +42456,33 @@ dendrology:leaves2 - any
 dendrology:leaves3 - any
 chinacraft:MulberryLeaf - 0
 magnanimoustools:MagLeaves - 0
+manametalmod:ManaTreeLeave - 0
+manametalmod:SkyLeave - 0
+manametalmod:dragonTreeLeave - 0
+manametalmod:goldTreeLeave - 0
+manametalmod:ancientTreeLeave - 0
+manametalmod:wood_leave_pinetree - 0
+manametalmod:wood_leave_spruce - 0
+manametalmod:wood_leave_maple - 0
+manametalmod:LeaveCherryMana - 0
+manametalmod:wood_leave_hickory - 0
+manametalmod:wood_leave_whitecedar - 0
+manametalmod:wood_leave_sequoia - 0
+manametalmod:wood_leave_chestnut - 0
+manametalmod:wood_leave_lauraceae - 0
+manametalmod:wood_leave_appleoak - 0
+manametalmod:wood_leave_greenappleoak - 0
+manametalmod:wood_leave_orangetree - 0
+manametalmod:wood_leave_peachtree - 0
+manametalmod:wood_leave_peartree - 0
+manametalmod:wood_leave_persimmontree - 0
+manametalmod:wood_leave_palmtree - 0
+manametalmod:wood_leave_redtree - 0
+manametalmod:wood_leave_vanillasakura - 0
+manametalmod:wood_leave_NetherBlue - 0
+manametalmod:wood_leave_NetherRed - 0
+manametalmod:wood_leave_glowtree - 0
+manametalmod:wood_leave_violet - 0
 steamcraft2:BlockRedwoodLeaves - 0
 steamcraft2:BlockWillowLeaves - 0
 steamcraft2:BlockMangroveLeaves - 0
@@ -38185,6 +42490,7 @@ steamcraft2:BlockDeadLeaves - 0
 totemic:totemLeaves - 0
 etfuturum:leaves - any
 Thaumcraft:blockMagicalLeaves - any
+manametalmod:wood_leave_magictree - 0
 
 
 treeLeavesPerverted
@@ -38209,6 +42515,8 @@ Natura:florasapling - 4
 Natura:florasapling - 5
 Natura:florasapling - 6
 Natura:florasapling - 7
+BiomesOPlenty:saplings - any
+BiomesOPlenty:colorizedSaplings - any
 Forestry:sapling - any
 Forestry:saplingGE - any
 atum:tile.palmSapling - 0
@@ -38255,7 +42563,35 @@ Calculator:AmethystSapling - 0
 Calculator:PearSapling - 0
 chinacraft:MulberrySapling - 0
 magnanimoustools:MagSapling - 0
+manametalmod:ManaTreeSapling - 0
+manametalmod:SkySapling - 0
+manametalmod:dragonTreeSapling - 0
+manametalmod:goldTreeSapling - 0
+manametalmod:ancientTreeSapling - 0
+manametalmod:wood_sapling_pinetree - 0
+manametalmod:wood_sapling_spruce - 0
+manametalmod:wood_sapling_maple - 0
+manametalmod:wood_sapling_cherry - 0
+manametalmod:wood_sapling_hickory - 0
+manametalmod:wood_sapling_whitecedar - 0
+manametalmod:wood_sapling_sequoia - 0
+manametalmod:wood_sapling_chestnut - 0
+manametalmod:wood_sapling_lauraceae - 0
+manametalmod:wood_sapling_appleoak - 0
+manametalmod:wood_sapling_greenappleoak - 0
+manametalmod:wood_sapling_orangetree - 0
+manametalmod:wood_sapling_peachtree - 0
+manametalmod:wood_sapling_peartree - 0
+manametalmod:wood_sapling_persimmontree - 0
+manametalmod:wood_sapling_palmtree - 0
+manametalmod:wood_sapling_redtree - 0
+manametalmod:wood_sapling_vanillasakura - 0
+manametalmod:wood_sapling_NetherBlue - 0
+manametalmod:wood_sapling_NetherRed - 0
+manametalmod:wood_sapling_glowtree - 0
+manametalmod:wood_sapling_violet - 0
 etfuturum:sapling - 1
+manametalmod:wood_sapling_magictree - 0
 
 
 treeSaplingPerverted
@@ -38272,6 +42608,10 @@ chisel:tyrian - 0
 
 universalCable
 Mekanism:PartTransmitter - 0
+
+
+uranium
+GalaxySpace:item.BasicItems - 16
 
 
 uraniumOre
@@ -38297,6 +42637,10 @@ GalacticraftCore:item.basicItem - 14
 
 waferBasic
 GalacticraftCore:item.basicItem - 13
+
+
+waferModern
+GalaxySpace:item.BasicItems - 7
 
 
 waferSolar
@@ -38360,6 +42704,14 @@ minecraft:wool - 0
 
 
 workbench
+
+
+wroughIronDoublePlate
+manametalmod:wroughIronDoublePlate - 0
+
+
+wroughtIronPlate
+manametalmod:wroughtIronPlate - 0
 
 
 yeastBayanus

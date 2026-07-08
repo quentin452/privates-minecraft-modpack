@@ -1,0 +1,8 @@
+{
+	"format_version": 1,
+	"id": "test_mob",
+	"model": "test_mob",
+	"stats": { "max_health": 20, "move_speed": 0.25 },
+	"size": { "width": 1.0, "height": 1.3 },
+	"behaviors": [ { "type": "wander", "speed": 1.0 } ]
+}

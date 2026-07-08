@@ -1,0 +1,25 @@
+{
+	"format_version": 1,
+	"id": "flyer_small",
+	"name": "Flyer Skeleton",
+	"model": "flyer_small",
+	"texture": "flyer_small",
+	"idle_animation": "animation.flyer_small.idle",
+	"walk_animation": "animation.flyer_small.walk",
+	"attack_animation": "animation.flyer_small.attack",
+	"stats": {
+		"max_health": 12,
+		"move_speed": 0.3
+	},
+	"size": {
+		"width": 0.7,
+		"height": 0.6,
+		"scale": 1
+	},
+	"behaviors": [
+		{
+			"type": "wander",
+			"speed": 1
+		}
+	]
+}

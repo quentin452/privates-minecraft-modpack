@@ -1,0 +1,10 @@
+{
+	"format_version": 1,
+	"id": "gigapig",
+	"model": "test_mob",
+	"texture": "gigapig",
+	"idle_animation": "animation.test_mob.idle",
+	"stats": { "max_health": 60, "move_speed": 0.35 },
+	"size": { "width": 1.9, "height": 2.4, "scale": 2.2 },
+	"behaviors": [ { "type": "wander", "speed": 0.8 } ]
+}

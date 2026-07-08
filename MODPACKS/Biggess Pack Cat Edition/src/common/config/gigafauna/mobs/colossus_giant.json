@@ -1,0 +1,25 @@
+{
+	"format_version": 1,
+	"id": "colossus_giant",
+	"name": "Colossus Skeleton",
+	"model": "colossus_giant",
+	"texture": "colossus_giant",
+	"idle_animation": "animation.colossus_giant.idle",
+	"walk_animation": "animation.colossus_giant.walk",
+	"attack_animation": "animation.colossus_giant.attack",
+	"stats": {
+		"max_health": 120,
+		"move_speed": 0.24
+	},
+	"size": {
+		"width": 1.6,
+		"height": 3.4,
+		"scale": 3
+	},
+	"behaviors": [
+		{
+			"type": "wander",
+			"speed": 1
+		}
+	]
+}

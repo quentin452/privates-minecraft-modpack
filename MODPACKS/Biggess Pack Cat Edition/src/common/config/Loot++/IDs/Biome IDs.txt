@@ -166,32 +166,340 @@
 	- Forge Biome Types: MESA SANDY 
 
 40
-	- Name: apeJungle
-	- Forge Biome Types: DENSE WET FOREST 
+	- Name: Space
+	- Forge Biome Types: COLD DRY SPOOKY DEAD FOREST MOUNTAIN SNOWY 
 
 41
-	- Name: Desert Oil Field
-	- Forge Biome Types: SANDY 
+	- Name: SpaceShallowWaters
+	- Forge Biome Types: COLD DRY SPOOKY DEAD SANDY SNOWY WASTELAND 
 
 42
-	- Name: Ocean Oil Field
+	- Name: SpaceOceans
+	- Forge Biome Types: COLD DENSE DRY JUNGLE SPOOKY DEAD LUSH OCEAN RIVER FOREST 
+
+43
+	- Name: Bayou
+	- Forge Biome Types: WET LUSH OCEAN RIVER SWAMP 
+
+44
+	- Name: SpaceLowPlains
+	- Forge Biome Types: COLD WET DRY SPOOKY DEAD FOREST SWAMP 
+
+45
+	- Name: SpaceMidPlains
+	- Forge Biome Types: COLD DENSE DRY CONIFEROUS SPOOKY DEAD LUSH FOREST 
+
+46
+	- Name: SpaceLowHills
+	- Forge Biome Types: HOT COLD DRY SAVANNA SPOOKY DEAD PLAINS 
+
+47
+	- Name: Canyon
+	- Forge Biome Types: HOT SPARSE DRY MOUNTAIN HILLS SANDY 
+
+48
+	- Name: Chaparral
+	- Forge Biome Types: SPARSE PLAINS 
+
+49
+	- Name: Cherry Blossom Grove
+	- Forge Biome Types: LUSH MAGICAL FOREST 
+
+50
+	- Name: Coniferous Forest
+	- Forge Biome Types: DENSE CONIFEROUS FOREST HILLS 
+
+51
+	- Name: Snowy Coniferous Forest
+	- Forge Biome Types: COLD DENSE CONIFEROUS FOREST HILLS SNOWY 
+
+52
+	- Name: Crag
+	- Forge Biome Types: DRY SPOOKY DEAD MOUNTAIN WASTELAND 
+
+53
+	- Name: Dead Forest
+	- Forge Biome Types: SPARSE SPOOKY DEAD FOREST 
+
+54
+	- Name: SpaceHighPlateaus
+	- Forge Biome Types: COLD SPARSE DRY SPOOKY DEAD SWAMP 
+
+55
+	- Name: SpaceMidHills
+	- Forge Biome Types: COLD DENSE DRY SPOOKY DEAD FOREST 
+
+56
+	- Name: SpaceRockyWaters
+	- Forge Biome Types: COLD DRY SPOOKY DEAD PLAINS 
+
+57
+	- Name: SpaceLowIslands
+	- Forge Biome Types: HOT COLD WET DRY SPOOKY DEAD PLAINS 
+
+58
+	- Name: SpacePartiallySubmerged
+	- Forge Biome Types: COLD WET DRY SPOOKY DEAD FOREST SWAMP 
+
+59
+	- Name: SpaceBeach
+	- Forge Biome Types: COLD DRY SPOOKY DEAD LUSH PLAINS 
+
+60
+	- Name: Frost Forest
+	- Forge Biome Types: COLD SPARSE FOREST SNOWY 
+
+61
+	- Name: Fungi Forest
+	- Forge Biome Types: WET LUSH MUSHROOM MAGICAL FOREST SWAMP 
+
+62
+	- Name: Garden
+	- Forge Biome Types: LUSH MAGICAL PLAINS 
+
+63
+	- Name: Grassland
+	- Forge Biome Types: SPARSE LUSH PLAINS HILLS SWAMP 
+
+64
+	- Name: Grove
+	- Forge Biome Types: DENSE LUSH FOREST PLAINS 
+
+65
+	- Name: Heathland
+	- Forge Biome Types: DRY SAVANNA PLAINS 
+
+66
+	- Name: Highland
+	- Forge Biome Types: SPARSE MOUNTAIN HILLS 
+
+67
+	- Name: Jade Cliffs
+	- Forge Biome Types: DENSE FOREST MOUNTAIN 
+
+68
+	- Name: -=|WorldEngine|=-
+	- Forge Biome Types: WET PLAINS 
+
+69
+	- Name: Lavender Fields
+	- Forge Biome Types: SPARSE LUSH PLAINS 
+
+70
+	- Name: Lush Desert
+	- Forge Biome Types: HOT DRY SAVANNA LUSH SANDY 
+
+71
+	- Name: Lush Swamp
+	- Forge Biome Types: WET LUSH OCEAN RIVER SWAMP 
+
+72
+	- Name: Maple Woods
+	- Forge Biome Types: COLD FOREST 
+
+73
+	- Name: Marsh
+	- Forge Biome Types: SPARSE WET LUSH OCEAN RIVER SWAMP 
+
+74
+	- Name: Meadow
+	- Forge Biome Types: LUSH FOREST PLAINS 
+
+75
+	- Name: Moor
+	- Forge Biome Types: SPARSE WET HILLS SWAMP 
+
+76
+	- Name: Mountain
+	- Forge Biome Types: DRY FOREST MOUNTAIN 
+
+77
+	- Name: Mystic Grove
+	- Forge Biome Types: WET LUSH MAGICAL FOREST 
+
+78
+	- Name: Ominous Woods
+	- Forge Biome Types: SPOOKY DEAD MAGICAL FOREST SWAMP 
+
+79
+	- Name: Orchard
+	- Forge Biome Types: SPARSE LUSH FOREST PLAINS 
+
+80
+	- Name: Origin Valley
+	- Forge Biome Types: PLAINS 
+
+81
+	- Name: Outback
+	- Forge Biome Types: HOT DRY SAVANNA PLAINS SANDY 
+
+82
+	- Name: Prairie
+	- Forge Biome Types: SPARSE DRY PLAINS 
+
+83
+	- Name: Rainforest
+	- Forge Biome Types: DENSE WET JUNGLE LUSH FOREST HILLS 
+
+84
+	- Name: Redwood Forest
+	- Forge Biome Types: DENSE CONIFEROUS FOREST 
+
+85
+	- Name: Sacred Springs
+	- Forge Biome Types: DENSE WET LUSH MAGICAL FOREST MOUNTAIN 
+
+86
+	- Name: Seasonal Forest
+	- Forge Biome Types: DENSE LUSH FOREST 
+
+87
+	- Name: Shield
+	- Forge Biome Types: WET CONIFEROUS OCEAN RIVER FOREST 
+
+88
+	- Name: Shrubland
+	- Forge Biome Types: SPARSE DRY PLAINS 
+
+89
+	- Name: Sludgepit
+	- Forge Biome Types: WET SPOOKY DEAD FOREST SWAMP WASTELAND 
+
+90
+	- Name: Steppe
+	- Forge Biome Types: HOT SPARSE DRY SAVANNA DEAD PLAINS SANDY 
+
+91
+	- Name: Temperate Rainforest
+	- Forge Biome Types: WET CONIFEROUS LUSH FOREST HILLS 
+
+92
+	- Name: Thicket
+	- Forge Biome Types: DENSE DRY DEAD FOREST PLAINS 
+
+93
+	- Name: Tropical Rainforest
+	- Forge Biome Types: HOT DENSE WET JUNGLE LUSH 
+
+94
+	- Name: Tundra
+	- Forge Biome Types: COLD SPARSE DRY DEAD WASTELAND 
+
+95
+	- Name: Wasteland
+	- Forge Biome Types: SPARSE SPOOKY DEAD WASTELAND 
+
+96
+	- Name: Wetland
+	- Forge Biome Types: DENSE WET LUSH FOREST SWAMP 
+
+97
+	- Name: Woodland
+	- Forge Biome Types: DENSE DRY FOREST 
+
+98
+	- Name: Xeric Shrubland
+	- Forge Biome Types: HOT PLAINS SANDY 
+
+99
+	- Name: Coral Reef
 	- Forge Biome Types: OCEAN RIVER 
 
 100
-	- Name: Phantasia
-	- Forge Biome Types: PLAINS 
+	- Name: Kelp Forest
+	- Forge Biome Types: OCEAN RIVER FOREST PLAINS 
+
+101
+	- Name: Tropics
+	- Forge Biome Types: WET JUNGLE LUSH OCEAN RIVER BEACH 
 
 102
-	- Name: moon
-	- Forge Biome Types: COLD DRY DEAD 
+	- Name: Volcano
+	- Forge Biome Types: HOT DRY MOUNTAIN WASTELAND 
 
 103
-	- Name: marsFlat
-	- Forge Biome Types: COLD DRY DEAD SANDY 
+	- Name: Mangrove
+	- Forge Biome Types: WET LUSH OCEAN RIVER FOREST 
 
 104
-	- Name: asteroids
-	- Forge Biome Types: COLD DRY SPOOKY DEAD 
+	- Name: Alps Forest
+	- Forge Biome Types: COLD FOREST MOUNTAIN SNOWY 
+
+105
+	- Name: Canyon Ravine
+	- Forge Biome Types: HOT DRY HILLS SANDY 
+
+106
+	- Name: Glacier
+	- Forge Biome Types: COLD DEAD HILLS SNOWY 
+
+107
+	- Name: Land of Lakes Marsh
+	- Forge Biome Types: WET SWAMP 
+
+108
+	- Name: Meadow Forest
+	- Forge Biome Types: LUSH FOREST PLAINS 
+
+109
+	- Name: Oasis
+	- Forge Biome Types: HOT DRY JUNGLE LUSH SANDY 
+
+110
+	- Name: Quagmire
+	- Forge Biome Types: WET SPOOKY DEAD SWAMP WASTELAND 
+
+111
+	- Name: Scrubland
+	- Forge Biome Types: HOT SPARSE DRY SAVANNA PLAINS 
+
+112
+	- Name: Seasonal Forest Clearing
+	- Forge Biome Types: PLAINS 
+
+113
+	- Name: Silkglades
+	- Forge Biome Types: SPOOKY DEAD FOREST SWAMP 
+
+114
+	- Name: Spruce Woods
+	- Forge Biome Types: DENSE CONIFEROUS LUSH FOREST 
+
+115
+	- Name: Corrupted Sands
+	- Forge Biome Types: SPOOKY NETHER SANDY 
+
+116
+	- Name: Phantasmagoric Inferno
+	- Forge Biome Types: SPOOKY NETHER 
+
+117
+	- Name: Boneyard
+	- Forge Biome Types: SPOOKY NETHER WASTELAND 
+
+118
+	- Name: Visceral Heap
+	- Forge Biome Types: SPOOKY NETHER 
+
+119
+	- Name: Undergarden
+	- Forge Biome Types: JUNGLE SPOOKY NETHER 
+
+120
+	- Name: Polar Chasm
+	- Forge Biome Types: HOT DRY SAVANNA PLAINS 
+
+121
+	- Name: Spectral Garden
+	- Forge Biome Types: HOT DRY SAVANNA PLAINS 
+
+122
+	- Name: Lush River
+	- Forge Biome Types: RIVER PLAINS 
+
+123
+	- Name: Dry River
+	- Forge Biome Types: HOT DRY PLAINS SANDY 
 
 129
 	- Name: Sunflower Plains
@@ -223,11 +531,11 @@
 
 149
 	- Name: Jungle M
-	- Forge Biome Types: HOT WET HILLS 
+	- Forge Biome Types: HOT WET JUNGLE HILLS 
 
 151
 	- Name: JungleEdge M
-	- Forge Biome Types: HOT HILLS 
+	- Forge Biome Types: HOT JUNGLE HILLS 
 
 155
 	- Name: Birch Forest M
@@ -276,6 +584,74 @@
 167
 	- Name: Mesa Plateau M
 	- Forge Biome Types: HOT DRY PLAINS SANDY 
+
+176
+	- Name: Warped Forest
+	- Forge Biome Types: DENSE FOREST 
+
+177
+	- Name: Crimson Forest
+	- Forge Biome Types: DENSE FOREST 
+
+178
+	- Name: Hell Forest
+	- Forge Biome Types: PLAINS 
+
+179
+	- Name: Glow Forest
+	- Forge Biome Types: PLAINS 
+
+180
+	- Name: Ash Plain
+	- Forge Biome Types: PLAINS 
+
+181
+	- Name: Glow Plain
+	- Forge Biome Types: DENSE FOREST 
+
+182
+	- Name: Meat Plain
+	- Forge Biome Types: DENSE FOREST 
+
+183
+	- Name: Soul Plain
+	- Forge Biome Types: DENSE FOREST 
+
+184
+	- Name: Maple Forest
+	- Forge Biome Types: FOREST 
+
+185
+	- Name: Ender Forest
+	- Forge Biome Types: HOT DRY SAVANNA FOREST 
+
+186
+	- Name: Deep Ocean
+	- Forge Biome Types: DRY FOREST 
+
+187
+	- Name: Ancient Jungle
+	- Forge Biome Types: DRY FOREST 
+
+188
+	- Name: Future
+	- Forge Biome Types: COLD PLAINS 
+
+189
+	- Name: Garden world
+	- Forge Biome Types: DRY PLAINS 
+
+196
+	- Name: Rainbow Forest
+	- Forge Biome Types: FOREST 
+
+197
+	- Name: Bamboo Forest
+	- Forge Biome Types: FOREST 
+
+198
+	- Name: Floodpalin
+	- Forge Biome Types: SWAMP 
 
 787
 	- Name: Quartz Maze
@@ -360,6 +736,10 @@
 1607
 	- Name: Aether
 	- Forge Biome Types: PLAINS 
+
+1821
+	- Name: Land of Darkness
+	- Forge Biome Types: DRY PLAINS 
 
 1879
 	- Name: OreSpawn Cave Maze
@@ -625,8 +1005,92 @@
 	- Name: Monochrome Desert
 	- Forge Biome Types: END 
 
+3420
+	- Name: Thulium Remains
+	- Forge Biome Types: COLD PLAINS 
+
+3430
+	- Name: Heaven
+	- Forge Biome Types: PLAINS 
+
+3440
+	- Name: Cave
+	- Forge Biome Types: COLD PLAINS 
+
+3450
+	- Name: Cherry Forest
+	- Forge Biome Types: PLAINS 
+
+3460
+	- Name: Dead Plain
+	- Forge Biome Types: SPOOKY DEAD 
+
+3470
+	- Name: Lavender Plain
+	- Forge Biome Types: PLAINS 
+
+3490
+	- Name: Sea of Flowers
+	- Forge Biome Types: LUSH PLAINS 
+
+3500
+	- Name: Dense Forest
+	- Forge Biome Types: FOREST 
+
+3510
+	- Name: Apple Forest
+	- Forge Biome Types: FOREST 
+
+3520
+	- Name: Pine Forest
+	- Forge Biome Types: FOREST 
+
+3540
+	- Name: Canyon
+	- Forge Biome Types: FOREST 
+
+3550
+	- Name: Rich Forest
+	- Forge Biome Types: FOREST 
+
+3560
+	- Name: Reed Marsh
+	- Forge Biome Types: SWAMP 
+
+3570
+	- Name: Barley Plains
+	- Forge Biome Types: SWAMP 
+
+3580
+	- Name: Fertile Forest
+	- Forge Biome Types: FOREST 
+
+3610
+	- Name: Badlands
+	- Forge Biome Types: WASTELAND 
+
+3620
+	- Name: Snowmountain
+	- Forge Biome Types: COLD MOUNTAIN SNOWY 
+
+3630
+	- Name: Oasis
+	- Forge Biome Types: SANDY 
+
+3640
+	- Name: Volcanic
+	- Forge Biome Types: MOUNTAIN WASTELAND 
+
+3650
+	- Name: Magic Forest
+	- Forge Biome Types: MAGICAL 
+
+3660
+	- Name: Cedar Forest
+	- Forge Biome Types: FOREST 
+
 4000
-	- Name: Storage Cell
+	- Name: Ancient
 	- Forge Biome Types: COLD PLAINS 
 
 4004
@@ -1009,10 +1473,6 @@
 	- Name: Painted Clearing
 	- Forge Biome Types: HOT WET SWAMP 
 
-12841
-	- Name: Land of Darkness
-	- Forge Biome Types: DRY PLAINS 
-
 15944
 	- Name: Lucky Maze
 	- Forge Biome Types: PLAINS 
@@ -1080,6 +1540,22 @@
 25463
 	- Name: Midight
 	- Forge Biome Types: DRY HILLS 
+
+28102
+	- Name: moon
+	- Forge Biome Types: COLD DRY DEAD 
+
+28103
+	- Name: marsFlat
+	- Forge Biome Types: COLD DRY DEAD SANDY 
+
+28104
+	- Name: asteroids
+	- Forge Biome Types: COLD DRY SPOOKY DEAD 
+
+43663
+	- Name: SpaceDeepOceans
+	- Forge Biome Types: COLD DRY SPOOKY DEAD 
 
 65471
 	- Name: Mushroom Forested Inner Earth

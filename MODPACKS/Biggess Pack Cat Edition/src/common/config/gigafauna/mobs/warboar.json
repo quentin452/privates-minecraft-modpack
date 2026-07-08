@@ -1,0 +1,14 @@
+{
+	"format_version": 1,
+	"id": "warboar",
+	"name": "War Boar",
+	"model": "test_mob",
+	"texture": "gigapig",
+	"idle_animation": "animation.test_mob.idle",
+	"stats": { "max_health": 40, "move_speed": 0.3 },
+	"size": { "width": 1.4, "height": 1.6, "scale": 1.6 },
+	"behaviors": [
+		{ "type": "melee", "moveSpeed": 1.2, "damage": 5, "callHelp": true },
+		{ "type": "wander", "speed": 0.8 }
+	]
+}
