@@ -1,0 +1,18 @@
+# Normalize line endings to LF in the repo so a CRLF<->LF flip never shows up in
+# diffs / the GitHub "line endings changed" warning again. Mod/game configs read LF
+# fine (CRLF here was just a Windows authoring artifact).
+* text=auto eol=lf
+
+# Windows scripts must stay CRLF.
+*.bat  text eol=crlf
+*.ps1  text eol=crlf
+*.cmd  text eol=crlf
+
+# Binaries: never touch bytes.
+*.png binary
+*.jar binary
+*.zip binary
+*.jfr binary
+*.ico binary
+*.ogg binary
+*.dat binary
