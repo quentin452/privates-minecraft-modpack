@@ -1,13 +1,6 @@
 {
-  "javaInstallationsCache": [
-    "/usr/lib/jvm/default-runtime/bin/java",
-    "/usr/lib/jvm/default/bin/java",
-    "/usr/lib/jvm/java-21-openjdk/bin/java",
-    "/usr/lib/jvm/java-25-openjdk/bin/java",
-    "/usr/lib/jvm/java-8-openjdk/bin/java",
-    "/usr/lib/jvm/liberica-jdk-25-full/bin/java"
-  ],
-  "javaInstallation": 3,
+  "javaInstallationsCache": [],
+  "javaInstallation": 0,
   "minMemoryMB": 512,
   "maxMemoryMB": 8192,
   "garbageCollector": "Custom",
