@@ -66,18 +66,24 @@ def clean_bullet(text):
 
 
 def build_block(version, body_lines):
-    """Convert derive-markdown lines into the published block for `version`."""
-    sections = []          # list of (published_name, [bullets])
+    """Convert derive-markdown lines into the published block for `version`.
+
+    A bullet is (main, [children]). An indented `- ` sub-bullet under a `* ` bullet is PRESERVED as a
+    child line, not flattened into the parent — so a mod with many changes reads as a nested list
+    instead of one giant comma-run (vécu 2026-07-09: OaT's ~20 commits crammed onto a single line).
+    A non-marker continuation line still folds into the current main (or its last child)."""
+    sections = []          # list of (published_name, [(main, [children])])
     current = None         # published name or None (inside an internal section)
-    pending_bullet = None
+    pending = None         # [main:str, children:list[str]] or None
 
     def flush_bullet():
-        nonlocal pending_bullet
-        if pending_bullet is not None and current is not None:
-            cleaned = clean_bullet(pending_bullet)
-            if cleaned:
-                sections[-1][1].append(cleaned)
-        pending_bullet = None
+        nonlocal pending
+        if pending is not None and current is not None:
+            main = clean_bullet(pending[0])
+            kids = [k for k in (clean_bullet(c) for c in pending[1]) if k]
+            if main:
+                sections[-1][1].append((main, kids))
+        pending = None
 
     for raw in body_lines:
         line = raw.rstrip()
@@ -96,13 +102,20 @@ def build_block(version, body_lines):
             else:
                 current = None  # internal section: skip its bullets
             continue
-        if line.lstrip().startswith("*"):
+        stripped = line.lstrip()
+        if stripped.startswith("*"):
             flush_bullet()
-            pending_bullet = line.lstrip()[1:].strip()
+            pending = [stripped[1:].strip(), []]
+        elif stripped.startswith("-") and pending is not None:
+            pending[1].append(stripped[1:].strip())   # sub-bullet child of the current main
         elif line.strip() == "":
             flush_bullet()
-        elif pending_bullet is not None:
-            pending_bullet += " " + line.strip()   # continuation of a multi-line bullet
+        elif pending is not None:
+            # continuation: fold into the last child if any, else the main
+            if pending[1]:
+                pending[1][-1] += " " + line.strip()
+            else:
+                pending[0] += " " + line.strip()
     flush_bullet()
 
     parts = [version, ""]
@@ -113,7 +126,9 @@ def build_block(version, body_lines):
         emitted = True
         parts.append(f"**{name}**")
         parts.append("")
-        parts.extend(f"* {b}" for b in bullets)
+        for main, kids in bullets:
+            parts.append(f"* {main}")
+            parts.extend(f"  - {k}" for k in kids)
         parts.append("")
     if not emitted:
         sys.exit("Derive output contained no publishable section/bullet — nothing to publish.")
