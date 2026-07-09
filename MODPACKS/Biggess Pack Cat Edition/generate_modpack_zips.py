@@ -41,6 +41,12 @@ DIST_DIR = os.path.join(SCRIPT_DIR, "dist")
 MANIFEST_PATH = os.path.join(CLIENT_DIR, "manifest.json")
 MODPACK_PATH = os.path.join(MODDIRECTOR_DIR, "modpack.json")
 
+# The lwjgl3ify server launcher jar is GLOBBED, not hardcoded — a lwjgl3ify bump (2.1.15 -> 3.0.26)
+# renames it, and hardcoding the version broke build_server_zip with FileNotFound (2026-07-09).
+import glob as _glob  # noqa: E402
+_fp_hits = sorted(_glob.glob(os.path.join(SERVER_DIR, "lwjgl3ify-*-forgePatches.jar")))
+FORGE_PATCHES_JAR = os.path.basename(_fp_hits[-1]) if _fp_hits else "lwjgl3ify-forgePatches.jar"
+
 # Loose (non-overrides) files, resolved from the dir that owns them.
 SERVER_ROOT_FILES = [
     ("AdvancedBackups.properties", SERVER_DIR), ("betterfps.txt", SERVER_DIR),
@@ -49,7 +55,7 @@ SERVER_ROOT_FILES = [
     ("3startserver.bat", SERVER_DIR), ("1downloadlibs.sh", SERVER_DIR),
     ("2downloadjars.sh", SERVER_DIR), ("3startserver.sh", SERVER_DIR),
     ("!readme.txt", SERVER_DIR), ("java9args.txt", SERVER_DIR),
-    ("lwjgl3ify-2.1.15-forgePatches.jar", SERVER_DIR),
+    (FORGE_PATCHES_JAR, SERVER_DIR),
 ]
 CLIENT_ROOT_FILES = [
     ("AdvancedBackups.properties", COMMON_DIR), ("betterfps.txt", COMMON_DIR),
@@ -168,7 +174,7 @@ def main():
     ok &= verify(client, {"manifest.json", "modlist.html", "AdvancedBackups.properties",
                           "betterfps.txt", "optionsGraphics.cfg", "overrides/"})
     ok &= verify(server, {"mods/", "config/", "scripts/", "server.properties",
-                          "3startserver.sh", "lwjgl3ify-2.1.15-forgePatches.jar"})
+                          "3startserver.sh", FORGE_PATCHES_JAR})
     print(f"\n  manifest.json + modpack.json bumped to {version}.")
     if not ok:
         sys.exit("\n❌ Structural check failed — see MISSING above; do NOT upload.")
